@@ -30,27 +30,33 @@
 
 \begin{document}
   \maketitle
-  \section{Ethnicity in Language Variation}
-    Ethnicity has been shown to be a significant factor in language variation many times over, whether it be in 1960s New York City \parencite{labov_social_2006}, 1980s Sydney, Australia \parencite{horvath_delimiting_1987}, 1980s Tyneside, England \parencite{li_two-step_2000}, early 2000s North Carolina \parencite{schilling-estes_constructing_2004}, or the US in the 2000s in general \parencite{benor_ethnolinguistic_2010}.
-    This has been the case for several different linguistic levels, as well, from lexical variation \parencite{benor_ethnolinguistic_2010} to phonetic variation \parencite{labov_social_2006} to morphosyntactic variation \parencite{schilling-estes_constructing_2004}.
-    Quite a bit is therefore known about how ethnicity interacts with langauge variation in general, but what has not been examined is whether ethnicity is a significant factor for language variation in both languages of a single set of bilingual speakers.
-    In other words, it is not known whether bilinguals feel the impact of and/or express their ethnicity differently in different languages.
+  Southeast Louisiana presents an interesting sociolinguistic environment for two reasons: The local ethnic categories -- Cajun, Houma Indian, and Creole -- have over time had American racial categories -- Black and White -- superimposed over them, and French is spoken as a heritage language in the area where it was the dominant language as recently as the mid 20th century.
+  Much of the sociolinguistic work that has been done in the area has looked at pronoun variation in French and framed as a discussion of language death \parencite{dajko_ethnic_2009, rottet_language_1995}.
+  This work has included ethnicity as a factor in pronoun variation among other social factors.
+  However, because these previous studies have mostly gathered participants from the more rural parts of southeast Louisiana where those who would be judged to be Black by general American standards are few and far between, the intersection of race with local ethnic categories has not been examined.
+  Furthermore, as French in Louisiana continued to decline, it is not clear whether those who continue to speak the language have had to broaden their personal social networks to be more ethnically diverse in order to find French interlocutors as this may additionally impact their pronoun choices.
+  The present study aims to once again analyze pronoun variation in southeast Louisiana but not only to capture another time point as French continues to decline but to also give greater attention to the role of race in ethnicity and to explore what happens to the ethnic make-up of personal networks among speakers of a heritage language.
+  Ultimately, through such quantitative analyses as well as an examination of speakers' discourse on ethnicity, race, and French, it is hoped that some generalizations can be drawn from a complicated sociolinguistic environment that might shed light on what is known about the role of ethnicity in language variation and heritage languages.
+
+  \section{Ethnicity in southeast Louisiana}
+    % Ethnicity has been shown to be a significant factor in language variation many times over, whether it be in 1960s New York City \parencite{labov_social_2006}, 1980s Sydney, Australia \parencite{horvath_delimiting_1987}, 1980s Tyneside, England \parencite{li_two-step_2000}, early 2000s North Carolina \parencite{schilling-estes_constructing_2004}, or the US in the 2000s in general \parencite{benor_ethnolinguistic_2010}.
+    % This has been the case for several different linguistic levels, as well, from lexical variation \parencite{benor_ethnolinguistic_2010} to phonetic variation \parencite{labov_social_2006} to morphosyntactic variation \parencite{schilling-estes_constructing_2004}.
+    % Quite a bit is therefore known about how ethnicity interacts with langauge variation in general, but what has not been examined is whether ethnicity is a significant factor for language variation in both languages of a single set of bilingual speakers.
+    % In other words, it is not known whether bilinguals feel the impact of and/or express their ethnicity differently in different languages.
     % Ethnicity in language variation
       % Ethnicity has proven significant many times over on many different levels
       % What has not been examined is whether the ethnicities of a single set of bilingual speakers are associated with different realizations of linguistic featuers in both of their languages
         % This would shed light on whether or not speakers feel a differential need to express their ethnicities in different languages
-
-  \section{Ethnicity in Bilinguals}
-    Indeed, it is already known that a bilingual speakers' two languages can influence each other, and still more is being learned about this dynamic today.
-    For instance, ethnic identities may be expressed in one language spoken by a bilingual via recourse to features from their other language \parencite{gafter_two_2020}, though this is not always the case as there is also evidence that neither the ethnic vitality of a heritage language community nor the ethnic orientation of members of that community have an impact on the resistance to dominant language features finding their way into heritage languages spoken in Canada \parencite{nagy_linguistic_2018}.
-    Work has also been recently carried out showing that allophony of one phoneme between the two languages of a bilingual community can be realized differently, though accurately, among bilinguals in comparison to monolinguals \parencite{kirkham_acquiring_2021}.
-    What these studies repeatedly analyze is the influence of one language on another with some connection to ethnicity but not whether bilinguals express their ethnicity in both of their languages through their realizations of lingusitic variables that are particular to one of those languages or the other.
-
-  \section{Ethnicity in Southeast Louisiana}
-    Southeast Louisiana provides a community that could help fill in this gap in knowledge both because there is a bilingual population that resides there and because ethnic identity is a salient (and complicated) concept for that community \parencite{dajko_sociolinguistics_2012}.
-    Throughout southern Louisiana, the two major local ethnic categories are Cajun and Creole.
-    Cajuns have historically been understood to be descendants of Acadians from the Maritime Provinces and/or the French-speaking people of Louisiana \parencite{brown_pronominal_1988, smith_influence_1939}, whereas Creoles have historically been understood to be French and Spanish colonists and/or transplants from Haiti after the slave revolts \parencite{fortier_french_1884, rottet_language_1995}.
-    However, since the Louisiana Purchase, American racial categories have increasingly come to be superimposed over these categories so that today Cajun is mostly understood to refer to white Louisianians and Creole to black Louisianians \parencite{dajko_sociolinguistics_2012}.
+    Ethnicity in south Louisiana generally, including southeast Louisiana, has always been rather complex, perhaps owing to the state's tumultuous history in terms of territorial control.
+    Initially colonized by France then Spain then France again for a very short period before the United States took control \parencite{fortier_french_1884, johnson_louisiana_1976, klingler_if_2003}, Louisiana has been in the hands of many differing groups.
+    Additionally, Louisiana has also been the landing point for influxes of refugees such as Saint-Domingue\footnote{
+      Present day Haiti.
+    } \parencite[Debien and Le Gardeur, 1981, as cited in][]{klingler_if_2003}, Acadia\footnote{
+      Roughly the provinces of Nova Scotia and New Brunswick in Canada.
+    } \parencite{fortier_french_1884, klingler_if_2003, neumann_creole_1985}, and even the Canary Islands \parencite{klingler_if_2003}.
+    The result has been two general south Louisiana ethnic categories, Cajun and Creole, and one ethnic category that is particular to southeast Louisiana, Houma Indian, all of which have been impacted by the introduction of the Black-White racial binary of the United States.
+    In the case of Cajun, this ethnicity has historically been understood to include descendants of Acadians from the Maritime Provinces of Canada and/or the French-speaking people of Louisiana \parencite{brown_pronominal_1988, smith_influence_1939}, but today members of this group are understood to simply be any White South Louisianians \parencite{dajko_sociolinguistics_2012}.
+    Creole, on the other hand, has historically been understood to include French and Spanish colonists and/or transplants from Haiti after the slave revolts \parencite{fortier_french_1884, rottet_language_1995}, whereas today this label is generally applied to any Black South Louisianian \parencite{dajko_sociolinguistics_2012}.
     % Ethnicity in SE Louisiana
       % Two major categories particular to Louisiana exist throughout the southern portion of the state: Cajun and Creole
         % American racial categories have gradually been superimposed on these
@@ -58,7 +64,19 @@
         % This has sometimes been found to be a flexible category that includes anyone of mixed ethnicity at all
       % All of these ethnic categories have been found to be significant for language variation in both French and English
 
-  \section{Variation in Louisiana French}
+    Finally, the influence of the Black-White binary on what it means to be a Houma Indian is less about defining Indians as either Black or White and more about defining them as not neatly into either racial category.
+    Indeed, \textcite{rottet_language_1995} described Indians as being ``of mixed decent, having absorbed some whites, Cajuns and blacks'' (p.~61).
+    This has resulted in the group being particularly isolated even by the standards of rural Louisiana.
+    For instance, Indians were not allowed to attend White schools in the early 20th century nor did they wish to attend Black schools when possible, which often led to them simply not obtaining educations at all \parencite{brasseaux_french_2005}.
+    Hence, while Indians have not come to be defined as White nor Black, they have had to find their place in a society that had become racialized since the Louisiana Purchase.
+
+  % \section{Ethnicity in Bilinguals}
+  %   Indeed, it is already known that a bilingual speakers' two languages can influence each other, and still more is being learned about this dynamic today.
+  %   For instance, ethnic identities may be expressed in one language spoken by a bilingual via recourse to features from their other language \parencite{gafter_two_2020}, though this is not always the case as there is also evidence that neither the ethnic vitality of a heritage language community nor the ethnic orientation of members of that community have an impact on the resistance to dominant language features finding their way into heritage languages spoken in Canada \parencite{nagy_linguistic_2018}.
+  %   Work has also been recently carried out showing that allophony of one phoneme between the two languages of a bilingual community can be realized differently, though accurately, among bilinguals in comparison to monolinguals \parencite{kirkham_acquiring_2021}.
+  %   What these studies repeatedly analyze is the influence of one language on another with some connection to ethnicity but not whether bilinguals express their ethnicity in both of their languages through their realizations of lingusitic variables that are particular to one of those languages or the other.
+
+  \section{Variation in French Subject Pronouns}
     Additionally, ethnicity has been found to be a significant factor for variation in Louisiana in both French and English.
     In French, the subject pronoun system is correlated with speakers' ethnic self-identifications \parencite{rottet_language_1995, dajko_ethnic_2009}.
     This is particularly true for 3rd person plural pronouns but also in part for other subject pronouns.
@@ -87,11 +105,11 @@
     An analysis of whether this phonological variable is itself predicted by ethnicity would refine previous results that showed that the 1st person singular subject pronoun itself varies according to ethnicity.
     The current proposal, then, is to analyze variation in the subject pronoun system as well as in the realization of (h) as [ʒ], [ʃ], or [h].
 
-  \section{Variation in Louisiana English}
-    In the English spoken in South Louisiana, phonological variation has also been found to correlate with ethnicity.
-    Specifically, some speakers are rhotic while others are non-rhotic \parencite{strand_words_2010}.\footnote{
-      Rhoticity has also been examined in New Orleans, which is not far from the Southeast Louisiana area of interest for this study, though it is unlikely that these two features are related as rhoticity is linked to the Yat ethnic group in New Orleans \parencite{carmichael_displacement_2017, casey_ya_2016}, which is not a category known to be used in the other parts of Southeast Louisiana.
-    } Though not as well studied as the French linguistic variables in Louisiana, the findings that do exist for (r) combined with its frequency in speech make it a good candidate to contrast whether ethnicity is expressed in SE Louisianan bilinguals' English just as well as their French.
+  % \section{Variation in Louisiana English}
+  %   In the English spoken in South Louisiana, phonological variation has also been found to correlate with ethnicity.
+  %   Specifically, some speakers are rhotic while others are non-rhotic \parencite{strand_words_2010}.\footnote{
+  %     Rhoticity has also been examined in New Orleans, which is not far from the Southeast Louisiana area of interest for this study, though it is unlikely that these two features are related as rhoticity is linked to the Yat ethnic group in New Orleans \parencite{carmichael_displacement_2017, casey_ya_2016}, which is not a category known to be used in the other parts of Southeast Louisiana.
+  %   } Though not as well studied as the French linguistic variables in Louisiana, the findings that do exist for (r) combined with its frequency in speech make it a good candidate to contrast whether ethnicity is expressed in SE Louisianan bilinguals' English just as well as their French.
     % (r) in Louisiana English
       % Syllable final /r/ is sometimes realized and sometimes not in Louisiana English
       % Strand et al. found this to be predictable based on ethnicity
