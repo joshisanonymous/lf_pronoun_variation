@@ -31,27 +31,28 @@
 \begin{document}
   \maketitle
   Southeast Louisiana presents an interesting sociolinguistic environment for two reasons: The local ethnic categories -- Cajun, Houma Indian, and Creole -- have over time had American racial categories -- Black and White -- superimposed over them, and French is spoken as a heritage language in the area where it was the dominant language as recently as the mid 20th century.
-  Much of the sociolinguistic work that has been done in the area has looked at pronoun variation in French and framed as a discussion of language death \parencite{dajko_ethnic_2009, rottet_language_1995}.
-  This work has included ethnicity as a factor in pronoun variation, among other social factors, though the intersection of race with local ethnic categories has not been examined.
-  Furthermore, as French in Louisiana has continued to decline, it is not clear whether those who continue to speak the language have had to broaden their personal social networks to be more ethnically diverse in order to find French interlocutors as this may additionally impact their pronoun use.
-  The present study aims to once again analyze pronoun variation in southeast Louisiana but not only to capture another time point as French continues to decline but to also give greater attention to the role of race in ethnicity and to explore what happens to the ethnic make-up of personal networks among speakers of a heritage language with the goal of shedding light on what is known about the role of ethnicity in language variation and heritage languages.
+  As such, much of the variationist work on French in the area has been framed as a discussion of language death \parencite{dajko_ethnic_2009, rottet_language_1995}.
+  This work has included ethnicity as a factor, though the intersection of race with ethnicity has not been examined.
+  Furthermore, as French in Louisiana has continued to decline, it is not clear whether those who continue to speak the language have had to broaden their personal social networks to be more ethnically diverse in order to find French interlocutors as this may additionally impact their speech patterns.
+  The present study aims to replicate previous studies that looked at French subject pronouns, giving greater attention to the role of race in ethnicity and exploring what happens to the ethnic make-up of personal networks among speakers of a heritage language with the goal of shedding light on what is known about the role of ethnicity in language variation and heritage languages.
 
   % \section{Ethnicity in southeast Louisiana}
-    Ethnicity in south Louisiana generally has always been rather complex, perhaps owing to the state's tumultuous history in terms of territorial control as it was initially colonized by France then Spain then France again before the United States took control \parencite{fortier_french_1884, johnson_louisiana_1976, klingler_if_2003}.
-    Additionally, Louisiana has also been the landing point for influxes of refugees from Saint-Domingue\footnote{
+    The complexity of ethnicity in south Louisiana is perhaps due to the variety of colonizing forces that have controlled it as well as immigration patterns.
+    It was initially colonized by France then Spain then France again before the United States took control \parencite{fortier_french_1884, johnson_louisiana_1976, klingler_if_2003}.
+    Additionally, Louisiana has been the landing point for influxes of refugees from Saint-Domingue\footnote{
       Present day Haiti.
     } \parencite[Debien and Le Gardeur, 1981, as cited in][]{klingler_if_2003}, Acadia\footnote{
       Roughly the provinces of Nova Scotia and New Brunswick in Canada.
     } \parencite{fortier_french_1884, klingler_if_2003, neumann_creole_1985}, and even the Canary Islands \parencite{klingler_if_2003}.
-    The result has been two general south Louisiana ethnic categories, Cajun and Creole, and one ethnic category that is particular to southeast Louisiana, Houma Indian, all of which have been impacted by the introduction of the Black-White racial binary of the United States.
-    In the case of Cajun, this ethnicity has historically been understood to include descendants of Acadians from the Maritime Provinces of Canada and/or the French-speaking people of Louisiana \parencite{brown_pronominal_1988, smith_influence_1939}, but today members of this group are understood to simply be any White South Louisianians \parencite{dajko_sociolinguistics_2012}.
-    Creole, on the other hand, has historically been understood to include French and Spanish colonists and/or transplants from Haiti after the slave revolts \parencite{fortier_french_1884, rottet_language_1995}, whereas today this label is generally applied to any Black South Louisianian \parencite{dajko_sociolinguistics_2012}.
-    Finally, for Indians, they have come to be understood in a sort of negative space in that they do not fit neatly into the Black-White binary and so have been particularly isolated even by the standards of rural Louisiana \parencite{brasseaux_french_2005}.
+    The result has been the formation of two general south Louisiana ethnic categories, Cajun and Creole, and one ethnic category that is particular to southeast Louisiana, Houma Indian, all of which have come to be redefined by the introduction of the Black-White racial binary of the United States.
+    Cajuns, historically understood to be descendants of Acadians from Canada and/or the French-speaking people of Louisiana \parencite{brown_pronominal_1988, smith_influence_1939} are today understood to simply be White South Louisianians \parencite{dajko_sociolinguistics_2012}.
+    Creoles, historically understood to be descendants of French and Spanish colonists and transplants from Haiti after the slave revolts \parencite{fortier_french_1884, rottet_language_1995} are today understood to simply be Black South Louisianians \parencite{dajko_sociolinguistics_2012}.
+    Finally, Indians have come to be understood in contrast to the Black-White binary into which they do not fit neatly, resulting in them being particularly isolated even by the standards of rural Louisiana \parencite{brasseaux_french_2005}.
 
   % \section{Variation in Louisiana French subject pronouns}
-    Two of these ethnic categories, Cajun and Indian, have been included in quantitative analyses of pronoun variation in Louisiana French in previous studies where they were found to be predictive \parencite{rottet_language_1995, dajko_ethnic_2009}.
-    This system is particularly rich compared to what is found in Hexagonal French and is summarized in Table \ref{tab:lf_sub_pro}.
-    While all of these linguistic variables are lexical in that completely different forms may be used, the 1st person singular pronoun also involves phonetic variation in that three different consonants may be used as well as metathesis.
+    The categories of Cajun and Indian have previously been found to be predictive for French subject pronoun realizations \parencite{rottet_language_1995, dajko_ethnic_2009}.
+    The subject pronoun system of southeast Louisiana is summarized in Table \ref{tab:lf_sub_pro}.
+    While all of these linguistic variables are lexical, the 1st person singular pronoun also involves phonetic variation in that three different consonants and metathesis may be used.
     There is additionally a phonological process which causes devoicing of the consonant in certain linguistic contexts \parencite{carmichael_language_2019}.
     \begin{table}
       \centering
@@ -69,13 +70,16 @@
     \end{table}
 
   % \section{The present study}
-    The first goal of the present study is to replicate previous quantitative analyses of the subject pronoun system along ethnic lines with the addition of including speakers who identify as Creole.
-    This will not only provide another time point for the system as it continues to decline but also implicate general American racial categories and how they interact with Louisiana ethnicities.
+    The first goal of the present study is to replicate previous variationist analyses of the subject pronoun system along ethnic lines with the addition of including speakers who identify as Creole.
+    This will not only provide another time point for the system as the language continues to decline but also implicate general American racial categories and how they interact with local Louisiana ethnic categories.
 
-    The second goal of this study is to expand the quantitative analysis to explore the ethnic make-up of speakers' personal networks.
-    This factor has been found to be important in language variation in previous studies \parencite{li_two-step_2000, sharma_scalar_2017}, though it is not known how it interacts with heritage languages as they decline, nor has the ethnic make-up of personal networks in Louisiana been documented at all to date.
+    The second goal of this study is to expand this quantitative analysis to explore the ethnic make-up of speakers' personal networks.
+    This factor has been found to be important in language variation in previous studies \parencite{li_two-step_2000, sharma_scalar_2017}, though it is not known how it interacts with heritage languages as they decline, nor has the ethnic make-up of personal networks in Louisiana been documented to date at all.
+    It is possible that personal networks become more diverse as speakers search for interlocutors in a shrinking population of speakers.
 
-    The third and final goal of this study is to explore speakers' discourse on ethnicity, race, and French to better understand their stances in relation to the results from the quantitative analyses.
-    In particular, despite being a declining language, little is known about current attitudes towards French in Louisiana as the most recent study on the subject was not so recent \parencite{dubois_quality_1995}.
+    The third and final goal of this study is to explore speakers' discourse on ethnicity, race, and French so as to better understand their stances in relation to the results from the quantitative analyses.
+    In particular, despite being a declining language, little is known about current attitudes towards French in Louisiana as the most recent study on the subject was was conducted 26 years ago. \parencite{dubois_quality_1995}.
+
+    Ultimately, this study will expand researchers' understanding of how ethnicity interacts with language variation as well as heritage languages as they die off through an analysis of proniminal variation in the French spoken in southeast Louisiana.
   \printbibliography
 \end{document}
