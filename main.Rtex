@@ -32,7 +32,7 @@
 \begin{document}
   \maketitle
   The idea of Louisiana in the public imagination is really that of South Louisiana and the New Orleans metropolitan area, specifically, as shown in Table \ref{fig:south_la}.
-  Indeed, the boundary between North and South Louisiana is traditionally a division in culinary practices, religion, and language \parencite[p.~309]{trepanier_french_1988}, which has led to a situation where even South Louisiana locals will sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to North Louisiana's general indistinguishability from the rest of the mostly Anglo, Protestant American South.
+  Indeed, the boundary between North and South Louisiana is traditionally a division in culinary practices, religion, and language \parencite[p.~309]{trepanier_french_1988}, which has led to a situation where even South Louisiana locals will sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to North Louisiana's general indistinguishability from the rest of the mostly Anglo, Protestant American South. % Gold (1979) also describes North Louisiana as "anglophone" (265), and Johnson (1976) describes Northerners as historically being "rabid anti-Catholic Protestants" (27).
   For sociolinguists, South Louisiana is interesting for two reasons: The two major local ethnic categories -- Creole and Cajun -- have over time been redefined to align with the Black and White American racial binary, respectively, and French is spoken there as a heritage language where it was the dominant language as recently as the mid 20th century.
 
   \begin{figure}[tbhp]
@@ -59,12 +59,73 @@
     \subsection{Cajuns}
     Cajuns, historically understood to be descendants of Acadians from Canada and/or the French-speaking people of Louisiana \parencite{brown_pronominal_1988, smith_influence_1939} are today understood to simply be White South Louisianians \parencite{dajko_sociolinguistics_2012}.
 
+    % Opening
+      % Gilmore (1933) described Cajuns as the nations "largest unassimilated minority" (as cited in Rottet 1995:99).
+        % Indeed, Smith & Philips (1939) claimed at the time that Cajuns were generally immobile (198), which would explain this lack of assimilation int he past as they'd have few chances to encounter outsiders.
+      % This minority has historically been stigmatized as "synonymous with poor white trash" (Rottet 1995:110).
+        % This has shifted since the 1960s with the establishment of CODOFIL and American and French interests in the region (R. A. Brown 1988:31-33).
+        % In general, Cajuns have become Americanized over the last century due to the effects, chronologically, of compulsory education, mass communication, World War II, and finally the oil boom (Conrad 1978, as cited in R. A. Brown 1988:28).
+
+    % Basis of ethnic membership
+      % Del Sesto & Gibson (1975) say rural Catholics who speaks or associates with speakers of Louisiana French (as cited in Neumann 1985:15).
+        % Indeed, Smith & Philips (1939) based their definition of Cajuns entirely the ability to speak French (198).
+
+    % Ancestry
+      % Ancestry has long been used to define Cajun membership, specifically ancestry that can be traced back to Acadia (Johnson 1976:19).
+        % Indeed, the term Cajun itself came from the term Acadian (Smith & Philips 1939:198)
+      % Giancarlo (2019) argues that surnames in St Landry and Lafayette do not suggest that the population is Cajun (33), which suggests that her own belief is that ancestry would be the concrete way to assign someone to an ethnic group.
+        % She does acknowledge that surnames are not important as Brasseaux (1992) and Stanford (2016) have explained that ancestry is traced matrilineally and Cajuns have intermarried with people from various other places.
+      % R. A. Brown (1988) acknowledged the Acadian ancestry idea but claimed that it was no longer a requirement for those who want to identify as Cajun (18-20).
+      % So, while Acadian ancestry may be a sufficient condition for Cajun ethnic identity, it is not a necessary condition.
+
+    % Race
+      % Tentchoff (1980) and Walton (2003) suggest the race of Cajuns was historically ambiguous, better than being Black but not quite considered White (as cited in Giancarlo 2019:32).
+      % Metamorphosis into being just White
+        % Spitzer (1977) and Esman (1985) identify Blacks who participated in "Cajun" culture but did not refer to themselves as Cajun (as cited in R. A. Brown 1988:43).
+        % Skin color has become today a repeated theme in local definitions of what makes one Cajun or Creole
+          % Giancarlo's (2019) Creole informants often defined Cajuns as White and Creoles as Black (34).
+          % This remains the case even when it is admitted that Cajuns may be darker skinned Whites and Creoles lighter skinned Blacks (Stanford 2016, as cited in Giancarlo 2019:32).
+        % Giancarlo (2019) makes the point that this is actually harmful in the sense that there is ethnic diversity in this population of non-Creoles that has all been collapsed into "Cajun" (33).
+          % That's not to say there are not acknowledged distinctions, though, as locals sometimes distinguish between Prairie Cajuns and Bayou Cajuns (R. A. Brown 1988:74-75).
+
     \subsection{Creoles}
     Creoles, historically understood to be descendants of French and Spanish colonists and transplants from Haiti after the slave revolts \parencite{fortier_french_1884, rottet_language_1995} are today understood to simply be Black South Louisianians \parencite{dajko_sociolinguistics_2012}.
 
+    % Opening
+      % Despite the branding of all of South Louisiana as Cajun and not Creole (Giancarlo 2019), local interest in Creole identity has persisted.
+        % In the 21st century, this has been argued to be a reaction to said branding but also a result of the census allowing Creoles to not have to identify as Black officially, the push the French language education, and the popularity of geneological research (Susberry 2004:14).
+      % A common thread in how Creoles are defined is "not Cajun" (Giancarlo 2019:26/42), though what they are may still take many forms.
+      % The identity of Creoles today is just one more step in a process of continuous redefinition that has been going on since the initial colonization of Louisiana.
+
+    % Historical definitions
+
+    % Race
+      % One modern definition, albeit a working one, is a mixed-race person with French cultural origins (Giancarlo 2019:26/42).
+      % Modern racial definitions of Creoles are sometimes so pervasive that not only do locals assume them to hold historically but so do activists and even researchers, such as those cited by Giancarlo (2019) as arguing that much of South Louisiana's local culinary traditions are in fact Creole and not Cajun because slaves would have been doing the cooking when these traditions began (39-40).
+        % This presumes that slaves were Creoles, though at the time of slavery, they were emphatically not.
+
   \section{Variation in Louisiana French subject pronouns}
+    % Perhaps start with a paragraph describing what Louisiana French is at all?
+      % Speaker numbers
+        % New Orleans is somewhat excluded from definitions of South Louisiana because it differs in several respects culturally, and one of those is the lack of locally grown French varieties.
+          % Johnson (1976) argued that there were maybe 5,000 "indigenous speakers" of French in New Orleans at the time (23).
+        % For the rest of South Louisiana, it is oft repeated that estimates of French speakers are hard to obtain
+          % The census once gave an option for "French" but not specifically local varieties, and speakers sometimes equated "French" to International varieties and not their own (B. Brown 1993:98).
+        % There has long been consensus, though, that the number of French speakers is generally dwindling
+          % Rottet (1995) had difficulties finding under 30 Cajuns francophones in SE LA but much less difficulty finding under 30 Indians (71).
+          % Part of the decline can be chalked up to the Americanization of the state coupled with economic pressures, such as that caused by the influx of Texans and Northern Louisianians during the early stages of the oil boom in the 1940s (Larouche 1981, as cited in Rottet 1995:105).
+            % The large migration OUT of Louisiana to Texas during the earlier 1900s oil boom in the latter (Louder & Leblanc 1983, as cited in Rottet 1995:16) may have also helped galvanize the march towards English in Louisiana.
+
+      % Other "languages" present
+        % Standard French, Louisiana Creole, English (Neumann 1985:1)
+        % Two years of elective Standard French courses were available even in the 1930s (Smith & Philips 1939:199).
+          % Well, they don't say "Standard", but that can probably be assumed.
+        % Code-switching is not only present between French and English (B. Brown 1986) but even between French, English, and Creole (Klingler 2005), not to mention English lexical borrowings starting at least as early as the first decades of the 20th century (Smith & Philips 1939).
+
     The categories of Cajun and Houma Indian have previously been found to be predictive for French subject pronoun realizations in Southeast Louisiana specifically \parencite{rottet_language_1995, dajko_ethnic_2009}.
-    Although subject pronouns have not been analyzed in relation to Cajun and Creole ethnic identities, race in terms of being Black or White has been suggested to be related to variation in Louisiana Creole as spoken in both Pointe Coupee Parish \parencite{klingler_if_2003} and St Landry Parish \parencite{neumann_creole_1985}, which is significant given that Louisiana French and Louisiana Creole are not only so closely related that they are sometimes difficult to distinguish \parencite{baronian_influence_2005, klingler_probleme_2005}, but even which one a speaker claims to speak can be more related to whether they identify as ethnically Cajun or Creole than to the linguistic structure of their speech, including their choice of pronouns \parencite{klingler_bijou_2013}.
+    Although subject pronouns have not been analyzed in relation to Cajun and Creole ethnic identities, race in terms of being Black or White has been suggested to be related to variation in Louisiana Creole as spoken in both Pointe Coupee Parish \parencite{klingler_if_2003} and St Landry Parish \parencite{neumann_creole_1985}, which is significant given that Louisiana French and Louisiana Creole are not only so closely related that they are sometimes difficult to distinguish \parencite{baronian_influence_2005, klingler_probleme_2005}, but even which one a speaker claims to speak can be more related to whether they identify as ethnically Cajun or Creole than to the linguistic structure of their speech, including their choice of pronouns (\citeauthor{brown_pronominal_1988}, \citeyear{brown_pronominal_1988}, p.~5); \citeauthor{klingler_bijou_2013}, \citeyear{klingler_bijou_2013}).
+    % R. A. Brown (1988) defines the 3 French-based languages of Louisiana -- Colonial, Cajun, and Creole -- as being spoken by European Creoles, Acadian descendants, and descendants of slaves, respectively (34-35), suggesting that even researchers have defined these varieties by who their speakers are rather than by linguistic structure.
+    % Neumann (1985) claims there are very few lexical differences between Cajun and Creole (52), as does Rottet (2000, as cited in Klingler 2005:352).
 
     The subject pronoun system of South Louisiana is itself summarized in Table \ref{tab:lf_sub_pro}.
     While all of these linguistic variables are morphosyntactic, there is also phonetic variation at play.
@@ -87,14 +148,26 @@
     \end{table}
 
     \subsection{Ethnicity and subject pronouns in previous research}
+      % Rottet (1995) found differences between Cajuns and Indians.
+        % May be attributable to geography since "Indians tend to live together in subcommunities" separate but not far from Cajuns (Rottet 1995:130).
 
     \subsection{Race and variation in Louisiana French in previous research}
     % Insert RQ1 at the end of this section?
 
   \section{Personal social networks}
     % Short bit about their use in other work
+
     % What we do and don't know about personal social networks in LA
-      % Most likely, "We know that there's a long history of Louisianians being isolated in one way or another, even from each other, but also that much of the culture of South Louisiana is based on intermarrying."
+      % Historically
+        % Most likely, "We know that there's a long history of Louisianians being isolated in one way or another, even from each other, but also that much of the culture of South Louisiana is based on intermarrying."
+        % Cajuns (defined by Smith & Philips as "French-speaking people" of "South Louisiana") had no money for traveling as they were farmers of singular crops and so had to spend what money they had on other crops for sustenance (Smith & Philips 1939:198).
+        % Gold (1979) described the area around Mamou from the 30s to the 70s as consisting of many close knit, isolated sharecropping neighborhoods surrounding the town (272), though they began migrating into the town starting around 1945 (270).
+          % Later, highways ended the isolation of Mamou itself from Lafayette (Gold 1979:268).
+        % Bobo & Charlton (1974), likewise, estimated that 60% of the population of South Louisiana lived in rural areas (as cited in Johnson 1976:27).
+      % More recently
+        % Claims have been made that the general isolation of Cajuns (at least) ended by the 1980s (Esman 1985, as cited in R. A. Brown 1988:25).
+        % There is still isolation for some, though.
+          % For Indians, again, Rottet (1995) described them as living in "subcommunities" (130) "at the far ends of the bayous" (57) in SE LA.
 
     % Insert RQ2 here?
 
