@@ -159,7 +159,7 @@
     There is consensus, though, that the number of French speakers in Louisiana is generally dwindling.
     For example, though \textcite{rottet_language_1995} had no real difficulty finding francophone Houma Indians under the age of 30 in his study of Southeast Louisiana, he had much more difficult finding Cajuns in this age group who spoke French (p.~71).
     Americanization as discussed in Section \ref{sec:cajuns} and general economic pressures from the oil boom that brought in many Texans and anglophone North Louisianians have been cited as reasons for the decline in French (\citeauthor{neumann_creole_1985}, \citeyear[p.~49]{neumann_creole_1985}; \citeauthor[Larouche, 1981, as cited in][]{rottet_language_1995}, \citeyear[p.~105]{rottet_language_1995}), but whatever the cause, it is readily apparent that there are fewer speakers each day.
-    
+
     % New Orleans is somewhat excluded from definitions of South Louisiana because it differs in several respects culturally, and one of those is the lack of locally grown French varieties.
       % Johnson (1976) argued that there were maybe 5,000 "indigenous speakers" of French in New Orleans at the time (23).
     % There has long been consensus, though, that the number of French speakers is generally dwindling
@@ -167,31 +167,51 @@
       % The large migration OUT of Louisiana to Texas during the earlier 1900s oil boom in the latter (Louder & Leblanc 1983, as cited in Rottet 1995:16) may have also helped galvanize the march towards English in Louisiana.
 
     \subsection{Ethnicity and subject pronouns in previous research}
-      % Rottet (1995) found differences between Cajuns and Indians.
-        % May be attributable to geography since "Indians tend to live together in subcommunities" separate but not far from Cajuns (Rottet 1995:130).
+      Subject pronouns in the French spoken in South Louisiana have previously been found to vary according to the ethnicity of the speaker \parencite{rottet_language_1995, dajko_ethnic_2009}, though these studies have no thoroughly examined the role of race in this variation nor in the construction of ethnic identities as the present study will do.
+      The system itself is summarized in Table \ref{tab:lf_sub_pro}.
+      For some of these variables, their are structural reasons for choosing one variant (i.e., pronoun) over another, particularly in the case of 3rd person singular.
+      Not only is there a distinction between referring to inanimate versus animate subjects, where \lexi{ça} is for the former and \lexi{il}, \lexi{elle}, and \lexi{on} are for the latter, but there is also a distinction in gender (\lexi{il} for masculine and \lexi{elle} for feminine) and definiteness (\lexi{il} and \lexi{elle} are definite and \lexi{on} is indefinite).
+      The envelope of variation for 3rd person singular pronouns, then, is rather between \lexi{li}, which can have any referent, and the other pronouns.
+      There is additionally a T/V distinction \parencite{brown_pronouns_1960} for 2nd person singular pronouns where \lexi{tu} and \lexi{to} represent the T terms of address and \lexi{vous} the V terms of address.
 
-      The categories of Cajun and Houma Indian have previously been found to be predictive for French subject pronoun realizations in Southeast Louisiana specifically \parencite{rottet_language_1995, dajko_ethnic_2009}.
-
-
-      The subject pronoun system of South Louisiana is itself summarized in Table \ref{tab:lf_sub_pro}.
       While all of these linguistic variables are morphosyntactic, there is also phonetic variation at play.
       The 1st person singular pronoun also involves phonetic variation in that three different consonants may be used in the pronunciation so that one might here [ʒə], [hə], or [zə], all of which may also be metathesized.
       There is additionally a phonological process which causes devoicing of the consonant when followed by a voiceless consonant in the verb \parencite{carmichael_language_2019}.
-      Similarly, other pronouns, such as \lexi{elle} and \lexi{eux}, are also subject to their own phonetic variations.
+      Some of the other pronouns that are also subject to their own notable phonetic variations are \lexi{vous} ([vu], [u], or [vo]), \lexi{elle} ([ɛl] or [al]), \lexi{nous} ([nu] or [no]), \lexi{vous-autres} ([vuzɔt], [uzɔt], or [zɔt]), and \lexi{eux} ([øs], [ø], [øz], or [zø]).
+      Finally, the final segments of practically all of these subject pronouns are dropped in certain linguistic contexts.
+      While it will be useful to keep in mind the existence of these phonetic variations, the present study will focus on morphosyntactic variation and so collapse them appropriately into individual lexical items during analysis.
       \begin{table}
         \centering
         \caption{The subject pronoun system of Louisiana French in South Louisiana}
         \label{tab:lf_sub_pro}
         \begin{tabular}{l | l l | l}
-                 & Singular                                     & Plural                                                          & Number \\
+                 & Singular                                                & Plural                                                          & Number \\
           \hline
-          1st    & \lexi{je}, \lexi{moi}, \lexi{mo}             & \lexi{nous}, \lexi{nous-autres}, \lexi{on}                      & \\
-          2nd    & \lexi{tu}, \lexi{vous}, \lexi{to}            & \lexi{vous}, \lexi{vous-autres}                                 & \\
-          3rd    & \lexi{il}, \lexi{elle}, \lexi{ça}, \lexi{on} & \lexi{ils}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} & \\
+          1st    & \lexi{je}, \lexi{moi}, \lexi{mo}                        & \lexi{nous}, \lexi{nous-autres}, \lexi{on},                     & \\
+          2nd    & \lexi{tu}, \lexi{to}, \lexi{vous}                       & \lexi{vous}, \lexi{vous-autres}, \lexi{zo}                      & \\
+          3rd    & \lexi{il}, \lexi{elle}, \lexi{on}, \lexi{ça}, \lexi{li} & \lexi{ils}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} & \\
           \hline
-          Person &                                              &                                                                 &
+          Person &                                                         &                                                                 &
         \end{tabular}
       \end{table}
+
+      Most of the variationist work analyzing subject pronoun variation in Louisiana French has been conducted with speakers from Southeast Louisiana, specifically, which is an area where Creoles are not very represented as they are in other parts of South Louisiana but Houma Indians are represented as they are not in other parts of South Louisiana.
+      While this makes the results from such studies not directly relevant to the present study, they are still telling of the work that subject pronouns can do in Louisiana French.
+      Additionally, the southeast parishes examined in previous studies are directly adjacent to some of the more central parishes from which participants will be recruited for the current study.
+
+      In general, it has been found that 3rd person plural subject pronouns vary according to ethnicity.
+      \textcite{rottet_language_1995} found Houma Indians to strongly prefer \lexi{eux} whereas Cajuns were relatively split across \lexi{ils}, \lexi{ça}, \lexi{eux}, and \lexi{eux-autres}.
+      \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) results were much the same with Houma Indians using more \lexi{eux}, though Cajuns had moved towards preferring \lexi{eux}, as well, since the time of \citeauthor{rottet_language_1995}'s (\citeyear{rottet_language_1995}) study, which is perhaps evidence of personal social networks becoming more ethnically diverse as fewer and fewer speakers remain available.\footnote{
+        This will be discussed in more detail in Section \ref{sec:personal_networks}.
+      }
+      The variant \lexi{yé} was not considered as it is been described in grammars as a marker of Louisiana Creole rather than Louisiana French \parencite{klingler_if_2003, neumann_creole_1985}.
+      Indeed, several of the pronouns listed in Table \ref{tab:lf_sub_pro} -- \lexi{to}, \lexi{li}, \lexi{zo}, \lexi{yé} -- come from descriptions of Louisiana Creole and not Louisiana French, though not always.
+      \textcite{rottet_language_1995} himself reported the use of \lexi{mo} as a variant despite it being a common marker of Louisiana Creole.
+      For instance, \textcite{klingler_probleme_2005} described \lexi{mo} as a ``\foreign{variante créole}'' \gloss{Creole variant} and \lexi{je} as a ``\foreign{variante cadienne}'' \gloss{Cajun variant} (i.e., French variant) in his examination of how to delineate between Louisiana Creole and Louisiana French in instances of code-switching (p.~355).
+      In light of the stronger presence of Creoles and people who claim to speaker Louisiana Creole in the parishes around Lafayette, where this study will take place, as well as the conflation of speaker identity with the label they use to describe their language and the similarities between the two language varieties, maintaining these more Creole-oriented subject pronouns in the analysis for the present study is not only appropriate but may yield ethnically conditioned variation across more subject pronouns that just the 3rd person plural.
+      
+      % Rottet (1995) found differences between Cajuns and Indians.
+        % May be attributable to geography since "Indians tend to live together in subcommunities" separate but not far from Cajuns (Rottet 1995:130).
 
     \subsection{Race and variation in Louisiana in previous research}
       % Insert RQ1 at the end of this section?
@@ -199,6 +219,7 @@
       Although subject pronouns have not been analyzed in relation to Cajun and Creole ethnic identities, race in terms of being Black or White has been suggested to be related to variation in Louisiana Creole as spoken in both Pointe Coupee Parish \parencite{klingler_if_2003} and St Landry Parish \parencite{neumann_creole_1985}, which is significant given that Louisiana French and
 
   \section{Personal social networks}
+    \label{sec:personal_networks}
     % Short bit about their use in other work
 
     % What we do and don't know about personal social networks in LA
