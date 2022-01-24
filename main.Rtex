@@ -204,36 +204,45 @@
       \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) results were much the same with Houma Indians using more \lexi{eux}, though Cajuns had moved towards preferring \lexi{eux}, as well, since the time of \citeauthor{rottet_language_1995}'s (\citeyear{rottet_language_1995}) study, which is perhaps evidence of personal social networks becoming more ethnically diverse as fewer and fewer speakers remain available.\footnote{
         This will be discussed in more detail in Section \ref{sec:personal_networks}.
       }
-      The variant \lexi{yé} was not considered as it is been described in grammars as a marker of Louisiana Creole rather than Louisiana French \parencite{klingler_if_2003, neumann_creole_1985}.
-      Indeed, several of the pronouns listed in Table \ref{tab:lf_sub_pro} -- \lexi{to}, \lexi{li}, \lexi{zo}, \lexi{yé} -- come from descriptions of Louisiana Creole and not Louisiana French, though not always.
+      The variant \lexi{yé} was not considered as it is described in grammars as a marker of Louisiana Creole rather than Louisiana French \parencite{klingler_if_2003, neumann_creole_1985}.
+      Indeed, several of the pronouns listed in Table \ref{tab:lf_sub_pro} -- \lexi{to}, \lexi{li}, \lexi{zo}, \lexi{yé} -- come from descriptions of Louisiana Creole and not Louisiana French, though they are not exclusive to Louisiana Creole.
       \textcite{rottet_language_1995} himself reported the use of \lexi{mo} as a variant despite it being a common marker of Louisiana Creole.
       For instance, \textcite{klingler_probleme_2005} described \lexi{mo} as a ``\foreign{variante créole}'' \gloss{Creole variant} and \lexi{je} as a ``\foreign{variante cadienne}'' \gloss{Cajun variant} (i.e., French variant) in his examination of how to delineate between Louisiana Creole and Louisiana French in instances of code-switching (p.~355).
       In light of the stronger presence of Creoles and people who claim to speaker Louisiana Creole in the parishes around Lafayette, where this study will take place, as well as the conflation of speaker identity with the label they use to describe their language and the similarities between the two language varieties, maintaining these more Creole-oriented subject pronouns in the analysis for the present study is not only appropriate but may yield ethnically conditioned variation across more subject pronouns that just the 3rd person plural.
-      
+      Specifically, the first research question here is the following:
+      \begin{itemize}
+        \item[RQ1:] Do subject pronouns vary in Louisiana French between Cajun and Creole speakers similarly to how they did between Cajun and Houma Indians speakers, and what role does race play in this variation?
+      \end{itemize}
+
       % Rottet (1995) found differences between Cajuns and Indians.
         % May be attributable to geography since "Indians tend to live together in subcommunities" separate but not far from Cajuns (Rottet 1995:130).
 
-    \subsection{Race and variation in Louisiana in previous research}
-      % Insert RQ1 at the end of this section?
-
-      Although subject pronouns have not been analyzed in relation to Cajun and Creole ethnic identities, race in terms of being Black or White has been suggested to be related to variation in Louisiana Creole as spoken in both Pointe Coupee Parish \parencite{klingler_if_2003} and St Landry Parish \parencite{neumann_creole_1985}, which is significant given that Louisiana French and
+    % \subsection{Race and variation in Louisiana in previous research}
+    %   Race in terms of identifying as Black or White has been suggested to be related to variation in Louisiana Creole as spoken in both Pointe Coupee Parish \parencite{klingler_if_2003} and St Landry Parish \parencite{neumann_creole_1985}.
 
   \section{Personal social networks}
     \label{sec:personal_networks}
-    % Short bit about their use in other work
+    Another aspect of the sociolinguistic situation with respect to Louisiana French that has yet to be fully examined is the ethnic make-up of speakers' personal social networks and the impacts this  may or may not have on subject pronoun variation.
+    While such an analysis is not unheard of in sociolinguistics as well as heritage language research, the questions that have been asked have generally been about language choice rather than about structural variation in a language variety.
+    For example, \textcite{li_two-step_2000} found the ethnic make-up of one's personal network to be predictive of language choice between English and Chinese.
+    Also in the UK, it has been found that Punjabi use increases for some speaker demographics as the proportion of those born in India in their personal networks increases \parencite{sharma_scalar_2017}.
+    The same study did in fact search out associations between the qualities of one's personal network and variation in linguistic features but found none.
+    Not unrelated to \textcite{li_two-step_2000} and \citeauthor{sharma_scalar_2017}'s (\citeyear{sharma_scalar_2017}) work, research specifically on heritage languages has found that having an ethnically homogenous personal network will sometimes facilitate language maintenance and sometimes not \parencite{zhang_co-ethnic_2012}.
+    Finally, while more interested in stylistic variation than the interspeaker variation that is the focus of the current study, \textcite{holliday_intonational_2016} also incorporated the racial make-up of her participants' personal networks in their descriptions.
+    Research has indeed touched on the influence of the quality of personal networks then, though more work is still needed to add more nuance to these previous findings.
 
-    % What we do and don't know about personal social networks in LA
-      % Historically
-        % Most likely, "We know that there's a long history of Louisianians being isolated in one way or another, even from each other, but also that much of the culture of South Louisiana is based on intermarrying."
-        % Cajuns (defined by Smith & Philips as "French-speaking people" of "South Louisiana") had no money for traveling as they were farmers of singular crops and so had to spend what money they had on other crops for sustenance (Smith & Philips 1939:198).
-        % Gold (1979) described the area around Mamou from the 30s to the 70s as consisting of many close knit, isolated sharecropping neighborhoods surrounding the town (272), though they began migrating into the town starting around 1945 (270).
-          % Later, highways ended the isolation of Mamou itself from Lafayette (Gold 1979:268).
-        % Bobo & Charlton (1974), likewise, estimated that 60% of the population of South Louisiana lived in rural areas (as cited in Johnson 1976:27).
-      % More recently
-        % Claims have been made that the general isolation of Cajuns (at least) ended by the 1980s (Esman 1985, as cited in R. A. Brown 1988:25).
-        % There is still isolation for some, though.
-          % For Indians, again, Rottet (1995) described them as living in "subcommunities" (130) "at the far ends of the bayous" (57) in SE LA.
+    Neither the ethnic nor racial composition of personal social networks in South Louisiana have been outlined in the literature, though there have been observations and analysis that would suggest what the general structure of these social networks is.
+    As mentioned in Section \ref{sec:cajuns}, a common theme in describing Louisiana social networks is the idea of isolation.
+    For instance, \textcite{gold_french_1979} described the area around Mamou in Evangeline Parish as consisting of many close knit, isolated sharecropping neighborhoods surrounding the town (p.~272) until residents began migrating into Mamou starting around 1945 (p.~270).
+    This arrangement would presumably repeat over much of South Louisiana given that it has been estimated that 60\% of the population once lived in rural areas \parencite[Bobo and Charlton, 1974, as cited in][p.~27]{johnson_louisiana_1976}.
+    Moreover, smaller towns such as Mamou have been said to themselves be isolated from larger cities such as Lafayette \parencite[p.~268]{gold_french_1979}, which \textcite{smith_influence_1939} argued was the result of French-speaking South Louisianians being farmers of singular cash crops, meaning what money they did make was spent on foods that they themselves did not grow but needed for sustenance (p.~198).
+    This sort of isolation was relievd later on when highways were finally built connecting places like Mamou to bigger cities \parencite[p.~268]{gold_french_1979}.
 
+    It has been argued that this general isolation had ended by the 1980s, at least for Cajuns \parencite[Esman, 1985, as cited in][p.~25]{brown_pronominal_1988}, though there are certainly still isolated communities in South Louisiana.
+    For instance, \textcite{rottet_language_1995} described Houma Indians as living primarily in ``subcommunities'' (p.~130) ``at the far ends of the bayous'' (p.~57) in Southeast Louisiana.
+    Indeed, this was something of a confounding factor in his results showing different linguistic behavior between Houman Indians and Cajuns as the two groups were also geographically separated.
+
+    Perhaps the most relevant work on social networks in Louisiana for the present study comes from 
     % Insert RQ2 here?
 
   \section{Methods}
