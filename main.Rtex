@@ -19,9 +19,11 @@
   \usepackage{enumitem}
   \usepackage{tabularx}
     \newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+  \usepackage{graphicx}
+    \graphicspath{{./figure/}}
 
   % Document information
-  \title{Dissertation Proposal: The impact of ethnicity and race on French in Louisiana}
+  \title{Dissertation Proposal: The relationship between ethnicity and French in Louisiana}
   \author{Joshua McNeill}
   \date{\today}
 
@@ -34,51 +36,54 @@
 \begin{document}
   \maketitle
   \doublespacing
-  The idea of Louisiana in the public imagination is really that of South Louisiana and the New Orleans metropolitan area, specifically, as shown in Figure \ref{fig:south_la}.
-  Indeed, the boundary between North and South Louisiana is traditionally a division in culinary practices, religion, and language \parencite[p.~309]{trepanier_french_1988}, which has led to a situation where even South Louisiana locals will sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to North Louisiana's general indistinguishability from the rest of the mostly Anglo, Protestant American South. % Gold (1979) also describes North Louisiana as "anglophone" (265), and Johnson (1976) describes Northerners as historically being "rabid anti-Catholic Protestants" (27).
-  For sociolinguists, South Louisiana is interesting for two reasons: The two major local ethnic categories -- Creole and Cajun -- have over time been redefined to align with the Black and White American racial binary, respectively, and French is spoken there as a heritage language where it was the dominant language as recently as the mid 20th century.
+  The idea of Louisiana in the public imagination is most often rather that of South Louisiana and the New Orleans metropolitan area, the former as shown in Figure \ref{fig:south_la} and the latter just east of the South Louisiana outline on the southern border of Lake Pontchartrain.
+  Indeed, the boundary between North and South Louisiana is traditionally a division in culinary practices, religion, and language \parencite[p.~309]{trepanier_french_1988}, where those cultural features that most distinguish Louisiana from the rest of the Deep South are those of South Louisiana.
+  This has led to a situation where even South Louisiana locals will sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to the perceived indistinguishability of North Louisiana from the rest of the mostly Anglo, Protestant American South. % Gold (1979) also describes North Louisiana as "anglophone" (265), and Johnson (1976) describes Northerners as historically being "rabid anti-Catholic Protestants" (27).
+  For sociolinguists, South Louisiana is of interest for two reasons: The two major local ethnic categories -- Creole and Cajun -- have over time been redefined to align with the Black and White American racial binary, respectively, and French is spoken there as a heritage language where it was the dominant language as recently as the mid 20th century.
 
   \begin{figure}[tbhp]
-    \caption{Map of South Louisiana and the New Orleans metropolitan area}
+    \centering
+    \caption{Map of South Louisiana, also referred to as Acadiana}
     \label{fig:south_la}
+    \includegraphics[scale=0.35]{acadiana.jpg}
     % Should identify Acadiana, New Orleans, but also Lafayette and Terrebonne-Lafourche
   \end{figure}
 
-  Much of the variationist work on French in South Louisiana has been framed as a discussion of language death \parencite{carmichael_language_2019, dajko_ethnic_2009, rottet_language_1995}.
+  Much of the variationist work on French in South Louisiana has thus been framed as a discussion of language death \parencite{carmichael_language_2019, dajko_ethnic_2009, rottet_language_1995}.
   This work has often included ethnicity as a factor, though the linguistic implications of the intersection of race with ethnicity have not been examined in detail.
   Furthermore, as French in Louisiana has continued to decline, it is not clear whether those who continue to speak the language have had to broaden their personal social networks to be more ethnically diverse in order to find French interlocutors as this may additionally impact their speech patterns.
-  The present study aims to replicate previous studies that looked at French subject pronouns, giving greater attention to the role of race in ethnicity and exploring what happens to the ethnic make-up of personal networks among speakers of a heritage language with the goal of shedding light on what is known about the role of ethnicity in language variation and heritage languages.
+  The present study aims to replicate previous studies that looked at French subject pronouns, giving greater attention to the role of race in ethnicity and exploring what happens to the ethnic make-up of personal networks among speakers of this heritage language with the goal of shedding light on what is known about the role of ethnicity in language variation and heritage languages generally.
 
   \section{Ethnicity and race in South Louisiana}
     \label{sec:ethnicity_race}
     The complexity of ethnicity in South Louisiana is perhaps due to the variety of colonizing forces that have controlled it as well as immigration patterns.
-    It was initially colonized by France, who turned over control to Spain in the 1760s, who then gave control of the region back to France very shortly before selling it to the United States as the Louisiana Purchase in 1803 \parencite{fortier_french_1884, johnson_louisiana_1976, klingler_if_2003}.
-    Additionally, Louisiana has been the landing point for influxes of refugees from Saint-Domingue\footnote{
+    It was initially colonized by France, who turned over control to Spain in the 1760s, who then gave control of the region back to France very shortly before France sold it to the United States in the Louisiana Purchase of 1803 \parencite{fortier_french_1884, johnson_louisiana_1976, klingler_if_2003}.
+    Additionally, Louisiana has been the landing point for influxes of people from Saint-Domingue\footnote{
       Present day Haiti.
-    } after the slave revolts \parencite[Debien and Le Gardeur, 1981, as cited in][]{klingler_if_2003}, Acadia\footnote{
-      Roughly the provinces of Nova Scotia and New Brunswick in Canada.
+    } after the slave revolts \parencite[Debien \& Le Gardeur, 1981, as cited in][]{klingler_if_2003}, Acadia\footnote{
+      Roughly the present-day provinces of Nova Scotia and New Brunswick in Canada.
     } after the mass expulsion known as the \foreign{Grand dérangement} \parencite{fortier_french_1884, klingler_if_2003, neumann_creole_1985}, and even the Canary Islands \parencite{klingler_if_2003}.
     The result has been the formation of two general South Louisiana ethnic categories -- Cajun and Creole -- which have come to be redefined by the introduction of the Black-White racial binary of the United States \parencite{dajko_sociolinguistics_2012}.
     As one of the goals of this study is to better understand not only how subject pronouns vary according to ethnicity with an emphasis on the role of race in ethnicity but to also better understand how Louisianians view ethnicity, race, and French, the following sections will review findings in the literature about how Cajuns and Creoles were defined historically and are defined today.
 
     \subsection{Cajuns}
       \label{sec:cajuns}
-      The typical description of Cajuns is that of an poor, isolated, and stigmatized people.
-      Scholars in the early 20th century tended to claim that Cajuns were generally immobile \parencite[e.g.,]{smith_influence_1939}, which may explain why they were once called the nation's ``largest unassimilated minority'' \parencite[Gilmore, 1933, as cited in][p.~99]{rottet_language_1995}: without opportunities to interact with outsiders, there was little chance that they would assimilate to those outsiders.
-      Although Cajuns will sometimes claim the uniqueness of their culture that stems from this lack of assimilation as a badge of honor, it has also been the impetus behind them once being thought of as ``poor white trash'' \parencite[p.~110]{rottet_language_1995}.
-      This negative evaluation, however, began shifting towards being more positive since the 1960s with the establishment of the Council for the Development of French in Louisiana (CODOFIL) at that time as well as the broader American population and French people becoming more interested in the region \parencite[pp.~31-33]{brown_pronominal_1988}.
-      Of course, this increased contact with outsiders has also come increased Americanization and a loss of the uniqueness of culture that Cajuns prize, which includes the French language.
+      The typical description of Cajuns is that of a poor, isolated, and stigmatized people.
+      Scholars in the early 20th century tended to claim that Cajuns were generally immobile \parencite[e.g.,][]{smith_influence_1939}, which may explain why they were once called the nation's ``largest unassimilated minority'' \parencite[Gilmore, 1933, as cited in][p.~99]{rottet_language_1995}: without opportunities to interact with outsiders, there was little chance that they would assimilate to those outsiders.
+      Although Cajuns will sometimes claim the uniqueness of their culture that stems from this lack of assimilation as a badge of honor, it has also resulted in them once being thought of as ``poor white trash'' \parencite[p.~110]{rottet_language_1995}.
+      This negative evaluation, however, began shifting towards being more positive in the 1960s with the establishment of the Council for the Development of French in Louisiana (CODOFIL) as well as the broader American population and French people becoming more interested in the region \parencite[pp.~31-33]{brown_pronominal_1988}.
+      Of course, with this increased contact with outsiders has also come increased Americanization and a loss of the uniqueness of culture that Cajuns prize, which includes the French language.
       Specifically, it has been claimed that assimilation into the broader American culture has been thrust forward first by compulsory education, then by the advent of mass communication, followed by involvement in World War II, and finally by the Louisiana oil boom that drew many new people to the state \parencite[Conrad, 1978, as cited in][p.~28]{brown_pronominal_1988}.
 
       Along with the changes in Cajun culture and social evaluations of Cajuns have come changes in the criteria for membership into this ethnic group.
       In the early 20th century, several conditions needed to be met in order to be considered Cajun.
-      Chief among them was the abililty to speak French \parencite[p.~198]{smith_influence_1939}, though others have also noted the importance of being rural and Catholic \parencite[Del Sesto and Gibson, 1975, as cited in][p.~15]{neumann_creole_1985}.
-      Indeed, this criteria is not far off from those used by \textcite{trepanier_french_1988} to distinguish between North and South Louisiana, as mention in the introduction.
+      Chief among them was the abililty to speak French \parencite[p.~198]{smith_influence_1939}, though others have also noted the importance of being rural and Catholic \parencite[Del Sesto \& Gibson, 1975, as cited in][p.~15]{neumann_creole_1985}.
+      Indeed, this criteria is not far off from those used by \textcite{trepanier_french_1988} to distinguish between North and South Louisiana, as mentioned in the introduction.
 
       Another condition that allows one to claim Cajun as their ethnicity is ancestry, specifically ancestry that can be traced back to Acadia from before the \foreign{Grand dérangement} \parencite[p.~19]{johnson_louisiana_1976}.
-      Indeed, the term \lexi{Cajun} itself originated in mispronunciations of the term Acadian \parencite[p.~198]{smith_influence_1939}.
-      Although the link is not obvious in English, \lexi{Acadian} in French is \lexi{acadien} [akadjɛ̃], which Acadian as well as French-speaking Cajuns today pronounce as [akadʒɛ̃], making it quite close to the English pronunciation of \lexi{Cajun} as [keɪdʒən].
-      Even recent scholars have implied that ancestry is what should ideally make define someone as Cajun as \textcite{giancarlo_dont_2019} did when arguing that the parishes\footnote{
+      Indeed, the term \lexi{Cajun} itself originated in mispronunciations of the term \lexi{Acadian} \parencite[p.~198]{smith_influence_1939}.
+      Although the link is not obvious in English, \lexi{Acadian} in French is \lexi{acadien} [akadjɛ̃], which Acadians as well as French-speaking Cajuns today pronounce as [akadʒɛ̃], making it quite close to the English pronunciation of \lexi{Cajun} as [keɪdʒən].
+      This close connection with Acadia is so strong that even recent scholars have implied that ancestry is what should ideally define someone as Cajun as \textcite{giancarlo_dont_2019} did when arguing that the parishes\footnote{
         A parish is the Louisiana equivalent of a county in other states.
       } of St Landry and Lafayette are not actually dominated by Cajuns as Acadian surnames are not common there.
       \textcite{giancarlo_dont_2019}, citing Brasseaux (1992) and Stanford (2016), did acknowledge that surnames are not reliable for identifying ancestry as Acadians/Cajuns have intermarried since their arrival in Louisiana and Cajuns today trace their ancestry matrilineally (p.~33).
@@ -92,56 +97,56 @@
         There is of course much debate over which cultural traditions in Louisiana are Cajun and which are Creole \parencite{giancarlo_dont_2019} as well as who is Black and who is not \parencite{susberry_racial_2004}, but Spitzer and Esman's reports remain enlightening either way.
       } culture yet not referring to themselves as Cajun \parencite[as cited in][p.~43]{brown_pronominal_1988}.
       \citeauthor{giancarlo_dont_2019}'s (\citeyear{giancarlo_dont_2019}) own research participants, each of whom self-identified as either Creole or Black, often defined Cajuns as White and Creoles as Black (p.~34).
-      This remained the case even when it was admitted that Cajuns may be darker skinned Whites and Creoles may be lighter skinned Blacks \parencite[Stanford, 2016, as cited in][p.~32]{giancarlo_dont_2019}.
-      As will be shown in the next section, just as the term Cajun has become more or less synonymous with White South Louisianian, so too has Creole become synonymous with Black South Louisianian.
+      This has been the case even for research participants who have acknowledged that Cajuns may be darker skinned Whites and Creoles may be lighter skinned Blacks \parencite[Stanford, 2016, as cited in][p.~32]{giancarlo_dont_2019}.
+      As will be shown in the next section, just as the term \lexi{Cajun} has become more or less synonymous with White South Louisianian, so too has \lexi{Creole} become synonymous with Black South Louisianian.
 
       % Giancarlo (2019) makes the point that this is actually harmful in the sense that there is ethnic diversity in this population of non-Creoles that has all been collapsed into "Cajun" (33).
         % That's not to say there are not acknowledged distinctions, though, as locals sometimes distinguish between Prairie Cajuns and Bayou Cajuns (R. A. Brown 1988:74-75).
 
     \subsection{Creoles}
-      Creoles, historically understood to be descendants of French and Spanish colonists and transplants from Haiti after the slave revolts \parencite{fortier_french_1884, rottet_language_1995} are today understood to simply be Black South Louisianians \parencite{dajko_sociolinguistics_2012}.
-
-      Today, many of Louisiana's cultural exports and landmarks have been branded as Cajun to the detriment of the role or even authorship of Creoles \parencite{giancarlo_dont_2019}.
+      Today, many of Louisiana's cultural exports and landmarks have been branded as Cajun to the detriment of the role of Creoles and sometimes even their authorship \parencite{giancarlo_dont_2019}.
       Despite this branding that erases Creoles from the landscape, local interest in Creole identity has persisted.
       This is perhaps a reaction to said branding, but other factors involved in this continued interest have also been noted, such as the census finally allowing Creoles to not have to identify as Black, the push for French language education, and the popularity of geneological research \parencite[p.~14]{susberry_racial_2004}.
-      The definition of a Creole has changed dramatically over time, though members of the ethnic group themselves today might define Creoles as being descendants of the original French and Spanish colonists in Louisiana, especially if Africans or Native Americans are found in that line of descent, or simply being multiracial people from South Louisiana \parencite[p.~56]{susberry_racial_2004}.
+      The definition of a Creole has changed dramatically over time, though members of the ethnic group today might define Creoles as being descendants of the original French and Spanish colonists in Louisiana, especially if Africans or Native Americans are found in that line of descent, or simply being multiracial people from South Louisiana \parencite[p.~56]{susberry_racial_2004}.
       A common thread in all definitions, though, is the idea that Creoles are necessarily ``not Cajun'' \parencite[pp.~26/42]{giancarlo_dont_2019}.
 
-      Historically, the term Creole was first applied to White people of French and Spanish descent during the colonial period \parencite[Kein, 2000, as cited in][pp.~7-8]{susberry_racial_2004}, matching how some still define Creoles today.
-      This later came to include those coming to Louisiana after the slave revolts in Saint-Domingue after at the turn of the 19th century (\citeauthor{neumann_creole_1985}, \citeyear[p.~11]{neumann_creole_1985}; \citeauthor{rottet_language_1995}, \citeyear[p.~6]{rottet_language_1995}).
-      In fact, by that time, the term Creole not only applied to people originating in the Louisiana but even foods and other objects \parencite[p.~21]{johnson_louisiana_1976}.
-      Mixed-race people were not Creoles then but were rather derisively called mulattos, quadroons, and octoroons.
-      The negative stigma associated with these terms, however, led Free People of Color to co-opt the term Creole for themselves \parencite[Martin, 2000, as cited in][pp.~7-8]{susberry_racial_2004}, creating a three tier racial system that consisted of Whites at the top, Creoles in the middle, and Blacks (i.e., slaves) at the bottom.
+      Historically, the term Creole was first applied to White people of French and Spanish descent during the colonial period (\citeauthor{fortier_french_1884}, \citeyear[p.~98]{fortier_french_1884}; \citeauthor[Kein, 2000, as cited in][]{susberry_racial_2004} \citeyear[pp.~7-8]{susberry_racial_2004}), matching how some still define Creoles today.
+      This later came to include those coming to Louisiana after the slave revolts in Saint-Domingue at the turn of the 19th century (\citeauthor{neumann_creole_1985}, \citeyear[p.~11]{neumann_creole_1985}; \citeauthor{rottet_language_1995}, \citeyear[p.~6]{rottet_language_1995}).
+      In fact, by that time, the term Creole not only applied to people originating in Louisiana but even foods and other objects \parencite[p.~21]{johnson_louisiana_1976}.
+      Mixed-race people were not yet called Creoles then but were rather derisively called mulattos, quadroons, and octoroons.
+      The negative stigma associated with these terms, however, led Free People of Color to eventually co-opt the term Creole for themselves \parencite[Martin, 2000, as cited in][pp.~7-8]{susberry_racial_2004}, creating a three tier racial system that consisted of Whites at the top, Creoles in the middle, and Blacks (i.e., slaves) at the bottom.
 
       After the Civil War and especially during the 20th century, there were strong societal forces in Louisiana pushing to have Creoles identified simply as Black.
-      As \textcite{neumann_creole_1985} notes, whereas Creoles were understood to be Black or mixed-race francophones early in the century, they came to be understood as Black creolophones by the 1980s (p.~11), bringing the more stigmatized language variety of Louisiana Creole into the fold (pp.~23-25),\footnote{
+      As \textcite{neumann_creole_1985} noted, whereas Creoles were understood to be Black or mixed-race francophones early in the century, they came to be understood as Black creolophones by the 1980s (p.~11), bringing the more stigmatized language variety of Louisiana Creole into the fold (pp.~23-25), as well.\footnote{
         Neumann reported that English was the most prestigious variety in Louisiana at the time, followed by the local variety of French, and finally the closely related Louisiana Creole.
-      } as well.
+      }
       Some Creoles resented being collapsed in with Blacks and so either attempted to pass as White if they were light skinned enough or otherwise became activists pushing for Creoles to continue to be seen as a distinct group \parencite[pp.~12-13]{susberry_racial_2004}.
-      In any case, what is clear from these definitions is that, despite \lexi{Creole} perhaps being best thought of as an ethnic label, race has always been a central aspect of historical definitions:  Creoles began as Whites from Europe who were born in Louisiana before later being mixed-race free people.
+      In any case, what is clear from these definitions is that, despite \lexi{Creole} perhaps being best thought of as an ethnic label, race has always been a central aspect of historical definitions: Creoles began as Whites from Europe who were born in Louisiana before later being mixed-race free people.
 
       While Creoles in the 21st century may still be seen as mixed-race by Louisianians, in the context of American society where everything is either White or Black or at least White or Other, Creoles are not necessarily precluded from being treated as \foreign{de facto} Black as opposed to being in a third racial category.
       This binarity is so pervasive that even activists and researchers who are purposefully holding onto a mixed- or third-race identity for Creoles will sometimes fall back into the binary.
       For instance, \textcite{giancarlo_dont_2019} cited such activists and researchers as arguing that much of South Louisiana's local culinary traditions are in fact Creole and not Cajun because slaves would have been doing the cooking when these traditions began (pp.~39-40).
-      However, this presumes that slaves were Creoles, though at the time of slavery, they were not considered Creoles but were instead considered Black, a notch below Creoles of Color and well below the White Creoles during the early colonial days.
+      However, this presumes that slaves were Creoles, though at the time of slavery, they were not considered Creoles but were instead considered Black, treated as a notch below Creoles of Color and well below the White Creoles during the early colonial days.
+      The result of this situation is that Creoles may racially define themselves any number of ways, such as White, Black, Creole, fluid, etc. \parencite{susberry_racial_2004}, though society likely treats them all as simply Black.
 
       % Susberry (2004) examined how self-identified Creoles (of color) characterized themselves racially using Rockquemore's (1999) biracial model.
         % The possible racial identities were Black, Protean (i.e., shifting), and Border (i.e., biracial) (Susberry 2004:33).
       % As already noted, many of Giancarlo's Creole informants (of color) characterized Cajuns as White and Creoles as Black (34).
 
   \section{Louisiana French}
-    There are traditionally three French-based language varieties delineated in Louisiana: Colonial or Plantation French, Louisiana French, and Louisiana Creole.
+    Louisiana French is a local variety of French whose speakers may be Cajun or Creole, among other identities.
+    Traditionally, there are in fact three French-based language varieties delineated in Louisiana: Colonial or Plantation French, Louisiana French, and Louisiana Creole.
     Colonial French is thought to be all but extinct but was spoken primarily by recent French immigrants after the Louisiana Purchase.
     While there are still francophone immigrants coming to Louisiana even today, they have not coalesced around a variety that might still be called Colonial French but have instead continued to speak a wide range of French varieties.
     Louisiana French, sometimes referred to as Cajun French\footnote{
-      It is somewhat \foreign{faux pas} to use this term today as it presumes that all speakers are Cajuns and all non-Cajuns are non-speakers, though even local francophones will sometimes use the term.
+      It is somewhat of a \foreign{faux pas} to use this term today as it presumes that all speakers are Cajuns and all non-Cajuns are non-speakers, though even local francophones will still sometimes use the term.
     }, is the French variety that was the dominant language of rural South Louisiana up until the mid 20th century.
-    Finally, Louisiana Creole is a French-based creole that has similarities with other Atlantic French-based creoles such as Haitian Creole but is not likely to be related \parencite[pp.~280-281]{dajko_sociolinguistics_2012}.
+    Finally, Louisiana Creole is a French-based creole that has similarities with other Atlantic French-based creoles such as Haitian Creole but is not likely to be related to them \parencite[pp.~280-281]{dajko_sociolinguistics_2012}.
 
     The linguistic focus of this study will be on ethnic variation in Louisiana French, broadly defined, meaning Louisiana Creole will not be excluded as these two varieties are quite close structurally, particularly in the parishes that are adjacent to Lafayette Parish where participants will be sought out.
-    Indeed, in cases of code-switching Louisiana French and Louisiana Creole, it can be extremely difficult to distinguish where one variety ends and another begins \parencite{klingler_probleme_2005} as there are very few lexical differences (\citeauthor{neumann_creole_1985}, \citeyear[p.~52]{neumann_creole_1985}; \citeauthor[Rottet, 2000, as cited in][]{klingler_probleme_2005}, \citeyear[p.~352]{klingler_probleme_2005}).
+    Indeed, in cases of code-switching between Louisiana French and Louisiana Creole, it can be extremely difficult to distinguish where one variety ends and another begins \parencite{klingler_probleme_2005} as there are very few lexical differences (\citeauthor{neumann_creole_1985}, \citeyear[p.~52]{neumann_creole_1985}; \citeauthor[Rottet, 2000, as cited in][]{klingler_probleme_2005}, \citeyear[p.~352]{klingler_probleme_2005}).
     It has also been noted that Louisiana French displays syntactic features that are closer to Louisiana Creole than other varieties of French in parishes where the two are in contact \parencite{baronian_influence_2005}.
-    Furthermore, speakers and sometimes even researchers have defined these two varieties more by who the speaker is than by their linguistic structures in the sense that Creoles are said to speak Louisiana Creole even when their speech patterns ressemble French and Cajuns are said to speak Louisiana French even when their speech patterns resemble Creole (\citeauthor{brown_pronominal_1988}, \citeyear{brown_pronominal_1988}, p.~5); \citeauthor{klingler_language_2003}, \citeyear{klingler_language_2003}).
+    Furthermore, speakers and sometimes even researchers have defined these two varieties more by who the speaker is than by their linguistic structures in the sense that Creoles are said to speak Louisiana Creole even when their speech patterns resemble French and Cajuns are said to speak Louisiana French even when their speech patterns resemble Creole (\citeauthor{brown_pronominal_1988}, \citeyear[p.~5]{brown_pronominal_1988}; \citeauthor{klingler_language_2003}, \citeyear{klingler_language_2003}).
     Given these facts as well as claims that the two varieties are mutually intelligible \parencite[p.~29]{neumann_creole_1985}, excluding Louisiana Creole would be difficult at best and questionable at worst, and so ``Louisiana French'' here may include speech that appears Creole-like.
 
     % R. A. Brown (1988) defines the 3 French-based languages of Louisiana -- Colonial, Cajun, and Creole -- as being spoken by European Creoles, Acadian descendants, and descendants of slaves, respectively (34-35), suggesting that even researchers have defined these varieties by who their speakers are rather than by linguistic structure.
@@ -154,12 +159,12 @@
       % Code-switching is not only present between French and English (B. Brown 1986) but even between French, English, and Creole (Klingler 2005), not to mention English lexical borrowings starting at least as early as the first decades of the 20th century (Smith & Philips 1939).
         % As for French-Creole bilinguals, Neumann (1985) claims that they were few and mostly White (29).
 
-    As for the status of Louisiana French, the language was not long ago dominant of rural South Louisiana but is today likely considered a heritage language.
-    It is oft repeated that estimates of French speakers in the state are hard to obtain -- for instance, the census once gave only the option of ``French'' but not specifically local varieties of French, and speakers sometimes equated ``French'' to International varieties and not their own \parencite[p.~98]{brown_social_1993} -- and so the numbers given over the years have varied widely.
+    As for the status of Louisiana French, the language was not long ago dominant in rural South Louisiana but is today likely considered a heritage language.
+    It is oft repeated that estimates of French speakers in the state are hard to obtain -- for instance, the US census once gave only the option of ``French'' but not specifically local varieties of French when choosing the language spoken at home, and speakers sometimes equated ``French'' to International varieties and not their own variety \parencite[p.~98]{brown_social_1993} -- and so the numbers given over the years have varied widely.
     CODOFIL (1969) suggested there were 1,484,440 speakers in the 1960s, whereas Smith-Thibodeaux (1977) estimated 300,000-500,000 and Neumann (1985) 500,000-1,000,000 \parencite[as cited in][p.~113]{rottet_language_1995}.
     There is consensus, though, that the number of French speakers in Louisiana is generally dwindling.
-    For example, though \textcite{rottet_language_1995} had no real difficulty finding francophone Houma Indians under the age of 30 in his study of Southeast Louisiana, he had much more difficult finding Cajuns in this age group who spoke French (p.~71).
-    Americanization as discussed in Section \ref{sec:cajuns} and general economic pressures from the oil boom that brought in many Texans and anglophone North Louisianians have been cited as reasons for the decline in French (\citeauthor{neumann_creole_1985}, \citeyear[p.~49]{neumann_creole_1985}; \citeauthor[Larouche, 1981, as cited in][]{rottet_language_1995}, \citeyear[p.~105]{rottet_language_1995}), but whatever the cause, it is readily apparent that there are fewer speakers each day.
+    For example, though \textcite{rottet_language_1995} had no real difficulty finding francophone Houma Indians under the age of 30 in his study of Southeast Louisiana, he had much more difficulty finding Cajuns in this age group who spoke French (p.~71).
+    Americanization, as discussed in Section \ref{sec:cajuns}, and general economic pressures from the oil boom that brought in many Texans and anglophone North Louisianians have been cited as reasons for the decline in French (\citeauthor{neumann_creole_1985}, \citeyear[p.~49]{neumann_creole_1985}; \citeauthor[Larouche, 1981, as cited in][]{rottet_language_1995}, \citeyear[p.~105]{rottet_language_1995}), but whatever the cause, it is readily apparent that there are fewer speakers each day.
 
     % New Orleans is somewhat excluded from definitions of South Louisiana because it differs in several respects culturally, and one of those is the lack of locally grown French varieties.
       % Johnson (1976) argued that there were maybe 5,000 "indigenous speakers" of French in New Orleans at the time (23).
@@ -168,22 +173,22 @@
       % The large migration OUT of Louisiana to Texas during the earlier 1900s oil boom in the latter (Louder & Leblanc 1983, as cited in Rottet 1995:16) may have also helped galvanize the march towards English in Louisiana.
 
     \subsection{Ethnicity and subject pronouns in previous research}
-      Subject pronouns in the French spoken in South Louisiana have previously been found to vary according to the ethnicity of the speaker \parencite{rottet_language_1995, dajko_ethnic_2009}, though these studies have no thoroughly examined the role of race in this variation nor in the construction of ethnic identities as the present study will do.
+      Subject pronouns in the French spoken in South Louisiana have previously been found to vary according to the ethnicity of the speaker \parencite{rottet_language_1995, dajko_ethnic_2009}, though these studies have not thoroughly examined the role of race in this variation nor in the construction of ethnic identities as the present study will do.
       The system itself is summarized in Table \ref{tab:lf_sub_pro}.
-      For some of these variables, their are structural reasons for choosing one variant (i.e., pronoun) over another, particularly in the case of 3rd person singular.
+      For some of these variables, there are structural reasons for choosing one variant (i.e., pronoun) over another, particularly in the case of 3rd person singular.
       Not only is there a distinction between referring to inanimate versus animate subjects, where \lexi{ça} is for the former and \lexi{il}, \lexi{elle}, and \lexi{on} are for the latter, but there is also a distinction in gender (\lexi{il} for masculine and \lexi{elle} for feminine) and definiteness (\lexi{il} and \lexi{elle} are definite and \lexi{on} is indefinite).
       The envelope of variation for 3rd person singular pronouns, then, is rather between \lexi{li}, which can have any referent, and the other pronouns.
-      There is additionally a T/V distinction \parencite{brown_pronouns_1960} for 2nd person singular pronouns where \lexi{tu} and \lexi{to} represent the T terms of address and \lexi{vous} the V terms of address.
+      Additionally, there is a T-V distinction \parencite{brown_pronouns_1960} for 2nd person singular pronouns where \lexi{vous} represents the V term of address and \lexi{tu} and \lexi{to} may represent either the V or T term of address.
 
       While all of these linguistic variables are morphosyntactic, there is also phonetic variation at play.
-      The 1st person singular pronoun also involves phonetic variation in that three different consonants may be used in the pronunciation so that one might here [ʒə], [hə], or [zə], all of which may also be metathesized.
+      The 1st person singular pronoun also involves phonetic variation in that three different consonants may be used in the pronunciation so that one might hear [ʒə], [hə], or [zə], all of which may also be metathesized.
       There is additionally a phonological process which causes devoicing of the consonant when followed by a voiceless consonant in the verb \parencite{carmichael_language_2019}.
       Some of the other pronouns that are also subject to their own notable phonetic variations are \lexi{vous} ([vu], [u], or [vo]), \lexi{elle} ([ɛl] or [al]), \lexi{nous} ([nu] or [no]), \lexi{vous-autres} ([vuzɔt], [uzɔt], or [zɔt]), and \lexi{eux} ([øs], [ø], [øz], or [zø]).
       Finally, the final segments of practically all of these subject pronouns are dropped in certain linguistic contexts.
-      While it will be useful to keep in mind the existence of these phonetic variations, the present study will focus on morphosyntactic variation and so collapse them appropriately into individual lexical items during analysis.
+      While it will be useful to keep in mind the existence of these phonetic variations, the present study will focus on morphosyntactic variation and so collapse these phonetic variants appropriately into individual lexical items during analysis.
       \begin{table}
         \centering
-        \caption{The subject pronoun system of Louisiana French in South Louisiana}
+        \caption{The subject pronoun system of Louisiana French}
         \label{tab:lf_sub_pro}
         \begin{tabular}{l | l l | l}
                  & Singular                                                & Plural                                                          & Number \\
@@ -196,19 +201,20 @@
         \end{tabular}
       \end{table}
 
-      Most of the variationist work analyzing subject pronoun variation in Louisiana French has been conducted with speakers from Southeast Louisiana, specifically, which is an area where Creoles are not very represented as they are in other parts of South Louisiana but Houma Indians are represented as they are not in other parts of South Louisiana.
+      Most of the variationist work analyzing subject pronoun variation in Louisiana French has been conducted with speakers from Southeast Louisiana, specifically, which is an area where Creoles are not very represented as they are in other parts of South Louisiana.
+      Instead, Houma Indians are represented in Southeast Louisiana though not in other parts of South Louisiana.
       While this makes the results from such studies not directly relevant to the present study, they are still telling of the work that subject pronouns can do in Louisiana French.
-      Additionally, the southeast parishes examined in previous studies are directly adjacent to some of the more central parishes from which participants will be recruited for the current study.
+      Additionally, the southeast parishes examined in previous studies are not geographically distant from some of the more central parishes from which participants will be recruited for the current study.
 
       In general, it has been found that 3rd person plural subject pronouns vary according to ethnicity.
       \textcite{rottet_language_1995} found Houma Indians to strongly prefer \lexi{eux} whereas Cajuns were relatively split across \lexi{ils}, \lexi{ça}, \lexi{eux}, and \lexi{eux-autres}.
       \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) results were much the same with Houma Indians using more \lexi{eux}, though Cajuns had moved towards preferring \lexi{eux}, as well, since the time of \citeauthor{rottet_language_1995}'s (\citeyear{rottet_language_1995}) study, which is perhaps evidence of personal social networks becoming more ethnically diverse as fewer and fewer speakers remain available.\footnote{
-        This will be discussed in more detail in Section \ref{sec:personal_networks}.
+        Social networks will be discussed in more detail in Section \ref{sec:personal_networks}.
       }
       The variant \lexi{yé} was not considered as it is described in grammars as a marker of Louisiana Creole rather than Louisiana French \parencite{klingler_if_2003, neumann_creole_1985}.
       Indeed, several of the pronouns listed in Table \ref{tab:lf_sub_pro} -- \lexi{to}, \lexi{li}, \lexi{zo}, \lexi{yé} -- come from descriptions of Louisiana Creole and not Louisiana French, though they are not exclusive to Louisiana Creole.
       \textcite{rottet_language_1995} himself reported the use of \lexi{mo} as a variant despite it being a common marker of Louisiana Creole.
-      For instance, \textcite{klingler_probleme_2005} described \lexi{mo} as a ``\foreign{variante créole}'' \gloss{Creole variant} and \lexi{je} as a ``\foreign{variante cadienne}'' \gloss{Cajun variant} (i.e., French variant) in his examination of how to delineate between Louisiana Creole and Louisiana French in instances of code-switching (p.~355).
+      \textcite{klingler_probleme_2005}, for example, described \lexi{mo} as a ``\foreign{variante créole}'' \gloss{Creole variant} and \lexi{je} as a ``\foreign{variante cadienne}'' \gloss{Cajun variant} (i.e., French variant) in his examination of how to delineate between Louisiana Creole and Louisiana French in instances of code-switching (p.~355).
       In light of the stronger presence of Creoles and people who claim to speaker Louisiana Creole in the parishes around Lafayette, where this study will take place, as well as the conflation of speaker identity with the label they use to describe their language and the similarities between the two language varieties, maintaining these more Creole-oriented subject pronouns in the analysis for the present study is not only appropriate but may yield ethnically conditioned variation across more subject pronouns that just the 3rd person plural.
       Specifically, the first research question here is the following:
       \begin{itemize}
@@ -230,27 +236,27 @@
     The same study did in fact search out associations between the qualities of one's personal network and variation in linguistic features but found none.
     Not unrelated to \textcite{li_two-step_2000} and \citeauthor{sharma_scalar_2017}'s (\citeyear{sharma_scalar_2017}) work, research specifically on heritage languages has found that having an ethnically homogenous personal network will sometimes facilitate language maintenance and sometimes not \parencite{zhang_co-ethnic_2012}.
     Finally, while more interested in stylistic variation than the interspeaker variation that is the focus of the current study, \textcite{holliday_intonational_2016} also incorporated the racial make-up of her participants' personal networks in their descriptions.
-    Research has indeed touched on the influence of the quality of personal networks then, though more work is still needed to add more nuance to these previous findings.
+    Research has therefore touched on the influence of the quality of personal networks, though more work is still needed to add more nuance to these previous findings.
 
-    Neither the ethnic nor racial composition of personal social networks in South Louisiana have been outlined in the literature, though there have been observations and analysis that would suggest what the general structure of these social networks is.
+    In terms of the the ethnic and racial composition of personal social networks in South Louisiana, there have been observations and analysis that would suggest some qualities of these social networks, though almost no explicit social network analysis has been carried out.
     As mentioned in Section \ref{sec:cajuns}, a common theme in describing Louisiana social networks is the idea of isolation.
     For instance, \textcite{gold_french_1979} described the area around Mamou in Evangeline Parish as consisting of many close knit, isolated sharecropping neighborhoods surrounding the town (p.~272) until residents began migrating into Mamou starting around 1945 (p.~270).
-    This arrangement would presumably repeat over much of South Louisiana given that it has been estimated that 60\% of the population once lived in rural areas \parencite[Bobo and Charlton, 1974, as cited in][p.~27]{johnson_louisiana_1976}.
+    This arrangement would presumably repeat over much of South Louisiana given that it has been estimated that 60\% of the population once lived in rural areas \parencite[Bobo \& Charlton, 1974, as cited in][p.~27]{johnson_louisiana_1976}.
     Moreover, smaller towns such as Mamou have been said to themselves be isolated from larger cities such as Lafayette \parencite[p.~268]{gold_french_1979}, which \textcite{smith_influence_1939} argued was the result of French-speaking South Louisianians being farmers of singular cash crops, meaning what money they did make was spent on foods that they themselves did not grow but needed for sustenance (p.~198).
-    This sort of isolation was relievd later on when highways were finally built connecting places like Mamou to bigger cities \parencite[p.~268]{gold_french_1979}.
+    This sort of isolation was relieved later on when highways were finally built connecting places like Mamou to bigger cities \parencite[p.~268]{gold_french_1979}.
 
-    It has been argued that this general isolation had ended by the 1980s, at least for Cajuns \parencite[Esman, 1985, as cited in][p.~25]{brown_pronominal_1988}, though there are certainly still isolated communities in South Louisiana.
+    It has been argued that this general isolation had ended entirely by the 1980s, at least for Cajuns \parencite[Esman, 1985, as cited in][p.~25]{brown_pronominal_1988}, though there are certainly still isolated communities in South Louisiana.
     For instance, \textcite{rottet_language_1995} described Houma Indians as living primarily in ``subcommunities'' (p.~130) ``at the far ends of the bayous'' (p.~57) in Southeast Louisiana.
     Indeed, this was something of a confounding factor in his results showing different linguistic behavior between Houman Indians and Cajuns as the two groups were also geographically separated.
 
     Perhaps the most relevant work on social networks in Louisiana for the present study comes from \citeauthor{beggs_revisiting_1996}'s (\citeyear{beggs_revisiting_1996}) study of the distinctiveness of rural versus urban communities.
-    While their focus was not on the ethnic or racial make-up of personal networks, they did provide data on this characteristic which they simplified into a measure whether personal networks were primarily White, non-White, or mixed.
-    The results showed that, at the time in the two rural southwestern Louisiana parishes that they surveyed, personal networks were very homogenous, more so than personal networks in urban areas and even more so than personal networks in rural areas generally in the US.
+    While their focus was not on the ethnic or racial make-up of personal networks, they did provide data on this characteristic which they simplified into a measure of whether personal networks were primarily White, non-White, or mixed.
+    The results showed that, at the time in the two rural southwestern Louisiana parishes that they surveyed, personal networks were very homogenous, more so than personal networks in urban areas and more so even than personal networks in rural areas generally in the US.
     To the extent that Cajun and Creole identities had been collapsed into White and Black by then, respectively, this would suggest that it was not particularly common for Cajuns and Creoles to associate in 1992 when the survey interviews took place, though this is admittedly an extrapolation.
     Either way, the ethnic make-up of these networks today is not clear, and this may have implications for Louisiana French language maintenance and ultimately the speech patterns of those who continue to speak the variety.
     As such, the second research question of this study is the following:
     \begin{itemize}
-      \item[RQ2:] Have the ethnic make-up of personal networks among French speakers in Louisiana become more diverse, and what is the relationship between this ethnic make-up and variation in subject pronouns?
+      \item[RQ2:] Has the ethnic make-up of personal networks among French speakers in Louisiana become more diverse, and what is the relationship between this ethnic make-up and variation in subject pronouns?
     \end{itemize}
 
   \section{Speaker views on ethnicity, race, and Louisiana French}
@@ -263,48 +269,55 @@
     \end{itemize}
 
   \section{Methods}
+    To respond to the research questions above, variationist study design will be used, meaning participants will be recruited, interviews will be conducted and recorded, and the data will be analyzed statistically and textually.
+    Research questions 1 and 2 are quantitative in nature and so will be given statistical treatments, whereas research question 3 will be given a qualitative treatment.
+    The aim is to get a broad picture of how ethnicity interacts with Louisiana French speech patterns and what those interactions might mean.
+
     \subsection{Lafayette and the surrounding parishes}
-      The data that will be used to respond to these questions will come primarily from the parishes surrounding Lafayette Parish in the heart of South Louisiana as well as from Lafayette Parish itself.
+      The data that will be used for this study will come primarily from the parishes surrounding Lafayette Parish in the heart of South Louisiana as well as from Lafayette Parish itself.
       These parishes have been chosen for the high likelihood that both people identifying as Cajuns and Creoles will be found there.
       As practically all of South Louisiana has been branded Cajun \parencite{giancarlo_dont_2019}, members of this ethnic group can be found most anywhere.
       However, those identifying as Creoles are not found everywhere.
       Both \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009}, collecting data from Southeast Louisiana, relied on Cajuns and Houma Indians for ethnic categories as they did not find Creoles who spoke French in this region.
       On the other hand, the most comprehensive descriptions of Louisiana Creole came from data gathered in Pointe Coupee Parish \parencite{klingler_if_2003} and St Martin Parish \parencite{neumann_creole_1985}, the latter of which is adjacent to Lafayette Parish.
-      Given the tendency of speakers to conflate their ethnic identities with what they call their language varieties (\citeauthor{brown_pronominal_1988}, \citeyear{brown_pronominal_1988}, p.~5); \citeauthor{klingler_language_2003}, \citeyear{klingler_language_2003}), it is reasonable to assume this to mean that there are also self-identifying Creoles residing in these areas.
-      It has also been noted that Louisiana Creole is spoken in St James Parish and Cameron Parish \parencite[p.~7]{rottet_language_1995}.
-      Additionally, descriptive linguistic work has been done in Opelousas in St Landry Parish that specifically relied on finding French speakers who identify as Creoles \parencite{klingler_language_2003}.
-      Of the parishes mentioned, St Landry Parish and St Martin Parish are directly adjacent to Lafayette Parish, and the rest are more distant with Pointe Coupee Parish being the next closest as it is adjacent to both St Landry and St Martin.
+      Given the tendency of speakers to conflate their ethnic identities with what they call their language varieties (\citeauthor{brown_pronominal_1988}, \citeyear[p.~5]{brown_pronominal_1988}; \citeauthor{klingler_language_2003}, \citeyear{klingler_language_2003}), it is reasonable to assume this to mean that there are also self-identifying Creoles residing in these areas.
+      Other parishes where it has been noted that Louisiana Creole is spoken include St James Parish and Cameron Parish \parencite[p.~7]{rottet_language_1995}.
+      Additionally, descriptive linguistic work has been done in Opelousas in St Landry Parish that specifically relied on finding French speakers who identified as Creoles \parencite{klingler_language_2003}.
+      Of the parishes mentioned, St Landry Parish and St Martin Parish are directly adjacent to Lafayette Parish while the rest are more distant with Pointe Coupee Parish being the next closest as it is adjacent to both St Landry and St Martin.
 
     \subsection{Sampling and data collection protocols}
       In previous work in rural South Louisiana, snowball sampling has proven effective \parencite{brown_pronominal_1988, giancarlo_dont_2019, rottet_language_1995}, so this approach will be used in the present study, as well, albeit taking several different starting points.
       One advantage of this approach is that, while personal social networks rather than entire community networks are of interest in the present study, it could still be advantageous to see some overlap in personal networks.
       On the other hand, using different starting points will lend itself to approaching a balanced sample though likely not a true representative sample.
-      The only characteristic participants need have is that they identify as either Cajun or Creole regardless of any other identifications they might have.
+      The only characteristic participants need have in order to be included is that they identify as either Cajun or Creole regardless of any other identifications they might have.
 
       The process for data collection will consist of semi-structured sociolinguistic interviews, structured survey questions, and a short translation task.
       Interviews will be conducted one-on-one by myself in Louisiana French with the goal of collecting at least 30 hours of speech, ideally collecting one hour from each speaker.
-      Topic will consist of those conducive to casual small talk until discussing ethnicity, race, and French in the later portions of the interviews.
-      In particular, as a wide-range of subject pronouns are desired, interview questions will lean towards asking participants to relate stories to the interviewer.
+      Topics will consist of those conducive to casual small talk until discussing ethnicity, race, and French in the later portions of the interviews.
+      In particular, as a wide-range of subject pronouns are desired, interview questions will lean towards asking participants to relate stories to the interviewer that might involve describing events from different points of view.
       Survey questions will be used primarily to collect network data but will also provide an opportunity to obtain demographic information.
 
       Race will be self-identified by participants through an open-ended question.
-      As has been suggested in sociolinguistic research on biracial people \parencite{holliday_multiracial_2019} and as has been shown for Creoles in particular \parencite{susberry_racial_2004}, there are many ways that mixed-race people may choose to racially identify.
-      Ultimately, race will be coded using \citeauthor{rockquemore_beyond_2007}'s (\citeyear{rockquemore_beyond_2007}) typology wherein one my have a singular racial identity (in this case, likely Black or White), a border racial identity (i.e., consistently identifying as mixed, in this case, likely Creole), a protean racial identity (i.e., changing relative to the situation), or a transcendent racial identity (i.e., rejecting race as a concept altogether).
+      As has been suggested in sociolinguistic research on biracial people \parencite{holliday_multiracial_2019} and has been shown for Creoles in particular \parencite{susberry_racial_2004}, there are many ways that mixed-race people may choose to racially identify.
+      Ultimately, race will be coded using \citeauthor{rockquemore_beyond_2007}'s (\citeyear{rockquemore_beyond_2007}) typology wherein one may have a singular racial identity (in this case, likely Black or White), a border racial identity (i.e., consistently identifying as mixed, in this case, likely Creole), a protean racial identity (i.e., changing relative to the situation), or a transcendent racial identity (i.e., rejecting race as a concept altogether).
 
       Finally, a short translation task will be given with the aim of guaranteeing that a minimum number of tokens of each subject pronoun are captured.
       Previous studies on Louisiana French pronouns have relied primarily on this method to ensure a worthwhile token count \parencite{carmichael_language_2019, rottet_language_1995}.
-      As more is currently known about the structural distribution of some pronouns now (e.g., \lexi{ils} tends to be favored with auxiliary verbs for the 3rd person plural regardless of what is favored with lexical verbs), it will be easier to shorten the translation task without risking only capturing structural variation instead of socially conditioned variation, and so more time will be given to the semi-structured interview portions in the present study.
+      As more is now known about the structural distribution of some pronouns (e.g., \lexi{ils} tends to be favored with auxiliary verbs for the 3rd person plural regardless of what is favored with lexical verbs), it will be easier to shorten the translation task without risking only capturing structural variation instead of socially conditioned variation, and so more time will be given to the semi-structured interview portions in the present study.
 
     \subsection{Analyses}
       As this study is mostly quantitative in nature, fairly standard variationist methodology will be used in the analysis.
       Each person-number possibility for subject pronouns will act as a linguistic variable with the exception of 2nd person singular and 3rd person singular.
-      In the former case, there will be two linguistic variables, one for the T term of address and one for the V form of address \parencite{brown_pronouns_1960}.
+      In the former case, there will be two linguistic variables, one for the T term of address and one for the V term of address \parencite{brown_pronouns_1960}.
       In the latter case, there will be four linguistic variables, each consisting of \lexi{li} versus one of the four other subject pronouns.
 
-      Given the lower frequency of morphosyntactic variables in speech than phonetic variables, it is possible that much of the quantitative analysis of this study will have to rely on simple proportions rather than robust statistically modeling.
-      In the event that a sufficient token count is obtained for any variable, however, a mixed-effects model will be constructed to better establish which social factors, if any, are associated with which pronoun variants.
+      Given the lower frequency of morphosyntactic variables in speech than phonetic variables, it is possible that much of the quantitative analyses in this study will have to rely on simple proportions rather than robust statistical modeling.
+      In the event that a sufficient token count is obtained for any variable, however, mixed-effects models will be constructed to better establish which social factors, if any, are associated with which pronoun variants.
 
-  \section{Impact of study}
-    Ultimately, this study will expand researchers' understanding of how ethnicity interacts with language variation as well as heritage languages as they die off through an analysis of proniminal variation in the French spoken in southeast Louisiana.
+  \section{Impact of the study}
+    This study aims to expand researchers' understanding of how complex ethnicities interact with language variation as well as the role that race plays in those interactions through analyzing a rich sociolinguistic environment: South Louisiana.
+    The relationship between the ethnic groups chosen for this study -- Cajuns and Creoles -- is furthermore one that is well worth exploring more in terms of what it means for social equity.
+    These groups have been pushed more and more into the racial binary system of the general US, and as has been shown \parencite{giancarlo_dont_2019}, the sort of marginalization that comes along with that system also exists in Louisiana.
+    Finally, as Louisiana French is in all likelihood a heritage language at this point, results from this study may inform research on heritage languages and how ethnicity interacts with their structures generally.
   \printbibliography
 \end{document}
