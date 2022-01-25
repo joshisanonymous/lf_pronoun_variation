@@ -50,6 +50,7 @@
   The present study aims to replicate previous studies that looked at French subject pronouns, giving greater attention to the role of race in ethnicity and exploring what happens to the ethnic make-up of personal networks among speakers of a heritage language with the goal of shedding light on what is known about the role of ethnicity in language variation and heritage languages.
 
   \section{Ethnicity and race in South Louisiana}
+    \label{sec:ethnicity_race}
     The complexity of ethnicity in South Louisiana is perhaps due to the variety of colonizing forces that have controlled it as well as immigration patterns.
     It was initially colonized by France, who turned over control to Spain in the 1760s, who then gave control of the region back to France very shortly before selling it to the United States as the Louisiana Purchase in 1803 \parencite{fortier_french_1884, johnson_louisiana_1976, klingler_if_2003}.
     Additionally, Louisiana has been the landing point for influxes of refugees from Saint-Domingue\footnote{
@@ -140,7 +141,7 @@
     The linguistic focus of this study will be on ethnic variation in Louisiana French, broadly defined, meaning Louisiana Creole will not be excluded as these two varieties are quite close structurally, particularly in the parishes that are adjacent to Lafayette Parish where participants will be sought out.
     Indeed, in cases of code-switching Louisiana French and Louisiana Creole, it can be extremely difficult to distinguish where one variety ends and another begins \parencite{klingler_probleme_2005} as there are very few lexical differences (\citeauthor{neumann_creole_1985}, \citeyear[p.~52]{neumann_creole_1985}; \citeauthor[Rottet, 2000, as cited in][]{klingler_probleme_2005}, \citeyear[p.~352]{klingler_probleme_2005}).
     It has also been noted that Louisiana French displays syntactic features that are closer to Louisiana Creole than other varieties of French in parishes where the two are in contact \parencite{baronian_influence_2005}.
-    Furthermore, speakers and sometimes even researchers have defined these two varieties more by who the speaker is than by their linguistic structures in the sense that Creoles are said to speak Louisiana Creole even when their speech patterns ressemble French and Cajuns are said to speak Louisiana French even when their speech patterns ressemble Creole (\citeauthor{brown_pronominal_1988}, \citeyear{brown_pronominal_1988}, p.~5); \citeauthor{klingler_bijou_2013}, \citeyear{klingler_bijou_2013}).
+    Furthermore, speakers and sometimes even researchers have defined these two varieties more by who the speaker is than by their linguistic structures in the sense that Creoles are said to speak Louisiana Creole even when their speech patterns ressemble French and Cajuns are said to speak Louisiana French even when their speech patterns resemble Creole (\citeauthor{brown_pronominal_1988}, \citeyear{brown_pronominal_1988}, p.~5); \citeauthor{klingler_language_2003}, \citeyear{klingler_language_2003}).
     Given these facts as well as claims that the two varieties are mutually intelligible \parencite[p.~29]{neumann_creole_1985}, excluding Louisiana Creole would be difficult at best and questionable at worst, and so ``Louisiana French'' here may include speech that appears Creole-like.
 
     % R. A. Brown (1988) defines the 3 French-based languages of Louisiana -- Colonial, Cajun, and Creole -- as being spoken by European Creoles, Acadian descendants, and descendants of slaves, respectively (34-35), suggesting that even researchers have defined these varieties by who their speakers are rather than by linguistic structure.
@@ -187,7 +188,7 @@
         \begin{tabular}{l | l l | l}
                  & Singular                                                & Plural                                                          & Number \\
           \hline
-          1st    & \lexi{je}, \lexi{moi}, \lexi{mo}                        & \lexi{nous}, \lexi{nous-autres}, \lexi{on},                     & \\
+          1st    & \lexi{je}, \lexi{mo}                                    & \lexi{nous}, \lexi{nous-autres}, \lexi{on},                     & \\
           2nd    & \lexi{tu}, \lexi{to}, \lexi{vous}                       & \lexi{vous}, \lexi{vous-autres}, \lexi{zo}                      & \\
           3rd    & \lexi{il}, \lexi{elle}, \lexi{on}, \lexi{ça}, \lexi{li} & \lexi{ils}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} & \\
           \hline
@@ -242,32 +243,54 @@
     For instance, \textcite{rottet_language_1995} described Houma Indians as living primarily in ``subcommunities'' (p.~130) ``at the far ends of the bayous'' (p.~57) in Southeast Louisiana.
     Indeed, this was something of a confounding factor in his results showing different linguistic behavior between Houman Indians and Cajuns as the two groups were also geographically separated.
 
-    Perhaps the most relevant work on social networks in Louisiana for the present study comes from 
-    % Insert RQ2 here?
+    Perhaps the most relevant work on social networks in Louisiana for the present study comes from \citeauthor{beggs_revisiting_1996}'s (\citeyear{beggs_revisiting_1996}) study of the distinctiveness of rural versus urban communities.
+    While their focus was not on the ethnic or racial make-up of personal networks, they did provide data on this characteristic which they simplified into a measure whether personal networks were primarily White, non-White, or mixed.
+    The results showed that, at the time in the two rural southwestern Louisiana parishes that they surveyed, personal networks were very homogenous, more so than personal networks in urban areas and even more so than personal networks in rural areas generally in the US.
+    To the extent that Cajun and Creole identities had been collapsed into White and Black by then, respectively, this would suggest that it was not particularly common for Cajuns and Creoles to associate in 1992 when the survey interviews took place, though this is admittedly an extrapolation.
+    Either way, the ethnic make-up of these networks today is not clear, and this may have implications for Louisiana French language maintenance and ultimately the speech patterns of those who continue to speak the variety.
+    As such, the second research question of this study is the following:
+    \begin{itemize}
+      \item[RQ2:] Have the ethnic make-up of personal networks among French speakers in Louisiana become more diverse, and what is the relationship between this ethnic make-up and variation in subject pronouns?
+    \end{itemize}
+
+  \section{Speaker views on ethnicity, race, and Louisiana French}
+    An ancillary goal of this study will be to generate a picture of how French speakers in South Louisiana view ethnicity, race, and Louisiana French.
+    Attitudes towards Louisiana French were addressed in \textcite{dubois_quality_1995} and then again in \textcite{lindner_attitudes_2008} but not since, and so another snapshot in time of those attitudes as the language declines helps broaden what is known about the status of Louisiana French.
+    In terms of ethnicity and race, a qualitative analysis of how these categories are discussed relative to the literature discussed in Seciton \ref{sec:ethnicity_race} will help uncover the social meaning of any findings from the above quantitative analyses.
+    Therefore, the third research question of this study is the following:
+    \begin{itemize}
+      \item[RQ3:] What do Louisiana French speakers have to say about their language, ethnicity, and race?
+    \end{itemize}
 
   \section{Methods}
     \subsection{Lafayette and the surrounding parishes}
-      % Neumann (1985) claimed that Breaux Bridge and Pointe Coupee were where most Louisiana Creole speakers lived in Louisiana in general (1).
-        % Neumann (1985) also claimed that most White speakers of Louisiana Creole lived in Henderson, Cecilia, Catahoula, and Kraemer (40).
+      The data that will be used to respond to these questions will come primarily from the parishes surrounding Lafayette Parish in the heart of South Louisiana as well as from Lafayette Parish itself.
+      These parishes have been chosen for the high likelihood that both people identifying as Cajuns and Creoles will be found there.
+      As practically all of South Louisiana has been branded Cajun \parencite{giancarlo_dont_2019}, members of this ethnic group can be found most anywhere.
+      However, those identifying as Creoles are not found everywhere.
+      Both \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009}, collecting data from Southeast Louisiana, relied on Cajuns and Houma Indians for ethnic categories as they did not find Creoles who spoke French in this region.
+      On the other hand, the most comprehensive descriptions of Louisiana Creole came from data gathered in Pointe Coupee Parish \parencite{klingler_if_2003} and St Martin Parish \parencite{neumann_creole_1985}, the latter of which is adjacent to Lafayette Parish.
+      Given the tendency of speakers to conflate their ethnic identities with what they call their language varieties (\citeauthor{brown_pronominal_1988}, \citeyear{brown_pronominal_1988}, p.~5); \citeauthor{klingler_language_2003}, \citeyear{klingler_language_2003}), it is reasonable to assume this to mean that there are also self-identifying Creoles residing in these areas.
+      It has also been noted that Louisiana Creole is spoken in St James Parish and Cameron Parish \parencite[p.~7]{rottet_language_1995}.
+      Additionally, descriptive linguistic work has been done in Opelousas in St Landry Parish that specifically relied on finding French speakers who identify as Creoles \parencite{klingler_language_2003}.
+      Of the parishes mentioned, St Landry Parish and St Martin Parish are directly adjacent to Lafayette Parish, and the rest are more distant with Pointe Coupee Parish being the next closest as it is adjacent to both St Landry and St Martin.
 
-    \subsection{Data collection}
+    \subsection{Sampling and data collection protocols}
+      In previous work in rural South Louisiana, snowball sampling has proven effective \parencite{brown_pronominal_1988, giancarlo_dont_2019, rottet_language_1995}, so this approach will be used in the present study, as well, albeit taking several different starting points.
+      One advantage of this approach is that, while personal social networks rather than entire community networks are of interest in the present study, it could still be advantageous to see some overlap in personal networks.
+      On the other hand, using different starting points will lend itself to approaching a balanced sample though likely not a true representative sample.
+
+      The process for data collection will consist of semi-structured sociolinguistic interviews and structured survey questions.
+      Interviews will be conducted one-on-one by myself in Louisiana French with the goal of collecting at least 30 hours of speech, ideally collecting one hour from each speaker.
+      Topic will consist of those conducive to casual small talk until discussing ethnicity, race, and French in the later portions of the interviews.
+      Survey questions will be used primarily to collect network data but will also provide an opportunity to obtain demographic information.
+      Ethnicity and race will both be self-identified by participants.
 
     \subsection{Analyses}
+      As this study is mostly quantitative in nature, fairly standard variationist methodology will be used in the analysis.
+      Each person-number possibility for subject pronouns will act as a linguistic variable
 
-  % \section{The present study}
-    % \subsection{The intersection of race and ethnicity in Louisiana French pronoun variation}
-    The first goal of the present study is to replicate previous variationist analyses of the subject pronoun system along ethnic lines with the addition of including speakers who identify as Creole.
-    This will not only provide another time point for the system as the language continues to decline but also implicate general American racial categories and how they interact with local Louisiana ethnic categories.
-
-    % \subsection{Social networks and heritage langauges}
-    The second goal of this study is to expand this quantitative analysis to explore the ethnic make-up of speakers' personal networks.
-    This factor has been found to be important in language variation in previous studies \parencite{li_two-step_2000, sharma_scalar_2017}, though it is not known how it interacts with heritage languages as they decline, nor has the ethnic make-up of personal networks in Louisiana been documented to date at all.
-    It is possible that personal networks become more diverse as speakers search for interlocutors in a shrinking population of speakers.
-
-    % \subsection{}
-    The third and final goal of this study is to explore speakers' discourse on ethnicity, race, and French so as to better understand their stances in relation to the results from the quantitative analyses.
-    In particular, despite being a declining language, little is known about current attitudes towards French in Louisiana as the most recent study on the subject was was conducted 26 years ago. \parencite{dubois_quality_1995}.
-
+  \section{Impact of study}
     Ultimately, this study will expand researchers' understanding of how ethnicity interacts with language variation as well as heritage languages as they die off through an analysis of proniminal variation in the French spoken in southeast Louisiana.
   \printbibliography
 \end{document}
