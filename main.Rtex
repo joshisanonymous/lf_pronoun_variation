@@ -279,16 +279,30 @@
       In previous work in rural South Louisiana, snowball sampling has proven effective \parencite{brown_pronominal_1988, giancarlo_dont_2019, rottet_language_1995}, so this approach will be used in the present study, as well, albeit taking several different starting points.
       One advantage of this approach is that, while personal social networks rather than entire community networks are of interest in the present study, it could still be advantageous to see some overlap in personal networks.
       On the other hand, using different starting points will lend itself to approaching a balanced sample though likely not a true representative sample.
+      The only characteristic participants need have is that they identify as either Cajun or Creole regardless of any other identifications they might have.
 
-      The process for data collection will consist of semi-structured sociolinguistic interviews and structured survey questions.
+      The process for data collection will consist of semi-structured sociolinguistic interviews, structured survey questions, and a short translation task.
       Interviews will be conducted one-on-one by myself in Louisiana French with the goal of collecting at least 30 hours of speech, ideally collecting one hour from each speaker.
       Topic will consist of those conducive to casual small talk until discussing ethnicity, race, and French in the later portions of the interviews.
+      In particular, as a wide-range of subject pronouns are desired, interview questions will lean towards asking participants to relate stories to the interviewer.
       Survey questions will be used primarily to collect network data but will also provide an opportunity to obtain demographic information.
-      Ethnicity and race will both be self-identified by participants.
+
+      Race will be self-identified by participants through an open-ended question.
+      As has been suggested in sociolinguistic research on biracial people \parencite{holliday_multiracial_2019} and as has been shown for Creoles in particular \parencite{susberry_racial_2004}, there are many ways that mixed-race people may choose to racially identify.
+      Ultimately, race will be coded using \citeauthor{rockquemore_beyond_2007}'s (\citeyear{rockquemore_beyond_2007}) typology wherein one my have a singular racial identity (in this case, likely Black or White), a border racial identity (i.e., consistently identifying as mixed, in this case, likely Creole), a protean racial identity (i.e., changing relative to the situation), or a transcendent racial identity (i.e., rejecting race as a concept altogether).
+
+      Finally, a short translation task will be given with the aim of guaranteeing that a minimum number of tokens of each subject pronoun are captured.
+      Previous studies on Louisiana French pronouns have relied primarily on this method to ensure a worthwhile token count \parencite{carmichael_language_2019, rottet_language_1995}.
+      As more is currently known about the structural distribution of some pronouns now (e.g., \lexi{ils} tends to be favored with auxiliary verbs for the 3rd person plural regardless of what is favored with lexical verbs), it will be easier to shorten the translation task without risking only capturing structural variation instead of socially conditioned variation, and so more time will be given to the semi-structured interview portions in the present study.
 
     \subsection{Analyses}
       As this study is mostly quantitative in nature, fairly standard variationist methodology will be used in the analysis.
-      Each person-number possibility for subject pronouns will act as a linguistic variable
+      Each person-number possibility for subject pronouns will act as a linguistic variable with the exception of 2nd person singular and 3rd person singular.
+      In the former case, there will be two linguistic variables, one for the T term of address and one for the V form of address \parencite{brown_pronouns_1960}.
+      In the latter case, there will be four linguistic variables, each consisting of \lexi{li} versus one of the four other subject pronouns.
+
+      Given the lower frequency of morphosyntactic variables in speech than phonetic variables, it is possible that much of the quantitative analysis of this study will have to rely on simple proportions rather than robust statistically modeling.
+      In the event that a sufficient token count is obtained for any variable, however, a mixed-effects model will be constructed to better establish which social factors, if any, are associated with which pronoun variants.
 
   \section{Impact of study}
     Ultimately, this study will expand researchers' understanding of how ethnicity interacts with language variation as well as heritage languages as they die off through an analysis of proniminal variation in the French spoken in southeast Louisiana.
