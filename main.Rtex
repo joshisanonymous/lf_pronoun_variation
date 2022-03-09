@@ -32,6 +32,7 @@
   \newcommand{\lexi}[1]{\textit{#1}}
   \newcommand{\gloss}[1]{`#1'}
   \newcommand{\foreign}[1]{\textit{#1}}
+  \newcommand{\longtrans}[1]{[#1]}
 
 \begin{document}
   \maketitle
@@ -40,6 +41,7 @@
   Indeed, the boundary between North and South Louisiana is traditionally a division in culinary practices, religion, and language \parencite[p.~309]{trepanier_french_1988}, where those cultural features that most distinguish Louisiana from the rest of the Deep South are those of South Louisiana.
   This has led to a situation where even South Louisiana locals will sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to the perceived indistinguishability of North Louisiana from the rest of the mostly Anglo, Protestant American South. % Gold (1979) also describes North Louisiana as "anglophone" (265), and Johnson (1976) describes Northerners as historically being "rabid anti-Catholic Protestants" (27).
   For sociolinguists, South Louisiana is of interest for two reasons: The two major local ethnic categories -- Creole and Cajun -- have over time been redefined to align with the Black and White American racial binary, respectively, and French is spoken there as a heritage language where it was the dominant language as recently as the mid 20th century.
+  This context provides an opportunity to better understand to what extent local ethnic categories per
 
   \begin{figure}[tbhp]
     \centering
@@ -174,30 +176,36 @@
 
     \subsection{Ethnicity and subject pronouns in previous research}
       Subject pronouns in the French spoken in South Louisiana have previously been found to vary according to the ethnicity of the speaker \parencite{rottet_language_1995, dajko_ethnic_2009}, though these studies have not thoroughly examined the role of race in this variation nor in the construction of ethnic identities as the present study will do.
-      The system itself is summarized in Table \ref{tab:lf_sub_pro}.
-      For some of these variables, there are structural reasons for choosing one variant (i.e., pronoun) over another, particularly in the case of 3rd person singular.
-      Not only is there a distinction between referring to inanimate versus animate subjects, where \lexi{ça} is for the former and \lexi{il}, \lexi{elle}, and \lexi{on} are for the latter, but there is also a distinction in gender (\lexi{il} for masculine and \lexi{elle} for feminine) and definiteness (\lexi{il} and \lexi{elle} are definite and \lexi{on} is indefinite).
-      The envelope of variation for 3rd person singular pronouns, then, is rather between \lexi{li}, which can have any referent, and the other pronouns.
-      Additionally, there is a T-V distinction \parencite{brown_pronouns_1960} for 2nd person singular pronouns where \lexi{vous} represents the V term of address and \lexi{tu} and \lexi{to} may represent either the V or T term of address.
-
       While all of these linguistic variables are morphosyntactic, there is also phonetic variation at play.
-      The 1st person singular pronoun also involves phonetic variation in that three different consonants may be used in the pronunciation so that one might hear [ʒə], [hə], or [zə], all of which may also be metathesized.
-      There is additionally a phonological process which causes devoicing of the consonant when followed by a voiceless consonant in the verb \parencite{carmichael_language_2019}.
-      Some of the other pronouns that are also subject to their own notable phonetic variations are \lexi{vous} ([vu], [u], or [vo]), \lexi{elle} ([ɛl] or [al]), \lexi{nous} ([nu] or [no]), \lexi{vous-autres} ([vuzɔt], [uzɔt], or [zɔt]), and \lexi{eux} ([øs], [ø], [øz], or [zø]).
-      Finally, the final segments of practically all of these subject pronouns are dropped in certain linguistic contexts.
-      While it will be useful to keep in mind the existence of these phonetic variations, the present study will focus on morphosyntactic variation and so collapse these phonetic variants appropriately into individual lexical items during analysis.
+      % The system itself is summarized in Table \ref{tab:lf_sub_pro}.
+      % For some of these variables, there are structural reasons for choosing one variant (i.e., pronoun) over another, particularly in the case of 3rd person singular.
+      % Not only is there a distinction between referring to inanimate versus animate subjects, where \lexi{ça} is for the former and \lexi{il}, \lexi{elle}, and \lexi{on} are for the latter, but there is also a distinction in gender (\lexi{il} for masculine and \lexi{elle} for feminine) and definiteness (\lexi{il} and \lexi{elle} are definite and \lexi{on} is indefinite).
+      % The envelope of variation for 3rd person singular pronouns, then, is rather between \lexi{li}, which can have any referent, and the other pronouns.
+      % Additionally, there is a T-V distinction \parencite{brown_pronouns_1960} for 2nd person singular pronouns where \lexi{vous} represents the V term of address and \lexi{tu} and \lexi{to} may represent either the V or T term of address.
+
+      % The 1st person singular pronoun also involves phonetic variation in that three different consonants may be used in the pronunciation so that one might hear [ʒə], [hə], or [zə], all of which may also be metathesized.
+      % There is additionally a phonological process which causes devoicing of the consonant when followed by a voiceless consonant in the verb \parencite{carmichael_language_2019}.
+      % Some of the other pronouns that are also subject to their own notable phonetic variations are \lexi{vous} ([vu], [u], or [vo]), \lexi{elle} ([ɛl] or [al]), \lexi{nous} ([nu] or [no]), \lexi{vous-autres} ([vuzɔt], [uzɔt], or [zɔt]), and \lexi{eux} ([øs], [ø], [øz], or [zø]).
+      % Finally, the final segments of practically all of these subject pronouns are dropped in certain linguistic contexts.
+      % While it will be useful to keep in mind the existence of these phonetic variations, the present study will focus on morphosyntactic variation and so collapse these phonetic variants appropriately into individual lexical items during analysis.
       \begin{table}
         \centering
         \caption{The subject pronoun system of Louisiana French}
         \label{tab:lf_sub_pro}
-        \begin{tabular}{l | l l | l}
-                 & Singular                                                & Plural                                                          & Number \\
+        \begin{tabular}{l l l}
+          Variable  & Description                              & Variants \\
           \hline
-          1st    & \lexi{je}, \lexi{mo}                                    & \lexi{nous}, \lexi{nous-autres}, \lexi{on},                     & \\
-          2nd    & \lexi{tu}, \lexi{to}, \lexi{vous}                       & \lexi{vous}, \lexi{vous-autres}, \lexi{zo}                      & \\
-          3rd    & \lexi{il}, \lexi{elle}, \lexi{on}, \lexi{ça}, \lexi{li} & \lexi{ils}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} & \\
-          \hline
-          Person &                                                         &                                                                 &
+          (1sg)     & 1st person singular                      & \lexi{je}, \lexi{mo}, ø \\
+          (2sg.T)   & 2nd person singular T form               & \lexi{tu}, \lexi{to} \\
+          (2sg.V)   & 2nd person singular V form               & \lexi{vous}, \lexi{tu}, \lexi{to} \\
+          (3sg.AF)  & 3rd person singular animate feminine     & \lexi{elle}, \lexi{li} \\
+          (3sg.AM)  & 3rd person singular animate masculine    & \lexi{il}, \lexi{li} \\
+          (3sg.IF)  & 3rd person singular inanimate feminine   & \lexi{ça}, \lexi{elle}, \lexi{li} \\
+          (3sg.IF)  & 3rd person singular inanimate masculline & \lexi{ça}, \lexi{il}, \lexi{li} \\
+          (1pl)     & 1st person plural                        & \lexi{nous}, \lexi{nous-autres}, \lexi{on} \\
+          (2pl)     & 2nd person plural                        & \lexi{vous}, \lexi{vous-autres}, \lexi{zo}, \lexi{tu} \\
+          (3pl.F)   & 3rd person plural feminine               & \lexi{elles}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} \\
+          (3pl.M)   & 3rd person plural masculine              & \lexi{ils}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} \\
         \end{tabular}
       \end{table}
 
@@ -291,15 +299,57 @@
       On the other hand, using different starting points will lend itself to approaching a balanced sample though likely not a true representative sample.
       The only characteristic participants need have in order to be included is that they identify as either Cajun or Creole regardless of any other identifications they might have.
 
-      The process for data collection will consist of semi-structured sociolinguistic interviews, structured survey questions, and a short translation task.
+      Race, on the other hand, will be self-identified by participants through an open-ended question as open-ended questions have been found to produce more accurate reporting than closed-ended questions \parencite[p.~434]{vannette_proxy_2018}.
+      As has been suggested in sociolinguistic research on biracial people \parencite{holliday_multiracial_2019} and has been shown for Creoles in particular \parencite{susberry_racial_2004}, there are many ways that mixed-race people may choose to racially identify.
+      Ultimately, race will be coded using \citeauthor{rockquemore_beyond_2007}'s (\citeyear{rockquemore_beyond_2007}) typology wherein one may have a singular racial identity (in this case, likely Black or White), a border racial identity (i.e., consistently identifying as mixed, in this case, likely Creole), a protean racial identity (i.e., changing relative to the situation), or a transcendent racial identity (i.e., rejecting race as a concept altogether).
+
+      Likewise, the ethnic and racial characteristics of those named by participants as being part of their personal social networks (i.e., who are called the participants' alters) will be given by the participants themselves rather than being given by those alters directly.
+      While this potentially yields categories that do not match would those alters would have given, this is not expected to be problematic.
+      As has been noted in the literature \parencite[pp.~245-246]{vannette_collecting_2018}, the participants' perception of the characteristics of those in their network is often more meaningful than their true characteristics, and that is likely to hold true for the present study.
+      Furthermore, surveys participants reports on relatively fixed details of non-participants who are close to them have proven to be nearly as accurate as what would have been reported by the non-participants themselves \parencite{vannette_proxy_2018}.
+
+      These details about ethnicity and race, as well as social network and linguistic data, will be collected through semi-structured sociolinguistic interviews, structured survey questions, and a short translation task.
       Interviews will be conducted one-on-one by myself in Louisiana French with the goal of collecting at least 30 hours of speech, ideally collecting one hour from each speaker.
       Topics will consist of those conducive to casual small talk until discussing ethnicity, race, and French in the later portions of the interviews.
       In particular, as a wide-range of subject pronouns are desired, interview questions will lean towards asking participants to relate stories to the interviewer that might involve describing events from different points of view.
-      Survey questions will be used primarily to collect network data but will also provide an opportunity to obtain demographic information.
 
-      Race will be self-identified by participants through an open-ended question.
-      As has been suggested in sociolinguistic research on biracial people \parencite{holliday_multiracial_2019} and has been shown for Creoles in particular \parencite{susberry_racial_2004}, there are many ways that mixed-race people may choose to racially identify.
-      Ultimately, race will be coded using \citeauthor{rockquemore_beyond_2007}'s (\citeyear{rockquemore_beyond_2007}) typology wherein one may have a singular racial identity (in this case, likely Black or White), a border racial identity (i.e., consistently identifying as mixed, in this case, likely Creole), a protean racial identity (i.e., changing relative to the situation), or a transcendent racial identity (i.e., rejecting race as a concept altogether).
+
+      Survey questions will be used primarily to collect network data but will also provide an opportunity to obtain demographic information.
+      Social networks questions will follow the typical practice of using a name-generator question to obtain alters followed by the name-interpreter questions to obtain details of those alters.
+      While using computer technology to ask these questions likely reduces the mental burden placed on participants \parencite[Stark \& Krosnick, 2017, as cited in][pp.~248-249]{vannette_collecting_2018}, these questions will instead be asked orally as many of the participants will likely be advanced in age and perhaps uncomfortable with computers.
+      Additionally, asking orally allows the questions to be posed in French as most Louisiana French speakers do not read and write in French.
+      This is beneficial as it keeps them in the French mode during the interview and will possibly cause them to report more of the francophones to whom they are close than they might otherwise do.
+      Additionally, when posing name-interpreter questions, the participant will be asked to give one type of characteristic for all their alters before moving on to the next type of characteristic as this is known to yield data with more validity \parencite[Coromina \& Coenders, 2006; Vehovar et al., 2008, both as cited in][p.~247]{vannette_collecting_2018}.
+
+      Question \ref{quest:name_generator} below is the name generator question meant to gather a list of alters.
+      It is a translation of the question used in the General Social Survey (GSS), which is possibly the most common name generator question used in research employing social networks \parencite[p.~244]{vannette_collecting_2018}.
+      Question \ref{quest:name_interp_relation} simply gathers the general nature of the relationship with each alter.
+      Question \ref{quest:name_interp_french} aims at distinguishing the people with whom they speak French in their networks and the people with whom they do not speak French.
+      Question \ref{quest:name_interp_ethnic} gathers the ethnic identities of alters.
+      For this question, the English word \lexi{ethnicity} will also be used alongside the French \lexi{ethnicité} as the French term is not one that has been reported as being used in Louisiana French, and so participants may not be familiar with it, even though they are surely familiar with the idea of ethnic identities.
+      Finally, Question \ref{quest:name_interp_race} will elicit the perceived race of each alter.
+      \begin{enumerate}
+        \item Tous les temps en temps, le monde parle pour les affaires importantes avec d'autre monde. Si tu peux jongler pour les six derniers mois, qui sont les individus avec qui toi tu parles pour les affaires qui te sont importantes? Donne-moi rien que leur prénom ou leurs initiales. \label{quest:name_generator}
+        \begin{enumerate}
+          \item[] \longtrans{From time to time, most people discuss important matters with other people. Looking back over the last six months, who are the people with whom you discussed matters important to you? Just tell me their first names or initials.}
+        \end{enumerate}
+        \item Pour chaque personne sur cette liste, quoi c'est ton rapport avec lui? La personne est un(e) ami(e) ou un parent ou autre chose? \label{quest:name_interp_relation}
+        \begin{enumerate}
+          \item[] \longtrans{For each person on this list, what is your relationship with them? Is the person a friend or a relative or something else?}
+        \end{enumerate}
+        \item Quelles personnes sur cette liste sont des personnes avec qui tu parles souvent français? \label{quest:name_interp_french}
+        \begin{enumerate}
+          \item[] \longtrans{Which people on this list are people with whom you often speak French?}
+        \end{enumerate}
+        \item Pour chaque personne sur cette liste, quoi c'est son éthnicité, c'est-à-dire son \foreign{ethnicity}? \label{quest:name_interp_ethnic}
+        \begin{enumerate}
+          \item[] \longtrans{For each person on this list, what is their ethnicity, that is to say their ethnicity?}
+        \end{enumerate}
+        \item Pour chaque personne sur cette liste, quoi c'est sa race? \label{quest:name_interp_race}
+        \begin{enumerate}
+          \item[] \longtrans{For each person on this list, what is their race?}
+        \end{enumerate}
+      \end{enumerate}
 
       Finally, a short translation task will be given with the aim of guaranteeing that a minimum number of tokens of each subject pronoun are captured.
       Previous studies on Louisiana French pronouns have relied primarily on this method to ensure a worthwhile token count \parencite{carmichael_language_2019, rottet_language_1995}.
@@ -319,5 +369,11 @@
     The relationship between the ethnic groups chosen for this study -- Cajuns and Creoles -- is furthermore one that is well worth exploring more in terms of what it means for social equity.
     These groups have been pushed more and more into the racial binary system of the general US, and as has been shown \parencite{giancarlo_dont_2019}, the sort of marginalization that comes along with that system also exists in Louisiana.
     Finally, as Louisiana French is in all likelihood a heritage language at this point, results from this study may inform research on heritage languages and how ethnicity interacts with their structures generally.
+
   \printbibliography
+
+  \appendix
+    \section{Interview Module}
+      \input{research_tools/interview_modules/pronouns_race_ethnicity.tex}
+
 \end{document}
