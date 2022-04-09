@@ -2,27 +2,37 @@
 # Generate test data #
 ######################
 
-# Packages
+## Packages
 library(babynames)
 
-# Variables
+## Variables
 dataDir <- "./data/"
+dataSize <- 2500
+participantSize <- 30
+
+# Linguistic variables
 followingVerb <- read.csv(paste(dataDir, "french_verbs.csv", sep = ""), fileEncoding = "UTF-8")
 followingVerb <- followingVerb[followingVerb$tags == "['infinitive']", "form"]
 pn2sgVariants <- c("tu", "to")
 pn3plVariants <- c("ils", "ça", "eux", "eux-autres", "yé")
 verbType <- c("lexical", "modal", "auxiliary")
+
+# Social variables
 ethnicity <- c("Cajun", "Creole")
 race <- c("Singular Black", "Singular White", "Transcendent", "Border", "Protean")
 residence <- c("Lafayette", "St Martin", "St Landry")
 raised <- c("Lafayette", "St Martin", "St Landry")
 profession <- c("White Collar", "Blue Collar", "Unemployed")
 education <- c("Some School", "High School Graduate", "College Graduate")
-networkEthnicHomophily <- seq(0, 1, by = 0.01)
-dataSize <- 2500
 
-# Participants
-participants <- babynames[sample(length(babynames$year), 30, replace = FALSE), ]
+# Network alter variables
+avgNetworkSize <- 5
+alterType <- c("Core", "Non-Core")
+alterEthnicity <- c("Cajun", "Creole", "Vietnamese", "Latino", "American")
+frenchFrequency <- c("Always", "Often", "Occasionally", "Never")
+
+## Participants
+participants <- babynames[sample(length(babynames$name), participantSize, replace = FALSE), ]
 participants <- cbind(
   participants,
   sample(ethnicity, length(participants$name), replace = TRUE),
@@ -31,13 +41,23 @@ participants <- cbind(
   sample(raised, length(participants$name), replace = TRUE),
   sample(profession, length(participants$name), replace = TRUE),
   sample(education, length(participants$name), replace = TRUE),
-  sample(networkEthnicHomophily, length(participants$name), replace = TRUE))
+  "")
 colnames(participants) <- c(
   "Birth Year", "Gender", "Name", "N", "Prop", "Ethnicity",
   "Race", "Residence", "Raised", "Profession", "Education",
   "Network Ethnic Homophily")
 
-# Data
+# Participant alters
+networks <- data.frame(
+  "Participant" = rep(participants$Name, avgNetworkSize),
+  "Alter" = babynames[sample(length(babynames$name), participantSize * avgNetworkSize), "name"],
+  "Alter Type" = sample(alterType, participantSize * avgNetworkSize, replace = TRUE),
+  "Alter Ethnicity" = sample(alterEthnicity, participantSize * avgNetworkSize, replace = TRUE),
+  "Alter French Frequency" = sample(frenchFrequency, participantSize * avgNetworkSize, replace = TRUE)
+)
+colnames(networks) <- c(colnames(networks)[1], "Alter", colnames(networks)[3:5])
+
+## Data
 tokens <- data.frame(
   "Token" = c(sample(pn3plVariants, dataSize, replace = TRUE),
               sample(pn2sgVariants, dataSize, replace = TRUE)),
@@ -51,6 +71,8 @@ tokens <- merge(tokens, participants, by = "Name")
 
 # Export data
 write.csv(participants, file = paste(dataDir, "test_participants.csv", sep = ""),
+          fileEncoding = "UTF-8")
+write.csv(networks, file = paste(dataDir, "test_networks.csv", sep = ""),
           fileEncoding = "UTF-8")
 write.csv(tokens, file = paste(dataDir, "test_tokens.csv", sep = ""),
           fileEncoding = "UTF-8")
