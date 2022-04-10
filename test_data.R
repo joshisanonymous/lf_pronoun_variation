@@ -22,7 +22,7 @@ ethnicity <- c("Cajun", "Creole")
 race <- c("Singular Black", "Singular White", "Transcendent", "Border", "Protean")
 residence <- c("Lafayette", "St Martin", "St Landry")
 raised <- c("Lafayette", "St Martin", "St Landry")
-profession <- c("White Collar", "Blue Collar", "Unemployed")
+profession <- c("Unemployed", "Retired", "Blue Collar", "Pink Collar", "White Collar")
 education <- c("Some School", "High School Graduate", "College Graduate")
 
 # Network alter variables
@@ -42,10 +42,12 @@ participants <- cbind(
   sample(profession, length(participants$name), replace = TRUE),
   sample(education, length(participants$name), replace = TRUE),
   "")
+# Remove unneeded columns
+participants <- participants[ , c(1:3, 6:11)]
+# Rename columns
 colnames(participants) <- c(
-  "Birth Year", "Gender", "Name", "N", "Prop", "Ethnicity",
-  "Race", "Residence", "Raised", "Profession", "Education",
-  "Network Ethnic Homophily")
+  "Birth Year", "Gender", "Name", "Ethnicity", "Race",
+  "Residence", "Raised", "Profession", "Education")
 
 # Participant alters
 networks <- data.frame(
