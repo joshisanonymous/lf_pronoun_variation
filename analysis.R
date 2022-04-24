@@ -40,15 +40,16 @@ getEIHomophily <- function(df, name) {
 
 # For main models
 binomResponse <- function(pronoun) {
-  glmer(Token ~ Gender + Ethnicity + Race + Raised + Residence +
-          Profession + Education + Network.Ethnic.Homophily + (1|Name),
+  glmer(Token ~ Verb.Type + French.Background + Birth.Year + Gender + Ethnicity + Race +
+          Raised + Residence + Profession + Education + Network.Ethnic.Homophily +
+          (1|Name),
         data = tokens[tokens$Token.Type == pronoun,],
         family = binomial)
 }
 
 multinomResponse <- function(pronoun) {
-  mblogit(Token ~ Gender + Ethnicity + Race + Raised + Residence +
-            Profession + Education + Network.Ethnic.Homophily,
+  mblogit(Token ~ Verb.Type + French.Background + Birth.Year + Gender + Ethnicity + Race +
+            Raised + Residence + Profession + Education + Network.Ethnic.Homophily,
           data = tokens[tokens$Token.Type == pronoun,],
           random = ~ 1|Name)
 }
@@ -66,8 +67,15 @@ tokens <- read.csv("./data/test_tokens.csv", fileEncoding = "UTF-8",
                    stringsAsFactors = TRUE)
 
 # Order factors in the data that make sense to order
-participants$Profession <- factor(participants$Profession, levels = c("Unemployed", "Blue Collar", "White Collar"))
-participants$Education <- factor(participants$Education, levels = c("Some School", "High School Graduate", "College Graduate"))
+tokens$Token <- factor(tokens$Token,
+                       levels = c("ça", "ils", "eux", "eux-autres", "yé",
+                                  "tu", "to"))
+tokens$Verb.Type <- factor(tokens$Verb.Type,
+                           levels = c("lexical", "modal", "auxiliary"))
+participants$Profession <- factor(participants$Profession,
+                                  levels = c("Unemployed", "Blue Collar", "Pink Collar", "White Collar", "Retired"))
+participants$Education <- factor(participants$Education,
+                                 levels = c("Some School", "High School Graduate", "College Graduate"))
 networks$Alter.French.Frequency <- factor(networks$Alter.French.Frequency,
                                           levels = c("Never", "Occasionally", "Often", "Always"))
 
@@ -118,8 +126,13 @@ ethByRaceFisher <- fisher.test(participants$Ethnicity, participants$Race)
   ##############
 
 # Check verbCollatesMostFrequent to see if there are overrepresented
-# verbs not account for by verb type, in which case verb should be a
-# random intercept
+# verbs not accounted for by verb type, in which case verb should be a
+# random intercept.
+
+# It may also be beneficial to split up verb type into more than just
+# auxiliary, modal, and lexical based on Dubois (2001) and Gudmestad &
+# Carmichael (2022), which suggest 1sg effects for être vs avoir and
+# verbs of opinion/belief.
 
 firstSg <- multinomResponse("1sg")
 secondSgT <- binomResponse("2sg.T")

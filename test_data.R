@@ -24,6 +24,7 @@ residence <- c("Lafayette", "St Martin", "St Landry")
 raised <- c("Lafayette", "St Martin", "St Landry")
 profession <- c("Unemployed", "Retired", "Blue Collar", "Pink Collar", "White Collar")
 education <- c("Some School", "High School Graduate", "College Graduate")
+frenchBackground <- c("Naturalistic", "Institutional", "Personal")
 
 # Network alter variables
 avgNetworkSize <- 5
@@ -35,19 +36,20 @@ frenchFrequency <- c("Always", "Often", "Occasionally", "Never")
 participants <- babynames[sample(length(babynames$name), participantSize, replace = FALSE), ]
 participants <- cbind(
   participants,
+  sample(frenchBackground, length(participants$name), replace = TRUE),
   sample(ethnicity, length(participants$name), replace = TRUE),
   sample(race, length(participants$name), replace = TRUE),
   sample(residence, length(participants$name), replace = TRUE),
   sample(raised, length(participants$name), replace = TRUE),
   sample(profession, length(participants$name), replace = TRUE),
-  sample(education, length(participants$name), replace = TRUE),
-  "")
+  sample(education, length(participants$name), replace = TRUE)
+)
 # Remove unneeded columns
-participants <- participants[ , c(1:3, 6:11)]
+participants <- participants[ , c(1:3, 6:12)]
 # Rename columns
 colnames(participants) <- c(
-  "Birth Year", "Gender", "Name", "Ethnicity", "Race",
-  "Residence", "Raised", "Profession", "Education")
+  "Birth Year", "Gender", "Name", "French Background", "Ethnicity",
+  "Race", "Residence", "Raised", "Profession", "Education")
 
 # Participant alters
 networks <- data.frame(

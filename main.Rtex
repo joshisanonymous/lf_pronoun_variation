@@ -4,6 +4,7 @@
 
 \documentclass{article}
   % Packages and settings
+  \usepackage{amsmath}
   \usepackage{fontspec}
     \setmainfont{Charis SIL}
   \usepackage[style=apa, backend=biber]{biblatex}
@@ -23,7 +24,9 @@
     \graphicspath{{./figure/}}
 
   % Document information
-  \title{Dissertation Proposal: The relationship between ethnicity and French in Louisiana}
+  \title{Dissertation Proposal: The relationship between ethnicity and subject pronouns in Louisiana French\footnote{
+    Dummy test data and code available at \url{https://osf.io/sy7uq/}.
+  }}
   \author{Joshua McNeill}
   \date{\today}
 
@@ -31,6 +34,7 @@
   \newcommand{\orth}[1]{$\langle$#1$\rangle$}
   \newcommand{\lexi}[1]{\textit{#1}}
   \newcommand{\gloss}[1]{`#1'}
+  \newcommand{\code}[1]{\texttt{#1}}
   \newcommand{\foreign}[1]{\textit{#1}}
   \newcommand{\longtrans}[1]{[#1]}
 
@@ -39,7 +43,7 @@
   \doublespacing
   The idea of Louisiana in the public imagination is most often rather that of South Louisiana and the New Orleans metropolitan area, the former as shown in Figure \ref{fig:south_la} and the latter just east of the South Louisiana outline on the southern border of Lake Pontchartrain.
   Indeed, the boundary between North and South Louisiana is traditionally a division in culinary practices, religion, and language \parencite[p.~309]{trepanier_french_1988}, where those cultural features that most distinguish Louisiana from the rest of the Deep South are those of South Louisiana.
-  This has led to a situation where even South Louisiana locals will sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to the perceived indistinguishability of North Louisiana from the rest of the mostly Anglo, Protestant American South. % Gold (1979) also describes North Louisiana as "anglophone" (265), and Johnson (1976) describes Northerners as historically being "rabid anti-Catholic Protestants" (27).
+  % This has led to a situation where even South Louisiana locals will sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to the perceived indistinguishability of North Louisiana from the rest of the mostly Anglo, Protestant American South. % Gold (1979) also describes North Louisiana as "anglophone" (265), and Johnson (1976) describes Northerners as historically being "rabid anti-Catholic Protestants" (27).
   For sociolinguists, South Louisiana is of interest for two reasons: The two major local ethnic categories -- Creole and Cajun -- have over time been redefined to align with the Black and White American racial binary, respectively, and French is spoken there as a heritage language where it was the dominant language as recently as the mid 20th century.
 
   \begin{figure}[tbhp]
@@ -52,7 +56,7 @@
 
   This context provides an opportunity to better understand the salience and persistence of local ethnic categories both in the face of the imposition of broader racial categories and in a linguistically tenuous situation.
   In particular, this study will focus on whether and to what extent the general social segregation of Black and White Americans in the United States \parencite{smith_social_2014} has been recapitulated between Creoles and Cajuns and found expression in the linguistic patterns of Creoles and Cajuns.
-  This subject will be approached by submitting data collected from around Lafayette Parish in South Louisiana to traditional variationist methodology, social network analysis, and textual analysis cenetered around subject pronouns as linguistic variables, as these have been found to vary along ethnic lines in other contexts \parencite{dajko_ethnic_2009, rottet_language_1995}, and ethnicity and race as the primary social variables.
+  This subject will be approached by submitting data collected from around Lafayette Parish in South Louisiana to traditional variationist methodology, social network analysis, and textual analysis centered around subject pronouns as linguistic variables, as these have been found to vary along ethnic lines in other contexts \parencite{dajko_ethnic_2009, rottet_language_1995}, and ethnicity and race as the primary social variables.
 
   \section{Ethnicity and race in South Louisiana}
     \label{sec:ethnicity_race}
@@ -111,9 +115,9 @@
       In the early colonial history of Louisiana, the term Creole was applied to White people of French and Spanish descent (\citeauthor{fortier_french_1884}, \citeyear[p.~98]{fortier_french_1884}; \citeauthor[Kein, 2000, as cited in][]{susberry_racial_2004} \citeyear[pp.~7-8]{susberry_racial_2004}), matching how some still define Creoles today.
       Free, mixed-race people were not at that time called Creoles but were rather derisively called mulattos, quadroons, and octoroons.
       The negative stigma associated with these terms, however, led Free People of Color to eventually co-opt the term Creole for themselves \parencite[Martin, 2000, as cited in][pp.~7-8]{susberry_racial_2004}, creating a three tier racial system that consisted of Whites at the top, Creoles in the middle, and Blacks (i.e., slaves) at the bottom.
-      By the 20th century, though, there were strong societal forces in Louisiana pushing to have mixed-race Creoles identified simply as Black, which some resented \parencite[pp.~12-13]{susberry_racial_2004},
+      By the 20th century, though, there were strong societal forces in Louisiana pushing to have mixed-race Creoles identified simply as Black, which some resented \parencite[pp.~12-13]{susberry_racial_2004}.
       The result is a situation today in which Creoles may racially define themselves any number of ways, such as White, Black, Creole, fluid, etc. \parencite{susberry_racial_2004}, though society likely treats them all as simply Black.
-      Like with Cajuns, where part of the definition of a Creole also included being francophone or creolophone \parencite[p.~11]{neumann_creole_1985}, the racial criteria for membership has effectively subsumed all other.
+      Like with Cajuns, where part of the definition of a Creole also included being francophone or creolophone \parencite[p.~11]{neumann_creole_1985}, the racial criteria for membership has effectively subsumed all others.
 
       % Members of the ethnic group today might define Creoles as being descendants of the original French and Spanish colonists in Louisiana, especially if Africans or Native Americans are found in that line of descent, or simply being multiracial people from South Louisiana \parencite[p.~56]{susberry_racial_2004}.
       % A common thread in all definitions, though, is the idea that Creoles are necessarily ``not Cajun'' \parencite[pp.~26/42]{giancarlo_dont_2019}, suggesting that they are defined as the Other.
@@ -146,7 +150,7 @@
     Traditionally, there have in fact been three French-based language varieties delineated in Louisiana: Colonial or Plantation French, Louisiana French, and Louisiana Creole.
     Colonial French is thought to be all but extinct but was spoken primarily by recent French immigrants after the Louisiana Purchase.
     While there are still francophone immigrants coming to Louisiana even today, they have not coalesced around a variety that might still be called Colonial French but have instead continued to speak a wide range of French varieties.
-    Louisiana French, is the French variety that was the dominant language of rural South Louisiana up until the mid 20th century.
+    Louisiana French is the French variety that was the dominant language of rural South Louisiana up until the mid 20th century.
     Finally, Louisiana Creole is a French-based creole that has similarities with other Atlantic French-based creoles such as Haitian Creole but is not likely to be related to them \parencite[pp.~280-281]{dajko_sociolinguistics_2012}.
 
     The linguistic focus of this study will be on ethnic variation in subject pronouns in Louisiana French, the variety being broadly defined, meaning Louisiana Creole will not be excluded as these two varieties are quite close structurally, particularly in the parishes that are adjacent to Lafayette Parish where participants will be sought out.
@@ -158,8 +162,8 @@
     Louisiana French differs from varieties of French spoken outside of Louisiana in several ways, but there is also variation within Louisiana itself.
     Some of the more salient features that set Louisiana French apart from varieties such as Quebec French or Hexagonal French\footnote{
       French as spoken in France.
-    }, though some of these features can appear in other varieties, include an explicit progressive construction using the preposition \lexi{après} as in sentence \ref{sent:progressive} \parencite{papen_structural_1997}, /ʒ/ produced as [h] \parencite{carmichael_language_2019, papen_structural_1997}, the flap [ɾ] where most varieties have [ʀ] or [ʁ] \parencite{blainey_first_2013}, and importantly for the present study, a unique subject pronoun system that includes items such as \lexi{ça} being used for animate 3rd person plural referents whereas this pronoun is generally reserved for inanimate singular referents in other varieties \parencite{dajko_ethnic_2009, rottet_language_1995}.
-    The subject pronoun system is one that has been found that be variable within Louisiana French itself, as will be discussed in detail below.
+    }, though some of these features can appear in other varieties, include an explicit progressive construction using the preposition \lexi{après} as in Sentence \ref{sent:progressive} \parencite{papen_structural_1997}, /ʒ/ produced as [h] \parencite{carmichael_language_2019, papen_structural_1997}, the flap [ɾ] where most varieties have [ʀ] or [ʁ] \parencite{blainey_first_2013}, and importantly for the present study, a unique subject pronoun system that includes items such as \lexi{ça} being used for animate 3rd person plural referents whereas this pronoun is generally reserved for inanimate singular referents in other varieties \parencite{dajko_ethnic_2009, rottet_language_1995}.
+    The subject pronoun system is one that has been found to be variable within Louisiana French itself, as will be discussed in detail below.
     \begin{enumerate}
       \item \label{sent:progressive}
         \begin{tabular}[t]{l l l l}
@@ -210,6 +214,7 @@
         \caption{The subject pronoun system of Louisiana French}
         \label{tab:lf_sub_pro}
         \begin{tabular}{l l l}
+                    &                                          & \\
           Variable  & Description                              & Variants \\
           \hline
           (1sg)     & 1st person singular                      & \lexi{je}, \lexi{mo}, ø \\
@@ -227,8 +232,10 @@
       \end{table}
 
       In general, 3rd person plural subject pronouns have been found to be the locus of ethnic variation in the Louisiana French subject pronoun system.
-      \textcite{rottet_language_1995} found Houma Indians to strongly prefer \lexi{eux} whereas Cajuns were relatively split across \lexi{ils}, \lexi{ça}, \lexi{eux}, and \lexi{eux-autres}.
-      \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) results were much the same with Houma Indians using more \lexi{eux}, though Cajuns had moved towards preferring \lexi{eux}, as well, since the time of \citeauthor{rottet_language_1995}'s (\citeyear{rottet_language_1995}) study.
+      \textcite{rottet_language_1995} found Houma Indians to strongly prefer \lexi{eux}\footnote{
+        I use the spelling \orth{eux} here, though the pronunciation often includes a final [s], which has led many researchers to use the spelling \orth{eusse}, as well.
+      } whereas Cajuns were relatively split across \lexi{ils}, \lexi{ça}, \lexi{eux}, and \lexi{eux-autres}.
+      \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) results were much the same with Houma Indians using more \lexi{eux}, though Cajuns had moved towards preferring \lexi{eux}, as well.
       The variant \lexi{yé} was not considered as it is described in grammars as a marker of Louisiana Creole rather than Louisiana French \parencite{klingler_if_2003, neumann_creole_1985}.
 
       Indeed, several of the pronouns listed in Table \ref{tab:lf_sub_pro} -- \lexi{to}, \lexi{li}, \lexi{zo}, \lexi{yé} -- come from descriptions of Louisiana Creole and not Louisiana French, though they are not exclusive to Louisiana Creole.
@@ -246,9 +253,9 @@
     \label{sec:personal_networks}
     While analyzing personal social networks and asking if ethnicity is a predictor for subject pronoun usage will provide evidence for or against the idea that Cajuns and Creoles are segregated from each other in the same way that Blacks and Whites tend to be in the United States generally, greater depth will be given to the results by also employing social network analysis to examine the ethnic make-up of personal networks.
     For instance, a case where ethnicity proves to be a good predictor for subject pronoun usage would suggest that ethnic groups are segregated into networks with a great amount of homophily.
-    However, this is not inevitable as speakers are not precluded from using variants that index their ethnicity versus another even when regularly interacted with members of another ethnic group.
+    However, this is not inevitable as speakers are not precluded from using variants that index their ethnicity versus another even when regularly interacting with members of another ethnic group.
     Social network analysis therefore provides the ability to search for associations between the homophily of speakers' networks and the pronoun variants they use.
-    Additionally, while work in sociolinguistics has previously been done using the ethnic make-up of personal networks \parencite{holliday_intonational_2016, li_two-step_2000, sharma_scalar_2017, zhang_co-ethnic_2012}, it has not been done in Louisiana and has more often been done in order to better understand phenomena such as language choice rather than variation within a variety, making the analysis here an useful addition to the literature.
+    Additionally, while work in sociolinguistics has previously been done using the ethnic make-up of personal networks \parencite{holliday_intonational_2016, li_two-step_2000, sharma_scalar_2017, zhang_co-ethnic_2012}, it has not been done in Louisiana and has more often been done in order to better understand phenomena such as language choice rather than variation within a variety, making the analysis here a useful addition to the literature.
 
     % While such an analysis is not unheard of in sociolinguistics as well as heritage language research, the questions that have been asked have generally been about language choice rather than about structural variation in a language variety.
     % For example, \textcite{li_two-step_2000} found the ethnic make-up of one's personal network to be predictive of language choice between English and Chinese.
@@ -273,7 +280,7 @@
     While their focus was not on the ethnic or racial make-up of personal networks, they did provide data on this characteristic which they simplified into a measure of whether personal networks were primarily White, non-White, or mixed.
     The results showed that, at the time in the two rural southwestern Louisiana parishes that they surveyed, personal networks were very racially homogenous, more so than personal networks in urban areas and more so even than personal networks in rural areas generally in the United States.
     To the extent that Cajun and Creole identities had been collapsed into White and Black by then, respectively, this would suggest that it was not particularly common for Cajuns and Creoles to associate in 1992 when the survey interviews took place, though this is admittedly an extrapolation.
-    Either way, the ethnic make-up of these networks today is not clear, and better understanding this characteristic of Cajuns' and Creoles' networks clarify what \citeauthor{beggs_revisiting_1996}'s (\citeyear{beggs_revisiting_1996}) results meant for ethnicity and/or whether they still hold.
+    Either way, the ethnic make-up of these networks today is not clear, and better understanding this characteristic of Cajuns' and Creoles' networks would clarify what \citeauthor{beggs_revisiting_1996}'s (\citeyear{beggs_revisiting_1996}) results meant for ethnicity and/or whether they still hold.
     As such, the second research question of this study is the following:
     \begin{itemize}
       \item[RQ2:] How does the homophily or lack thereof in the ethnic make-up of personal networks among French speakers in South Louisiana relate to variation in subject pronoun usage?
@@ -328,27 +335,53 @@
       In previous work in rural South Louisiana, snowball sampling has proven effective \parencite{brown_pronominal_1988, giancarlo_dont_2019, rottet_language_1995}, so this approach will be used in the present study, as well, albeit taking several different starting points.
       One advantage of this approach is that, while personal social networks rather than entire community networks are of interest in the present study, it could still be advantageous to see some overlap in personal networks.
       On the other hand, using different starting points will lend itself to approaching a balanced sample though likely not a true representative sample.
-      The only characteristic participants need have in order to be included is that they identify as either Cajun or Creole regardless of any other identifications they might have, which will be used as a factor in statistical analyses.
+      Outside of speaking French -- or Creole if they identify their language that way -- the only characteristic participants need have in order to be included is that they identify as either Cajun or Creole, regardless of any other identifications they might have, which will be used as a factor in statistical analyses.
+      Speakers who did not learn French at home will still be included in the study as it has previously been noted that observing the differences between native speakers and ``New Speakers'' in the context of language revitalization could be enlightening \parencite[p.~21]{gudmestad_variationist_2022}.
+      Language background will thus be included as a social variable, specifically whether French was learned in a naturalistic settings, such as the home, or an institutional setting or through personal study.
 
     \subsection{Social variables}
-      Race, which will be another factor in analyses, will on the other hand be self-identified by participants through an open-ended question as open-ended questions have been found to produce more accurate reporting than closed-ended questions \parencite[p.~434]{vannette_proxy_2018}.
+      Other demographic information about participants that will be collected will include birth year, residence, where they were raised, profession, education, and race.
+      In previous studies, age was shown to be an important factor in subject pronoun variation \parencite{rottet_language_1995}.
+      Profession and education were not included in previous work due to reports from participants that socioeconomic differences were a relatively recent phenomenon in rural Louisiana (\citeauthor{dajko_ethnic_2009}, \citeyear[p.~66]{dajko_ethnic_2009}; \citeauthor{rottet_language_1995}, \citeyear[p.~64]{rottet_language_1995}), though they will be included in the present study as more time has passed, and the Lafayette area, being the third largest metropolitan area in Louisiana, likely began experiencing some socioeconomic stratification earlier than Terrebonne and Lafourches Parishes, where the cited works took place.
+
+      The levels for the social variables are summaried in Table \ref{tab:social_vars}, though some notes are necessary.
+      Firstly, residence and where participants were raised are expected to aggregate best by parish, though if there is a confluence of individual towns, the levels will be adapted to go by town instead.
+      Secondly, for profession and education, it would be ideal to operationalize these using the linguistic market \parencite{sankoff_linguistic_1978}, though this would require spending more time during interviews discussing professional and educational backgrounds than is desired as the true focus of this study is ethnicity and race.
+      The collar system is a compromise as it is still commonly used in sociology today \parencite[e.g.,][]{arndt_white-collar_2018, mccann_beyond_2019}.
+      As for education, if it is found that a number of participants have graduate degrees, a fourth level will be added to this variable.
+
+      \begin{table}[tbhp]
+        \centering
+        \caption{Summary of social variables}
+        \label{tab:social_vars}
+        \begin{tabular}{l l}
+                            & \\
+          Social Variable   & Levels \\
+          \hline
+          French Background & naturalistic, institutional, personal \\
+          Birth Year        & continuous numeric \\
+          Residence         & parish \\
+          Raised            & parish \\
+          Profession        & unemployed, retired, blue, pink, and white collar \\
+          Education         & some school, high school graduate, college graduate \\
+          Race              & singular White, singular Black, border, protean, transcendent
+        \end{tabular}
+      \end{table}
+
+      Finally, unlike ethnicity which will be presented as a binary choice for participants, race will involve self-identification through an open-ended question as open-ended questions have been found to produce more accurate reporting than closed-ended questions \parencite[p.~434]{vannette_proxy_2018}.
       As has been suggested in sociolinguistic research on biracial people \parencite{holliday_multiracial_2019} and has been shown for Creoles in particular \parencite{susberry_racial_2004}, there are many ways that mixed-race people may choose to racially identify.
       Ultimately, race will be coded using \citeauthor{rockquemore_beyond_2007}'s (\citeyear{rockquemore_beyond_2007}) typology wherein one may have a singular racial identity (in this case, likely Black or White), a border racial identity (i.e., consistently identifying as mixed, in this case, likely Creole), a protean racial identity (i.e., changing relative to the situation), or a transcendent racial identity (i.e., rejecting race as a concept altogether).
 
-      Other demographic information about participants that will be collected will include age, residence, where they were raised, profession, and education.
-      In previous studies, age was shown to be an important factor in subject pronoun variation \parencite{rottet_language_1995}.
-      Profession and education were not included in previous work due to reports from participants that socioeconomic differences were a relatively recent phenomenon in rural Louisiana (\citeauthor{dajko_ethnic_2009}, \citeyear[p.~66]{dajko_ethnic_2009}; \citeauthor{rottet_language_1995}, \citeyear[p.~64]{rottet_language_1995}), though they will be included in the present study for completeness.
-
       Outside of the demographics of participants, the ethnic and racial characteristics of those they name as part of their personal networks (i.e., who are called the participants' alters) will be obtained.
       This information will be gathered from the participants themselves rather than from those alters directly.
-      While this potentially yields categories that do not match would those alters would have given, this is not expected to be problematic.
-      As has been noted in the literature \parencite[pp.~245-246]{vannette_collecting_2018}, the participants' perception of the characteristics of those in their network is often more meaningful than their true characteristics, and that is likely to hold true for the present study.
+      While this potentially yields categories that do not match what those alters would have given, this is not expected to be problematic.
+      As has been noted in the literature \parencite[pp.~245-246]{vannette_collecting_2018}, the participants' perception of the characteristics of those in their networks is often more meaningful than their true characteristics, and that is likely to hold for the present study.
       Furthermore, surveys participants' reports on relatively fixed details of non-participants who are close to them have proven to be nearly as accurate as what would have been reported by the non-participants themselves \parencite{vannette_proxy_2018}.
 
     \subsection{Linguistic variables}
       Table \ref{tab:lf_sub_pro} outlines the 11 dependent linguistic variables that will be analyzed in this study.
       Some of these are, however, expected to collapse and are included here more for completeness and to avoid assumptions.
-      To start, gender in the 3rd person singular pronouns is not likely to be overtly expressed as \lexi{elle} and \lexi{il}, the only two variants that are particular to one gender or the other, are not commonly used for inanimate referents in French outside of writing, and most Louisiana French speakers are not literate in French.
+      To start, gender in the 3rd person singular inanimate pronouns is not likely to be overtly expressed as \lexi{elle} and \lexi{il}, the only two variants that are particular to one gender or the other, are not commonly used for inanimate referents in French outside of writing, and most Louisiana French speakers are not literate in French.
       Likewise, gender in 3rd person plural pronouns is not often expressed in any variety of French as the feminine form \lexi{elles} is reserved for groups in which the referents are all feminine, whereas \lexi{ils} is used if any referent at all is masculine.
       This is also the case in Louisiana French, which goes further in providing several other variants for 3rd person plural that are unmarked for gender.
       Table \ref{tab:lf_pro_collapse} therefore summarizes the linguistic variables that are expected to collapse in the data.
@@ -376,26 +409,65 @@
       Interviews will begin with collecting demographic information other than race followed by casual conversation until discussing ethnicity and race in the later portions of the interviews and finally questions about social networks alters.
       In particular, as a wide-range of subject pronouns are desired, the casual conversation section will lean towards asking participants to relate stories that might involve describing events from different points of view.
 
-      Social networks questions will follow the typical practice of using a name-generator question to obtain alters followed by the name-interpreter questions to obtain details of those alters.
+      Social network questions will follow the typical practice of using name-generator questions to obtain alters followed by name-interpreter questions to obtain details of those alters.
       While using computer technology to ask these questions likely reduces the mental burden placed on participants \parencite[Stark \& Krosnick, 2017, as cited in][pp.~248-249]{vannette_collecting_2018}, these questions will instead be asked orally as many of the participants will likely be advanced in age and perhaps uncomfortable with computers.
       Additionally, asking orally allows the questions to be posed in French as most Louisiana French speakers do not read and write in French.
       This is beneficial as it keeps them in the French mode during the interview and will possibly cause them to report more of the francophones to whom they are close than they might otherwise do.
-      Additionally, when posing name-interpreter questions, the participant will be asked to give one type of characteristic for all their alters before moving on to the next type of characteristic as this is known to yield data with more validity \parencite[Coromina \& Coenders, 2006; Vehovar et al., 2008, both as cited in][p.~247]{vannette_collecting_2018}.
+      Additionally, when posing name-interpreter questions, the participants will be asked to give one type of characteristic for all their alters before moving on to the next type of characteristic as this is known to yield data with more validity \parencite[Coromina \& Coenders, 2006; Vehovar et al., 2008, both as cited in][p.~247]{vannette_collecting_2018}.
       The exact name-generator and name-interpreter questions to be used, as well as the rest of the interview module, are included in Appendix \ref{app:module}.
 
     \subsection{Analyses}
       As this study is mostly quantitative in nature, fairly standard variationist methodology will be used in the analysis.
-      Each person-number possibility for subject pronouns will act as a linguistic variable with the exception of 2nd person singular and 3rd person singular.
-      In the former case, there will be two linguistic variables, one for the T term of address and one for the V term of address \parencite{brown_pronouns_1960}.
-      In the latter case, there will be four linguistic variables, each consisting of \lexi{li} versus one of the four other subject pronouns.
+      Each person-number possibility for subject pronouns, as summarized in Table \ref{tab:lf_sub_pro}, will act as a linguistic variable.
+      Where these linguistic variables have only two categorical variants, binomial logistic mixed-effects models will be fit, whereas where there are more than two variants, multinomial logistic mixed-effects models will be fit as was done in \textcite{gudmestad_variationist_2022} for 1st person singular subject pronouns in Louisiana French.
+      The exact formula to be used for analyses, given in R formula notation, is as shown in Equation \ref{eq:model}.
+      In this formula, Pronoun is the dependent linguistic variable, each additional term is a factor, and (1|Participant) is a random intercept, in this case the participant.
+      The R function used to fit the binomial models will be \code{glmer} from the \code{lme4} package \parencite{bates_lme4:_2019} and to the function for the multinomial models will be \code{mblogit} from the \code{mclogit} package \parencite{elff_mclogit_2022}.
 
-      Given the lower frequency of morphosyntactic variables in speech than phonetic variables, it is possible that much of the quantitative analyses in this study will have to rely on simple proportions rather than robust statistical modeling.
-      In the event that a sufficient token count is obtained for any variable, however, mixed-effects models will be constructed to better establish which social factors, if any, are associated with which pronoun variants.
+      \begin{equation}
+        \label{eq:model}
+        \begin{aligned}
+          \text{Pronoun}\  & \~{}\  \text{Verb.Type}\  +\  \text{French.Background}\  +\  \text{Birth.Year}\  +\  \text{Gender}\  +\\
+                         & \text{Ethnicity}\  +\  \text{Race}\  +\  \text{Raised}\  +\  \text{Residence}\  +\  \text{Profession}\  +\\
+                         & \text{Education}\  +\  \text{Network.Ethnic.Homophily}\  +\  (1|\text{Participant})
+        \end{aligned}
+      \end{equation}
+
+      In general, AIC will be used for model selection, though two additional considerations will be examined before calculating the AIC of different models.
+      First, while both ethnicity and race are included in the model formula, it is quite possible that there will be a strong association between the two.
+      As such, a $\chi^2$ test -- or a Fisher's exact test if the expected values are below 5 -- will be performed to identify if an association exists, in which case race will be removed from the logistic models, leaving only ethnicity instead.
+      Second, to ensure that the impact of particular verbs is captured through the Verb Type factor, a collate list between subject pronoun and verb will be generated to determine if the most frequent verbs (i.e., the most overrepresented verbs) fit into a Verb Type category or not.
+      If not, verb will be added to the model as a random intercept.
+      Finally, $P$-values for factors will only be considered once model selection has been completed.
+
+      Included in the above model is Network Ethnic Homophily, which represents the degree to which the alters in participants' personal networks have the same ethnicity as the participants themselves and is calculated using the EI homophily index \parencite{lizardo_social_2020} shown in Equation \ref{eq:ei_homoph} where External refers to those unlike ego and Internal to those like ego.
+      While this is technically part of the second research question examining social networks, it fits best as a factor in the original models.
+      Additional analyses will be carried out to better understand social networks beyond what the models above show.
+
+      \begin{equation}
+        \label{eq:ei_homoph}
+        \text{EI Homophily} = \frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}
+      \end{equation}
+
+      Important to note for the name-generator questions used here is that participants are not limited to naming alters with whom they speak French.
+      Indeed, the first name-generator question targets alters who are particularly close to the participant whom one might call core alters \parencite{marsden_core_1987}.
+      As such, a simple binomial logistic mixed-effects model will be fit to better understand the relationship between coreness and language used, where French usage with the alter will be categorized as never occurred, occurring occasionally, occurring frequently, or always occuring, and alter types will be either core or non-core.
+      The formula used can be seen in Equation \ref{eq:core_model} where Participant is again a random intercept.
+
+      \begin{equation}
+        \label{eq:core_model}
+        \text{Alter.Type}\  \~{}\  \text{French.Frequency}\  +\  (1|\text{Participant})
+      \end{equation}
+
+      To add to the relationship between coreness and French usage, narrower comparisons of network homophily will also be tested.
+      Specifically, a paired $t$-test will be performed for the difference in means between the ethnic homophily of the non-francophone alters in participants' personal networks and the ethnic homophily of the francophone alters, which will show whether French is used more or less with ethnically similar alters.
+      Another $t$-test for the difference in means, non-paired, will also be performed between the overall ethnic homophily of Cajun participants and overall ethnic homophily of Creole participants to identify whether the groups differ in the ethnic diversity of their networks.
 
   \section{Impact of the study}
-    This study aims to expand researchers' understanding of how complex ethnicities interact with language variation as well as the role that race plays in those interactions through analyzing a rich sociolinguistic environment: South Louisiana.
-    The relationship between the ethnic groups chosen for this study -- Cajuns and Creoles -- is furthermore one that is well worth exploring more in terms of what it means for social equity.
-    These groups have been pushed more and more into the racial binary system of the general US, and as has been shown \parencite{giancarlo_dont_2019}, the sort of marginalization that comes along with that system also exists in Louisiana.
+    This study aims to expand researchers' understanding of how broader social categories end up superimposed on local social categories or not.
+    South Louisiana offers a complex ethnic landscape and unique linguistic context for specifically analyzing how the general US racial Black-White binary has impacted the Creole and Cajun ethnic categories as expressed in subject pronoun usage.
+    The relationship between these groups is furthermore one that is well worth exploring more in terms of what it means for social equity.
+    As has been shown \parencite{giancarlo_dont_2019}, the sort of marginalization that comes along with the US racial binary has already had some expression in the state's ethnic make-up.
     Finally, as Louisiana French is in all likelihood a heritage language at this point, results from this study may inform research on heritage languages and how ethnicity interacts with their structures generally.
 
   \printbibliography
@@ -404,5 +476,4 @@
     \section{Interview Module}
       \label{app:module}
       \input{research_tools/interview_modules/pronouns_race_ethnicity.tex}
-
 \end{document}
