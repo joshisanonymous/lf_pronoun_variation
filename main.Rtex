@@ -340,14 +340,14 @@
       Language background will thus be included as a social variable, specifically whether French was learned in a naturalistic settings, such as the home, or an institutional setting or through personal study.
 
     \subsection{Social variables}
-      Other demographic information about participants that will be collected will include birth year, residence, where they were raised, profession, education, and race.
+      Other life history information about participants that will be collected will include birth year, residence, where they were raised, profession, education, and race.
       In previous studies, age was shown to be an important factor in subject pronoun variation \parencite{rottet_language_1995}.
       Profession and education were not included in previous work due to reports from participants that socioeconomic differences were a relatively recent phenomenon in rural Louisiana (\citeauthor{dajko_ethnic_2009}, \citeyear[p.~66]{dajko_ethnic_2009}; \citeauthor{rottet_language_1995}, \citeyear[p.~64]{rottet_language_1995}), though they will be included in the present study as more time has passed, and the Lafayette area, being the third largest metropolitan area in Louisiana, likely began experiencing some socioeconomic stratification earlier than Terrebonne and Lafourches Parishes, where the cited works took place.
 
       The levels for the social variables are summaried in Table \ref{tab:social_vars}, though some notes are necessary.
       Firstly, residence and where participants were raised are expected to aggregate best by parish, though if there is a confluence of individual towns, the levels will be adapted to go by town instead.
       Secondly, for profession and education, it would be ideal to operationalize these using the linguistic market \parencite{sankoff_linguistic_1978}, though this would require spending more time during interviews discussing professional and educational backgrounds than is desired as the true focus of this study is ethnicity and race.
-      The collar system is a compromise as it is still commonly used in sociology today \parencite[e.g.,][]{arndt_white-collar_2018, mccann_beyond_2019}.
+      The collar system is a compromise as it is still commonly used in sociolinguistics today \parencite[e.g.,][]{dodsworth_social_2017, forrest_community_2015}.
       As for education, if it is found that a number of participants have graduate degrees, a fourth level will be added to this variable.
 
       \begin{table}[tbhp]
@@ -372,7 +372,7 @@
       As has been suggested in sociolinguistic research on biracial people \parencite{holliday_multiracial_2019} and has been shown for Creoles in particular \parencite{susberry_racial_2004}, there are many ways that mixed-race people may choose to racially identify.
       Ultimately, race will be coded using \citeauthor{rockquemore_beyond_2007}'s (\citeyear{rockquemore_beyond_2007}) typology wherein one may have a singular racial identity (in this case, likely Black or White), a border racial identity (i.e., consistently identifying as mixed, in this case, likely Creole), a protean racial identity (i.e., changing relative to the situation), or a transcendent racial identity (i.e., rejecting race as a concept altogether).
 
-      Outside of the demographics of participants, the ethnic and racial characteristics of those they name as part of their personal networks (i.e., who are called the participants' alters) will be obtained.
+      Outside of the life histories of participants, the ethnic and racial characteristics of those they name as part of their personal networks (i.e., who are called the participants' alters) will be obtained.
       This information will be gathered from the participants themselves rather than from those alters directly.
       While this potentially yields categories that do not match what those alters would have given, this is not expected to be problematic.
       As has been noted in the literature \parencite[pp.~245-246]{vannette_collecting_2018}, the participants' perception of the characteristics of those in their networks is often more meaningful than their true characteristics, and that is likely to hold for the present study.
@@ -402,11 +402,11 @@
 
     \subsection{Data collection}
       % interview module stuff
-      All demographic, social network, and linguistic data will be collected through semi-structured sociolinguistic interviews.
+      All life history, social network, and linguistic data will be collected through semi-structured sociolinguistic interviews.
       Interviews will be conducted one-on-one by myself in Louisiana French with the goal of collecting at least 30 hours of speech, ideally collecting 45-60 minutes from each speaker.
       To avoid the potential of my own subject pronoun patterns influencing the pronouns used by participants, effort will be taken in the interviews to both avoid using many pronouns myself, instead defaulting to naming referents, and to match the pronouns being used by the participants when I do use pronouns myself.
 
-      Interviews will begin with collecting demographic information other than race followed by casual conversation until discussing ethnicity and race in the later portions of the interviews and finally questions about social networks alters.
+      Interviews will begin with collecting life history information other than race followed by casual conversation until discussing ethnicity and race in the later portions of the interviews and finally questions about social networks alters.
       In particular, as a wide-range of subject pronouns are desired, the casual conversation section will lean towards asking participants to relate stories that might involve describing events from different points of view.
 
       Social network questions will follow the typical practice of using name-generator questions to obtain alters followed by name-interpreter questions to obtain details of those alters.
@@ -435,7 +435,7 @@
 
       In general, AIC will be used for model selection, though two additional considerations will be examined before calculating the AIC of different models.
       First, while both ethnicity and race are included in the model formula, it is quite possible that there will be a strong association between the two.
-      As such, a $\chi^2$ test -- or a Fisher's exact test if the expected values are below 5 -- will be performed to identify if an association exists, in which case race will be removed from the logistic models, leaving only ethnicity instead.
+      As such, the VIF will be calculated for both factors as well as all other factors to determine if any are highly collinear, in that their VIFs are 10 or higher, in which case those factors deemed less central to the study's goals will be removed from the relevant models.
       Second, to ensure that the impact of particular verbs is captured through the Verb Type factor, a collate list between subject pronoun and verb will be generated to determine if the most frequent verbs (i.e., the most overrepresented verbs) fit into a Verb Type category or not.
       If not, verb will be added to the model as a random intercept.
       Finally, $P$-values for factors will only be considered once model selection has been completed.

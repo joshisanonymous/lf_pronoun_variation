@@ -13,6 +13,7 @@ library(ggplot2)
 library(reshape2)
 library(mclogit)
 library(lme4)
+library(car)
 
 #############
 # Functions #
@@ -116,12 +117,6 @@ thirdPlFTable <- table(tokens[tokens$Token.Type == "3pl.F",
 # Analyses #
 ############
 
-## Association between ethnicity and race
-ethByRaceChiSquare <- chisq.test(participants$Ethnicity, participants$Race)
-# Check that expected values are >5, otherwise use Fisher's exact
-# ethByRaceChiSquare$expected
-ethByRaceFisher <- fisher.test(participants$Ethnicity, participants$Race)
-
 # Pronoun Models #
   ##############
 
@@ -134,21 +129,30 @@ ethByRaceFisher <- fisher.test(participants$Ethnicity, participants$Race)
 # Carmichael (2022), which suggest 1sg effects for être vs avoir and
 # verbs of opinion/belief.
 
-firstSg <- multinomResponse("1sg")
-secondSgT <- binomResponse("2sg.T")
-secondSgV <- multinomResponse("2sg.V")
-thirdSgAF <- binomResponse("3sg.AF")
-thirdSgAM <- binomResponse("3sg.AM")
-# Check thirdSgITable to see if il or elle are ever used for inanimate referents
-# Use only one 3rd person inanimate model if il/elle not used
-thirdSgIF <- multinomResponse("3sg.IF")
-thirdSgIM <- multinomResponse("3sg.IM")
-firstPl <- multinomResponse("1pl")
-secondPl <- multinomResponse("2pl")
-# Check thirdPlFTable to see if elles is ever used for 3rd person plural
-# Use only one model if not used
-thirdPlF <- multinomResponse("3pl.F")
-thirdPlM <- multinomResponse("3pl.M")
+logitModels <- list(
+  # firstSg = multinomResponse("1sg"),
+  secondSgT = binomResponse("2sg.T"),
+  # secondSgV = multinomResponse("2sg.V"),
+  # thirdSgAF = binomResponse("3sg.AF"),
+  # thirdSgAM = binomResponse("3sg.AM"),
+  # Check thirdSgITable to see if il or elle are ever used for inanimate referents
+  # Use only one 3rd person inanimate model if il/elle not used
+  # thirdSgIF = multinomResponse("3sg.IF"),
+  # thirdSgIM = multinomResponse("3sg.IM"),
+  # firstPl = multinomResponse("1pl"),
+  # secondPl = multinomResponse("2pl"),
+  # Check thirdPlFTable to see if elles is ever used for 3rd person plural
+  # Use only one model if not used
+  # thirdPlF = multinomResponse("3pl.F"),
+  thirdPlM = multinomResponse("3pl.M")
+)
+
+# Check for multicollinearity between factors and remove those that are
+# highly collinear. In particular, verify whether ethnicity and race
+# are collinear.
+logitVif <- lapply(logitModels, vif)
+
+# Use AIC to check model fits and further remove factors if sensible
 
 # Social Networks #
   ###############
