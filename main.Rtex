@@ -435,7 +435,7 @@
 
       In general, AIC will be used for model selection, though two additional considerations will be examined before calculating the AIC of different models.
       First, while both ethnicity and race are included in the model formula, it is quite possible that there will be a strong association between the two.
-      As such, the VIF will be calculated for both factors as well as all other factors to determine if any are highly collinear, in that their VIFs are 10 or higher, in which case those factors deemed less central to the study's goals will be removed from the relevant models.
+      As such, the VIF will be calculated for both factors as well as all other factors to determine if any are highly collinear, in that their VIFs are 5 or higher, in which case those factors deemed less central to the study's goals will be removed from the relevant models.
       Second, to ensure that the impact of particular verbs is captured through the Verb Type factor, a collate list between subject pronoun and verb will be generated to determine if the most frequent verbs (i.e., the most overrepresented verbs) fit into a Verb Type category or not.
       If not, verb will be added to the model as a random intercept.
       Finally, $P$-values for factors will only be considered once model selection has been completed.
