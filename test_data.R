@@ -22,7 +22,7 @@ ethnicity <- c("Cajun", "Creole")
 race <- c("Singular Black", "Singular White", "Transcendent", "Border", "Protean")
 residence <- c("Lafayette", "St Martin", "St Landry")
 raised <- c("Lafayette", "St Martin", "St Landry")
-profession <- c("Unemployed", "Retired", "Blue Collar", "Pink Collar", "White Collar")
+profession <- c("Blue Collar", "White Collar")
 education <- c("Some School", "High School Graduate", "College Graduate")
 frenchBackground <- c("Naturalistic", "Institutional", "Personal")
 

@@ -22,6 +22,7 @@
     \newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
   \usepackage{graphicx}
     \graphicspath{{./figure/}}
+  \usepackage{pbox}
 
   % Document information
   \title{Dissertation Proposal: The relationship between ethnicity and subject pronouns in Louisiana French\footnote{
@@ -220,10 +221,12 @@
           (1sg)     & 1st person singular                      & \lexi{je}, \lexi{mo}, ø \\
           (2sg.T)   & 2nd person singular T form               & \lexi{tu}, \lexi{to} \\
           (2sg.V)   & 2nd person singular V form               & \lexi{vous}, \lexi{tu}, \lexi{to} \\
+          (imp)     & Impersonal pronoun                       & \lexi{on}, \lexi{tu}, \lexi{vous}, \lexi{to} \\
           (3sg.AF)  & 3rd person singular animate feminine     & \lexi{elle}, \lexi{li} \\
           (3sg.AM)  & 3rd person singular animate masculine    & \lexi{il}, \lexi{li} \\
           (3sg.IF)  & 3rd person singular inanimate feminine   & \lexi{ça}, \lexi{elle}, \lexi{li} \\
           (3sg.IM)  & 3rd person singular inanimate masculline & \lexi{ça}, \lexi{il}, \lexi{li} \\
+          (expl)    & Expletive pronoun                        & \lexi{il}, \lexi{ça} \\
           (1pl)     & 1st person plural                        & \lexi{nous}, \lexi{nous-autres}, \lexi{on} \\
           (2pl)     & 2nd person plural                        & \lexi{vous}, \lexi{vous-autres}, \lexi{zo}, \lexi{tu} \\
           (3pl.F)   & 3rd person plural feminine               & \lexi{elles}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} \\
@@ -304,8 +307,8 @@
     For instance, study participants as well as scholars have argued that food that is branded as Cajun is actually Creole \parencite[pp.~39-40]{giancarlo_dont_2019}.
     While this clearly suggests oppositional stances, it is also more evidence of shared cultural traditions in food.
     Likewise, the term \lexi{Cajundome} was given to the civic center at the University of Louisiana Lafayette despite the area being arguably developed by Creoles and not Cajuns, at least when going by older definitions of the groups.
-    The ire this caused among Creoles was enough that they rerouted their Mardi Gras parade to bypass the civic center.
-    On the other side, Ancelet (1992), a noted Cajun folklore scholar, publicly suggested that this ire might just be the result of reverse racism \parencite[as cited in,][p.~36]{giancarlo_dont_2019}, a stance which also rests on the belief that Cajuns are White and Creoles are Black.
+    The ire this caused among Creoles was enough that they rerouted their Mardi Gras parade to bypass the civic center \parencite[p.~36]{giancarlo_dont_2019}.
+    % On the other side, Ancelet (1992), a noted Cajun folklore scholar, publicly suggested that this ire might just be the result of reverse racism \parencite[as cited in,][p.~36]{giancarlo_dont_2019}, a stance which also rests on the belief that Cajuns are White and Creoles are Black.
 
     Previous studies have therefore given some indications that Creoles and Cajuns have much in common but also that they sometimes take up oppositional positions to each other.
     However, it would be difficult to extrapolate from the way others have been reported discussing ethnicity in Louisiana to how the participants for the present study view ethnic relationships in order to better understand their subject pronoun usage and personal network compositions.
@@ -347,7 +350,8 @@
       The levels for the social variables are summaried in Table \ref{tab:social_vars}, though some notes are necessary.
       Firstly, residence and where participants were raised are expected to aggregate best by parish, though if there is a confluence of individual towns, the levels will be adapted to go by town instead.
       Secondly, for profession and education, it would be ideal to operationalize these using the linguistic market \parencite{sankoff_linguistic_1978}, though this would require spending more time during interviews discussing professional and educational backgrounds than is desired as the true focus of this study is ethnicity and race.
-      The collar system is a compromise as it is still commonly used in sociolinguistics today \parencite[e.g.,][]{dodsworth_social_2017, forrest_community_2015}.
+      The collar system is a compromise as it is still used in sociolinguistics today \parencite[e.g.,][]{dodsworth_social_2017, forrest_community_2015}.
+      For those who are retired, which will likely be many of the participants, they will be categorized according to what their profession was before they retired.
       As for education, if it is found that a number of participants have graduate degrees, a fourth level will be added to this variable.
 
       \begin{table}[tbhp]
@@ -362,7 +366,7 @@
           Birth Year        & continuous numeric \\
           Residence         & parish \\
           Raised            & parish \\
-          Profession        & unemployed, retired, blue, pink, and white collar \\
+          Profession        & blue and white collar \\
           Education         & some school, high school graduate, college graduate \\
           Race              & singular White, singular Black, border, protean, transcendent
         \end{tabular}
@@ -404,7 +408,7 @@
       % interview module stuff
       All life history, social network, and linguistic data will be collected through semi-structured sociolinguistic interviews.
       Interviews will be conducted one-on-one by myself in Louisiana French with the goal of collecting at least 30 hours of speech, ideally collecting 45-60 minutes from each speaker.
-      To avoid the potential of my own subject pronoun patterns influencing the pronouns used by participants, effort will be taken in the interviews to both avoid using many pronouns myself, instead defaulting to naming referents, and to match the pronouns being used by the participants when I do use pronouns myself.
+      While my own subject pronoun patterns could influence the pronouns used by participants, I will take care to be consistent from interview to interview so as to control for this effect to the extent that it is possible to do so.
 
       Interviews will begin with collecting life history information other than race followed by casual conversation until discussing ethnicity and race in the later portions of the interviews and finally questions about social networks alters.
       In particular, as a wide-range of subject pronouns are desired, the casual conversation section will lean towards asking participants to relate stories that might involve describing events from different points of view.
@@ -421,15 +425,16 @@
       Each person-number possibility for subject pronouns, as summarized in Table \ref{tab:lf_sub_pro}, will act as a linguistic variable.
       Where these linguistic variables have only two categorical variants, binomial logistic mixed-effects models will be fit, whereas where there are more than two variants, multinomial logistic mixed-effects models will be fit as was done in \textcite{gudmestad_variationist_2022} for 1st person singular subject pronouns in Louisiana French.
       The exact formula to be used for analyses, given in R formula notation, is as shown in Equation \ref{eq:model}.
-      In this formula, Pronoun is the dependent linguistic variable, each additional term is a factor, and (1|Participant) is a random intercept, in this case the participant.
+      In this formula, Pronoun is the dependent linguistic variable, each additional term is a factor, and (1|Participant) as well as (1|Following.Verb) are a random intercepts.
+      In particular, the following verb is a random intercept despite the use of verb type as a factor as some lexical verbs will likely be overrepresented, such as \lexi{savoir} \gloss{to know} and \lexi{penser} \gloss{to think}.
       The R function used to fit the binomial models will be \code{glmer} from the \code{lme4} package \parencite{bates_lme4:_2019} and to the function for the multinomial models will be \code{mblogit} from the \code{mclogit} package \parencite{elff_mclogit_2022}.
 
       \begin{equation}
         \label{eq:model}
         \begin{aligned}
           \text{Pronoun}\  & \~{}\  \text{Verb.Type}\  +\  \text{French.Background}\  +\  \text{Birth.Year}\  +\  \text{Gender}\  +\\
-                         & \text{Ethnicity}\  +\  \text{Race}\  +\  \text{Raised}\  +\  \text{Residence}\  +\  \text{Profession}\  +\\
-                         & \text{Education}\  +\  \text{Network.Ethnic.Homophily}\  +\  (1|\text{Participant})
+                           & \text{Ethnicity}\  +\  \text{Race}\  +\  \text{Raised}\  +\  \text{Residence}\  +\  \text{Profession}\  +\  \text{Education}\  +\\
+                           & \text{Network.Ethnic.Homophily}\  +\  (1|\text{Participant}) + (1|\text{Following.Verb})
         \end{aligned}
       \end{equation}
 
@@ -450,17 +455,31 @@
 
       Important to note for the name-generator questions used here is that participants are not limited to naming alters with whom they speak French.
       Indeed, the first name-generator question targets alters who are particularly close to the participant whom one might call core alters \parencite{marsden_core_1987}.
-      As such, a simple binomial logistic mixed-effects model will be fit to better understand the relationship between coreness and language used, where French usage with the alter will be categorized as never occurred, occurring occasionally, occurring frequently, or always occuring, and alter types will be either core or non-core.
-      The formula used can be seen in Equation \ref{eq:core_model} where Participant is again a random intercept.
+      As such, a multinomial logistic mixed-effects model will be fit to better understand the relationship between coreness and language used, where French usage with the alter will be categorized as never occurred, occurring occasionally, occurring frequently, or always occuring, and alter types will be either core or non-core.
+      The formula used can be seen in Equation \ref{eq:core_model} where participant is again a random intercept.
 
       \begin{equation}
         \label{eq:core_model}
-        \text{Alter.Type}\  \~{}\  \text{French.Frequency}\  +\  (1|\text{Participant})
+        \text{French.Frequency}\  \~{}\  \text{Alter.Type}\  +\  (1|\text{Participant})
       \end{equation}
 
-      To add to the relationship between coreness and French usage, narrower comparisons of network homophily will also be tested.
+      To add to the relationship between coreness and French usage, narrower comparisons of network homophily will also be tested, as summarized in Table \ref{tab:homophily}.
       Specifically, a paired $t$-test will be performed for the difference in means between the ethnic homophily of the non-francophone alters in participants' personal networks and the ethnic homophily of the francophone alters, which will show whether French is used more or less with ethnically similar alters.
       Another $t$-test for the difference in means, non-paired, will also be performed between the overall ethnic homophily of Cajun participants and overall ethnic homophily of Creole participants to identify whether the groups differ in the ethnic diversity of their networks.
+
+      \begin{table}[tbhp]
+        \centering
+        \caption{Homophily hypothesis tests}
+        \label{tab:homophily}
+        \begin{tabular}{l l l l}
+                                                      &                                                 &                 & \\
+          Stat                                        & Stat                                            & Test            & $N$ \\
+          \hline
+          \pbox{\textwidth}{Mean ethnic homophily\\of francophone alters} & \pbox{\textwidth}{Mean ethnic homophily\\of non-francophone alters} & Paired $t$-test & 60 \\
+          \hline
+          \pbox{\textwidth}{Mean ethnic homophily\\for Creoles}           & \pbox{\textwidth}{Mean ethnic homophily\\for Cajuns}             & $t$-test        & 30 \\
+        \end{tabular}
+      \end{table}
 
   \section{Impact of the study}
     This study aims to expand researchers' understanding of how broader social categories end up superimposed on local social categories or not.

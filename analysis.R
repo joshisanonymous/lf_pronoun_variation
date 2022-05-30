@@ -43,7 +43,7 @@ getEIHomophily <- function(df, name) {
 binomResponse <- function(pronoun) {
   glmer(Token ~ Verb.Type + French.Background + Birth.Year + Gender + Ethnicity + Race +
           Raised + Residence + Profession + Education + Network.Ethnic.Homophily +
-          (1|Name),
+          (1|Name) + (1|Following.Verb),
         data = tokens[tokens$Token.Type == pronoun,],
         family = binomial)
 }
@@ -52,7 +52,7 @@ multinomResponse <- function(pronoun) {
   mblogit(Token ~ Verb.Type + French.Background + Birth.Year + Gender + Ethnicity + Race +
             Raised + Residence + Profession + Education + Network.Ethnic.Homophily,
           data = tokens[tokens$Token.Type == pronoun,],
-          random = ~ 1|Name)
+          random = list(~ 1|Name, 1|Following.Verb))
 }
 
 ######################
@@ -74,7 +74,7 @@ tokens$Token <- factor(tokens$Token,
 tokens$Verb.Type <- factor(tokens$Verb.Type,
                            levels = c("lexical", "modal", "auxiliary"))
 participants$Profession <- factor(participants$Profession,
-                                  levels = c("Unemployed", "Blue Collar", "Pink Collar", "White Collar", "Retired"))
+                                  levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
                                  levels = c("Some School", "High School Graduate", "College Graduate"))
 networks$Alter.French.Frequency <- factor(networks$Alter.French.Frequency,
@@ -157,11 +157,11 @@ logitVif <- lapply(logitModels, vif)
 # Social Networks #
   ###############
 
-# Binomial logistic model for the relationship between frequency of French
+# Multinomial logistic model for the relationship between frequency of French
 # use and alter type (i.e., core alters vs non-core)
-coreByFrBinom <- glmer(Alter.Type ~ Alter.French.Frequency + (1|Participant),
-                       data = networks,
-                       family = binomial)
+coreByFrMultinom <- mblogit(Alter.French.Frequency ~ Alter.Type,
+                            data = networks,
+                            random = ~ 1|Participant)
 
 # Is there a difference between the anglophone and francophone ethnic homophily?
 homophByLanguageTtest <- t.test(participants$Anglo.Network.Ethnic.Homophily,
