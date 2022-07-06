@@ -362,7 +362,9 @@
                             & \\
           Social Variable   & Levels \\
           \hline
+          Ethnicity         & Creole, Cajun \\
           French Background & naturalistic, institutional, personal \\
+          Gender            & man, woman, other answer \\
           Birth Year        & continuous numeric \\
           Residence         & parish \\
           Raised            & parish \\

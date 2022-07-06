@@ -27,6 +27,7 @@
              detect-all}
   \usepackage{graphicx}
     \graphicspath{{./figure/}}
+  \usepackage[normalem]{ulem}
 
   % Document information
   \title[Ethnicity and subject pronouns]{Dissertation Proposal: The relationship between ethnicity and subject pronouns in Louisiana French}
@@ -40,15 +41,15 @@
   \newcommand{\gloss}[1]{`#1'}
 
 \begin{document}
-  <<settings_load_scripts, echo = FALSE>>=
-  read_chunk("analysis.R")
-  opts_chunk$set(echo = FALSE,
-                 warning = FALSE,
-                 message = FALSE,
-                 results = "asis")
-  @
-  <<load_packages_functions_data>>=
-  @
+  % <<settings_load_scripts, echo = FALSE>>=
+  % read_chunk("analysis.R")
+  % opts_chunk$set(echo = FALSE,
+  %                warning = FALSE,
+  %                message = FALSE,
+  %                results = "asis")
+  % @
+  % <<load_packages_functions_data>>=
+  % @
   \begin{frame}
     \titlepage
     \tiny{
@@ -78,14 +79,16 @@
     \begin{frame}{Major Ethnic Groups}
       \begin{center}
         \begin{tabular}{l | l | l}
-          Era          & Creoles                                       & Cajuns \\
+          Era          & Creoles                                          & Cajuns \\
           \hline
-                       &                                               & \\
+                       &                                                  & \\
           18th century & \parbox[t]{3cm}{Europeans born in the New World} & \parbox[t]{3cm}{Descendents of Acadians} \\
-                       &                                               & \\
+                       &                                                  & \\
           19th century & \parbox[t]{3cm}{Free people of color}            & -- \\
-                       &                                               & \\
-          20th century & \parbox[t]{3cm}{Black South Louisianians}        & \parbox[t]{3cm}{White South Louisianians}
+                       &                                                  & \\
+          20th century & \parbox[t]{3cm}{Black South Louisianians}        & \parbox[t]{3cm}{White South Louisianians} \\
+                       &                                                  & \\
+          \hline
         \end{tabular}
       \end{center}
       \begin{center}
@@ -100,14 +103,6 @@
     \end{frame}
 
   \section{Louisiana French}
-    \begin{frame}{General Characteristics}
-      \begin{itemize}
-        \item Explicit progressive aspect expressed with \lexi{après} \parencite{papen_structural_1997}
-        \item /ʒ/ produced as [h] \parencite{carmichael_language_2019}
-        \item {}[ɾ] where most varieties have [ʀ] or [ʁ] \parencite{blainey_first_2013}
-      \end{itemize}
-    \end{frame}
-
     \begin{frame}{Subject Pronouns}
       \begin{center}
         {\footnotesize
@@ -136,7 +131,14 @@
     \begin{frame}{Previous Research}
       \begin{itemize}
         \item (3pl) differed between Cajuns and Houma Indians \parencite{rottet_language_1995, dajko_ethnic_2009}
+        \begin{itemize}
+          \item Other pronouns were examined but not significant for ethnicity
+        \end{itemize}
         \item (1sg) has been examined but not for ethnic variation \parencite{carmichael_language_2019, gudmestad_variationist_2022, klingler_probleme_2005}
+        \begin{itemize}
+          \item As has (3pl) but, again, not for ethnic variation \parencite{byers_defining_1988, klingler_if_2003, neumann_creole_1985}
+        \end{itemize}
+        \item Subject pronouns have been examined in other varieties in numerous ways \parencite{lambert_use_1967, schoch_probleme_1978}
       \end{itemize}
     \end{frame}
 
@@ -161,17 +163,20 @@
     \end{frame}
 
     \begin{frame}{Social Variables}
+      \centering
       \begin{tabular}{l l}
                           & \\
         Social Variable   & Levels \\
         \hline
+        \emph{Ethnicity}  & Creole, Cajun \\
         French Background & naturalistic, institutional, personal \\
+        Gender            & man, woman, other answer \\
         Birth Year        & continuous numeric \\
         Residence         & parish \\
         Raised            & parish \\
         Profession        & blue and white collar \\
         Education         & \parbox[t]{6cm}{some school, high school graduate, college graduate} \\
-        Race              & \parbox[t]{6cm}{singular White, singular Black, border, protean, transcendent}
+        Race              & \parbox[t]{6cm}{singular White, singular Black, border, protean, transcendent \parencite{rockquemore_beyond_2007}}
       \end{tabular}
     \end{frame}
 
@@ -190,6 +195,8 @@
       \end{equation*}
       \begin{itemize}
         \item Binomial or multinomial logistic models based on the levels of the pronoun
+        \item Variance inflation factor (VIF) for auto-correlated factors
+        \item Akaike information criterion (AIC) for model selection
       \end{itemize}
     \end{frame}
 
@@ -227,5 +234,40 @@
       \begin{center}
         Questions and comments?
       \end{center}
+    \end{frame}
+
+    \begin{frame}{General Characteristics}
+      \begin{itemize}
+        \item Explicit progressive aspect expressed with \lexi{après} \parencite{papen_structural_1997}
+        \item /ʒ/ produced as [h] \parencite{carmichael_language_2019}
+        \begin{itemize}
+          \item \lexi{[h]'ai [h]amais man[h]é ça.}
+          \item \gloss{I've never eaten that.}
+        \end{itemize}
+        \item {}[ɾ] where most varieties have [ʀ] or [ʁ] \parencite{blainey_first_2013}
+        \begin{itemize}
+          \item \lexi{ap[ɾ]ès} \gloss{after}
+          \item \lexi{[ɾ]aison} \gloss{reason}
+        \end{itemize}
+      \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Likely Collapsed Variables}
+      \centering
+      \begin{tabular}{c c}
+        (3g.IF)                                                                  & (3g.IM) \\
+        \lexi{ça}, \sout{\lexi{elle}}, \lexi{li}                                 & \lexi{ça}, \sout{\lexi{il}}, \lexi{li} \\
+                                                                                 & \\
+        \multicolumn{2}{c}{(3g.I)} \\
+        \multicolumn{2}{c}{\lexi{ça}, \lexi{li}} \\
+                                                                                 & \\
+        \hline
+                                                                                 & \\
+        (3pl.F)                                                                  & (3pl.M) \\
+        \sout{\lexi{elles}}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} & \lexi{ils}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé} \\
+                                                                                 & \\
+        \multicolumn{2}{c}{(3pl)} \\
+        \multicolumn{2}{c}{\lexi{ils}, \lexi{ça}, \lexi{eux}, \lexi{eux-autres}, \lexi{yé}} \\
+      \end{tabular}
     \end{frame}
 \end{document}
