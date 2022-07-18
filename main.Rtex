@@ -492,6 +492,7 @@
 
   \printbibliography
 
+  \newpage
   \appendix
     \section{Interview Module}
       \label{app:module}
