@@ -52,7 +52,7 @@ multinomResponse <- function(pronoun) {
   mblogit(Token ~ Verb.Type + French.Background + Birth.Year + Gender + Ethnicity + Race +
             Raised + Residence + Profession + Education + Network.Ethnic.Homophily,
           data = tokens[tokens$Token.Type == pronoun,],
-          random = list(~ 1|Name, 1|Following.Verb))
+          random = list(~ 1|Name, ~ 1|Following.Verb))
 }
 
 ######################

@@ -25,8 +25,8 @@
   \usepackage{pbox}
 
   % Document information
-  \title{Dissertation Proposal: The relationship between ethnicity and subject pronouns in Louisiana French\footnote{
-    Dummy test data and code available at \url{https://osf.io/sy7uq/}.
+  \title{The expression of race in Louisiana French subject pronouns among Creoles and Cajuns\footnote{
+    Code and dummy test data available at \url{https://osf.io/sy7uq/}.
   }}
   \author{Joshua McNeill}
   \date{\today}
@@ -492,6 +492,7 @@
 
   \printbibliography
 
+  \newpage
   \appendix
     \section{Interview Module}
       \label{app:module}
