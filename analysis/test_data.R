@@ -6,7 +6,7 @@
 library(babynames)
 
 ## Variables
-dataDir <- "./data/"
+dataDir <- "../data/"
 dataSize <- 2500
 participantSize <- 30
 
