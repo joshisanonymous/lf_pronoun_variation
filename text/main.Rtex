@@ -38,31 +38,41 @@
   \newcommand{\code}[1]{\texttt{#1}}
   \newcommand{\foreign}[1]{\textit{#1}}
   \newcommand{\longtrans}[1]{[#1]}
+  \newcommand{\abstract}[1]{
+    \chapter*{\centering Abstract}
+    #1
+  }
 
 \begin{document}
   \doublespacing
+  \abstract{
+    Abstract stuff.
+  }
+
   \frontmatter
     \maketitle
     \include{chapters/front.tex}
+    \tableofcontents
 
   \mainmatter
     \include{chapters/intro.tex}
     \include{chapters/methods.tex}
-    \include{}
+    \include{chapters/pronoun_predictors.tex}
+    \include{chapters/network_homophily.tex}
+    \include{chapters/ethnicity.tex}
+    \include{chapters/conclusion.tex}
 
+    \printbibliography
 
-  \section{Impact of the study}
-    This study aims to expand researchers' understanding of how broader social categories end up superimposed on local social categories or not.
-    South Louisiana offers a complex ethnic landscape and unique linguistic context for specifically analyzing how the general US racial Black-White binary has impacted the Creole and Cajun ethnic categories as expressed in subject pronoun usage.
-    The relationship between these groups is furthermore one that is well worth exploring more in terms of what it means for social equity.
-    As has been shown \parencite{giancarlo_dont_2019}, the sort of marginalization that comes along with the US racial binary has already had some expression in the state's ethnic make-up.
-    Finally, as Louisiana French is in all likelihood a heritage language at this point, results from this study may inform research on heritage languages and how ethnicity interacts with their structures generally.
+    \appendix
+      \chapter{Interview Module}
+        \label{app:module}
+        \input{../research_tools/interview_modules/pronouns_race_ethnicity.tex}
 
-  \printbibliography
-
-  \newpage
-  \appendix
-    \section{Interview Module}
-      \label{app:module}
-      \input{../research_tools/interview_modules/pronouns_race_ethnicity.tex}
+  % \section{Impact of the study}
+  %   This study aims to expand researchers' understanding of how broader social categories end up superimposed on local social categories or not.
+  %   South Louisiana offers a complex ethnic landscape and unique linguistic context for specifically analyzing how the general US racial Black-White binary has impacted the Creole and Cajun ethnic categories as expressed in subject pronoun usage.
+  %   The relationship between these groups is furthermore one that is well worth exploring more in terms of what it means for social equity.
+  %   As has been shown \parencite{giancarlo_dont_2019}, the sort of marginalization that comes along with the US racial binary has already had some expression in the state's ethnic make-up.
+  %   Finally, as Louisiana French is in all likelihood a heritage language at this point, results from this study may inform research on heritage languages and how ethnicity interacts with their structures generally.
 \end{document}
