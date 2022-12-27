@@ -4,14 +4,15 @@
 
 ## Packages
 library(babynames)
+library(readr)
 
 ## Variables
-dataDir <- "../data/"
+dataDir <- "data/"
 dataSize <- 2500
 participantSize <- 30
 
 # Linguistic variables
-followingVerb <- read.csv(paste(dataDir, "french_verbs.csv", sep = ""), fileEncoding = "UTF-8")
+followingVerb <- data.frame(read_csv(paste(dataDir, "french_verbs.csv", sep = "")))
 followingVerb <- followingVerb[followingVerb$tags == "['infinitive']", "form"]
 pn2sgVariants <- c("tu", "to")
 pn3plVariants <- c("ils", "ça", "eux", "eux-autres", "yé")
