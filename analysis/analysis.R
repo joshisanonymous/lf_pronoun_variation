@@ -60,11 +60,11 @@ multinomResponse <- function(pronoun) {
 ######################
 
 # Read in data
-participants <- read.csv("../data/test_participants.csv", fileEncoding = "UTF-8",
+participants <- read.csv("data/test_participants.csv", fileEncoding = "UTF-8",
                          stringsAsFactors = TRUE)
-networks <- read.csv("../data/test_networks.csv", fileEncoding = "UTF-8",
+networks <- read.csv("data/test_networks.csv", fileEncoding = "UTF-8",
                      stringsAsFactors = TRUE)
-tokens <- read.csv("../data/test_tokens.csv", fileEncoding = "UTF-8",
+tokens <- read.csv("data/test_tokens.csv", fileEncoding = "UTF-8",
                    stringsAsFactors = TRUE)
 
 # Order factors in the data that make sense to order
@@ -120,11 +120,7 @@ thirdPlFTable <- table(tokens[tokens$Token.Type == "3pl.F",
 # Pronoun Models #
   ##############
 
-# Check verbCollatesMostFrequent to see if there are overrepresented
-# verbs not accounted for by verb type, in which case verb should be a
-# random intercept.
-
-# It may also be beneficial to split up verb type into more than just
+# It may be beneficial to split up verb type into more than just
 # auxiliary, modal, and lexical based on Dubois (2001) and Gudmestad &
 # Carmichael (2022), which suggest 1sg effects for être vs avoir and
 # verbs of opinion/belief.

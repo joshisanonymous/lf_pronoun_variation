@@ -14,6 +14,7 @@ participantSize <- 30
 # Linguistic variables
 followingVerb <- data.frame(read_csv(paste(dataDir, "french_verbs.csv", sep = "")))
 followingVerb <- followingVerb[followingVerb$tags == "['infinitive']", "form"]
+followingVerb <- followingVerb[!is.na(followingVerb)]
 pn2sgVariants <- c("tu", "to")
 pn3plVariants <- c("ils", "ça", "eux", "eux-autres", "yé")
 verbType <- c("lexical", "modal", "auxiliary")
