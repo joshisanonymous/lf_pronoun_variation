@@ -8,7 +8,7 @@
   \usepackage{fontspec}
     \setmainfont{Charis SIL}
   \usepackage[style=apa, backend=biber]{biblatex}
-    \addbibresource{References.bib}
+    \addbibresource{./text/References.bib}
   \usepackage{hyperref}
     \hypersetup{colorlinks=true, allcolors=blue}
   \usepackage[margin=1in]{geometry}
@@ -29,7 +29,7 @@
     Code and dummy test data available at \url{https://osf.io/sy7uq/}.
   }}
   \author{Joshua McNeill}
-  \date{\today}
+  \date{June 6, 2022}
 
   % New commands
   \newcommand{\orth}[1]{$\langle$#1$\rangle$}
@@ -436,7 +436,7 @@
         \begin{aligned}
           \text{Pronoun}\  & \~{}\  \text{Verb.Type}\  +\  \text{French.Background}\  +\  \text{Birth.Year}\  +\  \text{Gender}\  +\\
                            & \text{Ethnicity}\  +\  \text{Race}\  +\  \text{Raised}\  +\  \text{Residence}\  +\  \text{Profession}\  +\  \text{Education}\  +\\
-                           & \text{Network.Ethnic.Homophily}\  +\  (1|\text{Participant}) + (1|\text{Following.Verb})
+                           & \text{Network.Ethnic.Homophily:Ethnicity}\  +\  (1|\text{Participant}) + (1|\text{Following.Verb})
         \end{aligned}
       \end{equation}
 
