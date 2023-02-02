@@ -8,7 +8,7 @@
   \usepackage{fontspec}
     \setmainfont{Charis SIL}
   \usepackage[style=apa, backend=biber]{biblatex}
-    \addbibresource{./text/References.bib}
+    \addbibresource{../References.bib}
   \usepackage{hyperref}
     \hypersetup{colorlinks=true, allcolors=blue}
   \usepackage[margin=1in]{geometry}
@@ -21,7 +21,7 @@
   \usepackage{tabularx}
     \newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
   \usepackage{graphicx}
-    \graphicspath{{./figure/}}
+    \graphicspath{{../figure/}}
   \usepackage{pbox}
 
   % Document information
