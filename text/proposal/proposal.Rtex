@@ -496,5 +496,5 @@
   \appendix
     \section{Interview Module}
       \label{app:module}
-      \input{research_tools/interview_modules/pronouns_race_ethnicity.tex}
+      \input{../../research_tools/interview_modules/pronouns_race_ethnicity.tex}
 \end{document}
