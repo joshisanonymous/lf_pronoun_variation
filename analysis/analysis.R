@@ -42,7 +42,7 @@ getEIHomophily <- function(df, name) {
 # For main models
 binomResponse <- function(pronoun) {
   glmer(Token ~ Verb.Type + French.Background + Birth.Year + Gender + Ethnicity + Race +
-          Raised + Residence + Profession + Education + Network.Ethnic.Homophily +
+          Raised + Residence + Profession + Education + Network.Ethnic.Homophily:Ethnicity +
           (1|Name) + (1|Following.Verb),
         data = tokens[tokens$Token.Type == pronoun,],
         family = binomial)
@@ -50,7 +50,7 @@ binomResponse <- function(pronoun) {
 
 multinomResponse <- function(pronoun) {
   mblogit(Token ~ Verb.Type + French.Background + Birth.Year + Gender + Ethnicity + Race +
-            Raised + Residence + Profession + Education + Network.Ethnic.Homophily,
+            Raised + Residence + Profession + Education + Network.Ethnic.Homophily:Ethnicity,
           data = tokens[tokens$Token.Type == pronoun,],
           random = list(~ 1|Name, ~ 1|Following.Verb))
 }
