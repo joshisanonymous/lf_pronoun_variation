@@ -280,3 +280,12 @@ TSWLatexianTemp*
 *.Rproj
 *.Rhistory
 *.RData
+
+# created by virtualenv automatically
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Anonymization stuff
+data/anon_names.csv
+data/participant_key.csv
