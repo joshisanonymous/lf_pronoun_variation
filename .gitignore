@@ -287,5 +287,5 @@ Scripts/
 pyvenv.cfg
 
 # Anonymization stuff
-data/anon_names.csv
-data/participant_key.csv
+anon_names.csv
+participant_key.csv
