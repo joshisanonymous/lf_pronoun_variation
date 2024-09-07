@@ -289,3 +289,8 @@ pyvenv.cfg
 # Anonymization stuff
 anon_names.csv
 participant_key.csv
+
+# Intermediate .tex files
+main.tex
+proposal.tex
+proposal_defense.tex
