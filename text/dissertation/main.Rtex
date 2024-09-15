@@ -2,7 +2,7 @@
 % Compile with XeLaTeX %
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass{book}
+\documentclass[oneside]{book}
   % Packages and settings
   \usepackage{amsmath}
   \usepackage{fontspec}
@@ -25,9 +25,7 @@
   \usepackage{pbox}
 
   % Document information
-  \title{The expression of race in Louisiana French subject pronouns among Creoles and Cajuns\footnote{
-    Code and dummy test data available at \url{https://osf.io/sy7uq/}.
-  }}
+  \title{The expression of race in Louisiana French subject pronouns among Creoles and Cajuns}
   \author{Joshua McNeill}
   \date{\today}
 
@@ -45,9 +43,6 @@
 
 \begin{document}
   \doublespacing
-  \abstract{
-    Abstract stuff.
-  }
 
   \frontmatter
     \maketitle
@@ -57,9 +52,9 @@
   \mainmatter
     \include{chapters/intro.tex}
     \include{chapters/methods.tex}
-    \include{chapters/pronoun_predictors.tex}
-    \include{chapters/network_homophily.tex}
-    \include{chapters/ethnicity.tex}
+    \include{chapters/pronoun_variation.tex}
+    \include{chapters/personal_networks.tex}
+    \include{chapters/ethnic_race_meaning.tex}
     \include{chapters/conclusion.tex}
 
     \printbibliography
