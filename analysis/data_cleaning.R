@@ -1,6 +1,15 @@
 # Re-align 2nd interviewee tokens
-
-
+tokens <- data.frame(
+  "Name" = c(tokens$Name, tokens$Name2),
+  "SubjPred" = c(tokens$SubjPred, tokens$SubjPred2),
+  "Pronoun" = c(tokens$Pronoun, tokens$Pronoun2),
+  "ProUnder" = c(tokens$ProUnder, tokens$ProUnder2),
+  "ProType" = c(tokens$ProType, tokens$ProType2),
+  "Predicate" = c(tokens$Predicate, tokens$Predicate2),
+  "PredUnder" = c(tokens$PredUnder, tokens$PredUnder2),
+  "PredType" = c(tokens$PredType, tokens$PredType2)
+)
+tokens <- na.omit(tokens)
 # Collapse factor levels
 
 

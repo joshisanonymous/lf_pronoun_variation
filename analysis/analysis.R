@@ -21,11 +21,11 @@ source("functions.R")
 ######################
 
 # Read in data
-participants <- read.csv("../data/test_participants.csv", fileEncoding = "UTF-8",
+participants <- read.csv("../data/metadata.csv", fileEncoding = "UTF-8",
                          stringsAsFactors = TRUE)
-networks <- read.csv("../data/test_networks.csv", fileEncoding = "UTF-8",
+networks <- read.csv("../data/networks.csv", fileEncoding = "UTF-8",
                      stringsAsFactors = TRUE)
-tokens <- read.csv("../data/test_tokens.csv", fileEncoding = "UTF-8",
+tokens <- read.csv("../data/pronoun_tokens.csv", fileEncoding = "UTF-8",
                    stringsAsFactors = TRUE)
 
 source("data_cleaning.R")
