@@ -286,10 +286,13 @@ Lib/
 Scripts/
 pyvenv.cfg
 
-# Anonymization stuff
+# Anonymization and privacy stuff
 anon_names.csv
 participant_key.csv
 transcripts/
+metadata.csv
+networks.csv
+pronoun_tokens.csv
 
 # Intermediate .tex files
 main.tex
