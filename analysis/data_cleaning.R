@@ -12,11 +12,18 @@ tokens <- data.frame(
 tokens <- na.omit(tokens)
 
 # Collapse factor levels
-tokens[tokens == "eux-aut"] <- "eux-autres"
-tokens3p <- droplevels(tokens[tokens$ProType == "3pl.A" | tokens$ProType == "3pl.AM" | tokens$ProType == "3pl.AF" | tokens$ProType == "3pl.AMF" |
-       tokens$ProType == "3pl.I" | tokens$ProType == "3pl.IF" | tokens$ProType == "3pl.IM" | tokens$ProType == "3pl.IMF",])
-
-table(tokens3p$ProUnder)
+tokens$ProUnder <- recode_factor(
+  tokens$ProUnder,
+  "eux-aut" = "eux-autres",
+  "vous-aut" = "vous-autres",
+  "nous-aut" = "nous-autres",
+  "a" = "elle",
+  "alle" = "elle",
+  "ce" = "ça",
+  "eu" = "eux",
+  "ti" = "tu"
+)
+table(tokens$ProUnder)
 
 # Order factors in the data that make sense to order
 tokens$Token <- factor(tokens$Token,
