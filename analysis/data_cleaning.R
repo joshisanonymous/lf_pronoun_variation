@@ -48,6 +48,14 @@ tokens$PredType <- factor(tokens$PredType,
                            levels = c("lexical", "modal", "auxiliary"))
 
 # Social cleanup --------------------------------------------------------------
+# Fix headers
+colnames(participants) <- c("Name", "Recorded", "Birth Year", "Raised (town)",
+                            "Raised (parish)", "Residence (town)", "Residence (parish)",
+                            "French Background", "Education", "Profession", "Profession (specific)",
+                            "Retired", "Gender", "Gender Source", "Race", "Ethnicity",
+                            "Transcribed", "Coded", "Anonymized", "Length Completed",
+                            "Total Length", "Notes")
+
 participants$Profession <- factor(participants$Profession,
                                   levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
