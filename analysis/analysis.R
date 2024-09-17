@@ -14,6 +14,7 @@ library(reshape2)
 library(mclogit)
 library(lme4)
 library(car)
+library(dplyr)
 source("functions.R")
 
 ######################
