@@ -6,7 +6,7 @@
 ######################################################
 
 ############
-# Packages #
+# Packages # -----------------------------------------------------------------
 ############
 
 library(ggplot2)
@@ -18,7 +18,7 @@ library(dplyr)
 source("functions.R")
 
 ######################
-# Data and variables #
+# Data and variables # -------------------------------------------------------
 ######################
 
 # Read in data
@@ -28,8 +28,44 @@ networks <- read.csv("../data/networks.csv", fileEncoding = "UTF-8",
                      stringsAsFactors = TRUE, sep = "\t", na.strings = "")
 tokens <- read.csv("../data/pronoun_tokens.csv", fileEncoding = "UTF-8",
                    stringsAsFactors = TRUE, na.strings = "")
-
 source("data_cleaning.R")
+
+# Some subsets ---------------------------------------------------------------
+tokens3plAnim <- tokens[grep("3pl", tokens$ProType),]
+tokens3plAnim$ProType <- recode_factor(
+  tokens3plAnim$ProType,
+  "3pl.AF" = "3pl.A",
+  "3pl.AM" = "3pl.A",
+  "3pl.AMF" = "3pl.A",
+  "3pl.IF" = "3pl.I",
+  "3pl.IM" = "3pl.I"
+)
+
+tokens3plGender <- tokens[grep("3pl.(A|I)(M|F|MF)", tokens$ProType),]
+tokens3plGender$ProType <- recode_factor(
+  tokens3plGend$ProType,
+  "3pl.AF" = "3pl.F",
+  "3pl.AM" = "3pl.M",
+  "3pl.AMF" = "3pl.MF",
+  "3pl.IF" = "3pl.F",
+  "3pl.IM" = "3pl.M"
+)
+
+# Remove tokens deemed not useful for analyses
+# 3pl very low counts
+tokens <- tokens[grep("[^ø]", tokens[grep("3pl", tokens$ProType), "ProUnder"]),]
+tokens <- droplevels(subset(tokens, ProUnder != "elles" & ProUnder != "eux" &
+                     ProUnder != "eux-autres"))
+tokens$ProType <- recode_factor(
+  tokens$ProType,
+  "3pl.A" = "3pl",
+  "3pl.AF" = "3pl",
+  "3pl.AM" = "3pl",
+  "3pl.AMF" = "3pl",
+  "3pl.I" = "3pl",
+  "3pl.IF" = "3pl",
+  "3pl.IM" = "3pl"
+)
 
 # Calculate EI homophily indices for each participant
 for(name in participants$Name) {
@@ -81,7 +117,7 @@ thirdPlFTable <- table(tokens[tokens$ProType == "3pl.F",
 
 logitModels <- list(
   # firstSg = multinomResponse("1sg"),
-  secondSgT = binomResponse("2sg.T"),
+  # secondSgT = binomResponse("2sg.T"),
   # secondSgV = multinomResponse("2sg.V"),
   # thirdSgAF = binomResponse("3sg.AF"),
   # thirdSgAM = binomResponse("3sg.AM"),
@@ -94,7 +130,7 @@ logitModels <- list(
   # Check thirdPlFTable to see if elles is ever used for 3rd person plural
   # Use only one model if not used
   # thirdPlF = multinomResponse("3pl.F"),
-  thirdPlM = multinomResponse("3pl.M")
+  thirdPlM = multinomResponse("3pl")
 )
 
 # Check for multicollinearity between factors and remove those that are

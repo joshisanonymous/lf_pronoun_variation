@@ -1,5 +1,16 @@
+# Check for the importance of animacy for 3pl
+graph3plAnim <- ggplot(tokens3plAnim,
+  aes(x = ProUnder)) +
+  geom_bar() +
+  facet_wrap(. ~ ProType) +
+  theme_bw()
 
-
+# Check for the importance of gender for 3pl
+graph3plGender <- ggplot(tokens3plGender,
+       aes(x = ProUnder)) +
+  geom_bar() +
+  facet_wrap(. ~ ProType) +
+  theme_bw()
 
 # Ethnicity by race
 ethByRaceBar <- ggplot(
