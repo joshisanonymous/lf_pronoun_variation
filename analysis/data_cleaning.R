@@ -1,4 +1,4 @@
-# Re-align 2nd interviewee tokens
+# Re-align 2nd interviewee tokens and remove blank rows
 tokens <- data.frame(
   "Name" = c(tokens$Name, tokens$Name2),
   "SubjPred" = c(tokens$SubjPred, tokens$SubjPred2),
@@ -10,8 +10,13 @@ tokens <- data.frame(
   "PredType" = c(tokens$PredType, tokens$PredType2)
 )
 tokens <- na.omit(tokens)
-# Collapse factor levels
 
+# Collapse factor levels
+tokens[tokens == "eux-aut"] <- "eux-autres"
+tokens3p <- droplevels(tokens[tokens$ProType == "3pl.A" | tokens$ProType == "3pl.AM" | tokens$ProType == "3pl.AF" | tokens$ProType == "3pl.AMF" |
+       tokens$ProType == "3pl.I" | tokens$ProType == "3pl.IF" | tokens$ProType == "3pl.IM" | tokens$ProType == "3pl.IMF",])
+
+table(tokens3p$ProUnder)
 
 # Order factors in the data that make sense to order
 tokens$Token <- factor(tokens$Token,
