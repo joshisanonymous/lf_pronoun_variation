@@ -55,17 +55,17 @@ rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
 tokens <- merge(tokens, participants, by = "Name")
 
 # Create generic DFs and tables
-ethByRaceTable <- table(participants$Ethnicity, participants$Race)
+ethByRaceTable <- table(participants$Race, participants$Ethnicity)
 coreByFrTable <- table(networks$Alter.French.Frequency, networks$Alter.Type)
-verbCollatesMostFrequent <- table(tokens$Following.Verb)
+verbCollatesMostFrequent <- table(tokens$PredUnder)
 verbCollatesMostFrequent <- verbCollatesMostFrequent[
   order(verbCollatesMostFrequent, decreasing = TRUE)
 ]
-thirdSgITable <- table(tokens[tokens$Token.Type == "3sg.IF" |
-                                tokens$Token.Type == "3sg.IM",
-                              "Token"])
-thirdPlFTable <- table(tokens[tokens$Token.Type == "3pl.F",
-                              "Token"])
+thirdSgITable <- table(tokens[tokens$ProType == "3sg.IF" |
+                              tokens$ProType == "3sg.IM",
+                              "ProUnder"])
+thirdPlFTable <- table(tokens[tokens$ProType == "3pl.F",
+                              "ProUnder"])
 
 ############
 # Analyses #
@@ -124,52 +124,4 @@ homophByEthnicGroupTtest <- t.test(participants[participants$Ethnicity == "Creol
                                    participants[participants$Ethnicity == "Cajun",
                                                 "Network.Ethnic.Homophily"])
 
-
-#########
-# Plots #
-#########
-
-# Ethnicity by race
-ethByRaceBar <- ggplot(
-  melt(ethByRaceTable,
-       varnames = c("Ethnicity", "Race"),
-       value.name = "Count"),
-  aes(
-    x = Ethnicity,
-    y = Count,
-    fill = Race
-    )
-) +
-  geom_bar(stat = "identity", position = "dodge") +
-  theme_bw()
-
-# French usage by alter type (i.e., coreness)
-coreByFrBar <- ggplot(
-  melt(coreByFrTable,
-       varnames = c("French.Frequency", "Alter.Type"),
-       value.name = "Count"),
-  aes(
-    x = Alter.Type,
-    y = Count,
-    fill = French.Frequency
-  )
-) +
-  geom_bar(stat = "identity", position = "dodge") +
-  theme_bw()
-
-# Comparison of homophily by French usage
-homophByLanguage <- ggplot(
-  melt(participants,
-       id.vars = "Name",
-       measure.vars = c("Network.Ethnic.Homophily",
-                        "Anglo.Network.Ethnic.Homophily",
-                        "Franco.Network.Ethnic.Homophily"),
-       variable.name = "Section.of.Network",
-       value.name = "Ethnic.Homophily"),
-  aes(
-    y = Ethnic.Homophily,
-    x = Section.of.Network
-  )
-) +
-  geom_boxplot() +
-  theme_bw()
+source("plots.R")
