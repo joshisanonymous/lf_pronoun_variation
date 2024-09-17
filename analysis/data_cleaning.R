@@ -98,7 +98,13 @@ participants$Education <- factor(participants$Education,
 participants$Ethnicity <- factor(participants$Ethnicity,
                           levels = c("Creole", "Cajun"))
 
-# Network cleaning ------------------------------------------------------------
+# Network cleaning -----------------------------------------------------------
+# Collapse factor levels when relevant
+networks$Alter.Ethnicity <- recode_factor(
+  networks$Alter.Ethnicity,
+  "African/Creole" = "Creole"
+)
 
+# Order factor in order to make a reasonable reference level
 networks$Alter.French.Frequency <- factor(networks$Alter.French.Frequency,
-                                          levels = c("Never", "Occasionally", "Often", "Always"))
+                                   levels = c("Never", "Occasionally", "Often", "Always"))
