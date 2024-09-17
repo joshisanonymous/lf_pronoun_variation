@@ -1,4 +1,4 @@
-# Re-align 2nd interviewee tokens and remove blank rows
+# Re-align 2nd interviewee tokens and remove blank rows -----------------------
 tokens <- data.frame(
   "Name" = c(tokens$Name, tokens$Name2),
   "SubjPred" = c(tokens$SubjPred, tokens$SubjPred2),
@@ -11,13 +11,9 @@ tokens <- data.frame(
 )
 tokens <- na.omit(tokens)
 
-# ProType groups
-pro3pl <- droplevels(tokens[tokens$ProType == "3pl.A" | tokens$ProType == "3pl.AF" | tokens$ProType == "3pl.AM" | tokens$ProType == "3pl.AMF" |
-                            tokens$ProType == "3pl.I" | tokens$ProType == "3pl.IF" | tokens$ProType == "3pl.IM" | tokens$ProType == "3pl.IMF",])
-
+# Linguistic cleaning ---------------------------------------------------------
 # Remove ambiguous pronouns
-# n'
-# t'
+tokens <- droplevels(subset(tokens, ProUnder != "n'" & ProUnder != "t'"))
 
 # Collapse factor levels
 tokens$ProUnder <- recode_factor(
@@ -31,20 +27,27 @@ tokens$ProUnder <- recode_factor(
   "eu" = "eux",
   "ti" = "tu"
 )
-# i has 1 sg and rest pl
-# il is a mix of sg and pl
-tokens$ProUnder <- recode_factor(
-  pro3pl$ProUnder,
-  "i" = "ils"
-)
-table(tokens$ProUnder)
 
-# Order factors in the data that make sense to order
-tokens$Token <- factor(tokens$Token,
-                       levels = c("ça", "ils", "eux", "eux-autres", "yé",
-                                  "tu", "to"))
-tokens$Verb.Type <- factor(tokens$Verb.Type,
+# 3pl i and il to ils
+tokens$ProUnder <- as.character(tokens$ProUnder)
+for(token in 1:nrow(tokens)) {
+  if(grepl("3pl.*", tokens[token, "ProType"]) &
+     grepl("il?$", tokens[token, "ProUnder"])) {
+    tokens[token, "ProUnder"] <- "ils"
+  }
+  rm(token)
+}
+tokens$ProUnder <- as.factor(tokens$ProUnder)
+
+# Order factor in order to make reasonable reference levels
+tokens$ProUnder <- factor(tokens$ProUnder,
+                       levels = c("je", "vous", "tu", "on", "ø", "ça", "elle", "il", "vous-autres", "ils",
+                                  "elles", "eux", "eux-autres", "nous", "nous-autres", 
+                                  "li", "mo", "no", "to", "vou", "yé"))
+tokens$PredType <- factor(tokens$PredType,
                            levels = c("lexical", "modal", "auxiliary"))
+
+# Social cleanup --------------------------------------------------------------
 participants$Profession <- factor(participants$Profession,
                                   levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
