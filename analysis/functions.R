@@ -2,6 +2,7 @@
 # Functions #
 #############
 
+# Network stuff
 getAlterEthCount <- function(df, name, participantEthnicity, sameEthnicity = TRUE) {
   if(sameEthnicity == TRUE) {
     length(df[df$Participant == name &
