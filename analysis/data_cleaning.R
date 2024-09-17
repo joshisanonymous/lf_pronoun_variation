@@ -11,6 +11,14 @@ tokens <- data.frame(
 )
 tokens <- na.omit(tokens)
 
+# ProType groups
+pro3pl <- droplevels(tokens[tokens$ProType == "3pl.A" | tokens$ProType == "3pl.AF" | tokens$ProType == "3pl.AM" | tokens$ProType == "3pl.AMF" |
+                            tokens$ProType == "3pl.I" | tokens$ProType == "3pl.IF" | tokens$ProType == "3pl.IM" | tokens$ProType == "3pl.IMF",])
+
+# Remove ambiguous pronouns
+# n'
+# t'
+
 # Collapse factor levels
 tokens$ProUnder <- recode_factor(
   tokens$ProUnder,
@@ -22,6 +30,12 @@ tokens$ProUnder <- recode_factor(
   "ce" = "ça",
   "eu" = "eux",
   "ti" = "tu"
+)
+# i has 1 sg and rest pl
+# il is a mix of sg and pl
+tokens$ProUnder <- recode_factor(
+  pro3pl$ProUnder,
+  "i" = "ils"
 )
 table(tokens$ProUnder)
 
