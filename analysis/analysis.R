@@ -23,9 +23,9 @@ source("functions.R")
 
 # Read in data
 participants <- read.csv("../data/metadata.csv", fileEncoding = "UTF-8",
-                         stringsAsFactors = TRUE)
+                         stringsAsFactors = TRUE, sep = "\t", na.strings = "")
 networks <- read.csv("../data/networks.csv", fileEncoding = "UTF-8",
-                     stringsAsFactors = TRUE)
+                     stringsAsFactors = TRUE, na.strings = "")
 tokens <- read.csv("../data/pronoun_tokens.csv", fileEncoding = "UTF-8",
                    stringsAsFactors = TRUE, na.strings = "")
 
