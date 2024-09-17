@@ -51,6 +51,9 @@ for(name in participants$Name) {
 # Clean-up for loop
 rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
 
+# Merge participant metadata with tokens
+tokens <- merge(tokens, participants, by = "Name")
+
 # Create generic DFs and tables
 ethByRaceTable <- table(participants$Ethnicity, participants$Race)
 coreByFrTable <- table(networks$Alter.French.Frequency, networks$Alter.Type)
