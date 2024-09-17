@@ -39,7 +39,7 @@ for(token in 1:nrow(tokens)) {
 }
 tokens$ProUnder <- as.factor(tokens$ProUnder)
 
-# Order factor in order to make reasonable reference levels
+# Order factors in order to make reasonable reference levels
 tokens$ProUnder <- factor(tokens$ProUnder,
                        levels = c("je", "vous", "tu", "on", "ø", "ça", "elle", "il", "vous-autres", "ils",
                                   "elles", "eux", "eux-autres", "nous", "nous-autres", 
@@ -47,7 +47,7 @@ tokens$ProUnder <- factor(tokens$ProUnder,
 tokens$PredType <- factor(tokens$PredType,
                            levels = c("lexical", "modal", "auxiliary"))
 
-# Social cleanup --------------------------------------------------------------
+# Participant cleaning --------------------------------------------------------
 # Fix headers
 colnames(participants) <- c("Name", "Recorded", "Birth Year", "Raised (town)",
                             "Raised (parish)", "Residence (town)", "Residence (parish)",
@@ -56,9 +56,49 @@ colnames(participants) <- c("Name", "Recorded", "Birth Year", "Raised (town)",
                             "Transcribed", "Coded", "Anonymized", "Length Completed",
                             "Total Length", "Notes")
 
+# Remove unusable participants
+participants <- droplevels(subset(participants, Ethnicity != "French" &
+                                                Name != "Latoya Pomier"))
+
+# Collapse factor levels
+participants$`French Background` <- recode_factor(
+  participants$`French Background`,
+  "Naturalistic > Institutional" = "Naturalistic",
+  "Naturalistic > Institutional > Personal" = "Naturalistic"
+)
+participants$Race <- recode_factor(
+  participants$Race,
+  "Black" = "Singular Black",
+  "African-American / Black" = "Singular Black",
+  "Black American" = "Singular Black",
+  "White" = "Singular White",
+  "Caucasian" = "Singular White",
+  "Caucasian / White" = "Singular White",
+  "Cajun / Acadian" = "Singular Cajun",
+  "White (Cajun if it's there)" = "Singular Cajun",
+  "Creole" = "Protean Creole",
+  "African / Creole" = "Protean Creole",
+  "Caucasian / Cajun" = "Protean Cajun",
+  "Paraphrase: Whatever they call me" = "Transcendent"
+)
+
+# Order factors in order to make reasonable reference levels
+participants$`Raised (parish)` <- factor(participants$`Raised (parish)`,
+                                  levels = c("Lafayette", "St Martin", "Acadia",
+                                             "St Landry", "Vermilion", "Avoyelles",
+                                             "Calcasieu", "Cameron", "Evangeline",
+                                             "Lafourche"))
+participants$`Residence (parish)` <- factor(participants$`Residence (parish)`,
+                                     levels = c("Lafayette", "St Martin", "Acadia",
+                                                "St Landry", "Vermilion", "East Baton Rouge"))
 participants$Profession <- factor(participants$Profession,
-                                  levels = c("Blue Collar", "White Collar"))
+                           levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
-                                 levels = c("Some School", "High School Graduate", "College Graduate"))
+                          levels = c("High School", "Some College", "College Graduate"))
+participants$Ethnicity <- factor(participants$Ethnicity,
+                          levels = c("Creole", "Cajun"))
+
+# Network cleaning ------------------------------------------------------------
+
 networks$Alter.French.Frequency <- factor(networks$Alter.French.Frequency,
                                           levels = c("Never", "Occasionally", "Often", "Always"))
