@@ -15,21 +15,21 @@
   \usepackage{fontspec}
     \setmainfont{Charis SIL}
   \usepackage[backend=biber, style=apa]{biblatex}
-    \addbibresource{references.bib}
+    \addbibresource{../References.bib}
   \usepackage{hyperref}
     \hypersetup{colorlinks=false}
   \usepackage{graphicx}
-    \graphicspath{{../data/photos/}{./present_figures/}}
+    \graphicspath{{../../data/photos/}{./present_figures/}}
 
   % Document information
   \author{Joshua McNeill}
-  \title[The linguistic landscape of St Martinville]{Bilingualism in the linguistic landscape of St Martinville, Louisiana}
+  \title[Divisions raciales dans les pronoms]{L'expression des divisions raciales dans les pronoms sujets de la troisième personne au pluriel en français louisianais}
   \institute[UGA]{
     \url{joshua.mcneill@uga.edu} \\
     \vspace{0.5cm}
     University of Georgia}
-  \date{4 April, 2024}
-  \titlegraphic{\includegraphics[scale=0.05]{uga_logo.png}}
+  \date{26 septembre 2024}
+  \titlegraphic{\includegraphics[scale=0.038]{uga_logo.png}}
   \newcommand{\Logo}{{\hskip0pt plus 1filll \includegraphics[scale=0.028]{uga_logo.png}}}
 
   %% Custom commands
@@ -51,75 +51,47 @@
   \newcommand{\RQtwo}{Do these factors suggest that French is being used communicatively or symbolically?}
   
 \begin{document}
-  <<setup, echo = FALSE, message = FALSE>>=
-  opts_chunk$set(echo = FALSE,
-                 warning = FALSE,
-                 message = FALSE,
-                 results = "asis")
-  setwd("../scripts/")
-  source("analysis.R", local = knitr::knit_global())
-  @
+  % <<setup, echo = FALSE, message = FALSE>>=
+  % opts_chunk$set(echo = FALSE,
+  %                warning = FALSE,
+  %                message = FALSE,
+  %                results = "asis")
+  % setwd("../../analysis/")
+  % source("analysis.R", local = knitr::knit_global())
+  % @
   \begin{frame}
     \titlepage
-    {\scriptsize Code and data available at \url{https://osf.io/j9ds4/}.}
+    {\scriptsize Code available at \url{https://osf.io/sy7uq/}.}
   \end{frame}
 
   \section{Objective}
     <<child = "./present_frames/objectives.Rnw">>=
     @
 
-  \section{Background}
-    <<child = "./present_frames/landscapes.Rnw">>=
-    @
-    <<child = "./present_frames/landscapes_methods.Rnw">>=
-    @
-    <<child = "./present_frames/la_french.Rnw">>=
-    @
-    <<child = "./present_frames/st_martin.Rnw">>=
-    @
+  % \section{Background}
+  %   <<child = "./present_frames/landscapes.Rnw">>=
+  %   @
 
-  \section{Research Questions}
-    <<child = "./present_frames/questions.Rnw">>=
-    @
+  % \section{Research Questions}
+  %   <<child = "./present_frames/questions.Rnw">>=
+  %   @
 
-  \section{Methods}
-    <<child = "./present_frames/data.Rnw">>=
-    @
-    <<child = "./present_frames/coding_essential.Rnw">>=
-    @
-    <<child = "./present_frames/coding_displayer.Rnw">>=
-    @
-    % <<child = "./present_frames/model.Rnw">>=
-    % @
+  % \section{Methods}
+  %   <<child = "./present_frames/data.Rnw">>=
+  %   @
   
-  \section{Results}
-    <<child = "./present_frames/result_model.Rnw">>=
-    @
-    <<child = "./present_frames/result_area.Rnw">>=
-    @
-    <<child = "./present_frames/result_displayer.Rnw">>=
-    @
-    <<child = "./present_frames/result_essential.Rnw">>=
-    @
+  % \section{Results}
+  %   <<child = "./present_frames/result_model.Rnw">>=
+  %   @
   
-  \section{Conclusions}
-    <<child = "./present_frames/answers.Rnw">>=
-    @
-    <<child = "./present_frames/discussion.Rnw">>=
-    @
-    <<child = "./present_frames/ending.Rnw">>=
-    @
+  % \section{Conclusions}
+  %   <<child = "./present_frames/answers.Rnw">>=
+  %   @
   
-  \section{References}
-    \printbibliography
+  % \section{References}
+  %   \printbibliography
   
-  \section{Bonus Slides}
-    <<child = "./present_frames/bonus_use.Rnw">>=
-    @
-    <<child = "./present_frames/bonus_race.Rnw">>=
-    @
-    <<child = "./present_frames/bonus_type.Rnw">>=
-    @
-    <<child = "./present_frames/bonus_french.Rnw">>=
-    @
+  % \section{Bonus Slides}
+  %   <<child = "./present_frames/bonus_use.Rnw">>=
+  %   @
 \end{document}

@@ -1,10 +1,20 @@
-\begin{frame}{Objective\Logo}
-  \begin{columns}
-    \column{0.5\textwidth}
-      \begin{center}
-        \includegraphics[scale=0.05]{../data/photos/PXL_20230610_164829263.jpg}
-      \end{center}
-    \column{0.5\textwidth}
-      To obtain a better understanding of how French is used in the linguistic landscape of St Martinville in lieu of or in addition to English
-  \end{columns}
+\begin{frame}{Objectif\Logo}
+  De mieux comoprendre la façon dont la race et l'ethnicité sont exprimées par les pronoms sujets en français louisianais, en concevant \alert{de manière générale} la langue
+  \begin{enumerate}
+    \item Tracy, un Créole noir:
+    \begin{itemize}
+      \item Elle sait dit: <<to trappé li encore>>.
+      \item[] \gloss{elle disait: <<tu l'as encore trappé>>}
+    \end{itemize}
+    \item Gene, un Créole sans race:
+    \begin{itemize}
+      \item Tout ça yé va dit il faut tu prends ça.
+      \item[] \gloss{Tout ce qu'ils vont dire, il faut que tu prennes ça.}
+    \end{itemize}
+    \item Elizabeth, une Cadienne blanche:
+    \begin{itemize}
+      \item Li questionne les 'tits filles qui sur le homecoming court ça yé veut.
+      \item[] \gloss{Elle demande aux petites filles qui sont sur la cour de homecoming ce qu'elles veulent.}
+    \end{itemize}
+  \end{enumerate}
 \end{frame}
