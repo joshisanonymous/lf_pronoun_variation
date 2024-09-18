@@ -1,0 +1,10 @@
+\begin{frame}{Objective\Logo}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{center}
+        \includegraphics[scale=0.05]{../data/photos/PXL_20230610_164829263.jpg}
+      \end{center}
+    \column{0.5\textwidth}
+      To obtain a better understanding of how French is used in the linguistic landscape of St Martinville in lieu of or in addition to English
+  \end{columns}
+\end{frame}
