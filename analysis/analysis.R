@@ -43,7 +43,7 @@ tokens3plAnim$ProType <- recode_factor(
 
 tokens3plGender <- tokens[grep("3pl.(A|I)(M|F|MF)", tokens$ProType),]
 tokens3plGender$ProType <- recode_factor(
-  tokens3plGend$ProType,
+  tokens3plGender$ProType,
   "3pl.AF" = "3pl.F",
   "3pl.AM" = "3pl.M",
   "3pl.AMF" = "3pl.MF",
@@ -53,9 +53,6 @@ tokens3plGender$ProType <- recode_factor(
 
 # Remove tokens deemed not useful for analyses
 # 3pl very low counts
-tokens <- tokens[grep("[^ø]", tokens[grep("3pl", tokens$ProType), "ProUnder"]),]
-tokens <- droplevels(subset(tokens, ProUnder != "elles" & ProUnder != "eux" &
-                     ProUnder != "eux-autres"))
 tokens$ProType <- recode_factor(
   tokens$ProType,
   "3pl.A" = "3pl",
@@ -66,6 +63,9 @@ tokens$ProType <- recode_factor(
   "3pl.IF" = "3pl",
   "3pl.IM" = "3pl"
 )
+tokens <- tokens[tokens$ProType == "3pl" & tokens$ProUnder != "ø",]
+tokens <- droplevels(subset(tokens, ProUnder != "elles" & ProUnder != "eux" &
+                                    ProUnder != "eux-autres"))
 
 # Calculate EI homophily indices for each participant
 for(name in participants$Name) {
@@ -129,9 +129,12 @@ logitModels <- list(
   # secondPl = multinomResponse("2pl"),
   # Check thirdPlFTable to see if elles is ever used for 3rd person plural
   # Use only one model if not used
-  # thirdPlF = multinomResponse("3pl.F"),
-  thirdPlM = multinomResponse("3pl")
+  thirdPl = multinomResponse("3pl")
 )
+mblogit(ProUnder ~ PredType + `French Background` + `Birth Year` + Gender + Ethnicity + Race +
+          `Raised (parish)` + `Residence (parish)` + Profession + Education,
+        data = tokens[tokens$ProType == "3pl",],
+        random = list(~ 1|Name, ~ 1|PredUnder))
 
 # Check for multicollinearity between factors and remove those that are
 # highly collinear. In particular, verify whether ethnicity and race
