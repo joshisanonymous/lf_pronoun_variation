@@ -1,5 +1,5 @@
-\begin{frame}{Objectif\Logo}
-  De mieux comoprendre la façon dont la race et l'ethnicité sont exprimées par les pronoms sujets en français louisianais, en concevant \alert{de manière générale} la langue
+\begin{frame}[t]{Objectif\Logo}
+  De mieux comprendre la façon dont la race \emph{et l'ethnicité} sont exprimées par les pronoms sujets en français louisianais, en concevant \alert{de manière générale} la langue
   \begin{enumerate}
     \item Tracy, un Créole noir:
     \begin{itemize}

@@ -67,10 +67,16 @@
   \section{Objective}
     <<child = "./present_frames/objectives.Rnw">>=
     @
-
-  % \section{Background}
-  %   <<child = "./present_frames/landscapes.Rnw">>=
-  %   @
+  
+  \section{Background}
+    <<child = "./present_frames/race_in_la.Rnw">>=
+    @
+    % What is the racial and ethnic situation in this area
+    <<child = "./present_frames/race_in_lc.Rnw">>=
+    @
+    % Is this expressed in Creole? in French?
+    % Are Creole and French separate?
+      % Socially, yes, but structurally, hardly
 
   % \section{Research Questions}
   %   <<child = "./present_frames/questions.Rnw">>=
@@ -79,6 +85,10 @@
   % \section{Methods}
   %   <<child = "./present_frames/data.Rnw">>=
   %   @
+    % Data collection
+    % Coding of ethnicity and race
+    % Coding of 3pl
+    % Analysis: multinom logistic regression
   
   % \section{Results}
   %   <<child = "./present_frames/result_model.Rnw">>=
@@ -87,6 +97,9 @@
   % \section{Conclusions}
   %   <<child = "./present_frames/answers.Rnw">>=
   %   @
+  <<child = "./present_frames/fractal_recursivity.Rnw">>=
+  @
+    % Why do we care about race in LF? > fractal recursivity primer
   
   % \section{References}
   %   \printbibliography
