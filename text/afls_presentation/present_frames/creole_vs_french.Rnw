@@ -8,15 +8,15 @@
       \item {}(Également les cas dans mes données)
     \end{itemize}
   \end{itemize}
-  Des parlers qui mélangent les traits soi-disant créoles vs français:
+  Des parlers qui mélangent les traits soi-disant créoles et français:
   \begin{itemize}
-    \item 
+    \item <<Je serais kouri avec toi si je se gen le temps>> (Klingler 2005:361)
   \end{itemize}
   Des traits partagés:
   \begin{itemize}
     \item La syntaxe dans les négations des impératifs (Baronian 2005)
-    \item [te] est un prononciation typique pour presque tous les locuteurs
+    \item [te] est une prononciation typique pour presque tous les locuteurs
     \item [ape] est utilisé par presque tous les locuteurs
   \end{itemize}
-  Enfin, les locuteurs mêmes nomment souvent leurs langues <<le français>> ()
+  Enfin, les locuteurs mêmes nomment souvent leurs langues <<le français>> (Dajko 2012; Klingler 2003 "Language")
 \end{frame}
