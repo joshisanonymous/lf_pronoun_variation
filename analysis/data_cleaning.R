@@ -10,6 +10,7 @@ tokens <- data.frame(
   "PredType" = c(tokens$PredType, tokens$PredType2)
 )
 tokens <- na.omit(tokens)
+rownames(tokens) <- NULL
 
 # Linguistic cleaning ---------------------------------------------------------
 # Remove ambiguous pronouns
@@ -41,9 +42,9 @@ tokens$ProUnder <- as.factor(tokens$ProUnder)
 
 # Order factors in order to make reasonable reference levels
 tokens$ProUnder <- factor(tokens$ProUnder,
-                       levels = c("je", "vous", "tu", "on", "ø", "ça", "elle", "il", "vous-autres", "ils",
+                       levels = c("je", "vous", "tu", "on", "ø", "yé", "ça", "elle", "il", "vous-autres", "ils",
                                   "elles", "eux", "eux-autres", "nous", "nous-autres", 
-                                  "li", "mo", "no", "to", "vou", "yé"))
+                                  "li", "mo", "no", "to", "vou"))
 tokens$PredType <- factor(tokens$PredType,
                            levels = c("lexical", "modal", "auxiliary"))
 
@@ -74,6 +75,7 @@ participants$Race <- recode_factor(
   "White" = "Singular White",
   "Caucasian" = "Singular White",
   "Caucasian / White" = "Singular White",
+  "Cajun" = "Singular Cajun",
   "Cajun / Acadian" = "Singular Cajun",
   "White (Cajun if it's there)" = "Singular Cajun",
   "Creole" = "Protean Creole",
