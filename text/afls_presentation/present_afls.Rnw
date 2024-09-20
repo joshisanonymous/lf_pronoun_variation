@@ -48,7 +48,6 @@
   \newcommand{\smallcite}[1]{{\scriptsize{}#1}}
   % Research questions
   \newcommand{\RQone}{What factors lead to more or less use of French in the linguistic landscape?}
-  \newcommand{\RQtwo}{Do these factors suggest that French is being used communicatively or symbolically?}
   
 \begin{document}
   % <<setup, echo = FALSE, message = FALSE>>=
@@ -69,6 +68,10 @@
     @
   
   \section{Background}
+  % Are Creole and French separate?
+    % Socially, yes, but structurally, hardly
+    <<child = "./present_frames/creole_vs_french.Rnw">>=
+    @
   % What is the racial and ethnic situation in this area  
     <<child = "./present_frames/race_in_la.Rnw">>=
     @
@@ -77,14 +80,9 @@
     @
     <<child = "./present_frames/race_in_lf.Rnw">>=
     @
-  % Are Creole and French separate?
-    % Socially, yes, but structurally, hardly
-    <<child = "./present_frames/creole_vs_french.Rnw">>=
+  \section{Research Questions}
+    <<child = "./present_frames/question.Rnw">>=
     @
-
-  % \section{Research Questions}
-  %   <<child = "./present_frames/questions.Rnw">>=
-  %   @
 
   % \section{Methods}
   %   <<child = "./present_frames/data.Rnw">>=
@@ -98,7 +96,7 @@
   %   <<child = "./present_frames/result_model.Rnw">>=
   %   @
   
-  % \section{Conclusions}
+  \section{Conclusions}
   %   <<child = "./present_frames/answers.Rnw">>=
   %   @
   <<child = "./present_frames/fractal_recursivity.Rnw">>=

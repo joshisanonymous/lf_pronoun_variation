@@ -1,3 +1,42 @@
-\begin{frame}{\Logo}
-  
+\begin{frame}[t]{La race en Louisiane\Logo}
+  \small
+  La race est étroitement liée aux identités cadien et créole \\
+  \vspace{0.25cm}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+      Les Créoles:
+      \begin{itemize}
+        \item[] \emph{Période coloniale}
+        \begin{itemize}
+          \item Les Français et les Espagnols nés en Louisiane (c.-à.-d. des Blancs) (Fortier 1884)
+        \end{itemize}
+        \item[] \emph{le 19e siècle}
+        \begin{itemize}
+          \item[$\to$] Les gens de couleur libres (J. Martin 2000)
+        \end{itemize}
+        \item<3->[] \emph{Aujourd'hui}
+        \begin{itemize}
+          \item<3->[$\to$] Les Noirs (Susberry 2004)
+        \end{itemize}
+      \end{itemize}
+    \column{0.5\textwidth}
+      \uncover<2->{
+        Les Cadiens:
+        \begin{itemize}
+          \item[] \emph{Historiquement}
+          \begin{itemize}
+            \item Des gens francophones, catholiques et ruraux avec des racines acadiennes (Johnson 1976; Neumann 1985; Smith \& Phillips 1939)
+          \end{itemize}
+          \vspace{0.28cm}
+          \item<3->[] \emph{Aujourd'hui}
+          \begin{itemize}
+            \item<3->[$\to$] Les Blancs (Giancarlo 2019)
+          \end{itemize}
+        \end{itemize}
+      }
+  \end{columns}
+  \begin{center}
+    \only<-2>{Un système racial à trois niveaux: \\ le monde en esclavage > les gens de couleur libres > les Blancs}
+    \only<3>{\alert{Un système racial binaire} \\}
+  \end{center}
 \end{frame}

@@ -1,0 +1,5 @@
+\begin{frame}{Question de recherche}
+  \begin{itemize}
+    \item[QR:] \RQone
+  \end{itemize}
+\end{frame}
