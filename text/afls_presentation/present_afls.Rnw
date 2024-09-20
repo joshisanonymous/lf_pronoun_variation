@@ -69,14 +69,18 @@
     @
   
   \section{Background}
+  % What is the racial and ethnic situation in this area  
     <<child = "./present_frames/race_in_la.Rnw">>=
     @
-    % What is the racial and ethnic situation in this area
+  % Is this expressed in Creole? in French?
     <<child = "./present_frames/race_in_lc.Rnw">>=
     @
-    % Is this expressed in Creole? in French?
-    % Are Creole and French separate?
-      % Socially, yes, but structurally, hardly
+    <<child = "./present_frames/race_in_lf.Rnw">>=
+    @
+  % Are Creole and French separate?
+    % Socially, yes, but structurally, hardly
+    <<child = "./present_frames/creole_vs_french.Rnw">>=
+    @
 
   % \section{Research Questions}
   %   <<child = "./present_frames/questions.Rnw">>=

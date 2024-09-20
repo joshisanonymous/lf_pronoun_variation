@@ -1,0 +1,10 @@
+\begin{frame}{La race dans les études du français précédentes\Logo}
+  Pas much...
+  \begin{itemize}
+    \item Les perceptions
+  \end{itemize}
+  L'ethnicité:
+  \begin{itemize}
+    \item Significative entre les Indiens et les Cadiens, y compris pour les pronoms de la 3pl (Dajko 2009; Rottet 1995)
+  \end{itemize}
+\end{frame}
