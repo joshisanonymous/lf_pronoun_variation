@@ -132,10 +132,10 @@ tokens <- merge(tokens, participants, by = "Name")
   # Use only one model if not used
   # thirdPl = multinomResponse("3pl")
 # )
-small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity + Race,
-        data = tokens[tokens$ProType == "3pl",],
-        random = list(~ 1|Name, ~ 1|PredUnder))
-summary(small3plModel)
+# small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity + Race,
+#         data = tokens[tokens$ProType == "3pl",],
+#         random = list(~ 1|Name, ~ 1|PredUnder))
+
 # Check for multicollinearity between factors and remove those that are
 # highly collinear. In particular, verify whether ethnicity and race
 # are collinear.
