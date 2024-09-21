@@ -1,0 +1,31 @@
+\begin{frame}{Collecte de données}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{center}
+        \only<1>{
+          <<fig.asp = 1>>=
+          mapacadiana
+          @
+        }
+        \only<2>{
+          <<fig.asp = 1>>=
+          mapraised
+          @
+        }
+        \only<3>{
+          <<fig.asp = 1>>=
+          mapresidence
+          @
+        }
+        {\footnotesize Acadiana selon HCR 496 \smallcite{\parencite[1971, cité dans][]{trepanier_french_1988}}}
+      \end{center}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item Où les participant.e.s ont été élevé.e.s
+        \item Où les pariticpant.e.s résident
+        \item \Sexpr{nrow(participants)} interviews sociolinguistiques entre février et août 2023
+        \item Ethnicités: \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])} Créoles ou \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])} Cadien.ne.s
+        \item Âges: 24-95 ans
+      \end{itemize}
+  \end{columns}
+\end{frame}
