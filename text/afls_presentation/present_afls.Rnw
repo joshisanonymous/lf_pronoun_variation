@@ -87,7 +87,6 @@
   \section{Methods}
     <<child = "./present_frames/data.Rnw">>=
     @
-    % Data collection
     % Coding of ethnicity and race
     % Coding of 3pl
     % Analysis: multinom logistic regression
@@ -103,8 +102,8 @@
   @
     % Why do we care about race in LF? > fractal recursivity primer
   
-  % \section{References}
-  %   \printbibliography
+  \section{References}
+    \printbibliography
   
   % \section{Bonus Slides}
   %   <<child = "./present_frames/bonus_use.Rnw">>=

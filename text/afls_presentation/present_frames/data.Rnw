@@ -1,31 +1,57 @@
 \begin{frame}{Collecte de données}
   \begin{columns}
     \column{0.5\textwidth}
-      \begin{center}
-        \only<1>{
-          <<fig.asp = 1>>=
-          mapacadiana
-          @
-        }
-        \only<2>{
-          <<fig.asp = 1>>=
-          mapraised
-          @
-        }
-        \only<3>{
-          <<fig.asp = 1>>=
-          mapresidence
-          @
-        }
-        {\footnotesize Acadiana selon HCR 496 \smallcite{\parencite[1971, cité dans][]{trepanier_french_1988}}}
-      \end{center}
+      \only<1-3>{
+        \begin{itemize}
+          \item \Sexpr{nrow(participants)} interviews entre février et août 2023
+          \item<2-> Où les participant.e.s ont été élevé.e.s
+          \item<3-> Où les pariticpant.e.s résident
+        \end{itemize}
+      }
+      \only<4>{
+        \footnotesize
+        \begin{tabular}{| l r r |}
+          \hline
+          Ethnicité    & Créole                                                                & Cadien \\
+                      & \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])}       & \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])} \\
+          \hline
+          Genre        & Femme                                                                 & Homme \\
+                      & \Sexpr{nrow(participants[participants$Gender == "Woman",])}           & \Sexpr{nrow(participants[participants$Gender == "Man",])} \\
+          \hline
+          Âge          & \multicolumn{2}{c |}{24-95 ans} \\
+                      &                                                                       & \\
+          \hline
+          Formation    & No College                                                            & College \\
+                      & \Sexpr{nrow(participants[participants$Education == "No College",])}   & \Sexpr{nrow(participants[participants$Education == "Some College" | participants$Education == "College Graduate",])} \\
+          \hline
+          Profession   & Col bleu                                                              & Col blanc \\
+                      & \Sexpr{nrow(participants[participants$Profession == "Blue Collar",])} & \Sexpr{nrow(participants[participants$Profession == "White Collar",])} \\
+          \hline
+          Antécédents  & À la maison                                                           & Plus tard \\
+          francophones & 22                                                                    & 3 \\
+          \hline
+        \end{tabular}
+      }
     \column{0.5\textwidth}
-      \begin{itemize}
-        \item Où les participant.e.s ont été élevé.e.s
-        \item Où les pariticpant.e.s résident
-        \item \Sexpr{nrow(participants)} interviews sociolinguistiques entre février et août 2023
-        \item Ethnicités: \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])} Créoles ou \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])} Cadien.ne.s
-        \item Âges: 24-95 ans
-      \end{itemize}
+      \begin{center}
+        \only<1-4>{
+          \only<1>{
+            <<fig.asp = 1>>=
+            mapacadiana
+            @
+          }
+          \only<2>{
+            <<fig.asp = 1>>=
+            mapraised
+            @
+          }
+          \only<3->{
+            <<fig.asp = 1>>=
+            mapresidence
+            @
+          }
+          {\footnotesize Acadiana selon HCR 496 \smallcite{\parencite[1971, cité dans][]{trepanier_french_1988}}}
+        }
+      \end{center}
   \end{columns}
 \end{frame}
