@@ -163,4 +163,5 @@ summary(small3plModel)
 #                                    participants[participants$Ethnicity == "Cajun",
 #                                                 "Network.Ethnic.Homophily"])
 # 
+source("maps.R")
 # source("plots.R")
