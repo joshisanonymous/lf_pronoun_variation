@@ -50,14 +50,14 @@
   \newcommand{\RQone}{What factors lead to more or less use of French in the linguistic landscape?}
   
 \begin{document}
-  % <<setup, echo = FALSE, message = FALSE>>=
-  % opts_chunk$set(echo = FALSE,
-  %                warning = FALSE,
-  %                message = FALSE,
-  %                results = "asis")
-  % setwd("../../analysis/")
-  % source("analysis.R", local = knitr::knit_global())
-  % @
+  <<setup, echo = FALSE, message = FALSE>>=
+  opts_chunk$set(echo = FALSE,
+                 warning = FALSE,
+                 message = FALSE,
+                 results = "asis")
+  setwd("../../analysis/")
+  source("analysis.R", local = knitr::knit_global())
+  @
   \begin{frame}
     \titlepage
     {\scriptsize Code available at \url{https://osf.io/sy7uq/}.}
@@ -84,9 +84,9 @@
     <<child = "./present_frames/question.Rnw">>=
     @
 
-  % \section{Methods}
-  %   <<child = "./present_frames/data.Rnw">>=
-  %   @
+  \section{Methods}
+    <<child = "./present_frames/data.Rnw">>=
+    @
     % Data collection
     % Coding of ethnicity and race
     % Coding of 3pl
