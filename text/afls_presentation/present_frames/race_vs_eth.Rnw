@@ -1,0 +1,17 @@
+\begin{frame}{\Logo}
+  Le codage de la race basé sur Rockquemore (1999) \\
+  \begin{center}
+    \begin{tabular}{ l r }
+      \hline
+      Identification          & Compte \\
+      \hline
+      Noir.e singulier.ère    & \Sexpr{nrow(participants[participants$Race == "Singular Black" & !is.na(participants$Race),])} \\
+      Blanc.he singulier.ère  & \Sexpr{nrow(participants[participants$Race == "Singular White" & !is.na(participants$Race),])} \\
+      Cadien.ne singulier.ère & \Sexpr{nrow(participants[participants$Race == "Singular Cajun" & !is.na(participants$Race),])} \\
+      Créole protéiforme      & \Sexpr{nrow(participants[participants$Race == "Protean Creole" & !is.na(participants$Race),])} \\
+      Cadien.ne protéiforme   & \Sexpr{nrow(participants[participants$Race == "Protean Cajun" & !is.na(participants$Race),])} \\
+      Transcendant.e          & \Sexpr{nrow(participants[participants$Race == "Transcendent" & !is.na(participants$Race),])} \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{frame}
