@@ -94,9 +94,9 @@
     @
     % Analysis: multinom logistic regression
   
-  % \section{Results}
-  %   <<child = "./present_frames/result_model.Rnw">>=
-  %   @
+  \section{Resultats}
+    <<child = "./present_frames/result_modelILS.Rnw">>=
+    @
   
   \section{Conclusions}
   %   <<child = "./present_frames/answers.Rnw">>=

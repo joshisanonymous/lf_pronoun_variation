@@ -1,0 +1,23 @@
+\begin{frame}{\Logo}
+\footnotesize
+  \begin{center}
+    Multinomial logistic regression model
+
+    \begin{tabular}{l l l}
+                                                                                                       &                                                                                                    & \\
+      \hline
+      Pronom \hfill \~{}                                                                               & Predicat \hfill +                                                                                  & Ethnicité \\
+      \hline
+      \textbf{ça}                                                                                      & \textbf{Verbe lexical}                                                                             & \textbf{Créole} \\
+      ils                                                                                              & Verbe modal \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypemodal"], 2)}               & Cadien.ne \hfill \Sexpr{round(small3plModel$coefficients["ils~EthnicityCajun"], 2)} \\
+      yé                                                                                               & Verbe auxiliaire \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypeauxiliary"], 2)}      & \\
+                                                                                                       & Préposition \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypepreposition"], 2)}         & \\
+                                                                                                       & Adjectif \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypeadjective"], 2)}              & \\
+      \hline
+      (Intersection \lexi{ils}) \hfill \Sexpr{round(small3plModel$coefficients["ils~(Intercept)"], 2)} &                                                                                                    & Effets aléatoires \\
+      \hline
+      $N = \Sexpr{nrow(tokens[tokens$ProType == "3pl",])}$                                             &                                                                                                    & Participant.e \\
+                                                                                                       &                                                                                                    & Prédicat suivant \\
+    \end{tabular}
+  \end{center}
+\end{frame}
