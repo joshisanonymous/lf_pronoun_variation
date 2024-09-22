@@ -1,0 +1,644 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Joshua McNeill                                               %
+% joshua dot mcneill at uga dot edu                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{beamer}\usepackage[]{graphicx}\usepackage[]{xcolor}
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlsng}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hldef}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+  % Beamer settings
+  \usetheme{CambridgeUS}
+  \usecolortheme{seagull}
+  \usefonttheme{professionalfonts}
+  \usefonttheme{serif}
+  \setbeamertemplate{bibliography item}{}
+
+  % Packages and settings
+  \usepackage{fontspec}
+    \setmainfont{Charis SIL}
+  \usepackage[backend=biber, style=apa]{biblatex}
+    \addbibresource{../References.bib}
+  \usepackage{hyperref}
+    \hypersetup{colorlinks=false}
+  \usepackage{graphicx}
+    \graphicspath{{../../data/photos/}{./present_figures/}}
+  \usepackage[normalem]{ulem}
+
+  % Document information
+  \author{Joshua McNeill}
+  \title[Divisions raciales dans les pronoms]{L'expression des divisions raciales dans les pronoms sujets de la troisième personne au pluriel en français louisianais}
+  \institute[UGA]{
+    \url{joshua.mcneill@uga.edu} \\
+    \vspace{0.5cm}
+    University of Georgia}
+  \date{26 septembre 2024}
+  \titlegraphic{\includegraphics[scale=0.038]{uga_logo.png}}
+  \newcommand{\Logo}{{\hskip0pt plus 1filll \includegraphics[scale=0.028]{uga_logo.png}}}
+
+  %% Custom commands
+  % Lexical items
+  \newcommand{\lexi}[1]{\textit{#1}}
+  % Gloss
+  \newcommand{\gloss}[1]{`#1'}
+  \newcommand{\tinygloss}[1]{{\tiny`#1'}}
+  % Orthographic representations
+  \newcommand{\orth}[1]{$\langle$#1$\rangle$}
+  % Utterances (pragmatics)
+  \newcommand{\uttr}[1]{`#1'}
+  % Sentences (pragmatics)
+  \newcommand{\sent}[1]{\textit{#1}}
+  % Smaller citations
+  \newcommand{\smallcite}[1]{{\scriptsize{}#1}}
+  % Research questions
+  \newcommand{\RQone}{What factors lead to more or less use of French in the linguistic landscape?}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 1 - deviance = 862.8423 - criterion = 0.6396059
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 2 - deviance = 688.3464 - criterion = 0.09867735
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 3 - deviance = 615.7054 - criterion = 0.04444854
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 4 - deviance = 580.2161 - criterion = 0.0228836
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 5 - deviance = 561.5089 - criterion = 0.01010364
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 6 - deviance = 550.7341 - criterion = 0.00167807
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 7 - deviance = 548.1399 - criterion = 0.0004822583
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 8 - deviance = 547.9013 - criterion = 0.0004590341
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 9 - deviance = 547.8931 - criterion = 0.0004543126
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 10 - deviance = 547.8911 - criterion = 0.0004495207
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 11 - deviance = 547.8904 - criterion = 0.0004445154
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 12 - deviance = 547.8901 - criterion = 0.000439264
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 13 - deviance = 547.89 - criterion = 0.0004337693
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 14 - deviance = 547.89 - criterion = 0.0004280476
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 15 - deviance = 547.8899 - criterion = 0.0004221196
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 16 - deviance = 547.8899 - criterion = 0.0004160077
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 17 - deviance = 547.8899 - criterion = 0.0004097343
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 18 - deviance = 547.8899 - criterion = 0.0004033218
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 19 - deviance = 547.8899 - criterion = 0.0003967919
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 20 - deviance = 547.8899 - criterion = 0.0003901653
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 21 - deviance = 547.8899 - criterion = 0.0003834621
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 22 - deviance = 547.8899 - criterion = 0.0003767013
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 23 - deviance = 547.8899 - criterion = 0.0003699006
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 24 - deviance = 547.8899 - criterion = 0.0003630768
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Inner iterations did not coverge - nlminb message: false convergence (8)}}\begin{verbatim}
+## 
+## Iteration 25 - deviance = 547.8899 - criterion = 0.0003562506
+\end{verbatim}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Algorithm did not converge}}\end{kframe}
+\end{knitrout}
+  \begin{frame}
+    \titlepage
+    {\scriptsize Code available at \url{https://osf.io/sy7uq/}.}
+  \end{frame}
+
+  \section{Objectif}
+
+\begin{frame}[t]{Objectif\Logo}
+  De mieux comprendre la façon dont la race \emph{et l'ethnicité} sont exprimées par les pronoms sujets en français louisianais, en concevant \alert{de manière générale} la langue
+  \begin{enumerate}
+    \item Tracy, un Créole noir:
+    \begin{itemize}
+      \item Elle sait dit: <<to trappé li encore>>.
+      \item[] \gloss{elle disait: <<tu l'as encore trappé>>}
+    \end{itemize}
+    \item Gene, un Créole sans race:
+    \begin{itemize}
+      \item Tout ça yé va dit il faut tu prends ça.
+      \item[] \gloss{Tout ce qu'ils vont dire, il faut que tu prennes ça.}
+    \end{itemize}
+    \item Elizabeth, une Cadienne blanche:
+    \begin{itemize}
+      \item Li questionne les 'tits filles qui sur le homecoming court ça yé veut.
+      \item[] \gloss{Elle demande aux petites filles qui sont sur la cour de homecoming ce qu'elles veulent.}
+    \end{itemize}
+  \end{enumerate}
+\end{frame}
+  
+  \section{Introduction}
+  % Are Creole and French separate?
+    % Socially, yes, but structurally, hardly
+
+\begin{frame}{Le créole vs le français\Logo}
+  \small
+  \only<1-2>{
+    Des indications de décreolisation:
+    \begin{itemize}
+      \item Le déterminant prenominal \lexi{les} remplace presque le postnominal \lexi{-yé} \smallcite{\parencite{mayeux_rethinking_2019}}
+      \item Le modal [pe] \gloss{pouvoir} remplace presque le mot [kapab] \gloss{capable} \smallcite{\parencite{mayeux_rethinking_2019}}
+      \begin{itemize}
+        \item {}(Également les cas dans mes données)
+      \end{itemize}
+    \end{itemize}
+    \uncover<2->{
+      Des parlers qui mélangent les traits soi-disant créoles et français:
+      \begin{itemize}
+        \item {}<<Je serais kouri avec toi si je se gen [se gɛ̃] le temps>> \smallcite{\parencite[p.~361]{klingler_probleme_2005}}
+      \end{itemize}
+    }
+  }
+  \only<3->{
+    Des traits partagés:
+    \begin{itemize}
+      \item La syntaxe dans les négations des impératifs \smallcite{\parencite{baronian_influence_2005}}
+      \item {}[te] est une prononciation facile à trouver
+      \item[] \lexi{il était} et \lexi{j'étais} comme [i te] et [ʃ te] (Brian 4m27 et 11m05)
+      \item {}[ape] est utilisé par les locuteurs orientés vers le français
+      \item[] \lexi{j'étais après guetter le TV} comme [ʃ t ape gete l ti vi] (Alice 17m40)
+    \end{itemize}
+    Enfin, les créolophones mêmes nomment parfois leur langue <<le français>> \smallcite{\parencite{dajko_sociolinguistics_2012, klingler_language_2003}}
+  }
+\end{frame}
+  % What is the racial and ethnic situation in this area  
+
+\begin{frame}[t]{La race en Louisiane\Logo}
+  \small
+  La race est étroitement liée aux identités cadien.ne et créole \\
+  \vspace{0.25cm}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+      Les Créoles:
+      \begin{itemize}
+        \item[] \emph{Période coloniale}
+        \begin{itemize}
+          \item Les Français.es et les Espagnol.e.s nés en Louisiane (c.-à.-d. des Blanc.he.s) \smallcite{\parencite{fortier_french_1884}}
+        \end{itemize}
+        \item[] \emph{le 19e siècle}
+        \begin{itemize}
+          \item[$\to$] Les gens de couleur libres \smallcite{\parencite{kein_placage_2000}}
+        \end{itemize}
+      \end{itemize}
+    \column{0.5\textwidth}
+      \uncover<2->{
+        Les Cadien.ne.s:
+        \begin{itemize}
+          \item[] \emph{Historiquement}
+          \begin{itemize}
+            \item Des gens francophones, catholiques et ruraux.les avec des racines acadiennes \smallcite{\parencite{johnson_louisiana_1976, neumann_creole_1985, smith_influence_1939}}
+          \end{itemize}
+        \end{itemize}
+      }
+  \end{columns}
+  \begin{center}
+    \only<-2>{Un système racial à trois niveaux: \\ les gens en esclavage > les gens de couleur libres > les Blanc.he.s}
+  \end{center}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \only<3->{
+        \begin{itemize}
+          \item[] \emph{Aujourd'hui}
+          \begin{itemize}
+            \item[$\to$] Les Noir.e.s \smallcite{\parencite{susberry_racial_2004}}
+          \end{itemize}
+        \end{itemize}
+      }
+    \column{0.5\textwidth}
+      \only<3->{
+        \begin{itemize}
+          \item[] \emph{Aujourd'hui}
+          \begin{itemize}
+            \item[$\to$] Les Blanc.he.s \smallcite{\parencite{giancarlo_dont_2019}}
+          \end{itemize}
+        \end{itemize}
+      }
+  \end{columns}
+  \begin{center}
+    \only<3->{\alert{Un système racial binaire}}
+  \end{center}
+\end{frame}
+  % Is this expressed in Creole? in French?
+
+\begin{frame}{La race dans les études du créole précédentes\Logo}
+  \small
+  \only<-2>{
+    On sait déjà qu'il y a parfois des liens entre la race et le \emph{créole} louisianais:
+    \begin{itemize}
+      \item Le parler des Blancs est plutôt décréolisé vers le français louisianais \smallcite{\parencite{neumann_creole_1985}}
+    \end{itemize}
+    \uncover<2>{
+      Par exemple, pour les Blanc.he.s:
+      \begin{enumerate}
+        \item Peu de déterminants post-nominal au pluriel (c.-à-d. \lexi{-yé}) \smallcite{\parencite{klingler_if_2003, neumann_creole_1985}}
+        \item Plus souvent les voyelles antérieures comme arrondies \smallcite{\parencite{klingler_if_2003, mayeux_rethinking_2019}}
+        \item Plus de \lexi{de} entre les noms \smallcite{\parencite{klingler_if_2003}}
+        \item Plus de verbes sans [e] final au présent habituel \smallcite{\parencite{klingler_if_2003}}
+        \item Moins d'agglutination nominale (\lexi{un gros \alert{du}feu}) \smallcite{\parencite{mayeux_rethinking_2019}}
+      \end{enumerate}
+    }
+  }
+  \only<3->{
+    Et les pronoms...
+    \begin{itemize}
+      \item Les Blanc.he.s produisent des pronoms plus francisés (\lexi{avec elle} et pas \lexi{avec li (f.)}) \smallcite{\parencite{klingler_if_2003}}
+      \begin{itemize}
+        \item {}(Pour \lexi{elle}, ce n'est plus un cas clair aujourd'hui \smallcite{\parencite{mayeux_rethinking_2019}})
+      \end{itemize}
+    \end{itemize}
+    Et ces différences sont parfois des points de division explicite:
+    \begin{itemize}
+      \item Les Blanc.he.s emploient moins d'affriquées [tʃ] et [dʒ] parce qu'ils les qualifient comme <<n***e>> \smallcite{\parencite[p.~91]{neumann_creole_1985}}
+      \item On peut toujours entendre l'appelation <<N-word French>>
+    \end{itemize}
+  }
+\end{frame}
+
+\begin{frame}{La race dans les études du français précédentes\Logo}
+  Pas much...
+  \begin{itemize}
+    \item Des participant.e.s ont tou.te.s jugé le parler des francophones blanc.he.s et noir.e.s comme parlant cadien
+    \item Les créolophones blanc.he.s était plus difficiles (19\% comme parlant cadien) \smallcite{\parencite{landry_black_2007}}
+  \end{itemize}
+  \uncover<2->{
+    Mais l'ethnicité et la structure linguistique:
+    \begin{itemize}
+      \item Significative entre les Indien.ne.s et les Cadien.ne.s, y compris pour les pronoms de la 3pl \smallcite{\parencite{dajko_ethnic_2009, rottet_language_1995}}
+      \item Moins de \lexi{ça} (3pl) avant les modaux \smallcite{\parencite{brown_pronominal_1988}}
+    \end{itemize}
+  }
+\end{frame}
+  \section{Question de recherche}
+
+\begin{frame}{Question de recherche\Logo}
+  \begin{itemize}
+    \item[QR:] \RQone
+  \end{itemize}
+\end{frame}
+
+  \section{Méthodes}
+
+\begin{frame}{Collecte de données\Logo}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{center}
+        \only<1>{
+
+\includegraphics[width=\maxwidth]{figure/unnamed-chunk-27-1} 
+
+        }
+        \only<2>{
+
+\includegraphics[width=\maxwidth]{figure/unnamed-chunk-28-1} 
+
+        }
+        \only<3->{
+
+\includegraphics[width=\maxwidth]{figure/unnamed-chunk-29-1} 
+
+        }
+        {\scriptsize Acadiana selon HCR 496 \smallcite{\parencite[1971, cité dans][]{trepanier_french_1988}}}
+      \end{center}
+    \column{0.5\textwidth}
+      \only<1-3>{
+        \begin{itemize}
+          \item 31 interviews entre février et août 2023
+          \item<2-> Où les participant.e.s ont été élevé.e.s
+          \item<3-> Où les pariticpant.e.s résident aujourd'hui
+        \end{itemize}
+      }
+      \only<4->{
+        \scriptsize
+        \begin{tabular}{ l r r }
+          \hline
+          Ethnicité    & Créole                                                                & Cadien.ne \\
+                       & 11       & 20 \\
+          \hline
+          Genre        & Femme                                                                 & Homme \\
+                       & 13           & 18 \\
+          \hline
+          Âge          & \multicolumn{2}{c}{24-95 ans} \\
+                       &                                                                       & \\
+          \hline
+          Formation    & Pas d'université                                                      & Université \\
+                       & 6   & 25 \\
+          \hline
+          Profession   & Col bleu                                                              & Col blanc \\
+                       & 8 & 23 \\
+          \hline
+          Antécédents  & À la maison                                                           & Plus tard \\
+          francophones & 23 & 3 \\
+          \hline
+        \end{tabular}
+      }
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Race et ethnicité\Logo}
+  \begin{columns}
+    \column{0.4\textwidth}
+      \scriptsize
+      \begin{center}
+        \begin{tabular}{l r}
+          \hline
+          Identification          & Compte \\
+          \hline
+          Noir.e singulier.ère    & 5 \\
+          Créole protéiforme      & 3 \\
+          Transcendant.e          & 1 \\
+          Blanc.he singulier.ère  & 14 \\
+          Cadien.ne singulier.ère & 3 \\
+          Cadien.ne protéiforme   & 2 \\
+          \hline
+        \end{tabular}
+        Le codage de la race basé sur \smallcite{\parencite{rockquemore_race_1999}}
+      \end{center}
+    \column{0.6\textwidth}
+      \begin{center}
+
+\includegraphics[width=\maxwidth]{figure/unnamed-chunk-34-1} 
+
+      \end{center}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Variantes du pronom 3pl\Logo}
+  \begin{center}
+  \begin{tabular}{c c c c c c c}
+           &    & [i]   & & & & \\
+           &    & [il]  & & & & \\
+    {}[j]  &    & [ilz] & & & & \\
+    {}[je] &    & [iz]  & & & & \\
+    $\big\downarrow$ &    & $\big\downarrow$ & & & & \\
+    yé & ça & ils & \only<1>{elles}\only<2->{\sout{elles}} & \only<1>{eux}\only<2->{\sout{eux}} & \only<1>{eux-autres}\only<2->{\sout{eux-autres}} & $N$ \\
+    419 &
+    238 &
+    383 &
+    4 &
+    2 &
+    1 &
+    1048 \\
+    \uncover<2->{
+      $\big\downarrow$ & $\big\downarrow$ & $\big\downarrow$ & & & & $\big\downarrow$ \\
+      yé               & \textcolor<3->{darkred}{ça}               & \textcolor<3->{darkred}{ils}              & & & & $N$ \\
+      419 &
+      \textcolor<3->{darkred}{238} &
+      \textcolor<3->{darkred}{383} & & & &
+      1040 \\
+    }
+  \end{tabular} \\
+  \uncover<3->{\textcolor{darkred}{Typiquement produits ensemble}}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Le modèle\Logo}
+\footnotesize
+  \begin{center}
+    Modèle de régression logistique multinomiale
+
+    \begin{tabular}{p{3cm} p{3cm} p{3cm}}
+                                                                                                       &                                                                                                    & \\
+      \hline
+      Pronom \hfill \~{}                                                                               & Predicat \hfill +                                                                                  & Ethnicité \\
+      \hline
+      \textbf{ça}                                                                                      & \textbf{Verbe lexical}                                                                             & \textbf{Créole} \\
+      ils                                                                                              & Verbe modal                                                                                        & Cadien.ne \\
+      yé                                                                                               & Verbe auxiliaire                                                                                   & \\
+                                                                                                       & Préposition                                                                                        & \\
+                                                                                                       & Adjectif                                                                                           & \\
+                                                                                                       & & \\
+      \hline
+      (Intersection)                                                                                   & $N$                                                                                                & Effets aléatoires \\
+      \hline
+                                                                                                       &                                                                                                    & Participant.e \\
+                                                                                                       &                                                                                                    & Prédicat suivant \\
+    \end{tabular}
+  \end{center}
+\end{frame}
+  
+  \section{Résultats}
+
+\begin{frame}{\lexi{ils} contre \lexi{ça}\Logo}
+\footnotesize
+  \begin{center}
+    Modèle de régression logistique multinomiale pour \lexi{ils} contre \lexi{ça}
+
+    \begin{tabular}{p{3cm} p{3cm} p{3cm}}
+                                                                                                       &                                                                                                    & \\
+      \hline
+      Pronom \hfill \~{}                                                                               & Predicat \hfill +                                                                                  & Ethnicité \\
+      \hline
+      \textbf{ça}                                                                                      & \textbf{Verbe lexical}                                                                             & \textbf{Créole} \\
+      ils                                                                                              & Verbe modal \hfill -0.07               & Cadien.ne \hfill -1.32 \\
+                                                                                                       & Verbe auxiliaire \hfill 2.25      & \\
+                                                                                                       & Préposition \hfill 1.25         & \\
+                                                                                                       & Adjectif \hfill -23.83              & \\
+                                                                                                       & & \\
+      \hline
+      (Intersection) \hfill -0.24            & $N = 1040$                                               & Effets aléatoires \\
+      \hline
+                                                                                                       &                                                                                                    & Participant.e \\
+                                                                                                       &                                                                                                    & Prédicat suivant \\
+    \end{tabular}
+  \end{center}
+\end{frame}
+
+\begin{frame}{\lexi{yé} contre \lexi{ça}\Logo}
+\footnotesize
+  \begin{center}
+    Modèle de régression logistique multinomiale pour \lexi{yé} contre \lexi{ça}
+
+    \begin{tabular}{p{3cm} p{3cm} p{3cm}}
+                                                                                                       &                                                                                                    & \\
+      \hline
+      Pronom \hfill \~{}                                                                               & Predicat \hfill +                                                                                  & Ethnicité \\
+      \hline
+      \textbf{ça}                                                                                      & \textbf{Verbe lexical}                                                                             & \textbf{Créole} \\
+      yé                                                                                               & Verbe modal \hfill 0.91                & Cadien.ne \hfill -5.76 \\
+                                                                                                       & Verbe auxiliaire \hfill 1.57       & \\
+                                                                                                       & Préposition \hfill 23.66          & \\
+                                                                                                       & Adjectif \hfill -2.59               & \\
+                                                                                                       & & \\
+      \hline
+      (Intersection) \hfill 1.06             & $N = 1040$                                               & Effets aléatoires \\
+      \hline
+                                                                                                       &                                                                                                    & Participant.e \\
+                                                                                                       &                                                                                                    & Prédicat suivant \\
+    \end{tabular}
+  \end{center}
+\end{frame}
+  
+  \section{Conclusions}
+  %   <<child = "./present_frames/answers.Rnw">>=
+  %   @
+
+\begin{frame}{\Logo}
+  
+\end{frame}
+    % Why do we care about race in LF? > fractal recursivity primer
+  
+  \section{References}
+    \printbibliography
+  
+  % \section{Bonus Slides}
+  %   <<child = "./present_frames/bonus_use.Rnw">>=
+  %   @
+\end{document}
