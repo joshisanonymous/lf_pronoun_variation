@@ -1,0 +1,28 @@
+\begin{frame}{Variantes du pronom 3pl\Logo}
+  \begin{center}
+  \begin{tabular}{c c c c c c c}
+           &    & [i]   & & & & \\
+           &    & [il]  & & & & \\
+    {}[j]  &    & [ilz] & & & & \\
+    {}[je] &    & [iz]  & & & & \\
+    $\big\downarrow$ &    & $\big\downarrow$ & & & & \\
+    yé & ça & ils & \only<1>{elles}\only<2->{\sout{elles}} & \only<1>{eux}\only<2->{\sout{eux}} & \only<1>{eux-autres}\only<2->{\sout{eux-autres}} & $N$ \\
+    \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "yé",])} &
+    \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "ça",])} &
+    \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "ils",])} &
+    \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "elles",])} &
+    \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "eux",])} &
+    \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "eux-autres",])} &
+    \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl",])} \\
+    \uncover<2->{
+      $\big\downarrow$ & $\big\downarrow$ & $\big\downarrow$ & & & & $\big\downarrow$ \\
+      yé               & \textcolor<3->{darkred}{ça}               & \textcolor<3->{darkred}{ils}              & & & & $N$ \\
+      \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "yé",])} &
+      \textcolor<3->{darkred}{\Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "ça",])}} &
+      \textcolor<3->{darkred}{\Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & tokensAll$ProUnder == "ils",])}} & & & &
+      \Sexpr{nrow(tokensAll[tokensAll$ProType == "3pl" & (tokensAll$ProUnder == "yé" | tokensAll$ProUnder == "ça" | tokensAll$ProUnder == "ils"),])} \\
+    }
+  \end{tabular} \\
+  \uncover<3->{\textcolor{darkred}{Typiquement produits ensemble}}
+  \end{center}
+\end{frame}

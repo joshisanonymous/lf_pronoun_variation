@@ -1,31 +1,31 @@
-\begin{frame}{Collecte de données}
+\begin{frame}{Collecte de données\Logo}
   \begin{columns}
     \column{0.5\textwidth}
       \only<1-3>{
         \begin{itemize}
           \item \Sexpr{nrow(participants)} interviews entre février et août 2023
           \item<2-> Où les participant.e.s ont été élevé.e.s
-          \item<3-> Où les pariticpant.e.s résident
+          \item<3-> Où les pariticpant.e.s résident aujourd'hui
         \end{itemize}
       }
-      \only<4>{
-        \footnotesize
-        \begin{tabular}{| l r r |}
+      \only<4->{
+        \scriptsize
+        \begin{tabular}{ l r r }
           \hline
-          Ethnicité    & Créole                                                                & Cadien \\
-                      & \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])}       & \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])} \\
+          Ethnicité    & Créole                                                                & Cadien.ne \\
+                      & \Sexpr{nrow(participants[participants$Ethnicity == "Creole" & !is.na(participants$Ethnicity),])}       & \Sexpr{nrow(participants[participants$Ethnicity == "Cajun" & !is.na(participants$Ethnicity),])} \\
           \hline
           Genre        & Femme                                                                 & Homme \\
-                      & \Sexpr{nrow(participants[participants$Gender == "Woman",])}           & \Sexpr{nrow(participants[participants$Gender == "Man",])} \\
+                      & \Sexpr{nrow(participants[participants$Gender == "Woman" & !is.na(participants$Gender),])}           & \Sexpr{nrow(participants[participants$Gender == "Man" & !is.na(participants$Gender),])} \\
           \hline
-          Âge          & \multicolumn{2}{c |}{24-95 ans} \\
+          Âge          & \multicolumn{2}{c}{24-95 ans} \\
                       &                                                                       & \\
           \hline
-          Formation    & No College                                                            & College \\
-                      & \Sexpr{nrow(participants[participants$Education == "No College",])}   & \Sexpr{nrow(participants[participants$Education == "Some College" | participants$Education == "College Graduate",])} \\
+          Formation    & Pas d'université                                                     & Université \\
+                      & \Sexpr{nrow(participants[participants$Education == "No College" & !is.na(participants$Education),])}   & \Sexpr{nrow(participants[participants$Education == "Some College" | participants$Education == "College Graduate" & !is.na(participants$Education),])} \\
           \hline
           Profession   & Col bleu                                                              & Col blanc \\
-                      & \Sexpr{nrow(participants[participants$Profession == "Blue Collar",])} & \Sexpr{nrow(participants[participants$Profession == "White Collar",])} \\
+                      & \Sexpr{nrow(participants[participants$Profession == "Blue Collar" & !is.na(participants$Profession),])} & \Sexpr{nrow(participants[participants$Profession == "White Collar" & !is.na(participants$Profession),])} \\
           \hline
           Antécédents  & À la maison                                                           & Plus tard \\
           francophones & 22                                                                    & 3 \\
@@ -33,8 +33,9 @@
         \end{tabular}
       }
     \column{0.5\textwidth}
-      \begin{center}
-        \only<1-4>{
+      \begin{minipage}[c][0.6\textheight]{\linewidth}
+      \only<1-4>{
+        \begin{center}
           \only<1>{
             <<fig.asp = 1>>=
             mapacadiana
@@ -50,8 +51,27 @@
             mapresidence
             @
           }
-          {\footnotesize Acadiana selon HCR 496 \smallcite{\parencite[1971, cité dans][]{trepanier_french_1988}}}
-        }
-      \end{center}
+          {\scriptsize Acadiana selon HCR 496 \smallcite{\parencite[1971, cité dans][]{trepanier_french_1988}}}
+        \end{center}
+      }
+      \only<5>{
+        \scriptsize
+        Le codage de la race basé sur Rockquemore (1999) \\
+        \begin{center}
+        \begin{tabular}{ l r }
+          \hline
+          Identification          & Compte \\
+          \hline
+          Noir.e singulier.ère    & \Sexpr{nrow(participants[participants$Race == "Singular Black" & !is.na(participants$Race),])} \\
+          Blanc.he singulier.ère  & \Sexpr{nrow(participants[participants$Race == "Singular White" & !is.na(participants$Race),])} \\
+          Cadien.ne singulier.ère & \Sexpr{nrow(participants[participants$Race == "Singular Cajun" & !is.na(participants$Race),])} \\
+          Créole protéiforme      & \Sexpr{nrow(participants[participants$Race == "Protean Creole" & !is.na(participants$Race),])} \\
+          Cadien.ne protéiforme   & \Sexpr{nrow(participants[participants$Race == "Protean Cajun" & !is.na(participants$Race),])} \\
+          Transcendant.e          & \Sexpr{nrow(participants[participants$Race == "Transcendent" & !is.na(participants$Race),])} \\
+          \hline
+        \end{tabular}
+        \end{center}
+      }
+      \end{minipage}
   \end{columns}
 \end{frame}

@@ -20,6 +20,7 @@
     \hypersetup{colorlinks=false}
   \usepackage{graphicx}
     \graphicspath{{../../data/photos/}{./present_figures/}}
+  \usepackage[normalem]{ulem}
 
   % Document information
   \author{Joshua McNeill}
@@ -63,11 +64,11 @@
     {\scriptsize Code available at \url{https://osf.io/sy7uq/}.}
   \end{frame}
 
-  \section{Objective}
+  \section{Objectif}
     <<child = "./present_frames/objectives.Rnw">>=
     @
   
-  \section{Background}
+  \section{Introduction}
   % Are Creole and French separate?
     % Socially, yes, but structurally, hardly
     <<child = "./present_frames/creole_vs_french.Rnw">>=
@@ -80,15 +81,15 @@
     @
     <<child = "./present_frames/race_in_lf.Rnw">>=
     @
-  \section{Research Questions}
+  \section{Question de recherche}
     <<child = "./present_frames/question.Rnw">>=
     @
 
-  \section{Methods}
+  \section{Méthodes}
     <<child = "./present_frames/data.Rnw">>=
     @
-    % Coding of ethnicity and race
-    % Coding of 3pl
+    <<child = "./present_frames/pronoun.Rnw">>=
+    @
     % Analysis: multinom logistic regression
   
   % \section{Results}

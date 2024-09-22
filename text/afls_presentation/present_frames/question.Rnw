@@ -1,4 +1,4 @@
-\begin{frame}{Question de recherche}
+\begin{frame}{Question de recherche\Logo}
   \begin{itemize}
     \item[QR:] \RQone
   \end{itemize}
