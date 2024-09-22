@@ -8,7 +8,7 @@
     Mais l'ethnicité et la structure linguistique:
     \begin{itemize}
       \item Significative entre les Indien.ne.s et les Cadien.ne.s, y compris pour les pronoms de la 3pl \smallcite{\parencite{dajko_ethnic_2009, rottet_language_1995}}
-      \item Moins d'\lexi{ça} (3pl) avant les modaux \smallcite{\parencite{brown_pronominal_1988}}
+      \item Moins de \lexi{ça} (3pl) avant les modaux \smallcite{\parencite{brown_pronominal_1988}}
     \end{itemize}
   }
 \end{frame}
