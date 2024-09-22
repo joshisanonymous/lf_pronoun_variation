@@ -3,9 +3,6 @@ library(osmdata)
 library(sf)
 
 # Map variables --------------------------------------------------------------
-color_key <- c("#332288", "#88CCEE", "#44AA99", "#117733", "#999933", "#DDCC77",
-               "#CC6677", "#882255", "#AA4499", "#DDDDDD")
-
 # Louisiana
 louisiana <- opq(getbb("Louisiana"), timeout = 60 * 20) |>
   add_osm_feature(key = "boundary", value = "administrative") |>
