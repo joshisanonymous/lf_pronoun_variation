@@ -46,7 +46,7 @@ tokens$ProUnder <- factor(tokens$ProUnder,
                                   "elles", "eux", "eux-autres", "nous", "nous-autres", 
                                   "li", "mo", "no", "to", "vou", "yé"))
 tokens$PredType <- factor(tokens$PredType,
-                           levels = c("lexical", "modal", "auxiliary"))
+                           levels = c("lexical", "modal", "auxiliary", "preposition", "adjective", "noun"))
 
 # Participant cleaning --------------------------------------------------------
 # Fix headers
