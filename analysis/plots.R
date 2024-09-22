@@ -1,3 +1,4 @@
+# 3pl checks ------------------------------------------------------------------
 # Check for the importance of animacy for 3pl
 graph3plAnim <- ggplot(tokens3plAnim,
   aes(x = ProUnder)) +
@@ -12,7 +13,7 @@ graph3plGender <- ggplot(tokens3plGender,
   facet_wrap(. ~ ProType) +
   theme_bw()
 
-# Ethnicity by race
+# Ethnicity by race -----------------------------------------------------------
 ethByRaceBar <- ggplot(
   melt(ethByRaceTable,
        varnames = c("Ethnicity", "Race"),
@@ -24,35 +25,44 @@ ethByRaceBar <- ggplot(
   )
 ) +
   geom_bar(stat = "identity", position = "dodge") +
-  theme_bw()
+  theme(text=element_text(size=20))
 
-# French usage by alter type (i.e., coreness)
-coreByFrBar <- ggplot(
-  melt(coreByFrTable,
-       varnames = c("French.Frequency", "Alter.Type"),
-       value.name = "Count"),
-  aes(
-    x = Alter.Type,
-    y = Count,
-    fill = French.Frequency
-  )
-) +
-  geom_bar(stat = "identity", position = "dodge") +
-  theme_bw()
+# Translation
+ethByRaceBarFR <- ethByRaceBar +
+  scale_fill_manual(values = color_key,
+                    labels = c("Noir.e sg", "Blanc.he sg", "Cadien.ne sg",
+                               "Créole pr", "Cadien.ne pr", "Transcendant.e")) +
+  labs(x = "Ethnicité", y = "Compte") +
+  scale_x_discrete(labels = c("Créole", "Cadien.ne"))
 
-# Comparison of homophily by French usage
-homophByLanguage <- ggplot(
-  melt(participants,
-       id.vars = "Name",
-       measure.vars = c("Network.Ethnic.Homophily",
-                        "Anglo.Network.Ethnic.Homophily",
-                        "Franco.Network.Ethnic.Homophily"),
-       variable.name = "Section.of.Network",
-       value.name = "Ethnic.Homophily"),
-  aes(
-    y = Ethnic.Homophily,
-    x = Section.of.Network
-  )
-) +
-  geom_boxplot() +
-  theme_bw()
+# Network graphs --------------------------------------------------------------
+# # French usage by alter type (i.e., coreness)
+# coreByFrBar <- ggplot(
+#   melt(coreByFrTable,
+#        varnames = c("French.Frequency", "Alter.Type"),
+#        value.name = "Count"),
+#   aes(
+#     x = Alter.Type,
+#     y = Count,
+#     fill = French.Frequency
+#   )
+# ) +
+#   geom_bar(stat = "identity", position = "dodge") +
+#   theme_bw()
+# 
+# # Comparison of homophily by French usage
+# homophByLanguage <- ggplot(
+#   melt(participants,
+#        id.vars = "Name",
+#        measure.vars = c("Network.Ethnic.Homophily",
+#                         "Anglo.Network.Ethnic.Homophily",
+#                         "Franco.Network.Ethnic.Homophily"),
+#        variable.name = "Section.of.Network",
+#        value.name = "Ethnic.Homophily"),
+#   aes(
+#     y = Ethnic.Homophily,
+#     x = Section.of.Network
+#   )
+# ) +
+#   geom_boxplot() +
+#   theme_bw()

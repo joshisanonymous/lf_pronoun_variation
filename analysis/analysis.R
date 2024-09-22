@@ -21,6 +21,9 @@ source("functions.R")
 # Data and variables # -------------------------------------------------------
 ######################
 
+# Variables
+color_key <- c("#332288", "#88CCEE", "#44AA99", "#117733", "#999933", "#DDCC77",
+               "#CC6677", "#882255", "#AA4499", "#DDDDDD")
 # Read in data
 participants <- read.csv("../data/metadata.csv", fileEncoding = "UTF-8",
                          stringsAsFactors = TRUE, sep = "\t", na.strings = "")
@@ -94,7 +97,7 @@ rownames(tokens) <- NULL
 tokens <- merge(tokens, participants, by = "Name")
 
 # Create generic DFs and tables
-# ethByRaceTable <- table(participants$Race, participants$Ethnicity)
+ethByRaceTable <- table(participants$Ethnicity, participants$Race)
 # coreByFrTable <- table(networks$Alter.French.Frequency, networks$Alter.Type)
 # verbCollatesMostFrequent <- table(tokens$PredUnder)
 # verbCollatesMostFrequent <- verbCollatesMostFrequent[
@@ -166,4 +169,4 @@ tokens <- merge(tokens, participants, by = "Name")
 #                                                 "Network.Ethnic.Homophily"])
 # 
 source("maps.R")
-# source("plots.R")
+source("plots.R")
