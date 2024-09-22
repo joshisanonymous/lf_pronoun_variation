@@ -6,7 +6,7 @@
       \item Le parler des Blancs est plutôt décréolisé vers le français louisianais \smallcite{\parencite{neumann_creole_1985}}
     \end{itemize}
     \uncover<2>{
-      Par exemple, pour les Blancs:
+      Par exemple, pour les Blanc.he.s:
       \begin{enumerate}
         \item Peu de déterminants post-nominal au pluriel (c.-à-d. \lexi{-yé}) \smallcite{\parencite{klingler_if_2003, neumann_creole_1985}}
         \item Plus souvent les voyelles antérieures comme arrondies \smallcite{\parencite{klingler_if_2003, mayeux_rethinking_2019}}
@@ -19,14 +19,14 @@
   \only<3->{
     Et les pronoms...
     \begin{itemize}
-      \item Les Blancs produisent des pronoms plus francisés (\lexi{avec elle} et pas \lexi{avec li (f.)}) \smallcite{\parencite{klingler_if_2003}}
+      \item Les Blanc.he.s produisent des pronoms plus francisés (\lexi{avec elle} et pas \lexi{avec li (f.)}) \smallcite{\parencite{klingler_if_2003}}
       \begin{itemize}
         \item {}(Pour \lexi{elle}, ce n'est plus un cas clair aujourd'hui \smallcite{\parencite{mayeux_rethinking_2019}})
       \end{itemize}
     \end{itemize}
     Et ces différences sont parfois des points de division explicite:
     \begin{itemize}
-      \item Les Blancs emploient moins d'affriquées [tʃ] et [dʒ] parce qu'ils les qualifient comme <<n***e>> \smallcite{\parencite[p.~91]{neumann_creole_1985}}
+      \item Les Blanc.he.s emploient moins d'affriquées [tʃ] et [dʒ] parce qu'ils les qualifient comme <<n***e>> \smallcite{\parencite[p.~91]{neumann_creole_1985}}
       \item On peut toujours entendre l'appelation <<N-word French>>
     \end{itemize}
   }

@@ -25,7 +25,7 @@
         \begin{itemize}
           \item[] \emph{Historiquement}
           \begin{itemize}
-            \item Des gens francophones, catholiques et ruraux avec des racines acadiennes \smallcite{\parencite{johnson_louisiana_1976, neumann_creole_1985, smith_influence_1939}}
+            \item Des gens francophones, catholiques et ruraux.les avec des racines acadiennes \smallcite{\parencite{johnson_louisiana_1976, neumann_creole_1985, smith_influence_1939}}
           \end{itemize}
           \vspace{1.15cm}
           \item<3->[] \emph{Aujourd'hui}
