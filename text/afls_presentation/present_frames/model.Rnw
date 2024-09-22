@@ -1,7 +1,7 @@
-\begin{frame}{\lexi{ils} contre \lexi{ça}\Logo}
+\begin{frame}{Le modèle\Logo}
 \footnotesize
   \begin{center}
-    Modèle de régression logistique multinomiale pour \lexi{ils} contre \lexi{ça}
+    Modèle de régression logistique multinomiale
 
     \begin{tabular}{p{3cm} p{3cm} p{3cm}}
                                                                                                        &                                                                                                    & \\
@@ -9,13 +9,13 @@
       Pronom \hfill \~{}                                                                               & Predicat \hfill +                                                                                  & Ethnicité \\
       \hline
       \textbf{ça}                                                                                      & \textbf{Verbe lexical}                                                                             & \textbf{Créole} \\
-      ils                                                                                              & Verbe modal \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypemodal"], 2)}               & Cadien.ne \hfill \Sexpr{round(small3plModel$coefficients["ils~EthnicityCajun"], 2)} \\
-                                                                                                       & Verbe auxiliaire \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypeauxiliary"], 2)}      & \\
-                                                                                                       & Préposition \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypepreposition"], 2)}         & \\
-                                                                                                       & Adjectif \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypeadjective"], 2)}              & \\
+      ils                                                                                              & Verbe modal                                                                                        & Cadien.ne \\
+      yé                                                                                               & Verbe auxiliaire                                                                                   & \\
+                                                                                                       & Préposition                                                                                        & \\
+                                                                                                       & Adjectif                                                                                           & \\
                                                                                                        & & \\
       \hline
-      (Intersection) \hfill \Sexpr{round(small3plModel$coefficients["ils~(Intercept)"], 2)}            & $N = \Sexpr{nrow(tokens[tokens$ProType == "3pl",])}$                                               & Effets aléatoires \\
+      (Intersection)                                                                                   & $N$                                                                                                & Effets aléatoires \\
       \hline
                                                                                                        &                                                                                                    & Participant.e \\
                                                                                                        &                                                                                                    & Prédicat suivant \\

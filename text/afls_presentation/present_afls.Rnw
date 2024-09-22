@@ -92,10 +92,13 @@
     @
     <<child = "./present_frames/pronoun.Rnw">>=
     @
-    % Analysis: multinom logistic regression
+    <<child = "./present_frames/model.Rnw">>=
+    @
   
   \section{Résultats}
     <<child = "./present_frames/result_modelILS.Rnw">>=
+    @
+    <<child = "./present_frames/result_modelYE.Rnw">>=
     @
   
   \section{Conclusions}
