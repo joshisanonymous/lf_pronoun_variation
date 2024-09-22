@@ -14,10 +14,6 @@
         \begin{itemize}
           \item[$\to$] Les gens de couleur libres \smallcite{\parencite{kein_placage_2000}}
         \end{itemize}
-        \item<3->[] \emph{Aujourd'hui}
-        \begin{itemize}
-          \item<3->[$\to$] Les Noir.e.s \smallcite{\parencite{susberry_racial_2004}}
-        \end{itemize}
       \end{itemize}
     \column{0.5\textwidth}
       \uncover<2->{
@@ -27,16 +23,33 @@
           \begin{itemize}
             \item Des gens francophones, catholiques et ruraux.les avec des racines acadiennes \smallcite{\parencite{johnson_louisiana_1976, neumann_creole_1985, smith_influence_1939}}
           \end{itemize}
-          \vspace{1.15cm}
-          \item<3->[] \emph{Aujourd'hui}
-          \begin{itemize}
-            \item<3->[$\to$] Les Blanc.he.s \smallcite{\parencite{giancarlo_dont_2019}}
-          \end{itemize}
         \end{itemize}
       }
   \end{columns}
   \begin{center}
     \only<-2>{Un système racial à trois niveaux: \\ les gens en esclavage > les gens de couleur libres > les Blanc.he.s}
-    \only<3>{\alert{Un système racial binaire} \\}
+  \end{center}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \only<3->{
+        \begin{itemize}
+          \item[] \emph{Aujourd'hui}
+          \begin{itemize}
+            \item[$\to$] Les Noir.e.s \smallcite{\parencite{susberry_racial_2004}}
+          \end{itemize}
+        \end{itemize}
+      }
+    \column{0.5\textwidth}
+      \only<3->{
+        \begin{itemize}
+          \item[] \emph{Aujourd'hui}
+          \begin{itemize}
+            \item[$\to$] Les Blanc.he.s \smallcite{\parencite{giancarlo_dont_2019}}
+          \end{itemize}
+        \end{itemize}
+      }
+  \end{columns}
+  \begin{center}
+    \only<3->{\alert{Un système racial binaire}}
   \end{center}
 \end{frame}
