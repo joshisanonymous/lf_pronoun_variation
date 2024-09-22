@@ -3,30 +3,30 @@
   \only<-2>{
     On sait déjà qu'il y a parfois des liens entre la race et le \emph{créole} louisianais:
     \begin{itemize}
-      \item Le parler des Blancs est plutôt décréolisé vers le français louisianais (Neumann 1985)
+      \item Le parler des Blancs est plutôt décréolisé vers le français louisianais \smallcite{\parencite{neumann_creole_1985}}
     \end{itemize}
     \uncover<2>{
       Par exemple, pour les Blancs:
       \begin{enumerate}
-        \item Peu de déterminants post-nominal au pluriel (c.-à-d. \lexi{-yé}) (Klinlger 2003 "Turn"; Neumann 1985)
-        \item Plus souvent les voyelles antérieures comme arrondies (Klingler 2003 "Turn"; Mayeux 2019)
-        \item Plus de \lexi{de} entre les noms (Klinlger 2003 "Turn")
-        \item Plus de verbes sans [e] final au présent habituel (Klingler 2003 "Turn")
-        \item Moins d'agglutination nominale (\lexi{un gros \alert{du}feu}) (Mayeux 2019)
+        \item Peu de déterminants post-nominal au pluriel (c.-à-d. \lexi{-yé}) \smallcite{\parencite{klingler_if_2003, neumann_creole_1985}}
+        \item Plus souvent les voyelles antérieures comme arrondies \smallcite{\parencite{klingler_if_2003, mayeux_rethinking_2019}}
+        \item Plus de \lexi{de} entre les noms \smallcite{\parencite{klingler_if_2003}}
+        \item Plus de verbes sans [e] final au présent habituel \smallcite{\parencite{klingler_if_2003}}
+        \item Moins d'agglutination nominale (\lexi{un gros \alert{du}feu}) \smallcite{\parencite{mayeux_rethinking_2019}}
       \end{enumerate}
     }
   }
   \only<3->{
     Et les pronoms...
     \begin{itemize}
-      \item Les Blancs produisent des pronoms plus francisés (\lexi{avec elle} et pas \lexi{avec li (f.)}) (Klingler 2003 "Turn")
+      \item Les Blancs produisent des pronoms plus francisés (\lexi{avec elle} et pas \lexi{avec li (f.)}) \smallcite{\parencite{klingler_if_2003}}
       \begin{itemize}
-        \item {}(Pour \lexi{elle}, ce n'est plus un cas clair aujourd'hui (Mayeux 2019))
+        \item {}(Pour \lexi{elle}, ce n'est plus un cas clair aujourd'hui \smallcite{\parencite{mayeux_rethinking_2019}})
       \end{itemize}
     \end{itemize}
     Et ces différences sont parfois des points de division explicite:
     \begin{itemize}
-      \item Les Blancs emploient moins d'affriquées [tʃ] et [dʒ] parce qu'ils les qualifient comme <<n***e>> (Neumann 1985:91)
+      \item Les Blancs emploient moins d'affriquées [tʃ] et [dʒ] parce qu'ils les qualifient comme <<n***e>> \smallcite{\parencite[p.~91]{neumann_creole_1985}}
     \end{itemize}
   }
 \end{frame}

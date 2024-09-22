@@ -2,8 +2,8 @@
   \small
   Des indications de décreolisation:
   \begin{itemize}
-    \item Le déterminant prenominal \lexi{les} remplace presque le postnominal \lexi{-yé} (Mayeux 2019)
-    \item Le modal [pe] \gloss{pouvoir} remplace presque le mot [kapab] \gloss{capable} (Mayeux 2019)
+    \item Le déterminant prenominal \lexi{les} remplace presque le postnominal \lexi{-yé} \smallcite{\parencite{mayeux_rethinking_2019}}
+    \item Le modal [pe] \gloss{pouvoir} remplace presque le mot [kapab] \gloss{capable} \smallcite{\parencite{mayeux_rethinking_2019}}
     \begin{itemize}
       \item {}(Également les cas dans mes données)
     \end{itemize}
@@ -11,16 +11,16 @@
   \uncover<2->{
     Des parlers qui mélangent les traits soi-disant créoles et français:
     \begin{itemize}
-      \item {}<<Je serais kouri avec toi si je se gen le temps>> (Klingler 2005:361)
+      \item {}<<Je serais kouri avec toi si je se gen le temps>> \smallcite{parencite[p.~361]{klingler_probleme_2005}}
     \end{itemize}
   }
   \uncover<3->{
     Des traits partagés:
     \begin{itemize}
-      \item La syntaxe dans les négations des impératifs (Baronian 2005)
+      \item La syntaxe dans les négations des impératifs \smallcite{\parencite{baronian_influence_2005}}
       \item {}[te] est une prononciation typique pour presque tous les locuteurs
       \item {}[ape] est utilisé par presque tous les locuteurs
     \end{itemize}
-    Enfin, les locuteurs mêmes nomment parfois leurs langues <<le français>> (Dajko 2012; Klingler 2003 "Language")
+    Enfin, les créolophones mêmes nomment parfois leur langue <<le français>> \smallcite{\parencite{dajko_sociolinguistics_2012, klingler_language_2003}}
   }
 \end{frame}

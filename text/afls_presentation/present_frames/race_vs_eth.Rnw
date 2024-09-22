@@ -15,7 +15,7 @@
           Transcendant.e          & \Sexpr{nrow(participants[participants$Race == "Transcendent" & !is.na(participants$Race),])} \\
           \hline
         \end{tabular}
-        Le codage de la race basé sur Rockquemore (1999)
+        Le codage de la race basé sur \smallcite{\parencite{rockquemore_race_1999}}
       \end{center}
     \column{0.6\textwidth}
       \begin{center}

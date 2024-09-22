@@ -8,15 +8,15 @@
       \begin{itemize}
         \item[] \emph{Période coloniale}
         \begin{itemize}
-          \item Les Français et les Espagnols nés en Louisiane (c.-à.-d. des Blancs) (Fortier 1884)
+          \item Les Français et les Espagnols nés en Louisiane (c.-à.-d. des Blancs) \smallcite{\parencite{fortier_french_1884}}
         \end{itemize}
         \item[] \emph{le 19e siècle}
         \begin{itemize}
-          \item[$\to$] Les gens de couleur libres (J. Martin 2000)
+          \item[$\to$] Les gens de couleur libres \smallcite{\parencite{kein_placage_2000}}
         \end{itemize}
         \item<3->[] \emph{Aujourd'hui}
         \begin{itemize}
-          \item<3->[$\to$] Les Noirs (Susberry 2004)
+          \item<3->[$\to$] Les Noirs \smallcite{\parencite{susberry_racial_2004}}
         \end{itemize}
       \end{itemize}
     \column{0.5\textwidth}
@@ -25,12 +25,12 @@
         \begin{itemize}
           \item[] \emph{Historiquement}
           \begin{itemize}
-            \item Des gens francophones, catholiques et ruraux avec des racines acadiennes (Johnson 1976; Neumann 1985; Smith \& Phillips 1939)
+            \item Des gens francophones, catholiques et ruraux avec des racines acadiennes \smallcite{\parencite{johnson_louisiana_1976, neumann_creole_1985, smith_influence_1939}}
           \end{itemize}
           \vspace{0.28cm}
           \item<3->[] \emph{Aujourd'hui}
           \begin{itemize}
-            \item<3->[$\to$] Les Blancs (Giancarlo 2019)
+            \item<3->[$\to$] Les Blancs \smallcite{\parencite{giancarlo_dont_2019}}
           \end{itemize}
         \end{itemize}
       }
