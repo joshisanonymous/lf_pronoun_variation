@@ -72,16 +72,16 @@ participants$Race <- recode_factor(
   "Black" = "Singular Black",
   "African-American / Black" = "Singular Black",
   "Black American" = "Singular Black",
+  "Creole" = "Protean Creole",
+  "African / Creole" = "Protean Creole",
+  "Paraphrase: Whatever they call me" = "Transcendent",
   "White" = "Singular White",
   "Caucasian" = "Singular White",
   "Caucasian / White" = "Singular White",
   "Cajun" = "Singular Cajun",
   "Cajun / Acadian" = "Singular Cajun",
   "White (Cajun if it's there)" = "Singular Cajun",
-  "Creole" = "Protean Creole",
-  "African / Creole" = "Protean Creole",
-  "Caucasian / Cajun" = "Protean Cajun",
-  "Paraphrase: Whatever they call me" = "Transcendent"
+  "Caucasian / Cajun" = "Protean Cajun"
 )
 
 # Order factors in order to make reasonable reference levels

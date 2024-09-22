@@ -30,8 +30,8 @@ ethByRaceBar <- ggplot(
 # Translation
 ethByRaceBarFR <- ethByRaceBar +
   scale_fill_manual(values = color_key,
-                    labels = c("Noir.e sg", "**Blanc.he sg**", "Cadien.ne sg",
-                               "Créole pr", "Cadien.ne pr", "Transcendant.e")) +
+                    labels = c("Noir.e sg", "Créole pr", "Transcendant.e",
+                               "**Blanc.he sg**", "Cadien.ne sg", "Cadien.ne pr")) +
   labs(x = "Ethnicité", y = "Compte") +
   scale_x_discrete(labels = c("Créole", "Cadien.ne"))
 
