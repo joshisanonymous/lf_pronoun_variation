@@ -11,7 +11,7 @@
   \uncover<2->{
     Des parlers qui mélangent les traits soi-disant créoles et français:
     \begin{itemize}
-      \item {}<<Je serais kouri avec toi si je se gen le temps>> \smallcite{parencite[p.~361]{klingler_probleme_2005}}
+      \item {}<<Je serais kouri avec toi si je se gen le temps>> \smallcite{\parencite[p.~361]{klingler_probleme_2005}}
     \end{itemize}
   }
   \uncover<3->{
