@@ -52,7 +52,6 @@ tokens3plGender$ProType <- recode_factor(
 )
 
 # Remove tokens deemed not useful for analyses
-# 3pl very low counts
 tokens$ProType <- recode_factor(
   tokens$ProType,
   "3pl.A" = "3pl",
@@ -63,6 +62,9 @@ tokens$ProType <- recode_factor(
   "3pl.IF" = "3pl",
   "3pl.IM" = "3pl"
 )
+tokensAll <- tokens
+
+# Remove very low count 3pl variants
 tokens <- droplevels(subset(tokens, ProUnder != "elles" & ProUnder != "eux" &
                                     ProUnder != "eux-autres"))
 tokens <- droplevels(tokens <- tokens[!(tokens$ProType == "3pl" & tokens$ProUnder == "ø"),])
