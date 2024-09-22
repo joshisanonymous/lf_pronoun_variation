@@ -1,6 +1,6 @@
 \begin{frame}[t]{La race en Louisiane\Logo}
   \small
-  La race est étroitement liée aux identités cadien et créole \\
+  La race est étroitement liée aux identités cadien.ne et créole \\
   \vspace{0.25cm}
   \begin{columns}[t]
     \column{0.5\textwidth}
@@ -8,7 +8,7 @@
       \begin{itemize}
         \item[] \emph{Période coloniale}
         \begin{itemize}
-          \item Les Français et les Espagnols nés en Louisiane (c.-à.-d. des Blancs) \smallcite{\parencite{fortier_french_1884}}
+          \item Les Français.es et les Espagnol.e.s nés en Louisiane (c.-à.-d. des Blanc.he.s) \smallcite{\parencite{fortier_french_1884}}
         \end{itemize}
         \item[] \emph{le 19e siècle}
         \begin{itemize}
@@ -16,27 +16,27 @@
         \end{itemize}
         \item<3->[] \emph{Aujourd'hui}
         \begin{itemize}
-          \item<3->[$\to$] Les Noirs \smallcite{\parencite{susberry_racial_2004}}
+          \item<3->[$\to$] Les Noir.e.s \smallcite{\parencite{susberry_racial_2004}}
         \end{itemize}
       \end{itemize}
     \column{0.5\textwidth}
       \uncover<2->{
-        Les Cadiens:
+        Les Cadien.ne.s:
         \begin{itemize}
           \item[] \emph{Historiquement}
           \begin{itemize}
             \item Des gens francophones, catholiques et ruraux avec des racines acadiennes \smallcite{\parencite{johnson_louisiana_1976, neumann_creole_1985, smith_influence_1939}}
           \end{itemize}
-          \vspace{0.28cm}
+          \vspace{1.15cm}
           \item<3->[] \emph{Aujourd'hui}
           \begin{itemize}
-            \item<3->[$\to$] Les Blancs \smallcite{\parencite{giancarlo_dont_2019}}
+            \item<3->[$\to$] Les Blanc.he.s \smallcite{\parencite{giancarlo_dont_2019}}
           \end{itemize}
         \end{itemize}
       }
   \end{columns}
   \begin{center}
-    \only<-2>{Un système racial à trois niveaux: \\ le monde en esclavage > les gens de couleur libres > les Blancs}
+    \only<-2>{Un système racial à trois niveaux: \\ les gens en esclavage > les gens de couleur libres > les Blanc.he.s}
     \only<3>{\alert{Un système racial binaire} \\}
   \end{center}
 \end{frame}
