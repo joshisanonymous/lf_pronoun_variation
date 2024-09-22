@@ -138,9 +138,9 @@ ethByRaceTable <- table(participants$Ethnicity, participants$Race)
   # Use only one model if not used
   # thirdPl = multinomResponse("3pl")
 # )
-# small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity + Race,
-#         data = tokens[tokens$ProType == "3pl",],
-#         random = list(~ 1|Name, ~ 1|PredUnder))
+small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
+        data = tokens[tokens$ProType == "3pl",],
+        random = list(~ 1|Name, ~ 1|PredUnder))
 
 # Check for multicollinearity between factors and remove those that are
 # highly collinear. In particular, verify whether ethnicity and race
@@ -168,6 +168,5 @@ ethByRaceTable <- table(participants$Ethnicity, participants$Race)
 #                                                 "Network.Ethnic.Homophily"],
 #                                    participants[participants$Ethnicity == "Cajun",
 #                                                 "Network.Ethnic.Homophily"])
-# 
 source("maps.R")
 source("plots.R")

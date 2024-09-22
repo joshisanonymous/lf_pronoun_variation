@@ -42,9 +42,9 @@ tokens$ProUnder <- as.factor(tokens$ProUnder)
 
 # Order factors in order to make reasonable reference levels
 tokens$ProUnder <- factor(tokens$ProUnder,
-                       levels = c("je", "vous", "tu", "on", "ø", "yé", "ça", "elle", "il", "vous-autres", "ils",
+                       levels = c("je", "vous", "tu", "on", "ø", "ça", "elle", "il", "vous-autres", "ils",
                                   "elles", "eux", "eux-autres", "nous", "nous-autres", 
-                                  "li", "mo", "no", "to", "vou"))
+                                  "li", "mo", "no", "to", "vou", "yé"))
 tokens$PredType <- factor(tokens$PredType,
                            levels = c("lexical", "modal", "auxiliary"))
 
