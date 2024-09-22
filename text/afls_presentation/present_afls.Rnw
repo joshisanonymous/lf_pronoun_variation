@@ -88,6 +88,8 @@
   \section{Méthodes}
     <<child = "./present_frames/data.Rnw">>=
     @
+    <<child = "./present_frames/race_vs_eth.Rnw">>=
+    @
     <<child = "./present_frames/pronoun.Rnw">>=
     @
     % Analysis: multinom logistic regression
