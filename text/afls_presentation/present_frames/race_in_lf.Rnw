@@ -4,7 +4,7 @@
     \item Des participant.e.s ont tou.te.s jugé le parler des francophones blanc.he.s et noir.e.s comme parlant cadien
     \item Les créolophones blanc.he.s était plus difficiles (19\% comme parlant cadien) \smallcite{\parencite{landry_black_2007}}
   \end{itemize}
-  \only<2->{
+  \uncover<2->{
     Mais l'ethnicité et la structure linguistique:
     \begin{itemize}
       \item Significative entre les Indien.ne.s et les Cadien.ne.s, y compris pour les pronoms de la 3pl \smallcite{\parencite{dajko_ethnic_2009, rottet_language_1995}}
