@@ -10,6 +10,7 @@
 ############
 
 library(ggplot2)
+library(ggtext)
 library(reshape2)
 library(mclogit)
 library(lme4)

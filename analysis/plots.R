@@ -25,12 +25,12 @@ ethByRaceBar <- ggplot(
   )
 ) +
   geom_bar(stat = "identity", position = "dodge") +
-  theme(text=element_text(size=20))
+  theme(text=element_text(size=20), legend.text = element_markdown())
 
 # Translation
 ethByRaceBarFR <- ethByRaceBar +
   scale_fill_manual(values = color_key,
-                    labels = c("Noir.e sg", "Blanc.he sg", "Cadien.ne sg",
+                    labels = c("Noir.e sg", "**Blanc.he sg**", "Cadien.ne sg",
                                "Créole pr", "Cadien.ne pr", "Transcendant.e")) +
   labs(x = "Ethnicité", y = "Compte") +
   scale_x_discrete(labels = c("Créole", "Cadien.ne"))
