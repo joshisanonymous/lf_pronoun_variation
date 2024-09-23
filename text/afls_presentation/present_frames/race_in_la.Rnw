@@ -2,9 +2,10 @@
   \small
   \only<-3>{
   La race est étroitement liée aux identités cadien.ne et créole \\
+  \vspace{0.15cm}
   \begin{columns}[t]
     \column{0.5\textwidth}
-      Les Créoles:
+      \alert{Les Créoles}:
       \begin{itemize}
         \item[] \emph{Période coloniale}
         \begin{itemize}
@@ -17,7 +18,7 @@
       \end{itemize}
     \column{0.5\textwidth}
       \uncover<2->{
-        Les Cadien.ne.s:
+        \alert{Les Cadien.ne.s}:
         \begin{itemize}
           \item[] \emph{Historiquement}
           \begin{itemize}
