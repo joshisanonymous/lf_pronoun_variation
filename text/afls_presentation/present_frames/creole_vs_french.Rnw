@@ -1,22 +1,22 @@
 \begin{frame}{Le créole vs le français\Logo}
   \small
   Des indications de décreolisation:
-  \begin{itemize}
+  \begin{enumerate}
     \item Déterminants (\lexi{les-} vs \lexi{-yé}) et modaux ([pe] \gloss{pouvoir} vs [kapab] \gloss{capable}) \smallcite{\parencite{mayeux_rethinking_2019}}
-  \end{itemize}
+  \end{enumerate}
   Des traits mélangés:
-  \begin{itemize}
+  \begin{enumerate}
+    \setcounter{enumi}{1}
     \item {}<<Je serais kouri avec toi si je se gen [se gɛ̃] le temps>> \smallcite{\parencite[p.~361]{klingler_probleme_2005}}
-  \end{itemize}
-  \uncover<2->{
-    Des traits partagés:
-    \begin{itemize}
-      \item Syntaxe des impératifs \smallcite{\parencite{baronian_influence_2005}}
-      \item Le marqueur [te]:
-      \item[] \lexi{il était} et \lexi{j'étais} comme [i te] et [ʃ te] (Brian 4m27 et 11m05)
-      \item Le marqueur [ape]:
-      \item[] \lexi{j'étais après guetter le TV} comme [ʃ t ape gete l ti vi] (Alice 17m40)
-    \end{itemize}
-    Les créolophones mêmes nomment parfois leur langue <<le français>> \smallcite{\parencite{dajko_sociolinguistics_2012, klingler_language_2003}}
-  }
+  \end{enumerate}
+  Des traits partagés:
+  \begin{enumerate}
+    \setcounter{enumi}{2}
+    \item Syntaxe des impératifs \smallcite{\parencite{baronian_influence_2005}}
+    \item Le marqueur [te]:
+    \item[] \lexi{il était} et \lexi{j'étais} comme [i te] et [ʃ te] (Brian 4m27 et 11m05)
+    \item Le marqueur [ape]:
+    \item[] \lexi{j'étais après guetter le TV} comme [ʃ t ape gete l ti vi] (Alice 17m40)
+  \end{enumerate}
+  Les créolophones mêmes nomment parfois leur langue <<le français>> \smallcite{\parencite{dajko_sociolinguistics_2012, klingler_language_2003}}
 \end{frame}
