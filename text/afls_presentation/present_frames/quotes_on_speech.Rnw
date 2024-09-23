@@ -1,5 +1,5 @@
 \begin{frame}{Prise en conscience des parlers différents\Logo}
-  {}<<Il y a des Noirs qui parlent le français comme nous-autres, mais il y a des Blancs qui parlent le créole comme les Noirs.>> (Cynthia, 46m28) \\
+  <<Il y a des Noirs qui parlent le français comme nous-autres, mais il y a des Blancs qui parlent le créole comme les Noirs.>> (Cynthia, 46m28) \\
   \vspace{0.25cm}
   Cynthia (Cadienne blanche), un exemple du <<créole>>:
   \begin{enumerate}
@@ -7,12 +7,17 @@
   \end{enumerate}
   Oliver Lesage (Cadien (sg)), un exemple de son propre <<couri-vini>>:
   \begin{enumerate}
-    \setcounter{enumi}{2}
+    \setcounter{enumi}{1}
     \item {}<<To pas gain de mal? Non, mo pas gain de mal.>> (2m35)
   \end{enumerate}
   Gene (Créole transcendant), un exemple d'une autre région:
   \begin{enumerate}
-    \setcounter{enumi}{3}
+    \setcounter{enumi}{2}
     \item {}<<Mo couri la grocerie.>> (42m58)
+  \end{enumerate}
+  Terry (Créole noir), l'importance d'apprendre le parler des Cadien.ne.s:
+  \begin{enumerate}
+    \setcounter{enumi}{3}
+    \item {}<<To gain pour apprendre comment li [un Cadien] parle.>> (1h29m18)
   \end{enumerate}
 \end{frame}
