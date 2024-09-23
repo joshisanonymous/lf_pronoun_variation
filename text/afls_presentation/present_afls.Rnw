@@ -48,7 +48,7 @@
   % Smaller citations
   \newcommand{\smallcite}[1]{{\scriptsize{}#1}}
   % Research questions
-  \newcommand{\RQone}{What factors lead to more or less use of French in the linguistic landscape?}
+  \newcommand{\RQone}{Has the Black-White racial binary of the US in general been superimposed on ethnic categories in Louisiana to the extent that they are reproduced in 3rd person subject pronouns?}
   
 \begin{document}
   <<setup, echo = FALSE, message = FALSE>>=
@@ -69,19 +69,14 @@
     @
   
   \section{Introduction}
-  % Are Creole and French separate?
-    % Socially, yes, but structurally, hardly
     <<child = "./present_frames/creole_vs_french.Rnw">>=
     @
-  % What is the racial and ethnic situation in this area  
     <<child = "./present_frames/race_in_la.Rnw">>=
     @
-  % Is this expressed in Creole? in French?
-    <<child = "./present_frames/race_in_lc.Rnw">>=
+    <<child = "./present_frames/race_in_langs.Rnw">>=
     @
-    <<child = "./present_frames/race_in_lf.Rnw">>=
+    <<child = "./present_frames/pronouns_in_lf.Rnw">>=
     @
-  \section{Question de recherche}
     <<child = "./present_frames/question.Rnw">>=
     @
 
@@ -100,13 +95,18 @@
     @
     <<child = "./present_frames/result_modelYE.Rnw">>=
     @
+    <<child = "./present_frames/result_race.Rnw">>=
+    @
   
-  \section{Conclusions}
+  \section{Discussion}
+    % Participants discussing how people speak differently
+    % Participants discussing what Cajuns and Creoles are
+  \section{Conclusion}
+    % There's some muddiness both in racial identities -- on both sides -- but also generally a racial division in 3pl usage
   %   <<child = "./present_frames/answers.Rnw">>=
   %   @
   <<child = "./present_frames/fractal_recursivity.Rnw">>=
   @
-    % Why do we care about race in LF? > fractal recursivity primer
   
   \section{References}
     \printbibliography

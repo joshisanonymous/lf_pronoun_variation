@@ -72,7 +72,7 @@ participants$Race <- recode_factor(
   "Black" = "Singular Black",
   "African-American / Black" = "Singular Black",
   "Black American" = "Singular Black",
-  "Creole" = "Protean Creole",
+  "Creole" = "Singular Creole",
   "African / Creole" = "Protean Creole",
   "Paraphrase: Whatever they call me" = "Transcendent",
   "White" = "Singular White",

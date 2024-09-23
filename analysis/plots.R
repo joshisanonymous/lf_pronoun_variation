@@ -30,10 +30,30 @@ ethByRaceBar <- ggplot(
 # Translation
 ethByRaceBarFR <- ethByRaceBar +
   scale_fill_manual(values = color_key,
-                    labels = c("Noir.e sg", "Créole pr", "Transcendant.e",
+                    labels = c("Noir.e sg", "Créole sg", "Créole pr", "Transcendant.e",
                                "**Blanc.he sg**", "Cadien.ne sg", "Cadien.ne pr")) +
   labs(x = "Ethnicité", y = "Compte") +
   scale_x_discrete(labels = c("Créole", "Cadien.ne"))
+
+# Race graphs ------------------------------------------------------------------
+pro3plByRaceBar <- ggplot(
+  melt(pro3plByRaceTable,
+       varnames = c("Race", "thirdPl"),
+       value.name = "Count"),
+  aes(x = thirdPl, y = Count, fill = thirdPl)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(. ~ Race, nrow = 3, labeller = as_labeller(c(
+    `Singular Black` = "Noir.e sg",
+    `Singular Creole` = "Créole sg",
+    `Protean Creole` = "Créole pr",
+    `Transcendent` = "Transcendant.e",
+    `Singular White` = "**Blanc.he sg**",
+    `Singular Cajun` = "Cadien.ne sg",
+    `Protean Cajun` = "Cadien.ne pr"))) +
+  theme(text=element_text(size=15), legend.text = element_markdown(),
+        legend.position = "none") +
+  scale_fill_manual(values = color_key[5:7]) +
+  labs(x = "Pronom", y = "Compte")
 
 # Network graphs --------------------------------------------------------------
 # # French usage by alter type (i.e., coreness)

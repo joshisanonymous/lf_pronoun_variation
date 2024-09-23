@@ -11,6 +11,7 @@
 
 library(ggplot2)
 library(ggtext)
+library(ggh4x)
 library(reshape2)
 library(mclogit)
 library(lme4)
@@ -99,6 +100,10 @@ tokens <- merge(tokens, participants, by = "Name")
 
 # Create generic DFs and tables
 ethByRaceTable <- table(participants$Ethnicity, participants$Race)
+pro3plByRaceTable <- table(
+  droplevels(tokens[tokens$ProType == "3pl", "Race"]),
+  droplevels(tokens[tokens$ProType == "3pl", "ProUnder"])
+)
 # coreByFrTable <- table(networks$Alter.French.Frequency, networks$Alter.Type)
 # verbCollatesMostFrequent <- table(tokens$PredUnder)
 # verbCollatesMostFrequent <- verbCollatesMostFrequent[

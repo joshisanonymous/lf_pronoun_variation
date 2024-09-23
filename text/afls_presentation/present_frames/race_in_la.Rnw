@@ -1,7 +1,7 @@
 \begin{frame}[t]{La race en Louisiane\Logo}
   \small
+  \only<-3>{
   La race est étroitement liée aux identités cadien.ne et créole \\
-  \vspace{0.25cm}
   \begin{columns}[t]
     \column{0.5\textwidth}
       Les Créoles:
@@ -52,4 +52,12 @@
   \begin{center}
     \only<3->{\alert{Un système racial binaire}}
   \end{center}
+  }
+  \only<4->{
+    Pourquoi est-ce important?
+    \begin{itemize}
+      \item Il y a de la ségrégation raciale aux É.-U. \smallcite{\parencite{smith_social_2014}} et cela est considéré <<un baromètre des relations interraciales>> \smallcite{\parencite{wright_patterns_2014}}
+    \end{itemize}
+    % Insert participants talking about racial struggles
+  }
 \end{frame}

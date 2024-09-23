@@ -1,30 +1,22 @@
 \begin{frame}{Le créole vs le français\Logo}
   \small
-  \only<1-2>{
-    Des indications de décreolisation:
-    \begin{itemize}
-      \item Le déterminant prenominal \lexi{les} remplace presque le postnominal \lexi{-yé} \smallcite{\parencite{mayeux_rethinking_2019}}
-      \item Le modal [pe] \gloss{pouvoir} remplace presque le mot [kapab] \gloss{capable} \smallcite{\parencite{mayeux_rethinking_2019}}
-      \begin{itemize}
-        \item {}(Également les cas dans mes données)
-      \end{itemize}
-    \end{itemize}
-    \uncover<2->{
-      Des parlers qui mélangent les traits soi-disant créoles et français:
-      \begin{itemize}
-        \item {}<<Je serais kouri avec toi si je se gen [se gɛ̃] le temps>> \smallcite{\parencite[p.~361]{klingler_probleme_2005}}
-      \end{itemize}
-    }
-  }
-  \only<3->{
+  Des indications de décreolisation:
+  \begin{itemize}
+    \item Déterminants (\lexi{les-} vs \lexi{-yé}) et modaux ([pe] \gloss{pouvoir} vs [kapab] \gloss{capable}) \smallcite{\parencite{mayeux_rethinking_2019}}
+  \end{itemize}
+  Des traits mélangés:
+  \begin{itemize}
+    \item {}<<Je serais kouri avec toi si je se gen [se gɛ̃] le temps>> \smallcite{\parencite[p.~361]{klingler_probleme_2005}}
+  \end{itemize}
+  \uncover<2->{
     Des traits partagés:
     \begin{itemize}
-      \item La syntaxe dans les négations des impératifs \smallcite{\parencite{baronian_influence_2005}}
-      \item {}[te] est une prononciation facile à trouver
+      \item Syntaxe des impératifs \smallcite{\parencite{baronian_influence_2005}}
+      \item Le marqueur [te]:
       \item[] \lexi{il était} et \lexi{j'étais} comme [i te] et [ʃ te] (Brian 4m27 et 11m05)
-      \item {}[ape] est utilisé par les locuteurs orientés vers le français
+      \item Le marqueur [ape]:
       \item[] \lexi{j'étais après guetter le TV} comme [ʃ t ape gete l ti vi] (Alice 17m40)
     \end{itemize}
-    Enfin, les créolophones mêmes nomment parfois leur langue <<le français>> \smallcite{\parencite{dajko_sociolinguistics_2012, klingler_language_2003}}
+    Les créolophones mêmes nomment parfois leur langue <<le français>> \smallcite{\parencite{dajko_sociolinguistics_2012, klingler_language_2003}}
   }
 \end{frame}

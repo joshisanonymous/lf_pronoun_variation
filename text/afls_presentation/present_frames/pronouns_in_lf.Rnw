@@ -1,0 +1,14 @@
+\begin{frame}{Les pronoms dans les langues\Logo}
+  L'ethnicité:
+  \begin{itemize}
+    \item Significative entre les Indien.ne.s et les Cadien.ne.s, y compris pour les pronoms de la 3pl \smallcite{\parencite{dajko_ethnic_2009, rottet_language_1995}}
+  \end{itemize}
+  La structure linguistique:
+  \begin{itemize}
+    \item Moins de \lexi{ça} (3pl) avant les modaux \smallcite{\parencite{brown_pronominal_1988}}
+  \end{itemize}
+  L'identification de la langue:
+  \begin{itemize}
+    \item \lexi{Je} pour le français, \lexi{mo} pour le créole \smallcite{\parencite{klingler_probleme_2005}}
+  \end{itemize}
+\end{frame}
