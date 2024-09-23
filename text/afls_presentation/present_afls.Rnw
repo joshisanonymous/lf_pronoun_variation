@@ -99,14 +99,14 @@
     @
   
   \section{Discussion}
+  <<child = "./present_frames/quotes_on_speech.Rnw">>=
+  @
     % Participants discussing how people speak differently
     % Participants discussing what Cajuns and Creoles are
   \section{Conclusion}
     % There's some muddiness both in racial identities -- on both sides -- but also generally a racial division in 3pl usage
   %   <<child = "./present_frames/answers.Rnw">>=
   %   @
-  <<child = "./present_frames/fractal_recursivity.Rnw">>=
-  @
   
   \section{References}
     \printbibliography

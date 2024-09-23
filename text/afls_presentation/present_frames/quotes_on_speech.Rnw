@@ -1,0 +1,18 @@
+\begin{frame}{Prise en conscience des parlers différents\Logo}
+  {}<<Il y a des Noirs qui parlent le français comme nous-autres, mais il y a des Blancs qui parlent le créole comme les Noirs.>> (Cynthia, 46m28) \\
+  \vspace{0.25cm}
+  Cynthia (Cadienne blanche), un exemple du <<créole>>:
+  \begin{enumerate}
+    \item {}<<Mo'tais couri. Mo'tais gain.>> (45m38)
+  \end{enumerate}
+  Oliver Lesage (Cadien (sg)), un exemple de son propre <<couri-vini>>:
+  \begin{enumerate}
+    \setcounter{enumi}{2}
+    \item {}<<To pas gain de mal? Non, mo pas gain de mal.>> (2m35)
+  \end{enumerate}
+  Gene (Créole transcendant), un exemple d'une autre région:
+  \begin{enumerate}
+    \setcounter{enumi}{3}
+    \item {}<<Mo couri la grocerie.>> (42m58)
+  \end{enumerate}
+\end{frame}
