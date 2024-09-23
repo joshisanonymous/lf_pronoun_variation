@@ -4,7 +4,7 @@
     \item Tracy, un Créole noir:
     \begin{itemize}
       \item Elle sait dit: <<to trappé li encore>>.
-      \item[] \gloss{elle disait: <<tu l'as encore trappé>>}
+      \item[] \gloss{Elle disait: <<tu l'as encore trappé>>}
     \end{itemize}
     \item Gene, un Créole sans race:
     \begin{itemize}
