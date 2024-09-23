@@ -1,11 +1,11 @@
 \begin{frame}[t]{Objectif\Logo}
   De mieux comprendre la façon dont la race \emph{et l'ethnicité} sont exprimées par les pronoms sujets en français louisianais, \alert{dans une perspective large} de la langue
   \begin{enumerate}
-    \item Tracy, un Créole noir:
-    \begin{itemize}
-      \item Elle sait dit: <<to trappé li encore>>.
-      \item[] \gloss{Elle disait: <<tu l'as encore trappé>>}
-    \end{itemize}
+    % \item Tracy, un Créole noir:
+    % \begin{itemize}
+    %   \item Elle sait dit: <<to trappé li encore>>.
+    %   \item[] \gloss{Elle disait: <<tu l'as encore trappé>>}
+    % \end{itemize}
     \item Gene, un Créole sans race:
     \begin{itemize}
       \item Tout ça yé va dit il faut tu prends ça.

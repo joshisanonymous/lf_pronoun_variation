@@ -20,7 +20,7 @@
       \item Des participant.e.s ont tou.te.s jugé le parler des francophones blanc.he.s et noir.e.s comme parlant cadien
       \item Les créolophones blanc.he.s étaient plus difficiles (19\% comme parlant cadien) \smallcite{\parencite{landry_black_2007}}
     \end{itemize}
-    Ces différences sont parfois des points de division explicite:
+    Ces différences sont parfois des points de division explicites:
     \begin{itemize}
       \item Les Blanc.he.s emploient moins d'affriquées [tʃ] et [dʒ] parce qu'ils les qualifient comme <<n***e>> \smallcite{\parencite[p.~91]{neumann_creole_1985}}
       \item On peut toujours entendre l'appelation <<N-word French>>

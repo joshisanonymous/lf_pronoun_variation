@@ -43,7 +43,7 @@ pro3plByRaceBar <- ggplot(
   aes(x = thirdPl, y = Count, fill = thirdPl)) +
   geom_bar(stat = "identity") +
   facet_wrap(. ~ Race, nrow = 3, labeller = as_labeller(c(
-    `Singular Black` = "Noir.e sg",
+    `Singular Black` = "==Noir.e sg==",
     `Singular Creole` = "Créole sg",
     `Protean Creole` = "Créole pr",
     `Transcendent` = "Transcendant.e",

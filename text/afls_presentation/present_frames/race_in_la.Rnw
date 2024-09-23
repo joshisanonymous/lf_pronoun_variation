@@ -63,8 +63,8 @@
     \begin{enumerate}
       \item Dennis (né \Sexpr{participants[participants$Name == "Dennis Oubre", "Birth Year"]}) pendant l'adolescence:
       \item[] {}<<Landon pourrait pas rentrer dans la maison.>> (35m24)
-      \item Lucille (née \Sexpr{participants[participants$Name == "Lucille Royer", "Birth Year"]}) pendant l'enfance:
-      \item[] {}<<C'était des Noirs, et j'avais peur.>> (43m58)
+      % \item Lucille (née \Sexpr{participants[participants$Name == "Lucille Royer", "Birth Year"]}) pendant l'enfance:
+      % \item[] {}<<C'était des Noirs, et j'avais peur.>> (43m58)
       \item Florence (née \Sexpr{participants[participants$Name == "Florence Gaspard", "Birth Year"]}):
       \item[] {}<<Un Cadien 'tait pas gain un tas comme un Blanc ... yé'taient pas aussi pauvres qu'un Créole.>> (1h23m08)
     \end{enumerate}
