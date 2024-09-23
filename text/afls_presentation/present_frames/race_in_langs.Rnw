@@ -12,7 +12,6 @@
       \item la préposition \lexi{de} entre les noms \smallcite{\parencite{klingler_if_2003}}
       \item le présent habituel du verbe \smallcite{\parencite{klingler_if_2003}}
       \item l'agglutination nominale (\lexi{un gros \alert{du}feu}) \smallcite{\parencite{mayeux_rethinking_2019}}
-      \item le pronom \lexi{elle} au lieu de \lexi{li} \smallcite{\parencite{klingler_if_2003}} (ou peut-être non \smallcite{\parencite{mayeux_rethinking_2019}})
     \end{enumerate}
   }
   \only<2->{
