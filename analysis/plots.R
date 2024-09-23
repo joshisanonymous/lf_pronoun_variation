@@ -47,7 +47,7 @@ pro3plByRaceBar <- ggplot(
     `Singular Creole` = "Créole sg",
     `Protean Creole` = "Créole pr",
     `Transcendent` = "Transcendant.e",
-    `Singular White` = "**Blanc.he sg**",
+    `Singular White` = "==Blanc.he sg==",
     `Singular Cajun` = "Cadien.ne sg",
     `Protean Cajun` = "Cadien.ne pr"))) +
   theme(text=element_text(size=15), legend.text = element_markdown(),
