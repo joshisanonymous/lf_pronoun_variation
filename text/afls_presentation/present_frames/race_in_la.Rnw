@@ -55,6 +55,7 @@
   \end{center}
   }
   \only<4->{
+    \vspace{0.5cm}
     Pourquoi est-ce important?
     \begin{itemize}
       \item Il y a de la ségrégation raciale aux É.-U. \smallcite{\parencite{smith_social_2014}} et cela est considéré <<un baromètre des relations interraciales>> \smallcite{\parencite{wright_patterns_2014}}
@@ -67,6 +68,7 @@
       % \item[] {}<<C'était des Noirs, et j'avais peur.>> (43m58)
       \item Florence (née \Sexpr{participants[participants$Name == "Florence Gaspard", "Birth Year"]}):
       \item[] {}<<Un Cadien 'tait pas gain un tas comme un Blanc ... yé'taient pas aussi pauvres qu'un Créole.>> (1h23m08)
+      \item[] \gloss{Un Cadien avait pas beaucoup comme un Blanc ... ils étaient pas aussi pauvres qu'un Créole.}
     \end{enumerate}
   }
 \end{frame}

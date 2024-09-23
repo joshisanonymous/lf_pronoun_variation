@@ -4,5 +4,10 @@
     pro3plByRaceBar
     @
   \end{center}
-  Les 2 Créoles blanc.he.s n'ont pas produit de \lexi{yé}; c'était 2 Cadien.ne.s
+  \only<1>{
+    Les 2 Créoles blanc.he.s n'ont pas produit de \lexi{yé}; c'était 2 Cadien.ne.s
+  }
+  \only<2>{
+    Parmi les Noir.e.s (sg), c'est des Créoles qui ont produit les \lexi{ils}
+  }
 \end{frame}

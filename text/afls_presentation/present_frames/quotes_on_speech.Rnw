@@ -8,15 +8,17 @@
   Oliver Lesage (Cadien (sg)), un exemple de son propre <<couri-vini>>:
   \begin{enumerate}
     \item {}<<To pas gain de mal? Non, mo pas gain de mal.>> (2m35)
+    \item[] \gloss{Tu n'as pas de mal? Non, je n'ai pas de mal.}
   \end{enumerate}
-  Gene (Créole transcendant), un exemple d'une autre région:
+  % Gene (Créole transcendant), un exemple d'une autre région:
+  % \begin{enumerate}
+  %   \setcounter{enumi}{1}
+  %   \item {}<<Mo couri la grocerie.>> (42m58)
+  % \end{enumerate}
+  Tracy (Créole noir), l'importance d'apprendre le parler des Cadien.ne.s:
   \begin{enumerate}
     \setcounter{enumi}{1}
-    \item {}<<Mo couri la grocerie.>> (42m58)
-  \end{enumerate}
-  Terry (Créole noir), l'importance d'apprendre le parler des Cadien.ne.s:
-  \begin{enumerate}
-    \setcounter{enumi}{2}
     \item {}<<To gain pour apprendre comment li [un Cadien] parle.>> (1h29m18)
+    \item[] \gloss{Tu as besoin d'apprendre la façon dont il parle.}
   \end{enumerate}
 \end{frame}
