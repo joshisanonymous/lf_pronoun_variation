@@ -48,7 +48,9 @@
   % Smaller citations
   \newcommand{\smallcite}[1]{{\scriptsize{}#1}}
   % Research questions
-  \newcommand{\RQone}{Has the Black-White racial binary of the US in general been superimposed on ethnic categories in Louisiana to the extent that they are reproduced in 3rd person subject pronouns?}
+  \newcommand{\RQone}{
+    Est-ce que le système racial binaire (Noir-Blanc) des É.-U. en général a été superposé sur les catégories ethniques de Louisiane jusqu'à ce qu'il est reproduit dans les pronoms sujets de la 3e personne au pluriel?
+  }
   
 \begin{document}
   <<setup, echo = FALSE, message = FALSE>>=

@@ -1,4 +1,4 @@
-\begin{frame}[t]{Objectif\Logo}
+\begin{frame}{Objectif\Logo}
   De mieux comprendre la façon dont la race \emph{et l'ethnicité} sont exprimées par les pronoms sujets en français louisianais, \alert{dans une perspective large} de la langue
   \begin{enumerate}
     % \item Tracy, un Créole noir:
@@ -11,10 +11,10 @@
       \item Tout ça yé va dit il faut tu prends ça.
       \item[] \gloss{Tout ce qu'ils vont dire, il faut que tu prennes ça.}
     \end{itemize}
-    \item Elizabeth, une Cadienne blanche:
-    \begin{itemize}
-      \item Li questionne les 'tits filles qui sur le homecoming court ça yé veut.
-      \item[] \gloss{Elle demande aux petites filles qui sont sur la cour de homecoming ce qu'elles veulent.}
-    \end{itemize}
+    % \item Elizabeth, une Cadienne blanche:
+    % \begin{itemize}
+    %   \item Li questionne les 'tits filles qui sur le homecoming court ça yé veut.
+    %   \item[] \gloss{Elle demande aux petites filles qui sont sur la cour de homecoming ce qu'elles veulent.}
+    % \end{itemize}
   \end{enumerate}
 \end{frame}

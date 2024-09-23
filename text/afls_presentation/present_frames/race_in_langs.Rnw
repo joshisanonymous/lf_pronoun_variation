@@ -1,29 +1,17 @@
 \begin{frame}{La race dans les études précédentes\Logo}
   \small
-  \only<1>{
-    Liens entre la race et le \emph{créole} louisianais:
-    \begin{itemize}
-      \item Les Blanc.he.s plus décréolisé.e.s \smallcite{\parencite{neumann_creole_1985}}
-    \end{itemize}
-    Par exemple, selon:
-    \begin{enumerate}
-      \item les déterminants \smallcite{\parencite{klingler_if_2003, neumann_creole_1985}}
-      \item les voyelles antérieures comme arrondies \smallcite{\parencite{klingler_if_2003, mayeux_rethinking_2019}}
-      \item la préposition \lexi{de} entre les noms \smallcite{\parencite{klingler_if_2003}}
-      \item le présent habituel du verbe \smallcite{\parencite{klingler_if_2003}}
-      \item l'agglutination nominale (\lexi{un gros \alert{du}feu}) \smallcite{\parencite{mayeux_rethinking_2019}}
-    \end{enumerate}
-  }
-  \only<2->{
-    Dans la perception des langues
-    \begin{itemize}
-      \item Des participant.e.s ont tou.te.s jugé le parler des francophones blanc.he.s et noir.e.s comme parlant cadien
-      \item Les créolophones blanc.he.s étaient plus difficiles (19\% comme parlant cadien) \smallcite{\parencite{landry_black_2007}}
-    \end{itemize}
-    Ces différences sont parfois des points de division explicites:
-    \begin{itemize}
-      \item Les Blanc.he.s emploient moins d'affriquées [tʃ] et [dʒ] parce qu'ils les qualifient comme <<n***e>> \smallcite{\parencite[p.~91]{neumann_creole_1985}}
-      \item On peut toujours entendre l'appelation <<N-word French>>
-    \end{itemize}
-  }
+  Liens entre la race et le \emph{créole} louisianais:
+  \begin{itemize}
+    \item Les Blanc.he.s plus décréolisé.e.s \smallcite{\parencite{neumann_creole_1985}}
+    \item C'est vrai pour des parties de la syntaxe \smallcite{\parencite{klingler_if_2003, neumann_creole_1985}}, la morphologie et la phonologie \smallcite{\parencite{klingler_if_2003, mayeux_rethinking_2019}}
+  \end{itemize}
+  La race influence l'identification de la langue comme <<cadien>> \gloss{français} ou <<créole>> \smallcite{\parencite{landry_black_2007}}:
+  \begin{itemize}
+    \item 19\% des créolophones blanc.he.s ont été jugé.e.s comme parlant français
+  \end{itemize}
+  Ces différences sont parfois des points de division explicites:
+  \begin{itemize}
+    % \item Les Blanc.he.s emploient moins d'affriquées [tʃ] et [dʒ] parce qu'ils les qualifient comme <<n***e>> \smallcite{\parencite[p.~91]{neumann_creole_1985}}
+    \item On peut toujours entendre l'appelation <<N-word French>>
+  \end{itemize}
 \end{frame}

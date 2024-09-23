@@ -1,22 +1,9 @@
 \begin{frame}{Les pronoms dans les langues\Logo}
-  La race:
   \begin{enumerate}
-    \item Le pronom \lexi{elle} au lieu de \lexi{li} (f.) est plus fréquent pour les Blanc.he.s \smallcite{\parencite{klingler_if_2003}}
-    \item[] (ou peut-être non \smallcite{\parencite{mayeux_rethinking_2019}})
-  \end{enumerate}
-  L'ethnicité:
-  \begin{enumerate}
-    \setcounter{enumi}{1}
-    \item Significative entre les Indien.ne.s et les Cadien.ne.s, y compris pour les pronoms de la 3pl \smallcite{\parencite{dajko_ethnic_2009, rottet_language_1995}}
-  \end{enumerate}
-  La structure linguistique:
-  \begin{enumerate}
-    \setcounter{enumi}{2}
+    \item Les pronoms différencient les Indien.ne.s et les Cadien.ne.s \smallcite{\parencite{dajko_ethnic_2009, rottet_language_1995}}
+    \item Les pronoms différencient le français et le créole (\lexi{je} vs \lexi{mo}) \smallcite{\parencite{klingler_probleme_2005}}
     \item Moins de \lexi{ça} (3pl) avant les modaux \smallcite{\parencite{brown_pronominal_1988}}
-  \end{enumerate}
-  L'identification de la langue:
-  \begin{enumerate}
-    \setcounter{enumi}{3}
-    \item \lexi{Je} pour le français, \lexi{mo} pour le créole \smallcite{\parencite{klingler_probleme_2005}}
+    \item \alert<2->{Le pronom \lexi{elle} au lieu de \lexi{li} (f.) est plus fréquent pour les Blanc.he.s} \smallcite{\parencite{klingler_if_2003}}
+    \item[] (\alert<2->{ou peut-être non} \smallcite{\parencite{mayeux_rethinking_2019}})
   \end{enumerate}
 \end{frame}
