@@ -1,0 +1,18 @@
+\begin{frame}{L'idées créole et cadien}
+  Elizabeth (Cadienne blanche):
+  \begin{enumerate}
+    \item {}<<C'était quand mo plus vieille mo commencé 'tendre les mots créole cadien.>> (19m22)
+    \item[] \gloss{C'était quand j'étais plus vieille que j'ai commencé à entendre les mots créole cadien.}
+  \end{enumerate}
+  Terry (Créole (sg)):
+  \begin{enumerate}
+    \setcounter{enumi}{1}
+    \item {}<<Monde créole, c'est une race de monde qu'est mêlée.>> (42m30)
+  \end{enumerate}
+  Errol (Cadien blanc):
+  \begin{enumerate}
+    \setcounter{enumi}{2}
+    \item {}<<Un Cadien, mo mo'tais crois c'est juste un slang pour une culture, tu connais?>> (30m06)
+    \item \gloss{Un Cadien, moi je croyais que ce n'est qu'un argot pour une culture, tu connais?}
+  \end{enumerate}
+\end{frame}

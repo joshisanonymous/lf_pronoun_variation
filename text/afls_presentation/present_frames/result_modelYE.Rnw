@@ -3,13 +3,13 @@
   \begin{center}
     Modèle de régression logistique multinomiale pour \lexi{yé} contre \lexi{ça}
 
-    \begin{tabular}{p{3cm} p{3cm} p{3cm}}
+    \begin{tabular}{p{3.5cm} p{3.5cm} p{3.5cm}}
                                                                                                        &                                                                                                    & \\
       \hline
       Pronom \hfill \~{}                                                                               & Predicat \hfill +                                                                                  & Ethnicité \\
       \hline
       \textbf{ça}                                                                                      & \textbf{Verbe lexical}                                                                             & \textbf{Créole} \\
-      yé                                                                                               & Verbe modal \hfill \Sexpr{round(small3plModel$coefficients["yé~PredTypemodal"], 2)}                & Cadien.ne \hfill \Sexpr{round(small3plModel$coefficients["yé~EthnicityCajun"], 2)} \\
+      yé                                                                                               & Verbe modal \hfill \Sexpr{round(small3plModel$coefficients["yé~PredTypemodal"], 2)}                & Cadien.ne *** \hfill \Sexpr{round(small3plModel$coefficients["yé~EthnicityCajun"], 2)} \\
                                                                                                        & Verbe auxiliaire \hfill \Sexpr{round(small3plModel$coefficients["yé~PredTypeauxiliary"], 2)}       & \\
                                                                                                        & Préposition \hfill \Sexpr{round(small3plModel$coefficients["yé~PredTypepreposition"], 2)}          & \\
                                                                                                        & Adjectif \hfill \Sexpr{round(small3plModel$coefficients["yé~PredTypeadjective"], 2)}               & \\

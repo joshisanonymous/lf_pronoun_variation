@@ -3,14 +3,14 @@
   \begin{center}
     Modèle de régression logistique multinomiale pour \lexi{ils} contre \lexi{ça}
 
-    \begin{tabular}{p{3cm} p{3cm} p{3cm}}
+    \begin{tabular}{p{3.5cm} p{3.5cm} p{3.5cm}}
                                                                                                        &                                                                                                    & \\
       \hline
       Pronom \hfill \~{}                                                                               & Predicat \hfill +                                                                                  & Ethnicité \\
       \hline
       \textbf{ça}                                                                                      & \textbf{Verbe lexical}                                                                             & \textbf{Créole} \\
       ils                                                                                              & Verbe modal \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypemodal"], 2)}               & Cadien.ne \hfill \Sexpr{round(small3plModel$coefficients["ils~EthnicityCajun"], 2)} \\
-                                                                                                       & Verbe auxiliaire \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypeauxiliary"], 2)}      & \\
+                                                                                                       & Verbe auxiliaire *** \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypeauxiliary"], 2)}      & \\
                                                                                                        & Préposition \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypepreposition"], 2)}         & \\
                                                                                                        & Adjectif \hfill \Sexpr{round(small3plModel$coefficients["ils~PredTypeadjective"], 2)}              & \\
                                                                                                        & & \\

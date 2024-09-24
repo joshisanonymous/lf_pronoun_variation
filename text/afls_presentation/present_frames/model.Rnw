@@ -3,7 +3,7 @@
   \begin{center}
     Modèle de régression logistique multinomiale
 
-    \begin{tabular}{p{3cm} p{3cm} p{3cm}}
+    \begin{tabular}{p{3.5cm} p{3.5cm} p{3.5cm}}
                                                                                                        &                                                                                                    & \\
       \hline
       Pronom \hfill \~{}                                                                               & Predicat \hfill +                                                                                  & Ethnicité \\

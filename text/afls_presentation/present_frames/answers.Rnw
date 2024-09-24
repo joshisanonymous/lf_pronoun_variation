@@ -1,0 +1,8 @@
+\begin{frame}{Pour résumer}
+  QR: \RQone
+  \begin{enumerate}
+    \item Les ethnicités sont prédictives pour les réalisations du pronom 3pl
+    \item Les races sont plus ou moins liées aux ethnicités
+    \item Les races sont plus compliquées que blanc contre noir
+  \end{enumerate}
+\end{frame}
