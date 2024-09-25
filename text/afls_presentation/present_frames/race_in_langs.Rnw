@@ -1,4 +1,4 @@
-\begin{frame}{La race dans les études précédentes\Logo}
+\begin{frame}{La race dans les études antérieures\Logo}
   \small
   Liens entre la race et le \emph{créole} louisianais:
   \begin{itemize}
