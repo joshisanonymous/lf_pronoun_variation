@@ -1,9 +1,9 @@
 \begin{frame}{Les pronoms dans les langues\Logo}
   \begin{enumerate}
-    \item Les pronoms différencient les Indien.ne.s et les Cadien.ne.s \smallcite{\parencite{dajko_ethnic_2009, rottet_language_1995}}
-    \item Les pronoms différencient le français et le créole (\lexi{je} vs \lexi{mo}) \smallcite{\parencite{klingler_probleme_2005}}
+    \item Les identités ethniques des locuteurs.trices prédisent le nom de la variété \smallcite{\parencite{klingler_language_2003}}
+    \item Les pronoms peuvent différencier le français et le créole structurellement (\lexi{je} vs \lexi{mo}) \smallcite{\parencite{klingler_probleme_2005}}
+    \item Le pronom \lexi{elle} au lieu de \lexi{li} (f.) est plus fréquent pour les Blanc.he.s \smallcite{\parencite{klingler_if_2003}}
+    \item[] (ou peut-être non \smallcite{\parencite{mayeux_rethinking_2019}})
     \item Moins de \lexi{ça} (3pl) avant les modaux \smallcite{\parencite{brown_pronominal_1988}}
-    \item \alert<2->{Le pronom \lexi{elle} au lieu de \lexi{li} (f.) est plus fréquent pour les Blanc.he.s \smallcite{\parencite{klingler_if_2003}}}
-    \item[] \alert<2->{(ou peut-être non \smallcite{\parencite{mayeux_rethinking_2019}})}
   \end{enumerate}
 \end{frame}
