@@ -299,3 +299,7 @@ main.tex
 proposal.tex
 proposal_defense.tex
 text/afls_presentation/figure/*
+
+# Superfluous pdfs
+present_afls.pdf
+proposal.pdf
