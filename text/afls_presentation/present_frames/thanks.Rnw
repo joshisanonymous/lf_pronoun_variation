@@ -1,0 +1,30 @@
+\begin{frame}{}
+  \begin{center}
+    {\Large Merci}
+  \end{center}
+  \begin{columns}
+    \column{0.35\textwidth}
+      \begin{center}
+        \footnotesize
+        \href{https://www.joshmcneill.com}{www.joshmcneill.com}
+        \includegraphics[scale=0.25]{website.png}
+      \end{center}
+    \column{0.3\textwidth}
+      \begin{center}
+        \footnotesize
+        Joshua McNeill \\
+        \href{mailto:joshua.mcneill@uga.edu}{joshua.mcneill@uga.edu} \\
+        \includegraphics[scale=0.038]{uga_logo.png}
+      \end{center}
+    \column{0.35\textwidth}
+      \begin{center}
+        \footnotesize
+        Projet: \url{https://osf.io/sy7uq/}
+        \includegraphics[scale=0.25]{project.png}
+      \end{center}
+  \end{columns}
+  \begin{center}
+    \footnotesize
+    Avec le soutien du Willson Center for Humanities and Arts à UGA et le Community Foundation of Acadiana
+  \end{center}
+\end{frame}

@@ -1,12 +1,13 @@
 \begin{frame}{Objectif\Logo}
-  De mieux comprendre la façon dont la race \emph{et l'ethnicité} sont exprimées par les pronoms sujets en français louisianais, \alert{dans une perspective large} de la langue
-  \begin{enumerate}
+  De mieux comprendre la façon dont la race \emph{et l'ethnicité} sont exprimées par les pronoms sujets en français louisianais, \alert{dans une perspective large} de la langue. \\
+  \vspace{0.25cm}
+  % \begin{enumerate}
     % \item Tracy, un Créole noir:
     % \begin{itemize}
     %   \item Elle sait dit: <<to trappé li encore>>.
     %   \item[] \gloss{Elle disait: <<tu l'as encore trappé>>}
     % \end{itemize}
-    \item Gene, un Créole sans race:
+    Gene*, un Créole sans race:
     \begin{itemize}
       \item Tout ça yé va dit il faut tu prends ça.
       \item[] \gloss{Tout ce qu'ils vont dire, il faut que tu prennes ça.}
@@ -16,5 +17,7 @@
     %   \item Li questionne les 'tits filles qui sur le homecoming court ça yé veut.
     %   \item[] \gloss{Elle demande aux petites filles qui sont sur la cour de homecoming ce qu'elles veulent.}
     % \end{itemize}
-  \end{enumerate}
+  % \end{enumerate}
+  \vspace{1.5cm}
+  {\footnotesize * Tous les noms sont anonymisés.}
 \end{frame}

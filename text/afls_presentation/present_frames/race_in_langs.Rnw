@@ -5,9 +5,10 @@
     \item Les Blanc.he.s plus décréolisé.e.s \smallcite{\parencite{neumann_creole_1985}}
     \item C'est vrai pour des parties de la syntaxe \smallcite{\parencite{klingler_if_2003, neumann_creole_1985}}, la morphologie et la phonologie \smallcite{\parencite{klingler_if_2003, mayeux_rethinking_2019}}
   \end{itemize}
-  La race influence l'identification de la langue comme <<cadien>> \gloss{français} ou <<créole>> \smallcite{\parencite{landry_black_2007}}:
+  La race influence l'identification de la langue comme <<cadien>> \gloss{français} ou <<créole>>:
   \begin{itemize}
-    \item 19\% des créolophones blanc.he.s ont été jugé.e.s comme parlant français
+    \item 19\% des créolophones blanc.he.s ont été jugé.e.s comme parlant français \smallcite{\parencite{landry_black_2007}}
+    \item Les identités ethniques des locuteurs.trices prédisent le nom de la variété \smallcite{\parencite{klingler_language_2003}}
   \end{itemize}
   Ces différences sont parfois des points de division explicites:
   \begin{itemize}

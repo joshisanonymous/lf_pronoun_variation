@@ -81,11 +81,11 @@
     @
 
   \section{Méthodes}
+    <<child = "./present_frames/pronoun.Rnw">>=
+    @
     <<child = "./present_frames/data.Rnw">>=
     @
     <<child = "./present_frames/race_vs_eth.Rnw">>=
-    @
-    <<child = "./present_frames/pronoun.Rnw">>=
     @
     <<child = "./present_frames/model.Rnw">>=
     @
@@ -105,6 +105,8 @@
     @
   \section{Conclusion}
     <<child = "./present_frames/answers.Rnw">>=
+    @
+    <<child = "./present_frames/thanks.Rnw">>=
     @
   
   \section{References}
