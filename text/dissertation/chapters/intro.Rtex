@@ -9,9 +9,9 @@
   \begin{figure}[tbhp]
     \caption{Acadiana according to HCR 496 \parencite[1971, as cited in][]{trepanier_french_1988}}
     \label{fig:mapacadiana}
-    % <<fig.aspect = 1>>=
-    % mapacadiana
-    % @
+    <<fig.asp = 0.5>>=
+    mapacadiana
+    @
   \end{figure}
 
   For sociolinguists in particular, one major point of interest in South Louisiana is the two major local ethnic categories -- Creole and Cajun -- which intersect with Black and White racial identities in complex ways.
@@ -32,7 +32,8 @@
         % "[A]n aspect of a person's social identity that also forms part of an individual's self concept" that is based on heritage and subsumes race (i.e., race is one form that this aspect takes) (Phinney 1992, as cited in Susberry 2004:21)
       % Definitions of race
         % "'[A] concept which signifies and symbolizes social conflicts and interests by referring to different types of human bodies'" (Omi & Winant 1994, as cited in Fought 2013:388)
-        % A social construct with biological, underpinnings that is hierarchical and ethnicity as a social construct underpinned by "sociocultural factors that are neglected by the biological definitions of race" (Susberry 2004:6-7)
+        % A social construct with biological underpinnings that is hierarchical and ethnicity as a social construct underpinned by "sociocultural factors that are neglected by the biological definitions of race" (Susberry 2004:6-7)
+    Race and ethnicity are often conflated not only by the general public but by researchers, as well.
     
     
     % Bi-/multi-racial identities
