@@ -139,25 +139,58 @@
     \subsection{Racially conditioned language variation}
       \label{sec:racial_language_variation}
       % Center this discussion on interpretations of the significance of such variation
-      % It has been argued that in studies of African-Americans using linguistic features indexing White identities, researchers conceptualize this as assimilation, but in studies of White people using African-American features (e.g., Bucholtz 1999), researchers conceptualize this as indexing African-American qualities that these speakers admire (Eckert 2008 "Where":27)
+      % Conceptualizations of AAL and SAE when crossing racial barriers
+        % It has been argued that in studies of African-Americans using linguistic features indexing White identities, researchers conceptualize this as assimilation, but in studies of White people using African-American features (e.g., Bucholtz 1999), researchers conceptualize this as indexing African-American qualities that these speakers admire (Eckert 2008 "Where":27)
         % White people "can and do pass for native speakers of AAE" (C. Cutler 2002, as cited in C. Cutler 2007:529)
-      % Becker (2014) looked at several linguistic variables in the Lower East Side, comparing between how they've changed for African-Americans vs non-African-Americans:
-        % Rhoticity indexes regional identity: AAs have remained non-rhotic, and non-AAs have become rhotic (52)
-        % The BOUGHT vowel indexes localness: AAs have remained raised where others have lowered (49-50)
-        % Lisa has deleted copulas when the topic is New York rather than African-Americanness (48)
+      Race has thus figured prominently in sociolinguistics and studies of language variation analyzing speech in the US, though even in the scholarly domain, the framing used is perhaps indicative of a continued rift between majority and minority groups.
+      It has been argued, for example, that in studies of African-Americans using linguistic features indexing White identities, researchers conceptualize this as assimilation into the world of the majority group, but in studies of White Americans using African-American features (e.g., Bucholtz 1999), researchers conceptualize this as indexing African-American qualities that these speakers admire \parencite[p.~27]{eckert_where_2008}.
+      This is not to say that sociolinguists who use such framings have harbor ill intent, and ne can perhaps argue that these framings are the result of how assimilation itself is conceptualized -- as something that always happens in the direction of a dominant group -- but these framings are still worth reflecting on when doing research on race.
+
+      % Where race has proven meaningful in language variation studies
+        % Becker (2014) looked at several linguistic variables in the Lower East Side, comparing between how they've changed for African-Americans vs non-African-Americans:
+          % Rhoticity indexes regional identity: some AAs have remained non-rhotic, and non-AAs have become rhotic (52)
+          % The BOUGHT vowel indexes localness: AAs have remained raised where others have lowered (49-50)
+          % Lisa has deleted copulas when the topic is New York rather than African-Americanness (48)
+      Said variationist studies on race have in fact been fruitful.
+      For example, \textcite{becker_linguistic_2014} looked at several English linguistic variables in the Lower East Side of New York City, comparing between how they have changed for African-Americans vs non-African-Americans.
+      She found that African-Americans were variable in their production or lack of production of rhoticity, whereas non-African-Americans were consistently rhotic. 
+      She thus interpreted this variable as indexing regional identity in the former group \parencite[p.~52]{becker_linguistic_2014}, which also helps to undermine the idea that Black Americans constitute a single monolithic group.
+
       % Even when race is given a more fine-grained conceptualization, it has proven to be meaningful for language variation
-        % Black-White biracial men in DC were found to have different intonational patterns depending on their self-identifications singular Black, using the pattern traditionally found to be associated with Black identities in general, versus self-identifications as border, using a pattern that has not traditionally been found to be indexical of Black identities (Holliday 2019:8)
+        % Black-White biracial men in DC were found to have different intonational patterns depending on their self-identifications as singular Black, using the pattern traditionally found to be associated with Black identities in general, versus self-identifications as border, using a pattern that has not traditionally been found to be indexical of Black identities (Holliday 2019:8)
+      In language variation studies where race is given a more fine-grained conceptualization, it has again proven to be a meaningful social variable.
+      \textcite{holliday_multiracial_2019}, for instance, examined the intonational patterns of Black-White biracial men in Washington DC where she coded their racial identities following Rockquemore and Brunsma's (2008) framework, which proposed the categories of Singular Black, Singular White, Border (i.e., a singular identity that affirms a mixed parentage), Protean (i.e., fluid between the aforementioned identities), and Transcendent (i.e., rejecting racial identities) (pp.~5-6).
+      She found that those who identified as Singular Black had intonational patterns traditionally found to be associated with Black identities in general, whereas those who identified as Border had intonational patterns that had not traditionally been found to be indexical of Black identities \parencite[p.~8]{holliday_multiracial_2019}.
+      If such a study were designed to code all Black-White biracial participants as simply Black, this result would have been quite difficult to interpret, showing not just the utility of the framework but also that racial identities beyond the standard Black versus White dichotomy can be socially significant.
+
       % Implicating creole languages
         % In the South Carolina Sea Islands, a pair of speakers, one White and one Black, both were documented using (English-based) creole phonological features but only the Black speaker used creole morphosyntactic features (Rickford 1985, as cited in Fought 2013:390-391)
+      Significant for the current study is that race has also shown to be meaningful in the linguistic variation in question involves a creole language.
+      In the South Carolina Sea Islands, where both English and an English-lexifier creole are present, creole phonological features were used by both White and Black participants, but only Black participants used creole morphosyntactic features.
+      Phonological features were thus interpreted as being indexical of island identity in general, whereas morphosyntactic features were interpreted as being indexical of Creole identity more specifically \parencite[Rickford, 1985, as cited in][pp.~390-391]{fought_ethnicity_2013}.
+
       % There is indeed work on non-Blacks/African-Americans, as well, but probably not as much, and it more often is characterized as work on ethnicity rather than race in these cases
         % In New York, Asian and non-Asian speakers differed in their realizations of /ɛ/ and breathiness with Asian men producing more fronted variants and breathier speech (Newman & Wu 2011:166/168)
           % Newman & Wu (2011) suggest plainly that these features index an Asian racial identity (and importantly not a national heritage identity as the Asian participants Chinese and Korean) (171)
+      Something that may be apparent in the previous examples is that they all involve White and Black racial identities to one degree or another, precluding racial identities that are completely separate from these two.
+      While work has been done on other racial identities in the US, there is a greater tendency to characterize these as ethnic identities rather than racial or simply treat race and ethnicity as a single concept.
+      One example of this is a study of Asian speakers of English in New York.
+      It was found that Asian and non-Asian speakers differed in their realizations of the /ɛ/ vowel as well as in their breathiness where Asian men produced more fronted /ɛ/ vowels and breathier speech \parencite[pp.~166/168]{newman_you_2011}.
+      An interesting aspect of this result was that the Asian participants were not all of the same national heritage -- some had Chinese heritage and others Korean -- yet they had shared linguistic features in their English, suggesting to the authors that these features are indexical of an Asian racial identity \parencite[p.~171]{newman_you_2011}.
+      However, more interesting for the present study is that \textcite{newman_you_2011} consistently conflated race and ethnicity.
+      In their survey materials, for instance, they asked, ``What ethnicity would you guess this speaker is?''
+      The possible responses were White, Black, Hispanic, or Asian (p.~172).
+      Likewise, they used the phrase ``racial identification'' in the title of the study while presenting the object of exploring ``how Korean and Chinese Americans fit into the \emph{ethnic} mosaic of english in New York City'' [italics mine] (p.~153).
+      This is not meant to denigrate their fine work, but to exemplify how race in the United States is often only race if it is Black and White.
+
     \subsection{Ethnically conditioned language variation}
       \label{sec:ethnic_language_variation}
       % A Lumbee Indian being interviewed by a African-American Cherokee showed how ethnic identity can be linguistically negotiated in real time as the speakers' speech was most different when discussing race and most similar while discussing friends and family (Schilling-Estes 2004)
       % White students and Latinx students in California were seen using different variants of /æ/, but variants used within the Latinx group also index their place in the social order of the school, making them available for non-Latinxs to use, as well (Eckert 2008 "Where")
       % Something that's apparent in many of these studies on variation between ethnic groups is that race is often conflated with ethnicity, suggesting that the two are difficult to disentangle in the US
         % Indeed, the in some of these cases, these are only being discussed under the current heading because the researchers involved framed these as studies of ethnicity
+      
+
     \subsection{Race in Louisiana}
       \label{sec:race_louisiana}
       % Historically
