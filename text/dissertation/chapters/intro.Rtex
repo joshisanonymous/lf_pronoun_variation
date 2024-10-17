@@ -75,10 +75,12 @@
 
       % On the 2000 US census, 5.5% of people chose Other for race and 2.4% Multiracial (Singer 2002, as cited in Susberry 2004:2)
         % This was also the first year the census allowed people to check off more than one race (US Census Bureau 2000, as cited in Susberry 2004:2)
+        % Historically, Black-White biracial Americans were viewed by Whites simply as Black, leading to enslavement and later continued discrimination (Khanna 2011, as cited in Holliday 2016:17-18)
         % As Holliday (2019) pointed out, the ease of access sociolinguists have to racial census data combined with the inflexibility of race options on the census has been a source of erasure of racial identities that do not neatly fit into one box or another (2)
       % The number of bi- and multi-racial people may be underestimated when tabulated as 1) people may be unaware of their own ancestry, 2) may identify with only one race, or 3) may adhere to the concept of situational ethnicity (Susberry 2004:3)
       % It's important to not simplify and erase bi-/multi-racial identities, but additionally, as pointed out by Holliday (2016), one must be careful not to essentialize them as being somehow special or not normal in comparison to monoracial individuals (24-27)
     The existence of such bi- and multi-racial identities has likely been underdocumented in the United States.
+    Indeed, historically, Black-White biracial Americans were viewed by Whites simply as Black, leading to them facing the same problems that Black Americans faced, that is to say enslavement and later continued discrimination \parencite[Khanna, 2011, as cited in][pp.~17-18]{holliday_intonational_2016}.
     On a formal level, it was not until 2000 that one could indicate more than one race on the US Census \parencite[as cited in][p.~2]{susberry_racial_2004}, which at the time resulted in 2.4\% of the population choosing more than one race and another 5.5\% choosing ``Other'' \parencite[Singer, 2002, as cited in][p.~2]{susberry_racial_2004}.
     This sort of erasure of identities is not just of concern for the rights and well-being of those who do not fit neatly into established racial categories but can also impact research that implicates race.
     In the field of sociolinguistics, for instance, it has been pointed out that researchers often rely on census data due to ease of access, but the inflexibility of census options means that many people can be misrepresented or unrepresented in the resulting studies \parencite[p.~2]{holliday_multiracial_2019}.
@@ -98,25 +100,42 @@
         % According to census records, the US has gone from 1 in 8 people being non-White to 1 in 4 (or 1 in 3 if Latinxs are treated as non-White) (Fischer & Hout 2006:25-26)
           % Ethnic and racial diversity, measured with Shannon entropy using census records, has increased between 1990 and 2010 (0.4576 > 0.6015) (Wright et al. 2014:175)
           % The pattern holds through the 2020 census except for non-Whites increasing to 42% of the population when treating Latinxs as non-White (Census 2020)
-          % "[R]oughly half" of White Americans thought they were a minority already by 2000 (Alba et al. 2005, as cited in J. A. Smith et al. 2014:437)
-        % Latinx is currently the largest non-White group (19.5%) followed by Blacks (13.7%) (Census 2020)
+          % Latinx is currently the largest non-White group (19.5%) followed by Blacks (13.7%) (Census 2020)
           % Growth in the Latinx population in 2011 was driven more by births than by immigration (Pew Hispanic Center 2011, as cited in Wright et al. 2014:181)
-        % According to censuses, between 1990 and 2010, White-dominant neighborhoods decreased from 66.0% to 42.5% (i.e., diversity increased) (Wright et al. 2014:176)
-        % Most immigrants settled in highly populous metropolitan areas according to the 2000 and 2010 censuses (75%) (Wright et al. 2014:175)
-        % In 1990, only 6% of Blacks and Whites married outside of their race, but 30% of Asians and Hispanics and 67% of American Indians did (Water 2000, as cited in Susberry 2004:3)
-      
+      Diversity in the United States has in fact increased, which is still apparent in census records despite the aforementioned erasure of some racial identities.
+      In terms of race, the record suggest that the US has gone from 1 in 8 people being non-White to 1 in 4.
+      Depending on how one categorizes Latinxs, when treated as non-White, the ratio becomes 1 in 3 \parencite[pp.~25-26]{fischer_century_2006}.
+      This pattern holds through the 2020 except for non-Whites increasing to 42\% of the population when treating Latinxs as non-White.
+      Latinx has indeed become the largest non-White group at 19.5\% of the population, followed by Blacks at 13.7\% \parencite{noauthor_us_2020}.
         
+        % According to censuses, between 1990 and 2010, White-dominant neighborhoods decreased from 66.0% to 42.5% (i.e., diversity increased) (Wright et al. 2014:176)
+          % Most immigrants settled in highly populous metropolitan areas according to the 2000 and 2010 censuses (75%) (Wright et al. 2014:175)
+        % "[R]oughly half" of White Americans thought they were a minority already by 2000 (Alba et al. 2005, as cited in J. A. Smith et al. 2014:437)
+      Diversity in the US is not only apparent in raw population counts but also in housing patterns.
+      Between 1990 and 2010, census records suggest that proportion of White-dominated neighborhoods in the country decreased from 66.0\% to 42.5\%, which may be driven by immigrants mostly settling in highly populous metropolitan areas according to the 2000 and 2010 records \parencite[pp.~175-176]{wright_patterns_2014}.
+      All of these increases in diversity have also been apparent to White Americans.
+      Already by 2000, ``roughly half'' of White Americans thought they were part of a minority group \parencite[Alba et al., 2005, as cited in][p.~437]{smith_social_2014}, which may explain in part a pause in improvements in ethnic tolerance and equality.
+
       % Racial and ethnic tolerance and inequality
         % Attitudes have moved towards greater tolerance of racial and ethnic minorities from the 1970s to the 2010s (Bobo et al. 2012; Firebaugh & Davis 1988, both as cited in J. A. Smith et al. 2014:437)
           % Despite this, there is still a long way to go
             % Life outcomes
               % Racial income inequality decreased earlier in the 20th century but stalled by 2000 (Leicht 2008, as cited in J. A. Smith et al. 2014:436)
               % 71% of the African-American youths in Van Hofwegen & Wolfram's (2010) longitudinal study (1990-2006) were below the poverty line (431)
-            % Historically, Black-White biracial Americans were viewed by Whites simply as Black, leading to enslavement and later continued discrimination (Khanna 2011, as cited in Holliday 2016:17-18)
-              % There is evidence of this still being true today, 
+      In general, the US has has experienced improved relations in terms of tolerance of racial and ethnic minorities between the 1970s and the 2010s \parencite[Bobo et al., 2012; Firebaugh \& Davis, 1988, both as cited in][p.~437]{smith_social_2014}.
+      Despite this, there are still discrepencies in life outcomes between majority and minority groups.
+      Racial income inequality had been decreasing earlier in the 20th century but stalled by 2000 \parencite[Leicht, 2008, as cited in][p.~436]{smith_social_2014}.
+      Indeed, on a local level, \citeauthor{van_hofwegen_coming_2010}'s (\citeyear{van_hofwegen_coming_2010}) reported that 71\% of the African-American youths lived in below the poverty line during the years 1990 to 2006 in their longitudinal study in Chapel Hill, North Carolina (p.~431).
+
           % Linguistic minstrelsy involves imitating minorities' speech for one's own profit (Bucholtz & Lopez 2011, as cited in Eberhardt & Freeman 2015:304)
             % Iggy Azalea (Eberhardt & Freeman 2015) and White rappers in general do this (C. Cutler 2002, as cited in C. Cutler 2007:520)
             % This suggests that tolerance has perhaps dovetailed into exploitation
+      To the extent that greater tolerance of minorities has developed, there are also signs that they have gone from being discriminated against to instead having their identities appropriated for gain by majority groups.
+      Minstrelsy was of course, a past example of this, but it has (re)surfaced more recently in what has been called linguistic minstrelsy, defined as imitating minorities' speech for one's own profit \parencite[Bucholtz \& Lopez, 2011, as cited in][p.~304]{eberhardt_first_2015}.
+      This activity can be seen particularly in hip-hop music as performed by White vocalists \parencite[C. Cutler 2002, as cited in][p.~520]{cutler_hip-hop_2007}.
+      So prevalent is the phenomenon that even Iggy Azalea, a White Australian vocalist, performs using African-American Language (AAL) while her typical speech is that which one would expect based on her non-African-American and indeed non-American background \parencite{eberhardt_first_2015}.
+      Relations between majority and minority groups in the US can thus be said to have plainly improved, yet the evidence is that there is still a long way to go.
+
     \subsection{Racially conditioned language variation}
       \label{sec:racial_language_variation}
       % Center this discussion on interpretations of the significance of such variation
