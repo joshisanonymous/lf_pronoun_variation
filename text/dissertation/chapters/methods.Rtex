@@ -9,6 +9,11 @@
     % Who could be included
       % Judgement sampling is a type of sampling in which participants are chosen based on matching some criteria that is relevant to the study (e.g., gay men in Kiesling's work) and possibly involving friend-of-a-friend methods (Hoffman 2014:31)
       % Gudmestad & Carmichael (2022) proposed analyzing New Speakers (Kasstan 2019) in future research (21)
+    % Sampling approach in general
+      % Snowball sampling was used to find a small number of participants
+        % Though acknowledging that snowball sampling can reduce the observer effect (6), Labov (1966/2006) in 2006 essentially argued that snowball sampling is more akin to studying "extended individuals" than communities (399)
+        % Labov (1966/2006) himself used stratified random sampling (101)
+          % In a way, this is simply aiming to capture individuals in different network clusters and at different positions within those clusters and then using social variables as a proxy for identifying said clusters
     % Finding Creoles
       % Hoffman (2014) provided two strategies for contacting potential participants from communities to which you don't personally belong: 1) have community leaders introduce you (school officials, religious leaders, community organizers, etc.), and/or 2) spend time in public places that members of that community frequent (32)
         % Rottet (1995) essentially used a modified version of the community leaders approach where, in order to find elderly speakers, he had a middle-aged woman bring him along when she visited elderly people (78)
@@ -20,8 +25,12 @@
     \subsection{The interview schedule}
       % "[A] series of questions divided into thematic sets or modules that may be helpful" (Labov 1984, as cited in Hoffman 2014:34)
       % As has been suggested for verifying the effectiveness of questionnaires (Schleef 2014:51), the schedule was used on a non-participant before being employed in the study
-      % Frequency of each pronoun
+      % Questions needed to be formulated so as to elicit sufficient tokens of various pronouns
         % 1st and 2nd person could be expected to be more frequent in speech (and CMC) than they would be in writing (Yates 1996:40-41, also citing Chafe 1982 and Fowler & Kress 1979)
+      % Types of questions
+        % Two classic questions that more or less were used are children's lore and define a successful man (Labov 1966/2006:92-93)
+          % I aimed to talk about childhoods to establish life history information, but speakers were often happy to talk at length about their childhoods
+          % I didn't asked about a successful man, but asking what a Cajun or Creole is quite similar
       % Questions about the speakers' races and the ethnicities of their alters came at the end of the interview
         % This was done to mitigate the feeling that the questions are intrusive (Schleef 2014:50)
           % There is evidence that speakers feel more at ease by later portions of an interview, as in Douglas-Cowie's (1978) participants shifting to more casual speech styles during the latter half of interviews (as cited in Bell 1984:169)
@@ -30,6 +39,7 @@
       % Who am I and how do I impact the interview
         % My biographical information
         % Bell (1984) suggested that interlocutors might adapt their speech in response to "the personal characteristics of their addressees, the general style level of their addressees' speech, and/or their addressees' levels for specific linguistic variables" (167-168)
+          % As far back as Labov (1966/2006), it has been reported that speech may differ when people of different racial backgrounds are talking, such as the African-American woman in the Bronx he interviewed whose speech changed during interruptions from peers compared to when speaking with Labov (67-68)
           % In terms of eliciting comparable speech data, the important part of this is to control for these factors so that they are more or less consistent form interview to interview
           % My appearance was consistent between interviews: pants, semi-formal shirts
           % My speech, which has always been modeled on Louisiana French norms, did not change between interviews
@@ -77,19 +87,22 @@
         % A late bilingual has been defined as one who has learned a second language in their teenage years or in adulthood (Winskel 2013:1091)
         % Non-native French speakers in Montreal in 1993 acquired native patterns of (l)-deletion, (t,d) affrication, [r] ~ [ʁ] production, and the verb 'to live somewhere' with varying degrees of success, using these features in the correct structural contexts though generally not at the rates of native speakers (G. Sankoff 2015:41-44)
     % Socioeconomic class
+      % Examples of socioeconomic class being important for language variation
+        % The classic example is Labov's (1966/2006) department store study that found differences in /r/ using stores as proxies for socioeconomic class (46-49)
+        % In Quebec City in the 1960s, children in blue-collar families used vous with parents, in professional families tu, and in white-collar families both variably (Lambert 1967:616)
+        % Use of [ʁ] in Montreal in 1971 was greater for those in higher social classes (G. Sankoff 2015:31)
       % One's speech patterns can impact their ability to get into certain occupational positions
         % In the US, this has been true for Chinese, Indian, and Mexican accents (Timming 2017:416-422) as well as Japanese but not [probably standard] French accents (Hosoda & Stone-Romero 2010, as cited in Timming 2017:412)
         % Jerry Pierre Quintero joked about a similar difficulty with his speech in English when he first looked for work
-      % Examples of socioeconomic class being important for language variation
-        % In Quebec City in the 1960s, children in blue-collar families used vous with parents, in professional families tu, and in white-collar families both variably (Lambert 1967:616)
-        % Use of [ʁ] in Montreal in 1971 was greater for those in higher social classes (G. Sankoff 2015:31)
       % Ways of conceptualizing and measuring socioeconomic class
         % Some indicators of membership in the middle-class are income based (Massey & Fischer 1999; Adelman 2004; Haynes 2001; Lacy 2007) while others are occupation based (Landry 1987, all as cited in Britt & Weldon 2015:3)
-        % Trudgill (1974) argued that occupation is the primary indicator for socioeconomic class because even affluent manual laborers would likely retain the culture of manual laborers (as cited in Dodsworth 2011:193)
-        % Based essentially on occupation type, dividing people in Estate Class (fieldworkers) and Non-Estate Class (foremen and those unassociated with the estates) was meaningful socially and in terms of language variation in Guyana (Rickford 1986:216-217)
-        % In Philadelphia, occupation was a better predictor of socioeconomic class than other indicators, but a combination of indicators was the best predictor (Labov 2001,as cited in Dodsworth 2011:193)
-        % Employment was the best indicator of presitge in Cusco, Peru (Van den Berghe & Primov 1977, as cited in Delforge 2012:321)
-        % As has long been noted, it's simply easier to obtain occupational information than other indicators of socioeconomic class Macaulay (1977, as cited in Dodsworth 2011:193)
+        % In sociolinguistics
+          % Labov (1966/2006) used occupation, education, and income early on in NYC (134-135)
+          % Trudgill (1974) argued that occupation is the primary indicator for socioeconomic class because even affluent manual laborers would likely retain the culture of manual laborers (as cited in Dodsworth 2011:193)
+          % Based essentially on occupation type, dividing people in Estate Class (fieldworkers) and Non-Estate Class (foremen and those unassociated with the estates) was meaningful socially and in terms of language variation in Guyana (Rickford 1986:216-217)
+          % In Philadelphia, occupation was a better predictor of socioeconomic class than other indicators, but a combination of indicators was the best predictor (Labov 2001,as cited in Dodsworth 2011:193)
+          % Employment was the best indicator of presitge in Cusco, Peru (Van den Berghe & Primov 1977, as cited in Delforge 2012:321)
+          % As has long been noted, it's simply easier to obtain occupational information than other indicators of socioeconomic class Macaulay (1977, as cited in Dodsworth 2011:193)
     % Gender
       % Sharma (2011) found that the typical result of women orienting more towards prestige forms was reversed in her study of British Asians in London (465)
     % Racial coding

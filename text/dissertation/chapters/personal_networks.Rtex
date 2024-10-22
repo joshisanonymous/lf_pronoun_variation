@@ -12,16 +12,21 @@
         % G. Sankoff (2015) argued that Buang speakers in Papua New Guinea constituted a single speech community despite also claiming that Buang has two dialects and one distinct language (i.e., socially considered Buang but structurally unrelated) because the speakers shared an identity, "a common usage norm" (in this case they speak to each other in their own varieties of Buang instead of the lingua franca Tok Pisin), and they shared mutual intelligibility to a greater or lesser degree (33-34)
       % Weaknesses
         % Excludes people who are present but considered peripheral to the community in one way or another
-          % Labov (1966/2006) excluded non-native English speakers (45/98)
+          % Labov (1966/2006) excluded non-native English speakers (45/98) and two African-Americans who had lived in NYC since the ages of 10 (118)
           % G. Sankoff (2015) excluded recent immigrants to Montreal claiming that they "are not yet fully integrated into the community" (45)
     % Comparison to communities of practice
       % Schenkel et al. (2002 "Theorizing") aimed "to conceptualize the structural properties of communities of practice" by applying "network concepts and measures" used in social network analysis (1)
         % Schenkel (2001) had previous argued that that every CoP consists of one (or many) social network(s), but not every social network forms a CoP (as cited in Assimakopoulos & Yan 2006:3)
       % Communities of practice could be described as "nodes of 'strong ties' in an interpersonal network" (Wenger 1998, as cited in Schenkel et al. 2002 "Theorizing":6)
+        % The three factors that tie a community of practice together are mutual engagement, a joint enterprise, and a shared repertoire (i.e., way of doing) (Wenger 1998, as cited in Davies 2005:560)
+          % This effectively limits communities of practice to specific a specific type, whereas SNA is agnostic on what a tie can be based on
       % Clusters (of all types) in social networks have been characterized as communities of practice (Eckert & Labov 2017:476)
         % This may be an overly strong characterization that effectively erases the concept of SNA
       % Centrality
         % CoPs have 4 levels of individual membership: 1) full participation (insider), 2) peripheral participation (partial knowledge, static or inbound trajectory), 3) marginal participation (partial knowledge, static or outbound trajectory), and 4) full non-participation (outsider) (Wenger 1998, cited in Davies 2005:565 and Schenkel et al. 2002 "Theorizing":5)
+      % Diffusion of features is part of the communities of practice framework, as well, with brokering, defined as a mechanism through which new practices are imported into the community of practice by those whose membership is legitimate enough to be listened to and distant enough to maintain a different perspective (Wenger 1998, cited in Davies 2005:566)
+        % Eckert's (2000) view was that those with more peripheral participation acted as the bridges for the diffusion of features from one community of practice to another (38-39)
+        % This isn't as formalized or quantifiable as in SNA
     % What is social network analysis
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
       % It's a tool that helps quantify communities and individuals social positions in those communities
@@ -40,6 +45,9 @@
             % Sharma (2011) used what she calls a Network Diversity Index (Simpson diversity) to show that those with more diverse personal networks also have greater variation in styles (482-483)
     % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
     % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
+    % Weaknesses
+      % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
+        % This is more about how one conceptualizes of community
     \subsection{Social networks in the US}
       % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
       % Homophilous can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
