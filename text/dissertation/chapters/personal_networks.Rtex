@@ -31,12 +31,19 @@
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
       % It's a tool that helps quantify communities and individuals social positions in those communities
         % Community detection
-          % Algorithms have been developed for community detection (e.g., Blondel et al. 2008)
+          % Algorithms have been developed for community detection (e.g., Blondel et al. 2008; Newman & Girvan 2004)
+            % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
+              % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
+              % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
           % Network communities in socioling
             % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
             % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
             % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
         % Centrality
+          % Many such measures exist
+            % Some are for identifying important ties
+              % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
+            % Others are for identifying important nodes
           % Centrality in socioling
             % In Philadelphia, Labov (2001) found Celeste S. to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
         % Personal networks
