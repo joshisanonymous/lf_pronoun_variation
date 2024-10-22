@@ -7,10 +7,12 @@
         % A community "where speakers acknowledge the quantitative limits to style shift as set by the extent of interspeaker differences within the community," as well as sharing "the qualitative norms and direction of style shift" and "evaluative reactions to variables" (Bell 1984:154)
       % Examples and continuing importance
         % G. Sankoff (2015) described the speech community concept as "crucial to the sociolinguistic entreprise" (24)
+        % The whole of New York City was treated as a speech community, evidenced by the difference in speech of natives vs visitors, the consistency in how natives adapt their systems in different styles, and the uniformity of subjective evaluations when looking at natives vs natives+others (Labov 1966/2006:6)
         % Montreal was argued to be a speech community because even non-native speakers of French were united with the native speakers "through the systematic acquisition of variability in the dominant language" (G. Sankoff 2015:38)
         % G. Sankoff (2015) argued that Buang speakers in Papua New Guinea constituted a single speech community despite also claiming that Buang has two dialects and one distinct language (i.e., socially considered Buang but structurally unrelated) because the speakers shared an identity, "a common usage norm" (in this case they speak to each other in their own varieties of Buang instead of the lingua franca Tok Pisin), and they shared mutual intelligibility to a greater or lesser degree (33-34)
       % Weaknesses
-        % Excludes people who are present but peripheral to the community
+        % Excludes people who are present but considered peripheral to the community in one way or another
+          % Labov (1966/2006) excluded non-native English speakers (45/98)
           % G. Sankoff (2015) excluded recent immigrants to Montreal claiming that they "are not yet fully integrated into the community" (45)
     % Comparison to communities of practice
       % Schenkel et al. (2002 "Theorizing") aimed "to conceptualize the structural properties of communities of practice" by applying "network concepts and measures" used in social network analysis (1)
@@ -24,6 +26,7 @@
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
       % It's a tool that helps quantify communities and individuals social positions in those communities
         % Community detection
+          % Algorithms have been developed for community detection (e.g., Blondel et al. 2008)
           % Network communities in socioling
             % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
             % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
