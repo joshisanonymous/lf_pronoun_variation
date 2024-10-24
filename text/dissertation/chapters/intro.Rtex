@@ -23,11 +23,13 @@
   Another major point of interest is the French and Creole (F\&C) spoken in South Louisiana as heritage languages whereas they were the dominant languages perhaps as recently as the mid 20th century.
   F\&C in Louisiana are unique cultural resources that are generally valued by many among the populace and even exploited for commercial gain but but are on the decline regardless.
   Both languages have been documentating as showing variation along geographic and social dimensions, though recent work focusing on ethnic and racial variation in and around the Lafayette area is lacking.
-  The objective of this dissertation is thus to examine how ethnicity and race are or are not expressed through the French and Creole as spoken in Louisiana, specifically in terms of subject pronoun usage, social networks, and discourse.
+  Furthermore, studies in sociolinguistics that explicitly attempt to analyze both race and ethnicity and their intersections among speakers have also been lacking.
+  The objective of this dissertation is thus to examine the role that race and ethnicity play in the linguistic lives of Creoles and Cajuns in Louisiana, specifically in terms of subject pronoun usage, social networks, and discourse.
 
   \section{Race and ethnicity}
     \label{sec:race_ethnicity}
     % Are these different concepts to begin with, and are they different from each other?
+      % This is an important question here because disentangling the two and seeing how they work similarly or differently is large part of the objective in this study
       % Definitions of race
         % "'[A] concept which signifies and symbolizes social conflicts and interests by referring to different types of human bodies'" (Omi & Winant 1994, as cited in Fought 2013:388)
         % A social construct with biological underpinnings that is hierarchical and ethnicity as a social construct underpinned by "sociocultural factors that are neglected by the biological definitions of race" (Susberry 2004:6-7)
@@ -157,10 +159,18 @@
         % Second wave results
       % Where have they ended up at today?
         % No longer treating African-American Language as monolithic
+          % The data that already existed made it clear but was interpreted differently
+            % Jones (2015) pointed out, for example, that Labov (1972) found non-rhoticity among some speakers in NYC but Riney (1993) found full rhoticity (404)
           % Becker (2014) looked at several linguistic variables in the Lower East Side, comparing between how they've changed for African-Americans vs non-African-Americans:
             % Rhoticity indexes regional identity: some AAs have remained non-rhotic, and non-AAs have become rhotic (52)
             % The BOUGHT vowel indexes localness: AAs have remained raised where others have lowered (49-50)
             % Lisa has deleted copulas when the topic is New York rather than African-Americanness (48)
+          % Jones (2015) broadly mapped out AAL features across the US via non-standard spellings on Twitter
+            % He found patterns that follow the great migration (404)
+            % While contributing to a noteworthy correction of the monolith interpretation, it also shows that old problems can creep back up in new ways
+              % His discussion of the difficulties of identifying legitimate AAVE on Twitter center around whether the tweeter is Black or White (411), assuming that there aren't Whites who speak AAVE
+              % Jones (2015) identified tweets as being AAVE through hip-hop language and ethnography, which in this case meant speaking to AAVE speakers in New York, Philadelphia, and DC, and reading tweets to get "an intuitive feel" for it by identifying co-occurring features in the process (412)
+                % He does acknowledge that "hip hop is emphatically not the same as AAVE" but decides to use it as a "touchstone" anyway (412)
         % More attention to crossing racial and ethnic barriers
           % White people "can and do pass for native speakers of AAE" (C. Cutler 2002, as cited in C. Cutler 2007:529)
           % Sometimes there are still problems with how this is framed, though
@@ -327,23 +337,28 @@
           % Acadians themselves have been said to arrive in Canada from Poitou, Brittany, Normandy, Aunis, Saintonge, and Angoumois (Brasseaux 2005, as cited in Dajko 2012:281-282;  Massignon 1962, as cited in Rottet 1995:93; R. A. Brown 1988:16; Klingler 2003 "Turn":19; King 2000:1)
           % They initially settled in The Acadian/German Coast (along the Mississippi in St James Parish), Opelousas, and the Attakapas (Klingler 2003 "Turn":100; Neumann 1985:13; Fortier 1884:99; Brasseaux 1987, as cited in Dajko 2012:284)
             % There numbers have been estimated to be between 1,500 and 10,000 (Ficatier 1957, as cited in Neumann 1985:9; Brasseaux 1992; Leblanc 1979; Taylor 1984; the latter three as cited in Rottet 1995:96; Klingler 2009, as cited in Dajko 2012:283)
-        % There are reasons to believe that the Acadian origin myth is not the full story, such as a lack of numbers 
-          % During the first half of the 19th century along Bayou Lafourche, French-speaking immigrants outnumbered Acadians by 3 to 2 (Brasseaux 1992, as cited in Dajko 2012:285)
+        % There are reasons to believe that the Acadian origin myth is everpresent when speaking to Louisianians about Cajun identity, but membership isn't as simple as ancestry in practice
       % Cajun membership
         % Non-racial criteria
           % Dajko (2012) suggests one can establish membership through 1) foodways, 2) music, 3) language (French), 4) "and until recently, the Catholic faith", which she also applies as valid criteria for Creole membership (280)
       % Giancarlo (2019) argues that characterizing all White South Louisianians as Cajun "minimizes a diversity of white ethnicities" (33)
         % She seems to mean that White South Louisianians might otherwise maintain different ethnic identities rather than that the racial identities aligned with Cajun identity
+        % We might call this a case of erasure (Irvine & Gal 2000:38)
         % Cajuns weren't necessarily good at forming sociopolitical alliances with other groups
           % In the 19th century, Cajuns were Catholic like many New Orleanians but didn't form sociopolitical alliances with them due to a "urban-rural antipathy," and they were rural like northern Louisianians but didn't form alliances because Northerners were "rabid anti-Catholic Protestants" (J. Johnson 1976:27)
         % Other ethnic groups (Scots-Irish, Italians, Germans, some Native Americans) have been incorporated in the Cajun ethnicity, so ancestry and last names have been argued to not be necessary conditions for Cajun identity (Brasseaux 1992; Stanford 2016, both as cited in Giancarlo 2019:33)
           % B. Brown (1988) had previously noted that "someone who calls himself a Cajun today is no longer necessarily of Acadian ancestry" (18-20)
+            % In Avoyelles and Pierre Part, the former is made up of people of mostly European ancestry and the latter Acadian despite the fact that they all "generally associate themselves with Cajun identity" (B. Brown 1988:22)
           % A similar change has been occurring with Acadian identity in the Maritime Provinces where membership was once based on ancestry but now more broadly includes any francophone living in these provinces (Arrighi 2014:110)
           % All this isn't to say that ancestry is not important in how Cajuns IMAGINE membership works until they are reminded that those with non-Acadian names also identify as Cajun
   \section{Status of French and Creole in Louisiana today}
     % The importation of French into Louisiana is mostly simple as Louisiana was a French colony, but what happened after isn't as simple
       % Although Acadian French is at least implicitly considered the main origin of French in rural Louisiana, there are many sources for French (Klingler 2009)
-        % Indeed, there was sustained contact with France and immigration from France all the way up to the Civil War (Brasseaux 2005; Picone 1997, both as cited in Dajko 2012:280)
+        % They didn't make up a particularly large proportion of the Louisiana populace
+          % During the first half of the 19th century along Bayou Lafourche, French-speaking immigrants outnumbered Acadians by 3 to 2 (Brasseaux 1992, as cited in Dajko 2012:285)
+          % Only 5% of the population in the 1980s was estimated to have Acadian ancestry (or the population had only 5% Acadian ancestry?) (Esman 1985, as cited in B. Brown 1988:21-22)
+            % Interestingly enough, B. Brown (1988) in the same passage argues that Acadian solidarity helped led their culture to be dominant even though they made up a minority of the population (21-22)
+        % There was sustained contact with France and immigration from France all the way up to the Civil War (Brasseaux 2005; Picone 1997, both as cited in Dajko 2012:280)
         % J. Johnson (1976) describes all francophones in Louisiana as descending from four groups: 1) L'ancienne population (those from France who settled in New Orleans and along the Mississippi starting in 1718), 2) les français étrangers (those from France that came later), 3) Cajuns (those from Nova Scotia starting in 1755), and 4) those from Santo Domingo starting in 1791 (19)
           % He doesn't actually give sources for these
           % The original French settlers came from 6 provinces: 1) Île-de-France, 2) Brittany (Bretagne), 3) Champagne, 4) Poitou, 5) Aunis, and 6) Burgundy (Bourgogne) (Brasseaux 1987, as cited in Dajko 2012:281)
@@ -371,29 +386,32 @@
             % The last holdouts were unemployed wives up until WWI (J. Johnson 1976:22)
             % Elsewhere the decline has not been nearly as rapid
           % J. Johnson (1976) describes Cajuns in particular as being rather isolated in the late 19th and early 20th centuries in comparison with other francophone populations, resulting in their greater continued use of French (28)
+            % Conrad (1978) outlined four driving forces behind the Americanization of Cajuns: 1) compulsory education, 2) mass communication, 3) World War II, and 4) the oil boom (as cited in B. Brown 1988:28)
+              % With this Americanization came less isolation and greater use of English
             % Highway connections
               % Even by J. Johnson's time, it was estimated that 60% of Cajuns lived in rural areas (Bobo & Charlton 1974, as cited in J. Johnson 1976:27)
               % Gold (1976) suggests that, for Mamou, isolation from Lake Charles and Lafayette only diminished after highways were built (268)
               % Those living in swamp areas didn't have highways until the 1950s, some in Bayou Lafourche were still going to school by boat in the 1970s, and I-10 was not completed until 1975 (B. Brown 1988:26-27, possibly citing Padgett 1969 for the first two points)
-            % 30% lived in poverty still compared to 10.7% nationally, and the median number of years of schooling completed by those over 25 years old was 8.6 compared to 9.2 for Louisiana in general and 12.2 nationally (either the 1970 census or Bobo & Charlton 1974, as cited in J. Johnson 1976:27-28)
             % Likewise, Pointe Coupee Creole was in part maintained due to 19th century residents being insular to the point of marrying cousins as a norm (Klingler 2003 "Turn":109)
             % Likewise again, during segregation, Indians weren't allowed in White schools but also refused to go to Black schools (Rottet 1995:61-62)
               % This highlights the isolation of French-speaking communities, how that isolation can help maintain the language as Indians were maintaining it better than others in their area, and how a racial binary was impacting that those didn't fit neatly into either category
           % In Terrebonne-Lafourche, the decline in French has been said to have started in the 1940s (Western 1971, as cited in Rottet 1995:105)
             % It has been argued that the decline in French in Lafourche Parish in the 1940s came from most people working in the oil industry as it developed there were from North Louisiana or Texas and so the locals saw these non-Cajuns as gaining wealth and attributed their own poverty to their ethnicity (Larouche 1981, as cited in Rottet 1995:105)
           % Rottet (1995) explained that census numbers are sometimes misleading as glossonyms may be more or less specific than what residences expect, leading to misunderstanding (B. Brown 1993, as cited in Rottet 1995:98), and the questions have changed at different times such as the 1970 census asking about the childhood home language whereas the 1990 census asked what language is currently spoken at home (Rottet 1995:112-113)
-          % On the 1970 census, 572,262 Louisianians reported French as their mothertongue (as cited in J. Johnson 1976:19/36 and in Neumann 1985:16)
-            % CODOFIL itself estimated much higher around this time: 1.5 million (J. Johnson 1976:36)
-          % Among all children in Evangeline Parish and Pointe Coupee Parish in 1960, it was estimated that, as children, 38% spoke French, 53% spoke English, and 9% spoke both (Bertrand & Beale 1965, as cited in J. Johnson 1976:32)
-            % Among Black children in Evangeline Parish and Pointe Coupee Parish in 1960, it was estimated that 31% had a French background and 69% an English (Bertrand & Beale 1965, as cited in J. Johnson 1976:33)
-            % 68% of those in Evangeline and Pointe Coupee who spoke French during their childhood still spoke it frequently as adults in 1960 (Bertrand & Beale 1965, as cited in Rottet 1995:113-114)
+            % On the 1970 census, 572,262 Louisianians reported French as their mothertongue (as cited in J. Johnson 1976:19/36 and in Neumann 1985:16)
+              % CODOFIL itself estimated much higher around this time: 1.5 million (J. Johnson 1976:36)
+          % When looking at children, there's a repeated pattern of decline
+            % Among all children in Evangeline Parish and Pointe Coupee Parish in 1960, it was estimated that, as children, 38% spoke French, 53% spoke English, and 9% spoke both (Bertrand & Beale 1965, as cited in J. Johnson 1976:32)
+              % Among Black children in Evangeline Parish and Pointe Coupee Parish in 1960, it was estimated that 31% had a French background and 69% an English (Bertrand & Beale 1965, as cited in J. Johnson 1976:33)
+              % 68% of those in Evangeline and Pointe Coupee who spoke French during their childhood still spoke it frequently as adults in 1960 (Bertrand & Beale 1965, as cited in Rottet 1995:113-114)
+            % The 1980 census estimated the percentage of those who speak French at home in Avoyelles and Assumption Parishes was 45% and 30%, respectively, when looking at those 18 or older, but 13% and 7% for those between 5 and 17 (as cited in B. Brown 1988:79)
+            % Trépanier (1988) reported 41% of respondents saying that they spoke French best whereas those respondents reported that 92% of their grandparents, 84% of their parents, and 3% of their children spoke French best (as cited in Rottet 1995:114)
+            % CODOFIL carried out another survey later that estimated that 40.6% based on the 8 parishes surveyed, 42.5% of those people being over 45 and 24% being under 19 (Henry 1990, as cited in Rottet 1995:115-116)
           % By the 1980s, French was in decline towards English in all regions except 1) Southwest Louisiana, 2) Pigeon and Pierre Part, and 3) Lower Lafourche and Terrebonne where bilingualism was the norm (Trépanier 1988, as cited in Rottet 1995:114)
             % Smith-Thibodeaux (1977) estimated 300,000 to 500,000 (as cited in Rottet 1995:113)
             % Neumann (1985) estimated 500,000 to 1 million, additionally estimating 60,000 to 80,000 Creole speakers (as cited in Rottet 1995:113)
-          % Trépanier (1988) reported 41% of respondents saying that they spoke French best whereas those respondents reported that 92% of their grandparents, 84% of their parents, and 3% of their children spoke French best (as cited in Rottet 1995:114)
-          % French was the mothertongue of 35% of the population of Houma, 39% of Thibodeaux, and 60% of rural Terrebonne-Lafourche (1988, as cited in Rottet 1995:114)
-          % CODOFIL carried out another survey later that estimated that 40.6% based on the 8 parishes surveyed, 42.5% of those people being over 45 and 24% being under 19 (Henry 1990, as cited in Rottet 1995:115-116)
-          % Rottet (1995) didn't find any monolingual French speakers in Terrebonne-Lafourche (162)
+            % French was the mothertongue of 35% of the population of Houma, 39% of Thibodeaux, and 60% of rural Terrebonne-Lafourche (1988, as cited in Rottet 1995:114)
+            % Rottet (1995) didn't find any monolingual French speakers in Terrebonne-Lafourche (162)
         % Cultural indicators
           % Politics
             % As I mentioned elsewhere, Edwin Edwards, in 1971, became the first French-speaking governor elected since the Civil War (J. Johnson 1976:29)
@@ -423,11 +441,12 @@
             % In 1981, 27% of Baptist churches in Acadiana "used French at least occasionally" (Trépanier 1988, as cited in Rottet 1995:104)
         % 20th century projections
           % J. Johnson (1976) predicted, using crude methods, that native French-speaking families in Louisiana would cease to exist by 2010 (34-35)
-          % B. Brown (1988) considered conclusions about the inevitable death of French in Louisiana as "premature" in light of the Cajun revival (48-49)
+          % B. Brown (1988) considered conclusions about the inevitable death of French in Louisiana as "premature" in light of the Cajun renaissance (48-49) which will be discussed more in the meaning chapter
           % Rottet (1995) believed that the communities in Terrebonne-Lafourche are going through a language shift (6) and wagered that the prospects for French were "much better than for Louisiana French Creole" but "not particularly good" (112)
             % Indeed, Rottet (1995) shows that there is a shift from using almost always French in all social contexts to mostly English (137-138)
             % This is constrained by ethnicity where Cajuns have increased their use of French in some contexts but decreased in others whereas Indians have decreased in all contexts (Rottet 1995:139)
               % This feels likely due to where the starting point is since French was more prevalent for Indians in Terrebonne-Lafourche and even being passed on to children still (Rottet 1995:71)
+            % B. Brown (1988) specifically looked for and found participants who preferred French in all domains in Avoyelles and Assumption (70)
             % The shrinking domains of use that Rottet (1995) reported were just prior to his study reported by CODOFIL where they estimated that almost all French interactions are with friends and family as opposed to the workplace (and by extension public uses in general) (Henry 1990, as cited in Rottet 1995:115-116)
             % A shrinking number of contexts is what one expects for endangered languages
               % In Wisconsin West Frisian, a heritage language, the language is limited to "social gatherings among the remaining speakers" (Ehresmann & Bousquette 2015:237)
@@ -440,6 +459,7 @@
           % As for Creole, which may or may not be included in counts, which sometimes is and sometimes isn't made clear
             % Klingler (2005) estimated that there were less than 30,000 Creole speakers (351), but it's not clear what that number is based on
     \subsection{Defining a language as a Creole}
+      % Indeed, Creole often appears as an afterthought when discussing the status of "French" in Louisiana, so it is appropriate to spend some time here specifically outlining its place
       % There have been attempts to define creoles as distinctive due to shared structural features
         % McWhorter (2011) offered 4 linguistic features that would also indicate that creoles develop from pidgins, but at least Aboh & deGraff (2017) reject this (14)
           % Aboh & deGraff (2017), based on many examples, instead argue that the linguistic structure these languages take on is always based on the languages that are in contact (16)
@@ -477,7 +497,10 @@
       % French and Creole varieties that exist
         % "Cajun French" (though he prefers "Louisiana Regional French" as it is not spoken purely by Cajuns), "Louisiana Creole", and "Colonial French" (which he and Picone (1998) prefer to call Plantation Society French since it developed in the 19th century) (Klingler 2003 "Language":77)
         % Colonial French/Plantation Society French, Louisiana Creole, and Cajun French/Louisiana Regional French (Dajko 2012:280-281)
+          % Colonial French is likely no longer extant, though Smith-Thibault (1977) had estimated there to be 3,000 to 4,000 speakers still in the mid 20th century (as cited in B. Brown 1988:37-38)
         % Louisiana Regional French (Dajko & Carmichael 2014)
+        % B. Brown (1988) used "Louisiana French" as an umbrella term for Colonial French (spoken by descendants of European Creoles), Cajun French (spoken by Acadians and those absorbed into their culture), and 3) Creole French (spoken by descendants of slaves and those absorbed into their culture) (34-35)
+          % The fact that she included Creole typifies the close connection between the two ways of speaking, though the fact that Louisiana French is the umbrella term also risks erasure of Creole
       % Speakers' approaches to naming their languages as one or the other
         % It's not unusual to place languages under a label based on cultural traits of the speakers rather than the structure of their ways of speaking
           % Linguists once described Cangin as a variety of Serer because Wolofs in the area saw the cultural practices of both Cangin and Sereer speakers as being the same (Irvine & Gal 2000:57)

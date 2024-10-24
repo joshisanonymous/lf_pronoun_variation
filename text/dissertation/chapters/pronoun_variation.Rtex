@@ -19,8 +19,10 @@
           % Phonetically, the consonant in je has been documented as /ʒ/, /ʃ/, /z/, /s/, and /h/ (Carmichael & Gudmestad 2019:72)
             % Semi-speakers in Terrebonne-Lafourche used a much wider variety of phonetic variants of je than young and old fluent speakers (Carmichael & Gudmestad 2019:79)
             % The /h/ variant of je is also produced in Saintongeais and Poitevin before vowels, which could be the origin of this form (Rottet 1995:176)
+            % Je metathesized before consonants in Avoyelles and Assumption (B. Brown 1988:141)
           % Mo and mwen (both mostly) and also mon in Pointe Coupee (Klingler 2003 "Turn":206/213)
           % Moi without an accompanying je is attested in Vermilion Parish in the mid 20th century (Brandon 1955, as cited in Rottet 1995:181)
+          % On can occur for 1sg (Conwell & Juilland 1963, as cited in B. Brown 1988:134), though I'm not sure Brown interpreted this right as that seems unlikely
           % In Terrebonne-Lafourche, je, moi je, moi, and NULL are attested (Rottet 1995:178)
           % In the early 20th century, moi je was more common that je by itself in Evangeline Parish, presumably because Creole was in close contact with "Cajun" at that time (Phillips 1936, as cited in Rottet 1995:181)
         % Structural variation
@@ -62,6 +64,9 @@
         % Null subjects are attested Îles-de-la-Madeleine, Quebec for 3sg (LeBlanc 1996, as cited in Carmichael & Gudmestad 2019:83)
         % Possible variants
           % li in Pointe Coupee (Klingler 2003 "Turn":206)
+          % B. Brown (1988) performed statistical analyses comparing the realization of ça vs il+elle+ils (167)
+            % This conflates number, gender, and demonstrative markings
+            % Ça is not found in my data for singular animate referents but is found as a demonstrative and 3pl animate pronoun, so Brown's results will be discussed under 3pl where they are likely most relevant
           % Gender
             % li in Pointe Coupee is genderless (Klingler 2003 "Turn":170)
             % In Houma, Indians often used il without concern for gender whereas Cajuns also had elle (Dajko 2009, as cited in Dajko 2012:292; Rottet 1995:128)
@@ -69,6 +74,17 @@
           % Phonological
             % li in Pointe Coupee sometimes becomes simply [i] before a consonant (Klingler 2003 "Turn":210-211)
             % For il > [i], this is broadly the case for French, such as in Montreal in 1971 where it also applies to impersonal il, feminine elle, and plural ils and elles (G. Sankoff 2015:27)
+      % Impersonal
+        % In Terrebonne-Lafourche, "on" is never used as an impersonal pronoun (Rottet 1995:173)
+        % B. Brown (1988) discussed the c' in "c'est" as a variant of ça (130/138-143)
+          % She follows Thibault (1986) in this interpretation for French in Montreal (141-142)
+        % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
+          % I agree that it can be impersonal, but in the vast majority of cases, it is difficult to rule out either a demonstrative interpretation or a presentative use (which is somewhat demonstrative, as well)
+          % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
+      % Demonstrative
+        % B. Brown (1988) claimed that cela and ce did not exist in her Assumption and Avoyelles corpus (124)
+      % Expletive
+        % Ça was generally used in Pierre Part and Hessmer (B. Brown 1988:125)
       % 1pl
         % Possible variants
           % Not a single token of nous was attested in Terrebonne-Lafourche (Rottet 1995:173)
@@ -94,28 +110,37 @@
             % eux has several phonetic variants attested: [ø], [øs], [øz], and [zø] (Rottet 1995:201)
             % eux-autres has several variants attested: [øzot], [zøt], [zot], and [hɔt] (Rottet 1995:201)
           % Cajuns in the 1970s were already using ça for 3pl (J. Johnson 1976:31)
-          % B. Brown (1988) interpreted some tokens of c'est as 3pl animate, but I find these to be highly questionable
-            % Les enfants, c'est mignon quand ça dort. (125) This is just the expletive 'it is cute'
-            % Laurence aime le foyer et c'est toujours assis autour du foyer. (129) This is ambiguously "s'est toujours assis"
-              % She notes that the source, Conwell & Juilland (1963), wrote "assise" to make it agree (129)
+          % B. Brown (1988) reported ils and ça for 3pl but not elles (152-153)
+            % B. Brown (1988) interpreted some tokens of c'est as 3pl animate, but I find these to be highly questionable
+              % Les enfants, c'est mignon quand ça dort. (125) This is just the expletive 'it is cute'
+              % Laurence aime le foyer et c'est toujours assis autour du foyer. (129) This is ambiguously "s'est toujours assis"
+                % She notes that the source, Conwell & Juilland (1963), wrote "assise" to make it agree (129)
           % In Terrebonne-Lafourche, ils, ça, eux, and eux-autres are attested (Rottet 1995:207)
           % ye in Pointe Coupee and rarely ça (Klingler 2003 "Turn":206)
         % Structural variation
+          % "Syntagmatic" constraints, meaning whether the co-referent was cataphoric, anaphoric, or exophoric, did not predict pronoun use in Avoyelles and Assumption (B. Brown 1988:179)
+          % Following verb type
+            % Ça (vs ils+il+elle) was preferred before intransitive verbs, slightly dispreferred before transitive verbs, and dispreferred before modal verbs (B. Brown 1988:173-174)
+              % This result is useful but difficult to interpret not only because of the conflation of ils+il+elle but also because the c' in c'est is sometimes interpreted as 3pl and is very frequent
+                % être is treated as intransitive, too, so c'est has an outsized impact on that part of the result
           % Reference
             % Gender
               % In Montreal, when referring to a group of exclusively women, ils is used in casual speech whereas elles is reserved for careful speech in formal contexts (G. Sankoff 2015:42)
-            % Younger speakers who used only ça and eux in Terrebonne-Lafourche used the former for inanaminate referents and the latter for animate (Rottet 1995:219)
-              % Though the use of ça increased for all age groups from for inanimate objects from 15% to 50% (Rottet 1995:209-210)
-                % Recheck what he means by this since he didn't do a study of change in real time
-      % Impersonal
-        % In Terrebonne-Lafourche, "on" is never used as an impersonal pronoun (Rottet 1995:173)
-        % B. Brown (1988) discussed the c' in "c'est" as a variant of ça (130/138-143)
-          % She follows Thibault (1986) in this interpretation for French in Montreal (141-142)
-        % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
-          % I agree that it can be impersonal, but in the vast majority of cases, it is difficult to rule out either a demonstrative interpretation or a presentative use (which is somewhat demonstrative, as well)
-          % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
-      % Demonstrative
-        % B. Brown (1988) claimed that cela and ce did not exist in her Assumption and Avoyelles corpus (124)
+            % Animacy
+              % Younger speakers who used only ça and eux in Terrebonne-Lafourche used the former for inanaminate referents and the latter for animate (Rottet 1995:219)
+                % Though the use of ça increased for all age groups from for inanimate objects from 15% to 50% (Rottet 1995:209-210)
+                  % Recheck what he means by this since he didn't do a study of change in real time
+              % Not only animacy but rather type of referent in Avoyelles and Assumption
+                % Ça (vs ils+il+elle) was greatly preferred when referring to propositions, preferred when referring to something concrete in general, neutral when referring to something abstract, and dispreferred when referring to something animate (B. Brown 1988:168)
+        % Social variation
+          % Age
+            % Ça (vs ils+il+elle) was slighty dispreferred for those over 50 and slighty preferred by those under 50 in Avoyelles and Assumption (B. Brown 1988:178)
+          % Region
+            % Ça (vs ils+il+elle) was slighty dispreferred in Assumption Parish and slighty preferred in Avoyelles (B. Brown 1988:176)
+              % B. Brown (1988) suggested that Avoyelles was in heavier contact with English, which she believed to not have clitic pronouns, and so reasoned that the preference for ça (a non-clitic to her) was due to greater English influence (177-178)
+                % She makes a decent case that Avoyelles is less isolated, but it's a leap from there to her other conclusions
+                % Is ça not a clitic? I would say it is for Louisianians, especially when it's realized as c'
+                % While we know that English has influenced French in the area, this is perhaps the only study where it has been suggested to have influenced subject pronouns which are usually discussed as having internal influences related to language acquisition
       % Variation in pronoun systems along racial or ethnic lines considered holistically
         % In Pointe Coupee Creole, Whites use pronouns that are closer to French and that agree in gender and/or number (e.g. avèk èl vs avèk li (f.)) (Klingler 2003 "Turn":117)
       % In Terrebonne-Lafourche, Rottet (1995) suggested that imperfect speakers leaned towards disjunctive pronouns in place of clitic pronouns for two reasons: 1) disjunctive pronouns are more sallient and so easier to pick up with limited input, and 2) English doesn't have clitic pronouns so disjunctive pronouns in French are simpler to acquire when growing up bilingual (180)
