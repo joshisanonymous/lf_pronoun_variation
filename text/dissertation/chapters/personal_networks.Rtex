@@ -32,27 +32,37 @@
     % What is social network analysis
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
       % It's a tool that helps quantify communities and individuals social positions in those communities
+        % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
+          % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
         % Nodes and ties
-        % Community detection
-          % Algorithms have been developed for community detection (e.g., Blondel et al. 2008; Newman & Girvan 2004)
-            % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
-              % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
-              % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
-          % Network communities in socioling
-            % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
-            % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
-            % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
-        % Centrality
-          % Many such measures exist
-            % Some are for identifying important ties
-              % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
-            % Others are for identifying important nodes
-          % Centrality in socioling
-            % In Philadelphia, Labov (2001) found Celeste S. to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
-        % Personal networks
+        % Two points of view can be taken in analyses: 1) ego network analysis (examines a personal network) or 2) total network analysis (examines a whole network) (Degenne & Forsé 1999; Wetherell 1998, as cited in Sharma 2017:395?)
+        % Total network analysis
+          % Community detection
+            % Algorithms have been developed for community detection (e.g., Blondel et al. 2008; Newman & Girvan 2004)
+              % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
+                % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
+                % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
+            % Network communities in socioling
+              % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
+              % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
+              % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
+          % Centrality
+            % Many such measures exist
+              % Some are for identifying important ties
+                % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
+              % Others are for identifying important nodes
+            % Centrality in socioling
+              % In Philadelphia, Labov (2001) found Celeste S. to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
+        % Ego network analysis/personal networks
+          % Definition
+            % Ego is the center of a personal network
+            % An alter is a node in an ego network that is not ego (Sharma 2017:395)
+            % Personal network can take several forms: 1) an ego star network (ego and their ties but no ties for any alters), 2) an ego zone network (ego, their ties, and alter-alter ties, meaning any ties connecting ego's alters to each other), or 3) a 2nd order zone network or whole networks (adds the alters of alters even if not connected to ego) (Sharma 2017:395)
+              % (3) depends on how one conducts their analyses as there is little structural difference between it and looking at whole networks (e.g., are we looking at this as ego's extended network whose qualities reflect on ego or are we looking at this as a community that ego has some centrality in)
           % Personal networks in socioling
             % Bell (1984) suggested SNA could be used to formalize the relationship dimension of one's addressee in audience design (200)
             % Sharma (2011) used what she calls a Network Diversity Index (Simpson diversity) to show that those with more diverse personal networks also have greater variation in styles (482-483)
+            % Sharma (2017) later collected three types of information for personal networks: 1) ethnicity (South Asianness), 2) nationality (Indianness, i.e. born and raised in India), and the structural piece of information 3) network diversity (groupings of alters meant to represent how many social worlds they interact with) (399-401)
     % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
     % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
     % Weaknesses
@@ -97,10 +107,14 @@
       % Network diversity and accent repertoire range were associated for British Asian English in London (Sharm 2017, as cited in Sharma & Dodsworth 2020:355)
       % Newcomers to two online beer communities generally adopt the linguistic features (they built LMs to draw comparisons) that are extant upon arrival but reject features that are brought in later on (Danescu-Niculescu-Mizil et al. 2013, as cited in I. Stewart et al. 2017:2)
       % Central users of the IRC EFNet channel #india mostly chose to send messages in Hindi (Paolillo 1999:8)
+      % British South Asians in London used more Punjabi as the Indianness of their personal networks increased (Sharma 2017:406)
+        % If we conceptualize style shifting as code-switching, accent repertoire ranges also increasd as the diversity of networks increased (i.e., speakers who were members of more communities had more variety in their styles) (406)
     \subsection{Linguistic variation constrained by network characteristics}
       % Rural migrants to the urban area of Brazlândia, Brazil decreased their usage of rural variants in Portuguese as their integration into the urban community increased (specifically /l/ vocalization and subject-verb agreement patterns) (Bortoni-Ricardo 1985, as cited in Sharma & Dodsworth 2020:348)
       % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
       % Benor & Cohen (forthcoming) and Benor (forthcoming) found that Jewish Americans who are more orthodox, go to synagogue more, and have more Jewish friends use Hebrew and Yiddish loanwords and constructions more than other Jewish Americans (as cited in Benor 2010:163-164)
+      % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
+        % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
     \subsection{Diffusion of linguistic features within and between networks}
       % Interaction has been acknowledged as important in language change since at least Bloomfield (1933, as cited in Sharma & Dodsworth 2020:342)
         % In CMC
@@ -122,7 +136,6 @@
     \subsection{Data collection}
       % Name generator questions
         % This is basically how to ask someone who the people they interact with are, which there are many ways to do
-          % 
         % The most common name generator is that used for the GSS: "From time to time, most people discuss important matters with other people. Looking back over the last six months - who are the people with whom you discussed matters important to you? Just tell me their first names or initials" (Stark 2018:244)
           % This was translated into French by myself and occasionally needed to be explicated further for participants who were confused about what I was asking
         % The length of an interview can increase the likelihood of false reporting or minimal reporting of alters (Eagle & Bell 2015; Paik & Sanchagrin 2013, both as cited in Stark 2018:246)
@@ -130,6 +143,10 @@
             % Rachel had to return to work, and Alice was perhaps too fatigued to continue in French but was still talkative in English
         % Two questions is more effective than one (Marin & Hamilton 2007, as cited in Stark 2018:244)
         % Recall bias can be reduced by bringing certain contexts to the attention of the respondent (Marin 2004, as cited in Stark 2018:245)
+        % Examples in sociolinguistics
+          % To collect alters, Sharma's (2017) participants were "asked to describe the main groups of people they interacted with on a regular basis, providing further details of each alter, including ethnicity, background, accent, frequency of interaction, domains of interaction, shared ties, and a relative closeness ranking" (400)
+            % For analyses, Sharma (2017) excluded naming family members because they are not voluntarily chosen and yet would have made up a large proportion of their networks (400)
+              % The motivation for emphasizing voluntary choices in her study isn't clear, but it would not be an issue here
       % Names asked for: Any number
         % While asking for a specific number of alters can increase comparability between personal networks, it can also lead to overlooking important ties or including unimportant ties (Sharma & Dodsworth 2020:345)
       % Proxy reports consist of "answers to survey questions about the respondent that are provided by someone other than the target respondent" (Cobb 2018 "Answering":87)
