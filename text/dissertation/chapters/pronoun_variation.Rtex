@@ -17,6 +17,8 @@
       % 1sg
         % Possible variants
           % Phonetically, the consonant in je has been documented as /ʒ/, /ʃ/, /z/, /s/, and /h/ (Carmichael & Gudmestad 2019:72)
+            % Part of this is perhaps phonologically conditioned
+              % [h] in general is in variation with [ʒ] and [ʃ] and sometimes even [z] in Terrebonne-Lafourche (Papen & Rottet 1997:76-77)
             % Semi-speakers in Terrebonne-Lafourche used a much wider variety of phonetic variants of je than young and old fluent speakers (Carmichael & Gudmestad 2019:79)
             % The /h/ variant of je is also produced in Saintongeais and Poitevin before vowels, which could be the origin of this form (Rottet 1995:176)
             % Je metathesized before consonants in Avoyelles and Assumption (B. Brown 1988:141)
@@ -60,6 +62,7 @@
           % In Terrebonne-Lafourche, elderly participants variably claimed to have tutoi'd there parents or vouvoi'd them (Rottet 1995:186)
           % One of Rottet's (1995) participants explained that they usually use toi but that their mother tells them to use vous with "older people or somebody important" (165)
           % Rottet's (1995) own T-V (mis)use was pointed out by some of his participants, one elderly woman who told him vous was the appropriate term when he slipped into tu, and some others who asked him to use tu instead of vous because vous made them feel old (198)
+          % Vous is generally used with "much older interlocutor[s]" or when showing "special respect to a stranger, particularly when the stranger is female" in Terrebonne-Lafourche (Papen & Rottet 1997:82/84)
       % 3sg
         % Null subjects are attested Îles-de-la-Madeleine, Quebec for 3sg (LeBlanc 1996, as cited in Carmichael & Gudmestad 2019:83)
         % Possible variants
@@ -74,20 +77,24 @@
           % Phonological
             % li in Pointe Coupee sometimes becomes simply [i] before a consonant (Klingler 2003 "Turn":210-211)
             % For il > [i], this is broadly the case for French, such as in Montreal in 1971 where it also applies to impersonal il, feminine elle, and plural ils and elles (G. Sankoff 2015:27)
+            % Liaisons are not always produced for speakers who reduce pronouns such as these
+              % This is the case for some speakers in Terrebonne-Lafourche as far back as Guilbeau (1950) who had the example on ôte as [ɔ̃ ot] (as cited in Papen & Rottet 1997:78)
+              % Later in Terrebonne-Lafourche, elle is always realized with [l] before a vowel but il may or may not be or may be [in] (Papen & Rottet 1997:84)
       % Impersonal
-        % In Terrebonne-Lafourche, "on" is never used as an impersonal pronoun (Rottet 1995:173)
+        % In Terrebonne-Lafourche, Guilbeau (1950) attested "on" rarely, tu and vous more often, and 3pl most often (as cited in Papen & Rottet 1997:88)
+          % In Terrebonne-Lafourche, "on" is never used as an impersonal pronoun (Rottet 1995:173)
+      % Demonstrative
+        % B. Brown (1988) claimed that cela and ce did not exist in her Assumption and Avoyelles corpus (124)
+      % Expletive
+        % Ça was generally used in Pierre Part and Hessmer (B. Brown 1988:125)
         % B. Brown (1988) discussed the c' in "c'est" as a variant of ça (130/138-143)
           % She follows Thibault (1986) in this interpretation for French in Montreal (141-142)
         % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
           % I agree that it can be impersonal, but in the vast majority of cases, it is difficult to rule out either a demonstrative interpretation or a presentative use (which is somewhat demonstrative, as well)
           % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
-      % Demonstrative
-        % B. Brown (1988) claimed that cela and ce did not exist in her Assumption and Avoyelles corpus (124)
-      % Expletive
-        % Ça was generally used in Pierre Part and Hessmer (B. Brown 1988:125)
       % 1pl
         % Possible variants
-          % Not a single token of nous was attested in Terrebonne-Lafourche (Rottet 1995:173)
+          % Not a single token of nous was attested in Terrebonne-Lafourche (Rottet 1995:173; Papen & Rottet 1997:82)
           % nou(zòt) (mostly) but also rarely no in Ponte Coupee (Klingler 2003 "Turn":206/213)
       % 2pl
         % The use of vous for plural referents was perhaps on its way out already in the early 20th century, being only attested as singular in one study (Chaudoir 1937), but other studies did in fact have attestations of it (Conwell & Juilland 1963; Oukada 1977, all as cited in Rottet 1995:187)
@@ -117,6 +124,8 @@
                 % She notes that the source, Conwell & Juilland (1963), wrote "assise" to make it agree (129)
           % In Terrebonne-Lafourche, ils, ça, eux, and eux-autres are attested (Rottet 1995:207)
           % ye in Pointe Coupee and rarely ça (Klingler 2003 "Turn":206)
+        % When a liaison is produced with ils, it can be either [l] or [z] in Terrebonne-Lafourche (Papen & Rottet 1997:84)
+        % Gender is not expressed in 3pl in Terrebonne-Lafourche where elles isn't attested and ils, eux, eux-autres, and ça aren't marked for gender (Papen & Rottet 1997:84)
         % Structural variation
           % "Syntagmatic" constraints, meaning whether the co-referent was cataphoric, anaphoric, or exophoric, did not predict pronoun use in Avoyelles and Assumption (B. Brown 1988:179)
           % Following verb type
@@ -141,13 +150,55 @@
                 % She makes a decent case that Avoyelles is less isolated, but it's a leap from there to her other conclusions
                 % Is ça not a clitic? I would say it is for Louisianians, especially when it's realized as c'
                 % While we know that English has influenced French in the area, this is perhaps the only study where it has been suggested to have influenced subject pronouns which are usually discussed as having internal influences related to language acquisition
+      % Potential of some pronouns being disjunctive with a null clitic rather than simply being the subject pronouns themselves
+        % Nous-autres, vous-autres, eux-autres, and eux all occur in other French varieties as disjunctive pronouns
+        % Vous-autres usually takes a bare verb but has been attested with 3pl forms like vont in Terrebonne-Lafourche (Papen & Rottet 1997:97)
+          % Notably, -ez is not used
+        % Eux-autres and eux take bare verbs except when the verb is être which "frequently" yields sont (Papen & Rottet 1997:97)
       % Variation in pronoun systems along racial or ethnic lines considered holistically
         % In Pointe Coupee Creole, Whites use pronouns that are closer to French and that agree in gender and/or number (e.g. avèk èl vs avèk li (f.)) (Klingler 2003 "Turn":117)
       % In Terrebonne-Lafourche, Rottet (1995) suggested that imperfect speakers leaned towards disjunctive pronouns in place of clitic pronouns for two reasons: 1) disjunctive pronouns are more sallient and so easier to pick up with limited input, and 2) English doesn't have clitic pronouns so disjunctive pronouns in French are simpler to acquire when growing up bilingual (180)
   \section{Methods}
     \subsection{Pronoun coding}
-      % Verb type
+      % "Predicate" type
         % This essentially is about defining the envelope of variation (Meyerhoff 2011, as cited in Kerswill & Watson 2014:139)
+        % Verbs
+          % Two stems exist in Pointe Coupee Creole, but the systematicity of these is not clear for all speakers (Klingler 2003 "Turn":236-237)
+          % Copulas can be left out
+            % In equative questions (what's your name) and equative affirmative declaratative sentences where the subject is a pronoun in Pointe Coupee Creole (Klingler 2003 "Turn":292/331)
+          % The verb kouri can be used to mean to go in Pointe Coupee Creole (Klingler 2003 "Turn":246)
+          % ina as an existential expression
+            % Present tense variants in Pointe Coupee: ena, y ena, na (Klingler 2003 "Turn":307-308)
+              % The y ena version helps support my approach of treating ina a y a with an /n/ liaison rather than il a with the same liaison
+            % For past, enave/inave/nave in Pointe Coupee Creole (Klingler 2003 "Turn":308)
+          % ils agreement can be marked with -ont on the verb both in present habitual and in the past imperfective with -iont (Papen & Rottet 1997:97; Rottet 1995:201-202)
+            % This also leads to forms such as ils avont, ils allont, and ils faisont (Rottet 1995:202)
+            % On the other hand, the 1pl -ons ending only exists for hortative allons in Terrebonne-Lafourche (Papen & Rottet 1997:96)
+          % Conditional verb forms can be used to express both the first and second part of a hypothetical as well as imperfective past in Terrebonne-Lafourche (Papen & Rottet 1997:99-100)
+          % Older speakers use être as the auxiliary in passé composé "with intransitive verbs of motion" and "with intransitive verbs when the resulting state ... is implied" (e.g., il est fini) but not normally with reflexive verbs in Terrebonne-Lafourche (Papen & Rottet 1997:101)
+        % "Markers"
+          % Perhaps a New Orleans variety of Creole
+            % Alé for future, sra for the future anterior, té for past imperfective, sré for conditional, apé for present [probably means progressive] (Fortier 1884:108)
+          % Habitual past is expressed with se for some speakers in Pointe Coupee (Klingler 2003 "Turn":261)
+          % Future
+            % The simple future is expressed with "a" in Pointe Coupee Creole (Klingler 2003 "Turn":258-259)
+            % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
+          % Progressive
+            % e (mostly), ap, and ape in Pointe Coupee (Klingler 2003 "Turn":255)
+            % Past and present progressive in Terrebonne-Lafourche are produced with être après (Papen & Rottet 1997:102)
+          % Conditional
+            % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
+          % ka(pa(b)) is presented as a verb in Pointe Coupee Creole (Klingler 2003 "Turn":247) and as simultaneously an auxiliary verb and a marker in Breaux Bridge Creole (Neumann 1985:223)
+            % Neumann (1985) also include pe 'peut' as equivalently an auxiliary and a marker, though for both kapab and pe, she draws the connection with être capable de and pouvoir plainly (223)
+            % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
+              % Although this is also a difference between ve and oler, respectively (Klingler 2003 "Turn":276)
+          % Perfect aspect expressed with bin [bɪn] in Pointe Coupee (Klingler 2003 "Turn":262-263)
+          % Syntactic order
+            % te + pa + e in Pointe Coupee (Klingler 2003 "Turn":26/258)
+            % te + bin + pas in Pointe Coupee (Klingler 2003 "Turn":263)
+            % Relative to verbs, pa comes before those expressing habitual present and before those expressing any other tense+aspect, regardless of short or long form (Klingler 2003 "Turn":320-321)
+              % Some verbs have pa invariably preceding them in Pointe Coupee: bezòn, fini, gen, kapab, konne, kouri, ole (Klingler 2003 "Turn":322)
+            % With other markers, pa comes after all markers except ape and ale in Pointe Coupee (Klingler 2003 "Turn":26)
     \subsection{Analyses carried out}
   \section{Results}
     % Do pronouns covary?
