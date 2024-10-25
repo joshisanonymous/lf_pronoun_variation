@@ -15,6 +15,8 @@
           % Labov (1966/2006) excluded non-native English speakers (45/98) and two African-Americans who had lived in NYC since the ages of 10 (118)
           % G. Sankoff (2015) excluded recent immigrants to Montreal claiming that they "are not yet fully integrated into the community" (45)
     % Comparison to communities of practice
+      % This framework is perhaps more flexible than the speech communities framework
+        % Fans of radio announcer Mike Francesa were suggested to constitute a community of practice that self-identifies as the Mongo Nation (Tatman 2016:162)
       % Schenkel et al. (2002 "Theorizing") aimed "to conceptualize the structural properties of communities of practice" by applying "network concepts and measures" used in social network analysis (1)
         % Schenkel (2001) had previous argued that that every CoP consists of one (or many) social network(s), but not every social network forms a CoP (as cited in Assimakopoulos & Yan 2006:3)
       % Communities of practice could be described as "nodes of 'strong ties' in an interpersonal network" (Wenger 1998, as cited in Schenkel et al. 2002 "Theorizing":6)
@@ -30,6 +32,7 @@
     % What is social network analysis
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
       % It's a tool that helps quantify communities and individuals social positions in those communities
+        % Nodes and ties
         % Community detection
           % Algorithms have been developed for community detection (e.g., Blondel et al. 2008; Newman & Girvan 2004)
             % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
