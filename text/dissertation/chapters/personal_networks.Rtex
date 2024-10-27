@@ -1,10 +1,15 @@
 \chapter{Personal Network Structures}
   % Justify why we're looking at this at all
-  \section{Background}
+  \section{Comparison with non-social network approaches}
     % Comparison to speech communities
+      % This approach is in fact present in the current study
       % Definitions
         % "'[A]ny human aggregate characterized by regular and frequent interaction by means of a shared body of verbal signs and set off from similar aggregates by significant differences'" (Gumperz 1968, as cited in G. Sankoff 2015:24)
         % A community "where speakers acknowledge the quantitative limits to style shift as set by the extent of interspeaker differences within the community," as well as sharing "the qualitative norms and direction of style shift" and "evaluative reactions to variables" (Bell 1984:154)
+        % A community whose linguistic repertoires are continuous, not requiring translators for communication (Fishman 1967/2000:77)
+        % Generalizability
+          % Eckert (2000) suggested that speech communities are not descriptions of objective reality but of the limits of what a researcher's findings are applicable to, following Rickford (1986) (30-34)
+          % Eckert (2000) stated that speech communities "delimit the social locus of [sociolinguists'] account of language use," in a sense, providing organization to what is heterogenous (30)
       % Examples and continuing importance
         % G. Sankoff (2015) described the speech community concept as "crucial to the sociolinguistic entreprise" (24)
         % The whole of New York City was treated as a speech community, evidenced by the difference in speech of natives vs visitors, the consistency in how natives adapt their systems in different styles, and the uniformity of subjective evaluations when looking at natives vs natives+others (Labov 1966/2006:6)
@@ -13,22 +18,31 @@
       % Weaknesses
         % Excludes people who are present but considered peripheral to the community in one way or another
           % Labov (1966/2006) excluded non-native English speakers (45/98) and two African-Americans who had lived in NYC since the ages of 10 (118)
+          % Eckert (2000) excluded anyone who arrived at Belten High after the age of 8 following Chamber's (1995) and Payne's (1980) evidence that there's a marked cutoff in one's ability to adopt fully a new dialect after that point (82)
           % G. Sankoff (2015) excluded recent immigrants to Montreal claiming that they "are not yet fully integrated into the community" (45)
     % Comparison to communities of practice
-      % This framework is perhaps more flexible than the speech communities framework
-        % Fans of radio announcer Mike Francesa were suggested to constitute a community of practice that self-identifies as the Mongo Nation (Tatman 2016:162)
-      % Schenkel et al. (2002 "Theorizing") aimed "to conceptualize the structural properties of communities of practice" by applying "network concepts and measures" used in social network analysis (1)
-        % Schenkel (2001) had previous argued that that every CoP consists of one (or many) social network(s), but not every social network forms a CoP (as cited in Assimakopoulos & Yan 2006:3)
-      % Communities of practice could be described as "nodes of 'strong ties' in an interpersonal network" (Wenger 1998, as cited in Schenkel et al. 2002 "Theorizing":6)
-        % The three factors that tie a community of practice together are mutual engagement, a joint enterprise, and a shared repertoire (i.e., way of doing) (Wenger 1998, as cited in Davies 2005:560)
-          % This effectively limits communities of practice to specific a specific type, whereas SNA is agnostic on what a tie can be based on
-      % Clusters (of all types) in social networks have been characterized as communities of practice (Eckert & Labov 2017:476)
-        % This may be an overly strong characterization that effectively erases the concept of SNA
-      % Centrality
-        % CoPs have 4 levels of individual membership: 1) full participation (insider), 2) peripheral participation (partial knowledge, static or inbound trajectory), 3) marginal participation (partial knowledge, static or outbound trajectory), and 4) full non-participation (outsider) (Wenger 1998, cited in Davies 2005:565 and Schenkel et al. 2002 "Theorizing":5)
-      % Diffusion of features is part of the communities of practice framework, as well, with brokering, defined as a mechanism through which new practices are imported into the community of practice by those whose membership is legitimate enough to be listened to and distant enough to maintain a different perspective (Wenger 1998, cited in Davies 2005:566)
-        % Eckert's (2000) view was that those with more peripheral participation acted as the bridges for the diffusion of features from one community of practice to another (38-39)
-        % This isn't as formalized or quantifiable as in SNA
+      % Definitons
+        % This framework is perhaps more flexible than the speech communities framework
+          % Fans of radio announcer Mike Francesa were suggested to constitute a community of practice that self-identifies as the Mongo Nation (Tatman 2016:162)
+      % Characteristics
+        % Schenkel et al. (2002 "Theorizing") aimed "to conceptualize the structural properties of communities of practice" by applying "network concepts and measures" used in social network analysis (1)
+          % Schenkel (2001) had previous argued that that every CoP consists of one (or many) social network(s), but not every social network forms a CoP (as cited in Assimakopoulos & Yan 2006:3)
+        % Communities of practice could be described as "nodes of 'strong ties' in an interpersonal network" (Wenger 1998, as cited in Schenkel et al. 2002 "Theorizing":6)
+          % The three factors that tie a community of practice together are mutual engagement, a joint enterprise, and a shared repertoire (i.e., way of doing) (Wenger 1998, as cited in Davies 2005:560)
+            % This effectively limits communities of practice to specific a specific type, whereas SNA is agnostic on what a tie can be based on
+        % Clusters (of all types) in social networks have been characterized as communities of practice (Eckert & Labov 2017:476)
+          % Eckert (2000) (I think?) characterized jock and burnout clusters as communities of practice
+            % Jocks and burnouts were indeed correlated with vowel variants (Eckert 2000:112-113/115-119)
+            % But Eckert (2000) also measured the number of extracurricular activities students partook in (156), which may be more indicative of the original use of the framework
+              % Extracurricular activity participation was correlated with negative concord use (Eckert 2000:164-165)
+          % This may be an overly strong characterization that effectively erases the concept of SNA
+        % Centrality
+          % CoPs have 4 levels of individual membership: 1) full participation (insider), 2) peripheral participation (partial knowledge, static or inbound trajectory), 3) marginal participation (partial knowledge, static or outbound trajectory), and 4) full non-participation (outsider) (Wenger 1998, cited in Davies 2005:565 and Schenkel et al. 2002 "Theorizing":5)
+        % Diffusion of features is part of the communities of practice framework, as well, with brokering, defined as a mechanism through which new practices are imported into the community of practice by those whose membership is legitimate enough to be listened to and distant enough to maintain a different perspective (Wenger 1998, cited in Davies 2005:566)
+          % Eckert's (2000) view was that those with more peripheral participation acted as the bridges for the diffusion of features from one community of practice to another (38-39)
+          % This isn't as formalized or quantifiable as in SNA
+      % Use in sociolinguistics
+  \section{Social network analysis}
     % What is social network analysis
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
       % It's a tool that helps quantify communities and individuals social positions in those communities
@@ -47,17 +61,23 @@
               % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
               % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
               % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
+              % Eckert (2000) sketched the total network at Belten High but not as a central part of her analysis (177)
+                % Eckert (2000) did not speak to everyone -- rather she took a random sample of people and started from those various points -- and did a more thorough sketch for girls than boys due to time constraints (173-175)
+                % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
           % Centrality
             % Many such measures exist
               % Some are for identifying important ties
                 % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
               % Others are for identifying important nodes
-            % Centrality in socioling
+            % Centrality in sociolinguistics
               % In Philadelphia, Labov (2001) found Celeste S. to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
+              % A sociolinguistic icon is a person who is an extreme user of advanced variants, and whose central location within a particular social network cluster allows them to define the social meaning of variables (Eckert 2000:216-219)
+                % On the other hand, marginals at Belten High had vowel productions that were either very conservative or simply anomalous (Eckert 2000:205-210)
         % Ego network analysis/personal networks
           % Definition
             % Ego is the center of a personal network
             % An alter is a node in an ego network that is not ego (Sharma 2017:395)
+              % Following Milardo (1988), Li et al. (1992/2000) included three types of ties with alters in their study of Chinese-English language choice in England -- exchange network ties, interactive network ties, and passive ties -- which were all centered around the frequency of interaction and the importance that ego places on the tie (177)
             % Personal network can take several forms: 1) an ego star network (ego and their ties but no ties for any alters), 2) an ego zone network (ego, their ties, and alter-alter ties, meaning any ties connecting ego's alters to each other), or 3) a 2nd order zone network or whole networks (adds the alters of alters even if not connected to ego) (Sharma 2017:395)
               % (3) depends on how one conducts their analyses as there is little structural difference between it and looking at whole networks (e.g., are we looking at this as ego's extended network whose qualities reflect on ego or are we looking at this as a community that ego has some centrality in)
           % Personal networks in socioling
@@ -69,6 +89,7 @@
     % Weaknesses
       % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
         % This is more about how one conceptualizes of community
+  \section{Previous findings involving social network analysis}
     \subsection{Social networks in the US}
       % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
       % Homophilous can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
@@ -88,7 +109,7 @@
         % Racial homophily in the US has been very high and extremely stable for over 20 years as of 2014 (J. A. Smith et al. 2014:446)
           % According to the GSS, it decreased from 0.95 to 0.90 despite the country becoming more racially diverse (J. A. Smith et al. 2014:439)
           % Racial endogamy has declined over the 20th century but is still the most prevalent endogamous pattern in the US (Rosenfeld 2008)
-        % Racial (and ethnic?) occupational segregation had "flattened out and changed slowly" between the 1980s and 2000s (Tomaskovic-Devey et al. 2006, as cited in J. A. Smith et al. 2014:436)
+          % Racial (and ethnic?) occupational segregation had "flattened out and changed slowly" between the 1980s and 2000s (Tomaskovic-Devey et al. 2006, as cited in J. A. Smith et al. 2014:436)
     \subsection{Social networks in South Louisiana}
       % Gold (1976) claims that the sharecropper networks around Mamou in the early to mid 20th century were close knit out of necessity (272)
       % Differences from those in the US in general
@@ -110,6 +131,8 @@
       % Central users of the IRC EFNet channel #india mostly chose to send messages in Hindi (Paolillo 1999:8)
       % British South Asians in London used more Punjabi as the Indianness of their personal networks increased (Sharma 2017:406)
         % If we conceptualize style shifting as code-switching, accent repertoire ranges also increasd as the diversity of networks increased (i.e., speakers who were members of more communities had more variety in their styles) (406)
+      % The language choice of Chinese-English bilinguals in Tyneside, England was most accurately predicted by the ethnic index of their personal networks (Li et al. 1992/2000:184)
+        % While this might seem obvious, those with high ethnic indices were more likely to choose Chinese with interlocutors that those with low indices would use a mix of Chinese and English or just English with (Li et al. 1992/2000:184)
     \subsection{Linguistic variation constrained by network characteristics}
       % Rural migrants to the urban area of Brazlândia, Brazil decreased their usage of rural variants in Portuguese as their integration into the urban community increased (specifically /l/ vocalization and subject-verb agreement patterns) (Bortoni-Ricardo 1985, as cited in Sharma & Dodsworth 2020:348)
       % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
@@ -145,6 +168,7 @@
         % Two questions is more effective than one (Marin & Hamilton 2007, as cited in Stark 2018:244)
         % Recall bias can be reduced by bringing certain contexts to the attention of the respondent (Marin 2004, as cited in Stark 2018:245)
         % Examples in sociolinguistics
+          % Eckert (2000) simply asked participants who they were friends with at different points of interviews (80)
           % To collect alters, Sharma's (2017) participants were "asked to describe the main groups of people they interacted with on a regular basis, providing further details of each alter, including ethnicity, background, accent, frequency of interaction, domains of interaction, shared ties, and a relative closeness ranking" (400)
             % For analyses, Sharma (2017) excluded naming family members because they are not voluntarily chosen and yet would have made up a large proportion of their networks (400)
               % The motivation for emphasizing voluntary choices in her study isn't clear, but it would not be an issue here
