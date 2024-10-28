@@ -80,6 +80,7 @@
               % Some are for identifying important ties
                 % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
               % Others are for identifying important nodes
+                % PageRank (Brin & Page 1998)
             % Centrality in sociolinguistics
               % In Philadelphia, Labov (2001) found Celeste S. to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
               % A sociolinguistic icon is a person who is an extreme user of advanced variants, and whose central location within a particular social network cluster allows them to define the social meaning of variables (Eckert 2000:216-219)
