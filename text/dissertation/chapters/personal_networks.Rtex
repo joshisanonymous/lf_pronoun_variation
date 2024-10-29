@@ -1,5 +1,11 @@
 \chapter{Personal Network Structures}
   % Justify why we're looking at this at all
+  % L. Milroy (1980/1987) famously found that social network positions can explain why two speakers from the same community with the same characteristics in terms of social variables might still speak differently (131-134)
+  % But language isn't always at play when forming groups
+    % In Cape Keerweer, Australia, Aboriginal peoples see language as a property inherited from one's father and therefore don't expect to have to give up their "property" despite regular exogamy, leading to significant multilingualism (Rigsby & Sutton 1982, as cited in Le Page & Tabouret-Keller 1985:240-241)
+  % Sociological definitions of community
+    % A local unit, characterised for its members by common locality and primary interaction (Gumperz 1962, cited as according to Hymes 1972 in L. Milroy 1980/1987:15, but Hymes cites Gumperz)
+    % A small-scale, local, concrete social unit which is important to a person's definition of their social identity (L. Milroy 1980/1987:14)
   \section{Comparison with non-social network approaches}
     % Comparison to speech communities
       % This approach is in fact present in the current study
@@ -57,18 +63,36 @@
   \section{Social network analysis}
     % What is social network analysis
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
+        % L. Milroy (1980/1987) suggested three specific advantages: they're useful for studying small, self-contained groups (whether nested within a larger group or not) in great detail, "where the concept of social class is difficult to apply," and for analyzing variation in individual speakers (172-173)
       % It's a tool that helps quantify communities and individuals social positions in those communities
         % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
           % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
-        % Nodes and ties
+        % What are nodes and what can nodes represent?
+        % What are ties and what can ties represent?
+          % Kin, neighbors, coworkers, or friends, as were used in Belfast (L. Milroy 1980/1987:52)
+          % A transaction is a social exchange theory concept that is a message passed along a network line, be it goods, services, information, etc., which provides value to the sender greater than the cost (L. Milroy 1980/1987:47-48)
+            % An exchange is when transactions flow in both directions along a tie (L. Milroy 1980/1987:48)
+          % A measure of the variety of bases for a tie is the tie's multiplexity (Milroy, L. 1980/1987:21)
+            % This can be calculated for a single tie or aggregated up to the whole network
+          % Weak ties are generally not used in studies
+            % They're "perceived as unimportant" by participants and so difficult to elicit (Milroy, L. 1980/1987:201)
+            % This is probably more about HOW weak the ties are, as it's not difficult to include weakER ties, but it would be to include ties as weak as, say, the grocery store cashier that one encounters once a month
         % Two points of view can be taken in analyses: 1) ego network analysis (examines a personal network) or 2) total network analysis (examines a whole network) (Degenne & Forsé 1999; Wetherell 1998, as cited in Sharma 2017:395?)
         % Total network analysis
           % Community detection
+            % What is a community
+              % A cluster is a segment or compartment of a network which is dense relative to the area around it (L. Milroy 1980/1987:50)
             % Algorithms have been developed for community detection (e.g., Blondel et al. 2008; Newman & Girvan 2004)
               % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
                 % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
                 % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
-            % Network communities in socioling
+            % Network communities in sociolinguistics
+              % Communities act as norm enforcement mechanisms
+                % This has been shown in general (e.g., Boissevain 1974; Bott 1957/1971; Cubitt 1973; Kapferer 1969; Mayer 1963, all as cited in L. Milroy 1980/1987:50/52/135-136)
+                % It's not surprising that SNA communities have been predictive of linguistic behavior
+                  % L. Milroy (1980/1987) suggested that vernacular forms persist regardless of the influence of standard varieties because, as she found in Belfast, the social network structure can provide the requisite norm enforcement to resist the influence of standard varieties (162-163)
+                % It has been suggested that networks enforce norms based on one's perception of the network rather than its objective reality (Boissevain 1974, as cited in L. Milroy 1980/1987:61)
+                  % I'm not so sure it's necessary to consciously perceive the existence of a network as people are not likely to give a great many names in response to name generator questions
               % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
               % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
               % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
@@ -82,6 +106,7 @@
                 % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
               % Others are for identifying important nodes
                 % PageRank (Brin & Page 1998)
+                % L. Milroy's (1980/1987) network strength scale, a simply index from 0 to 5 based on responses to several questions (139/141-142)
             % Centrality in sociolinguistics
               % In Philadelphia, Labov (2001) found Celeste S. to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
               % A sociolinguistic icon is a person who is an extreme user of advanced variants, and whose central location within a particular social network cluster allows them to define the social meaning of variables (Eckert 2000:216-219)
@@ -89,11 +114,17 @@
         % Ego network analysis/personal networks
           % Definition
             % Ego is the center of a personal network
+              % It is the individual from whose vantage a network is viewed in social network analysis (L. Milroy 1980/1987:46-47)
             % An alter is a node in an ego network that is not ego (Sharma 2017:395)
+              % L. Milroy (1980/1987) simply called alters "points" (46)
               % Following Milardo (1988), W. Li et al. (1992/2000) included three types of ties with alters in their study of Chinese-English language choice in England -- exchange network ties, interactive network ties, and passive ties -- which were all centered around the frequency of interaction and the importance that ego places on the tie (177)
             % Personal network can take several forms: 1) an ego star network (ego and their ties but no ties for any alters), 2) an ego zone network (ego, their ties, and alter-alter ties, meaning any ties connecting ego's alters to each other), or 3) a 2nd order zone network or whole networks (adds the alters of alters even if not connected to ego) (Sharma 2017:395)
               % (3) depends on how one conducts their analyses as there is little structural difference between it and looking at whole networks (e.g., are we looking at this as ego's extended network whose qualities reflect on ego or are we looking at this as a community that ego has some centrality in)
-          % Personal networks in socioling
+              % Similar, overlapping terms have been used, as well
+                % A first order network zone is the collection of points that are directly linked to ego in social network analysis (L. Milroy 1980/1987:46)
+                % A second order network zone is the collection of points that are directly linked to ego's first order network zone and hence may come into contact with ego in social network analysis (L. Milroy 1980/1987:46)
+                % The first order zone is therefore something of an umbrella for an ego star network and and ego zone network
+          % Personal networks in sociolinguistics
             % Bell (1984) suggested SNA could be used to formalize the relationship dimension of one's addressee in audience design (200)
             % Sharma (2011) used what she calls a Network Diversity Index (Simpson diversity) to show that those with more diverse personal networks also have greater variation in styles (482-483)
             % Sharma (2017) later collected three types of information for personal networks: 1) ethnicity (South Asianness), 2) nationality (Indianness, i.e. born and raised in India), and the structural piece of information 3) network diversity (groupings of alters meant to represent how many social worlds they interact with) (399-401)
@@ -102,7 +133,9 @@
     % Weaknesses
       % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
         % This is more about how one conceptualizes of community
-  \section{Previous findings involving social network analysis}
+  \section{The social and linguistic landscape as it pertains to social networks}
+    % Some general qualities of social networks have been reported
+      % Rural networks tend towards density and multiplexity, whereas urban networks tend towards spareness and uniplexity, although old working-class areas tend to function as "urban villages," essentially rural areas within urban areas (Turner 1967 [I think], as cited in L. Milroy 1980/1987:137)
     \subsection{Social networks in the US}
       % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
       % Homophilous can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
@@ -146,6 +179,7 @@
         % If we conceptualize style shifting as code-switching, accent repertoire ranges also increasd as the diversity of networks increased (i.e., speakers who were members of more communities had more variety in their styles) (406)
       % The language choice of Chinese-English bilinguals in Tyneside, England was most accurately predicted by the ethnic index of their personal networks (W. Li et al. 1992/2000:184)
         % While this might seem obvious, those with high ethnic indices were more likely to choose Chinese with interlocutors that those with low indices would use a mix of Chinese and English or just English with (W. Li et al. 1992/2000:184)
+      % Within Dyirbal-English speaking communities, the amount of Dyirbal used in casual conversation was relative to the usage of the least monolingual Dyirbal speaker in the group (Schmidt 1985, as cited in L. Milroy 1980/1987:176)
     \subsection{Linguistic variation constrained by network characteristics}
       % Rural migrants to the urban area of Brazlândia, Brazil decreased their usage of rural variants in Portuguese as their integration into the urban community increased (specifically /l/ vocalization and subject-verb agreement patterns) (Bortoni-Ricardo 1985, as cited in Sharma & Dodsworth 2020:348)
       % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
@@ -153,7 +187,10 @@
       % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
         % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
     \subsection{Diffusion of linguistic features within and between networks}
+      % Diffusion outside of linguistics
+        % It has been found that those who are innovators (i.e., those who move the innovation from one group to another) are generally not the early adopters of the innovations, apparently because they hold somewhat of a marginal status in the target group (Rogers & Shoemaker 1971, as cited in L. Milroy 1980/1987:202)
       % Interaction has been acknowledged as important in language change since at least Bloomfield (1933, as cited in Sharma & Dodsworth 2020:342)
+        % Downes (1984) and Labov (1980) viewed strong ties as the ones that act as bridges for the diffusion of linguistic features (both cited in L. Milroy 1980/1987:200)
         % In CMC
           % It has been argued that, while virtual communities are real, the patterns of "'patterns of communication and interaction'" are not the same as in physical communities (Castells 2000, as cited in Androutsopoulos 2008 "Style":283)
           % Paolillo (1999), in an early implementation of SNA into language variation, argued that people who are frequently in contact "tend to share more linguistic features, and tend to borrow more features of each others' language varieties, even in situation where those varieties are different languages" (1)
@@ -185,6 +222,7 @@
           % To collect alters, Sharma's (2017) participants were "asked to describe the main groups of people they interacted with on a regular basis, providing further details of each alter, including ethnicity, background, accent, frequency of interaction, domains of interaction, shared ties, and a relative closeness ranking" (400)
             % For analyses, Sharma (2017) excluded naming family members because they are not voluntarily chosen and yet would have made up a large proportion of their networks (400)
               % The motivation for emphasizing voluntary choices in her study isn't clear, but it would not be an issue here
+              % L. Milroy (1980/1987) also discussed Hymes' (1974) idea of primary interaction, which is an interaction between two people which is strictly personal and wholly voluntary (84-85)
       % Names asked for: Any number
         % While asking for a specific number of alters can increase comparability between personal networks, it can also lead to overlooking important ties or including unimportant ties (Sharma & Dodsworth 2020:345)
       % Proxy reports consist of "answers to survey questions about the respondent that are provided by someone other than the target respondent" (Cobb 2018 "Answering":87)
