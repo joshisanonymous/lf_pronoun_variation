@@ -7,7 +7,7 @@
         % By 1999, there was still no agreed upon definition for speech communities (Holmes & Meyerhoff 1999:178, citing Santa Ana & Parodi 1998)
         % "'[A]ny human aggregate characterized by regular and frequent interaction by means of a shared body of verbal signs and set off from similar aggregates by significant differences'" (Gumperz 1968, as cited in G. Sankoff 2015:24)
         % A community "where speakers acknowledge the quantitative limits to style shift as set by the extent of interspeaker differences within the community," as well as sharing "the qualitative norms and direction of style shift" and "evaluative reactions to variables" (Bell 1984:154)
-        % A community whose linguistic repertoires are continuous, not requiring translators for communication (Fishman 1967/2000:77)
+        % A community whose linguistic repertoires are continuous, not requiring translators for communication (J. Fishman 1967/2000:77)
         % Generalizability
           % Eckert (2000) suggested that speech communities are not descriptions of objective reality but of the limits of what a researcher's findings are applicable to, following Rickford (1986) (30-34)
           % Eckert (2000) stated that speech communities "delimit the social locus of [sociolinguists'] account of language use," in a sense, providing organization to what is heterogenous (30)
@@ -52,6 +52,7 @@
         % Diffusion of features is part of the communities of practice framework, as well, with brokering, defined as a mechanism through which new practices are imported into the community of practice by those whose membership is legitimate enough to be listened to and distant enough to maintain a different perspective (Wenger 1998, cited in Davies 2005:566)
           % Eckert's (2000) view was that those with more peripheral participation acted as the bridges for the diffusion of features from one community of practice to another (38-39)
           % This isn't as formalized or quantifiable as in SNA
+      % Eckert & McConnell (1992) sum up the sort of features that emerge from communities of practice as shared ways of doing things, ways of talking, beliefs, values, and power relations (464)
       % Use in sociolinguistics
   \section{Social network analysis}
     % What is social network analysis
@@ -89,7 +90,7 @@
           % Definition
             % Ego is the center of a personal network
             % An alter is a node in an ego network that is not ego (Sharma 2017:395)
-              % Following Milardo (1988), Li et al. (1992/2000) included three types of ties with alters in their study of Chinese-English language choice in England -- exchange network ties, interactive network ties, and passive ties -- which were all centered around the frequency of interaction and the importance that ego places on the tie (177)
+              % Following Milardo (1988), W. Li et al. (1992/2000) included three types of ties with alters in their study of Chinese-English language choice in England -- exchange network ties, interactive network ties, and passive ties -- which were all centered around the frequency of interaction and the importance that ego places on the tie (177)
             % Personal network can take several forms: 1) an ego star network (ego and their ties but no ties for any alters), 2) an ego zone network (ego, their ties, and alter-alter ties, meaning any ties connecting ego's alters to each other), or 3) a 2nd order zone network or whole networks (adds the alters of alters even if not connected to ego) (Sharma 2017:395)
               % (3) depends on how one conducts their analyses as there is little structural difference between it and looking at whole networks (e.g., are we looking at this as ego's extended network whose qualities reflect on ego or are we looking at this as a community that ego has some centrality in)
           % Personal networks in socioling
@@ -143,8 +144,8 @@
       % Central users of the IRC EFNet channel #india mostly chose to send messages in Hindi (Paolillo 1999:8)
       % British South Asians in London used more Punjabi as the Indianness of their personal networks increased (Sharma 2017:406)
         % If we conceptualize style shifting as code-switching, accent repertoire ranges also increasd as the diversity of networks increased (i.e., speakers who were members of more communities had more variety in their styles) (406)
-      % The language choice of Chinese-English bilinguals in Tyneside, England was most accurately predicted by the ethnic index of their personal networks (Li et al. 1992/2000:184)
-        % While this might seem obvious, those with high ethnic indices were more likely to choose Chinese with interlocutors that those with low indices would use a mix of Chinese and English or just English with (Li et al. 1992/2000:184)
+      % The language choice of Chinese-English bilinguals in Tyneside, England was most accurately predicted by the ethnic index of their personal networks (W. Li et al. 1992/2000:184)
+        % While this might seem obvious, those with high ethnic indices were more likely to choose Chinese with interlocutors that those with low indices would use a mix of Chinese and English or just English with (W. Li et al. 1992/2000:184)
     \subsection{Linguistic variation constrained by network characteristics}
       % Rural migrants to the urban area of Brazlândia, Brazil decreased their usage of rural variants in Portuguese as their integration into the urban community increased (specifically /l/ vocalization and subject-verb agreement patterns) (Bortoni-Ricardo 1985, as cited in Sharma & Dodsworth 2020:348)
       % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
