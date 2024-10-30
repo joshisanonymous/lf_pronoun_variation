@@ -11,6 +11,8 @@
       % This approach is in fact present in the current study
       % Definitions
         % By 1999, there was still no agreed upon definition for speech communities (Holmes & Meyerhoff 1999:178, citing Santa Ana & Parodi 1998)
+        % A group of people who speak the same language or the same variety of a language (Bloomfield 1933, as cited in Hymes 1967/1972:54)
+        % A group of people sharing rules for the conduct and interpretation of speech (rules of speaking), as well as for the interpretation of at least one linguistic variety (Hymes 1967/1972:54)
         % "'[A]ny human aggregate characterized by regular and frequent interaction by means of a shared body of verbal signs and set off from similar aggregates by significant differences'" (Gumperz 1968, as cited in G. Sankoff 2015:24)
         % A community "where speakers acknowledge the quantitative limits to style shift as set by the extent of interspeaker differences within the community," as well as sharing "the qualitative norms and direction of style shift" and "evaluative reactions to variables" (Bell 1984:154)
         % A community whose linguistic repertoires are continuous, not requiring translators for communication (J. Fishman 1967/2000:77)
@@ -65,9 +67,11 @@
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
         % L. Milroy (1980/1987) suggested three specific advantages: they're useful for studying small, self-contained groups (whether nested within a larger group or not) in great detail, "where the concept of social class is difficult to apply," and for analyzing variation in individual speakers (172-173)
       % It's a tool that helps quantify communities and individuals social positions in those communities
+        % For instance, social distance in SNA has been formalized as "the number of lines in the shortest path from one [individual] to another" (Granovetter 1973:1366)
         % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
           % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
         % What are nodes and what can nodes represent?
+          % A liaison person is a point in a network which links two network sectors and whose ties to one or both of those sectors are all weak, often being a point at one end of a bridge (Granovetter 1973:1367-1368)
         % What are ties and what can ties represent?
           % Kin, neighbors, coworkers, or friends, as were used in Belfast (L. Milroy 1980/1987:52)
           % A transaction is a social exchange theory concept that is a message passed along a network line, be it goods, services, information, etc., which provides value to the sender greater than the cost (L. Milroy 1980/1987:47-48)
@@ -77,11 +81,14 @@
           % Weak ties are generally not used in studies
             % They're "perceived as unimportant" by participants and so difficult to elicit (Milroy, L. 1980/1987:201)
             % This is probably more about HOW weak the ties are, as it's not difficult to include weakER ties, but it would be to include ties as weak as, say, the grocery store cashier that one encounters once a month
+              % Granovetter (1973) proposed using four different measures to determine tie strength: the amount of time of the existence of the tie, the emotional intensity of the relationship, the intimacy (mutual confiding) of the relationship, and reciprocal services rendered across the tie (1361)
         % Two points of view can be taken in analyses: 1) ego network analysis (examines a personal network) or 2) total network analysis (examines a whole network) (Degenne & Forsé 1999; Wetherell 1998, as cited in Sharma 2017:395?)
         % Total network analysis
+          % Network density is a ratio of actual ties to total possible ties in a network or area of a network (Barnes 1969, as cited in Granovetter 1973:1370)
+            % Relatedly, a network is said to be close-knit or loose-knit depending on if it is high or low density, respectively (Bott 1957, as cited in Granovetter 1973:1370)
+          % What is a community
+            % A cluster is a segment or compartment of a network which is dense relative to the area around it (L. Milroy 1980/1987:50)
           % Community detection
-            % What is a community
-              % A cluster is a segment or compartment of a network which is dense relative to the area around it (L. Milroy 1980/1987:50)
             % Algorithms have been developed for community detection (e.g., Blondel et al. 2008; Newman & Girvan 2004)
               % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
                 % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
@@ -103,6 +110,7 @@
           % Centrality
             % Many such measures exist
               % Some are for identifying important ties
+                % A bridge is a tie in a network which provides the only path between two points (Harary et al. 1965, as cited in Granovetter 1973:1364)
                 % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
               % Others are for identifying important nodes
                 % PageRank (Brin & Page 1998)
@@ -188,6 +196,7 @@
         % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
     \subsection{Diffusion of linguistic features within and between networks}
       % Diffusion outside of linguistics
+        % Granovetter (1970) looked at the diffusion of job information (as cited in Granovetter 1973:1371-1372)
         % It has been found that those who are innovators (i.e., those who move the innovation from one group to another) are generally not the early adopters of the innovations, apparently because they hold somewhat of a marginal status in the target group (Rogers & Shoemaker 1971, as cited in L. Milroy 1980/1987:202)
       % Interaction has been acknowledged as important in language change since at least Bloomfield (1933, as cited in Sharma & Dodsworth 2020:342)
         % Downes (1984) and Labov (1980) viewed strong ties as the ones that act as bridges for the diffusion of linguistic features (both cited in L. Milroy 1980/1987:200)
