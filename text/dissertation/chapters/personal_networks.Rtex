@@ -75,7 +75,8 @@
         % What are nodes and what can nodes represent?
           % A liaison person is a point in a network which links two network sectors and whose ties to one or both of those sectors are all weak, often being a point at one end of a bridge (Granovetter 1973:1367-1368)
         % What are ties and what can ties represent?
-          % A dyad is a micro level social relationship consisting of two individuals and one tie (Simmel 1902, as cited in Andersen & Taylor 2013:123)
+          % Ties perhaps have their beginnings in Simmel's work on social geometry (Hollstein 2021)
+            % A dyad is a micro level social relationship consisting of two individuals and one tie and a triad three individuals and three ties (Simmel 1902, as cited in Andersen & Taylor 2013:123)
           % Kin, neighbors, coworkers, or friends, as were used in Belfast (L. Milroy 1980/1987:52)
           % A transaction is a social exchange theory concept that is a message passed along a network line, be it goods, services, information, etc., which provides value to the sender greater than the cost (L. Milroy 1980/1987:47-48)
             % An exchange is when transactions flow in both directions along a tie (L. Milroy 1980/1987:48)
@@ -176,6 +177,7 @@
           % According to the GSS, it decreased from 0.95 to 0.90 despite the country becoming more racially diverse (J. A. Smith et al. 2014:439)
           % Racial endogamy has declined over the 20th century but is still the most prevalent endogamous pattern in the US (Rosenfeld 2008)
           % Racial (and ethnic?) occupational segregation had "flattened out and changed slowly" between the 1980s and 2000s (Tomaskovic-Devey et al. 2006, as cited in J. A. Smith et al. 2014:436)
+        % Taylor (1992) found that Black national leaders in the US formed a "considerably more closely knit" network, even though the White network had a longer history (as cited in Andersen & Taylor 2013:128)
     \subsection{Social networks in South Louisiana}
       % Gold (1976) claims that the sharecropper networks around Mamou in the early to mid 20th century were close knit out of necessity (272)
       % Differences from those in the US in general
@@ -235,6 +237,8 @@
         % This is basically how to ask someone who the people they interact with are, which there are many ways to do
         % The most common name generator is that used for the GSS: "From time to time, most people discuss important matters with other people. Looking back over the last six months - who are the people with whom you discussed matters important to you? Just tell me their first names or initials" (Stark 2018:244)
           % This was translated into French by myself and occasionally needed to be explicated further for participants who were confused about what I was asking
+          % I coded these alters as core
+            % In Cooley's (1909) terminology, these could constitute the primary group (as cited in Andersen & Taylor 2013:123)
         % The length of an interview can increase the likelihood of false reporting or minimal reporting of alters (Eagle & Bell 2015; Paik & Sanchagrin 2013, both as cited in Stark 2018:246)
           % My interviews were generally 1 hour (get exact average from data in R), and all but two participants (Rachel Chenevert and Alice Lemaire) were still quite talkative by the end
             % Rachel had to return to work, and Alice was perhaps too fatigued to continue in French but was still talkative in English
@@ -260,5 +264,4 @@
     \subsection{Analyses}
   \section{Results}
   \section{Conclusion}
-
-
+    % Neumann (1985) looked at Blacks in her study of Breaux Bridge Creole because she claimed that their language was «moins affectés par la "décréolisation"» (2)
