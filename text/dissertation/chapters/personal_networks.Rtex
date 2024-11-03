@@ -236,6 +236,10 @@
       % Name generator questions
         % This is basically how to ask someone who the people they interact with are, which there are many ways to do
         % The most common name generator is that used for the GSS: "From time to time, most people discuss important matters with other people. Looking back over the last six months - who are the people with whom you discussed matters important to you? Just tell me their first names or initials" (Stark 2018:244)
+          % Names generated from this question
+            % This generator in the GSS of 1985 yielded a mean of 3.01 alters with a SD of 1.77 (Marsden 1987:125)
+            % This and the "most significant people in your life" generator yielded a mean of 5.4 alters with a SD of 2.6 among college students (Straits 2000:129)
+            % Despite these numbers seeming small, Marin & Hampton (2007), testing generator questions in Boston, found the GSS question to be one of the two most robust (163)
           % This was translated into French by myself and occasionally needed to be explicated further for participants who were confused about what I was asking
           % I coded these alters as core
             % In Cooley's (1909) terminology, these could constitute the primary group (as cited in Andersen & Taylor 2013:123)
@@ -262,6 +266,7 @@
           % This is relevant for the naming of core network attributes in my data
         % In some cases, it's been found that proxy reports are not terribly accurate when it comes to naming characteristics of alters, but the respondent's perceptions of alters may be more important than the literal qualities of alters according to said alters themselves (Cornwell & Hoaglin 2015, as cited in Stark 2018:245-246)
     \subsection{Analyses}
+      % The EI homophily index is a measure of homohily in an ego network calculated as $\frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ where External refers to out-group alters and Internal to in-group alters and a value of -1 would be perfect homophily (Lizardo & Jilbert 2020)
   \section{Results}
   \section{Conclusion}
     % Neumann (1985) looked at Blacks in her study of Breaux Bridge Creole because she claimed that their language was «moins affectés par la "décréolisation"» (2)
