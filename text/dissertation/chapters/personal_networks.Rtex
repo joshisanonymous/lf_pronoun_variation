@@ -38,6 +38,7 @@
         % Since speech communities don't come from social theory as used in other social sciences, using this framework makes it more difficult to align sociolinguistic findings with other fields to ultimately "illuminate the social world" (204)
     % Comparison to communities of practice
       % Definitons
+        % Developed by Lave & Wenger (1991) who defined it as a group that comes together to carry out certain activities that they have a shared interest in
         % This framework is perhaps more flexible than the speech communities framework
           % Fans of radio announcer Mike Francesa were suggested to constitute a community of practice that self-identifies as the Mongo Nation (Tatman 2016:162)
           % Bucholtz (1999) reported that the nerd girl club that she studied was not centered around any activity (214)
@@ -128,6 +129,8 @@
                 % The index of status (Katz 1953:42), which is basically identical to degree centrality
                 % Relative centrality (Bavelas 1950:727)
                 % Point centrality (Bavelas 1948, as cited in Freeman 1977:35)
+                % Harmonic centrality (Rochat 2009)
+                % HITS centrality (Kleinberg 1999, 1999)
             % Centrality in sociolinguistics
               % In Philadelphia, Labov (2001) found Celeste S. to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
               % A sociolinguistic icon is a person who is an extreme user of advanced variants, and whose central location within a particular social network cluster allows them to define the social meaning of variables (Eckert 2000:216-219)
