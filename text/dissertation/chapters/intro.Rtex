@@ -33,16 +33,27 @@
 
   \section{Race and ethnicity}
     \label{sec:race_ethnicity}
-    % By the beginning of the 21st century, it was being argued that ethnicity had been growing in importance in social and political landscapes given state-internal ethnic conflicts, ethnic migration leading to conflicts, concerns over the erasure of ethnic identities through globalization which in some cases have led to nationalist political movements, etc. (Eriksen 1993/2010:2-3)
+    By the beginning of the 21st century, it was being argued that ethnicity had been growing in importance in social and political landscapes given state-internal ethnic conflicts, ethnic migration leading to conflicts, and concerns over the erasure of ethnic identities through globalization which in some cases have led to nationalist political movements \parencite[pp.~2-3]{eriksen_ethnicity_2010}, but just what ethnicity is and especially whether it is useful to distinguish it from race -- or race from it -- had not been fully settled still.
+    Indeed, while it is no surprise to find the general public conflating the two concepts, researchers in social sciences have also done this, sometimes on purpose.
+    \textcite{eriksen_ethnicity_2010}, in fact, an authority on ethnicity in anthropology, treated race and ethnicity as equivalent in 1993 but had revised his view by 2010 (p.~8).
+    I have no pretension of resolving this question in this study, of course, but it is important to discuss distinctions between the two concepts as they will be treated as distinct here.
+
+    Comparisons between the concepts of race and ethnicity go as far back as \textcite{weber_economy_1978}, who was the first sociologist to discuss ethnicity in writing and so set the tone for later conceptualizations.
+    \textcite{weber_economy_1978} described racial identities as being based on ``common inherited and inheritable traits that actually derivce from common descent'' (p.~385).
+    While this definition on its own is somewhat vague (\foreign{e.g.}, metabolic rates can be inherited, but Weber probably did not intend for metabolic rates to be a basis for racial identification), \textcite{weber_economy_1978} offered the important clarification that the ``common traits'' that engender racial identities are those that are highlighted due to an antagonistic relationship with others who have ``obviously different'' traits (p.~385).
+    Essentially, this requires the traits to be phenotypes as they could not otherwise be noticed outside of accessing individuals' medical records.
+    The general emphasis on the need for contact between groups who see each other, so to speak, for racial identities to form is also an important point that has been made for ethnic identities \parencite[p.~16]{eriksen_ethnicity_2010}, though what is being seen is the crux of the distinction.
+
+    For Weber, what is seen that leads to the formation of ethnic groups was not fully disconnected from physical traits but was more centered on beliefs.
+    He argued that ethnic groups ``entertain subjective belief in their common descent because of similarities of physical type or of customs or both, or because of memories of colonization and migration'' (p.~389).
+    While ancestry and phenotypes are mentioned, customs have also been added, and there is more emphasis on beliefs about these, which is perhaps the seed of both the biology-culture dichotomy that has often been used when distinguishing race and ethnicity, respectively.
+    % Membership in an ethnic group does not mean that a group exists but rather that a group can more easily be formed by members (Weber 1921/1978:389), sort of a precursor to Anderson's (1983) imagined community concept
+
+    In the case of race, people's phenotypical features are always at the center of definitions, although researchers have long discussed race as a social construct rather than a biological fact.
+    Omi and Winant (1994) defined race as ``a concept which signifies and symbolizes social conflicts and interests by referring to different types of human bodies'' \parencite[as cited in][p.~388]{fought_ethnicity_2013}, whereas \textcite{susberry_racial_2004} defined it as a social construct with biological underpinnings that is hierarchical (pp.~6-7).
+    Both of these definitions bring human bodies to the forefront but also the idea of conflict and hierarchy, another common theme when defining the concept of race.
+    \textcite{susberry_racial_2004}, however, viewed ethnicity as a separate social construct underpinned by ``sociocultural factors that are neglected by the biological definitions of race'' (pp.~6-7).
     % Are ethnicity and race different concepts to begin with, and are they different from each other?
-      % This is an important question here because disentangling the two and seeing how they work similarly or differently is large part of the objective in this study
-        % Eriksen (1993/2010) had previously believed the two concepts were equivalent but has revised his view (8)
-      % This distinction goes at least as far back as Weber (1921/1978), who used the following definitions
-        % Race identity: "[C]ommon inherited and inheritable traits that actually derive from common descent" (385)
-          % Such an identity only arises when a "common trait" is highlighted due to an antagonistic relationship with those having an "obviously different" trait (Weber 1921/1978:385)
-            % Eriksen (1993/2010) made a similar argument for ethnic groups, saying that a group sees itself as an ethnic group only when there is contact with other such groups and those groups see each other as different despite similarities or differences in their respective cultures (16)
-        % Ethnic group: A "group[] that entertain[s] subjective belief in [its] common descent because of similarities of physical type or of customs or both, or because of memories of colonization and migration" (389)
-          % Membership in an ethnic group does not mean that a group exists but rather that a group can more easily be formed by members (Weber 1921/1978:389), sort of a precursor to Anderson's (1983) imagined community concept
       % Definitions of race
         % "'[A] concept which signifies and symbolizes social conflicts and interests by referring to different types of human bodies'" (Omi & Winant 1994, as cited in Fought 2013:388)
         % A social construct with biological underpinnings that is hierarchical and ethnicity as a social construct underpinned by "sociocultural factors that are neglected by the biological definitions of race" (Susberry 2004:6-7)
@@ -56,11 +67,6 @@
           % Around WWII, ethnics was a polite way to refer to Jews, Italians, and the Irish in the US (Eriksen 1993/2010:4)
       % The distinction is little mentioned in sociolinguistics, as will be discussed in \ref{sec:racial_ethnic_variation}, save some exceptions
         % Bucholtz (2010) argued that race and ethnicity are similar in being both rooted in essentialism and the idea that groups are clearly delineated but different in that "race is ideologically grounded ... in biological difference, ethnicity" in "cultural difference" (5-6)
-    Race and ethnicity are often conflated not only by the general public but by researchers, as well, sometimes on purpose.
-    In the case of race, people's phenotypical features are always at the center of definitions, although researchers have long discussed race as a social construct rather than a biological fact.
-    Omi and Winant (1994) defined race as ``a concept which signifies and symbolizes social conflicts and interests by referring to different types of human bodies'' \parencite[as cited in][p.~388]{fought_ethnicity_2013}, whereas \textcite{susberry_racial_2004} defined it as a social construct with biological underpinnings that is hierarchical (pp.~6-7).
-    Both of these definitions bring human bodies to the forefront but also the idea of conflict and hierarchy, another common theme when defining the concept of race.
-    \textcite{susberry_racial_2004}, however, viewed ethnicity as a separate social construct underpinned by ``sociocultural factors that are neglected by the biological definitions of race'' (pp.~6-7).
 
     For other researchers, race is a type of ethnicity.
     For instance, \textcite{smith_ethnic_1986} used the term \lexi{ethnie} for ethnicity, which he defined as any ``named human populations with shared ancestry myths, histories and cultures, having an association with a specific territory and a sense of solidarity'' (p.~27).
