@@ -105,7 +105,7 @@
       \label{sec:united_states}
       While the specific racial and ethnic milieu that will be analyzed here is situated in mostly rural South Louisiana, it would still be difficult to interpret these categories without considering their place in the broader context of the country as a whole.
       Despite this area being historically considered isolated from the United States, the undoing of that isolation over time has in fact been a factor in not only the decline of F\&C in the state but also the reinterpreted of racial and ethnic identities, as will be discussed in subsequent sections.
-      In looking at race and ethnicity in the United States then, one finds growing diversity but persistent indications of intolerance whose forms are ever evolving.
+      In looking at race and ethnicity in the United States then, one finds growing diversity but persistent inequality and indications of new forms of intolerance.
 
       % In section \ref{sec:race_ethnicity}, it was stated that the assumed definition for race in this study strongly implicates phenotypes, and while I do not wish to immediately backtrack from that definition, it must be acknowledged that racial labeling in the United States is not always so focused on appearance.
       % For example, it has been pointed out that lighter skinned Black people exist who are still considered Black on account of factors such as ancestry and culture \parencite[p.~1]{susberry_racial_2004}.
@@ -123,27 +123,14 @@
       % Ethnic and racial diversity, measured with Shannon entropy using census records, has increased between 1990 and 2010 (0.4576 > 0.6015) (Wright et al. 2014:175)
       % Growth in the Latinx population in 2011 was driven more by births than by immigration (Pew Hispanic Center 2011, as cited in Wright et al. 2014:181)
 
-      % Racial and ethnic tolerance and inequality
-        % Attitudes have moved towards greater tolerance of racial and ethnic minorities from the 1970s to the 2010s (Bobo et al. 2012; Firebaugh & Davis 1988, both as cited in J. A. Smith et al. 2014:437)
-          % Despite this, there is still a long way to go
-            % Life outcomes
-              % Racial income inequality decreased earlier in the 20th century but stalled by 2000 (Leicht 2008, as cited in J. A. Smith et al. 2014:436)
-              % 71% of the African-American youths in Van Hofwegen & Wolfram's (2010) longitudinal study (1990-2006) were below the poverty line (431)
-      In general, the US has has experienced improved relations in terms of tolerance of racial and ethnic minorities between the 1970s and the 2010s \parencite[Bobo et al., 2012; Firebaugh \& Davis, 1988, both as cited in][p.~437]{smith_social_2014}.
-      Despite this, there are still discrepencies in life outcomes between majority and minority groups.
-      Racial income inequality had been decreasing earlier in the 20th century but stalled by 2000 \parencite[Leicht, 2008, as cited in][p.~436]{smith_social_2014}.
-      Indeed, on a local level, \citeauthor{van_hofwegen_coming_2010}'s (\citeyear{van_hofwegen_coming_2010}) reported that 71\% of the African-American youths lived in below the poverty line during the years 1990 to 2006 in their longitudinal study in Chapel Hill, North Carolina (p.~431).
+      Though in general the US has has experienced improved relations in terms of tolerance of racial and ethnic minorities between the 1970s and the 2010s \parencite[Bobo et al., 2012; Firebaugh \& Davis, 1988, both as cited in][p.~437]{smith_social_2014}, there are still signs of persistent problems.
+      Racial income inequality had been decreasing earlier in the 20th century but stalled by 2000 \parencite[Leicht, 2008, as cited in][p.~436]{smith_social_2014}, and as an example of what this looks like on local levels, \citeauthor{van_hofwegen_coming_2010}'s (\citeyear{van_hofwegen_coming_2010}) reported that 71\% of the African-American youths lived in below the poverty line during the years 1990 to 2006 in their longitudinal study in Chapel Hill, North Carolina (p.~431).
+      Increased tolerance has also dovetailed into exploitation for profit through phenomena such as linguistic minstrelsy \parencite{bucholtz_performing_2011, eberhardt_first_2015}.
+      These continued issues tend to focus on African-Americans for obvious reasons: the history of slavery in the US and its reverberations are going to be felt most clearly by the group whose ancestors were the primary group that was enslaved.
+      As will be seen in Section \ref{sec:racial_ethnic_variation}, race and ethnicity in sociolinguistics has also been mostly centered on African-Americans.
+      % White teenagers in general perform AAL \parencite[C. Cutler 2002, as cited in][]{cutler_hip-hop_2007}
 
-          % Linguistic minstrelsy involves imitating minorities' speech for one's own profit (Bucholtz & Lopez 2011, as cited in Eberhardt & Freeman 2015:304)
-            % Iggy Azalea (Eberhardt & Freeman 2015) and White rappers in general do this (C. Cutler 2002, as cited in C. Cutler 2007:520)
-            % This suggests that tolerance has perhaps dovetailed into exploitation
-      To the extent that greater tolerance of minorities has developed, there are also signs that they have gone from being discriminated against to instead having their identities appropriated for gain by majority groups.
-      Minstrelsy was of course, a past example of this, but it has (re)surfaced more recently in what has been called linguistic minstrelsy, defined as imitating minorities' speech for one's own profit \parencite[Bucholtz \& Lopez, 2011, as cited in][p.~304]{eberhardt_first_2015}.
-      This activity can be seen particularly in hip-hop music as performed by White vocalists \parencite[C. Cutler 2002, as cited in][p.~520]{cutler_hip-hop_2007}.
-      So prevalent is the phenomenon that even Iggy Azalea, a White Australian vocalist, performs using African-American Language (AAL) while her typical speech is that which one would expect based on her non-African-American and indeed non-American background \parencite{eberhardt_first_2015}.
-      Relations between majority and minority groups in the US can thus be said to have plainly improved, yet the evidence is that there is still a long way to go.
-
-    \subsection{In sociolinguistics} % Combine this with following section. Frame this as a discussion of how race and ethnicity have been treated in the field over time with a special focus on the fact that they are very rarely if ever separated in order to see how they interact with each other and are instead often conflated in various ways.
+    \subsection{In sociolinguistics}
       \label{sec:racial_ethnic_variation}
       % The distinction between race and ethnicity is little mentioned in sociolinguistics save some exceptions
         % Bucholtz (2010) argued that race and ethnicity are similar in being both rooted in essentialism and the idea that groups are clearly delineated but different in that "race is ideologically grounded ... in biological difference, ethnicity" in "cultural difference" (5-6)
