@@ -33,7 +33,12 @@
 
   \section{Race and ethnicity}
     \label{sec:race_ethnicity}
+    % A race is a group that is the effect of "practices of opposition" between it and another group "at the economic, political, social, and ideological levels," which "usually, although not always," tied to phenotypes post-hoc (Bonilla-Silva 1997:472)
+      % Examples of races not denoted by phenotype: 1) Jewish people in Europe 2) The Irish in England 3) Indians in the US (Bonilla-Silva 1997:472)
+        % I think this only holds up for (1) and maybe (2). The Irish are stereotyped as red-haired and freckled and Indians as red-skinned. He doesn't discuss this for the Irish but reasons that Indians varied enormously in phenotype and culture and so weren't denoted by phenotype, which could be said similarly about the Irish. However, to me, this is more about stereotypes rather than real, measured differences in appearance, otherwise even African-Americans could be argued to not be denoted along the lines of phenotype since there are very many gradations of skin color within the group.
     % Racial formation is "'the sociohistorical process by which racial categories are created, inhabited, transformed, and destroyed'" (Omi & Winant 1986, as cited in Bonilla-Silva 1997:466)
+      % Even if a racial category is created by an outside group, once created, it still "becomes a real category of group association and identity" (Bonilla-Silva 1997:471-472)
+    % Light-skinned Europeans arrived in the US being classified as "not-yet White" only to become "White" but "ethnic" still after a short time (Roediger 1994, as cited in Bonilla-Silva 1997:472)
 
     By the beginning of the 21st century, it was being argued that ethnicity had been growing in importance in social and political landscapes given state-internal ethnic conflicts, ethnic migration leading to conflicts, and concerns over the erasure of ethnic identities through globalization which in some cases have led to nationalist political movements \parencite[pp.~2-3]{eriksen_ethnicity_2010}, but just what ethnicity is and especially whether it is useful to distinguish it from race -- or race from it -- had not been fully settled still.
     Indeed, while it is no surprise to find the general public conflating the two concepts, researchers in social sciences have also done this, sometimes on purpose.
@@ -51,6 +56,7 @@
 
     Indeed, more recently, there has been a great deal of acknowledging that race is a social construct albeit one that still finds its basis in phenotypes.
     For example, Omi and Winant (1994) defined race as ``a concept which signifies and symbolizes social conflicts and interests by referring to different types of human bodies'' \parencite[as cited in][p.~388]{fought_ethnicity_2013}, whereas \textcite{susberry_racial_2004} defined it as a social construct with biological underpinnings that is hierarchical (pp.~6-7).
+    % Bonilla-Silva (1997) cites Omi and Winant (1986) [just a different edition] as defining race as the outcome of the process of "'the extension of racial meaning to a previously racially unclassified relationship, social practice or group'" (471), which isn't focusing so heavily on bodies.
     Human bodies are at the forefront of both of these definitions but also the idea of conflict and hierarchy, other common themes when defining race that, while not at all excluded from work on ethnicity, are arguably not as central to this latter concept.
 
     Likewise, much like how \textcite{weber_economy_1978} allowed ethnicity to be based on phenotypes with the addition of other factors, ethnicity has sometimes been conceptualizing race as simply a special case of ethnicity.
