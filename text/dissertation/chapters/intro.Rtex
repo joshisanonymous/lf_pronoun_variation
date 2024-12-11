@@ -33,18 +33,116 @@
 
   \section{Race and ethnicity}
     \label{sec:race_ethnicity}
-    % Quijano (1993) claimed that the concept of race was born with the formation of the Americas (as cited in Grosfoguel 2004:326)
-    % Racial formation is "'the sociohistorical process by which racial categories are created, inhabited, transformed, and destroyed'" (Omi & Winant 1986, as cited in Bonilla-Silva 1997:466)
+    % Why this section
+      % As Decker (1994) argued, when using race in sociological research, it is important to explicitly define it to make clear how it is being used (as cited in Omi 1997:22)
+    % Older distinctions
+      % Explicit racial categorizations go back at least as far as Blumenbach's (1775) taxonomy (as cited in Wikipedia)
+        % Such taxonomies always placed Whites/Europeans at the top of the hierarchy (Eze 1997, as cited in Hesse 2007:654)
+      % Gans (1979) implicitly defined ethnic groups in terms of immigration
+        % Gans (1979) presented Jewish people, Catholics, and Italians as ethnic group in the US
+      % By the 2000s, some had maintained a distinction between race and ethnicity and others had not or had at least treated it as a blurry distinction (Brubaker 2009:25)
+        % Loveman (1999) argued that the distinction between race and ethnicity is born out of the context of the US and so not generalizable (891)
+        % Bonilla-Silva (1997) argued instead that "[e]thnicity has a primarily sociocultural foundation, and ethnic groups have exhibited tremendous malleability in terms of who belongs," whereas races are "initially ... imposed externally to justify the collective exploitation of a people and are maintained to preserve status differences" (469)
+          % Bonilla-Silva (1999) therefore gave colonialism as the origin of race and the formation of nation-states as the origin of ethnicity (902-903), colonialism naturally not being relegated to the US
+        % Indeed, Rosa & Flores (2017) implicitly agreed when they suggested that studies of race should not be relegated to just the US European colonialism did not occur exclusively in the US (634-635)
+    % Modern view of ethnicity (simple)
+      % Early on
+        % An ethnic group is just a substitute term for race to identify groups at the national level (Huxley & Haddon 1935, as cited in Banton 2000:481-482)
+        % Various dichotomies in how ethnicity is conceptualized
+          % Essentialist vs constructivist, primordialist vs instrumentalist, perennialist vs modernist (Wimmer 2013:1)
+      % Origin
+        % The late 18th century with "European processes of transition from sovereign states into nation-states and to immigration of 'nationals' to foreign lands" (A. D. Smith 1986, as cited in Bonilla-Silva 1999:903)
+      % "[A] social and cognitive structure that leads people to recognize themselves and/or be recognized by others as having real or putative common ancestry, shared culture, and/or a shared historical past" (Brubaker et al. 2004; Cronell & Hartmann 1998, both as cited in Roth et al. 2023:41)
+      % Primary vs secondary ethnicity
+        % Both are based on shared sentiment of belonging together and collective action, but primary is a group that constitutes a sovereign political unit and secondary that constitutes a subdivision within a sovereign political unit (Banton 2000:482)
+      % Brubaker (2009) summarized how race had been distinguished from ethnicity along 7 race-to-ethnicity dimensions: 1) involuntary ; voluntary 2) externally assigned; internal self-assigned 3) based on phenotype or nature; based on culture 4) rigid ; flexible 5) hierarchical ; coordinated 6) exclusive ; inclusive 7) a result of colonialism ; a result of nation-state formation (25-26)
+        % His position was that neither race nor ethnicity are good analytical concepts in the sense of them representing bounded and solidary groups (Brubaker 2009:27-28) thought he did think ethnicity has a cognitive existence
+          % This stance is perhaps supported by the concept of symbolic ethnicity where ethnic identities are no longer about organizing but instead on finding individualized ways to simple feel one's ethnicity (Gans 1979)
+    % Modern view of race
       % A race is a group that is the effect of "practices of opposition" between it and another group "at the economic, political, social, and ideological levels," which "usually, although not always," tied to phenotypes post-hoc (Bonilla-Silva 1997:472)
-      % This can be based on physical attributes
-        % Light-skinned Europeans arrived in the US being classified as "not-yet White" only to become "White" but "ethnic" still after a short time (Roediger 1994, as cited in Bonilla-Silva 1997:472)
-      % But does not have to be related to physical attributes
-        % Grosfoguel (2004) warned that too much focus on color categories obscures "other forms of racialization" (326)
-          % Grosfoguel et al. (2015) suggested that groups that have been racialized can then be marked not just by skin color but by language, religion, culture, or ethnicity, as well (636-637)
-        % Examples of races not denoted by phenotype: 1) Jewish people in Europe 2) The Irish in England 3) Indians in the US (Bonilla-Silva 1997:472)
-          % I think this only holds up for (1) and maybe (2). The Irish are stereotyped as red-haired and freckled and Indians as red-skinned. He doesn't discuss this for the Irish but reasons that Indians varied enormously in phenotype and culture and so weren't denoted by phenotype, which could be said similarly about the Irish. However, to me, this is more about stereotypes rather than real, measured differences in appearance, otherwise even African-Americans could be argued to not be denoted along the lines of phenotype since there are very many gradations of skin color within the group.
-      % Even if a racial category is created by an outside group, once created, it still "becomes a real category of group association and identity" (Bonilla-Silva 1997:471-472)
-    % Grosfoguel (2004), in discussing immigration, described "colonial immigrant" groups who are lumped in with existing "colonial/racial subjects" as "racialized ethnicities" (323)
+        % This can be based on physical attributes
+          % Light-skinned Europeans arrived in the US being classified as "not-yet White" only to become "White" but "ethnic" still after a short time (Roediger 1994, as cited in Bonilla-Silva 1997:472)
+        % But does not have to be related to physical attributes
+          % Grosfoguel (2004) warned that too much focus on color categories obscures "other forms of racialization" (326)
+            % Rosa & Flores (2017), speaking of both race and language, argued that studies of these subjects should not begin with "racialized bodies and communicative practices" as this limits one's ability to see how these categories "become racially and linguistically legible," meaning that analyses must start with historical and instutional contexts instead (637)
+            % Grosfoguel et al. (2015) suggested that groups that have been racialized can then be marked not just by skin color but by language, religion, culture, or ethnicity, as well (636-637)
+          % Examples of races not denoted by phenotype: 1) Jewish people in Europe 2) The Irish in England 3) Indians in the US (Bonilla-Silva 1997:472)
+            % I think this only holds up for (1) and maybe (2). The Irish are stereotyped as red-haired and freckled and Indians as red-skinned. He doesn't discuss this for the Irish but reasons that Indians varied enormously in phenotype and culture and so weren't denoted by phenotype, which could be said similarly about the Irish. However, to me, this is more about stereotypes rather than real, measured differences in appearance, otherwise even African-Americans could be argued to not be denoted along the lines of phenotype since there are very many gradations of skin color within the group.
+        % Importantly, this was born with colonialism or colonial-like activities
+          % Hesse (2007) argued that race is not about bodies but rather about Europeanness vs non-Europeanness (646) and so proposed more generally the idea of racialized modernity, meaning that modernity went hand in hand with the development of the concept of Europe vs non-Europe that became symbolized as race
+            % Grosfoguel (2004) similarly stated that Europeans and non-Europeans were the two groups involved in the "global racial/ethnic hierarchy" that stems from the capitalist world economy (320)
+            % But perhaps the most explicit enactment of racializing was colonialism itself
+            % Rosa & Flores (2017) the naturalization of languages with races as part of this (623)
+          % Race is "a relationship between persons" constructed through "the distribution of social, psychological, and material resources" (Ray 2019:29)
+            % Resources are important as it is to them that racial schema are attached and activated (Ray 2019:32)
+              % For example, if education didn't exist, there would be no need to racialize access to it
+            % In this relationship, race becomes a form of capital
+              % Whiteness is a form of property "encompassing 'all of a person's legal rights'" (Harris 1995, as cited in Ray 2019:30)
+          % Lenin (1916) had also suggested that colonialism existed as least as far back as Rome, which he argued was built on slavery (as cited in Wolpe 1975:113), (probably accidentally) making the connection between colonialism and race
+          % Casanova (1965) argued that "[r]acism and racial discrimination are the historical legacy of the conquest of some peoples by others, from antiquity to the expansion of the great empires and colonial systems of the modern era" (31)
+            % This presages later work on racial formation but also characterizes colonialism as more than just the European activities since the 15th century
+      % Racial formation
+        % Racial formation is "'the sociohistorical process by which racial categories are created, inhabited, transformed, and destroyed'" (Omi & Winant 1986, as cited in Bonilla-Silva 1997:466)
+        % Quijano (1993) claimed that the concept of race was born with the formation of the Americas (as cited in Grosfoguel 2004:326)
+        % The concept of race was created during the European colonial period (Stoler 1995, as cited in Rosa & Flores 1997:623)
+        % "[R]acial social orders" emerged "after the imperialist expansion of Europe to the New World and Africa" (Boggs 1970; Cox 1948; Furnivall 1948; Bagubane 1990; E. Williams 1944/1961; R. Williams 1990, all as cited in Bonilla-Silva 1997:473)
+        % What colonialism does is allow for such an extreme othering of groups of people that they are conceptualized in society as human but less human than the colonizers, hence a separate race, complete with essentialist beliefs about said race
+          % Essentialist views have generally been found to be associated with racist views (Roth et al. 2023:45)
+          % Essentialist beliefs about races have persisted right up to the present, long after direct colonialism has ended (e.g., Roth et al. 2019, as cited in Roth et al. 2023:45; Hoffman et al. 2016:4297)
+          % Essentialist views even persist among researchers in genetics, biology, and anthropology (Roth et al. 2023)
+          % Gans (1979) had discussed how 1st and 2nd generation ethnic groups in the US lived in ethnic neighborhoods (i.e., colonies?) where their status as members of the ethnic group were imposed on them from outside (8)
+            % This is not entirely different from how race is theorized today, meaning some groups described as ethnic in the past (e.g., Jews, Catholics, Italians, etc. in this case) are better understood as races in modern frameworks
+        % Even if a racial category is created by an outside group, once created, it still "becomes a real category of group association and identity" (Bonilla-Silva 1997:471-472)
+      % Racialized social systems
+        % Up through the 1990s, R. Benedict's (1945) definition of racism as "the dogma that one ethnic group is condemned by nature to congenital inferiority and another group is destined to congenital superiority" had been the norm that was used in research (Bonilla-Silva 1997:465)
+          % Ethnocentrism already existed earlier, and is similar, but doesn't require a sense of superiority (Bonilla-Silva 1997:465)
+          % This sort of ideological racism is conceptualized as irrational (Bonilla-Silva 1997:468)
+          % The racialized social systems framework shifts racism from a irrational personal ideology to a rational structure that creates lower life chances for the oppressed race (Bonilla-Silva 1997:470)
+        % This framework has recently been extended to the level of organizations, which has been argued to not simply be a reflection of an underlying racialized social system (Ray 2019)
+          % Ray (2019) stated that neighborhoods can be a sort of meso-level organization to which his framework is applicable (28)
+            % This can probably be left out since, even though I'm looking at neighborhoods in a way, what my participants tend to mention is a lot of segregation, which is also what my SNA suggests, whereas to have racialized neighborhoods, groups must be in contact and have different experiences
+    % How to distinguish
+      % Colonialism (starts in)
+        % Features of colonialism
+          % A colony itself has been defined as "a territory occupied by emigrants from a 'mother' country" who exercise dominance "over indigenous populations" in "economic, ... military, political, and spiritual" terms (Casanova 1965:28-30)
+          % 1) A lack of communication within and between colonies 2) Dependency on the colonizing state due to reliance on a single economic resource 3) It's a source of cheap labor with no access to meaningful ownership of resources 4) Standards of life are subsistence level 5) Violent repression is used to quell conflicts 6) The colonial system increases inequality, esp. racial (Casanova 1965:30-31)
+          % 1) Compulsory entry of the colonized into the dominant society 2) Transformation and destruction of the colonized's culture by colonizers 3) Management and manipulation of the colonized by colonizers 4) Racism against the colonized 5) Division of occupations between the colonized and colonizers (Blauner 1972, as cited in Pinderhughes 2011:246)
+        % Internal colonialism
+          % The idea that a version of colonialism has continued even where direct, explicit colonialism has ended has been around for a while
+            % Cruse (1962) compared African-Americans to colonized people (as cited in Pinderhughes 2011:239)
+            % The Black Power movement in the late 1960s embraced the idea (Pinderhughes 2011:240)
+            % R. Allen (1969) incorporated social class within the colonized group (as cited in Pinderhughes 2011:249)
+          % Definitions
+            % the domination and exploitation of one class of natives by another class of natives in a society after the experience of the domination and exploitation of natives by foreigners (Casanova 1965:27)
+            % "a geographically-based pattern of subordination of a differentiated population, located within the dominant power or country," that is "expressed in the policies and practices of a variety of societal institutions ... within a former settler colony or settler colony system" (Pinderhughes 2011:236)
+          % Criteria for internal colonialism
+            % Du Bois (1895) outlined 12 shared experiences between colonized and semi-colonized people (Rabaka 2007, as cited in Pinderhughes 2011:238)
+              % 1) Physical and/or psychological violence 2) Economic exploitation 3) Poverty 4) Illiteracy 5) Lawlessness, stealing, and crime 6) Starvation 7) Death 8) Disaster 9) Disease 10) Disenfranchisement 11) Denial of cultural equality 12) Denial of participation in the political process
+              % This would perhaps encompass far too many types of conflicts
+            % A group (e.g., Black Americans) must be conceived of as a nation within a nation (Pinderhughes 2011:237)
+              % Pinderhughes's (2011) proposed idea of a geo-focused internal colonialism theory, as applied to African-Americans, took a more fine-grained approach by dividing this up into many colonies (251)
+            % Does it even need to include previously colonized people?
+              % Grosfoguel (2004), in discussing immigration, described "colonial immigrant" groups who are lumped in with existing "colonial/racial subjects" as "racialized ethnicities" (323)
+              % In early formulations, it did have to involve previously colonized people
+                % Casanova (1965) stated that what makes INTERNAL colonialism stand apart is that it involves "an encounter between two races, cultures, or civilizations, whose genesis and evolution occurred without any mutual contact up to one specific moment," which sets it apart from similar situations such as class conflicts or rural-urban conflicts and is also what "makes possible intensive racial and cultural discriminations" (33)
+      % Colonial conflict (looks like)
+        % It can be difficult to identify specific types of conflict
+          % Bonilla-Silva (1997) acknowledged that both racial and ethnic conflicts exist, citing conflicts in Rwanda and the Balkans as examples of the latter (469) as well as class conflicts (471)
+            % Bonilla-Silva (1997) argued that class conflicts take precedence over racial conflicts when "economic, political, and social distance between races decreases substantially" (471)
+              % The same could perhaps be said about class conflicts over ethnic conflicts
+          % The difficulty with ethnic conflict
+            % Banton (2000) discussed these difficulties for defining conflicts as ethnic
+              % Describing a conflict as ethnic implies that the conflict has a distinctive ethnic quality and is best understood by looking at how the conflict is powered by ethnicity (Banton 2000:483)
+              % He noted that interethnic relationships are often multidimensional (Banton 2000)
+                % The Troubles appeared to be Catholic vs Protestant, but this difference isn't what caused the conflict in the first place (Banton 2000:485)
+              % To mobilise ethnic collective action
+                % Multidimensionality is one of the things that needs to be changed towards unidimensionality (Banton 2000)
+                % Exit options also need to be removed (Banton 2000:494)
+          % The difficulty with internal colonial conflict
+            % Wolpe (1975) pointed out the need to explain the difference between class exploitation and domination versus the racial/ethnic/cultural/national exploitation and domination of internal colonialism (108)
+            % Wolpe's (1975) discussion implies that the sort of conflict in internal colonialism is specifically about exploitation and domination
+              % Exploitation has been defined in terms of labor as the expropriation of the surplus labor of one social class by another social class (Bettelheim 1972, as cited in Wolpe 1975:110)
+                % Wolpe (1975) gave plunder, exchange of non-equivalents, and price formation as possible means of exploitation in a direct colonisation scenario (112)
 
     By the beginning of the 21st century, it was being argued that ethnicity had been growing in importance in social and political landscapes given state-internal ethnic conflicts, ethnic migration leading to conflicts, and concerns over the erasure of ethnic identities through globalization which in some cases have led to nationalist political movements \parencite[pp.~2-3]{eriksen_ethnicity_2010}, but just what ethnicity is and especially whether it is useful to distinguish it from race -- or race from it -- had not been fully settled still.
     Indeed, while it is no surprise to find the general public conflating the two concepts, researchers in social sciences have also done this, sometimes on purpose.
@@ -57,7 +155,7 @@
     Essentially, this requires the traits to be phenotypes as they could not otherwise be noticed outside of accessing individuals' medical records.
     Weber's general emphasis on the need for contact between groups who see each other, so to speak, for racial identities to form is also an important point that has been made for ethnic identities \parencite[p.~16]{eriksen_ethnicity_2010}, though what is being seen in each case is not necessarily the same.
     For Weber, what is seen that leads to the formation of ethnic groups was not fully disconnected from physical traits but was more centered on beliefs.
-    He argued that ethnic groups ``entertain subjective belief in their common descent because of similarities of physical type or of customs or both, or because of memories of colonization and migration'' (p.~389).
+    He argued that ethnic groups ``entertain subjective belief in their common descent because of similarities of physical type or of customs or both, or because of memories of colonization and migration'' (p.~389), which is a definition that was still maintained in studies of ethnicity up through the 1980s \parencite[\foreign{e.g.,}][]{alba_italian_2023}.
     While ancestry and phenotypes are mentioned, customs and importantly memories have also been added, and there is more emphasis on beliefs about these, which is perhaps the seed of both the biology versus culture and heritage dichotomy that has often been used when distinguishing race and ethnicity, respectively.
 
     Indeed, more recently, there has been a great deal of acknowledging that race is a social construct albeit one that still finds its basis in phenotypes.
@@ -94,6 +192,8 @@
       % Around WWII, ethnics was a polite way to refer to Jews, Italians, and the Irish in the US (Eriksen 1993/2010:4)
     
     \subsection{Bi- and multi-racial identities}
+      % The terms mixed race and multiracial imply the existence of pure, discrete races, as well (Omi 1997:19)
+
       In order to give a full account of the racial identities of Louisianians, the theoretical treatment of bi- and multi-racial identities is also of great importance.
       As in many other places, race in Louisiana is complicated by a history of children born of interracial relations, especially when it comes to the history of Creole identity as will be discussed in section \ref{sec:creole_identity}.
       Said children may take on a bi- or multi-racial identity, which can be defined in various ways, such as ``someone whose parents are of two socially and phenotypically distinct racial backgrounds'' \parencite[Root, 1992, as cited in][p.~16]{susberry_racial_2004}.
@@ -111,12 +211,38 @@
       % Socially, the point of the one drop rule was to force Black-White biracial Americans into singular Black identities, leading to them face the same problems that Black Americans faced, that is to say enslavement and later continued discrimination \parencite[Khanna, 2011, as cited in][pp.~17-18]{holliday_intonational_2016}.
       On a formal level, it was not until 2000 that one could indicate more than one race on the US Census \parencite[as cited in][p.~2]{susberry_racial_2004}, which at the time resulted in 2.4\% of the population choosing more than one race and another 5.5\% choosing ``Other'' \parencite[Singer, 2002, as cited in][p.~2]{susberry_racial_2004}.
       This sort of erasure of identities is not just of concern for the rights and well-being of those who do not fit neatly into established racial categories but can also impact research that implicates race.
+      % Some Arab Americans have argued that they aren't represent because US Directive 15 classifies them as White instead of Middle Eastern (Omi 1997:12-13)
+      % Some native Hawaiians wished to be identified in US Directive 15 as "American Indian or Alaskan Native" rather than "Asian and Pacific Islander" because their "history and current sovereignty" claims made them more similar to the former (Omi 1997:12)
+        % Similarly, Indians, Pakistanis, Bangladeshis, and others in the US have used the panethnic term South Asian (Omi 1997:23)
+      % The category of Asian American came about because, after the Civil Rights era, Chinese, Japanese, Filipino and Korean Americans began using the term to assert their shared experiences of discrimination (Omi 1997:17)
       In the field of sociolinguistics, for instance, it has been pointed out that researchers often rely on census data due to ease of access, but the inflexibility of census options means that many people can be misrepresented or unrepresented in the resulting studies \parencite[p.~2]{holliday_multiracial_2019}.
       % Similarly, while accounting for varied racial identities is important in research for both ethical and validity reasons, as \textcite{holliday_intonational_2016} pointed out, it is also important to not essentialize bi-/multi-racial as being somehow special or abnormal in comparison to monoracial individuals (pp.~24-27).
       Indeed, as anthropological and sociological work has progressed since the introduction of the theory of intersectionality \parencite{crenshaw_demarginalizing_2015}, it has become clear that few if any social identities can be fit neatly into discrete boxes, which is all the more reason to take a closer look in this study at how race and ethnicity interact.
 
     \subsection{In the United States}
       \label{sec:united_states}
+      % Pinderhughes (2011), adapting from Marable (2002), argued that colonized African America had passed through four "racial domains": 1) Slavery (introduction up to Civil War) 2) Jim Crow (Emancipation up to 100 years after) 3) Colonial Ghetto (1910 to 1970) 4) Neo-Colonial Ghetto (more recent?)
+      % At the peak for Black banks in 1926, they held 0.2% of all assets in the US (Baradaran 2017, as cited in Ray 2019:38)
+      % Pre-Civil War
+      % Reconstruction
+        % R. Allen (1969) argued that post-Civil War America had three social classes related to Blacks: 1) working class Blacks who were below 2) the Black bourgeoisie who were below 3) Whites (as cited in Pinderhughes 2011:249)
+          % He described the Black bourgeoisie as facing pressure to exert control over other Blacks
+          % This perhaps a common feature in racialized social systems, as a similar middle status group referred to as morenos or pardos developed in Brazil (Wade 1997, as cited in Bonilla-Silva 1999:901), as well as with early Creoles in the Americas (Anderson 1983/2006:59-60)
+        % Du Bois argued for full inclusion into society whereas Washington argued for industrial education for menial work (Morris 2015, as cited in Ray 2019:39)
+      % Jim Crow
+        % The Communist Party USA in the 1920s, focusing on the Black Belt of the South, were the first to call "for self-determination of the Negro nation" in the US (Pinderhughes 2011:242)
+        % Southern legislators put Jim Crow supporters on the boards of HBCUs out of fears that providing Blacks with good educations would produce a class that can challenge White political hegemony (Williamson 2004, as cited in Ray 2019:39)
+        % The colonial administration in the US was argued to have collapsed with the passage of the Civil Rights Act in 1964, though this did not mark the end of the "colonial situation" (Grosfoguel 2004:325-326)
+      % More recent
+        % Unmarked Whiteness
+          % Waters (1990) reported that her White participants saw their ethnicities as "flexible, symbolic and voluntary" (as cited in Omi 1997:19)
+            % On the other hand, Omi (1997) argued that Whites in the US were going through their own form of racialization as "[w]hat was previously a transparent and 'natural' category has now been rendered problematic as Whites experience a profound racialization" (20)
+              % He went on to describe how Whites question their own identity when coming to recognize identities of others
+          % For US Directive 15, Blacks are linked to "'black racial groups of Africa'" whereas no such reference is made for defining Whites as linked to Europe or North Africa or wherever (Omi 1997:11)
+          % Although not discussed as White organizations, groups such as evangelicals (Bracey 2016) and the NRA are White (Zakrison et al. 2017) (Ray 2019:46)
+        % For Blacks and Whites with criminal records in NYC, the former had more difficulty obtaining employment than the latter (Pager 2007; Pager et al. 2009, as cited in Ray 2019:41)
+        % The Census Bureau concluded that 40% of Hispanics in the US answered incorrectly for their race and ethnicity in 1980 and 1990 because they didn't choose both an ethnicity and a race (Omi 1997:14)
+
       While the specific racial and ethnic milieu that will be analyzed here is situated in mostly rural South Louisiana, it would still be difficult to interpret these categories without considering their place in the broader context of the country as a whole.
       Despite this area being historically considered isolated from the United States, the undoing of that isolation over time has in fact been a factor in not only the decline of F\&C in the state but also the reinterpreted of racial and ethnic identities, as will be discussed in subsequent sections.
       In looking at race and ethnicity in the United States then, one finds growing diversity but persistent inequality and indications of new forms of intolerance.
@@ -146,6 +272,17 @@
 
     \subsection{In sociolinguistics}
       \label{sec:racial_ethnic_variation}
+      % Rosa & Flores (2017) proposed a "raciolinguistic perspective" for approaching the study of race and language
+      % The naturalization of race and of languages associated with races are the "[t]wo central components of the European colonial formation of modernity" (Rosa & Flores 2017:623)
+        % Hierarchically then, non-European languages were also placed below European languages (Makoni & Pennycook 2007; Veronelli 2015, as cited in Rosa & Flores 2017:623)
+        % They called this linking of language and racial identity raciolinguistic enregisterment (Rosa & Flores 2017:631) after Agha's enregisterment (2003)
+        % Racialized Others are unable to overcome this naturalization even when they learn the language of their oppressors which is still perceived as linguistically lacking (Rosa & Flores 2017:625, citing others)
+          % This has important implications as language skills can be seen as a commodity (Rosa & Flores 2017:638, citing Heller & Duchêne 2012 as giving examples)
+        % Bonfiglio (2002, 2010) argued that categories such as "Standard American English" and "native speaker" should be understood as representing racialized perceptions where anything associated with the dominant group is unmarked and anything associated with the dominated racialized group is inherently deficient (as cited in Rosa & Flores 2017:632)
+      % Rosa & Flores (2017) proposed that perceptual work on race should refuse to analyze the production of racialized people and instead look at how listeners employ their race and language ideologies in interpreting racialized people (628-629)
+        % This approach has not really been taken up for the obvious reason that knowing what racialized people are objectively producing is a necessary step in interpreting how a listeners ideologies are shaping what they are hearing
+      % A natural response to the issues this framework raises is to propose affirming the language of racialized populations and providing them access to the tools needed to learn dominant ways of speaking, but this solution ignores the problems inherent in the racialized social system itself and puts the burden on racialized people to do more than others need to do (Rosa & Flores 2017:639)
+
       Race and ethnicity have been analyzed in sociolinguistics and language variation studies as far back as the foundational works in the field.
       \textcite{labov_social_2006} considered Italians and Jewish people and \textcite{labov_social_2006, labov_contraction_1969, labov_sociolinguistic_1972} African-Americans in New York City while \textcite{wolfram_sociolinguistic_1969} looked at African-Americans in Detroit, for instance.
       The field progressed in its treatment of race and ethnicity in much the same way as the field in general did, from the macrosociological level to the ethnographic and local level to social meaning-oriented work \parencite{eckert_three_2012}, but race and ethnicity in language has had its own indiosyncracies in how it has been approached over time.
@@ -322,6 +459,8 @@
           % For Creoles of Color who resented being classified as Black would either try to pass as White if possible or simply assert that they were racially Creole rather than Black (Susberry 2004:12-13)
         % As for White Creoles
           % They began calling themselves Cajun in 1977 (Trépanier 1988, 1991, as cited in Dajko 2012:289)
+          % However, some who identify as White also identify as Creole today, often as a result of learning later in life about their ancestry or about other conceptualizations of Creole and Cajun
+            % This is perhaps somewhat like Jimenez's (2010) affiliative ethnicity which refers to when someone adopts an ethnicity that they know to not be a part of their own ancestry (as cited in Waters 2014:767)
       % Some definitions used by researchers today
         % "Multiracial people whose ancestral history is connected to Louisiana" (Susberry 2004:8)
         % Mixed race people with French cultural origins (Giancarlo 2019:34), though she argues that a common thread in thread in researchers' definitions is that Creoles are necessarily not Cajuns
