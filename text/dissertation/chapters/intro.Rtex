@@ -1,8 +1,9 @@
 \chapter{Introduction}
+  \label{chap:intro}
   The idea of Louisiana in the public imagination is most often rather that of South Louisiana and the New Orleans metropolitan area as shown in Figure \ref{fig:mapacadiana} where the highlighted area is of the traditional French speaking parishes (i.e., counties) of South Louisiana.
   Indeed, the boundary between North and South Louisiana is traditionally a division in culinary practices, religion, and language \parencite[p.~309]{trepanier_french_1988}, where those cultural features that most distinguish Louisiana from the rest of the Deep South are those of South Louisiana.
-  The language of North Louisiana, for example, has historically been English \parencite[p.~265]{gold_french_1979}, and the most prominent religion has historically been Protestant Christianity, to the extent that some have gone so far as to claim that Northerners were ``rabid anti-Catholic Protestants'' \parencite[p.~27]{johnson_louisiana_1976}.
-  This has led to a situation where even South Louisiana locals will sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to the perceived indistinguishability of North Louisiana from the rest of the mostly Anglo, Protestant American South.
+  The language of North Louisiana, for example, has historically been English rather than French and Creole \parencite[p.~265]{gold_french_1979}, and the most prominent religion has historically been Protestant Christianity rather than Catholicism, to the extent that some have gone so far as to claim that Northerners were ``rabid anti-Catholic Protestants'' \parencite[p.~27]{johnson_louisiana_1976}.
+  This has led to a situation where South Louisiana locals will even sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to the perceived indistinguishability of North Louisiana from the rest of the mostly Anglo, Protestant American South.
 
   \begin{figure}[tbhp]
     \caption{Acadiana according to HCR 496 \parencite[1971, as cited in][]{trepanier_french_1988}}
@@ -12,14 +13,14 @@
     @
   \end{figure}
 
-  For sociolinguists in particular, one major point of interest in South Louisiana is the two major local ethnic categories -- Creole and Cajun -- which intersect with racial identities in complex ways.
+  For sociolinguists in particular, one major point of interest in South Louisiana is the two major local identity categories: Creole and Cajun.
   As will be discussed in Sections \ref{sec:creole_identity} and \ref{sec:cajun_identity}, the definitions for these two categories each have rather winding histories.
-  For \lexi{Creole}, the term has long been racialized in various ways, ending up as a something of a synonym for Black for many people today, though this is an oversimplification.
-  For \lexi{Cajun}, what started as a term referring to the Acadian diaspora in Louisiana has morphed to refer to people from various backgrounds.
-  The term is \foreign{de facto} racialized, as well, albeit less overtly, in the sense that those who identify as Black are excluded from also identifying as Cajun.
-  The interaction between these ethnic identities with various racial identities makes Louisiana a prime location for analyzing how race and ethnicity are expressed in the linguistic lives of these people, and while race and ethnicity have been present in sociolinguistics since its foundational works were published, they have very rarely been treated as distinct concepts.
+  For \lexi{Creole}, the term has referred to various groups based on country of origin and/or skin color, ending up as a something of a synonym for Black for many people today, though the modern-day use of the term is certainly maintains some variability.
+  For \lexi{Cajun}, what started as a term referring to the Acadian diaspora in Louisiana has morphed to refer to people from various backgrounds with the notable restriction that a Cajun and Black identities are mutually exclusive.
+  These categories were initially born out of Louisiana's history as a French and Spanish colony before becoming part of the United States, and as such, maintain a regional uniqueness while also coming to be influenced by the racialized social system \parencite{bonilla-silva_rethinking_1997} of the broader US.
+  Indeed, the aim of the present study is to better understand if and in what ways Creole and Cajun identities have become racialized \parencite{omi_racial_1986}.
   
-  As already noted, language is a distinguishing feature of South Louisiana in that there is a history of Creoles and Cajuns speaking French and Creole (F\&C)\footnote{
+  Of more purely linguistic interest, language is a distinguishing feature of South Louisiana in that there is a history of Creoles and Cajuns speaking French and Creole (F\&C)\footnote{
     \lexi{F\&C} will be used as an umbrella term in this study for all French-related language varieties spoken in South Louisiana, as will be discussed further in Section \ref{sec:french_vs_creole}.
   }.
   Today, these languages are spoken in South Louisiana as heritage languages, whereas they were the dominant languages perhaps as recently as the mid 20th century.
@@ -27,9 +28,12 @@
     An ideal example of a multilingual society.
   } \parencite[p.~16]{neumann_creole_1985}.
   F\&C in Louisiana are unique cultural resources that are generally valued by many among the populace and even exploited for commercial gain, but both are on the decline.
-  Both languages have been documented as showing variation along geographic and social dimensions, as will be discussed in Section \ref{sec:reg_socio_variation}, though recent work focusing on ethnic and racial variation in and around the Lafayette area, the geographic focus of this study, is lacking.
-  Furthermore, studies in sociolinguistics that explicitly attempt to analyze both race and ethnicity and their intersections among speakers have also been lacking.
-  Combining this gap in the descriptive literature on F\&C with the gap of analyses that treat ethnicity and race as separate in sociolinguistics in general, the objective of this dissertation is thus to examine the role that race and ethnicity play in the social and linguistic lives of Creoles and Cajuns in Louisiana through an analysis of subject pronoun usage, social networks, and discourse.
+  Both languages have been documented as showing variation along geographic and social dimensions, as will be discussed in Section \ref{sec:reg_socio_variation}, though recent work focusing on ethnic and/or racial variation in and around the Lafayette area, the geographic focus of this study, is lacking.
+  Furthermore, while sociological and anthropological work on race has begun to inform work in sociolinguistics since \textcite{rosa_unsettling_2017}, there remains ample room in the field for studying racialization.
+  Combining this gap in the descriptive literature on F\&C with the need for more analyses of racialization from a sociolinguistic perspective, the objective of this dissertation is thus to examine how Creole and Cajun identities in Louisiana relate to race.
+  Chapter \ref{chap:pronoun_variation} will analyse subject pronoun usage to establish whether these function as markers of Creole and Cajun identity.
+  Chapter \ref{chap:personal_networks} will look at the personal social networks of participants to understand whether there is segregation, homophily, and along what lines.
+  Finally, Chapter \ref{chap:ethnic_race_meaning} will examine how participants spoke about their identities in terms of race and ethnicity.
 
   \section{Race and ethnicity}
     \label{sec:race_ethnicity}
