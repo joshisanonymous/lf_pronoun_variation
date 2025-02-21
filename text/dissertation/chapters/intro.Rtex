@@ -572,37 +572,45 @@
       
     \subsection{The history of Cajuns}
       \label{sec:cajun_history}
-      The history of Cajuns in Louisiana is intimately tied to that of the Acadians of present-day Nova Scotia both in fact and imagination.
-      Indeed, Henry Wadsworth Longfellow's \titlebook{Evangeline} romanticized the expulsion of the Acadians from Canada and is well known in South Louisiana for this reason despite the main character only spending a very short amount of time in the state \parencite{ross_evangeline_1991}.
-      % Their origin myth is heavily focused on the Grand dérangement
-        % The Acadians were expelled from Nova Scotia in 1755 (Faragher 2005)
-          % Acadia was ceded to the British in 1713 with the Treaty of Utrecht.
-          % The British insisted that the Acadians swear an oath of allegiance to Britain.
-          % The Acadians refused, and by 1755, the British forcibly exiled them.
-        % Acadians themselves have been said to arrive in Canada mainly from the west of France, namely Poitou, Aunis, Saintonge, and Angoumois (Massignon 1962)
-          % The first Acadian settlement, Port Royal, was established in present-day Nova Scotia in 1605 (Massignon 1962:17)
-        % Between 1765 and 1768, they initially settled in the Attakapas, then the Acadian Coast, and then finally in Natchez (Brasseaux 1987:74-78)
-          % Brasseaux (1987) estimted that between 2,700 and 3,000 Acadians immigrated to Louisiana early on based on property and census records (91-100)
-          % Winzerling (1955) at least gives 1,508 as the number that were moved from France to Louisiana (109)
-        % The term Cajun itself comes from "Acadian", though the details of how it transformed and why the two forms were used contemporaneously is a complicated one (see J. Henry 1998)
-          % Alveolar stops before vowels and especially /j/ are affricated in Terrebonne-Lafourche (Papen & Rottet 1997:77)
-        % In surveying college students, Ryon (2000) found that 48% of men and 35% of women thought Acadian heritage was an important criteria for claiming Cajun identity (184)
-        % There are reasons to believe that the Acadian origin myth is everpresent when speaking to Louisianians about Cajun identity, but membership isn't as simple as ancestry in practice
-      % After the Grand dérangement
-        % Despite Spanish Louisiana allowing the Acadians into the territory, some Acadians in the areas surrounding New Orleans joined an insurrection against the Spanish colonists in favor of the French in 1768 (Texada 1968:39)
-        % Cajuns began owning enslaved people in the 1770s (Brasseaux 1987:191)
-          % By the 1850s in Lafayette Parish, census records again show Cajuns owning enslaved people, though very few owned very many (V. Baker 1974)
-        % In his journey through Louisiana, Olmsted (1856/1904) was told that the Acadians whose ``hamlet of cottages'' they passed were ``poor white, French Creoles'' (342)
-        % Accounts made by traveling Northerners after the war described ``Acadians'' as white trash, poor, uneducated, lazy, primitive, unambitious (Brasseaux 1992:101-103)
-        % By the mid to late 19th century, Americans used the term Cajun to describe and poor person of French descent (Brasseaux 1992:104)
+      The history of Cajuns in Louisiana is intimately tied to that of the Acadians who resided in what is now Nova Scotia.
+      This link exists both in fact and imagination.
+      Indeed, the expulsion of the Acadians from Canada in the 18th century, called the \foreign{Grand dérangement}, is central to the origin story of the Cajuns of Louisiana today so much so that Henry Wadsworth Longfellow's \titlebook{Evangeline} romanticized the expulsion of the Acadians from Canada and is well known in South Louisiana for this reason despite the main character only spending a very short amount of time in the state \parencite{ross_evangeline_1991}.
+      The term \lexi{Cajun} itself is derived from French \lexi{Acadien}, both the form with and without the initial vowel being used at various times in history for various reasons \parencite{henry_acadien_1998}, a fact that any French-speaking Cajun today will likely be able to reiterate.
+      % Alveolar stops before vowels and especially /j/ are affricated in Terrebonne-Lafourche (Papen & Rottet 1997:77)
+
+      The Acadians themselves arrived in North America from mainly the western parts of France, namely Poitou, Aunis, Saintonge, and Angoumois \parencite{massignon_parlers_1962}, though it is unlikely that their ancestry remained purely French.
+      Their first settlement, Port Royal, was founded in 1605 \parencite[p.~17]{massignon_parlers_1962}, establishing them in a region already occupied by American Indians such as the Mi'kmaq.
+      While there is still much to uncover about the relationship between the French Acadians and the Mi'kmaq,, what textual evidence that has been analyzed as well as the demographic realities of colonial life that would have left few options for the creation of families make it ``highly likely'' that Mi'kmaqs were assimilated as Acadians and vice versa \parencite[pp.~22-25]{griffiths_contexts_1992}.
+      Regardless, the people of this region who came to be called Acadians were suspected of being loyal to France after the territory came into British power with the Treaty of Utrecht in 1713.
+      The British had insisted that they swear an oath of allegiance to Britian instead.
+      The refusal of the Acadians to do did little to assuage suspicions, and by 1755 they were forcibly exiled from their home \parencite{faragher_great_2005}.
+
+      Those Acadians who ended up settling in Louisiana did not arrive directly from Acadia.
+      For instance, 1,508 had returned to France who did not necessarily want them back.
+      Louisiana by this time was controlled by Spain, and Spain's ambassador in Paris, Count de Aranda, was charged with removing the Acadians from France and settling them in Louisiana \parencite[p.~109]{winzerling_acadian_1955}.
+      Being once again forced to relocate may have helped create tensions between the Spanish and the Acadians as as some of those who would end up in the areas outside of New Orleans joined an insurrection in the city against the Spanish colonists in favor of the French in 1768 \parencite[p.~39]{texada_administration_1968}.
+      The Acadians relocated from France, along with roughly 1,200 to 1,500 others eventually landed in Louisiana, initially settling in the Attakapas, the Acadian Coast along the Mississippi, and Natchez \parencite[pp.~754-78/91-100]{brasseaux_foundings_1987}.
+      The distance between Natchez and the Acadian Coast is roughly 250 miles, covering a large amount of rural South Louisiana.
+      Being able to connect one lineage to some degree to these early families was an important criteria for claiming Cajun identity up to at least the end of the 20th century \parencite[p.~184]{ryon_conflit_2000}, although those lines of descent are not often straightforward, as will be discussed shortly.
+        
+      Whereas the Creole myth discussed in section \ref{sec:creole_history} characterized Creoles of the past as aristocratic, the picture of Cajuns has been consistently of an impoverished people.
+      In his journey through Louisiana in the first half of the 19th century, \parencite{olmsted_journey_1904} was told that the ``Acadians'' whose ``hamlet of cottages'' they passed were ``poor white, French Creoles'' (p.~342).
+      This use of \lexi{Creole} suggests that the term was applied to more Acadians/Cajuns than Alexandre Mouton as previously mentioned \parencite{tregle_early_1952, tregle_that_1982} but to Acadians/Cajuns in general.
+      Importantly, however, Cajuns were not rich Creoles at all.
+      Accounts made by traveling Northerners after the war described ``Acadians'' as white trash, poor, uneducated, lazy, primitive, unambitious to where, by the late 19th century, Americans used the term \lexi{Cajun} to describe any poor person of French descent \parencite[pp.~101-104]{brasseaux_acadian_1992}.
+      Indeed, \lexi{Cajun} had become a derogatory word, as \textcite{ralph_along_1893}, during his travels in Louisiana, was warned not to call (White) Acadians in Bayou Têche ``Cajun'' without the \orth{A} as this would be considered an insult (p.~883).
+      
+      While it is clear that a stigma was being attached to Cajuns already by the 19th century based on their low socioeconomic status, especially when using the localized version of their name, Cajuns were not an entirely homogenous group.
+      Even in terms of their financial situations, some were sufficiently well off that the owned enslaved people.
+      The first such documentation of this was as early as the 1770s \parencite[p.~191]{brasseaux_foundings_1987}.
+      Census records from the 1850s in Lafayette Parish suggest that this practice was not atypical for Cajuns, although most who owned enslaved people own very few of them \parencite{baker_patterns_1974}.
+      Additionally, while it has been argued that Cajuns in the 19th century were not very successful at forming sociopolitical alliances with other groups \parencite[p.~27]{johnson_louisiana_1976}, exogamous marriages did occur.
+      
         % Acadian women regularly married non-Acadians before the Civil War and then raised their children as Acadians, creating Cajuns without Acadian family names (Brasseaux 1992:39/106)
-        % By the 1890s, Ralph (1893) was warned not to call (White) Acadians in Bayou Têche ```Cajuns'' as this would be considered an insult (883)
-        % It has been suggested Cajuns weren't necessarily good at forming sociopolitical alliances with other groups
-          % In the 19th century, Cajuns were Catholic like many New Orleanians but didn't form sociopolitical alliances with them due to a "urban-rural antipathy," and they were rural like northern Louisianians but didn't form alliances because Northerners were "rabid anti-Catholic Protestants" (J. Johnson 1976:27)
-          % Johnson didn't offer any evidence for these views, but it's clear from the preceding discussion that there was indeed a stigma attached to Cajuns
         % H. Smith & Phillips (1939) claimed that Cajuns lacked mobility due to being poor farmers (198)
         % Gilmore (1933) argued that Cajuns were so isolated in his time that they were "probably the largest unassimilated nationality group in America" (82).
         % In the early 20th century, H. Smith & Phillips (1939) were defining Cajuns as "French-speaking people" of "South Louisiana" who are "of French descent," be it Acadian or otherwise (198)
+
       % Recent history up to present
         % Del Sesto & Gibson (1975) defined a Cajun as an individual from Louisiana who is Catholic, rural, privileges kinship relations, and speaks or knows speakers of Louisiana French (3)
           % They also argued that Cajun should include both Acadians (from Canada) and others who have been incorporated into the group (3).
