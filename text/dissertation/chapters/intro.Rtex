@@ -687,21 +687,26 @@
     % Haitian independence was achieved in 1804 (Le Page & Tabouret 1985:50)
 
     By all accounts, French, Creole, and English were all widely spoken in Louisiana throughout the 19th century thanks to factors such as this continued francophone immigration.
-    Indeed, the Louisiana legislature even had appointed interpreters
-    % In the 19th century, French, Creole, and English were all spoken widely
-      % Enough so that the Louisiana legislature purportedly had appointed interpreters (Gayarré, as cited in Fortier 1884:97-98)
-        % In 1812, English was in fact the official language of the legislature, but work continued in both English and French up until it was abolished in 1916 (J. Johnson 1976:29/37-38; LA Constitution; Smith-Thibodeaux 1977, latter two as cited in Eble 2008:43)
-        % The 1845 state connstitution required the secretary of the senate and the clerk of the house of representatives to be bilingual (Rottet 1995:102)
-        % French language newspapers existed
-          % Le Moniteur de la Louisiane (1794 by Louis Duclot) was the first, L'Abeille (until 1925, "most famous"), L'Ami des Lois, Le Courrier de la Louisiane, and Le Propagateur Catholique were important, and Le Courrier de la Nouvelle-Orléans (1902-1955, though it struggled) was the last exclusively in French (J. Johnson 1976:22)
-          % These stopped being published in Pointe Coupee in 1872 (Klingler 2003 "Turn":108)
-          % Even as late as the 1970s, the bilingual Acadiana Profile was launched (J. Johnson 1976:29), but this was clearly a niche item at that point
-      % As I mentioned elsewhere, there were efforts to unify around language between the Louisiana Purchase and Civil War to resist the influence of "American" immigrants (J. Johnson 1976:20)
-    % Fortier (1884) described the French of Louisiana as having a "purity" due to men of rich families almost always being educated in France "during the old regime" (99)
-      % But despite this being a general description of French in the state, it's not a description of Acadian French, suggesting the presence of other French-speaking groups
-        % Fortier (1884) complained that the Acadians who arrived "did not contribute toward keeping the French language in a state of purity" (99)
-          % Some examples Fortier (1884) gives of the "not very elegant" French of the Acadians: j'avions et j'étions, paré for prêt, il mouille for il pleut (99)
-            % 1pl je is in fact a feature found even now in Acadian French (King 2000; Comeau & King 2007, both cited in King 2008:140)
+    Indeed, the Louisiana legislature had appointed interpreters in order to deal with the multilingual nature of the state \parencite[pp.~97-98]{fortier_french_1884}.
+    Starting with the Louisiana constitution of 1812, English was the official language of in which legislation was to be written \parencite{bush_first_1975}, but due to the fact that many in the legislature spoke only French, deliberations in French were tolerated \parencite[p.~33]{smith-thibodeaux_francophones_1977}.
+    This continued in such a regular fashion that the 1845 constitution was written in both English and French and required the Secretary of the Senate and the Clerk of the House of Representatives to be bilingual \parencite[p.~12]{louisiana_constitution_1845}.
+    Newspapers in French also suggest that the general public was literate in the language.
+    These began being published in 1794 with \titlebook{Le Moniteur de la Louisiane}, and many others followed including perhaps the most famous, \titlebook{L'Abeille}, as well as \titlebook{L'Ami des ois}, \titlebook{Le Courrier de la Louisiane}, and \titlebook{Le Propagateur catholique}.
+    \titlebook{L'Abeille} was not discontinued until 1925, and the last French-language newspaper was \titlebook{Le Courrier de la Nouvelle-Orléans} which was printed from 1902 until 1955 \parencite[p.~22]{johnson_louisiana_1976}.
+    Other newspapers declined at the end of the 19th century, such as those in Pointe Coupée that ceased being published in 1872 \parencite[p.~108]{klingler_if_2003}
+    % Even as late as the 1970s, the bilingual Acadiana Profile was launched (J. Johnson 1976:29), but this was clearly a niche item at that point
+    % As I mentioned elsewhere, there were efforts to unify around language between the Louisiana Purchase and Civil War to resist the influence of "American" immigrants (J. Johnson 1976:20)
+
+    French was ever-present enough in writing and day-to-day interactions that there are accounts that explicitly lay out language ideologies towards the various varieties used.
+    In general, \textcite{fortier_french_1884} found the French of Louisiana to have a certain ``purity'' which he believed to be to due to the men of rich families having almost always been educated in France ``during the old regime.''
+    As such, those francophones of little means were not seen in such a positive light.
+    He particularly complained about Cajuns who degraded the language, in his view.
+    He provided examples of their speech that were ``not very elegant'' such as the use of \lexi{je} as a first person plural subject pronoun, \lexi{paré} for \gloss{ready} rather than \lexi{prêt}, and \lexi{il mouille} for \gloss{it is raining} rather than \lexi{il pleut} (p.~99).
+    Just as being a Cajun in the 19th century had become akin to being poor an uneducated, so was their language considered.
+    % 1pl je is in fact a feature found even now in Acadian French (King 2000; Comeau & King 2007, both cited in King 2008:140)
+
+    The decline of French in Louisiana, however, occurred most rapidly in the big city of New Orleans rather than in the rural areas populated by Cajuns.
+    
     % 20th century
       % Numbers
         % The decline became rapid after 1900 in New Orleans and especially after WWI (J. Johnson 1976:22), though he gives no sources for this
