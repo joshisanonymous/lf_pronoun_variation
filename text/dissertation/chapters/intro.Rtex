@@ -761,50 +761,55 @@
       Indeed, much of \citeauthor{fishman_reversing_1991}'s (\citeyear{fishman_reversing_1991}) model for measuring language shift is based on the domains of use for the language in question.
       In the case of Louisiana, outside of the home, F\&C are primarily visible in education.
       For other domains such as the media and religion, F\&C has either disappeared or only has a moderate presence.
+      % It has been reported generally that Cajuns had taken "great pride" in their language by the 1970s, hence the establishment of CODOFIL in 1968 (J. Johnson 1976:28)
+        % CODOFIL did not promote French among Black and Indian Louisianians, which has led to criticism that it cultivated the identity of French Louisianians as White (Waddell 1983, as cited in Rottet 1995:109)
       
-        % It has been reported generally that Cajuns had taken "great pride" in their language by the 1970s, hence the establishment of CODOFIL in 1968 (J. Johnson 1976:28)
-          % CODOFIL did not promote French among Black and Indian Louisianians, which has led to criticism that it cultivated the identity of French Louisianians as White (Waddell 1983, as cited in Rottet 1995:109)
-        % Politics
-          % The language of instruction of public schools was set as English only in the early part of the 20th century (Constitution of the State of Louisiana 1921:93, Section 12)
-            % In fact, not a single mention of the word French appears though several mentions of English as a requirement for certain posts appear
-            % This is similar to the turning points for other minority languages
-              % In New Zealand, Maori was banned from schools in the mid 19th century (Bell 2014:62-63)
-          % As I mentioned elsewhere, Edwin Edwards, in 1971, became the first French-speaking governor elected since the Civil War (J. Johnson 1976:29)
-          % Act no 256, pushed for by CODOFIL, made French a co-official language in the state with English (Rottet 1995:106)
-          % Act no 263 allowed local governments to replace English highway signs with English-French bilingual signs (Ortego & Lafleur 2014)
-        % Education and immersion programs
-          % Cajuns had access to "two years of elective French courses in high school" (H. Smith & Phillips 1939:199) even though regular instruction was already outlawed by that time
-            % Much later in the 20th century, this access in high school was said to be decreasing (Landry et al. 1996, as cited in Lindner 2008:39)
-          % CODOFIL was bringing in an estimated 200 foreign francophone teachers each year to teach roughly 40,000 students (J. Johnson 1976:29)
-            % Importantly, these teachers were using textbooks from France (J. Johnson 1976:28)
-              % Through the 20th century at least, there was only one textbook based on Louisiana French, the variety of Vermilion by Faulk (1977), but it was never used in schools (Rottet 1995:110)
-          % Immersion programs began in 1979 in Baton Rouge, and by 1994 there were programs in Lafayette, Orleans, Assumption, Calcasieu, and St Martin (Rottet 1995:107)
-          % By 1993, there were 80,000 or more immersion school students and most teachers were native Louisianians (650 of the 825) (Acadiana Profile, as cited in Rottet 1995:107)
-          % Benton (2008) reported that 900 of the 30,000 students (3%) in the Lafayette Parish school district were in immersion schooling (as cited in Lindner 2008:45-46)
-            % French immersion was available in Lafayette Parish from kindergarten to 8th grade, though after 5th grade, immersion was only for half the day (Lindner 2008:67)
-          % Schools technically had to offer 5 years of French but could be granted an exception via a simple request for one (Acadiana Profile 1970, as cited in Rottet 1995:106)
-          % Much of CODOFIL's efforts have been focused on school immersion programs
-            % It has been argued that, for language revitalization, focusing on schools is helpful but has a limited impact (Hornberger & King 1996, as cited in Rindstedt & Aronsson 2002:723)
-              % Fishman (1991) likewise argued that schools alone aren't enough for revitalizing language in that "'it still requires extensive and recurring pre-school, out-of-school and post-school societal reinforcement, particularly if its initiatory efforts are to become cumulative and intergenerationally transmissible'" (as cited in Lindner 2008:17-18)
-                % This is indeed what has been seen with Breton in Brittany as it's still in decline despite having education programs (Gemie 2002, as cited in Lindner 2008:25)
-              % This is perhaps doubly true for non-immersion language education, as Bankston & Henry (2002) claimed that, among those students, only "'very few have achieved fluency or even developed an interest in the language'" by the end of the 1990s (as cited in Lindner 2008:43)
+      It is perhaps a bit ironic that the educational domain has received so much attention in efforts to maintain and revitalize F\&C given that regular instruction in these languages was explicitly forbidden after 1921 \parencite[p.~93]{louisiana_constitution_1921}.
+      Schooling has also been found to have limited reach on its own for revitalizing languages.
+      As \textcite{fishman_reversing_1991} argued, with significant visibility in the education system, revitalizing a language ``still requires extensive and recurring pre-school, out-of-school and post-school societal reinforcement, particularly if its initiatory efforts are to become cumulative and intergenerationally transmissible'' (p.~372).
+      This is perhaps particularly true for non-immersion language education.
+      For example, in the Andes where Spanish is dominant, Quechua instruction was argued to be insufficient ``to significantly alter language-use patterns in the community'' \parencite[p.~433]{hornberger_language_1996}.
+      Likewise in Brittany where French is dominant, \textcite{gemie_politics_2002} observed that immersion schools for Breton had gained visibility and attitudes towards Breton had become sympathetic, yet the number of fluent Breton speakers was still ``stubbornly low'' (p.~161).
+
+      In Louisiana, French has continued to be offered as an elective in high school after 1921 \parencite[p.~199]{smith_influence_1939} and into the present.
+      Schools technically had to offer 5 years of French in 1970 in fact, although exceptions could be granted via a simple request \parencite[p.~106]{rottet_language_1995}.
+      These requests seem likely to have been regularly made as, by the late 20th century, high school students were reporting that they had little access to French classes in their schools \parencite[p.~463]{landry_french_1996}.
+      CODOFIL was largely responsible for recruiting teachers for French language courses where they were offerred.
+      Indeed, they were bringing in an estimated 200 foreign francophone instructors per year who tought roughly 40,000 students at one point.
+      Importantly, they employed textbooks brought from France due to the limited local French pedagogical materials that were available \parencite[pp.~27-28]{johnson_louisiana_1976}.
+      % Education and immersion programs
+        % French as electives
+          % One of the few examples of pedagogical materials focus on local French was Faulk's (1977) textbook on ``Cajun French'' based on his own variety from Vermilion Parish
             % Educators in general have also been argued to be effectively pushing towards a standard which sometimes means "the rejection of the norms of home usage," as Le Page (1968) found in Creole-speaking countries (as cited in Le Page & Tabouret-Keller 1985:184)
-              % A similar issue in Louisiana programs not only because Hexagonal French could be promoted over Louisiana French but even Louisiana French over Louisiana Creole
-        % Media
-          % Media that glorifies a dominant language and culture has been seen to spur on the decline of Dyirbal in Australia (Schmidt 1985) and Nahuatl in Mexico (Hill & Hill 1977, as cited in Rottet 1995:21-22)
-          % Shortly after the establishment of CODOFIL in 1968 (About CODOFIL 2023), said founding largely due to efforts of James Domengeaux (Gold 1982, as cited in Lindner 2008:39-40), the Louisiana legislature launched Télévision-Louisiane as a non-profit French-language television broadcasting corporation (J. Johnson 1976:29)
-          % Louisiana Public Broadcasting (LPB) broadcast the French-language talk show En Français 4 hours per week (Rottet 1995:108)
-          % Rottet's (1995) participants in Terrebonne-Lafourche reported listening to French music on the radio but only a handful listened to the limited amount of French talk broadcasts available (146-147)
-        % Writing
-          % The written language has been argued to help generate a national consciousness (Anderson 1983/2006:44-45)
-            % Generating sociolinguistic consciousness is likewise possible
-          % As I mentioned elsewhere, the bilingual newspaper the Acadiana Profile began being published in the 1970s (J. Johnson 1976:29)
-          % Most but not all of Rottet's (1995) participants were illiterate in French, 10 of 71 reporting reading at least rarely (146)
-          % Only 3 of Rottet's (1995) participants wrote letters in French, 2 older and 1 middle (146)
-          % Only 2 of Blainey's (2013) 33 participants in Golden Meadows were literate due to having some "very limited" self-taught knowledge (71)
-        % Religion
-          % From 1921 to 1945, 34% of churche services in Acadiana were held services in French, but that number shrank to just 3% by 1981 (Trépanier 1988:238)
-          % In 1981, 27% of Baptist churches in Acadiana "used the French language at least occasionally" (Trépanier 1988:214)
+            % Although other issues arise with local-centric materials as Faulk's book used a completely new orthography based on written English
+          % Bankston & Henry (2002) claimed that, among non-immersion French language students in Louisiana, only "'very few have achieved fluency or even developed an interest in the language'" by the end of the 1990s (as cited in Lindner 2008:43)
+        % French as immersion
+          % According to a former CODOFIL director, immersion programs began in 1979 in Baton Rouge, and by 1994 there were programs in Lafayette, Orleans, Assumption, Calcasieu, and St Martin (Rottet 1995:107)
+          % By 1993, there were 80,000 or more immersion school students and most teachers were native Louisianians (650 of the 825) (Rottet 1995:107)
+          % By 2006, there were 900 immersion school students in the Lafayette Parish school district (Tutwiler 2006)
+          % In 2008, French immersion was available in Lafayette Parish from kindergarten to 8th grade, though after 5th grade, immersion was only for half the day (Lindner 2008:67)
+      % Politics
+        % Not a single mention of the word French appears in the 1921 constitution though several mentions of English as a requirement for certain posts appear
+          % This is similar to the turning points for other minority languages
+            % In New Zealand, Maori was banned from schools in the mid 19th century (Bell 2014:62-63)
+        % As I mentioned elsewhere, Edwin Edwards, in 1971, became the first French-speaking governor elected since the Civil War (J. Johnson 1976:29)
+        % Act no 256, pushed for by CODOFIL, made French a co-official language in the state with English (Rottet 1995:106)
+        % Act no 263 allowed local governments to replace English highway signs with English-French bilingual signs (Ortego & Lafleur 2014)
+      % Media
+        % Media that glorifies a dominant language and culture has been seen to spur on the decline of Dyirbal in Australia (Schmidt 1985) and Nahuatl in Mexico (Hill & Hill 1977, as cited in Rottet 1995:21-22)
+        % Shortly after the establishment of CODOFIL in 1968 (About CODOFIL 2023), said founding largely due to efforts of James Domengeaux (Gold 1982, as cited in Lindner 2008:39-40), the Louisiana legislature launched Télévision-Louisiane as a non-profit French-language television broadcasting corporation (J. Johnson 1976:29)
+        % Louisiana Public Broadcasting (LPB) broadcast the French-language talk show En Français 4 hours per week (Rottet 1995:108)
+        % Rottet's (1995) participants in Terrebonne-Lafourche reported listening to French music on the radio but only a handful listened to the limited amount of French talk broadcasts available (146-147)
+      % Writing
+        % The written language has been argued to help generate a national consciousness (Anderson 1983/2006:44-45)
+          % Generating sociolinguistic consciousness is likewise possible
+        % As I mentioned elsewhere, the bilingual newspaper the Acadiana Profile began being published in the 1970s (J. Johnson 1976:29)
+        % Most but not all of Rottet's (1995) participants were illiterate in French, 10 of 71 reporting reading at least rarely (146)
+        % Only 3 of Rottet's (1995) participants wrote letters in French, 2 older and 1 middle (146)
+        % Only 2 of Blainey's (2013) 33 participants in Golden Meadows were literate due to having some "very limited" self-taught knowledge (71)
+      % Religion
+        % From 1921 to 1945, 34% of churche services in Acadiana were held services in French, but that number shrank to just 3% by 1981 (Trépanier 1988:238)
+        % In 1981, 27% of Baptist churches in Acadiana "used the French language at least occasionally" (Trépanier 1988:214)
     \subsection{Projections}
       % 20th century projections
         % Given the general decline in numbers over time, it's not surprising that researchers have been projecting the demise of French for a while
