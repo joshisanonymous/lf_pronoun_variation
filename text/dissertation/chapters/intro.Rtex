@@ -7,7 +7,7 @@
   This has led to a situation where South Louisiana locals will even sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to the perceived indistinguishability of North Louisiana from the rest of the mostly Anglo, Protestant American South.
 
   \begin{figure}[tbhp]
-    \caption{Acadiana according to HCR 496 \parencite[1971, as cited in][]{trepanier_french_1988}}
+    \caption{Acadiana according to HCR 496 \parencite{trepanier_french_1988}}
     \label{fig:mapacadiana}
     <<fig.asp = 0.5>>=
     mapacadiana
