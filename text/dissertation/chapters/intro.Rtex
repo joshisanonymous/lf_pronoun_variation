@@ -875,36 +875,35 @@
       % A language "acquired as an L1 in a natural setting, typically in the home or the community" (Ehresmann & Bousquette 2015:235)
 
     \subsection{Acknowledging Louisiana Creole}
-      % Indeed, Creole often appears as an afterthought when discussing the status of "French" in Louisiana, so it is appropriate to spend some time here specifically outlining its place
-        % There have been attempts to define creoles as distinctive due to shared structural features
-          % McWhorter (2011) offered 4 linguistic features that would also indicate that creoles develop from pidgins (31-39)
-            % Aboh & DeGraff (2017) reject this (413), arguing instead, based on many examples, instead argue that the linguistic structure these languages take on is always based on the languages that are in contact (415)
-            % Mufwene (2008) argued that this is incorrect, citing Chaudenson's gradual basilectalization idea as being correct, apparently under the assumption that there was always a homestead stage (10)
-          % This often means arguing that creoles are simpler than other languages
-            % It has been argued as a counter-example that Haitian Creole NPs are more complex than both French and Gbe NPs (Aboh & DeGraff 2017:411)
-        % But what makes a creole is the sociohistorical circumstances of its development
-          % Mintz (1971) suggested that creoles only come about if the right conditions are met for demographics, social relationships, and the community setting (481)
-          % In the colonial period, slavery was much more prevalent in the south (39.8% of pop) than the the middle colonies (7.0%) and New England (3.1%) (Franklin & Moss 1947/2000:74)
-            % Bickerton (1981) has argued that as much as 80% of the population needs to be substrate speakers for a creole to emerge (4)
-      % Historical development of Creole in Louisiana
-        % Slavery
-          % There were initially 5,951 enslaved people brought to Louisiana in the early 1700s from The Senegal Concession (Sierra Leone in the south to Mauritania in the north), Benin (Juda/Whydah specifically), and Angola (Cabinda specifically) (G. M. Hall 1992:60)
-            % 1717-1721 were the first years, and most were Bambara with some being Wolof and some Serer (Usner 1992:32-33)
-          % Enslaved people made up 41% of the population in 1726 and 60% in 1732 (Usner 1992:46)
-          % When the Spanish took over Louisiana in 1762 up until 1800, the number of enslaved people in Louisiana increased from ~4,600 to ~24,000 (G. M. Hall 1992:279)
-            % Of the roughly 55% of those whose origins are know during this time, they were 55% African, 37% Creole (born in the Louisiana), and 4% from English-speaking regions (Klingler 2003 "Turn":20-21)
-          % In 1788 in Pointe Coupee, enslaved people outnumbered free people by about 3 to 1 (Klingler 2003 "Turn":24)
-          % The foreign importation of enslaved people was banned in 1804, although enslaved people could still be moved from elsewhere in the US to Louisiana if they were born before 1798 and owend by American citizens (Lachance 1979:179-180)
-          % By 1860, 76% of the large plantations (more than 50 enslaved people) in Pointe Coupee were owned by "Americans" (Costello 1999, as cited in Klingler 2003 "Turn":107) % Use inter-library loan to verify Costello
-        % People who were enslaved and transported from Senagambia mainly spoke Malinke/Maninka, Serer, Wolof, or Pulaar (Curtin 1975:6) % I think he cited McCall 1971 for this, but the only copy is in print in a collection in the library
-          % African languages may be responsible features such as (Klingler 2003 "Turn":62-66):
-            % Predicate clefting in which an adjective is repeated in its usual location (e.g., Se malad li malad)
-            % Preverbal markers
-            % Frequent copula absence
-            % Postnominal definite and demonstrative determiners
-            % The plural postnominal definite article being identical to the 3pl subject pronoun
-          % Who speaks it today generally
-            % In Pointe Coupee, more Whites, because the influx of English speaking slaves brought to the area in the 19th century meant that black slaves often learned English before their white owners (Klingler 2003 "Turn":108)
+      What makes any creole language sociolinguistically interesting are the extreme social circumstances that bring it about.
+      Indeed, while some creolists have insisted on the theory that creoles are born of pidgins and/or can be identified by their linguistic structures \parencite[\foreign{e.g.},][pp.~31-39]{mcwhorter_linguistic_2011}, this is a minority view today.
+      For instance, \textcite{roberts_null_2017} explicitly rejected the idea that creoles will share linguistic structures due to their status as creoles and instead argued that their structural characteristics are always based on the languages in contact that give rise to a creole (pp.~413/415), but that contact must involve the right demographics, social relationships, and community setting \parencite[p.~481]{hymes_socio-historical_1971}.
+      This typically means that slavery must exist, as it did in Louisiana.
+      % There have been attempts to define creoles as distinctive due to shared structural features
+        % This often means arguing that creoles are simpler than other languages
+          % It has been argued as a counter-example that Haitian Creole NPs are more complex than both French and Gbe NPs (Aboh & DeGraff 2017:411)
+      % But what makes a creole is the sociohistorical circumstances of its development
+        % In the colonial period, slavery was much more prevalent in the south (39.8% of pop) than the the middle colonies (7.0%) and New England (3.1%) (Franklin & Moss 1947/2000:74)
+          % Bickerton (1981) has argued that as much as 80% of the population needs to be substrate speakers for a creole to emerge (4)
+      
+      Slavery was practiced in Louisiana almost as soon as Europeans arrived and lasted up to the Civil War.
+      Between 1717 and 1721, the first enslaved Africans were brought to the colony, most being Bambara whereas some others were Wolof or Serer \parencite[pp.~32-33]{usner_indians_1992}.
+      These people were shipped out of the Senegal Concession, which runs from Sierra Leone in the south to Mauritania in the north, Benin, and Angola, and numbered 5,951 \parencite[p.~60]{hall_africans_1992}.
+      Their numbers held fairly evenly with those of Europeans so that in 1726, enslaved people made up 41\% of the population and in 1732 60\% \parencite[p.~46]{usner_indians_1992}
+      During Spanish rule from 1762 to 1800, there was no reprieve from slavery.
+      In fact, the number of enslaved people more than quadrupled from about 4,600 to about 24,000 \parencite[p.~279]{hall_africans_1992}.
+      Of the roughly 55\% of the people who arrived during Spanish rule and whose origins are known, 55\% came from African, 37\% were Creoles in the sense that they were born in Louisiasna, and 4\% came from English-speaking regions \parencite[pp.~20-21/24]{klingler_if_2003}.
+      This pattern naturally changed after the Louisiana Purchase as the foreign importation of enslaved people was banned one year later in 1804.
+      The ban was not on slavery itself, however, as enslaved people could still be moved from other parts of the US to Louisiana if they were born before 1798 and were owned by Americans \parencite[pp.~179-180]{finkelman_politics_1989}.
+      The importation of anglophone enslaved people is thought to be why there are more Whites who speak Creole than non-Whites as the enslaved Creoles would have had more exposure to English and incentive to learn it in order to communicate with these newcomers \parencite[p.~108]{klingler_if_2003}.
+      However, not only were enslaved people from other parts of the US brought to plantations in Louisiana but \foreign{les Américains} themselves moved to run plantations so that by 1860 in Pointe Coupée, for instance, they were in control of 76\% of the large plantations there \parencite[Costello, 1999, as cited in][p.~107]{klingler_if_2003}. % Use inter-library loan to verify Costello
+      
+      The provenance of enslaved people can shed light on the characteristics of a creole.
+      Of those transported from Senagambia, the main languages were Malinke/Malinka, Serer, Wolof, and Pulaar \parencite[p.~6]{curtin_economic_1975}, which were then combined with French as a lexifier. % I think he cited McCall 1971 for this, but the only copy is in print in a collection in the library
+      It has been argued that these African languages are responsible for several Creole features such as the frequent absence of the copula, preverbal markers for expressing tense, mood, and aspect, postnominal definite articles and demonstrative determiners, a plural postnominal definite article that is identical to the 3rd person plural subject pronoun, and predicate clefting in which an adjective is repeated in its usual position (\foreign{e.g.}, \sent{c'est malade li malade}\footnote{
+        sick is what he is sick
+      }) \parencite[pp.~62-66]{klingler_if_2003}.
+      While a full analysis of these such features is well beyond the scope of the present study, they will be discussed more thoroughly in section \ref{sec:french_vs_creole}.
     
     % \subsection{Regional and social variation in F\&C}
     %   \label{sec:reg_socio_variation}
