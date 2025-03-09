@@ -33,6 +33,7 @@
   \newcommand{\orth}[1]{$\langle$#1$\rangle$}
   \newcommand{\lexi}[1]{\textit{#1}}
   \newcommand{\gloss}[1]{`#1'}
+  \newcommand{\sent}[1]{\textit{#1}}
   \newcommand{\code}[1]{\texttt{#1}}
   \newcommand{\foreign}[1]{\textit{#1}}
   \newcommand{\longtrans}[1]{[#1]}
