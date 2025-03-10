@@ -1,6 +1,7 @@
 \chapter{Methods}
   \label{chap:methods}
   \section{The location}
+    \label{sec:location}
     Acadiana, despite being named in honor of the Acadians, is more generally the portion of South Louisiana where F\&C are spoken.
     Officially, 22 parishes have been included since 1971 with the passage of HCR 496 \parencite[pp.~5-6]{trepanier_french_1988}.
     Of those, I looked at Lafayette Parish and the adjacent parishes focusing mostly on St Landry Parish and St Martin Parish which cover the areas north, northeast, and east of the city of Lafayette. % Add a figure for this
@@ -45,28 +46,71 @@
       % Neumann (1985) claimed that Breaux Bridge is the region where one «trouve le nombre le plus élevé de créolophones en Louisiane» (1)
       % The main industries in Breaux Bridge in the 1980s were oil, sugarcane, and tourism (Neumann 1985:6-7)
     \subsection{My ethnographic work on the area}
+      (This will be interspersed into the end of the last section where it helps provide cultural context for the region.)
       % In some cases my participant observation was covert and in others covert
+
   \section{Sampling approach}
-    % Who could be included
-      % Judgement sampling is a type of sampling in which participants are chosen based on matching some criteria that is relevant to the study (e.g., gay men in Kiesling's work) and possibly involving friend-of-a-friend methods (Hoffman 2014:31)
-      % Gudmestad & Carmichael (2022) proposed analyzing New Speakers (Kasstan 2019) in future research (21)
-    % Sampling approach in general
-      % Snowball sampling was used to find a small number of participants
-        % Though acknowledging that snowball sampling can reduce the observer effect (6), Labov (1966/2006) in 2006 essentially argued that snowball sampling is more akin to studying "extended individuals" than communities (399)
-        % Labov (1966/2006) himself used stratified random sampling (101)
-          % In a way, this is simply aiming to capture individuals in different network clusters and at different positions within those clusters and then using social variables as a proxy for identifying said clusters
-        % In Louisiana, B. Brown (1988) primarily used snowball sampling in Hessmer and Pierre Part, having two local teachers make initial introductions for her (70-73)
+    \label{sec:sampling}
+    The target population for this study was not simply those who reside in Lafayette Parish and those adjacent to it but more specifically Creoles and Cajuns who reside there as the objective was to examine racialization among Creoles and Cajuns.
+    This constituted a judgement sample \parencite[p.~31]{holmes_sociolinguistic_2014} as only those matching the criteria of self-identifying as Creole or Cajun were included regardles of lines along which they made these self-identifications.
+    No other criteria were used for filtering despite studies of F\&C typically relying on non-mobile, old, rural, men (NORMs) \parencite[p.~29]{chambers_dialectology_1998}.
+    For example, \textcite{byers_defining_1988} exempted participants 11 participants due to either having experience with Standard French or having not lived in the same place all their life (p.~47).
+    Similarly, \textcite{rottet_language_1995} did not include ``speakers with extensive exposure to SF [Standard French]'' (p.~80), nor did \textcite{dajko_ethnic_2009} accept speakers who had moved to her region of interest from other parts of Louisiana (p.~69).
+    
+    For studies specifically focused on Creole, likewise, there has been a tendancy to avoid those who have more ``mesolectal'' features which is generally assumed to come from their exposure not only to Standard French but from the local French, as well (\citeauthor[\foreign{e.g.},][]{klingler_if_2003}, \citeyear[pp.~138-142]{klingler_if_2003}; \citeauthor{mayeux_rethinking_2019}, \citeyear[p.~93]{mayeux_rethinking_2019}), although some more recent researchers have been willing to include anyone who says they speak Creole even if their speech is not deemed ``basilectal'' especially when their goals are more anthropological in nature \parencite[\foreign{e.g.},][pp.~113-119]{wendte_tale_2020}.
+    None of these restrictions were felt to be suitable for the present study which instead aimed to incorporate anyone who considered themselves part of the community.
+    Indeed, even participants who were non-native speakers of F\&C were included.
+    As \textcite{gudmestad_variationist_2022} recently proposed, analyzing new speakers could be a beneficial avenue of research (p.~21), meaning analyzing those who have learned an endangered language through institutional or personal means \parencite[p.~1]{orourke_new_2015}, a description that matches the small number of non-native speakers in my corpus.
+
+    The actual means by which participants were found consisted of convenience sampling, using participants found through this methods as starting points for additional snowball sampling.
+    While random sampling is ideal, limits of the feasibility of using such a method has led to the approach used here being a standard for variationist studies as well as those those centered on French and Creole in Louisiana (\citeauthor[\foreign{e.g.},][]{brown_pronominal_1988}, \citeyear[pp.~70-73]{brown_pronominal_1988}; \citeauthor{dajko_ethnic_2009}, \citeyear[pp.~68-69]{dajko_ethnic_2009}; \citeauthor{mayeux_rethinking_2019}, \citeyear[pp.~92-93]{mayeux_rethinking_2019}; \citeauthor{wendte_tale_2020}, \citeyear[pp.~113-119]{wendte_tale_2020}).
+    The points of departure used varied in their level of convenience here, of course.
+    % Though acknowledging that snowball sampling can reduce the observer effect (6), Labov (1966/2006) in 2006 essentially argued that snowball sampling is more akin to studying "extended individuals" than communities (399)
+    % Labov (1966/2006) himself used stratified random sampling (101)
+      % In a way, this is simply aiming to capture individuals in different network clusters and at different positions within those clusters and then using social variables as a proxy for identifying said clusters
+
+    Initial contacts were made through existing local connections.
+    Having lived in New Orleans for several year previously and participated in F\&C-centric cultural activities during that time, I had already become acquainted with several scholars, activists, teachers, and residents in the Lafayette area.
+    Not all of these yielded participants, but some of my first were found in this way.
+    Reaching out to community leaders such as language and identity activists as well as church officials was less successful.
+    While a small number were responsive, others either did not respond at all or, I suspect, were suspicious of me and so not willing to help me make connections.
+
+    Before the first fieldwork excursions to the region, online sources were also used to establish connections.
+    I shared an online form on several social media platforms such as Reddit and Facebook, particularly with groups and pages whose interest was either South Louisiana or F\&C.
+    This allowed for collecting background information on individuals without having to use time during interviews to ask such questions.
+    Some potential participants were also filtered out through this process as they sometimes did not live in the region.
+    Online sources proved to be successful not only for recruiting young participants but also older participants.
+    This method may not have been feasible in the earlier days of the internet given that most speakers are expected to be relatively old, and older people were slower to make their way onto social media, but it has the potential to be effective going forward.
+    Indeed, social media has become a focal point for some language revitalization efforts \parencite{mayeux_language_2024}.
+
+    One of the most successful approaches used during fieldwork was simply beginning every conversation in F\&C.
+    Upon visiting stores, restaurants, music halls, museums, visitor centers, or bars, whether speaking to employees or passers-by, it was relatively easy to encounter people who spoke F\&C by simply starting with: ``Bonjour, vous parlez français?''
+    At times, people would reply in the affirmative only to quickly find out that their language skills were limited.
+    In the case of younger people, these were often those who had experience in language immersion programs but had not continued to speak French much since, whereas in the case of older people, these were often those who had spoken F\&C as children but found little use for the languages since.
+    There were also a number of instances where a person encountered this way did not speak F\&C, or not very well, but was enthusiastic about connecting me to someone who did, resulting in connections to family members, friends, even a politician once.
+
+    Finally, French tables constitute a very common cultural activity in South Louisiana these days, especially for older folks.
+    These events vary from open discussions to French lessons to organized activities or lectures.
+    Almost every town has at least one, and given the relatively short drives between towns, it is possible to attend a table almost every day and sometimes multiple in a single day.
+    Indeed, I encountered one enthusiastic couple at three French tables in a single day.
+    It is important to note that referring to them is as ``French'' tables is not a mistake, either.
+    All but one that I could find was described as a French table rather than a Creole table or some other inclusive name.
+    The majority of the attendees therefore identified as Cajuns rather than Creoles, although this did not mean that they did not have speech patterns that match those that have been described as Creole in prior research.
+
+    This sort of privileged prominence that Cajuns are given in the social and even literal landscape \parencite{giancarlo_dont_2019} made it more difficult to recruit Creole participants along with my own identity making me perhaps more of an outsider to Creoles than to Cajuns.
+    Various strategies have been discussed in the literature for gaining access to communities to which one does not belong such as having community leaders perform introductions or spending time in public places that members of the target community frequent \parencite[p.~32]{holmes_sociolinguistic_2014}.
+    \textcite{susberry_racial_2004}, who specifically sought out Creoles of color of any linguistic background, made use of email lists, organizations, Creole ancestry conferences, Catholic churches, and universities to find participants (p.~34), ultimately finding most success through online surveys (p.~51).
+    For myself, no one method was particularly effective for finding Creoles, although repeated non-recruitment interactions were generally beneficial.
+    Care was taken both to earn the trust of Creoles but also to be worthy of that trust by keeping in mind that this is a group of people who were likely accustomed to being exploited, receiving nothing in return for any good will they have to offer.
     % Finding Creoles
-      % Hoffman (2014) provided two strategies for contacting potential participants from communities to which you don't personally belong: 1) have community leaders introduce you (school officials, religious leaders, community organizers, etc.), and/or 2) spend time in public places that members of that community frequent (32)
-        % Rottet (1995) essentially used a modified version of the community leaders approach where, in order to find elderly speakers, he had a middle-aged woman bring him along when she visited elderly people (78)
-          % In my case, elderly people were rather easy to find and frequently interested in talking
-      % Susberry (2004) used email lists, organizations, Creole ancestry conferences, Catholic churches, and universities to find participants (34)
-        % For myself, the most effective approach was to visit small, local businesses and organizations and speak to customers and employees
-          % Rottet (1995) had suggested that approaching strangers in Terrebonne-Lafourche wouldn't have worked for his study as "[t]he CF community has long been noted for its refusal to speak CF, a highly stigmatized language, around outsiders" (63)
-          % This was not the case in my study, perhaps suggesting a change in the sociolinguistic situation
-        % Social media (reddit) and attending local Creole-centric events helped, as well, whereas churches were not responsive
-          % Likewise, Susberry (2004) did not always have success with contacting churches but rather had most of her success with online surveys (51)
+    % Rottet (1995) essentially used a modified version of the community leaders approach where, in order to find elderly speakers, he had a middle-aged woman bring him along when she visited elderly people (78)
+      % In my case, elderly people were rather easy to find and frequently interested in talking
+    % For myself, the most effective approach was to visit small, local businesses and organizations and speak to customers and employees
+      % Rottet (1995) had suggested that approaching strangers in Terrebonne-Lafourche wouldn't have worked for his study as "[t]he CF community has long been noted for its refusal to speak CF, a highly stigmatized language, around outsiders" (63)
+      % This was not the case in my study, perhaps suggesting a change in the sociolinguistic situation
+
   \section{The interview schedule}
+    \label{sec:schedule}
     % "[A] series of questions divided into thematic sets or modules that may be helpful" (Labov 1984, as cited in Hoffman 2014:34)
     % As has been suggested for verifying the effectiveness of questionnaires (Schleef 2014:51), the schedule was used on a non-participant before being employed in the study
     % Questions needed to be formulated so as to elicit sufficient tokens of various pronouns
