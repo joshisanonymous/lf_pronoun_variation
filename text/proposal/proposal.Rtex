@@ -420,7 +420,7 @@
       Additionally, asking orally allows the questions to be posed in French as most Louisiana French speakers do not read and write in French.
       This is beneficial as it keeps them in the French mode during the interview and will possibly cause them to report more of the francophones to whom they are close than they might otherwise do.
       Additionally, when posing name-interpreter questions, the participants will be asked to give one type of characteristic for all their alters before moving on to the next type of characteristic as this is known to yield data with more validity \parencite[Coromina \& Coenders, 2006; Vehovar et al., 2008, both as cited in][p.~247]{vannette_collecting_2018}.
-      The exact name-generator and name-interpreter questions to be used, as well as the rest of the interview module, are included in Appendix \ref{app:module}.
+      The exact name-generator and name-interpreter questions to be used, as well as the rest of the interview module, are included in Appendix \ref{app:schedule}.
 
     \subsection{Analyses}
       As this study is mostly quantitative in nature, fairly standard variationist methodology will be used in the analysis.
@@ -495,6 +495,6 @@
   \newpage
   \appendix
     \section{Interview Module}
-      \label{app:module}
+      \label{app:schedule}
       \input{../../research_tools/interview_modules/pronouns_race_ethnicity.tex}
 \end{document}
