@@ -111,49 +111,83 @@
 
   \section{The interview schedule}
     \label{sec:schedule}
-    % "[A] series of questions divided into thematic sets or modules that may be helpful" (Labov 1984, as cited in Hoffman 2014:34)
-    % As has been suggested for verifying the effectiveness of questionnaires (Schleef 2014:51), the schedule was used on a non-participant before being employed in the study
-    % Questions needed to be formulated so as to elicit sufficient tokens of various pronouns
-      % 1st and 2nd person could be expected to be more frequent in speech (and CMC) than they would be in writing (Yates 1996:40-41, also citing Chafe 1982 and Fowler & Kress 1979)
-      % In cases where I interviewed two people at once, I extended the interviews to ensure sufficient data from both speakers
-        % It has been noted that group interviews have a problem with eliciting sufficient data from all participants (Labov 1972 "Some principles":115)
-        % In some ways, this required greater interview endurance from participants, but they also didn't have to speak consistently
-          % Anecdotally, none of my paired participants appeared to grow weary of talking
-    % Types of questions
-      % Two classic questions that more or less were used are children's lore and define a successful man (Labov 1966/2006:92-93)
-        % I aimed to talk about childhoods to establish life history information, but speakers were often happy to talk at length about their childhoods
-        % I didn't asked about a successful man, but asking what a Cajun or Creole is quite similar
-      % Dajko & Carmichael (2014) had success with focusing on personal histories with their participants in Terrebonne-Lafourche (163)
-      % Following Labov's (1972 "Some principles") suggestion that questions focused on local area themes that become more and more specific as they go allow one to become somewhat of an insider (114), I attempted to focus on local topics and ask a lot of follow-up questions when a local topic was brought up
-    % Questions about the speakers' races and the ethnicities of their alters came at the end of the interview
-      % This was done to mitigate the feeling that the questions are intrusive (Schleef 2014:50)
-        % There is evidence that speakers feel more at ease by later portions of an interview, as in Douglas-Cowie's (1978) participants shifting to more casual speech styles during the latter half of interviews (as cited in Bell 1984:169)
-    % The final item of the interview schedule provided room for the participants to ask me questions
-      % This was done as a way to remind them that they can contact me and ask me questions or raise concerns, as has been suggested at the end of questionnaires (Schleef 2014:51)
-    % Who am I and how do I impact the interview
-      % My biographical information
-        % My connection to Louisiana
-          % B. Brown (1988), as a Blanchard, mentioned her Cajun relatives in order to put participants at ease (88-89)
-      % Bell (1984) suggested that interlocutors might adapt their speech in response to "the personal characteristics of their addressees, the general style level of their addressees' speech, and/or their addressees' levels for specific linguistic variables" (167-168)
-        % As far back as Labov (1966/2006), it has been reported that speech may differ when people of different racial backgrounds are talking, such as the African-American woman in the Bronx he interviewed whose speech changed during interruptions from peers compared to when speaking with Labov (67-68)
-        % Poplack (1979/1980/2000) found that the ethnicity of interlocutors with Puerto Ricans in NYC constrained code-switching behavior "probably more than ... any other factor" (220)
-        % Rickford & McNair-Knox (1994) found the race the interviewer to be a primary trigger for style shifting (236)
-        % In terms of eliciting comparable speech data, the important part of this is to control for these factors so that they are more or less consistent form interview to interview
-        % My appearance was consistent between interviews: pants, semi-formal shirts
-          % Following Eckert's (2000) approach to presenting herself as a someone in a youth life stage to reduce being associated with adults by the students (71-73), I did not want to appear too formal nor too young
-            % Indeed, just the fact that I was speaking French but wasn't 60+ threw off many people who then assumed I was a tourist from France who couldn't speak English
-        % My speech, which has always been modeled on Louisiana French norms, did not change between interviews
-          % In contrast, other researchers have noted having to adapt their international French specifically for their fieldwork to put participants at ease (e.g., B. Brown 1988:89-90; Rottet 1995:75-76)
-          % Consistent use of vous with standard verbal inflections
-          % Je, tu, il, elle, on, vous-autres, ils, ça for pronouns
-      % Rottet (1995) believed his presence didn't lead to more formal French styles because speakers were presumably and so would not be able to produce formal styles in French as these styles would be taken up by English (80)
-        % Some of my speakers did indeed show, anecdotally, style shifts
-          % Whether this is characterized as style shifting or code-switching is not of much concern to me as a view the two phenomena as more or less the same while still acknowledging that there is disagreement over this point
-            % Bell (1984) admitted that there is not much difference between the two phenomena (158)
-            % Blom & Gumperz (1972/2000) famously analyzed the variable use of two varieties of Norwegian as cases of code-switching
-            % Benor (2010) suggested, using French and English in Louisiana as an example, that the ethnolinguistic repertoire approach is not suitable when dealing with unrelated languages as establishing a norm onto which features from another repertoire are superimposed is not a clear cut process when the speech varieties do not share many if any features (176-177)
-              % This implicitly sets style construction apart from code-switching
-              % Benor (2010) again discusses as an advantage of her ethnolinguistic repertoire framework the problem of identifying style- or code-switching points as, in her framework, one would simply discuss where greater or fewer repertoire features are being used without regard for the switching location (166-167)
+    Other than ethnographic observations, data for all aspects of this study came from sociolinguistic (\foreign{i.e.}, semi-directed) interviews.
+    Although participants were permitted to take these discussions in any direction they liked, an interview schedule, availabe under Appendix \ref{app:schedule}, was still employed to help maintain comparability between interviews \parencite[pp.~32-33]{baugh_field_1984}.
+    As has been suggested for verifying the effectiveness of questionnaires \parencite[p.~51]{holmes_written_2014}, the schedule was used in a conversation with a non-participant before fieldwork was conducted to identify problem areas to amend and improvements to be made, resulting in a reliable set of modules and questions.
+    The design of the questions and extraneous factors to consider, including the role my own identity may have played during interviews, will be discussed here.
+
+    In terms of linguistic structure, the primary features analyzed in the present study were subject pronouns.
+    This necessitated interview questions that would elicit a sufficient number of tokens of various pronouns as not all pronouns can be expected to appear with the same frequency during a conversation.
+    For instance, 1st and 2nd person subject pronouns have been found to be much more frequent in speech than in writing (\citeauthor{fowler_critical_1979}, \citeyear[p.~201]{fowler_critical_1979}; \citeauthor{herring_oral_1996}, \citeyear[pp.~40-41]{herring_oral_1996}).
+    The frequency of various pronouns was already somewhat understood in this context as a previous pilot study consisting of 30 minute interviews with four Louisianians had suggested that, given consistent rates of pronoun production, as can be seen in Table \ref{tab:pilot_tokens}.
+    No special attention was given to designing questions to elicit 1st person singular subject pronouns as these were expected to occur regularly as indeed they did, but questions about family vacations and activities that participants like to do with friends were used to obtain 1st person plural pronouns.
+    Perhaps the most difficult pronouns to elicit were 2nd person, especially 2nd person plural as almost all interviews were one-on-one discussions and tokens of both T and V forms is 2nd person singular as participants were not expected to switch their linguistic means of addressing me during a single interview.
+    To this end, participants were encouraged to ask me questions during the interview, and translations tasks were also used in some interviews to capture how participants believed different people of different statuses might be addressed.
+    While 3rd person pronouns were not expected to be infrequent, several questions about friends, the work people do where participants live, and characteristics of family members were formulated specifically to elicit these pronouns.
+    Likewise, impersonal, expletive, and demonstrative pronouns were not expected to be particularly infrequent, although demonstrative pronouns did present their own interpretational difficulties to be discussed further in section \ref{sec:pronoun_coding}.
+    Finally, in cases where two participants were interviewed simultaneously, the aim was still to obtain a similar number of pronoun tokens from each person.
+    Indeed, obtaining sufficient data from each person in a group setting is a problem that has been discussed in the literature \parencite[p.~115]{labov_principles_1972}.
+    As such, interviews were extended when multiple people were involved.
+    In some ways, this required greater interview endurance from participants, but they also did not have to speak consistently.
+    Anecdotally, none of my paired participants appeared to grow weary of talking, and in fact at times were surprised at how quickly time had passed.
+
+    \begin{table}[tbhp]
+      \caption{Pronoun token estimates from pilot study data}
+      \label{tab:pilot_tokens}
+      \centering
+      \begin{tabular}{l r l r}
+                &        &         & \\
+        Pronoun & Tokens & Pronoun & Tokens \\
+        \hline
+        1sg     & 3,480  & 1pl     & 480 \\
+        2sg.INF & 1,500  & 2pl     & 60 \\
+        3sg.AF  & 300    & 3pl     & 3,360 \\
+        3sg.AM  & 100    &         & \\
+        3sg.I   & 4,500  &         & \\
+        imp     & 1,860  &         & \\
+                &        &         & \\
+      \end{tabular} \\
+      {\footnotesize INF $\to$ informal; AF $\to$ animate, feminine; AM $\to$ animate, masculine; \\
+      I $\to$ inanimate; imp $\to$ impersonal}
+    \end{table}
+
+    More generally, questions aimed to uncover information about the backgrounds of participants and their social worlds.
+    \citeauthor{labov_social_2006}'s (\citeyear{labov_social_2006}) two classic questions about children's lore and defining a successful man (pp.~92-93) were loosely followed.
+    Participants were asked to talk their childhoods to establish information about their life histories.
+    This line of discussion was quite effective as most were happy to talk at length about their childhoods which was not surprising as \textcite{dajko_but_2014} also reported success with focusing on personal histories in Terrebonne-Lafourche (p.~163).
+    Labov's latter question was converted into asking participants what a Creole is, what a Cajun is, and how they are different or similar.
+    As all identified as either Creole or Cajun, this provided them with an opportunity to reflect on characteristics that they see or hope to see in themselves, although some speakers simply gave textbook-centric responses.
+    These sort of questions naturally led into talking about the places where participants were residing or had resided in the past.
+    Focusing on local area themes has long been considered a way to earn the status of something of an insider to interviewees \parencite[p.~114]{labov_principles_1972}, thus follow-up questions were always used to explore such topics when possible.
+
+    Questions about race and ethnicity as well as those about social networks were asked at the end of each interview.
+    This was done to mitigate any feelings of intrusiveness that these questions could have evoked \parencite[p.~50]{holmes_written_2014}.
+    Besides the potential of engendering a sense of greater solidarity between myself and the participant through the questions I asked by that point in the conversation, there is also linguistic evidence that interviewees in general become more comfortable with interviewers by the later portions of an interview \parencite[p.~43]{douglas-cowie_linguistic_1978}.
+    Despite reminding participants at this point that they did not have to discuss anything that they were not comfortable discussing, no one raised concern.
+    Finally, each interview ended with an offer to answer any questions that participants might have for myself not only to elicit 2nd person pronouns but to remind them that they can contact me at any time with questions or concerns about the study as has been suggested as an ethical practice for questionnaire administration \parencite[p.~51]{holmes_written_2014}.
+
+    As a participant in each interview, factors related to myself and my position relative to the interviewees could impact their speech and responses.
+    Particularly relevant here is how perceptions of the race or ethnicity of one's interlocutor can impact language which has been seen, for example, for code-switching, style shifting, phonetic variables, and morphosyntactic variables (\citeauthor{labov_social_2006}, \citeyear[pp.~67-68]{labov_social_2006}; \citeauthor{poplack_sometimes_2000}, \citeyear[p.~220]{poplack_sometimes_2000}; \citeauthor{rickford_addressee-_1994}, \citeyear[p.~236]{rickford_addressee-_1994}).
+    The intention when approaching interviews was not to attempt to change factors about myself, certainly not those that cannot be changed, but rather to maintain consistency between interviews in how I present myself both physically and verbally.
+    As opposed to \citeauthor{eckert_linguistic_2000}'s (\citeyear{eckert_linguistic_2000}) strategy of appearing youthful when working with high school students (pp.~71-73), I wore pants and semi-formal shirts during all encounters as I did not want to appear too formal nor too young as most of my participants were older than myself.
+    Indeed, the fact that I was speaking French but also under 60 was incongruent with the expectations of many people that I met in the area to the extent that they often assumed I was a tourist from France who in fact could not speak English.
+    % Bell (1984) suggested that interlocutors might adapt their speech in response to "the personal characteristics of their addressees, the general style level of their addressees' speech, and/or their addressees' levels for specific linguistic variables" (167-168)
+
+    
+      % My speech, which has always been modeled on Louisiana French norms, did not change between interviews
+        % In contrast, other researchers have noted having to adapt their international French specifically for their fieldwork to put participants at ease (e.g., B. Brown 1988:89-90; Rottet 1995:75-76)
+        % Consistent use of vous with standard verbal inflections
+        % Je, tu, il, elle, on, vous-autres, ils, ça for pronouns
+      % My connection to Louisiana
+        % B. Brown (1988), as a Blanchard, mentioned her Cajun relatives in order to put participants at ease (88-89)
+    % Rottet (1995) believed his presence didn't lead to more formal French styles because speakers were presumably and so would not be able to produce formal styles in French as these styles would be taken up by English (80)
+      % Some of my speakers did indeed show, anecdotally, style shifts
+        % Whether this is characterized as style shifting or code-switching is not of much concern to me as a view the two phenomena as more or less the same while still acknowledging that there is disagreement over this point
+          % Bell (1984) admitted that there is not much difference between the two phenomena (158)
+          % Blom & Gumperz (1972/2000) famously analyzed the variable use of two varieties of Norwegian as cases of code-switching
+          % Benor (2010) suggested, using French and English in Louisiana as an example, that the ethnolinguistic repertoire approach is not suitable when dealing with unrelated languages as establishing a norm onto which features from another repertoire are superimposed is not a clear cut process when the speech varieties do not share many if any features (176-177)
+            % This implicitly sets style construction apart from code-switching
+            % Benor (2010) again discusses as an advantage of her ethnolinguistic repertoire framework the problem of identifying style- or code-switching points as, in her framework, one would simply discuss where greater or fewer repertoire features are being used without regard for the switching location (166-167)
     % Other factors that could impact the way participants behave during an interview
       % Blom & Gumperz (1972/2000) highlighted the impact of participants on speech, as well, but also indicated the importance of time and setting (114-115)
       % It has been suggested that topic and setting are the "main nonaudience factors in the speech situation" (Bell 1984:178)
