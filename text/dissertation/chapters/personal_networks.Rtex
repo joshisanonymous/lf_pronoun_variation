@@ -246,6 +246,7 @@
     \subsection{Previous work on relationships between personal networks and language in Louisiana}
   \section{Methods}
     \subsection{Data collection}
+      \label{sec:network_collection}
       % Name generator questions
         % This is basically how to ask someone who the people they interact with are, which there are many ways to do
         % The most common name generator is that used for the GSS: "From time to time, most people discuss important matters with other people. Looking back over the last six months - who are the people with whom you discussed matters important to you? Just tell me their first names or initials" (Stark 2018:244)
