@@ -30,6 +30,8 @@ participant_raised <- subset(parishes,
 participant_residence <- subset(parishes,
   name == "Vermilion Parish" | name == "Acadia Parish" | name == "St. Landry Parish" |
   name == "Lafayette Parish" | name == "Saint Martin Parish")
+focus_area <- subset(parishes,
+  name == "St. Landry Parish" | name == "Lafayette Parish" | name == "Saint Martin Parish")
 major_cities <- subset(louisiana$osm_multipolygons, admin_level == "8" &
                        name == "Lafayette" | name == "New Orleans" | name == "Baton Rouge")
 major_cities_coords <- data.frame(
@@ -47,7 +49,7 @@ cities <- geom_text(
   data = major_cities,
   aes(label = name),
   y = major_cities_coords$y + 0.05, x = major_cities_coords$x + 0.175,
-  size = 5, fontface = "bold")
+  size = 4, fontface = "bold")
 
 mapacadiana <- mapla +
   geom_sf(data = acadiana,
@@ -66,6 +68,10 @@ mapraised <- mapla +
           fill = color_key[5]) +
   cities
 
+mapraisedonly <- mapla +
+  geom_sf(data = participant_raised,
+          fill = color_key[3])
+
 mapresidence <- mapla +
   geom_sf(data = acadiana,
           fill = color_key[2]) +
@@ -76,3 +82,13 @@ mapresidence <- mapla +
   geom_sf(data = major_cities,
           fill = color_key[5]) +
   cities
+
+mapresidenceonly <- mapla +
+  geom_sf(data = participant_residence,
+          fill = color_key[1])
+
+mapfocus <- mapla +
+  geom_sf(data = acadiana,
+          fill = color_key[2]) +
+  geom_sf(data = focus_area,
+          fill = color_key[4])

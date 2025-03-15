@@ -55,6 +55,16 @@ pro3plByRaceBar <- ggplot(
   scale_fill_manual(values = color_key[5:7]) +
   labs(x = "Pronom", y = "Compte")
 
+# Location graph --------------------------------------------------------------
+parishBar <- ggplot(
+  parishLong,
+  aes(x = Parish, y = Count, fill = Group)) +
+    geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
+  scale_fill_manual(values = c(color_key[3], color_key[1])) +
+  labs(fill = NULL) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1.05))
+
 # Network graphs --------------------------------------------------------------
 # # French usage by alter type (i.e., coreness)
 # coreByFrBar <- ggplot(
@@ -86,3 +96,12 @@ pro3plByRaceBar <- ggplot(
 # ) +
 #   geom_boxplot() +
 #   theme_bw()
+
+# Combined plots --------------------------------------------------------------
+parishBarMap <- ggarrange(
+  ggarrange(
+    mapraisedonly, mapresidenceonly,
+    ncol = 2
+  ), parishBar,
+  nrow = 2
+)

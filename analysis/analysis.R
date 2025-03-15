@@ -12,11 +12,13 @@
 library(ggplot2)
 library(ggtext)
 library(ggh4x)
+library(ggpubr)
 library(reshape2)
 library(mclogit)
 library(lme4)
 library(car)
 library(dplyr)
+library(lubridate)
 source("functions.R")
 
 ######################
@@ -55,6 +57,18 @@ tokens3plGender$ProType <- recode_factor(
   "3pl.IF" = "3pl.F",
   "3pl.IM" = "3pl.M"
 )
+
+parishLong <- rbind(
+  data.frame(
+    "Group" = "Raised",
+    table(participants$`Raised (parish)`)
+  ),
+  data.frame(
+    "Group" = "Residence",
+    table(participants$`Residence (parish)`)
+  )
+)
+colnames(parishLong) <- c("Group", "Parish", "Count")
 
 # Remove tokens deemed not useful for analyses
 tokens$ProType <- recode_factor(
