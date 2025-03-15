@@ -11,6 +11,14 @@
     The presence of self-identified Creoles today is such that Lafayette Parish and St Martin Parish together have been described as a ``Creole hearth'' \parencite[p.~11]{landry_creole_2016}.
     To have a better understanding of the people who reside in the target area, it will be important to understand its cultural and economic development.
 
+    \begin{figure}[tbhp]
+      \caption{Parishes of interest in Acadiana}
+      \label{fig:mapfocus}
+      <<fig.asp = 0.5>>=
+      mapfocus
+      @
+    \end{figure}
+
     European settlement of the Attakapas began in the mid-18th century.
     Covering the modern-day parishes of Lafayette, St Martin, Iberia, St Mary, and Vermilion, the Attakapas Post was established by the French in 1756 \parencite[p.~12]{landry_creole_2016}.
     The division of the region into these parishes started around the time that Spain took over in 1768 when was then the New Orleans district, which included the Attakapas, was divided into 21 parishes for religious administration.
@@ -225,14 +233,52 @@
 
   \section{Participants}
     \label{sec:participants}
-    % Not only were participants anonymized but also non-participants and even famous or historical figures
-      % Ethical data collection can be an issue when collecting information about non-participants as these people are not providing consent (Stark 2018:244)
+    Ultimately, \Sexpr{nrow(participants)} were interviewed for this study, totalling \Sexpr{round(sum(participants$`Total Length`), 1)} hours of speech data.
+    Both their names and the names of non-participants were all anonymized in the speech data and in the social network data to deter them from being identified.
+    Given names were anonymized separately from family names and both were anonymized consistently across all interviews so that if a hypothetical John Smith was anonymized as Nick Jones then any other John would be anonymized as Nick and any other Smith would be anonymized as Jones.
+    Geneology was a consistent topic of discussion when bringing up race and ethnicity, as was the discussion of distant relatives in general.
+    It was also not uncommon for one participant to know another participant, without realizing that the latter was also a participant of course.
+    Family names mentioned in interviews were at times related to mentioned toponyms, in which case the family names were anonymized but the toponyms were not.
+    While this connection says something notable about the background of the mentioned individuals, it was desirable to use real place names as this proved to be an important social factor.
+    Additionally, anonymizing either both or neither of the family-toponym pairs increased the risk of identification too much.
+    This general approach to anonymizing helped keep interpersonal connections transparent with little to no additional risk of de-identifying interviewees.
+    The only person with with access to the anonymization key is myself.
+    Finally, while race and ethnicity were the primary social variables of interest, information related to several social variables was collected on interviewees including childhood residence, current residence, birth year, F\&C background, socioeconomic class, and gender.
+    Personal social network information was also gathered, but that will be discussed in section \ref{sec:network_collection}.
+    These variables were used for statistical analyses as well as to situate the participants in the social world of the Lafayette area.
+    % Ethical data collection can be an issue when collecting information about non-participants as these people are not providing consent (Stark 2018:244)
+
+    \begin{figure}[tbhp]
+      \caption{Arnaudville's welcome sign}
+      \label{fig:deux_bayous}
+      % \includegraphics[scale=0.5]{}
+    \end{figure}
+
+    Each participant was asked what the name of the town in which they were raised is as well as the town in which they currently reside.
+    Previous studies in Louisiana typically looked at NORMs, meaning people who would answer the same way for both these questions.
+    The norm among my participants was that many no longer lived in their childhood towns but most currently reside no more than one parish away, although several participants had travelled considerably for pleasure, work, school, or through the military.
+    Not only was Lafayette the only town named by enough participants to figure into statistical models but this was also more or less the case for parishes as Lafayette Parish was the only one named frequently enough for where participants currently resided as well as St Martin and Acadia for where they were raised, leaving location useful only for descriptive statistics.
+    Two towns, Eunice and Arnaudville, are on the border of two parishes: St Landry and Acadia for the former and St Landry and St Martin for the latter.
+    Arnaudville in fact promotes itself as something of a border town, not through reference to the two parishes but rather through reference to the two bayous the meet there: Bayou Têche and Bayou Fusilier.
+    A rather large sign at a prominent intersection announces, ``Welcome / Deux Bayous / Arnaudville, LA,'' as seen in Figure \ref{fig:deux_bayous}.
+    As for Eunice, one informant expressed to me that the residents did not want to be considered as part of Acadia.
+    Both were coded as St Landry Parish as most of their denser neighborhoods are situated on the St Landry side of the border.
+    A comparison between the parishes where participants were raised and where they lived at the time of the interviews can be seen in Figure \ref{fig:locations}.
     % Location
       % Payne (1980) found that "children do not freely restructure and/or reoganize their grammars up to the age of 14 but that they do have the ability to add lower level rules" in her analysis of the acquisition of the vowel system of King of Prussia (175)
         % The linguistic variables used here do not preclude changes after moving even according to Payne's statement
       % Urbanity vs rurality
         % Eckert (2000) found that urban and suburban variants could have different distributions (169)
         % Rural networks tend towards density and multiplexity, whereas urban networks tend towards spareness and uniplexity, although old working-class areas tend to function as "urban villages," essentially rural areas within urban areas (Turner 1967 [I think], as cited in L. Milroy 1980/1987:137)
+
+    \begin{figure}[tbhp]
+      \caption{Parishes where participants were raised (left) and resided currently (right)}
+      \label{fig:locations}
+      <<fig.asp = 0.75>>=
+      parishBarMap
+      @
+    \end{figure}
+
     % Age
       % In many studies, age is binned
         % Horvath & D. Sankoff (1987) pointed out that even categories that seem basic to Westerners such as "'children,' 'adolescents,' 'young adults,' and so forth" "are quite likely to be culturally/historically specific categories, not universal" (183)
