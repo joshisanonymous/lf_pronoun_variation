@@ -61,6 +61,9 @@ colnames(participants) <- c("Name", "Recorded", "Birth Year", "Raised (town)",
 participants <- droplevels(subset(participants, Ethnicity != "French" &
                                                 Name != "Latoya Pomier"))
 
+# Convert times to something calculable
+participants$`Total Length` <-  period_to_seconds(hms(participants$`Total Length`))/60/60
+                 
 # Collapse factor levels
 participants$`French Background` <- recode_factor(
   participants$`French Background`,
