@@ -159,7 +159,15 @@
       I $\to$ inanimate; imp $\to$ impersonal}
     \end{table}
 
-    More generally, questions aimed to uncover information about the backgrounds of participants and their social worlds.
+    The translation task, provided in Appendix \ref{app:schedule}, was meant to represent a hypothetical situation that was relatively believable, involved conversation subjects that would be familiar to many Louisianians, and involved a wide variety of social relations through which participants would speak.
+    The setting was a meal at a restauraant with three generations of family eating together.
+    While this would be a perfectly typical event, what was not typical was that participants were told to imagine that the staff of the restaurant also all speak F\&C, a fact that most participants acknowledged without prompting.
+    In particular, this facilitated several decisions about forms of address: waiter to diners, diners to waiter, children to adults family, adult family to children, and adult family to each other.
+    The imagined conversations included discussion of weather, food, dance classes, and fishing.
+    It was common for interviewees to draw blanks for the word \lexi{fishing rod}, using neither \lexi{canne à pêche} nor \lexi{perche}, both documented in Louisiana \parencite{valdman_dictionary_2010} and in Hexagonal French where the latter is more likely to be used for a type of fish or a pole vaulter's pole.
+    Likewise, a word for \lexi{appetizer} was absent from all of my participants' F\&C lexicons.
+
+    More generally, interview questions aimed to uncover information about the backgrounds of participants and their social worlds.
     \citeauthor{labov_social_2006}'s (\citeyear{labov_social_2006}) two classic questions about children's lore and defining a successful man (pp.~92-93) were loosely followed.
     Participants were asked to talk their childhoods to establish information about their life histories.
     This line of discussion was quite effective as most were happy to talk at length about their childhoods which was not surprising as \textcite{dajko_but_2014} also reported success with focusing on personal histories in Terrebonne-Lafourche (p.~163).
@@ -279,80 +287,102 @@
       @
     \end{figure}
 
-    % Age
-      % In many studies, age is binned
-        % Horvath & D. Sankoff (1987) pointed out that even categories that seem basic to Westerners such as "'children,' 'adolescents,' 'young adults,' and so forth" "are quite likely to be culturally/historically specific categories, not universal" (183)
-        % This has been described as "at best dubious statistical practice" (D. Johnson 2009:362)
-        % Nevertheless, it can be justified
-          % Sharma (2011) separated her British Asian participants according to being born up to the late 1980s due to this being considered a hostile anti-immigrant period or being born after this period (466-467)
-      % In the present study, binning is not used as there aren't clear, relevant social or political events that could be used to delineate time periods
-    % French background
-      % One's identity may be linked to how one learns a declining language
-        % Native speakers of Breton were not found to find the language important for their identities whereas activists who learned in school very much did find it important (Jones 1998, as cited in Lindner 2008:26-27)
-      % Language choice patterns may be used to define the linguistic background of bilinguals, which all participants in in this study are
-        % In the Mougeon & Beniak corpus from Ontario, speakers were divided into "locuteurs non restreints" (speak French in all situations), "locuteurs semi-restreints", and "locuteurs restreints" (prefer English) Nadasdi et al. (2004)
-        % This might seems applicable to Louisiana, and while there is some leeway to "choose" which language to use in public situations, it's not a great deal of leeway
-        % From the other direction, language background has been shown to impact code-switching patterns
-          % Among NYC Puerto Ricans, those who immigrated later and so learned English later used less intra-sentential switching, meaning they switched between Spanish and English more as two discrete systems whereas those who learned English earlier intermixed the two systems more (Poplack 1979/1980/2000:233)
-      % Language proficiency
-        % Voeglin & Voeglin (1977) divided speakers into 4 categories based on proficiency: 1) speakers of complex sentences, 2) speakers of simple sentences, 3) inserters (of isolated lexical items), and 4) comprehenders (as cited in Rottet 1995:37)
-        % Sasse (1992) divided proficiency into 1) rusty speakers (formerly fluent who lost it from lack of use) and 2) semi-speakers (incomplete acquisition) (as cited in Rottet 1995:36)
-        % Dressler (1977) divided proficiency into 4 levels: 1) healthy speakers (fully fluent), 2) preterminal speakers (reduced but able to transmit to children), 3) terminal speakers (reduced and can't transmit, split into "stronger" and "weaker" forms), and 4) rememberers (isolated lexical items and fixed phrases) (as cited in Rottet 1995:36)
-        % Dorian (1981) divided proficiency into 3 levels: older fluent speakers, younger fluent speakers, semi-speakers (as cited in Rottet 1995:33)
-          % Rottet (1995) followed this scheme (163)
-      % One's language background may be relevant to their proficiency, but proficiency itself is not considered in this study for various reasons
-        % Rottet's (1995) did find proficiency to be meaningful for several linguistic variables
-          % But he had to measure proficiency subjectively (Rottet 1995:72)
-      % Language acquisition time and manner
-        % A late bilingual has been defined as one who has learned a second language in their teenage years or in adulthood (Winskel 2013:1091)
-        % Non-native French speakers in Montreal in 1993 acquired native patterns of (l)-deletion, (t,d) affrication, [r] ~ [ʁ] production, and the verb 'to live somewhere' with varying degrees of success, using these features in the correct structural contexts though generally not at the rates of native speakers (G. Sankoff 2015:41-44)
-      % It should be mentioned that some speakers seemed to have experienced language attrition
-    % Socioeconomic class (divided into occupation and education here)
-      % Examples of socioeconomic class being important for language variation
-        % The classic example is Labov's (1966/2006) department store study that found differences in /r/ using stores as proxies for socioeconomic class (46-49)
-        % In Quebec City in the 1960s, children in blue-collar families used vous with parents, in professional families tu, and in white-collar families both variably (Lambert 1967:616)
-        % Use of [ʁ] in Montreal in 1971 was greater for those in higher social classes (G. Sankoff 2015:31)
-        % Lexical variants of 'automobile' in the French of Estrie, Quebec were constrained by type of occupation in the 1970s (Martel 1984, as cited in Nadasdi et al. 2004:92)
-        % Working class French speakers in Montreal were more likely to delete que (Cedergren & D. Sankoff 1974:349)
-      % One's speech patterns can impact their ability to get into certain occupational positions
-        % In the US, this has been true for Chinese, Indian, and Mexican accents (Timming 2017:416-422) as well as Japanese but not [probably standard] French accents (Hosoda & Stone-Romero 2010, as cited in Timming 2017:412)
-        % Jerry Pierre Quintero joked about a similar difficulty with his speech in English when he first looked for work
-      % Ways of conceptualizing and measuring socioeconomic class
-        % Wright (2015) argued that there are three approaches to social class: the individual attributes approach, the opportunity-hoarding approach, and the domination and exploitation approach (3)
-        % Some indicators of membership in the middle-class are income based (Massey & Fischer 1999; Adelman 2004; Haynes 2001; Lacy 2007) while others are occupation based (Landry 1987, all as cited in Britt & Weldon 2015:3)
-        % In sociolinguistics
-          % Labov (1966/2006) used occupation, education, and income early on in NYC (134-135)
-          % Eckert (2000) looked at the property values, education, and occupation of students' parents as an indicator of the socioeconomic class of students (104-105)
-            % Eckert (2000) suggested that a middle class/working class distinction was recapitulated in the jock/burnout groups at Belten High (2/107-108)
-          % Education has the problem that educational attainment does not carry the same social implications across time and space (Horvath & D. Sankoff 1987:183)
-            % Some of my participants talked about school only going up to 11th grade when they were kids
-          % Often simply occupation
-            % Trudgill (1974) argued that occupation is the primary indicator for socioeconomic class because even affluent manual laborers would likely retain the culture of manual laborers (as cited in Dodsworth 2011:193)
-            % Based essentially on occupation type, dividing people in Estate Class (fieldworkers) and Non-Estate Class (foremen and those unassociated with the estates) was meaningful socially and in terms of language variation in Guyana (Rickford 1986:216-217)
-            % In Philadelphia, occupation was a better predictor of socioeconomic class than other indicators, but a combination of indicators was the best predictor (Labov 2001,as cited in Dodsworth 2011:193)
-            % Employment was the best indicator of presitge in Cusco, Peru (Van den Berghe & Primov 1977, as cited in Delforge 2012:321)
-            % As has long been noted, it's simply easier to obtain occupational information than other indicators of socioeconomic class Macaulay (1977, as cited in Dodsworth 2011:193)
-            % But occupation has several problems
-              % D. Sankoff & Laberge (1978 "Linguistic") pointed out that occupation is problematic because some individuals don't have occupations, occupation is static and so misses changes over time, ranking occupations against each other is subjective, and occupations aren't always useful for cross-cultural comparisons (240)
-                % Among my own participants, many were retired, several had changed occupations a number of times throughout their lives, and some occupations were hard to classify hierarchically
-              % Relatedly, traditional approaches to socioeconomic class in general tended to classify women and children according to their husbands' or fathers' socioeconomic classes (Horvath & D. Sankoff 1987:182-183)
-          % Linguistic marketplace
-            % D. Sankoff & Laberge (1978 "Linguistic") argued that a better measure was needed because "teachers, actors, and receptionists tend to speak a more standard variety than other people of similar social and economic position" (239)
-            % D. Sankoff & Laberge (1978 "Linguistic") instead measured socioeconomic class via speakers' use of a "legitimized language" (239)
-              % This was more predictive than other factors when looking at the variables avoir/être in passé composé, relative pronouns without antecedents, and on/ils in Montreal (246)
-            % The linguistic marketplace is not operationalized as Sankoff & Laberge proposed, however, rather it is referenced conceptually to discuss professions (e.g., Mechler & Buchstaller 2019; Regan 2020)
-              % Or they partially operationalize it without mentioning it, as Baranowski (2017) did when using occupational history rather than just occupation as an indicator of socioeconomic class (303)
-            % King (2000) used a linguistic marketplace approach as she explained that socioeconomic class in small non-urban communities typically "yields a small 'upper' class, perhaps a middle group and a very large, undifferentiated 'lower' class in such communities" (55)
-        % Regardless of how it's defined or measured, it's important to remember that socioeconomic class is not a meaningful social variable in all communities
-          % That is not to say that socioeconomic classes do not exist
-            % It has been found in some communities that links within a social class are generally much more multiplex than links that traverse social class (Bott 1971; Cubitt 1973; Frankenberg 1969, as cited in L. Milroy 1980/1987:52)
-              % This suggests a measurable reality for socioeconomic class, however...
-          % L. Milroy (1980/1987) argued that socioeconomic classes "reflect reality to a certain extent" but that the segmentations into classes such as working class "do not necessarily have any kind of objective, or even intersubjective, reality" (14)
-          % N. Coupland (2016) suggested that a breakdown in social class would impact language in that there would be dialect leveling between the middle class and working class, and values associatied with standard and vernacular would be less significant (420-421)
-        % One can also simply exist outside of the the industrial class structure, as in Lloyd's (1979) marginals (as cited in Milroy, L. 1980/1987:73)
-      % Homogeneity of socioeconomic class in Louisiana
-        % B. Brown (1988) didn't used socioeconomic class in Pierre Part and Hessmer because she claimed people there were too socioeconomically homogenous for it to be useful (81-82)
-        % Rottet (1995) said that "[i]t is clear that differences in SEC exist" in Terrebonne-Lafourche, Indians being poorer than Cajuns, but that was a recent development at the time (64)
+    For most of the participants, their childhood experiences in their hometowns came during to immediately after segregation ended, all but two being over 60.
+    Their birth years ranged from \Sexpr{min(participants$`Birth Year`)} to \Sexpr{max(participants$`Birth Year`)}.
+    A common approach to incorporating age into statistical modeling in sociolinguistics has been to bin ages together into categories.
+    However, those categories are ``likely to be culturally/historically specific categories, not universal'' \parencite[p.~183]{horvath_delimiting_1987} that have been described as constituting ``at best dubious statistical practice'' \parencite[p.~362]{johnson_getting_2009}, although it can be useful in cases where significant significant historical events delineate a clear boundary representing cultural shifts relevant to the study \parencite[\foreign{e.g.},][pp.~466-467]{sharma_style_2011}.
+    In th present study, the Civil Rights Act of 1964 could function as just such a culturally relevant historical event save for the lack of balance between those born before and after the 1960s.
+    As such, birth years were not binned but were rather treated as a continuous variable.
+    
+    Linguistically, another culturally relevant historical event that could have demarcated different generations was the establishment of CODOFIL in 1968 as this marked the beginning of vigorous efforts to establish French-language classes and French immersion programs throughout South Louisiana.
+    While, again, age could not be binned according to events of the 1960s, the process through which participants acquired or learned F\&C as well as what sort of institutional exposure they had was recorded as their F\&C background.
+    As discussed in section \ref{sec:sampling}, previous descriptive work on Louisiana has generally explicitly excluded speakers with significant experience with institutionalized varieties of French and implicitly non-native speakers, hence the question of participants' language acquisition processes was meaningless.
+    These studies therefore either did not take language background into account \parencite[\foreign{e.g.},][]{baronian_influence_2005, brown_pronominal_1988, klingler_if_2003} or took it into account as language proficiency \parencite[\foreign{e.g.},][]{carmichael_gender_2007, rottet_language_1995}.
+    These latter cases gave rise to some methodological issues, chief among them being how to measure proficiency, especially when dealing with heritage languages.
+    \textcite{rottet_language_1995}, as an example, relied on the speaker's ability to speak about hypotheticals or whether other speakers considered their speech to be strange, neither criteria being applied rigorously (p.~72).
+    Proficiency was therefore not measured here.
+    Speakers' F\&C background, on the other hand, consisted of how they first acquired F\&C, be it naturalistically, through personal independent study, or through educational institutions, and whether they had any formal instruction in F\&C or any other French-related language.
+    Only one participant, Samantha Primeaux, acquired her language through school instruction, a product of immersion schooling in Lafayette in the early 2000s, and only two acquired their language through personal efforts, Judy Soileau Courtade and Austin Roy.
+    Judy, born in \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Birth Year"]} in \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Raised (parish)"]} Parish, had significant exposure to F\&C in her community but explained that she did not begin to really use the language until she was married as her husband spoke F\&C. % Reverify that this is in fact how she learned French
+    The other, Austin, was born in \Sexpr{participants[participants$Name == "Austin Roy", "Birth Year"]}, and so did not receive the same sort of exposure but had access to significantly better resources for learning that have been developed and made available over the last 50 years such as grammars, dictionaries, and even online recordings of speakers.
+    He was motivated by a strong interest in local culture and so targetted a local variety of F\&C.
+    Some of the other participants had taken French courses in high school or college, but all had learned F\&C first and foremost through normal first language acquisition processes.
+    This variable thus is not appropriate for statistical modeling but descriptive statistics will be provided.
+    It should also be noted that one participant, Laura Laviolette, seemed to have experienced some language attrition through lack of use of F\&C.
+    Others claimed to not speak F\&C often, Gene Delcambre and Floyd Kerry, or expressed some uncertainty about their speech, Steven Marcel, but all were able to hold conversations perfectly well.
+    In Laura's case, there were significant pauses for vocabulary and repeated model phrases along with her own admission that speaking F\&C took some effort on her part.
+    % One's identity may be linked to how one learns a declining language
+      % Native speakers of Breton were not found to find the language important for their identities whereas activists who learned in school very much did find it important (Jones 1998, as cited in Lindner 2008:26-27)
+    % Language choice patterns may be used to define the linguistic background of bilinguals, which all participants in this study are
+      % In the Mougeon & Beniak corpus from Ontario, speakers were divided into "locuteurs non restreints" (speak French in all situations), "locuteurs semi-restreints", and "locuteurs restreints" (prefer English) Nadasdi et al. (2004)
+      % This might seems applicable to Louisiana, and while there is some leeway to "choose" which language to use in public situations, it's not a great deal of leeway
+      % From the other direction, language background has been shown to impact code-switching patterns
+        % Among NYC Puerto Ricans, those who immigrated later and so learned English later used less intra-sentential switching, meaning they switched between Spanish and English more as two discrete systems whereas those who learned English earlier intermixed the two systems more (Poplack 1979/1980/2000:233)
+    % Language proficiency
+      % Voeglin & Voeglin (1977) divided speakers into 4 categories based on proficiency: 1) speakers of complex sentences, 2) speakers of simple sentences, 3) inserters (of isolated lexical items), and 4) comprehenders (as cited in Rottet 1995:37)
+      % Sasse (1992) divided proficiency into 1) rusty speakers (formerly fluent who lost it from lack of use) and 2) semi-speakers (incomplete acquisition) (as cited in Rottet 1995:36)
+      % Dressler (1977) divided proficiency into 4 levels: 1) healthy speakers (fully fluent), 2) preterminal speakers (reduced but able to transmit to children), 3) terminal speakers (reduced and can't transmit, split into "stronger" and "weaker" forms), and 4) rememberers (isolated lexical items and fixed phrases) (as cited in Rottet 1995:36)
+      % Dorian (1981) divided proficiency into 3 levels: older fluent speakers, younger fluent speakers, semi-speakers (as cited in Rottet 1995:33)
+        % Method used by Rottet (1995)
+      % Rottet's (1995) did find proficiency to be meaningful for several linguistic variables
+    % Language acquisition time and manner
+      % A late bilingual has been defined as one who has learned a second language in their teenage years or in adulthood (Winskel 2013:1091)
+      % Non-native French speakers in Montreal in 1993 acquired native patterns of (l)-deletion, (t,d) affrication, [r] ~ [ʁ] production, and the verb 'to live somewhere' with varying degrees of success, using these features in the correct structural contexts though generally not at the rates of native speakers (G. Sankoff 2015:41-44)
+
+    For some participants, their occupation was a source of maintenance for their F\&C.
+    Of the six teachers who were interviewed, at least four taught French.
+    Additionally, Errol Stoufle explained that his work as a parish assessor required him to speak F\&C to communicate with some members of the public.
+    As occupation can function as a proxy for socioeconomic class, it would therefore not be unreasonable to expect it to be a meaningful factor in linguistic behavior, especially in light of the oil industry being commonly cited as a source of anglification (see sections \ref{sec:fc_status} and \ref{sec:location}).
+    Neither social class nor more specifically socioeconomic class were considered in previous work on Louisiana.
+    \textcite{brown_pronominal_1988} claimed that the people of Pierre Part (Assumption Parish) and Hessmer (Avoyelles Parish) were socioeconomically homogenous and so could not be analyzed through such a lens (pp.~81-82).
+    In Terrebonne-Lafourche, \textcite{rottet_language_1995} explained that ``[i]t is clear that differences in SEC exist'' but that this was a recent development there and therefore not yet useful (p.~64).
+    Based on the wide breadthe of occupations held by my participants, that statement no longer applies if it ever did for those in the Lafayette area in the first place.
+    Occupation was used to represent socioeconomic class despite known critiques of this approach \parencite{sankoff_linguistic_1978}.
+    Indeed, many of the participants in the current study were retired, several had changed occupations a number of times throughout their lives, and some occupations were hard to classify hierarchically.
+    
+    % Examples of socioeconomic class being important for language variation
+      % The classic example is Labov's (1966/2006) department store study that found differences in /r/ using stores as proxies for socioeconomic class (46-49)
+      % In Quebec City in the 1960s, children in blue-collar families used vous with parents, in professional families tu, and in white-collar families both variably (Lambert 1967:616)
+      % Use of [ʁ] in Montreal in 1971 was greater for those in higher social classes (G. Sankoff 2015:31)
+      % Lexical variants of 'automobile' in the French of Estrie, Quebec were constrained by type of occupation in the 1970s (Martel 1984, as cited in Nadasdi et al. 2004:92)
+      % Working class French speakers in Montreal were more likely to delete que (Cedergren & D. Sankoff 1974:349)
+    % One's speech patterns can impact their ability to get into certain occupational positions
+      % In the US, this has been true for Chinese, Indian, and Mexican accents (Timming 2017:416-422) as well as Japanese but not [probably standard] French accents (Hosoda & Stone-Romero 2010, as cited in Timming 2017:412)
+      % Jerry Pierre Quintero joked about a similar difficulty with his speech in English when he first looked for work
+    % Ways of conceptualizing and measuring socioeconomic class
+      % Wright (2015) argued that there are three approaches to social class: the individual attributes approach, the opportunity-hoarding approach, and the domination and exploitation approach (3)
+      % Some indicators of membership in the middle-class are income based (Massey & Fischer 1999; Adelman 2004; Haynes 2001; Lacy 2007) while others are occupation based (Landry 1987, all as cited in Britt & Weldon 2015:3)
+      % In sociolinguistics
+        % Labov (1966/2006) used occupation, education, and income early on in NYC (134-135)
+        % Eckert (2000) looked at the property values, education, and occupation of students' parents as an indicator of the socioeconomic class of students (104-105)
+          % Eckert (2000) suggested that a middle class/working class distinction was recapitulated in the jock/burnout groups at Belten High (2/107-108)
+        % Education has the problem that educational attainment does not carry the same social implications across time and space (Horvath & D. Sankoff 1987:183)
+          % Some of my participants talked about school only going up to 11th grade when they were kids
+        % Often simply occupation
+          % Trudgill (1974) argued that occupation is the primary indicator for socioeconomic class because even affluent manual laborers would likely retain the culture of manual laborers (as cited in Dodsworth 2011:193)
+          % Based essentially on occupation type, dividing people in Estate Class (fieldworkers) and Non-Estate Class (foremen and those unassociated with the estates) was meaningful socially and in terms of language variation in Guyana (Rickford 1986:216-217)
+          % In Philadelphia, occupation was a better predictor of socioeconomic class than other indicators, but a combination of indicators was the best predictor (Labov 2001,as cited in Dodsworth 2011:193)
+          % Employment was the best indicator of presitge in Cusco, Peru (Van den Berghe & Primov 1977, as cited in Delforge 2012:321)
+          % As has long been noted, it's simply easier to obtain occupational information than other indicators of socioeconomic class Macaulay (1977, as cited in Dodsworth 2011:193)
+          % But occupation has several problems
+            % D. Sankoff & Laberge (1978 "Linguistic") pointed out that occupation is problematic because some individuals don't have occupations, occupation is static and so misses changes over time, ranking occupations against each other is subjective, and occupations aren't always useful for cross-cultural comparisons (240)
+              % Among my own participants, many were retired, several had changed occupations a number of times throughout their lives, and some occupations were hard to classify hierarchically
+            % Relatedly, traditional approaches to socioeconomic class in general tended to classify women and children according to their husbands' or fathers' socioeconomic classes (Horvath & D. Sankoff 1987:182-183)
+        % Linguistic marketplace
+          % D. Sankoff & Laberge (1978 "Linguistic") argued that a better measure was needed because "teachers, actors, and receptionists tend to speak a more standard variety than other people of similar social and economic position" (239)
+          % D. Sankoff & Laberge (1978 "Linguistic") instead measured socioeconomic class via speakers' use of a "legitimized language" (239)
+            % This was more predictive than other factors when looking at the variables avoir/être in passé composé, relative pronouns without antecedents, and on/ils in Montreal (246)
+          % The linguistic marketplace is not operationalized as Sankoff & Laberge proposed, however, rather it is referenced conceptually to discuss professions (e.g., Mechler & Buchstaller 2019; Regan 2020)
+            % Or they partially operationalize it without mentioning it, as Baranowski (2017) did when using occupational history rather than just occupation as an indicator of socioeconomic class (303)
+          % King (2000) used a linguistic marketplace approach as she explained that socioeconomic class in small non-urban communities typically "yields a small 'upper' class, perhaps a middle group and a very large, undifferentiated 'lower' class in such communities" (55)
+      % Regardless of how it's defined or measured, it's important to remember that socioeconomic class is not a meaningful social variable in all communities
+        % That is not to say that socioeconomic classes do not exist
+          % It has been found in some communities that links within a social class are generally much more multiplex than links that traverse social class (Bott 1971; Cubitt 1973; Frankenberg 1969, as cited in L. Milroy 1980/1987:52)
+            % This suggests a measurable reality for socioeconomic class, however...
+        % L. Milroy (1980/1987) argued that socioeconomic classes "reflect reality to a certain extent" but that the segmentations into classes such as working class "do not necessarily have any kind of objective, or even intersubjective, reality" (14)
+        % N. Coupland (2016) suggested that a breakdown in social class would impact language in that there would be dialect leveling between the middle class and working class, and values associatied with standard and vernacular would be less significant (420-421)
+      % One can also simply exist outside of the the industrial class structure, as in Lloyd's (1979) marginals (as cited in Milroy, L. 1980/1987:73)
+
     % Gender
       % Gender has long been seen as an impactful social factor
         % The "double bind" that women experience is that "[b]ehavior that satisfies what is expected of her as a woman disqualifies her in the marketplace" (R. Lakoff, as cited in Eckert & McConnell-Ginet:475)
@@ -370,6 +400,7 @@
         % Sharma (2011) found that the typical result of women orienting more towards prestige forms was reversed in her study of British Asians in London (465)
         % Nadasdi et al. (2004) found among French speakers in Estrie, Ontario in the 1970s that women preferred "auto" and dispreferred "char" whereas men showed the opposite pattern (98)
         % Women used more Standard English features in Gullah than men (Nichols 1976, as cited in Weldon 2003:49)
+
     % Racial coding
       % Racial labels can be complicated even situations where multiraciality is not prominent
         % Becker's (2014) case study participant, Lisa, didn't like the term African-American because it collapsed many communities and cultures into being simply African (47)
