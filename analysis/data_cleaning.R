@@ -52,7 +52,7 @@ tokens$PredType <- factor(tokens$PredType,
 # Fix headers
 colnames(participants) <- c("Name", "Recorded", "Birth Year", "Raised (town)",
                             "Raised (parish)", "Residence (town)", "Residence (parish)",
-                            "French Background", "Education", "Profession", "Profession (specific)",
+                            "F&C Background", "Education", "Occupation", "Occupational History",
                             "Retired", "Gender", "Gender Source", "Race", "Ethnicity",
                             "Transcribed", "Coded", "Anonymized", "Length Completed",
                             "Total Length", "Notes")
@@ -65,11 +65,11 @@ participants <- droplevels(subset(participants, Ethnicity != "French" &
 participants$`Total Length` <-  period_to_seconds(hms(participants$`Total Length`))/60/60
                  
 # Collapse factor levels
-participants$`French Background` <- recode_factor(
-  participants$`French Background`,
-  "Naturalistic > Institutional" = "Naturalistic",
-  "Naturalistic > Institutional > Personal" = "Naturalistic"
-)
+# participants$`F&C Background` <- recode_factor(
+#   participants$`F&C Background`,
+#   "Naturalistic > Institutional" = "Naturalistic",
+#   "Naturalistic > Institutional > Personal" = "Naturalistic"
+# )
 participants$Race <- recode_factor(
   participants$Race,
   "Black" = "Singular Black",
@@ -96,7 +96,7 @@ participants$`Raised (parish)` <- factor(participants$`Raised (parish)`,
 participants$`Residence (parish)` <- factor(participants$`Residence (parish)`,
                                      levels = c("Lafayette", "St Martin", "Acadia",
                                                 "St Landry", "Vermilion", "East Baton Rouge"))
-participants$Profession <- factor(participants$Profession,
+participants$Occupation <- factor(participants$Occupation,
                            levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
                           levels = c("No College", "Some College", "College Graduate"))
