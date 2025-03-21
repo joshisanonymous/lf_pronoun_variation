@@ -133,6 +133,8 @@ pro3plByRaceTable <- table(
 # Analyses #
 ############
 
+indOccEduc <- fisher.test(table(participants$Occupation, participants$Education))
+
 # Pronoun Models #
   ##############
 

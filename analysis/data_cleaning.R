@@ -65,11 +65,6 @@ participants <- droplevels(subset(participants, Ethnicity != "French" &
 participants$`Total Length` <-  period_to_seconds(hms(participants$`Total Length`))/60/60
                  
 # Collapse factor levels
-# participants$`F&C Background` <- recode_factor(
-#   participants$`F&C Background`,
-#   "Naturalistic > Institutional" = "Naturalistic",
-#   "Naturalistic > Institutional > Personal" = "Naturalistic"
-# )
 participants$Race <- recode_factor(
   participants$Race,
   "Black" = "Singular Black",
@@ -86,6 +81,14 @@ participants$Race <- recode_factor(
   "White (Cajun if it's there)" = "Singular Cajun",
   "Caucasian / Cajun" = "Protean Cajun"
 )
+participants[participants$Name == "Samantha Primeaux", "Education"] <- "College Graduate"
+participants[participants$Name == "Oliver Gomez", "Education"] <- "No College"
+participants$Education <- droplevels(participants$Education)
+# participants$`F&C Background` <- recode_factor(
+#   participants$`F&C Background`,
+#   "Naturalistic > Institutional" = "Naturalistic",
+#   "Naturalistic > Institutional > Personal" = "Naturalistic"
+# )
 
 # Order factors in order to make reasonable reference levels
 participants$`Raised (parish)` <- factor(participants$`Raised (parish)`,
