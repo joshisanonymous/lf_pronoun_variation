@@ -339,15 +339,17 @@
     Based on the wide breadthe of occupations held by my participants and the variety of their educational experiences, that statement no longer applies if it ever did for those in the Lafayette area in the first place.
     
     All participants were thus coded for occupational class and educational attainment.
-    In many studies, these two factors are combined to determine to which socioeconomic class a participant belongs (\citeauthor[\foreign{e.g.},][]{eckert_linguistic_2000}, \citeyear[pp.~104-105]{eckert_linguistic_2000}; \citeauthor{labov_social_2006}, \citeyear[pp.~134-135]{labov_social_2006}), or socioeconomic class is simply reported without any attempt to explain how it was established for each individual (\citeauthor[\foreign{e.g.},][]{blondeau_analyse_2019}, \citeyear[pp.~44-46]{blondeau_analyse_2019}; \citeauthor{feagin_variation_1979}, \citeyear[p.~23]{feagin_variation_1979}; \citeauthor{milroy_language_1987}, \citeyear[pp.~109-112]{milroy_language_1987}).
-    To avoid some of these methodological questions, and in light of the fairly exploratory nature of this aspect of the current study, occupation and education were coded as independent variables, the former dividing participants into white collar or blue collar workers and the latter into those with and those without college educations.
-    Despite this agnostic approach, methodological issues still exist which have been long been critiqued, particularly in how occupational classes are understood \parencite{sankoff_linguistic_1978}.
-    Indeed, many of the participants in the current study were retired, several had changed occupations a number of times throughout their lives, and some occupations were difficult to classify hierarchically.
-    The choices of how to code each occupation or occupational history can be seen in Table \ref{tab:occupation_coding}.
-    Likewise, two participants had some college education neither had completed college.
+    In many studies, these two factors have been combined to determine to which socioeconomic class a participant belongs (\citeauthor[\foreign{e.g.},][]{eckert_linguistic_2000}, \citeyear[pp.~104-105]{eckert_linguistic_2000}; \citeauthor{labov_social_2006}, \citeyear[pp.~134-135]{labov_social_2006}), or socioeconomic class is simply reported without any attempt to explain how it was established for each individual (\citeauthor[\foreign{e.g.},][]{blondeau_analyse_2019}, \citeyear[pp.~44-46]{blondeau_analyse_2019}; \citeauthor{feagin_variation_1979}, \citeyear[p.~23]{feagin_variation_1979}; \citeauthor{milroy_language_1987}, \citeyear[pp.~109-112]{milroy_language_1987}).
+    In the current study, the two variables are not merged \foreign{per se} as accounting for both helps to fully contextualize the social worlds of participants.
+    Individually then, there were \Sexpr{nrow(participants[participants$Occupation == "Blue Collar",])} blue collar workers and \Sexpr{nrow(participants[participants$Occupation == "White Collar",])} white collar and \Sexpr{nrow(participants[participants$Education == "No College",])} participants with no college education and \Sexpr{nrow(participants[participants$Education == "College Graduate",])} college graduates.
+    Two participants had some college education, meaning they had not completed college.
+    The educational attainment of these two were recoded in statistical calculations.
     In the case of Oliver Gomez, he was coded as not having any college education as he stop attending and had no clear intentions of returning, whereas in the case of Samantha Primeaux, she was a student still at the time of the interview and so was coded as a college graduate given that she was working her way towards that status.
     What was seen as important was not just the life experiences of speakers but their self-images, as well, as this could have as much impact on behavior, linguistic or otherwise, as life experiences.
-    Ultimately, there were \Sexpr{nrow(participants[participants$Occupation == "Blue Collar",])} blue collar workers and \Sexpr{nrow(participants[participants$Occupation == "White Collar",])} white collar and \Sexpr{nrow(participants[participants$Education == "No College",])} participants with no college education and \Sexpr{nrow(participants[participants$Education == "College Graduate",])} college graduates.
+    For the sake of statistical modeling, however, Fisher's exact test of independence showed a clear association between education and occupation ($P <$ \Sexpr{round_any(indOccEduc$p.value, 0.001, ceiling)}), thus only occupation was used for modeling with the assumption that this variable forms a more immediately salient part of participants' identities in light of their ages.
+    There have long been critiques for such a simple proxy for socioeconomic class, though \parencite{sankoff_linguistic_1978}.
+    Indeed, many of the participants in the current study were retired, several had changed occupations a number of times throughout their lives, and some occupations were difficult to classify hierarchically, injected subjectivity into coding decisions.
+    For transparency, the choices of how to code each occupation from occupational histories can be seen in Table \ref{tab:occupation_coding}.
     % Examples of socioeconomic class being important for language variation
       % The classic example is Labov's (1966/2006) department store study that found differences in /r/ using stores as proxies for socioeconomic class (46-49)
       % In Quebec City in the 1960s, children in blue-collar families used vous with parents, in professional families tu, and in white-collar families both variably (Lambert 1967:616)
@@ -397,59 +399,67 @@
         & \\
         \Sexpr{colnames(participants)[11]} & \Sexpr{colnames(participants)[10]} \\
         \hline
-        \Sexpr{participants[8, 11]}        & \Sexpr{participants[8, 10]} \\
-        \Sexpr{participants[10, 11]}        & \Sexpr{participants[10, 10]} \\
-        \Sexpr{participants[11, 11]}        & \Sexpr{participants[11, 10]} \\
-        \Sexpr{participants[12, 11]}        & \Sexpr{participants[12, 10]} \\
-        \Sexpr{participants[21, 11]}        & \Sexpr{participants[21, 10]} \\
-        \Sexpr{participants[22, 11]}        & \Sexpr{participants[22, 10]} \\
-        \Sexpr{participants[25, 11]}        & \Sexpr{participants[25, 10]} \\
-        \Sexpr{participants[26, 11]}        & \Sexpr{participants[26, 10]} \\
+        \Sexpr{participants[18, 11]}       & \Sexpr{participants[18, 10]} \\
+        \Sexpr{participants[11, 11]}       & \Sexpr{participants[11, 10]} \\
+        \Sexpr{participants[12, 11]}       & \Sexpr{participants[12, 10]} \\
+        \Sexpr{participants[31, 11]}       & \Sexpr{participants[31, 10]} \\
+        \Sexpr{participants[13, 11]}       & \Sexpr{participants[13, 10]} \\
         \Sexpr{participants[1, 11]}        & \Sexpr{participants[1, 10]} \\
+        \Sexpr{participants[30, 11]}       & \Sexpr{participants[30, 10]} \\
+        \Sexpr{participants[25, 11]}       & \Sexpr{participants[25, 10]} \\
+        \Sexpr{participants[26, 11]}       & \Sexpr{participants[26, 10]} \\
+        \Sexpr{participants[22, 11]}       & \Sexpr{participants[22, 10]} \\
+        \Sexpr{participants[10, 11]}       & \Sexpr{participants[10, 10]} \\
+        \Sexpr{participants[8, 11]}        & \Sexpr{participants[8, 10]} \\
+        \Sexpr{participants[21, 11]}       & \Sexpr{participants[21, 10]} \\
         \Sexpr{participants[2, 11]}        & \Sexpr{participants[2, 10]} \\
         \Sexpr{participants[3, 11]}        & \Sexpr{participants[3, 10]} \\
         \Sexpr{participants[4, 11]}        & \Sexpr{participants[4, 10]} \\
-        \Sexpr{participants[5, 11]}        & \Sexpr{participants[5, 10]} \\
         \Sexpr{participants[6, 11]}        & \Sexpr{participants[6, 10]} \\
+        \Sexpr{participants[5, 11]}        & \Sexpr{participants[5, 10]} \\
         \Sexpr{participants[7, 11]}        & \Sexpr{participants[7, 10]} \\
         \Sexpr{participants[9, 11]}        & \Sexpr{participants[9, 10]} \\
-        \Sexpr{participants[13, 11]}        & \Sexpr{participants[13, 10]} \\
-        \Sexpr{participants[14, 11]}        & \Sexpr{participants[14, 10]} \\
-        \Sexpr{participants[15, 11]}        & \Sexpr{participants[15, 10]} \\
-        \Sexpr{participants[16, 11]}        & \Sexpr{participants[16, 10]} \\
-        \Sexpr{participants[17, 11]}        & \Sexpr{participants[17, 10]} \\
-        \Sexpr{participants[18, 11]}        & \Sexpr{participants[18, 10]} \\
-        \Sexpr{participants[19, 11]}        & \Sexpr{participants[19, 10]} \\
-        \Sexpr{participants[20, 11]}        & \Sexpr{participants[20, 10]} \\
-        \Sexpr{participants[23, 11]}        & \Sexpr{participants[23, 10]} \\
-        \Sexpr{participants[24, 11]}        & \Sexpr{participants[24, 10]} \\
-        \Sexpr{participants[27, 11]}        & \Sexpr{participants[27, 10]} \\
-        \Sexpr{participants[28, 11]}        & \Sexpr{participants[28, 10]} \\
-        \Sexpr{participants[29, 11]}        & \Sexpr{participants[29, 10]} \\
-        \Sexpr{participants[30, 11]}        & \Sexpr{participants[30, 10]} \\
-        \Sexpr{participants[31, 11]}        & \Sexpr{participants[31, 10]} \\
+        \Sexpr{participants[14, 11]}       & \Sexpr{participants[14, 10]} \\
+        \Sexpr{participants[15, 11]}       & \Sexpr{participants[15, 10]} \\
+        \Sexpr{participants[16, 11]}       & \Sexpr{participants[16, 10]} \\
+        \Sexpr{participants[17, 11]}       & \Sexpr{participants[17, 10]} \\
+        \Sexpr{participants[19, 11]}       & \Sexpr{participants[19, 10]} \\
+        \Sexpr{participants[27, 11]}       & \Sexpr{participants[27, 10]} \\
+        \Sexpr{participants[29, 11]}       & \Sexpr{participants[29, 10]} \\
+        \Sexpr{participants[28, 11]}       & \Sexpr{participants[28, 10]} \\
+        \Sexpr{participants[20, 11]}       & \Sexpr{participants[20, 10]} \\
+        \Sexpr{participants[23, 11]}       & \Sexpr{participants[23, 10]} \\
+        \Sexpr{participants[24, 11]}       & \Sexpr{participants[24, 10]} \\
       \end{tabular}
     \end{table}
 
+    There was no such association between gender and occupation ($P <$ \Sexpr{round_any(indOccGend$p.value, 0.001, ceiling)} according to a Fisher's exact test for independence), but it was seen as important to be careful about coding participants with respect to this variable.
+    Even more so than with socioeconomic class, the norm has been to code gender without any explanation for how this was done (\citeauthor[\foreign{e.g.},][]{sharma_cognitive_2011}, \citeyear[p.~411]{sharma_cognitive_2011}; \citeauthor{tagliamonte_subject_2023}, \citeyear[p.~307]{tagliamonte_subject_2023}; \citeauthor{travis_sydney_2024}, \citeyear{travis_sydney_2024}), presumably because it is taken for granted that one can one's gender without asking, although there are certainly exceptions \parencite[\foreign{e.g.},][p.~14]{welker_syllable-final_2023}.
+    In fact, sex is sometimes conflated with gender \parencite[\foreign{e.g.},][p.~277]{roberts_what_2024}, whereas here I am specifically interested in the former rather than the latter.
+    Participants were not directly asked their genders for the present study, however, as I did not want to risk creating social distance between myself and the participants who were residents of a politically conservative region of the US during a time when gender identity was a politically charged topic.
+    Fortunately, French has grammatical gender as do even ``basilectal'' forms of Creole to some extent \parencite[p.~170]{klingler_if_2003}.
+    Gender was thus coded based on how participants gendered themselves grammatically during interviews.
+    This is admittedly imperfect as gender neutral forms such as the pronoun \lexi{iel} are not attested in Louisiana, and those who are gender fluid would not be identified this way without multiple meetings.
+    However, discussions did center on speakers' lives and identities, and some speakers did feel comfortable bringing up non-heteronormative identities, so it would not have been completely out of the question for them to also express transgender, non-binary or non-fixed gender identities where relevant.
+    The final tally for gender then was \Sexpr{nrow(participants[participants$Gender == "Woman",])} women and \Sexpr{nrow(participants[participants$Gender == "Man",])} men divided relatively evenly between Creoles (\Sexpr{nrow(participants[participants$Gender == "Woman" & participants$Ethnicity == "Creole",])} women out of \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])} Creoles) and Cajuns (\Sexpr{nrow(participants[participants$Gender == "Woman" & participants$Ethnicity == "Cajun",])} women out of \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])} Cajuns).
+    % Gender has long been seen as an impactful social factor
+      % The "double bind" that women experience is that "[b]ehavior that satisfies what is expected of her as a woman disqualifies her in the marketplace" (R. Lakoff, as cited in Eckert & McConnell-Ginet:475)
+      % Interpretations of gender in variationist studies were once socioeconomic-centric due to variants being primarily tied to socioeconomic strata (Eckert & McConnell-Ginet 1992:469-470)
+    % Approaches to coding for gender
+      % Eckert & McConnell-Ginet (1992) said that a sharp division between gender and sex "cannot be maintained" in that "[b]odies and biological processes are inextricably part of cultural histories" (463)
+        % In other words, they're useful distinctions that nevertheless are connected to each other
+    % Some general results in sociolinguistics
+      % Women have repeatedly been shown to use more high prestige variants than men (Labov 1966; Trudgill 1974; Eckert 1997, for grammatical variables; Eckert 2000)
+        % In Belfast, women led in linguistic change (L. Milroy 1980/1987:112-113)
+        % This has also come to be a criticized finding
+          % J. Milroy et al. (1994), looking at the glottalization of /t/ in British English, argued that that women do not favor prestige forms but instead create prestige forms (as cited in Bell 2014:214)
+      % Gender was predictive of the type of code-switching Spanish-English bilingual Puerto Ricans in NYC used (Poplack 1979/1980/2000:232)
+      % Gender was predictive for some vowel production at Belten High (Eckert 2000:112-113/115-119/166-167)
+      % Sharma (2011) found that the typical result of women orienting more towards prestige forms was reversed in her study of British Asians in London (465)
+      % Nadasdi et al. (2004) found among French speakers in Estrie, Ontario in the 1970s that women preferred "auto" and dispreferred "char" whereas men showed the opposite pattern (98)
+      % Women used more Standard English features in Gullah than men (Nichols 1976, as cited in Weldon 2003:49)
 
-    % Gender
-      % Gender has long been seen as an impactful social factor
-        % The "double bind" that women experience is that "[b]ehavior that satisfies what is expected of her as a woman disqualifies her in the marketplace" (R. Lakoff, as cited in Eckert & McConnell-Ginet:475)
-        % Interpretations of gender in variationist studies were once socioeconomic-centric due to variants being primarily tied to socioeconomic strata (Eckert & McConnell-Ginet 1992:469-470)
-      % Approaches to coding for gender
-        % Eckert & McConnell-Ginet (1992) said that a sharp division between gender and sex "cannot be maintained" in that "[b]odies and biological processes are inextricably part of cultural histories" (463)
-          % In other words, they're useful distinctions that nevertheless are connected to each other
-      % Some general results in sociolinguistics
-        % Women have repeatedly been shown to use more high prestige variants than men (Labov 1966; Trudgill 1974; Eckert 1997, for grammatical variables; Eckert 2000)
-          % In Belfast, women led in linguistic change (L. Milroy 1980/1987:112-113)
-          % This has also come to be a criticized finding
-            % J. Milroy et al. (1994), looking at the glottalization of /t/ in British English, argued that that women do not favor prestige forms but instead create prestige forms (as cited in Bell 2014:214)
-        % Gender was predictive of the type of code-switching Spanish-English bilingual Puerto Ricans in NYC used (Poplack 1979/1980/2000:232)
-        % Gender was predictive for some vowel production at Belten High (Eckert 2000:112-113/115-119/166-167)
-        % Sharma (2011) found that the typical result of women orienting more towards prestige forms was reversed in her study of British Asians in London (465)
-        % Nadasdi et al. (2004) found among French speakers in Estrie, Ontario in the 1970s that women preferred "auto" and dispreferred "char" whereas men showed the opposite pattern (98)
-        % Women used more Standard English features in Gullah than men (Nichols 1976, as cited in Weldon 2003:49)
-
+    
     % Racial coding
       % Racial labels can be complicated even situations where multiraciality is not prominent
         % Becker's (2014) case study participant, Lisa, didn't like the term African-American because it collapsed many communities and cultures into being simply African (47)
@@ -503,21 +513,25 @@
       \caption{Background information for each individual participant}
       \label{tab:participants_background}
       \centering \footnotesize
-      \begin{tabular}{l r r r r r r p{2cm} r r}
+      \begin{tabular}{l r r r r r r p{2.3cm} r r}
         & & & & & & & & & \\
         \Sexpr{colnames(participants)[1]} & \Sexpr{colnames(participants)[16]} & \Sexpr{colnames(participants)[15]} & \Sexpr{colnames(participants)[13]} & \Sexpr{colnames(participants)[3]}  &
         \Sexpr{colnames(participants)[7]} & \Sexpr{colnames(participants)[5]}  & F\&C Background                    & \Sexpr{colnames(participants)[9]}  & \Sexpr{colnames(participants)[10]} \\
         \hline
-        \Sexpr{participants[3, 1]}        & \Sexpr{participants[3, 16]}        & \Sexpr{participants[3, 15]}        & \Sexpr{participants[3, 13]}        & \Sexpr{participants[3, 3]}         &
-        \Sexpr{participants[3, 7]}        & \Sexpr{participants[3, 5]}         & \Sexpr{participants[3, 8]}         & \Sexpr{participants[3, 9]}         & \Sexpr{participants[3, 10]} \\
-        \Sexpr{participants[6, 1]}        & \Sexpr{participants[6, 16]}        & \Sexpr{participants[6, 15]}        & \Sexpr{participants[6, 13]}        & \Sexpr{participants[6, 3]}         &
-        \Sexpr{participants[6, 7]}        & \Sexpr{participants[6, 5]}         & \Sexpr{participants[6, 8]}         & \Sexpr{participants[6, 9]}         & \Sexpr{participants[6, 10]} \\
+        \Sexpr{participants[13, 1]}        & \Sexpr{participants[13, 16]}        & \Sexpr{participants[13, 15]}        & \Sexpr{participants[13, 13]}        & \Sexpr{participants[13, 3]}         &
+        \Sexpr{participants[13, 7]}        & \Sexpr{participants[13, 5]}         & \Sexpr{participants[13, 8]}         & \Sexpr{participants[13, 9]}         & \Sexpr{participants[13, 10]} \\
+        \Sexpr{participants[15, 1]}        & \Sexpr{participants[15, 16]}        & \Sexpr{participants[15, 15]}        & \Sexpr{participants[15, 13]}        & \Sexpr{participants[15, 3]}         &
+        \Sexpr{participants[15, 7]}        & \Sexpr{participants[15, 5]}         & \Sexpr{participants[15, 8]}         & \Sexpr{participants[15, 9]}         & \Sexpr{participants[15, 10]} \\
+        \Sexpr{participants[16, 1]}        & \Sexpr{participants[16, 16]}        & \Sexpr{participants[16, 15]}        & \Sexpr{participants[16, 13]}        & \Sexpr{participants[16, 3]}         &
+        \Sexpr{participants[16, 7]}        & \Sexpr{participants[16, 5]}         & \Sexpr{participants[16, 8]}         & \Sexpr{participants[16, 9]}         & \Sexpr{participants[16, 10]} \\
+        \Sexpr{participants[28, 1]}        & \Sexpr{participants[28, 16]}        & \Sexpr{participants[28, 15]}        & \Sexpr{participants[28, 13]}        & \Sexpr{participants[28, 3]}         &
+        \Sexpr{participants[28, 7]}        & \Sexpr{participants[28, 5]}         & \Sexpr{participants[28, 8]}         & \Sexpr{participants[28, 9]}         & \Sexpr{participants[28, 10]} \\
+        \Sexpr{participants[31, 1]}        & \Sexpr{participants[31, 16]}        & \Sexpr{participants[31, 15]}        & \Sexpr{participants[31, 13]}        & \Sexpr{participants[31, 3]}         &
+        \Sexpr{participants[31, 7]}        & \Sexpr{participants[31, 5]}         & \Sexpr{participants[31, 8]}         & \Sexpr{participants[31, 9]}         & \Sexpr{participants[31, 10]} \\
+        \Sexpr{participants[30, 1]}        & \Sexpr{participants[30, 16]}        & \Sexpr{participants[30, 15]}        & \Sexpr{participants[30, 13]}        & \Sexpr{participants[30, 3]}         &
+        \Sexpr{participants[30, 7]}        & \Sexpr{participants[30, 5]}         & \Sexpr{participants[30, 8]}         & \Sexpr{participants[30, 9]}         & \Sexpr{participants[30, 10]} \\
         \Sexpr{participants[7, 1]}        & \Sexpr{participants[7, 16]}        & \Sexpr{participants[7, 15]}        & \Sexpr{participants[7, 13]}        & \Sexpr{participants[7, 3]}         &
         \Sexpr{participants[7, 7]}        & \Sexpr{participants[7, 5]}         & \Sexpr{participants[7, 8]}         & \Sexpr{participants[7, 9]}         & \Sexpr{participants[7, 10]} \\
-        \Sexpr{participants[8, 1]}        & \Sexpr{participants[8, 16]}        & \Sexpr{participants[8, 15]}        & \Sexpr{participants[8, 13]}        & \Sexpr{participants[8, 3]}         &
-        \Sexpr{participants[8, 7]}        & \Sexpr{participants[8, 5]}         & \Sexpr{participants[8, 8]}         & \Sexpr{participants[8, 9]}         & \Sexpr{participants[8, 10]} \\
-        \Sexpr{participants[10, 1]}        & \Sexpr{participants[10, 16]}        & \Sexpr{participants[10, 15]}        & \Sexpr{participants[10, 13]}        & \Sexpr{participants[10, 3]}         &
-        \Sexpr{participants[10, 7]}        & \Sexpr{participants[10, 5]}         & \Sexpr{participants[10, 8]}         & \Sexpr{participants[10, 9]}         & \Sexpr{participants[10, 10]} \\
         \Sexpr{participants[11, 1]}        & \Sexpr{participants[11, 16]}        & \Sexpr{participants[11, 15]}        & \Sexpr{participants[11, 13]}        & \Sexpr{participants[11, 3]}         &
         \Sexpr{participants[11, 7]}        & \Sexpr{participants[11, 5]}         & \Sexpr{participants[11, 8]}         & \Sexpr{participants[11, 9]}         & \Sexpr{participants[11, 10]} \\
         \Sexpr{participants[12, 1]}        & \Sexpr{participants[12, 16]}        & \Sexpr{participants[12, 15]}        & \Sexpr{participants[12, 13]}        & \Sexpr{participants[12, 3]}         &
@@ -528,8 +542,6 @@
         \Sexpr{participants[25, 7]}        & \Sexpr{participants[25, 5]}         & \Sexpr{participants[25, 8]}         & \Sexpr{participants[25, 9]}         & \Sexpr{participants[25, 10]} \\
         \Sexpr{participants[26, 1]}        & \Sexpr{participants[26, 16]}        & \Sexpr{participants[26, 15]}        & \Sexpr{participants[26, 13]}        & \Sexpr{participants[26, 3]}         &
         \Sexpr{participants[26, 7]}        & \Sexpr{participants[26, 5]}         & \Sexpr{participants[26, 8]}         & \Sexpr{participants[26, 9]}         & \Sexpr{participants[26, 10]} \\
-        \Sexpr{participants[30, 1]}        & \Sexpr{participants[30, 16]}        & \Sexpr{participants[30, 15]}        & \Sexpr{participants[30, 13]}        & \Sexpr{participants[30, 3]}         &
-        \Sexpr{participants[30, 7]}        & \Sexpr{participants[30, 5]}         & \Sexpr{participants[30, 8]}         & \Sexpr{participants[30, 9]}         & \Sexpr{participants[30, 10]} \\
         \Sexpr{participants[1, 1]}        & \Sexpr{participants[1, 16]}        & \Sexpr{participants[1, 15]}        & \Sexpr{participants[1, 13]}        & \Sexpr{participants[1, 3]}         &
         \Sexpr{participants[1, 7]}        & \Sexpr{participants[1, 5]}         & \Sexpr{participants[1, 8]}         & \Sexpr{participants[1, 9]}         & \Sexpr{participants[1, 10]} \\
         \Sexpr{participants[2, 1]}        & \Sexpr{participants[2, 16]}        & \Sexpr{participants[2, 15]}        & \Sexpr{participants[2, 13]}        & \Sexpr{participants[2, 3]}         &
@@ -540,14 +552,8 @@
         \Sexpr{participants[5, 7]}        & \Sexpr{participants[5, 5]}         & \Sexpr{participants[5, 8]}         & \Sexpr{participants[5, 9]}         & \Sexpr{participants[5, 10]} \\
         \Sexpr{participants[9, 1]}        & \Sexpr{participants[9, 16]}        & \Sexpr{participants[9, 15]}        & \Sexpr{participants[9, 13]}        & \Sexpr{participants[9, 3]}         &
         \Sexpr{participants[9, 7]}        & \Sexpr{participants[9, 5]}         & \Sexpr{participants[9, 8]}         & \Sexpr{participants[9, 9]}         & \Sexpr{participants[9, 10]} \\
-        \Sexpr{participants[13, 1]}        & \Sexpr{participants[13, 16]}        & \Sexpr{participants[13, 15]}        & \Sexpr{participants[13, 13]}        & \Sexpr{participants[13, 3]}         &
-        \Sexpr{participants[13, 7]}        & \Sexpr{participants[13, 5]}         & \Sexpr{participants[13, 8]}         & \Sexpr{participants[13, 9]}         & \Sexpr{participants[13, 10]} \\
         \Sexpr{participants[14, 1]}        & \Sexpr{participants[14, 16]}        & \Sexpr{participants[14, 15]}        & \Sexpr{participants[14, 13]}        & \Sexpr{participants[14, 3]}         &
         \Sexpr{participants[14, 7]}        & \Sexpr{participants[14, 5]}         & \Sexpr{participants[14, 8]}         & \Sexpr{participants[14, 9]}         & \Sexpr{participants[14, 10]} \\
-        \Sexpr{participants[15, 1]}        & \Sexpr{participants[15, 16]}        & \Sexpr{participants[15, 15]}        & \Sexpr{participants[15, 13]}        & \Sexpr{participants[15, 3]}         &
-        \Sexpr{participants[15, 7]}        & \Sexpr{participants[15, 5]}         & \Sexpr{participants[15, 8]}         & \Sexpr{participants[15, 9]}         & \Sexpr{participants[15, 10]} \\
-        \Sexpr{participants[16, 1]}        & \Sexpr{participants[16, 16]}        & \Sexpr{participants[16, 15]}        & \Sexpr{participants[16, 13]}        & \Sexpr{participants[16, 3]}         &
-        \Sexpr{participants[16, 7]}        & \Sexpr{participants[16, 5]}         & \Sexpr{participants[16, 8]}         & \Sexpr{participants[16, 9]}         & \Sexpr{participants[16, 10]} \\
         \Sexpr{participants[17, 1]}        & \Sexpr{participants[17, 16]}        & \Sexpr{participants[17, 15]}        & \Sexpr{participants[17, 13]}        & \Sexpr{participants[17, 3]}         &
         \Sexpr{participants[17, 7]}        & \Sexpr{participants[17, 5]}         & \Sexpr{participants[17, 8]}         & \Sexpr{participants[17, 9]}         & \Sexpr{participants[17, 10]} \\
         \Sexpr{participants[18, 1]}        & \Sexpr{participants[18, 16]}        & \Sexpr{participants[18, 15]}        & \Sexpr{participants[18, 13]}        & \Sexpr{participants[18, 3]}         &
@@ -564,11 +570,15 @@
         \Sexpr{participants[23, 7]}        & \Sexpr{participants[23, 5]}         & \Sexpr{participants[23, 8]}         & \Sexpr{participants[23, 9]}         & \Sexpr{participants[23, 10]} \\
         \Sexpr{participants[27, 1]}        & \Sexpr{participants[27, 16]}        & \Sexpr{participants[27, 15]}        & \Sexpr{participants[27, 13]}        & \Sexpr{participants[27, 3]}         &
         \Sexpr{participants[27, 7]}        & \Sexpr{participants[27, 5]}         & \Sexpr{participants[27, 8]}         & \Sexpr{participants[27, 9]}         & \Sexpr{participants[27, 10]} \\
-        \Sexpr{participants[28, 1]}        & \Sexpr{participants[28, 16]}        & \Sexpr{participants[28, 15]}        & \Sexpr{participants[28, 13]}        & \Sexpr{participants[28, 3]}         &
-        \Sexpr{participants[28, 7]}        & \Sexpr{participants[28, 5]}         & \Sexpr{participants[28, 8]}         & \Sexpr{participants[28, 9]}         & \Sexpr{participants[28, 10]} \\
         \Sexpr{participants[29, 1]}        & \Sexpr{participants[29, 16]}        & \Sexpr{participants[29, 15]}        & \Sexpr{participants[29, 13]}        & \Sexpr{participants[29, 3]}         &
         \Sexpr{participants[29, 7]}        & \Sexpr{participants[29, 5]}         & \Sexpr{participants[29, 8]}         & \Sexpr{participants[29, 9]}         & \Sexpr{participants[29, 10]} \\
-        \Sexpr{participants[31, 1]}        & \Sexpr{participants[31, 16]}        & \Sexpr{participants[31, 15]}        & \Sexpr{participants[31, 13]}        & \Sexpr{participants[31, 3]}         &
-        \Sexpr{participants[31, 7]}        & \Sexpr{participants[31, 5]}         & \Sexpr{participants[31, 8]}         & \Sexpr{participants[31, 9]}         & \Sexpr{participants[31, 10]} \\
+        \Sexpr{participants[3, 1]}        & \Sexpr{participants[3, 16]}        & \Sexpr{participants[3, 15]}        & \Sexpr{participants[3, 13]}        & \Sexpr{participants[3, 3]}         &
+        \Sexpr{participants[3, 7]}        & \Sexpr{participants[3, 5]}         & \Sexpr{participants[3, 8]}         & \Sexpr{participants[3, 9]}         & \Sexpr{participants[3, 10]} \\
+        \Sexpr{participants[6, 1]}        & \Sexpr{participants[6, 16]}        & \Sexpr{participants[6, 15]}        & \Sexpr{participants[6, 13]}        & \Sexpr{participants[6, 3]}         &
+        \Sexpr{participants[6, 7]}        & \Sexpr{participants[6, 5]}         & \Sexpr{participants[6, 8]}         & \Sexpr{participants[6, 9]}         & \Sexpr{participants[6, 10]} \\
+        \Sexpr{participants[8, 1]}        & \Sexpr{participants[8, 16]}        & \Sexpr{participants[8, 15]}        & \Sexpr{participants[8, 13]}        & \Sexpr{participants[8, 3]}         &
+        \Sexpr{participants[8, 7]}        & \Sexpr{participants[8, 5]}         & \Sexpr{participants[8, 8]}         & \Sexpr{participants[8, 9]}         & \Sexpr{participants[8, 10]} \\
+        \Sexpr{participants[10, 1]}        & \Sexpr{participants[10, 16]}        & \Sexpr{participants[10, 15]}        & \Sexpr{participants[10, 13]}        & \Sexpr{participants[10, 3]}         &
+        \Sexpr{participants[10, 7]}        & \Sexpr{participants[10, 5]}         & \Sexpr{participants[10, 8]}         & \Sexpr{participants[10, 9]}         & \Sexpr{participants[10, 10]} \\
       \end{tabular}
     \end{sidewaystable}
