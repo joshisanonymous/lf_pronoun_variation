@@ -17,6 +17,7 @@ library(reshape2)
 library(mclogit)
 library(lme4)
 library(car)
+library(plyr)
 library(dplyr)
 library(lubridate)
 source("functions.R")
@@ -133,7 +134,9 @@ pro3plByRaceTable <- table(
 # Analyses #
 ############
 
+# Factor independencies
 indOccEduc <- fisher.test(table(participants$Occupation, participants$Education))
+indOccGend <- fisher.test(table(participants$Occupation, participants$Gender))
 
 # Pronoun Models #
   ##############
@@ -159,9 +162,9 @@ indOccEduc <- fisher.test(table(participants$Occupation, participants$Education)
   # Use only one model if not used
   # thirdPl = multinomResponse("3pl")
 # )
-# small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
-#         data = tokens[tokens$ProType == "3pl",],
-#         random = list(~ 1|Name, ~ 1|PredUnder))
+small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
+        data = tokens[tokens$ProType == "3pl",],
+        random = list(~ 1|Name, ~ 1|PredUnder))
 
 # Check for multicollinearity between factors and remove those that are
 # highly collinear. In particular, verify whether ethnicity and race
