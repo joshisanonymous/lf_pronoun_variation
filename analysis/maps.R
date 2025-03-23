@@ -88,7 +88,5 @@ mapresidenceonly <- mapla +
           fill = color_key[1])
 
 mapfocus <- mapla +
-  geom_sf(data = acadiana,
-          fill = color_key[2]) +
   geom_sf(data = focus_area,
           fill = color_key[4])
