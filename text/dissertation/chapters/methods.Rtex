@@ -466,19 +466,35 @@
       This was used as a criteria for inclusion in the study (see section \ref{sec:sampling}), all participants being either Creole ($N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])}) or Cajun ($N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])}).
       Values assigned under the race variable do not represent my own conclusions about how or if participants have been racialized but rather participants' own understanding of what their race is.
 
+      \begin{figure}[tbhp]
+        \caption{Racial self-identifications of participants}
+        \label{fig:race_counts}
+        <<fig.asp = 0.5>>=
+        raceBar
+        @
+      \end{figure}
+
       As discussed in section \ref{sec:creole_history}, both racialization and miscegenation were common in Louisiana since Europeans first arrived despite interracial marriages being legally forbidden \parencite[p.~25]{dominguez_white_1986}.
       United States anti-miscegenation laws were only removed in 1967 \parencite[p.~333]{daniel_beyond_1992}, after which interracial marriages increased up through at least the 1990s \parencite[Gibbs 1989; Njeri 1988; Tucker \& Mitchell-Kernan 1990, as cited in][p.~333]{daniel_beyond_1992}.
       This history of mixing is salient to at least some Louisianians as several of my own participants discussed how common mixed racial ancestries are among both Creoles and Cajuns, usually in terms of introducing American Indians into geneologies, a fact that they reported that some will not readily acknowledge despite their awareness.
 
       It was thus necessary to provide space for participants to self-identify racially in whichever manner they saw fit while still being able to formalize the results.
-      A variety of approaches to this have been used in the literature (\foreign{e.g.}, \citeauthor{rockquemore_race_1999}, \citeyear{rockquemore_race_1999}; \citeauthor[Root, 2003, as cited in][]{susberry_racial_2004}, \citeyear[p.~23]{susberry_racial_2004}).
-      In sociolinguistics, \textcite{holliday_intonational_2016} notably used \citeauthor{rockquemore_beyond_2002}'s (\citeyear{rockquemore_beyond_2002}) biracial identity system to classify the Black-White biracial men in DC with whom she worked as singular Black, singular White, border, protean, or transcendant.
-
-    % Bi- and multi-racial individuals are and have been abundant in Louisiana
-      % In light of this saliency, Susberry (2004) classified Creoles of Color following Rockquemore (1999) as Black, protean (shifting), or border (biracial) (33)
-        % Susberry's (2004) 85 Creoles of Color identified as 41.2% singular Black, 42.4% protean, and 16.5% border (45)
-          % There were additionally 9 transcendent Creoles of Color in the data (Susberry 2004:35)
-      % The same approach was taken here
+      A variety of approaches to this have been used in the literature (\foreign{e.g.}, \citeauthor{rockquemore_race_1999}, \citeyear{rockquemore_race_1999}; \citeauthor{rockquemore_beyond_2002}, \citeyear{rockquemore_beyond_2002}; \citeauthor[Root, 2003, as cited in][]{susberry_racial_2004}, \citeyear[p.~23]{susberry_racial_2004}).
+      In sociolinguistics, \textcite{holliday_intonational_2016} notably used \citeauthor{rockquemore_beyond_2002}'s (\citeyear{rockquemore_beyond_2002}) biracial identity system to classify the Black-White biracial men in DC with whom she worked.
+      This approach was also employed by \textcite{susberry_racial_2004} in her anthropological examination of Creoles of color, and likewise it was used in the present study.
+      Rockquemore's system consists of four racial category types: singular, protean, border, and transcendent.
+      Singular racial identities do not leave room for the idea of mixture.
+      This does not mean that one does not come from parents with different racial self-identifications but rather than one only regards one racial identity as their own.
+      These individuals can identify as singular White or singular Black or, for some in the present study, singular Cajun or singular Creole.
+      Protean racial identities are bi- or multi-racial as well as fluid in that this would include those who shift between various singular racial identities depending on the social context.
+      On the other hand, those who identify with a border racial identity are also bi- or multi-racial but see their mixed identity as their one and only racial identity.
+      Someone with a border identity may therefore self-identify simply as ``bi-racial''.
+      Finally, transcendent racial identities are for those who deny any racial identity for themselves whatsoever.
+      This last category is not relegated to those who would otherwise see themselves as bi- or multi-racial but is expected to be more easily chosen by such people.
+      My own partcipants were not asked to explain their racial identities in terms of these category types.
+      Instead, they were asked to simply say how they identify, after which I used my judgement based on that identification and the rest of the conversation to classify them.
+      The results are summarize in Figure \ref{fig:race_counts}.
+      This variable does not figure into the statistical models here for lack of significant counts in all categories but will be examined qualitatively.
 
       % Extra -----------------------------------------------------------------------------------
         % Racial labels can be complicated even situations where multiraciality is not prominent
