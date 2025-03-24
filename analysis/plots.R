@@ -13,7 +13,16 @@ graph3plGender <- ggplot(tokens3plGender,
   facet_wrap(. ~ ProType) +
   theme_bw()
 
-# Ethnicity by race -----------------------------------------------------------
+# Ethnicity and race -----------------------------------------------------------
+raceBar <- ggplot(
+  participants,
+  aes(x = Race)
+) +
+  geom_bar() +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1.05)) +
+  labs(y = "Count")
+
 ethByRaceBar <- ggplot(
   melt(ethByRaceTable,
        varnames = c("Ethnicity", "Race"),
