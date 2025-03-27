@@ -1,25 +1,67 @@
-\chapter{Subject Pronoun Variation in Louisiana French}
+\chapter{Subject Pronoun Variation in F\&C}
   \label{chap:pronoun_variation}
-  % Weber (1921/1978) argued that political community "inspires the belief in common ethnicity" but that differences in language among the so-called ethnic group's members that come about can destroy it (389)
-    % It is relevant tehn to look at differences and similarities in the speech of Creoles and Cajuns
-  \subsection{French vs Creole}
+  Markers used to place individuals into racialized categories exist in many forms.
+  \textcite{omi_racial_2015} often referred to ``corporeal markers'' of race, whereas \textcite{purnell_perceptual_1999} showed that a lone utterance of \sent{hello} was often sufficient for listeners to place the speaker into a racial category.
+  Racialization is not predicated on the existence of such markers, and it may even be possible to have racialization without them, but they are a regular feature for obvious reasons.
+  If one's goal is to racialize a group as less than human in order to justify exploiting them, then it is helpful to be able to readily identify individuals as belonging to that racialized group through some salient feature such as physical characteristics, speech, clothing, lifestyle, beliefs, or any other feature that may be used to distinguish one set of people from another.
+  % The relevance of looking at differences and similarities in the speech of Creoles and Cajuns
+    % Weber (1921/1978) argued that political community "inspires the belief in common ethnicity" but that differences in language among the so-called ethnic group's members that come about can destroy it (389)
+  
+  In the case of Creoles and Cajuns in Louisiana, there are certainly features other than speech that potentially function as salient markers that one is a member of one group or the other.
+  As already discussed in section \ref{sec:creole_history}, skin color can function as a marker of Creole membership, but Creoles of color have also asserted that cultural features can be important factors, some salient examples of which included cuisine, Zydeco music, Catholic faith, dress, and participation in cultural event such as \foreign{Mardi gras}.
+  Of course, another important factor was ``Creole French language and manner of speech'' \parencite[pp.~57-58]{susberry_racial_2004}.
+  Given the vague glottonym of the former, it is perhaps most appropriate to understand this as being able to speak F\&C versus only being able to speak English.
+  The objective for this chapter, however, is to carry out a more fine-grained examination by looking at F\&C subject pronoun systems to determine if Creole and Cajun identities are marked within the use of F\&C itself.
+  If so, this would not only be evidence for the continued social importance of language variation in heritage languages, but more importantly for the present study, this would support the idea that Creoles and/or Cajuns have been racialized.
+  Indications for subject pronoun variation between Creoles and Cajuns in the literature will be discussed as section \ref{sec:pronoun_system} as will the structure of the subject pronoun system in general.
+  The analysis carried out on the data gathered for this study will then be given a quantitative analysis in sections \ref{sec:pronoun_methods}, \ref{sec:pronoun_results}, and \ref{sec:pronoun_discussion}.
+  Before that, however, it will be necessary to take a somewhat lengthy detour into the distinctions between French and Creole as they are spoken in Louisiana.
+
+  \section{French vs Creole}
     \label{sec:french_vs_creole}
-    % My approach here is to analyze French and Creole together as one would do in cases where there is no controversy over whether two varieties are part of the same language or not
-      % This isn't a stance on the sociopolitical question, as will be discussed in this section, but rather a methodological choice made in order to better understand race and ethnicity in language
-        % Somewhat similar to Benor's (2010) explanation that, when analyzing language from her ethnolinguistic repertoire framework, it is "moot" whether one is discussing ethnic variation or ethnolects since the focus is not on language labeling practices but rather on fluid linguistic structure (170)
-    % French and Creole varieties that exist
-      % "Cajun French" (though he prefers "Louisiana Regional French" as it is not spoken purely by Cajuns), "Louisiana Creole", and "Colonial French" (which he and Picone (1998) prefer to call Plantation Society French since it developed in the 19th century) (Klingler 2003 "Language":77)
-      % Colonial French/Plantation Society French, Louisiana Creole, and Cajun French/Louisiana Regional French (Dajko 2012:280-281)
-        % Colonial French is likely no longer extant, though Smith-Thibault (1977) had estimated there to be 3,000 to 4,000 speakers still in the mid 20th century (as cited in B. Brown 1988:37-38)
-      % Louisiana Regional French (Dajko & Carmichael 2014)
-      % B. Brown (1988) used "Louisiana French" as an umbrella term for Colonial French (spoken by descendants of European Creoles), Cajun French (spoken by Acadians and those absorbed into their culture), and 3) Creole French (spoken by descendants of slaves and those absorbed into their culture) (34-35)
-        % The fact that she included Creole typifies the close connection between the two ways of speaking, though the fact that Louisiana French is the umbrella term also risks erasure of Creole
-      % Neumann (1985) used «français louisianais» as an umbrella term for Standard and Colonial French but not for any other local varieties, and suggested that this was the language not just of the first colonists but also Saint-Domingue refugees (17)
-      % Neumann (1985) explained that le créole louisianais, le «cajun» («un dialecte du français»), un peu de français standard, and l'anglais were in contact at the time of her study (1)
+    The approach used here involved analyzing French and Creole together as one might do in cases where there is no controversy over whether the two varieties in question are part of the same language or not, using the unique and unmarked label \lexi{F\&C} to refer to this grouping in order to avoid implying a hierarchy between French and Creole and to avoid taking a sociopolitical stance on the question of whether these are indeed one or two distinct languages.
+    As will be discussed in this section, aggregating data from all French-related speech varieties in Louisiana was a methodological choice deemed necessary given that the focus of this study is on race and ethnicity which have rather complicated relationships with language labels for these varieties \parencite{klingler_language_2003}.
+    However, even the appearance of taking a sociopolitical stance on the status of French and Creole as distinct languages is controversial, particularly among creolists and Creole activists in light of power dynamics between Creoles and Cajuns \parencite{giancarlo_dont_2019} as well as questions about whether Creole is best revitalized by aligning the variety more closely with French as the latter's preservation has more institutional support and resources or by distinguishing it from French in order to avoid erasure of Creole as nothing more than a lesser dialect of French.
+    The following is therefore justification for my methodological choice.
+    % Somewhat similar to Benor's (2010) explanation that, when analyzing language from her ethnolinguistic repertoire framework, it is "moot" whether one is discussing ethnic variation or ethnolects since the focus is not on language labeling practices but rather on fluid linguistic structure (170)
+
+    French and Creole are not the only French-related varieties that have been said to in Louisiana.
+    The different ways in which these have been divided and the many names given to them itself suggests an intimate connection if the simple fact that they all are indeed French-related does not indicate just that on its own.
+    One such variety has been referred to as Colonial French \parencite[p.~33]{brasseaux_french_2005}, Plantation Society French (\citeauthor{klingler_language_2003}, \citeyear[p.~77]{klingler_language_2003}; \citeauthor{picone_situation_2005}, \citeyear[p.~147]{picone_situation_2005}), Standard Louisiana French \parencite[p.~323]{lane_notes_1934}, \foreign{le vieux français créole}\footnote{
+      Old Creole French
+    } \parencite[p.~48]{smith-thibodeaux_francophones_1977}, and Louisiana French \parencite[p.~37]{brown_pronominal_1988}.
+    This variety has at times been described as the lingua franca and official language of colonial Louisiana \parencite[p.~33]{brasseaux_french_2005}, the variety spoken by Creoles in the sense of White descendents of French and Spanish colonists (\citeauthor{brown_pronominal_1988}, \citeyear{brown_pronominal_1988}; \citeauthor{lane_notes_1934}, \citeyear[p.~323]{lane_notes_1934}) or meaning those living in New Orleans or on plantations along the Mississippi \parencite[p.~43]{smith-thibodeaux_francophones_1977}, or simply a variety that developed in the 19th century within plantation society that resembled Standard French (\citeauthor{klingler_language_2003}, \citeyear[p.~77]{klingler_language_2003}).
+    As is perhaps evident, the picture of this French variety is far from clear.
+    Indeed, I am aware of no descriptive study of this variety and only very few reports in the literature of encounters with speakers, which perhaps explains the wide range of labels and delineations.
+    One potential encounter comes from \textcite{johnson_louisiana_1976}, who reported meeting New Orleanians in the 1970s who themselves reported be acquainted with native speakers of ``New Orleanian French'' (p.~23), but this assumes that these reports are legitimate, accurate, and that this label refers to the same thing as all of the labels just mentioned.
+    Another encounter is more of a self-report as Alcée Fortier, who was a native French speaker born in St James Parish but who spent most of his life in nearby New Orleans \parencite{plaisance_alcee_1909}, clearly distinguished his own French from that of Acadians and Creoles of color in his linguistic research \parencite[pp.~134-197]{fortier_louisiana_1894}.
+    Colonial French along with the numerous other related labels appears to be more of a catch-all term for any French spoken natively by Louisianians of higher status than Creoles of color and Acadians/Cajuns, especially before the 20th century, a variety with truly fuzzy boundaries.
+    
+    One term used for the French discussed above was Louisiana French.
+    However, Louisiana (Regional) French is the term that was proposed and taken up by linguists -- as well as to some extent non-linguists -- for what was previously referred to as Cajun French, the most widely spoken French-related language in Louisiana today (\citeauthor{dajko_sociolinguistics_2012}, \citeyear[p.~281]{dajko_sociolinguistics_2012}; \citeauthor{klingler_language_2003}, \citeyear[p.~77]{klingler_language_2003}).
+    The latter term was considered inappropriate since many speakers are not descendents of Acadians, a point that both reifies the Cajun-Acadian origin myth discussed in section \ref{sec:cajun_history} and emphasizes linguistic structure in delineating the variety rather than speaker identities as another option would have been to propose additional glottonyms such as Houma Indian French.
+    In fact, even on a structural level, \textcite{rottet_language_1995} provided significant evidence of systematic differences between the speech of Cajuns and Houma Indians in Terrebonne-Lafourche.
+    This is not to say that the wrong labeling choice was made but rather that these labels are sociopolitical and the boundaries of what they describe are rather fluid.
+    % Louisiana Regional French (Dajko & Carmichael 2014)
+
+    The final French-related variety often discussed in the literature is the creole of Louisiana.
+    While researchers generally refer to this as Louisiana Creole today (\citeauthor{dajko_sociolinguistics_2012}, \citeyear[pp.~280-281]{dajko_sociolinguistics_2012}; \citeauthor{klingler_language_2003}, \citeyear[p.~77]{klingler_language_2003}; ), it has been referred to by a number of different names over time such as the Creole dialect \parencite[p.~134]{fortier_louisiana_1894} or Louisiana Creole Dialect \parencite{broussard_louisiana_1972} or Black Creole \parencite[p.~50]{smith-thibodeaux_francophones_1977}.
+    These glottonyms often hint at a racialization of the variety, as in the latter example or through more denigrating labels (\foreign{e.g.}, \citeauthor{bienvenu_negro-french_1933}, \citeyear{bienvenu_negro-french_1933}; \citeauthor{lane_notes_1934}, \citeyear[p.~323]{lane_notes_1934}).
+    Importantly, this creole was often described as a dialect of French, highlighting a social hierarchy as well as a structural resemblance.
+    As with Louisiana French, there is regional variation in Louisiana Creole that has led at least linguists to offer labels that would delineate it geographically such as St Martin Creole \parencite{morgan_lexicon_1960, morgan_structural_1959}, Pointe Coupée Creole \parencite[p.~70]{klingler_if_2003}, and Mississippi Creole versus Têche Creole (\citeauthor{speedy_mississippi_1994}, \citeyear{speedy_mississippi_1994}). % Neumann also
+    Most have acknowledged what \textcite{broussard_louisiana_1972} called the ``marked differences between the dialects of the various parishes'' (p.~ix), just as most have acknowledged the blurring of distinctions between Louisiana Creole and Louisiana French in the speech of many Louisianians \parencite{klingler_probleme_2005}.
+
+    The term \lexi{Louisiana French} itself has been used as an umbrella term with different 
+      % Umbrella terms
+        % B. Brown (1988) used "Louisiana French" as an umbrella term for Colonial French (spoken by descendants of European Creoles), Cajun French (spoken by Acadians and those absorbed into their culture), and 3) Creole French (spoken by descendants of slaves and those absorbed into their culture) (34-35)
+          % The fact that she included Creole typifies the close connection between the two ways of speaking, though the fact that Louisiana French is the umbrella term also risks erasure of Creole
+        % Neumann (1985) used «français louisianais» as an umbrella term for Standard and Colonial French but not for any other local varieties, and suggested that this was the language not just of the first colonists but also Saint-Domingue refugees (17)
+        % Neumann (1985) explained that le créole louisianais, le «cajun» («un dialecte du français»), un peu de français standard, and l'anglais were in contact at the time of her study (1)
     % Speakers' approaches to naming their languages as one or the other
       % It's not unusual to place languages under a label based on cultural traits of the speakers rather than the structure of their ways of speaking
         % Linguists once described Cangin as a variety of Serer because Wolofs in the area saw the cultural practices of both Cangin and Sereer speakers as being the same (Irvine & Gal 2000:57)
       % For Louisiana, Klingler (2005) suggested that "français", "cadien", and "créole" were the most common glossonyms (352)
+        % Other glossonyms also exist, though: River French \parencite[p.~37]{brown_pronominal_1988}, Gumbo French \parencite[p.~50]{smith-thibodeaux_francophones_1977}
         % When a variety that's structurally not characteristic of what has been called Creole is implicated
           % Rottet (1995) reported in Terrebonne-Lafourche that participants, when being specific, called their language français cadien but otherwise français (8)
         % When asked plainly (without pushing for greater specificity), speakers of both varieties in St Landry will call their language "French" (Klingler 2003 "Language":78-79)
@@ -311,6 +353,7 @@
         % In Pointe Coupee Creole, Whites use pronouns that are closer to French and that agree in gender and/or number (e.g. avèk èl vs avèk li (f.)) (Klingler 2003 "Turn":117)
       % In Terrebonne-Lafourche, Rottet (1995) suggested that imperfect speakers leaned towards disjunctive pronouns in place of clitic pronouns for two reasons: 1) disjunctive pronouns are more sallient and so easier to pick up with limited input, and 2) English doesn't have clitic pronouns so disjunctive pronouns in French are simpler to acquire when growing up bilingual (180)
   \section{Methods}
+    \label{sec:pronoun_methods}
     \subsection{Pronoun coding}
       \label{sec:pronoun_coding}
       % Repeated tokens
@@ -341,10 +384,12 @@
         % "Gone", which Neumann (1985) simply describes as a "lexème" rather than giving its lexical category (75)
     \subsection{Analyses carried out}
   \section{Results}
+    \label{sec:pronoun_results}
     % Do pronouns covary?
       % This sort of co-variation was perhaps first analyzed in Brazilian Portuguese by Guy (2013) to determine the validity of the existence of sociolects in Rio de Janeiro
         % The naming of said sociolects is of course a sociopolitical discussion, but it is useful to examine not just where individual linguistic variables vary according to social variables but also where groups of variables do so
   \section{Discussion}
+    \label{sec:pronoun_discussion}
     % The principle of multiple causes is the idea that more than one factor influences language variation patterns (Bayley 2002, as cited in Hazen 2014:12)
       % This does not only mean that multiple identified factors are at work but that unindentified factors may also be at work
     % Dying languages are expected to show 1) reduction/simplification, 2) stylistic shrinkage, 3) increased variability, and 4) rapid change (Dressler 1972; Dorian 1989; O'Shannessy 2011; Palosaari & Campbell 2011; Schmidt 1985; Wolfram 2004, all as cited in Carmichael & Gudmestad 2019:72)
