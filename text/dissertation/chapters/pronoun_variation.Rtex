@@ -108,80 +108,101 @@
         % This was not supported by Spivey & Marian's (1999) experiment with Russian-English bilinguals (283)
 
     There are quite a few structural similarities between French and Creole in Louisiana.
-    It has been said that ``[Louisiana Creole] is probably the French-based Creole that is closest to French structurally'' \parencite[p.~111]{valdman_structure_1997}, particularly so in Lafayette, Breaux Bridge, and Vacherie \parencite[p.~78]{klingler_language_2003}, the first being municipalities of interest in the present study.
-    
-      % Klingler (2005) suggested that French and Creole could be distinguished by the morphosyntax systems as the vocabularies are mostly shared (352)
-        % Clifton (1975) specifically suggested that most of the differences lie in the syntax (109) as did Neumann (1985:54)
-        % Neumann (1985), on the other hand, said that decreolization in morphosyntax and phonology occurred in the direction of Cajun (46)
-        % But Neumann (1985) agreed that there are very few vocabulary differences between French and Creole (52)
-      % In diagnostics, the same features are generally chosen
-        % Klingler (2003 "Language", 2005) used 1sg subject pronouns, past perfective constructions, and the verb 'to have' as diagnostics for structurally disentangling French and Creole (80)
-          % 1sg was a better option than other pronouns, such as 3sg, because in the latter case, the pronouns il and li can be reduced in both French and Creole, respectively, to [i] (Klingler 2003 "Language":80)
-            % This is notable because it inadvertantly gives us another example of the difficulty in drawing a structural boundary between French and Creole
-        % Wendte (2022) admitted that "there are many commonalities between these two varieities--especially phonologically and lexically," but claimed that subject pronouns, "particles" indicating tense, and the verbs "gin", "olé", and "kouri" represent "salient distinctions" between French and Creole (98)
-          % He seems to mean salient for the linguist but not necessarily for speakers
-          % This is again a diagnostic, then
-      % Klingler (2005) offered a failsafe for when it simply is not possible to identify a matrix language in a F&C clause: consider the existence of a language continuum in line with what Marshall (1987) proposed for Vacherie (360-364)
-        % Such continuums were themselves originally prosposed to deal with how difficult it can be to draw a line between what is Creole structure and what is lexifier structure in other creole situations
-        % DeCamp (1971/1974) proposed creole continuums when looking at what he called post-creole speech communities (i.e., communities where decreolization is occurring) (DeCamp 1968)
-          % Decreolization likewise implies a close enough structural relationship that one could hypothesize that a creole would get absorbed back into a lexifier language
-      % These diagnostics highlight the relevance (for Klingler and Wendte at least) of subject pronoun forms for distinguishing different ways of speaking
+    It has been said that ``[Louisiana Creole] is probably the French-based Creole that is closest to French structurally'' \parencite[p.~111]{valdman_structure_1997}, particularly so in Lafayette, Breaux Bridge, and Vacherie \parencite[p.~78]{klingler_language_2003}, the first two being municipalities of interest in the present study.
+    Lexically, the two varieties are generally found to be almost identical, leaving differences to be found primarily in the area of morphosyntax (\citeauthor{clifton_tracing_1975}, \citeyear[p.~109]{clifton_tracing_1975}; \citeauthor{klingler_probleme_2005}, \citeyear[p.~352]{klingler_probleme_2005}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~52/54]{neumann_creole_1985}).
+    Diagnostics proposed for structurally distinguishing between French and Creole have thus following along those lines.
+    \textcite{klingler_language_2005} used first person singular subject pronouns (\lexi{mo} vs \lexi{je}), past perfective constructions (long form verbs vs auxiliary + past participle), and the verb \gloss{to have} (\lexi{gain} vs \lexi{avoir}),  the first of each pair being the Creole variant.
+    However, even in the realm of subject pronouns, he explained that some such as third person singular (\lexi{li} vs \lexi{il}) would not have been effective as both of these can be reduced to [i] (p.~80), an ambiguity which highlights again how difficult it can be to draw clear structural boundaries between French and Creole.
+    In fact, even for \lexi{mo}, forms that are more or less equivalent have been found in regions where no Creole is said to be spoken at all, such as Terrebonne-Lafourche \parencite[p.~179]{rottet_language_1995}.
+    \textcite{wendte_chronotopic_2022} used a similar system as a diagnostic but considered all personal subject pronouns, the use of ``particles'' in general to mark tense rather than just one tense-aspect construction, and the use of the verbs \lexi{oler} and \lexi{couru} in addition to \lexi{gain} (p.~98).
+    However, in acknowledging that these diagnostics fail at times due to speakers producing contradictory features within even a single clause, \textcite{klingler_probleme_2005} proposed that a language continuum exists (pp.~360-364).
+    Such continuums were themselves originally prosposed to deal with how difficult it can be to draw a line between what is Creole structure and what is lexifier structure in other creole situations \parencite[\foreign{e.g.},][]{decamp_toward_1971}, often implicating decreolization processes which themselves suggest a close enough structural relationship that one could hypothesize that a creole would get absorbed back into a lexifier language.
+    % Neumann (1985), on the other hand, said that decreolization in morphosyntax and phonology occurred in the direction of Cajun (46)
 
-      % There are other examples of structurally ambiguous language, though
-        % Neumann (1985) argued that decreolization is most evident in noun phrases (77)
-        % Baronian (2005) found that those in St Martin Parish (but not Vermilion or Lafourche (139)) followed the negative impertive syntax of Creole speakers (verb + pas + pronoun) regardless of whether they spoke Creole or French (137)
-          % St Martin contains Breaux Bridge, noted by Klingler (2003 "Language") as being a town where French and Creole are in great contact
-          % Baronian (2005) wasn't clear on how he distinguished between French and Creole, but did give examples, and those examples were identical save for the use of mo and gain in Creole speech (135), much like what Klingler (2003 "Language", 2005) did
-        % Disjunctive pronouns are sometimes used in place of object clitic object pronouns (e.g., "s'il a pu rencontrer elle") (Conwell & Juilland 1963:146)
-        % Use of moi alone as a subject pronoun in Terrebonne-Lafourche (Rottet 1995:178) and mid 20th century Vermilion Parish (Brandon 1955, as cited in Rottet 1995:181)
-          % In Terrebonne-Lafourche, moi could also reduce to [m] before a vowel, as with one high proficiency speaker producing phrases such as "M'arais eu zen si m'arais eu faim" (Rottet 1995:179)
-        % Historically, universal quantification of nouns in Creole has been accomplished as in English (i.e., without a determiner), but this is now more commonly done as in French with definite articles either pre- or post-posed (Neumann 1985:54)
-        % Gender
-          % Didn't exist for some in Pointe Coupee Creole except for cases where there is a semantic contrast related to the referent in Pointe Coupee Creole (cousin vs cousine) (Klingler 2003 "Turn":170)
-          % "[P]articularly for younger speakers," gender is not always expressed in adjectives in Terrebonne-Lafourche French where they instead all take the masculine form (Papen & Rottet 1997:89)
-            % A lack of gender is usually described as a Creole feature but apparently show up in "French"
-            % Some of my speakers also didn't seem to have a gendered adjectives, though gender was one of the things that Oliver Gomez explicitly described as something that is so ingrained that it never leaves you
-          % On the other hand, Neumann (1985) reported grammatical gender sometimes showing up for articles, whether definite or indefinite or pre- or post-nominal, possessive determiners and pronouns, and adjectives among creolophones (58-59)
+    Besides ambiguities in which third person singular subject pronouns are being produced, one can easily find many other examples of structural features the blur the line between French and Creole.
+    In terms of morphosyntax where the two varieties are thought to be most different, it was found that both French and Creole speakers in St Martin Parish produce a Creole-oriented pattern for negative imperatives when there is an object pronoun (\foreign{i.e.}, verb + \lexi{pas} + pronoun) \parencite[p.~137]{baronian_influence_2005}, and disjunctive pronouns have been attested in post-verbal positions, as is typical in speech said to be Creole (\citeauthor{klingler_if_2003}, \citeyear[p.~40]{klingler_if_2003}; NEUMANN), even when the rest of the clause is clearly French-oriented in structure (\foreign{e.g.}, \sent{s'il a pu rencontrer \emph{elle}}) \parencite[p.~146]{conwell_louisiana_1963}.
+    Within noun phrases themselves, it has been argued that the most evidence of decreolization can be found, or in other words, that Creole resembles French the most.
+    For instance, to express a generic reference in Creole, one would produce a bare noun just as is done in English rather than a noun with a definite article as is done in French, although this is more of a historical pattern that by the 1980s had already been mostly replaced by the use of definite articles with the only distinguishing characteristic being sometimes post-nominal \parencite[pp.~54/77]{neumann_creole_1985}.
+    Not limited strictly to noun phrases, whereas French makes heavy use of grammatical gender, this feature has typically be described as only existing consistently in Creole when there are is semantic contrast (\foreign{e.g.}, \lexi{cousin} \gloss{cousin-masculine} vs \lexi{cousine} \gloss{cousin-feminine}) \parencite[p.~170]{klingler_if_2003}.
+    However, in Terrebonne-Lafourche where Creole is not spoken, it was reported that gender is not always expressed in adjectives \parencite[p.~89]{papen_structural_1997}, whereas in the Creole of St Martin Parish, grammatical gender has been attested in adjectives, both definite and indefinite articles as well as pre- and post-nominal articles, possessive determiners, and pronouns \parencite[pp.~58-59]{neumann_creole_1985}.
+    While some speech may appear prototypically French or prototypically Creole, there are numerous examples of structural convergence.
+    % St Martin contains Breaux Bridge, noted by Klingler (2003 "Language") as being a town where French and Creole are in great contact
+    % Baronian (2005) wasn't clear on how he distinguished between French and Creole, but did give examples, and those examples were identical save for the use of mo and gain in Creole speech (135), much like what Klingler (2003 "Language", 2005) did
 
-      % Analogously, Aboh & DeGraff (2017) argued for a genetic relationship between French and Haitian Creole as a number of preverbal markers "have straightforward etyma in French morphemes in periphrastic verbal constructions whose meanings often overlap with those of the corresponding TMA+V combinations in" (410)
-        % Aboh & deGraff (2017) discuss te, ap, the verbal suffix -e, future a(va), fini, sòt, and dwe (409-410)
-          % Detges (2000) also cites uses of être après reported by Pomier (1835) (152)
-          % Detges (2000) links the Mauritian Creole future marker pou to the use of être pour to express the near future in 1880 French (145)
-        % Many of the markers of Louisiana Creole can likewise be interpreted as more or less still corresponding semantically and functionally with their French correlates
-          % Neumann (1985) argued that Creole was a distinct language from French on the basis of preverbal markers (81)
-          % Perhaps a New Orleans variety of Creole
-            % Alé for future, sra for the future anterior, té for past imperfective, sré for conditional, apé for present [probably means progressive] (Fortier 1884:108)
-          % Past
-            % Habitual
-              % té in Breaux Bridge (Neumann 1985:61-62)
-            % Perfect aspect
-              % "been" in Breaux Bridge (Neumann 1985:75)
-              % Perfect aspect expressed with bin [bɪn] in Pointe Coupee (Klingler 2003 "Turn":262-263)
-          % Future
-            % The simple future is expressed with "a" in Pointe Coupee Creole (Klingler 2003 "Turn":258-259)
-              % sa in Breaux Bridge (Neumann 1985:62)
-            % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
-          % Progressive
-            % e (mostly), ap, and ape in Pointe Coupee (Klingler 2003 "Turn":255)
-            % Past and present progressive in Terrebonne-Lafourche are produced with être après (Papen & Rottet 1997:102)
-          % Conditional
-            % se in Breaux Bridge (Neumann 1985:62)
-            % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
-              % Habitual past is expressed with se for some speakers in Pointe Coupee (Klingler 2003 "Turn":261)
-              % The conditional is also also occasionally used in the French of Terrebonne-Lafourche for the habitual past, which was argued to be from English influence (Papen & Rottet 1997:100)
-          % ka(pa(b)) is presented as a verb in Pointe Coupee Creole (Klingler 2003 "Turn":247) and as simultaneously an auxiliary verb and a marker in Breaux Bridge Creole (Neumann 1985:223)
-            % Neumann (1985) also include pe 'peut' as equivalently an auxiliary and a marker, though for both kapab and pe, she draws the connection with être capable de and pouvoir plainly (223)
-            % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
-              % Although this is also a difference between ve and oler, respectively (Klingler 2003 "Turn":276)
-          % Valdman & Klingler (1997) argue that ape, te, va/ale/sa, and se are "verbal markers" rather than auxiliaries because auxiliaries can't be followed by NP predicates (125-127)
-            % An auxiliary has been defined as a verb-like word element in a clause that expresses grammatical information such as tense, aspect, and modality (Anderson 2011:797-802; Heine 1993:22)
-            % This leaves both elements like kapab as well as ole as auxiliaries. The rationale is odd as Heine (1997) cites work from as far back as 1973 that argues that auxiliaries can be main verbs, and indeed what they show in their data is that ole can and kapab can't, probably because these are in fact best analyzed as their French equivalent vouloir and capable. Likewise, their "markers" include, by their own admission, can all be used as main verbs other than ape and se (though I suspect se can even if an example isn't available or at least isn't clear given homophony with se as in c'est)
-          % Syntactic order
-            % te + pa + e in Pointe Coupee (Klingler 2003 "Turn":26/258)
-            % te + bin + pas in Pointe Coupee (Klingler 2003 "Turn":263)
-            % Relative to verbs, pa comes before those expressing habitual present and before those expressing any other tense+aspect, regardless of short or long form (Klingler 2003 "Turn":320-321)
-              % Some verbs have pa invariably preceding them in Pointe Coupee: bezòn, fini, gen, kapab, konne, kouri, ole (Klingler 2003 "Turn":322)
-            % With other markers, pa comes after all markers except ape and ale in Pointe Coupee (Klingler 2003 "Turn":26)
+    \subsection{Preverbal markers}
+      A notoriously common structural feature of creoles is the presence of what have been called preverbal markers that express tense, mood, and aspect (TMA) \parencite{winford_creole_2018}, and Louisiana Creole is no exception here.
+      In fact, referring to these units as markers or even particles is something of an admission that the lexical categories to which they belong have not been well elaborated as neither markers nor particles are syntactically well defined in linguistics.
+      Indeed, even in generative analyses of markers, they are not given categories but rather maintain their vague status \parencite[\foreign{e.g.},][]{syea_tense_2006}.
+      In French-lexifier creoles, this is true despite some relatively transparent relationships with morphemes in the lexifier.
+      Indeed, \textcite{aboh_null_2017} argued for a genetic relationship between French and Haitian Creole at least in part on the number of preverbal markers that ``have straightforward etyma in French morphemes in periphrastic verbal constructions whose meanings often overlap with those of the corresponding TMA+V combinations in'' Haitian Creole (p.~410).
+      Many of the markers of Louisiana Creole can likewise be interpreted as more or less still corresponding semantically and functionally with their French correlates even though some (\citeauthor{neumann_creole_1985}, \citeyear[p.~81]{neumann_creole_1985}; \citeauthor{wendte_chronotopic_2022}, \citeyear[p.~98]{wendte_chronotopic_2022}) have been used them to distinguish between French and Creole.
+      These will be discussed in more detail here than is needed to make the argument that French and Creole can be aggregated for structural analyses as this will also explain the lexical categories under which these markers were coded as will be discussed in section \ref{sec:pronoun_coding}.
+      % Aboh & deGraff (2017) discuss te, ap, the verbal suffix -e, future a(va), fini, sòt, and dwe (409-410)
+        % Detges (2000) also cites uses of être après reported by Pomier (1835) (152)
+        % Detges (2000) links the Mauritian Creole future marker pou to the use of être pour to express the near future in 1880 French (145)
+      
+      \begin{table}[tbhp]
+        \caption{Markers used in Louisiana Creole}
+        \label{tab:creole_markers}
+        \centering
+        \begin{tabular}[t]{L{0.14\textwidth} L{0.29\textwidth} | L{0.14\textwidth} L{0.29\textwidth}}
+          \multicolumn{4}{c}{} \\
+          Marker                          & Function                       & Source                     & Function \\
+          \hline
+          \multicolumn{4}{c}{Tense} \\
+          \hline
+          {}[te]                          & Past imperfective              & \lexi{était} (+ variants)  & Past imperfective (inflection of \lexi{être}) \\
+          {}[va], [a]                     & Future                         & \lexi{va} / \lexi{vas}     & Future (periphrastic) \\
+          {}[ale]                         & Future                         & \lexi{aller}               & Future (periphrastic) \\
+          {}[sa], [sra]                   & Future                         & \lexi{sera} / \lexi{seras} & Future (inflection of \lexi{être}) \\
+          \hline
+          \multicolumn{4}{c}{Mood} \\
+          \hline
+          {}[se]                          & Conditional, past imperfective & \lexi{serait} (+ variants) & Conditional, past imperfective (inflection of \lexi{être}) \\
+          {}[pe]                          & Ability                        & \lexi{peux} / \lexi{peut}  & Ability (inflection of \lexi{pouvoir}) \\
+          {}[ka], [kapab]                 & Ability                        & \lexi{capable}             & Ability (adjective) \\
+          \hline
+          \multicolumn{4}{c}{Aspect} \\
+          \hline
+          {}[ap], [ape], [e]              & Progressive                    & \lexi{après}               & Progressive (periphrastic) \\
+          {}[bɪn]                         & Perfect                        & \lexi{been} (English)      & Perfect (periphrastic) \\
+        \end{tabular}
+      \end{table}
+
+      
+      % Perhaps a New Orleans variety of Creole
+        % Alé for future, sra for the future anterior, té for past imperfective, sré for conditional, apé for present [probably means progressive] (Fortier 1884:108)
+      % Past
+        % Habitual
+          % té in Breaux Bridge (Neumann 1985:61-62)
+        % Perfect aspect
+          % "been" in Breaux Bridge (Neumann 1985:75)
+          % Perfect aspect expressed with bin [bɪn] in Pointe Coupee (Klingler 2003 "Turn":262-263)
+      % Future
+        % The simple future is expressed with "a" in Pointe Coupee Creole (Klingler 2003 "Turn":258-259)
+          % sa in Breaux Bridge (Neumann 1985:62)
+        % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
+      % Progressive
+        % e (mostly), ap, and ape in Pointe Coupee (Klingler 2003 "Turn":255)
+        % Past and present progressive in Terrebonne-Lafourche are produced with être après (Papen & Rottet 1997:102)
+      % Conditional
+        % se in Breaux Bridge (Neumann 1985:62)
+        % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
+          % Habitual past is expressed with se for some speakers in Pointe Coupee (Klingler 2003 "Turn":261)
+          % The conditional is also also occasionally used in the French of Terrebonne-Lafourche for the habitual past, which was argued to be from English influence (Papen & Rottet 1997:100)
+      % ka(pa(b)) is presented as a verb in Pointe Coupee Creole (Klingler 2003 "Turn":247) and as simultaneously an auxiliary verb and a marker in Breaux Bridge Creole (Neumann 1985:223)
+        % Neumann (1985) also include pe 'peut' as equivalently an auxiliary and a marker, though for both kapab and pe, she draws the connection with être capable de and pouvoir plainly (223)
+        % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
+          % Although this is also a difference between ve and oler, respectively (Klingler 2003 "Turn":276)
+      % Valdman & Klingler (1997) argue that ape, te, va/ale/sa, and se are "verbal markers" rather than auxiliaries because auxiliaries can't be followed by NP predicates (125-127)
+        % An auxiliary has been defined as a verb-like word element in a clause that expresses grammatical information such as tense, aspect, and modality (Anderson 2011:797-802; Heine 1993:22)
+        % This leaves both elements like kapab as well as ole as auxiliaries. The rationale is odd as Heine (1997) cites work from as far back as 1973 that argues that auxiliaries can be main verbs, and indeed what they show in their data is that ole can and kapab can't, probably because these are in fact best analyzed as their French equivalent vouloir and capable. Likewise, their "markers" include, by their own admission, can all be used as main verbs other than ape and se (though I suspect se can even if an example isn't available or at least isn't clear given homophony with se as in c'est)
+      % Syntactic order
+        % te + pa + e in Pointe Coupee (Klingler 2003 "Turn":26/258)
+        % te + bin + pas in Pointe Coupee (Klingler 2003 "Turn":263)
+        % Relative to verbs, pa comes before those expressing habitual present and before those expressing any other tense+aspect, regardless of short or long form (Klingler 2003 "Turn":320-321)
+          % Some verbs have pa invariably preceding them in Pointe Coupee: bezòn, fini, gen, kapab, konne, kouri, ole (Klingler 2003 "Turn":322)
+        % With other markers, pa comes after all markers except ape and ale in Pointe Coupee (Klingler 2003 "Turn":26)
       % On a sociopolitical level, these similarities in structure can be obscured in particular via choices in how to represent creoles orthographically
 
     % Spelling convention used in this study
