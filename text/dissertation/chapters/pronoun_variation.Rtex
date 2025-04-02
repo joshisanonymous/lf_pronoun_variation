@@ -154,7 +154,7 @@
           {}[te]                          & Past imperfective              & \lexi{était} (+ variants)  & Past imperfective (inflection of \lexi{être}) \\
           {}[va], [a]                     & Future                         & \lexi{va} / \lexi{vas}     & Future (periphrastic) \\
           {}[ale]                         & Future                         & \lexi{aller}               & Future (periphrastic) \\
-          {}[sa], [sra]                   & Future                         & \lexi{sera} / \lexi{seras} & Future (inflection of \lexi{être}) \\
+          {}[sa]                          & Future                         & \lexi{sera} / \lexi{seras} & Future (inflection of \lexi{être}) \\
           \hline
           \multicolumn{4}{c}{Mood} \\
           \hline
@@ -169,34 +169,48 @@
         \end{tabular}
       \end{table}
 
-      
-      % Perhaps a New Orleans variety of Creole
-        % Alé for future, sra for the future anterior, té for past imperfective, sré for conditional, apé for present [probably means progressive] (Fortier 1884:108)
-      % Past
-        % Habitual
-          % té in Breaux Bridge (Neumann 1985:61-62)
+      All of the tense markers in Louisiana Creole can be sensibly analyzed as auxiliary verbs.
+      These include [te] for past and [va], [a], [ale], [sa], and [sra] for future.
+      The marker [te] has been cited as representing not just past tense, in fact, but also imperfective aspect both in Pointe Coupée and St Martin (\citeauthor{klingler_if_2003}, \citeyear[pp.~253-254]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~61]{neumann_creole_1985}), a dual function that already draws it closer to French \lexi{était}, pronounced [ete] or [etɛ], and other homophonous past imperfective inflections of the verb \lexi{être} \gloss{to be} that serve as its likely origin.
+      The elision of the initial [e] is also common for many speakers in Louisiana whose speech is otherwise quite French-oriented.
+      Among my own participants, there were such tokens as \sent{c'était} as [s te], \sent{j'étais} as {ʃ te}, and even \sent{il était} as [i te].
+      Some speakers also produced [ʃy te], which can certainly be analyzed as \sent{je suistais}, or in other words a variant inflection of \sent{j'étais} after several phonological rules have applied, but it is also not out of the question that these speakers simply have [te] in their lexicons as a past imperfective element, which could be represented in an analysis as something like \sent{je suis [te]}.
+      Furthermore, where Creole-oriented speakers might produce a phrase such as [mo te travaje] \gloss{I would work} with a [te] before an non-finite verb, French-oriented speakers similarly produced phrases such as [ʃ te pe travaje] \gloss{I was working}, suggesting an auxiliary verb status for [te] in both cases.
+
+      The numerous future markers have all been reported as having more or less interchangeable functions in both Breaux Bridge and Pointe Coupée (\citeauthor{klingler_if_2003}, \citeyear[pp.~258-260]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~214-220]{neumann_creole_1985}).
+      \textcite{neumann_creole_1985} suggested that [a] was a shortened form of [va] rather than [sa], which is perhaps the most reasonable interpretation without a more detailed examination given that word-initial /v/ is regularly elided in Louisiana French when followed by /w/ but /s/ is not \parencite[p.~182]{blainey_first_2013}.
+      % Tense
+        % Future
+          % The simple future is expressed with "a" in Pointe Coupee Creole (Klingler 2003 "Turn":258-259)
+            % sa in Breaux Bridge (Neumann 1985:62)
+          % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
+
+      % Mood
+        % Conditional
+          % se in Breaux Bridge (Neumann 1985:62)
+          % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
+            % Habitual past is expressed with se for some speakers in Pointe Coupee (Klingler 2003 "Turn":261)
+            % The conditional is also also occasionally used in the French of Terrebonne-Lafourche for the habitual past, which was argued to be from English influence (Papen & Rottet 1997:100)
+        % Ability
+          % ka(pa(b)) is presented as a verb in Pointe Coupee Creole (Klingler 2003 "Turn":247) and as simultaneously an auxiliary verb and a marker in Breaux Bridge Creole (Neumann 1985:223)
+            % Neumann (1985) also include pe 'peut' as equivalently an auxiliary and a marker, though for both kapab and pe, she draws the connection with être capable de and pouvoir plainly (223)
+            % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
+              % Although this is also a difference between ve and oler, respectively (Klingler 2003 "Turn":276)
+
+      % Aspect
+        % Progressive
+          % e (mostly), ap, and ape in Pointe Coupee (Klingler 2003 "Turn":255)
+          % Past and present progressive in Terrebonne-Lafourche are produced with être après (Papen & Rottet 1997:102)
         % Perfect aspect
           % "been" in Breaux Bridge (Neumann 1985:75)
           % Perfect aspect expressed with bin [bɪn] in Pointe Coupee (Klingler 2003 "Turn":262-263)
-      % Future
-        % The simple future is expressed with "a" in Pointe Coupee Creole (Klingler 2003 "Turn":258-259)
-          % sa in Breaux Bridge (Neumann 1985:62)
-        % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
-      % Progressive
-        % e (mostly), ap, and ape in Pointe Coupee (Klingler 2003 "Turn":255)
-        % Past and present progressive in Terrebonne-Lafourche are produced with être après (Papen & Rottet 1997:102)
-      % Conditional
-        % se in Breaux Bridge (Neumann 1985:62)
-        % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
-          % Habitual past is expressed with se for some speakers in Pointe Coupee (Klingler 2003 "Turn":261)
-          % The conditional is also also occasionally used in the French of Terrebonne-Lafourche for the habitual past, which was argued to be from English influence (Papen & Rottet 1997:100)
-      % ka(pa(b)) is presented as a verb in Pointe Coupee Creole (Klingler 2003 "Turn":247) and as simultaneously an auxiliary verb and a marker in Breaux Bridge Creole (Neumann 1985:223)
-        % Neumann (1985) also include pe 'peut' as equivalently an auxiliary and a marker, though for both kapab and pe, she draws the connection with être capable de and pouvoir plainly (223)
-        % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
-          % Although this is also a difference between ve and oler, respectively (Klingler 2003 "Turn":276)
+      % Perhaps a New Orleans variety of Creole
+        % Alé for future, sra for the future anterior, té for past imperfective, sré for conditional, apé for present [probably means progressive] (Fortier 1884:108)
+
       % Valdman & Klingler (1997) argue that ape, te, va/ale/sa, and se are "verbal markers" rather than auxiliaries because auxiliaries can't be followed by NP predicates (125-127)
         % An auxiliary has been defined as a verb-like word element in a clause that expresses grammatical information such as tense, aspect, and modality (Anderson 2011:797-802; Heine 1993:22)
         % This leaves both elements like kapab as well as ole as auxiliaries. The rationale is odd as Heine (1997) cites work from as far back as 1973 that argues that auxiliaries can be main verbs, and indeed what they show in their data is that ole can and kapab can't, probably because these are in fact best analyzed as their French equivalent vouloir and capable. Likewise, their "markers" include, by their own admission, can all be used as main verbs other than ape and se (though I suspect se can even if an example isn't available or at least isn't clear given homophony with se as in c'est)
+
       % Syntactic order
         % te + pa + e in Pointe Coupee (Klingler 2003 "Turn":26/258)
         % te + bin + pas in Pointe Coupee (Klingler 2003 "Turn":263)
