@@ -154,7 +154,7 @@
           {}[te]                          & Past imperfective              & \lexi{était} (+ variants)  & Past imperfective (inflection of \lexi{être}) \\
           {}[va], [a]                     & Future                         & \lexi{va} / \lexi{vas}     & Future (periphrastic) \\
           {}[ale]                         & Future                         & \lexi{aller}               & Future (periphrastic) \\
-          {}[sa]                          & Future                         & \lexi{sera} / \lexi{seras} & Future (inflection of \lexi{être}) \\
+          {}[sa], [sra]                   & Future                         & \lexi{sera} / \lexi{seras} & Future (inflection of \lexi{être}) \\
           \hline
           \multicolumn{4}{c}{Mood} \\
           \hline
@@ -179,23 +179,36 @@
 
       The numerous future markers have all been reported as having more or less interchangeable functions in both Breaux Bridge and Pointe Coupée (\citeauthor{klingler_if_2003}, \citeyear[pp.~258-260]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~214-220]{neumann_creole_1985}).
       \textcite{neumann_creole_1985} suggested that [a] was a shortened form of [va] rather than [sa], which is perhaps the most reasonable interpretation without a more detailed examination given that word-initial /v/ is regularly elided in Louisiana French when followed by /w/ but /s/ is not \parencite[p.~182]{blainey_first_2013}.
-      % Tense
-        % Future
-          % The simple future is expressed with "a" in Pointe Coupee Creole (Klingler 2003 "Turn":258-259)
-            % sa in Breaux Bridge (Neumann 1985:62)
-          % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
+      This results in [va] and [a] being an inflected form of the French verb \lexi{aller} \gloss{to go}, \lexi{va(s)}, and [ale] being the non-finite form.
+      \lexi{Aller} is used in French to indicate future tense just as these elements do in Creole.
+      The marker [sra] is likely a variant of [sa] that was only used in 19th century New Orleans as the only attestations come from a description of Creole as spoken in that time and place \parencite[p.~108]{fotier_french_1884}.\footnote{
+        There is one attestation from St Martinville in the 1950s in the phrase \sent{moi qui sera} \parencite[p.~11]{morgan_lexicon_1960}, but it is not entirely clear that this person's speech was uncontroversially Creole-oriented as such a phrase would be perfectly normal in Louisiana French, as well, and no other context was provided.
+      }
+      Both [sa] and [sra] are thus equivalent to the inflected future forms of the French verb \lexi{être} \gloss{to be}, \lexi{sera(s)}, which in most inflections would be pronounced [s(ə)ra].
+      The French form is furthermore commonly followed by adjectives or by some past participles, many of which are homophonous with their related infinitive verb forms, leading to essentially identical constructions in French and Creole, as in the hypothetical sentences \ref{sent:french_sra} and \ref{sent:creole_sa} below, albeit with slightly different semantics in some cases.
+      Given these analyses, there does not appear to be a motivation for treating these items as markers rather than auxiliary verbs just as \lexi{aller} and \lexi{être} would be treated as auxiliary verbs in similar constructions in French.
+      % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
 
+      \begin{enumerate}
+        \item \sent{Il sera fâché.} (Louisiana French) \label{sent:french_sra}
+        \item[] {}[i sra faʃe]
+        \item[] \gloss{He will be angry.}
+        \item {}[li sa faʃe] (Louisiana Creole) \label{sent:creole_sa}
+        \item[] \gloss{He will be angry.}
+      \end{enumerate}
+
+      Markers for mood likewise are reasonably interpreted as auxiliary verbs, or in the case of [kapab], as an adjective.
+      The marker [kapab] and its variant [ka], however, have been analyzed as verbs in both Pointe Coupée and Breaux Bridge, in the latter case as specifically an auxiliary verb (\citeauthor{klingler_if_2003}, \citeyear[pp.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~2223]{neumann_creole_1985}).
       % Mood
+        % Ability
+            % Neumann (1985) also include pe 'peut' as equivalently an auxiliary and a marker, though for both kapab and pe, she draws the connection with être capable de and pouvoir plainly (223)
+            % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
+              % Although this is also a difference between ve and oler, respectively (Klingler 2003 "Turn":276)
         % Conditional
           % se in Breaux Bridge (Neumann 1985:62)
           % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
             % Habitual past is expressed with se for some speakers in Pointe Coupee (Klingler 2003 "Turn":261)
             % The conditional is also also occasionally used in the French of Terrebonne-Lafourche for the habitual past, which was argued to be from English influence (Papen & Rottet 1997:100)
-        % Ability
-          % ka(pa(b)) is presented as a verb in Pointe Coupee Creole (Klingler 2003 "Turn":247) and as simultaneously an auxiliary verb and a marker in Breaux Bridge Creole (Neumann 1985:223)
-            % Neumann (1985) also include pe 'peut' as equivalently an auxiliary and a marker, though for both kapab and pe, she draws the connection with être capable de and pouvoir plainly (223)
-            % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
-              % Although this is also a difference between ve and oler, respectively (Klingler 2003 "Turn":276)
 
       % Aspect
         % Progressive
