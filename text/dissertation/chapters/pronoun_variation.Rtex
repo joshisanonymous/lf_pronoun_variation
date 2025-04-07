@@ -132,7 +132,8 @@
     \subsection{Preverbal markers}
       A notoriously common structural feature of creoles is the presence of what have been called preverbal markers that express tense, mood, and aspect (TMA) \parencite{winford_creole_2018}, and Louisiana Creole is no exception here.
       In fact, referring to these units as markers or even particles is something of an admission that the lexical categories to which they belong have not been well elaborated as neither markers nor particles are syntactically well defined in linguistics.
-      Indeed, even in generative analyses of markers, they are not given categories but rather maintain their vague status \parencite[\foreign{e.g.},][]{syea_tense_2006}.
+      Some creole-centric attempts have been made to do so \parencite[\foreign{e.g.},][pp.~210/221]{valdman_creole_1978}, but these constitute an exceptionalist approach to creoles that would maintain that creoles and creoles alone employ a unique lexical category.
+      Indeed, in generative analyses of markers, the question of the lexical categories of markers is generally not taken up but rather left vague \parencite[\foreign{e.g.},][]{syea_tense_2006}.
       In French-lexifier creoles, this is true despite some relatively transparent relationships with morphemes in the lexifier.
       Indeed, \textcite{aboh_null_2017} argued for a genetic relationship between French and Haitian Creole at least in part on the number of preverbal markers that ``have straightforward etyma in French morphemes in periphrastic verbal constructions whose meanings often overlap with those of the corresponding TMA+V combinations in'' Haitian Creole (p.~410).
       Many of the markers of Louisiana Creole can likewise be interpreted as more or less still corresponding semantically and functionally with their French correlates even though some (\citeauthor{neumann_creole_1985}, \citeyear[p.~81]{neumann_creole_1985}; \citeauthor{wendte_chronotopic_2022}, \citeyear[p.~98]{wendte_chronotopic_2022}) have been used them to distinguish between French and Creole.
@@ -160,7 +161,7 @@
           \hline
           {}[se]                          & Conditional, past imperfective & \lexi{serait} (+ variants) & Conditional, past imperfective (inflection of \lexi{être}) \\
           {}[pe]                          & Ability                        & \lexi{peux} / \lexi{peut}  & Ability (inflection of \lexi{pouvoir}) \\
-          {}[ka], [kapab]                 & Ability                        & \lexi{capable}             & Ability (adjective) \\
+          {}[kapab], [ka], [kab]          & Ability                        & \lexi{capable}             & Ability (adjective) \\
           \hline
           \multicolumn{4}{c}{Aspect} \\
           \hline
@@ -198,12 +199,15 @@
       \end{enumerate}
 
       Markers for mood likewise are reasonably interpreted as auxiliary verbs, or in the case of [kapab], as an adjective.
-      The marker [kapab] and its variant [ka], however, have been analyzed as verbs in both Pointe Coupée and Breaux Bridge, in the latter case as specifically an auxiliary verb (\citeauthor{klingler_if_2003}, \citeyear[pp.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~2223]{neumann_creole_1985}).
+      The marker [kapab] and its variants [ka] and [kab], however, have been analyzed as verbs in both Pointe Coupée and Breaux Bridge, in the latter case as specifically an auxiliary verb (\citeauthor{klingler_if_2003}, \citeyear[pp.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~2223]{neumann_creole_1985}).
+      \textcite{neumann_creole_1985} explicitly acknowledged that [kapab] comes from the French \lexi{être capable [kapab(l)] de} \gloss{to be capable of} where it is an adjective expressing ability but did not explain how she established it rather as an auxiliary verb in Creole.
+      \textcite{klingler_if_2003}, on the other hand, 
       % Mood
         % Ability
-            % Neumann (1985) also include pe 'peut' as equivalently an auxiliary and a marker, though for both kapab and pe, she draws the connection with être capable de and pouvoir plainly (223)
+            % Neumann (1985) included pe 'peut' as equivalently an auxiliary and a marker, drawing the connection with pouvoir plainly (223)
             % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
-              % Although this is also a difference between ve and oler, respectively (Klingler 2003 "Turn":276)
+        % Desire
+          % In Pointe Coupee, pas comes after ve but before oler, making the latter more like kapab than an auxiliary (Klingler 2003 "Turn":276)
         % Conditional
           % se in Breaux Bridge (Neumann 1985:62)
           % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
