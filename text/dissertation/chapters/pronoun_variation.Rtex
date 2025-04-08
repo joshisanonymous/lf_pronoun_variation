@@ -132,7 +132,7 @@
     \subsection{Preverbal markers}
       A notoriously common structural feature of creoles is the presence of what have been called preverbal markers that express tense, mood, and aspect (TMA) \parencite{winford_creole_2018}, and Louisiana Creole is no exception here.
       In fact, referring to these units as markers or even particles is something of an admission that the lexical categories to which they belong have not been well elaborated as neither markers nor particles are syntactically well defined in linguistics.
-      Some creole-centric attempts have been made to do so \parencite[\foreign{e.g.},][pp.~210/221]{valdman_creole_1978}, but these constitute an exceptionalist approach to creoles that would maintain that creoles and creoles alone employ a unique lexical category.
+      Some creole-centric attempts have been made to do so \parencite[\foreign{e.g.},][pp.~210/221-223]{valdman_creole_1978}, but these constitute an exceptionalist approach to creoles that would maintain that creoles and creoles alone employ a unique lexical category.
       Indeed, in generative analyses of markers, the question of the lexical categories of markers is generally not taken up but rather left vague \parencite[\foreign{e.g.},][]{syea_tense_2006}.
       In French-lexifier creoles, this is true despite some relatively transparent relationships with morphemes in the lexifier.
       Indeed, \textcite{aboh_null_2017} argued for a genetic relationship between French and Haitian Creole at least in part on the number of preverbal markers that ``have straightforward etyma in French morphemes in periphrastic verbal constructions whose meanings often overlap with those of the corresponding TMA+V combinations in'' Haitian Creole (p.~410).
@@ -159,9 +159,9 @@
           \hline
           \multicolumn{4}{c}{Mood} \\
           \hline
-          {}[se]                          & Conditional, past imperfective & \lexi{serait} (+ variants) & Conditional, past imperfective (inflection of \lexi{être}) \\
-          {}[pe]                          & Ability                        & \lexi{peux} / \lexi{peut}  & Ability (inflection of \lexi{pouvoir}) \\
           {}[kapab], [ka], [kab]          & Ability                        & \lexi{capable}             & Ability (adjective) \\
+          {}[pe]                          & Ability                        & \lexi{peux} / \lexi{peut}  & Ability (inflection of \lexi{pouvoir}) \\
+          {}[se]                          & Conditional, past imperfective & \lexi{serait} (+ variants) & Conditional, past imperfective (inflection of \lexi{être}) \\
           \hline
           \multicolumn{4}{c}{Aspect} \\
           \hline
@@ -182,7 +182,7 @@
       \textcite{neumann_creole_1985} suggested that [a] was a shortened form of [va] rather than [sa], which is perhaps the most reasonable interpretation without a more detailed examination given that word-initial /v/ is regularly elided in Louisiana French when followed by /w/ but /s/ is not \parencite[p.~182]{blainey_first_2013}.
       This results in [va] and [a] being an inflected form of the French verb \lexi{aller} \gloss{to go}, \lexi{va(s)}, and [ale] being the non-finite form.
       \lexi{Aller} is used in French to indicate future tense just as these elements do in Creole.
-      The marker [sra] is likely a variant of [sa] that was only used in 19th century New Orleans as the only attestations come from a description of Creole as spoken in that time and place \parencite[p.~108]{fotier_french_1884}.\footnote{
+      The marker [sra] is likely a variant of [sa] that was only used in 19th century New Orleans as the only attestations come from a description of Creole as spoken in that time and place \parencite[p.~108]{fortier_french_1884}.\footnote{
         There is one attestation from St Martinville in the 1950s in the phrase \sent{moi qui sera} \parencite[p.~11]{morgan_lexicon_1960}, but it is not entirely clear that this person's speech was uncontroversially Creole-oriented as such a phrase would be perfectly normal in Louisiana French, as well, and no other context was provided.
       }
       Both [sa] and [sra] are thus equivalent to the inflected future forms of the French verb \lexi{être} \gloss{to be}, \lexi{sera(s)}, which in most inflections would be pronounced [s(ə)ra].
@@ -190,7 +190,7 @@
       Given these analyses, there does not appear to be a motivation for treating these items as markers rather than auxiliary verbs just as \lexi{aller} and \lexi{être} would be treated as auxiliary verbs in similar constructions in French.
       % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
 
-      \begin{enumerate}
+      \begin{enumerate}[label=\arabic*, series=sentences]
         \item \sent{Il sera fâché.} (Louisiana French) \label{sent:french_sra}
         \item[] {}[i sra faʃe]
         \item[] \gloss{He will be angry.}
@@ -198,16 +198,38 @@
         \item[] \gloss{He will be angry.}
       \end{enumerate}
 
-      Markers for mood likewise are reasonably interpreted as auxiliary verbs, or in the case of [kapab], as an adjective.
-      The marker [kapab] and its variants [ka] and [kab], however, have been analyzed as verbs in both Pointe Coupée and Breaux Bridge, in the latter case as specifically an auxiliary verb (\citeauthor{klingler_if_2003}, \citeyear[pp.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~2223]{neumann_creole_1985}).
+      Elements used to express mood likewise can reasonably interpreted as verbs, and in fact have been interpreted as such.
+      One exception is [kapab], which is best interpreted as an adjective, although it and its variants [ka] and [kab] have been analyzed as auxiliary verbs in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[p.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~223???]{neumann_creole_1985}).
       \textcite{neumann_creole_1985} explicitly acknowledged that [kapab] comes from the French \lexi{être capable [kapab(l)] de} \gloss{to be capable of} where it is an adjective expressing ability but did not explain how she established it rather as an auxiliary verb in Creole.
-      \textcite{klingler_if_2003}, on the other hand, 
+      \textcite[p.~273]{klingler_if_2003}, on the other hand, relied on \citeauthor{valdman_creole_1978}'s (\citeyear[p.~223]{valdman_creole_1978}) criteria that an auxiliary can be followed by another verb but either cannot be followed by an NP to form a VP or has a sense distinct from any related ``verbe autonome\footnote{autonomous verb},'' by which I assume he meant lexical verb, or both.
+      Putting aside that this is not a particularly clear definition -- is the first criteria necessary or optional when the latter criteria are met, and what counts as a related verb? -- these criteria do not match any of the many definitional criteria in the literature summarized by \textcite[pp.~22-24]{heine_auxiliaries_1993} and in fact the criteria of not being followed by an NP is contradicted by several syntacticians.
+      While [kapab] does, then, appear to be an auxiliary according to the proposed requirements, but those requirements are not themselves well supported, whereas an analysis of [kapab] as an adjective raises no such definitional vagaries and applies to all the examples given such as in sentences \ref{sent:kapab1_klingler} and \ref{sent:kapab2_klingler} taken from \textcite{klingler_if_2003}\footnote{
+        The orthographic convention used by Klingler, reproduced here, is more or less in line with the IPA.
+      }.
+      In both of these sentences, the lack of an overt copula preceding [ka] may give one pause in interpreting [ka] as an adjective, but copula absence is common cross-linguistically.
+      Otherwise, the Creole versions are practically identical to the French versions where \lexi{capable} is uncontroversially an adjective.
+
+      \begin{enumerate}[resume=sentences]
+        \item Se juch mon ki \emph{ka} parle sa. (LC) (p.~273) \label{sent:kapab1_klingler}
+        \item[] C'est juste moi qui suis \emph{capable} de parler ça. (FR)
+        \item[] \gloss{It's just me who is capable of speaking that.}
+        \item Mounn \emph{ka} apronn. (LC) (p.~274) \label{sent:kapab2_klingler}
+        \item[] Le monde est \emph{capable} d'apprendre. (FR)
+        \item[] \gloss{People are capable of learning.}
+      \end{enumerate}
+
+      The other items expressing mood include [pe], [ve], [ole], and [se], all attested in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~___]{neumann_creole_1985}).
+      The first two are equivalent to French \lexi{peux/peut} [pø] and \lexi{veux/veut} [vø], respectively, representing inflections of the modal verbs \lexi{pouvoir} \gloss{to be able} and \lexi{vouloir} \gloss{to want}.
+      These are both predictable from Louisiana Creole phonology where front rounded vowels in French have not retained their rounding in the Creole of many speakers \parencite[p.~143]{klingler_if_2003}.
+      Drawing these, and [kapab] for that matter, even closer to their French variants is the placement of the negation \lexi{pas} [pa].
+      In French, \lexi{pas} would come after finite forms of \lexi{pouvoir} and {vouloir} but before adjectives such as \lexi{capable}, and this is exactly what happens in Louisiana Creole.
       % Mood
         % Ability
             % Neumann (1985) included pe 'peut' as equivalently an auxiliary and a marker, drawing the connection with pouvoir plainly (223)
             % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
         % Desire
           % In Pointe Coupee, pas comes after ve but before oler, making the latter more like kapab than an auxiliary (Klingler 2003 "Turn":276)
+
         % Conditional
           % se in Breaux Bridge (Neumann 1985:62)
           % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
@@ -225,8 +247,6 @@
         % Alé for future, sra for the future anterior, té for past imperfective, sré for conditional, apé for present [probably means progressive] (Fortier 1884:108)
 
       % Valdman & Klingler (1997) argue that ape, te, va/ale/sa, and se are "verbal markers" rather than auxiliaries because auxiliaries can't be followed by NP predicates (125-127)
-        % An auxiliary has been defined as a verb-like word element in a clause that expresses grammatical information such as tense, aspect, and modality (Anderson 2011:797-802; Heine 1993:22)
-        % This leaves both elements like kapab as well as ole as auxiliaries. The rationale is odd as Heine (1997) cites work from as far back as 1973 that argues that auxiliaries can be main verbs, and indeed what they show in their data is that ole can and kapab can't, probably because these are in fact best analyzed as their French equivalent vouloir and capable. Likewise, their "markers" include, by their own admission, can all be used as main verbs other than ape and se (though I suspect se can even if an example isn't available or at least isn't clear given homophony with se as in c'est)
 
       % Syntactic order
         % te + pa + e in Pointe Coupee (Klingler 2003 "Turn":26/258)
