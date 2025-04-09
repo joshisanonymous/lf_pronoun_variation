@@ -161,12 +161,12 @@
           \hline
           {}[kapab], [ka], [kab]          & Ability                        & \lexi{capable}             & Ability (adjective) \\
           {}[pe]                          & Ability                        & \lexi{peux} / \lexi{peut}  & Ability (inflection of \lexi{pouvoir}) \\
-          {}[se]                          & Conditional, past imperfective & \lexi{serait} (+ variants) & Conditional, past imperfective (inflection of \lexi{être}) \\
+          {}[se], [sre]                   & Conditional, past imperfective & \lexi{serait} (+ variants) & Conditional, past imperfective (inflection of \lexi{être}) \\
           \hline
           \multicolumn{4}{c}{Aspect} \\
           \hline
-          {}[ap], [ape], [e]              & Progressive                    & \lexi{après}               & Progressive (periphrastic) \\
           {}[bɪn]                         & Perfect                        & \lexi{been} (English)      & Perfect (periphrastic) \\
+          {}[ap], [ape], [e]              & Progressive                    & \lexi{après}               & Progressive (periphrastic) \\
         \end{tabular}
       \end{table}
 
@@ -199,7 +199,7 @@
       \end{enumerate}
 
       Elements used to express mood likewise can reasonably interpreted as verbs, and in fact have been interpreted as such.
-      One exception is [kapab], which is best interpreted as an adjective, although it and its variants [ka] and [kab] have been analyzed as auxiliary verbs in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[p.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~223???]{neumann_creole_1985}).
+      One exception is [kapab], which is best interpreted as an adjective, although it and its variants [ka] and [kab] have been analyzed as auxiliary verbs in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[p.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~223]{neumann_creole_1985}).
       \textcite{neumann_creole_1985} explicitly acknowledged that [kapab] comes from the French \lexi{être capable [kapab(l)] de} \gloss{to be capable of} where it is an adjective expressing ability but did not explain how she established it rather as an auxiliary verb in Creole.
       \textcite[p.~273]{klingler_if_2003}, on the other hand, relied on \citeauthor{valdman_creole_1978}'s (\citeyear[p.~223]{valdman_creole_1978}) criteria that an auxiliary can be followed by another verb but either cannot be followed by an NP to form a VP or has a sense distinct from any related ``verbe autonome\footnote{autonomous verb},'' by which I assume he meant lexical verb, or both.
       Putting aside that this is not a particularly clear definition -- is the first criteria necessary or optional when the latter criteria are met, and what counts as a related verb? -- these criteria do not match any of the many definitional criteria in the literature summarized by \textcite[pp.~22-24]{heine_auxiliaries_1993} and in fact the criteria of not being followed by an NP is contradicted by several syntacticians.
@@ -218,31 +218,34 @@
         \item[] \gloss{People are capable of learning.}
       \end{enumerate}
 
-      The other items expressing mood include [pe], [ve], [ole], and [se], all attested in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~___]{neumann_creole_1985}).
+      The other items expressing mood include [pe], [ve], [ole], and [se] with its very rare variant [sre], all attested in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~220-226/231-233]{neumann_creole_1985}).
       The first two are equivalent to French \lexi{peux/peut} [pø] and \lexi{veux/veut} [vø], respectively, representing inflections of the modal verbs \lexi{pouvoir} \gloss{to be able} and \lexi{vouloir} \gloss{to want}.
       These are both predictable from Louisiana Creole phonology where front rounded vowels in French have not retained their rounding in the Creole of many speakers \parencite[p.~143]{klingler_if_2003}.
-      Drawing these, and [kapab] for that matter, even closer to their French variants is the placement of the negation \lexi{pas} [pa].
-      In French, \lexi{pas} would come after finite forms of \lexi{pouvoir} and {vouloir} but before adjectives such as \lexi{capable}, and this is exactly what happens in Louisiana Creole.
-      % Mood
-        % Ability
-            % Neumann (1985) included pe 'peut' as equivalently an auxiliary and a marker, drawing the connection with pouvoir plainly (223)
-            % In Pointe Coupee, pas comes after pe but before kapab (Klingler 2003 "Turn":275)
-        % Desire
-          % In Pointe Coupee, pas comes after ve but before oler, making the latter more like kapab than an auxiliary (Klingler 2003 "Turn":276)
+      The form [ole] is also believed to be derived from \lexi{vouloir}, whereas [se] and [sre] have a fairly transparent connection with French \lexi{serait/serais/seraient} [s(ə)re] or [s(ə)rɛ], all conditional inflections of the verb \lexi{être} \gloss{to be}.
+      Drawing most of these, and [kapab] for that matter, even closer to their French variants is the placement of the negation \lexi{pas} [pa].
+      In French, \lexi{pas} would come after finite forms of \lexi{pouvoir}, \lexi{vouloir} and \lexi{être} but before adjectives such as \lexi{capable}, and this is exactly what happens in Louisiana Creole.
+      The only exception is the verb [ole] which is preceded by \lexi{pas} even in present habitual constructions where they are necessarily followed by \lexi{pas} in both regions.
+      This idiosyncrasy is shared with the verbs [kone] \gloss{to know}, [gɛ̃] \gloss{to have}, and [kuri] \gloss{to go} (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~320]{neumann_creole_1985}).
+      Such exceptions for some of the most frequent words in the language are not surprising, however, as irregular constructions in all languages generally apply to the most frequent words.
+      It would therefore hardly be appropriate to override the many clear analogies between Louisiana Creole ``markers'' and their French origins based on these exceptions.
 
-        % Conditional
-          % se in Breaux Bridge (Neumann 1985:62)
-          % se in Pointe Coupee Creole (Klingler 2003 "Turn":261)
-            % Habitual past is expressed with se for some speakers in Pointe Coupee (Klingler 2003 "Turn":261)
-            % The conditional is also also occasionally used in the French of Terrebonne-Lafourche for the habitual past, which was argued to be from English influence (Papen & Rottet 1997:100)
+      It is notable that the above modal elements were all classified as auxiliaries in past analyses rather than modal verbs as will be done here.
+      Verb type had proven previously to be meaningful for predicting the use of \lexi{ça} as a third person plural subject pronoun among French-oriented speakers, though those results are somewhat unreliable as modal verbs were chosen as one category whereas the auxiliary \lexi{être} was lumped in with intransitive verbs in general, meaning many cases of \lexi{c'est} were coded as \lexi{ça} with an intransitive verb rather than with an auxiliary \parencite[pp.~173-174]{brown_pronominal_1988}.
+      My own pilot study of the same pronoun showed that \lexi{ils} was favored with auxiliary verbs but \lexi{ça} with modal verbs.
+      Prudence in classifying verb types should therefore be taken.
+      There is admittedly the one difficult case of [se] in terms of classification as auxiliary or modal as, in addition to expressing the conditional mood, this can be used to indicate imperfective past in lieu of [te] in the Creole of some speakers \parencite[p.~261]{klingler_if_2003} just as Standard French conditional inflections can be in lieu of past imperfective inflections in the French of Louisiana \parencite[p.~100]{papen_structural_1997}.
+      This is thought to be related to the influence of English \lexi{would}, which can be indicate either imperfective past (auxiliary) or conditional mood (modal).
+      That this occurs in both French-related varieties spoken in Louisiana means that no distance is created between Creole and French but rather that this fact draws them closer together in structure.
+      As for coding, contextual judgement was used to determine if the speaker was expressing imperfective past or conditional mood with [se] and conditional inflectional forms.
 
+      
       % Aspect
-        % Progressive
-          % e (mostly), ap, and ape in Pointe Coupee (Klingler 2003 "Turn":255)
-          % Past and present progressive in Terrebonne-Lafourche are produced with être après (Papen & Rottet 1997:102)
         % Perfect aspect
           % "been" in Breaux Bridge (Neumann 1985:75)
           % Perfect aspect expressed with bin [bɪn] in Pointe Coupee (Klingler 2003 "Turn":262-263)
+        % Progressive
+          % e (mostly), ap, and ape in Pointe Coupee (Klingler 2003 "Turn":255)
+          % Past and present progressive in Terrebonne-Lafourche are produced with être après (Papen & Rottet 1997:102)
       % Perhaps a New Orleans variety of Creole
         % Alé for future, sra for the future anterior, té for past imperfective, sré for conditional, apé for present [probably means progressive] (Fortier 1884:108)
 
