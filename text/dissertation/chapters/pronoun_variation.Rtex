@@ -219,7 +219,7 @@
       \end{enumerate}
 
       The other items expressing mood include [pe], [ve], [ole], and [se] with its very rare variant [sre], all attested in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~220-226/231-233]{neumann_creole_1985}).
-      The first two are equivalent to French \lexi{peux/peut} [pø] and \lexi{veux/veut} [vø], respectively, representing inflections of the modal verbs \lexi{pouvoir} \gloss{to be able} and \lexi{vouloir} \gloss{to want}.
+      The first two are equivalent to French \lexi{peux/peut} [pø] and \lexi{veux/veut} [vø], respectively, representing inflections of the modal auxiliary verbs \lexi{pouvoir} \gloss{to be able} and \lexi{vouloir} \gloss{to want}.
       These are both predictable from Louisiana Creole phonology where front rounded vowels in French have not retained their rounding in the Creole of many speakers \parencite[p.~143]{klingler_if_2003}.
       The form [ole] is also believed to be derived from \lexi{vouloir}, whereas [se] and [sre] have a fairly transparent connection with French \lexi{serait/serais/seraient} [s(ə)re] or [s(ə)rɛ], all conditional inflections of the verb \lexi{être} \gloss{to be}.
       Drawing most of these, and [kapab] for that matter, even closer to their French variants is the placement of the negation \lexi{pas} [pa].
@@ -229,11 +229,11 @@
       Such exceptions for some of the most frequent words in the language are not surprising, however, as irregular constructions in all languages generally apply to the most frequent words.
       It would therefore hardly be appropriate to override the many clear analogies between Louisiana Creole ``markers'' and their French origins based on these exceptions.
 
-      It is notable that the above modal elements were all classified as auxiliaries in past analyses rather than modal verbs as will be done here.
-      Verb type had proven previously to be meaningful for predicting the use of \lexi{ça} as a third person plural subject pronoun among French-oriented speakers, though those results are somewhat unreliable as modal verbs were chosen as one category whereas the auxiliary \lexi{être} was lumped in with intransitive verbs in general, meaning many cases of \lexi{c'est} were coded as \lexi{ça} with an intransitive verb rather than with an auxiliary \parencite[pp.~173-174]{brown_pronominal_1988}.
-      My own pilot study of the same pronoun showed that \lexi{ils} was favored with auxiliary verbs but \lexi{ça} with modal verbs.
+      It is notable that the above modal elements were all classified as simply auxiliaries in past analyses rather than separating modal auxiliary verbs from auxiliaries expressing only tense and aspect as will be done here.
+      Verb type had proven previously to be meaningful for predicting the use of \lexi{ça} as a third person plural subject pronoun among French-oriented speakers, though those results are somewhat unreliable as modal auxiliary verbs were chosen as one category whereas the auxiliary \lexi{être} was lumped in with intransitive verbs in general, meaning many cases of \lexi{c'est} were coded as \lexi{ça} with an intransitive verb rather than with an auxiliary \parencite[pp.~173-174]{brown_pronominal_1988}.
+      My own pilot study of the same pronoun showed that \lexi{ils} was favored with the auxiliary verbs \lexi{être} and \lexi{avoir} but \lexi{ça} with modal auxiliary verbs.
       Prudence in classifying verb types should therefore be taken.
-      There is admittedly the one difficult case of [se] in terms of classification as auxiliary or modal as, in addition to expressing the conditional mood, this can be used to indicate imperfective past in lieu of [te] in the Creole of some speakers \parencite[p.~261]{klingler_if_2003} just as Standard French conditional inflections can be in lieu of past imperfective inflections in the French of Louisiana (\citeauthor{lane_notes_1934}, \citeyear[p.~329]{lane_notes_1934}; \citeauthor{papen_structural_1997}, \citeyear[p.~100]{papen_structural_1997}).
+      There is admittedly the one difficult case of [se] in terms of classification as tense-aspect auxiliary or modal auxiliary as, in addition to expressing the conditional mood, this can be used to indicate imperfective past in lieu of [te] in the Creole of some speakers \parencite[p.~261]{klingler_if_2003} just as Standard French conditional inflections can be in lieu of past imperfective inflections in the French of Louisiana (\citeauthor{lane_notes_1934}, \citeyear[p.~329]{lane_notes_1934}; \citeauthor{papen_structural_1997}, \citeyear[p.~100]{papen_structural_1997}).
       This is thought to be related to the influence of English \lexi{would}, which can be indicate either imperfective past (auxiliary) or conditional mood (modal).
       That this occurs in both French-related varieties spoken in Louisiana means that no distance is created between Creole and French but rather that this fact draws them closer together in structure.
       As for coding, contextual judgement was used to determine if the speaker was expressing imperfective past or conditional mood with [se] and conditional inflectional forms.
@@ -253,13 +253,37 @@
       Where it has been suggested that these varieties differ the most -- in morphosyntax and the use of markers (\citeauthor{clifton_tracing_1975}, \citeyear[p.~109]{clifton_tracing_1975}; \citeauthor{klingler_probleme_2005}, \citeyear[p.~352]{klingler_probleme_2005}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~52/54]{neumann_creole_1985}; \citeauthor{wendte_chronotopic_2022}, \citeyear[p.~98]{wendte_chronotopic_2022}) -- there is actually quite a bit of consistency with French.
       An analysis that aggregates the two varieties as F\&C is thus justified and can even shed light on how to code the lexical categories of the elements that follow subject pronouns in a way that is more cross-linguistically consistent than using the fairly creole-centric marker category.
   
-  \section{Spelling conventions for the present study}
-    \label{sec:spelling}
-    Before moving on to an overview of the subject pronoun system of F\&C, a few notes must be made on the spelling used in this study.
-    Just as French and Creole are being aggregated here purely to facilitate analyses rather than to take a sociopolitical stance on the status of these varieties as independent languages, my orthographic choices are a matter of easing comparisons only.
-      % On a sociopolitical level, these similarities in structure can be obscured in particular via choices in how to represent creoles orthographically
-
-    % Spelling convention used in this study
+    \subsection{Spelling conventions for the present study}
+      \label{sec:spelling}
+      Before moving on to an overview of the subject pronoun system of F\&C, a few notes must be made on the spelling used in this study.
+      Just as French and Creole are being aggregated here purely to facilitate analyses rather than to take a sociopolitical stance on the status of these varieties as independent languages, my orthographic choices are a matter of easing comparisons only.
+      On a sociopolitical level, similarities in structure between French and Creole can be obscured via choices in how to represent Creole orthographically.
+      Distinguishing Creole from French was in fact a primary goal in the development of the most current general-use orthography that has been proposed (\citeauthor{landry_kouri-vini_2016}, \citeyear{landry_kouri-vini_2016}; \citeauthor{mayeux_language_2024}, \citeyear[p.~13]{mayeux_language_2024}).
+      Representing Creole-oriented speech and French-oriented speech differently would work against the goal here, which is quite the opposite of \citeauthor{landry_kouri-vini_2016}'s (\citeyear{landry_kouri-vini_2016}) goal.
+      Using two orthographies would perhaps be more teneble if one could draw clear lines between when French was being used and when Creole was being used, but just as discussed in section \ref{sec:french_vs_creole}, that line is often blurred and indeed was blurred in the speech of my participants.
+      
+      When quoted in this study, all speech has therefore been rendered through the adaptation of standard French orthography rather than through \citeauthor{landry_kouri-vini_2016}'s (\citeyear{landry_kouri-vini_2016}) system.
+      The major reason for this choice is that latter has not yet become widespread enough.
+      For instance, a study of attitudes towards how Creole should be written relied on finding participants through Facebook groups as this was considered the population that was ``likely to have an opinion on the subject of Louisiana Creole writing'' \parencite[p.~27]{wendte_identity_2019} despite the researcher having been engaged in extensive face-to-face fieldwork with Creole speakers at the time \parencite{wendte_tale_2020}, presumably meaning that this latter group would not have opinions on written Creole.
+      Regardless of the utility of \citeauthor{landry_kouri-vini_2016}'s (\citeyear{landry_kouri-vini_2016}) system for educational purposes and revitalization purposes, when writing for a broad audience of scholars, there is no comparison with the reach of French orthography.
+      
+      In practice, there are not a large number of spelling adaptations that need to be made.
+      Initial and final segments that would be present in Standard French cognates are sometimes absent, both in Creole-oriented and French-oriented speech.
+      In the most noticeable cases, these are replaced by an apostrophe.
+      Where speakers produced unrounded front vowels that would typically be rounded in their related French forms, a common feature for Creole speakers \parencite[p.~143]{klingler_if_2003}, the French spelling is used.
+      For instance, where French [y] is pronounced as [i], it is written as \orth{u} (\foreign{e.g.}, \orth{couru} instead of \orth{couri}), and likewise where French [ø] is pronounced [e] (\foreign{e.g.}, \orth{deux} instead of \orth{dé}).
+      Possessive determiners that are pronounced with [o] rather than French [ɔ̃] are still spelled with a final \orth{n} that is normally there to indicate nasalization (\foreign{e.g.}, \orth{ton} instead of \orth{to}).
+      This is simply more readible for the target audience and not critical to any analyses.
+      Slightly more relevant to analyses is the preposition \lexi{après} in progressive constructions where it is shortened relative to how it is pronounced in each case, which most often means that no \orth{r} is written.
+      Any verb preceded by a ``marker'' is assumed to be an infinitive and thus endings such as [e] are written as \orth{er}, and so on, as would be done in French orthography.
+      Verb endings are otherwise written as inflected based on the assumed tense and aspect being used.
+      This means that other tokens of verbs that end in, for instance, [e] are transcribed as \orth{ait} or one of the other past imperfective inflections or \orth{é} for past perfective to align with French past participles.
+      Likewise, markers that are interpreted here as auxiliary verbs or modal verbs are given written inflections to agree with their subjects, yielding representations such as \orth{peux} or \orth{peut} when [pe] is produced.
+      Finally and rarely, the copula when produced as [je] is written as one of the related French present tense inflections of \lexi{être}.
+          
+      Again, the purpose of the spelling conventions used in this study is to render structural similarities between French and Creole clear and to ease reading for an audience which may be familiar with French orthography but almost certainly not with \citeauthor{landry_kouri-vini_2016}'s (\citeyear{landry_kouri-vini_2016}) general-use orthography.
+      These choices are not meant to have any implications beyond that.
+      To the extent that the creolophone community of Louisiana wishes to use one orthography or another for themselves, I am in support of their self-determination on that matter.
       % It has been argued for British Creole that non-standard spelling functions both as a way to represent a language that has no orthographic standard as well as a way to distance itself from its superstrate when words could be spelled the same but aren't, such as <Jameka> or <kool> (Sebba 1998, as cited in Androutsopoulos 2000:515)
       % Bengali and Hindi speakers who mix English into their online writing in the former languages sometimes write the former languages using the Roman script for convenience (Barman et al. 2014:13)
         % Likewise, writing here using French orthographic conventions is not a stance on the primacy of French but rather a matter of convenience
