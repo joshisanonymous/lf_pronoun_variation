@@ -292,22 +292,55 @@
 
   \section{Subject pronoun system}
     \label{sec:pronoun_system}
-    % Historical pronoun systems
-      % Creole in 19th century New Orleans
+
+    \begin{table}[tbhp]
+      \caption{Subject pronouns attested in Louisiana}
+      \label{tab:pronouns_attested}
+      \centering
+      \begin{tabular}{r | r | r}
+        & Singular & Plural \\
+        \hline
+        1st person      & je, moi, mo, ø                    & on, nou, no, nous-autres \\
+        2nd person (T)  & tu, to                            & \\
+        2nd person (V)  & vous, tu, vous-autres, vou, vo, ø & \\
+        2nd person (NA) & to                                & vou, vous-autres, vous, tu \\
+        3rd person (M)  & il                                & \\
+        3rd person (F)  & elle                              & \\
+        3rd person (NA) & li                                & ils, ça, eux, eux-autres, yé \\
+        expletive       & \multicolumn{2}{r}{il, ø} \\
+        impersonal      & \multicolumn{2}{r}{yé} \\
+        demonstrative   & ça                                & \\
+      \end{tabular}
+    \end{table}
+
+    % Attested subject pronouns
+      % New Orleans
         % mo, to (2sg), li, yé (imp), nou, vou (2pl), yé (3pl) (Fortier 1884:107)
-      % Origin of non-hexagonal pronoun forms?
-        % An argument for the origin of yo in Haitian Creole is the disjunctive pronoun eux (Lefebvre 2001:383-384)
-          % One could imagine the same arguments for ye
+      % Terrebonne-Lafourche
+        % Rottet (1995:175/178/193/197/207)
+        % Papen & Rottet (1997:83)
+        % Carmichael & Gudmestad (2019:72)
+        % Gudmestad & Carmichael (2022)
+      % Pointe Coupée
+        % Klingler (2003 "Turn":206/213)
+      % Avoyelles and Assumption
+        % B. Brown (1988:152-153)
+    % Phonetic variants
+      % Rottet (1995:175)
+      % Klingler (2003 "Turn":206)
+      % Carmichael & Gudmestad (2019:72)
+      % Papen & Rottet (1997:83)
+    % Social variation
+
+    % Origin of non-hexagonal pronoun forms?
+      % An argument for the origin of yo in Haitian Creole is the disjunctive pronoun eux (Lefebvre 2001:383-384)
+        % One could imagine the same arguments for ye
+
     % Modern day pronouns
-      % These aren't necessarily clitics as one expects in Hexagonal French
-        % Clitics can be defined as not being able to take stress (Cardinaletti & Starke 1999), though even those that appear identical to clitics from Hexagonal French are stressed at times in my data
       % Table of groups by pronoun types from studies that look at whole pronoun systems
         % Groups divided by geographical location > social factors
         % For each pronoun type, just give the most common variant, and provide attested alternatives in the text below
         % The text below is for relevant details that aren't apparent in the table
-        % Sources
-          % Rottet (1995:178/193/197/207)
-          % Klinlger (2003 "Turn":206/213)
       % 1sg
         % Possible variants
           % Phonetically, the consonant in je has been documented as /ʒ/, /ʃ/, /z/, /s/, and /h/ (Carmichael & Gudmestad 2019:72)
@@ -453,6 +486,7 @@
                 % Is ça not a clitic? I would say it is for Louisianians, especially when it's realized as c'
                 % While we know that English has influenced French in the area, this is perhaps the only study where it has been suggested to have influenced subject pronouns which are usually discussed as having internal influences related to language acquisition
       % Potential of some pronouns being disjunctive with a null clitic rather than simply being the subject pronouns themselves
+        % Clitics can be defined as not being able to take stress (Cardinaletti & Starke 1999), though even those that appear identical to clitics from Hexagonal French are stressed at times in my data
         % Nous-autres, vous-autres, eux-autres, and eux all occur in other French varieties as disjunctive pronouns
         % Vous-autres usually takes a bare verb but has been attested with 3pl forms like vont in Terrebonne-Lafourche (Papen & Rottet 1997:97)
           % Notably, -ez is not used
