@@ -300,38 +300,56 @@
       \begin{tabular}{r | r | r}
         & Singular & Plural \\
         \hline
-        1st person      & je, moi, mo, ø                    & on, nou, no, nous-autres \\
-        2nd person (T)  & tu, to                            & \\
-        2nd person (V)  & vous, tu, vous-autres, vou, vo, ø & \\
-        2nd person (NA) & to                                & vou, vous-autres, vous, tu \\
-        3rd person (M)  & il                                & \\
-        3rd person (F)  & elle                              & \\
-        3rd person (NA) & li                                & ils, ça, eux, eux-autres, yé \\
-        expletive       & \multicolumn{2}{r}{il, ø} \\
-        impersonal      & \multicolumn{2}{r}{yé} \\
+        1st person      & je, moi, mo, ø                    & on, nous, nou, no, nous-autres \\
+        2nd person (T)  & tu, to, ça                        & vous-autres \\
+        2nd person (V)  & vous, tu, vous-autres, vou, vo, ø & vous-autres \\
+        2nd person (NA) & to                                & vou, vous-autres, vous, tu, ça \\
+        3rd person (M)  & il                                & ils \\
+        3rd person (F)  & elle                              & ils \\
+        3rd person (NA) & il, ça, li                        & ils, ça, eux, eux-autres, yé, ø \\
+        expletive       & \multicolumn{2}{r}{il, ça, ø} \\
+        impersonal      & \multicolumn{2}{r}{on, ça, yé} \\
         demonstrative   & ça                                & \\
       \end{tabular}
     \end{table}
 
     % Attested subject pronouns
       % New Orleans
-        % mo, to (2sg), li, yé (imp), nou, vou (2pl), yé (3pl) (Fortier 1884:107)
+        % (Fortier 1884:107)
+      % Lafayette
+        % J. S. Smith (1994:42/58)
       % Terrebonne-Lafourche
         % Rottet (1995:175/178/193/197/207)
         % Papen & Rottet (1997:83)
         % Carmichael & Gudmestad (2019:72)
         % Gudmestad & Carmichael (2022)
+        % Dajko (2009:144/160)
+        % Oukada (1977:185)
+        % Parr (1940:xi)
+        % ils, eux, eux-autres, and ça (Guilbeau 1950) (have to verify directly)
       % Pointe Coupée
         % Klingler (2003 "Turn":206/213)
-      % Avoyelles and Assumption
-        % B. Brown (1988:152-153)
+      % St Martin
+        % Neumann (1985:166)
+        % Broussard (1972:8)
+      % Avoyelles
+        % B. Brown (1988:152-153) (also includes Assumption)
+        % Chaudoir (1938:31-33)
       % Evangeline
         % Phillips (1939:218-219)
+      % Vermilion
+        % ils, eux, and eux-autres (and very commonly the -ont inflection with ils) (Brandon 1955) (need to verify directly)
+        % Girard Lomheim (2019:5) (also St Landry)
+      % Broadly South Louisiana
+        % Byers (1988)
     % Phonetic variants
       % Rottet (1995:175)
       % Klingler (2003 "Turn":206)
       % Carmichael & Gudmestad (2019:72)
       % Papen & Rottet (1997:83)
+      % Phillips (1939:218-219)
+      % Oukada (1977:185)
+      % Parr (1940:xi)
     % Social variation
 
     % Origin of non-hexagonal pronoun forms?
@@ -429,7 +447,7 @@
           % Not a single token of nous was attested in Terrebonne-Lafourche (Rottet 1995:173; Papen & Rottet 1997:82)
           % nou(zòt) (mostly) but also rarely no in Ponte Coupee (Klingler 2003 "Turn":206/213)
       % 2pl
-        % The use of vous for plural referents was perhaps on its way out already in the early 20th century, being only attested as singular in one study (Chaudoir 1937), but other studies did in fact have attestations of it (Conwell & Juilland 1963; Oukada 1977, all as cited in Rottet 1995:187)
+        % The use of vous for plural referents was perhaps on its way out already in the early 20th century, being only attested as singular in one study (Chaudoir 1938), but other studies did in fact have attestations of it (Conwell & Juilland 1963; Oukada 1977, all as cited in Rottet 1995:187)
         % Possible variants
           % Phonological
             % [wɔt] is attested for vous-autres in rapid speech in Terrebonne-Lafourche (Rottet 1995:185-186)
@@ -439,7 +457,7 @@
       % 3pl
         % Null subjects are attested Îles-de-la-Madeleine, Quebec for 3pl (LeBlanc 1996, as cited in Carmichael & Gudmestad 2019:83)
         % Rottet (1995) summarizes attestions of variants of 3pl in various parts of Louisiana at various times:
-          % Avoyelles: only ils (Chaudoir 1937)
+          % Avoyelles: only ils (Chaudoir 1938)
           % Evangeline: ça and, with the verbs être, avoir, aller, and faire ils (Phillips 1936)
           % Vermilion: ils, eux, and eux-autres (and very commonly the -ont inflection with ils) (Brandon 1955)
           % Terrebonne: ils, eux, and eux-autres are cited in Terrebonne (Parr 1940)
