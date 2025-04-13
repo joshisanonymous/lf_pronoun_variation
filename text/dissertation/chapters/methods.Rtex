@@ -207,15 +207,18 @@
       \centering
       \begin{tabular}{r | r | r}
         \multicolumn{3}{c}{} \\
-                       & Singular & Plural \\
+                               & Singular & Plural \\
         \hline
-        1st person     & je       & on \\
-        2nd person (T) & tu       & vous-autres \\
-        2nd person (V) & vous     & vous \\
-        3rd person (M) & il       & ça/ils \\
-        3rd person (F) & elle     & ça/ils \\
-        expletive      & \multicolumn{2}{r}{ça/il/ø} \\
-        impersonal     & \multicolumn{2}{r}{tu}      \\
+        1st person             & je       & on \\
+        2nd person (T)         & tu       & vous-autres \\
+        2nd person (V)         & vous     & vous \\
+        3rd person (M)         & il       & ça/ils \\
+        3rd person (F)         & elle     & ça/ils \\
+        3rd person (inanimate) & ça       & \\
+        demonstrative          & ça       & \\
+        \hline
+        expletive              & \multicolumn{2}{c}{ça/il/ø} \\
+        impersonal             & \multicolumn{2}{c}{tu}      \\
       \end{tabular}
     \end{table}
 

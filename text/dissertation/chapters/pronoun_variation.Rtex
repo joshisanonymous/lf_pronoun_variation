@@ -298,26 +298,29 @@
       \label{tab:pronouns_attested}
       \centering
       \begin{tabular}{r | r | r}
+        \multicolumn{3}{c}{} \\
         & Singular & Plural \\
         \hline
-        1st person      & je, moi, mo, ø                    & on, nous, nou, no, nous-autres \\
-        2nd person (T)  & tu, to, ça                        & vous-autres \\
-        2nd person (V)  & vous, tu, vous-autres, vou, vo, ø & vous-autres \\
-        2nd person (NA) & to                                & vou, vous-autres, vous, tu, ça \\
-        3rd person (M)  & il                                & ils \\
-        3rd person (F)  & elle                              & ils \\
-        3rd person (NA) & il, ça, li                        & ils, ça, eux, eux-autres, yé, ø \\
-        expletive       & \multicolumn{2}{r}{il, ça, ø} \\
-        impersonal      & \multicolumn{2}{r}{on, ça, yé} \\
-        demonstrative   & ça                                & \\
+        1st person             & je, moi, mo, ø                    & on, nous, nou, no, nous-autres \\
+        2nd person (T)         & tu, to, ça                        & vous-autres \\
+        2nd person (V)         & vous, tu, vous-autres, vou, vo, ø & vous-autres \\
+        2nd person (not clear) & to                                & vou, vous-autres, vous, tu, ça \\
+        3rd person (M)         & il                                & \\
+        3rd person (F)         & elle                              & \\
+        3rd person (neuter)    & il, ça, li                        & ils, ça, eux, eux-autres, yé, ø \\
+        demonstrative          & ça                                & \\
+        \hline
+        expletive              & \multicolumn{2}{c}{il, ça, ø} \\
+        impersonal             & \multicolumn{2}{c}{on, ça, yé, ils} \\
+        \multicolumn{3}{c}{} \\
       \end{tabular}
+      {\footnotesize T $\to$ informal; V $\to$ formal; not clear $\to$ formality was not provided \\
+      M $\to$ masculine; F $\to$ feminine; neuter $\to$ \foreign{de facto} no gender}
     \end{table}
 
     % Attested subject pronouns
       % New Orleans
         % (Fortier 1884:107)
-      % Lafayette
-        % J. S. Smith (1994:42/58)
       % Terrebonne-Lafourche
         % Rottet (1995:175/178/193/197/207)
         % Papen & Rottet (1997:83)
@@ -327,19 +330,25 @@
         % Oukada (1977:185)
         % Parr (1940:xi)
         % ils, eux, eux-autres, and ça (Guilbeau 1950) (have to verify directly)
-      % Pointe Coupée
-        % Klingler (2003 "Turn":206/213)
+      % Lafayette
+        % J. S. Smith (1994:42/58)
+        % Conwell & Juilland (1963:141-145)
       % St Martin
         % Neumann (1985:166)
         % Broussard (1972:8)
-      % Avoyelles
-        % B. Brown (1988:152-153) (also includes Assumption)
-        % Chaudoir (1938:31-33)
+        % Lane (1934:328)
+        % Mayeux (2024 "Racial")
+        % Morgan (1959:24c)
       % Evangeline
         % Phillips (1939:218-219)
       % Vermilion
         % ils, eux, and eux-autres (and very commonly the -ont inflection with ils) (Brandon 1955) (need to verify directly)
         % Girard Lomheim (2019:5) (also St Landry)
+      % Pointe Coupée
+        % Klingler (2003 "Turn":206/213)
+      % Avoyelles
+        % B. Brown (1988:152-153) (also includes Assumption)
+        % Chaudoir (1938:31-33)
       % Broadly South Louisiana
         % Byers (1988)
     % Phonetic variants
@@ -350,6 +359,7 @@
       % Phillips (1939:218-219)
       % Oukada (1977:185)
       % Parr (1940:xi)
+    % Gender and animacy
     % Social variation
 
     % Origin of non-hexagonal pronoun forms?
@@ -559,7 +569,7 @@
       % Dorian (1981) argued that speakers of dying languages have greater tolerance for variations as there are no longer ideal language users to emulate and therefore no standard (as cited in Rottet 1995:38)
         % However, Schmidt (1985) reported older speakers of Dyirbal correcting younger speakers despite it being a dying language (as cited in Rottet 1995:38)
       % Rottet (1995) speculated dying languages would be "in flux in far more ways" than healthy languages, even though the changes are the same (313)
-      % Dorian (1994 "Varieties") has argued that variation is socially neutral in endangered languages in the sense that it exists but doesn't mean anything to speakers (as cited in Mayeux 2024:28)
+      % Dorian (1994 "Varieties") has argued that variation is socially neutral in endangered languages in the sense that it exists but doesn't mean anything to speakers (as cited in Mayeux 2024 "Racial":28)
     % Style shifting in the pronouns used by participants
       % Second repertoire acquisition is defined as the acquisition of a new set of features due to their indexing a change in some aspect of one's identity at some point in life (Benor 2010:167-168)
         % One of the clearest examples Owen Webre who had experience as a French teacher, which may have been the addition of more complexity to his linguistic identity
