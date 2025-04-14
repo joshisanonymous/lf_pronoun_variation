@@ -216,7 +216,7 @@
         3rd person (F)         & elle     & ça/ils \\
         3rd person (inanimate) & ça       & \\
         demonstrative          & ça       & \\
-        \hline
+        \cline{2-3}
         expletive              & \multicolumn{2}{c}{ça/il/ø} \\
         impersonal             & \multicolumn{2}{c}{tu}      \\
       \end{tabular}
