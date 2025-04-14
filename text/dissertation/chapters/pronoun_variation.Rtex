@@ -355,7 +355,7 @@
         demonstrative          & ça                                & \\
         \cline{2-3}
         expletive              & \multicolumn{2}{c}{il, ça, ø} \\
-        impersonal             & \multicolumn{2}{c}{on, ça, yé, ils} \\
+        impersonal             & \multicolumn{2}{c}{on, ça, yé, ils} \\ % add tu and vous after verifying Gilbeau (1950)
         \multicolumn{3}{c}{} \\
       \end{tabular}
 
@@ -363,22 +363,19 @@
       M $\to$ masculine; F $\to$ feminine; neuter $\to$ \foreign{de facto} no gender}
     \end{table}
 
+    Before examining the phonetic variations of subject pronouns in F\&C, some general features can be noted about them such as the use of \lexi{on}.
+    This pronoun is found across the French-speaking world to refer to both first person plural subjects and impersonal subjects.
+    For the former, the alternative often preferred in formal contexts is \lexi{nous}, but in French-oriented speech in Louisiana, \lexi{nous} has been described as anywhere from nearly absent \parencite[p.~142]{conwell_louisiana_1963} to completely absent (citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{rottet_language_1995}, \citeyear[p.~173]{rottet_language_1995}).
+    However, in Creole-oriented speech, what is often a homophone of \lexi{nous} [nu(z)] has in fact been attested as \orth{nou} [nu].
+    For this study, these are treated as distinct pronouns for reasons that will be enumerated in section \ref{sec:pronoun_coding}.
+    On the other hand, the use of \lexi{on} as an impersonal pronoun in Louisiana has been considered rare, either \lexi{tu}, \lexi{vous}, or a third personal plural pronoun taking up this function \parencite[Guilbeau, 1950, as cited in][p.~88]{papen_structural_1997}, to non-existent \parencite[p.~173]{rottet_language_1995}.
+    Finally, extremely rare and rather unique to Louisiana, the use of \lexi{on} for first person singular has been attested one time, as well \parencite[p.~142]{conwell_louisiana_1963}.
+
     
     % Notes on attested forms
-      % [mo], [mwa], [mɔ̃], [mwɛ̃] are not necessarily exclusive to Creole as \lexi{moi} alone is attested in Terrebonne-Lafourche (Rottet 1995:178) and Vermilion (Brandon 1955), neither being places where Creole is said to be spoken
-        % In the early 20th century, moi je was more common that je by itself in Evangeline Parish, presumably because Creole was in close contact with "Cajun" at that time (Phillips 1936, as cited in Rottet 1995:181)
-      % Absence of nous
-        % Conwell & Juilland (1963) described the use of "on" in place of "nous" as different from SF in that it is "generalized" to the near absence of "nous" (142)
-        % Not a single token of nous was attested in Terrebonne-Lafourche (Rottet 1995:173; Papen & Rottet 1997:82)
-        % "On" when used for 1sg was only attested in Conwell & Juilland (1963:142)
-        % Nous in Creole
-          % Nou and no are not nous, IMO
       % Ça is something of an expletive pronoun for all referents
         % Ça for 2pl was only attested in Conwell & Juilland (1963) and only when vous-autres preceded it as a disjunctive pronoun (143)
       % Though rare, ça was attested in Pointe Coupée Creole (Klingler 2003 "Turn":206)
-      % Impersonal
-        % In Terrebonne-Lafourche, Guilbeau (1950) attested "on" rarely, tu and vous more often, and 3pl most often (as cited in Papen & Rottet 1997:88)
-        % In Terrebonne-Lafourche, "on" is never used as an impersonal pronoun (Rottet 1995:173)
       % Demonstrative
         % B. Brown (1988) claimed that cela and ce did not exist in her Assumption and Avoyelles corpus (124)
       % Expletive
@@ -388,6 +385,8 @@
         % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
           % I agree that it can be impersonal, but in the vast majority of cases, it is difficult to rule out either a demonstrative interpretation or a presentative use (which is somewhat demonstrative, as well)
           % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
+      % [mo], [mwa], [mɔ̃], [mwɛ̃] are not necessarily exclusive to Creole as \lexi{moi} alone is attested in Terrebonne-Lafourche (Rottet 1995:178) and Vermilion (Brandon 1955), neither being places where Creole is said to be spoken
+        % In the early 20th century, moi je was more common that je by itself in Evangeline Parish, presumably because Creole was in close contact with "Cajun" at that time (Phillips 1936, as cited in Rottet 1995:181)
 
     % Phonetic variants
       % 1sg
