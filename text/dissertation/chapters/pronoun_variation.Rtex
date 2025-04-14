@@ -292,33 +292,6 @@
 
   \section{Subject pronoun system}
     \label{sec:pronoun_system}
-    The range of possible subject pronouns in F\&C is particularly wide for practically all person, number, and gender combinations.
-
-    \begin{table}[tbhp]
-      \caption{Subject pronouns attested in Louisiana}
-      \label{tab:pronouns_attested}
-      \centering
-      \begin{tabular}{r | r | r}
-        \multicolumn{3}{c}{} \\
-                               & Singular                          & Plural \\
-        \hline
-        1st person             & je, moi, mo, mwen, on, ø          & on, nous, nou, no, nous-autres \\
-        2nd person (T)         & tu, to, ça                        & vous-autres \\
-        2nd person (V)         & vous, tu, vous-autres, vou, vo, ø & vous-autres \\
-        2nd person (not clear) & to                                & vou, vous-autres, vous, tu, ça \\
-        3rd person (M)         & il                                & \\
-        3rd person (F)         & elle                              & \\
-        3rd person (neuter)    & il, ça, li                        & ils, ça, eux, eux-autres, yé, ø \\
-        demonstrative          & ça                                & \\
-        \hline
-        expletive              & \multicolumn{2}{c}{il, ça, ø} \\
-        impersonal             & \multicolumn{2}{c}{on, ça, yé, ils} \\
-        \multicolumn{3}{c}{} \\
-      \end{tabular}
-      {\footnotesize T $\to$ informal; V $\to$ formal; not clear $\to$ formality was not provided \\
-      M $\to$ masculine; F $\to$ feminine; neuter $\to$ \foreign{de facto} no gender}
-    \end{table}
-
     % Attested subject pronouns
       % New Orleans
         % (Fortier 1884:107)
@@ -350,35 +323,71 @@
       % Pointe Coupée
         % Klingler (2003 "Turn":206/213)
       % Avoyelles
-        % B. Brown (1988:152-153) (also includes Assumption)
         % Chaudoir (1938:31-33)
+        % B. Brown (1988:152-153) (also includes Assumption)
       % Broadly South Louisiana
         % Byers (1988)
         % J. Johnson (1976:31) just for Cajuns using ça for 3pl
-      % Notes on attested forms
-        % [mo], [mwa], [mɔ̃], [mwɛ̃] are not necessarily exclusive to Creole as \lexi{moi} alone is attested in Terrebonne-Lafourche (Rottet 1995:178) and Vermilion (Brandon 1955), neither being places where Creole is said to be spoken
-          % In the early 20th century, moi je was more common that je by itself in Evangeline Parish, presumably because Creole was in close contact with "Cajun" at that time (Phillips 1936, as cited in Rottet 1995:181)
-        % Absence of nous
-          % Conwell & Juilland (1963) described the use of "on" in place of "nous" as different from SF in that it is "generalized" to the near absence of "nous" (142)
-          % Not a single token of nous was attested in Terrebonne-Lafourche (Rottet 1995:173; Papen & Rottet 1997:82)
-          % "On" when used for 1sg was only attested in Conwell & Juilland (1963:142)
-          % Nous in Creole
-            % Nou and no are not nous, IMO
-        % Ça is something of an expletive pronoun for all referents
-          % Ça for 2pl was only attested in Conwell & Juilland (1963) and only when vous-autres preceded it as a disjunctive pronoun (143)
-        % Though rare, ça was attested in Pointe Coupée Creole (Klingler 2003 "Turn":206)
-        % Impersonal
-          % In Terrebonne-Lafourche, Guilbeau (1950) attested "on" rarely, tu and vous more often, and 3pl most often (as cited in Papen & Rottet 1997:88)
-          % In Terrebonne-Lafourche, "on" is never used as an impersonal pronoun (Rottet 1995:173)
-        % Demonstrative
-          % B. Brown (1988) claimed that cela and ce did not exist in her Assumption and Avoyelles corpus (124)
-        % Expletive
-          % Ça was generally used in Pierre Part and Hessmer (B. Brown 1988:125)
-          % B. Brown (1988) discussed the c' in "c'est" as a variant of ça (130/138-143)
-            % She follows Thibault (1986) in this interpretation for French in Montreal (141-142)
-          % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
-            % I agree that it can be impersonal, but in the vast majority of cases, it is difficult to rule out either a demonstrative interpretation or a presentative use (which is somewhat demonstrative, as well)
-            % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
+    The range of possible subject pronouns in F\&C is particularly wide for practically all feature combinations.
+    The attested pronouns summarized in Table \ref{tab:pronouns_attested} come from various times and places that include New Orleans \parencite[p.~107]{fortier_french_1884} and Terrebonne-Lafourche parishes (\citeauthor{carmichael_language_2019}, \citeyear[p.~72]{carmichael_language_2019}; \citeauthor{dajko_ethnic_2009}, \citeyear[pp.~144/160]{dajko_ethnic_2009}; \citeauthor{gudmestad_variationist_2022}, \citeyear{gudmestad_variationist_2022}; \citeauthor{oukada_louisiana_1977}, \citeyear[p.~185]{oukada_louisiana_1977}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{rottet_language_1995}, \citeyear[pp.~175/178/193/197/207]{rottet_language_1995}) but perhaps more importantly Lafayette (\citeauthor{conwell_louisiana_1963}, \citeyear[pp.~141-145]{conwell_louisiana_1963}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~42/58]{smith_morphosyntactic_1994}), St Martin Parish (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{lane_notes_1934}, \citeyear[p.~328]{lane_notes_1934}; \citeauthor{mayeux_racial_2024}, \citeyear{mayeux_racial_2024}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann_creole_1985}, \citeyear[p.~166]{neumann_creole_1985}), Evangeline Parish \parencite[pp.~218-219]{phillips_spoken_1939}, Vermilion and St Landry parishes \parencite[p.~5]{girard_lomheim_systeme_2019}, Pointe Coupée Parish \parencite[pp.~206/213]{klingler_if_2003}, Avoyelles Parish \parencite[pp.~31-33]{chaudoir_study_1938}, Avoyelles and Assumption parishes \parencite[pp.~152-153]{brown_pronominal_1988}, and broadly from across South Louisiana (\citeauthor{byers_defining_1988}, \citeyear{byers_defining_1988}; \citeauthor{johnson_louisiana_1976}, \citeyear[p.~31]{johnson_louisiana_1976}).
+    Some of these studies focused on French-oriented speech and others Creole-oriented speech, but they have all been aggregated here.
+    The result demonstrates that there is ample space for sociolinguistic variation in the pronoun paradigm, including the potential for pronoun choices to mark speakers as members of racialized groups.
+
+    The table presents the subject pronouns in the standard orthographic representations of their morphemic forms, but there are considerable phonological questions that will be addressed through the literature review in this section and the coding explanations in section \ref{sec:pronoun_coding}.
+    The literature on subject pronouns in F\&C has been primarily aimed at elaborating descriptive grammars rather than sociolinguistic analyses, thus the majority of the following discussion will be on structure, although descriptive works have included useful sociolinguistic observations at times.
+    Some of these observations have been related to race and ethnicity, but there remains considerable work to be done in that area.
+
+    \begin{table}[tbhp]
+      \caption{Subject pronouns attested in Louisiana}
+      \label{tab:pronouns_attested}
+      \centering
+      \begin{tabular}{r | r | r}
+        \multicolumn{3}{c}{} \\
+                               & Singular                          & Plural \\
+        \hline
+        1st person             & je, moi, mo, mwen, on, ø          & on, nous, no, nous-autres \\
+        2nd person (T)         & tu, to, ça                        & vous-autres \\
+        2nd person (V)         & vous, tu, vous-autres, vou, vo, ø & vous-autres \\
+        2nd person (not clear) & to                                & vou, vous-autres, vous, tu, ça \\
+        3rd person (M)         & il                                & \\
+        3rd person (F)         & elle                              & \\
+        3rd person (neuter)    & il, ça, li                        & ils, ça, eux, eux-autres, yé, ø \\
+        demonstrative          & ça                                & \\
+        \cline{2-3}
+        expletive              & \multicolumn{2}{c}{il, ça, ø} \\
+        impersonal             & \multicolumn{2}{c}{on, ça, yé, ils} \\
+        \multicolumn{3}{c}{} \\
+      \end{tabular}
+
+      {\footnotesize T $\to$ informal; V $\to$ formal; not clear $\to$ formality was not provided \\
+      M $\to$ masculine; F $\to$ feminine; neuter $\to$ \foreign{de facto} no gender}
+    \end{table}
+
+    
+    % Notes on attested forms
+      % [mo], [mwa], [mɔ̃], [mwɛ̃] are not necessarily exclusive to Creole as \lexi{moi} alone is attested in Terrebonne-Lafourche (Rottet 1995:178) and Vermilion (Brandon 1955), neither being places where Creole is said to be spoken
+        % In the early 20th century, moi je was more common that je by itself in Evangeline Parish, presumably because Creole was in close contact with "Cajun" at that time (Phillips 1936, as cited in Rottet 1995:181)
+      % Absence of nous
+        % Conwell & Juilland (1963) described the use of "on" in place of "nous" as different from SF in that it is "generalized" to the near absence of "nous" (142)
+        % Not a single token of nous was attested in Terrebonne-Lafourche (Rottet 1995:173; Papen & Rottet 1997:82)
+        % "On" when used for 1sg was only attested in Conwell & Juilland (1963:142)
+        % Nous in Creole
+          % Nou and no are not nous, IMO
+      % Ça is something of an expletive pronoun for all referents
+        % Ça for 2pl was only attested in Conwell & Juilland (1963) and only when vous-autres preceded it as a disjunctive pronoun (143)
+      % Though rare, ça was attested in Pointe Coupée Creole (Klingler 2003 "Turn":206)
+      % Impersonal
+        % In Terrebonne-Lafourche, Guilbeau (1950) attested "on" rarely, tu and vous more often, and 3pl most often (as cited in Papen & Rottet 1997:88)
+        % In Terrebonne-Lafourche, "on" is never used as an impersonal pronoun (Rottet 1995:173)
+      % Demonstrative
+        % B. Brown (1988) claimed that cela and ce did not exist in her Assumption and Avoyelles corpus (124)
+      % Expletive
+        % Ça was generally used in Pierre Part and Hessmer (B. Brown 1988:125)
+        % B. Brown (1988) discussed the c' in "c'est" as a variant of ça (130/138-143)
+          % She follows Thibault (1986) in this interpretation for French in Montreal (141-142)
+        % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
+          % I agree that it can be impersonal, but in the vast majority of cases, it is difficult to rule out either a demonstrative interpretation or a presentative use (which is somewhat demonstrative, as well)
+          % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
 
     % Phonetic variants
       % 1sg
