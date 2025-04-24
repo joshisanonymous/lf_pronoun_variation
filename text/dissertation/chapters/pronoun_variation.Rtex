@@ -400,27 +400,29 @@
       \item[] them, \textbf{they} didn't know
     \end{enumerate}
 
-    \subsection{Phonetic variants of subject pronouns}
+    \subsection{Phonetic variants of subject pronoun morphemes}
       While Table \ref{tab:pronouns_attested} includes many equivalent subject pronouns that have been attested, the list expands significantly when including allomorphs and phonetic variants that have been attested.
       Although the current study will not carry out any analyses of phonetic variation in subject pronouns, an overview will help to clarify some coding decisions that will be discussed in section \ref{sec:pronoun_coding}.
 
-      The first person singular pronoun \lexi{je} 
+      The morpheme \lexi{je}, which in Louisiana has only attested as a first person singular subject pronoun, has received significant attention in the literature.
+      The two segments of this morpheme often metathesize (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}), to the extent that the metathesized form is sometimes the only form provided in grammars \parencite[pp.~31-32]{chaudoir_study_1938}.
+      The vowel, [ə], can be elided not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
+      The appearance of the vowel has been argued to be only for ``clarity or emphasis'' \parencite[p.~141]{conwell_louisiana_1963}.
+      This results in the consonant, which can be realized as [ʒ], [ʃ], [z], [s], or [h] \parencite[p.~72]{carmichael_language_2019}, being adjacent to the initial segment of the following word.
+      There is thus a clear phonological rules that devoices the [ʒ] and [z] before voiceless segments (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}), as in Rule \ref{phonorule:pro_devoicing}.
+      Of the remaining forms, 
+
+      \begin{enumerate}[label=\roman*., series=phonorules]
+        \item \{ʒ,z\} $\to$ [-voiced] / \_ [-voiced] \label{phonorule:pro_devoicing}
+      \end{enumerate}
+      
 
     % Phonetic variants
       % je
-        % Phonetically, the consonant in je has been documented as /ʒ/, /ʃ/, /z/, /s/, and /h/ (Carmichael & Gudmestad 2019:72)
-          % Part of this is perhaps phonologically conditioned
-            % /ʒə/ -> [ʒ] / before vowels or consonants, only maintaining the vowel for ``clarity or emphasis'' (Conwell & Juilland 1963:141)
-              % Others have reported the same thing (Phillips 1939:218-219; J. S. Smith 1994:43)
-              % Oukada (1977) reported this only before vowels, expanding it to final vowels in general based on the occurrence of t'es (193)
-            % Je metathesized before consonants in Avoyelles and Assumption (B. Brown 1988:141) and Terrebonne-Lafourche (Parr 1940:xi)
-              % Chaudoir (1938) only provided the metathesized version for Avoyelles (31-32)
-            % Devoicing of the pronoun's consonant occurs when preceding a voiceless consonant (Phillips 1936:42; J. S. Smith 1994:43)
-            % [h] in general is in variation with [ʒ] and [ʃ] and sometimes even [z] in Terrebonne-Lafourche (Papen & Rottet 1997:76-77)
-            % [s] and [z], relative to following voicing, is produced by Indians (Papen & Rottet 1997:82; Rottet 1995:127/176)
-            % [z] was also found for 1sg in Dajko (2009)
-              % Unlike /ʒ/ > [h], it was restricted almost entirely to 1sg pronouns (e.g., no jamais > [zame]) (Dajko 2009:121)
-              % This might suggest that [zə] is not [ʒə], but rates of [z] were different in casual and careful speech
+        % [h] in general is in variation with [ʒ] and [ʃ] and sometimes even [z] in Terrebonne-Lafourche (Papen & Rottet 1997:76-77)
+        % [z] was also found for 1sg in Dajko (2009)
+          % Unlike /ʒ/ > [h], it was restricted almost entirely to 1sg pronouns (e.g., no jamais > [zame]) (Dajko 2009:121)
+          % This might suggest that [zə] is not [ʒə], but rates of [z] were different in casual and careful speech
 
       % mo/moi
         % [mo], [mwa], [mɔ̃], [mwɛ̃] are not necessarily exclusive to Creole as \lexi{moi} alone is attested in Terrebonne-Lafourche (Rottet 1995:178) and Vermilion (Brandon 1955), neither being places where Creole is said to be spoken, as well as St Landry (Dubois 2001) in speech that was qualified as non-Creole
@@ -446,6 +448,7 @@
           % In Terrebonne-Lafourche, however, there's an example of "on" without a liaison: on ôte as [ɔ̃ ot] (Guilbeau 1950, as cited in Papen & Rottet 1997:78)
 
       % tu and to
+        % Oukada (1977) reported the generalized loss of a pronoun's vowel before verbs that begin with vowels based on the occurrence of t'es (193)
         % tu can be [ty], [ti], or [t] before a vowel (Conwell & Juilland 1963:142-143; J. S. Smith 1994:45)
           % Parr (1940) also reported the first two (xi)
           % Phillips only reported the latter two (1936:42, 1939:218-219)
