@@ -409,21 +409,18 @@
       The vowel, [ə], can be elided not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
       The appearance of the vowel has been argued to be only for ``clarity or emphasis'' \parencite[p.~141]{conwell_louisiana_1963}.
       This results in the consonant, which can be realized as [ʒ], [ʃ], [z], [s], or [h] \parencite[p.~72]{carmichael_language_2019}, being adjacent to the initial segment of the following word.
-      There is thus a clear phonological rules that devoices the [ʒ] and [z] before voiceless segments (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}), as in Rule \ref{phonorule:pro_devoicing}.
-      Of the remaining forms, 
+      There is thus a clear phonological rule that applies to this particular morpheme where [ʒ] and [z] are devoiced before voiceless segments (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}), as in Rule \ref{phonorule:pro_devoicing}.
+      Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme.
+      This is not the case, however, for [z], which is only in variation with [ʒ] in the pronoun \lexi{je} \parencite[p.~121]{dajko_ethnic_2009}.
+      While one could possibly argue that [z] and [ʒ] represent two distinct morphemes based on this, \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) data shows [z] in stylistic variation with [ʒ], suggesting individual speakers use both variants.
+      It is certainly not out of the question that an individual could use two different subject pronouns for the same referent, but this seems less likely when the sole difference is a slight change in place of articulation.
+      The evidence suggests then that all of these realizations are variants of one subject pronoun morpheme: \lexi{je}.
 
       \begin{enumerate}[label=\roman*., series=phonorules]
-        \item \{ʒ,z\} $\to$ [-voiced] / \_ [-voiced] \label{phonorule:pro_devoicing}
+        \item [] $\to$ [-voiced] / \_ [-voiced] \label{phonorule:pro_devoicing}
       \end{enumerate}
       
-
-    % Phonetic variants
-      % je
-        % [h] in general is in variation with [ʒ] and [ʃ] and sometimes even [z] in Terrebonne-Lafourche (Papen & Rottet 1997:76-77)
-        % [z] was also found for 1sg in Dajko (2009)
-          % Unlike /ʒ/ > [h], it was restricted almost entirely to 1sg pronouns (e.g., no jamais > [zame]) (Dajko 2009:121)
-          % This might suggest that [zə] is not [ʒə], but rates of [z] were different in casual and careful speech
-
+      Also used exclusively for first person singular reference are the forms [mo], [mwa], [mɔ̃], and [mwɛ̃].
       % mo/moi
         % [mo], [mwa], [mɔ̃], [mwɛ̃] are not necessarily exclusive to Creole as \lexi{moi} alone is attested in Terrebonne-Lafourche (Rottet 1995:178) and Vermilion (Brandon 1955), neither being places where Creole is said to be spoken, as well as St Landry (Dubois 2001) in speech that was qualified as non-Creole
           % In the early 20th century, moi je was more common that je by itself in Evangeline Parish, presumably because Creole was in close contact with "Cajun" at that time (Phillips 1936, as cited in Rottet 1995:181)
