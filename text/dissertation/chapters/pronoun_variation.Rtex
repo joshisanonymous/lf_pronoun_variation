@@ -147,7 +147,7 @@
         \caption{Markers used in Louisiana Creole}
         \label{tab:creole_markers}
         \centering
-        \begin{tabular}[t]{L{0.14\textwidth} L{0.29\textwidth} | L{0.14\textwidth} L{0.29\textwidth}}
+        \begin{tabular}[t]{L{0.155\textwidth} L{0.29\textwidth} | L{0.155\textwidth} L{0.29\textwidth}}
           \multicolumn{4}{c}{} \\
           Marker                          & Function                       & Source                     & Function \\
           \hline
@@ -294,7 +294,7 @@
     % On is used by White creolophones but not so much by other creolophones (Neumann 1985:173)
 
     \begin{enumerate}[resume=sentences]
-      \item I dit, ``Si tu gagne l'election,'' i dit ``on va danser ein valse avec toi.'' \parencite[p.~54]{smith_morphosyntactic_1994} \label{sent:on_1sg}
+      \item {}[i] dit, ``Si tu gagnes l'élection,'' [i] dit ``on va danser une valse avec toi.'' \parencite[p.~54]{smith_morphosyntactic_1994} \label{sent:on_1sg}
     \end{enumerate}
 
     Another aspect of the pronoun paradigm that stands out from what one expects from standard Hexagonal French is the omnipresence of \lexi{ça}.
@@ -474,7 +474,7 @@
           The evidence suggests then that all of these realizations are variants of one subject pronoun morpheme: \lexi{je}.
     
           \begin{enumerate}[label=\roman*., series=phonorules]
-            \item [] $\to$ [-voiced] / \_ [-voiced] \label{phonorule:pro_devoicing}
+            \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}
           \end{enumerate}
           
           Also used exclusively for first person singular reference are the forms [mo], [mwa], [mɔ̃], and [mwɛ̃].
@@ -484,7 +484,7 @@
           From the opposite direction, the morpheme has been documented as reducing to [m] before vowels in the speech of francophones \parencite[p.~178]{rottet_language_1995}, just as is typical in Creole (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~95-96]{neumann_creole_1985}; \citeauthor{phillips_etude_1936}, \citeyear[p.~43]{phillips_etude_1936}).
           In Terrebonne-Lafourche where \lexi{je} can be pronounced as [h], this raises the possibility that speakers are actually producing a variant of \lexi{moi} followed by a barely audible [h] rather than simply \lexi{moi} by itself.
           Given that voiceless fricatives are likely less audible than voiced fricatives \parencite[p.~117]{maniwa_perception_2008}, such a result would not be surprising, although one must assume that the coding methods employed by previous researchers would have accounted for potentially inaudible tokens.
-          Alternatively, in St Landry Parish where French and Creole are in heavy contact, \lexi{moi} without \lexi{je} was also attested in what was otherwise characterized as French speech \parencite{dubois_linguistic_2001}.
+          Alternatively, in St Landry Parish where French and Creole are in heavy contact, \lexi{moi} without \lexi{je} was also attested in what was otherwise characterized as French speech \parencite{dubois_attrition_2001}.
           While it is more difficult to rule the influence of Creole in this last case, meaning it is also more difficult to rule out whether each phonetic variant is socially interpreted differently without conducting a variationist study of them.
           In the absence of such a study, and given their obviously shared origin in the disjunctive pronoun \lexi{moi} and similar phonological behavior, they can perhaps be treated as equivalents, and in the case of the present study, no tokens of [mwa] nor [mwɛ̃] were found, therefore simplifying the issue.
           % Among Indians in Terrebonne-Lafourche, moi for 1sg was more likely before a vowel (Gudmestad & Carmichael 2022:18)
