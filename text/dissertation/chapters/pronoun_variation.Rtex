@@ -256,10 +256,6 @@
     Some of these studies focused on French-oriented speech and others Creole-oriented speech, but they have all been aggregated here.
     The result demonstrates that there is ample space for sociolinguistic variation in the pronoun paradigm, including the potential for pronoun choices to mark speakers as members of racialized groups.
 
-    The table presents the subject pronouns in the standard orthographic representations of their morphemic forms, but there are considerable phonological questions that will be addressed through the literature review in this section and the coding explanations in section \ref{sec:pronoun_coding}.
-    The literature on subject pronouns in F\&C has been primarily aimed at elaborating descriptive grammars rather than sociolinguistic analyses, thus the majority of the following discussion will be on structure, although descriptive works have included useful sociolinguistic observations at times.
-    Some of these observations have been related to race and ethnicity, but there remains considerable work to be done in that area.
-
     \begin{table}[tbhp]
       \caption{Subject pronouns attested in Louisiana}
       \label{tab:pronouns_attested}
@@ -278,7 +274,7 @@
         demonstrative          & ça                                                                    & \\
         \cline{2-3}
         expletive              & \multicolumn{2}{c}{\textit{il}, \textit{ça}, \textit{ø}} \\
-        impersonal             & \multicolumn{2}{c}{tu, vous, on, ça, ils, \textbf{yé}} \\ % add vous after verifying Gilbeau (1950)
+        impersonal             & \multicolumn{2}{c}{tu, vous, on, ça, ils, \textbf{to}, \textbf{yé}} \\ % add vous after verifying Gilbeau (1950)
         \multicolumn{3}{c}{} \\
       \end{tabular}
 
@@ -287,25 +283,31 @@
       \textbf{bold} $\to$ attested as Creole pronouns; \textit{italics} $\to$ attested as Creole and French pronouns
     \end{table}
 
-    Before examining the phonetic variations of subject pronouns in F\&C, some general features can be noted about them such as the use of \lexi{on}.
-    This pronoun is found across the French-speaking world to refer to both first person plural subjects and impersonal subjects.
-    For the former, the alternative often preferred in formal contexts is \lexi{nous}, but in French-oriented speech in Louisiana, \lexi{nous} has been described as anywhere from nearly absent \parencite[p.~142]{conwell_louisiana_1963} to completely absent (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{rottet_language_1995}, \citeyear[p.~173]{rottet_language_1995}).
-    However, in Creole-oriented speech, what is often a homophone of \lexi{nous} [nu(z)] has in fact been attested as \orth{nou} [nu].
-    For this study, these are treated as distinct pronouns for reasons that will be enumerated in section \ref{sec:pronoun_coding}.
-    On the other hand, the use of \lexi{on} as an impersonal pronoun in Louisiana has been considered rare, either \lexi{tu}, \lexi{vous}, or a third personal plural pronoun taking up this function (\citeauthor{lane_notes_1934}, \citeyear[p.~238]{lane_notes_1934}; \citeauthor[Guilbeau, 1950, as cited in][]{papen_structural_1997}, \citeyear[p.~88]{papen_structural_1997}), to non-existent \parencite[p.~173]{rottet_language_1995}.
-    Finally, extremely rare and rather unique to Louisiana, the use of \lexi{on} for first person singular has been attested one time, as well (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~142]{conwell_louisiana_1963}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~53-54]{smith_morphosyntactic_1994}).
-    However, this usage is questionable.
-    \textcite{smith_morphosyntactic_1994}, for example, gives the example in sentence \ref{sent:on_1sg}, parsing the last clause as \gloss{I will dance a waltz with you} rather than \gloss{we will dance will dance a waltz with you} because it is a conversation between two individuals, discounting the possibility that the speaker could be suggesting that everyone will dance with the addressee.
-    % On is used by White creolophones but not so much by other creolophones (Neumann 1985:173)
+    The table presents the subject pronouns in the standard orthographic representations of their morphemic forms, but there are considerable phonological questions that will be addressed through the coding explanations in section \ref{sec:pronoun_coding}.
+    The literature on subject pronouns in F\&C has been primarily aimed at elaborating descriptive grammars rather than sociolinguistic analyses, thus the majority of the following discussion will be on structure, although descriptive works have included useful sociolinguistic observations at times.
+    Some of these observations have been related to race and ethnicity, but there remains considerable work to be done in that area.
 
-    \begin{enumerate}[resume=sentences]
-      \item {}[i] dit, ``Si tu gagnes l'élection,'' [i] dit ``on va danser une valse avec toi.'' \parencite[p.~54]{smith_morphosyntactic_1994} \label{sent:on_1sg}
-    \end{enumerate}
+    %%%%% Probably move to methods sections %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Some unique uses of One of the first features can be noted about them such as the use of \lexi{on}.
+    % This pronoun is found across the French-speaking world to refer to both first person plural subjects and impersonal subjects.
+    % For the former, the alternative often preferred in formal contexts is \lexi{nous}, but in French-oriented speech in Louisiana, \lexi{nous} has been described as anywhere from nearly absent \parencite[p.~142]{conwell_louisiana_1963} to completely absent (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{rottet_language_1995}, \citeyear[p.~173]{rottet_language_1995}).
+    % However, in Creole-oriented speech, what is often a homophone of \lexi{nous} [nu(z)] has in fact been attested as \orth{nou} [nu].
+    % For this study, these are treated as distinct pronouns for reasons that will be enumerated in section \ref{sec:pronoun_coding}.
+    % On the other hand, the use of \lexi{on} as an impersonal pronoun in Louisiana has been considered rare, either \lexi{tu}, \lexi{vous}, or a third personal plural pronoun taking up this function (\citeauthor{lane_notes_1934}, \citeyear[p.~238]{lane_notes_1934}; \citeauthor[Guilbeau, 1950, as cited in][]{papen_structural_1997}, \citeyear[p.~88]{papen_structural_1997}), to non-existent \parencite[p.~173]{rottet_language_1995}.
+    % Finally, extremely rare and rather unique to Louisiana, the use of \lexi{on} for first person singular has been attested one time, as well (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~142]{conwell_louisiana_1963}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~53-54]{smith_morphosyntactic_1994}).
+    % However, this usage is questionable.
+    % \textcite{smith_morphosyntactic_1994}, for example, gives the example in sentence \ref{sent:on_1sg}, parsing the last clause as \gloss{I will dance a waltz with you} rather than \gloss{we will dance will dance a waltz with you} because it is a conversation between two individuals, discounting the possibility that the speaker could be suggesting that everyone will dance with the addressee.
+    % % On is used by White creolophones but not so much by other creolophones (Neumann 1985:173)
 
-    Another aspect of the pronoun paradigm that stands out from what one expects from standard Hexagonal French is the omnipresence of \lexi{ça}.
+    % \begin{enumerate}[resume=sentences]
+    %   \item {}[i] dit, ``Si tu gagnes l'élection,'' [i] dit ``on va danser une valse avec toi.'' \parencite[p.~54]{smith_morphosyntactic_1994} \label{sent:on_1sg}
+    % \end{enumerate}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    One particularly notable aspect of the pronoun paradigm that stands out from what one expects from standard Hexagonal French is the omnipresence of \lexi{ça}.
     This pronoun is indeed common in other French-related varieties but typically only as a demonstrative pronoun replacing \lexi{cela} or \lexi{ceci} in casual speech.
-    However, not only are the latter two pronouns thought to be absent in Louisiana (\citeauthor{brown_pronominal_1988}, \citeyear[p.~124]{brown_pronominal_1988}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~48-49]{smith_morphosyntactic_1994}), but \lexi{ça} goes beyond its use as a demonstrative in F\&C to be an typical expletive pronoun (\foreign{e.g.}, \sent{ça mouille} \gloss{it rains}) as well as something of a pseudo-expletive pronoun with a wide scope.
-    In other words, when \lexi{ça} as second person plural, for instance, it gets its reference from a co-occurring disjunctive pronoun, in this case \lexi{vous-autres}, as in sentence \ref{sent:vous-autres_ca}.
+    However, not only are the latter two pronouns thought to be absent in Louisiana (\citeauthor{brown_pronominal_1988}, \citeyear[p.~124]{brown_pronominal_1988}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~48-49]{smith_morphosyntactic_1994}), but \lexi{ça} goes beyond its use as a demonstrative in F\&C to be a typical expletive pronoun (\foreign{e.g.}, \sent{ça mouille} \gloss{it rains}) as well as something of a pseudo-expletive pronoun with a wide scope.
+    In other words, when \lexi{ça} appears as a second person plural pronoun, for instance, it gets its reference from a co-occurring disjunctive pronoun, in this case \lexi{vous-autres}, as in sentence \ref{sent:vous-autres_ca}.
     Likewise, as in sentence \ref{sent:eux-autres_ca}, \lexi{eux} and \lexi{eux-autres} when used as disjunctive pronouns have been attested as giving \lexi{ça} third person plural reference.
     Such uses of \lexi{ça} are not unheard of in other French-related varieties \parencite[pp.~462-463]{grevisse_bon_1964}, but \lexi{ça} as a regular third person plural pronoun in particular has become far more regularized in Louisiana, not requiring a co-referring expression to be present at all, suggesting that it has become a full personal pronoun for third person plural.
     % Though rare, ça was attested in Pointe Coupée Creole (Klingler 2003 "Turn":206)
@@ -319,16 +321,17 @@
       \item[] them, \textbf{they} didn't know
     \end{enumerate}
 
-    % Gender marking
-      % li in Pointe Coupee is genderless (Klingler 2003 "Turn":170)
-        % In Houma, Indians often used il without concern for gender whereas Cajuns also had elle (Dajko 2009:160; Rottet 1995:128)
-        % This contrasts with il and elle generally used to contrast gender of referent in LA
-          % in Lafayette (Conwell & Juilland 1963:144; J. S. Smith 1994:47)
-      % 3pl is typically described as having no gender regardless of the form used (Conwell & Juilland 1963:144; Papen & Rottet 1997:84)
-        % Elles would be explicitly feminine but is usually reported as being absent (B. Brown 1988; Chaudoir 1938:33; Conwell & Juilland 1963:145; Papen & Rottet 1997:84; Phillips 1936:43; J. S. Smith 1994:59)
-      % Ça was attested for singular animate referents of both genders in Terrebonne-Lafourche (Oukada 1977:197)
-      % Outside Louisiana
-        % In Montreal, when referring to a group of exclusively women, ils is used in casual speech whereas elles is reserved for careful speech in formal contexts (G. Sankoff 2015:42)
+    When used as a third person plural personal pronoun, \lexi{ça} has not been attested as marking gender, but this is not unique to \lexi{ça}.
+    In fact, regardless of the morpheme used for third person plural, gender is unmarked, be it \lexi{ça}, \lexi{eux}, \lexi{yé}, or even \lexi{ils} (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{papen_strutural_1997}, \citeyear[p.~84]{papen_structural_1997}).
+    The presence of the form \lexi{elles}, marked as exclusiely feminine in most varieties, would help establish a gender marking for the other pronouns but is typically reported as being absent in the speech of Louisianians (\citeauthor{brown_pronominal_1988}, \citeyear{brown_pronominal_1988}; \citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~43]{phillips_etude_1936}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
+    Likewise, third person singular pronouns have been reported as lacking gender distinctions.
+    For Creole, researchers have emphasized a genderless \lexi{li}, although most have also acknowledged that some speakers do have a feminine form in \lexi{elle}, leaving the former for masculine (\citeauthor{klingler_if_2003}, \citeyear[pp.~170/209]{klingler_if_2003}; \citeauthor{mayeux_rethinking_2019}, \citeyear[p.~115]{mayeux_rethinking_2019}; \citeauthor{neumann_creole_1985}, \citeyear[p.~170]{neumann_creole_1985}).
+    For French, the situation is reversed.
+    Whereas the expectation is to find masculine \lexi{il} in contrast with feminine \lexi{elle} both in Hexagonal French and Louisiana French (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}), some Indians in Terrebonne-Lafourche use \lexi{il} for both masculine and feminine (\citeauthor{dajko_ethnic_2009}, \citeyear[p.~160]{dajko_ethnic_2009}; \citeauthor{rottet_language_1995}, \citeyear[p.~128]{rottet_language_1995}).
+    
+    % Ça was attested for singular animate referents of both genders in Terrebonne-Lafourche (Oukada 1977:197)
+    % Outside Louisiana
+      % In Montreal, when referring to a group of exclusively women, ils is used in casual speech whereas elles is reserved for careful speech in formal contexts (G. Sankoff 2015:42)
 
     % Animacy
       % In Lafayette, il and elle were found to be used with both animate and inanimate referents (J. S. Smith 1994:47)
