@@ -404,30 +404,30 @@
       \end{minipage}
     \end{table}
 
-    % Animacy
-      % Younger speakers who used only ça and eux in Terrebonne-Lafourche used the former for inanaminate referents and the latter for animate (Rottet 1995:219)
-        % Though the use of ça increased for all age groups from for inanimate objects from 15% to 50% (Rottet 1995:209-210)
-          % Recheck what he means by this since he didn't do a study of change in real time
-      
-      % Not only animacy but rather type of referent in Avoyelles and Assumption
-        % Ça (vs ils+il+elle) was greatly preferred when referring to propositions, preferred when referring to something concrete in general, neutral when referring to something abstract, and dispreferred when referring to something animate (B. Brown 1988:168)
+    Analyses of other referential constraints on subject pronoun choice in F\&C have been very sparse with one exception being \textcite{brown_pronominal_1988} who looked only at \lexi{ça}.
+    \textcite{brown_pronominal_1988} considered not only types of referents (p.~168) but also the syntactic positions of co-referential expressions as either cataphoric, anaphoric, or exophoric (p.~179).
+    The latter was not found to predict pronoun realization, but the former did.
+    The types of referents she looked at were propositions, concrete referents, abstract referents, and animate referents.
+    Propositions led to greater use of \lexi{ça} whereas animate referents led to less use of \lexi{ça} with the others somewhere in between.
+    \citeauthor{brown_pronominal_1988}'s (\citeyear{brown_pronominal_1988}) analysis is somewhat muddied by the fact that she aggregated not just \lexi{il} and \lexi{elle} but also \lexi{ils}.
+    Nevertheless, the results are not particularly surprising and support the preceding discussion in that \lexi{ça} is the pronoun of choice for inanimate referents in whatever form those referents take.
 
-    % Structural variation
-      % Co-reference location
-        % "Syntagmatic" constraints, meaning whether the co-referent was cataphoric, anaphoric, or exophoric, did not predict pronoun use in Avoyelles and Assumption (B. Brown 1988:179)
-      % Verb type
-        % Among Indians in Terrbonne-Lafourche, 1sg with -er verbs as [ʒ] is disfavored, as null or [h] is the baseline, and as [ʃ] is favored (Gudmestad & Carmichael 2022:14-15)
-        % Among White Cajuns in St Landry, je or moi je were associated with avoir whereas moi was associated with être and other verbs (Dubois 2001, as cited in Gudmestad & Carmichael 2022:6)
-        % In Lafourche Parish, null realizations have been reported to be most frequent with reflexive verbs (Guilbeau 1950, as cited in Rottet 1995:183)
+    A final structural predictor of subject pronoun realization that has been considered several times in the literature is the following verb.
+    % Verb type
+      % 3pl
         % Ça (vs ils+il+elle) was preferred before intransitive verbs, slightly dispreferred before transitive verbs, and dispreferred before modal verbs (B. Brown 1988:173-174)
           % This result is useful but difficult to interpret not only because of the conflation of ils+il+elle but also because the c' in c'est is sometimes interpreted as 3pl and is very frequent
             % être is treated as intransitive, too, so c'est has an outsized impact on that part of the result
+          % B. Brown (1988) interpreted some tokens of c'est as 3pl animate, but I find these to be highly questionable
+            % Les enfants, c'est mignon quand ça dort. (125) This is just the expletive 'it is cute' (or what can be interpreted as "that's cute when...")
         % Byers (1988), looking at 14 South Louisiana parishes from each end of the triangle reported ça except with the verbs être, avoir, and aller in all parishes except Vermilion and Assumption where ils V _-ont was produced for lexical verbs (49)
-        % B. Brown (1988) interpreted some tokens of c'est as 3pl animate, but I find these to be highly questionable
-          % Les enfants, c'est mignon quand ça dort. (125) This is just the expletive 'it is cute' (or what can be interpreted as "that's cute when...")
-          % Laurence aime le foyer et c'est toujours assis autour du foyer. (129) This is ambiguously "s'est toujours assis"
-            % She notes that the source, Conwell & Juilland (1963), wrote "assise" to make it agree (129)
+      % 1sg
+        % Among Indians in Terrbonne-Lafourche, 1sg with -er verbs as [ʒ] is disfavored, as null or [h] is the baseline, and as [ʃ] is favored (Gudmestad & Carmichael 2022:14-15)
+        % In Lafourche Parish, null realizations of 1sg have been reported to be most frequent with reflexive verbs (Guilbeau 1950, as cited in Rottet 1995:183)
+        % Among White Cajuns in St Landry, je or moi je were associated with avoir whereas moi was associated with être and other verbs (Dubois 2001, as cited in Gudmestad & Carmichael 2022:6)
+          % Why have people looked at "moi je" in the first place? (bring up Rottet's arguments that it's not being used for contrast or emphasis)
 
+    \subsection{Social variation of subject pronouns}
     % Social variation
       % Discourse
         % Among Indians in Terrebonne-Lafourche, moi for 1sg was more likely if the referent had changed (Gudmestad & Carmichael 2022:18)
@@ -452,6 +452,9 @@
         % Among Indians in Terrbonne-Lafourche, for 1sg, males disfavored [h] but were neutral between null, [ʃ], and [ʒ] (Gudmestad & Carmichael 2022:14-15)
       % Age
         % Ça (vs ils+il+elle) was slighty dispreferred for those over 50 and slighty preferred by those under 50 in Avoyelles and Assumption (B. Brown 1988:178)
+        % Younger speakers who used only ça and eux in Terrebonne-Lafourche used the former for inanaminate referents and the latter for animate (Rottet 1995:219)
+          % Though the use of ça increased for all age groups from for inanimate objects from 15% to 50% (Rottet 1995:209-210)
+            % Recheck what he means by this since he didn't do a study of change in real time
       % Fluency
         % Semi-speakers in Terrebonne-Lafourche used a much wider variety of phonetic variants of je than young and old fluent speakers (Carmichael & Gudmestad 2019:79)
         % Among Indian in Terrebonne-Lafourche, moi with 1sg was more likely to be produced by semispeakers (Gudmestad & Carmichael 2022:18)
