@@ -138,11 +138,7 @@
       Some creole-centric attempts to establish definitions have been made \parencite[\foreign{e.g.},][pp.~210/221-223]{valdman_creole_1978}, but these constitute an exceptionalist approach to creoles that would maintain that creoles and creoles alone employ a unique lexical category.
       Indeed, in generative analyses of markers, the question of the lexical categories of markers is generally not taken up but rather left vague \parencite[\foreign{e.g.},][]{syea_tense_2006}.
       In French-lexifier creoles, this is true despite some relatively transparent relationships with morphemes in the lexifier.
-      Indeed, \textcite{aboh_null_2017} argued for a genetic relationship between French and Haitian Creole at least in part on the number of preverbal markers that ``have straightforward etyma in French morphemes in periphrastic verbal constructions whose meanings often overlap with those of the corresponding TMA+V combinations in'' Haitian Creole (p.~410).
-      Many of the markers of Louisiana Creole can likewise be interpreted as more or less still corresponding semantically and functionally with their French correlates despite the morphosyntax of markers being where researchers have suggested that French and Creole differ the most (\citeauthor{clifton_tracing_1975}, \citeyear[p.~109]{clifton_tracing_1975}; \citeauthor{klingler_probleme_2005}, \citeyear[p.~352]{klingler_probleme_2005}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~52/54]{neumann_creole_1985}; \citeauthor{wendte_chronotopic_2022}, \citeyear[p.~98]{wendte_chronotopic_2022}).
-      Table \ref{tab:creole_markers} presents an overview of these correspondences.
-      A detailed discussion of them will take place in section \ref{sec:preverbal_markers} as the goal of this study is not to provide a definitive analysis of preverbal markers, but an analysis is in fact required to justify how they were coded in the data used here.
-      Preverbal markers, nonetheless, provide perhaps the strongest indication of structural congruence between French and Creole, justifying aggregating the two varieties as F\&C.
+      \textcite{aboh_null_2017} argued for a genetic relationship between French and Haitian Creole at least in part on the number of preverbal markers that ``have straightforward etyma in French morphemes in periphrastic verbal constructions whose meanings often overlap with those of the corresponding TMA+V combinations in'' Haitian Creole (p.~410).
       % Aboh & deGraff (2017) discuss te, ap, the verbal suffix -e, future a(va), fini, sòt, and dwe (409-410)
         % Detges (2000) also cites uses of être après reported by Pomier (1835) (152)
         % Detges (2000) links the Mauritian Creole future marker pou to the use of être pour to express the near future in 1880 French (145)
@@ -174,6 +170,24 @@
           {}[ap], [ape], [e]              & Progressive                    & \lexi{après}               & Progressive (periphrastic) \\
         \end{tabular}
       \end{table}
+
+      Many of the markers of Louisiana Creole can likewise be interpreted as more or less still corresponding semantically and functionally with their French correlates despite the morphosyntax of markers being where researchers have suggested that French and Creole differ the most (\citeauthor{clifton_tracing_1975}, \citeyear[p.~109]{clifton_tracing_1975}; \citeauthor{klingler_probleme_2005}, \citeyear[p.~352]{klingler_probleme_2005}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~52/54]{neumann_creole_1985}; \citeauthor{wendte_chronotopic_2022}, \citeyear[p.~98]{wendte_chronotopic_2022}).
+      Table \ref{tab:creole_markers} presents an overview of these correspondences.
+      An example would be the marker [te].
+      This item has been described as representing not just past tense, in fact, but also imperfective aspect both in Pointe Coupée and St Martin (\citeauthor{klingler_if_2003}, \citeyear[pp.~253-254]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~61]{neumann_creole_1985}), a dual function that already draws it farther from the neat division between tense markers and aspect markers that TMA discussion in creoles elaborate and closer to French \lexi{était}, pronounced [ete] or [etɛ], and other homophonous past imperfective inflections of the verb \lexi{être} \gloss{to be} that serve as its likely origin.
+      The elision of the initial [e] is also common for many speakers in Louisiana whose speech is otherwise quite French-oriented.
+      Among my own participants, there were such tokens as \sent{c'était} as [s te], \sent{j'étais} as {ʃ te}, and even \sent{il était} as [i te].
+      Some speakers also produced [ʃy te], which can certainly be analyzed as \sent{je suistais}, or in other words a variant inflection of \sent{j'étais} after several phonological rules have applied, but it is also not out of the question that these speakers simply have [te] in their lexicons as a past imperfective element, which could be represented in an analysis as something like \sent{je suis [te]}.
+      Furthermore, where Creole-oriented speakers might produce a phrase such as sentence \ref{sent:mo_te} with a [te] before a non-finite verb, French-oriented speakers similarly produced phrases such as sentence \ref{sent:je_te}, suggesting an auxiliary verb status for [te] in both cases.
+      A detailed discussion of all the correspondances relevant to the current study will take place in section \ref{sec:preverbal_markers} to justify how they were coded in the data used here.
+      The goal for this study is not to establish beyond any doubt the status of preverbal markers as French or Creole but rather to demonstrate that a strong case can be made for their structural congruencies with French morphemes, justifying aggregating the two varieties as F\&C.
+
+      \begin{enumerate}[resume=sentences]
+        \item {}[mo te travaje] \label{sent:mo_te}
+        \item[] \gloss{I would work}
+        \item {}[ʃ te pe travaje] \label{sent:je_te}
+        \item[] \gloss{I was working}
+      \end{enumerate}
 
     \subsection{Spelling conventions for the present study}
       \label{sec:spelling}
@@ -648,11 +662,7 @@
       \label{sec:preverbal_markers}
       All of the tense markers in Louisiana Creole can be sensibly analyzed as auxiliary verbs.
       These include [te] for past and [va], [a], [ale], [sa], and [sra] for future, summarized along with mood and aspect markers in Table \ref{tab:creole_markers}.
-      The marker [te] has been described as representing not just past tense, in fact, but also imperfective aspect both in Pointe Coupée and St Martin (\citeauthor{klingler_if_2003}, \citeyear[pp.~253-254]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~61]{neumann_creole_1985}), a dual function that already draws it closer to French \lexi{était}, pronounced [ete] or [etɛ], and other homophonous past imperfective inflections of the verb \lexi{être} \gloss{to be} that serve as its likely origin.
-      The elision of the initial [e] is also common for many speakers in Louisiana whose speech is otherwise quite French-oriented.
-      Among my own participants, there were such tokens as \sent{c'était} as [s te], \sent{j'étais} as {ʃ te}, and even \sent{il était} as [i te].
-      Some speakers also produced [ʃy te], which can certainly be analyzed as \sent{je suistais}, or in other words a variant inflection of \sent{j'étais} after several phonological rules have applied, but it is also not out of the question that these speakers simply have [te] in their lexicons as a past imperfective element, which could be represented in an analysis as something like \sent{je suis [te]}.
-      Furthermore, where Creole-oriented speakers might produce a phrase such as [mo te travaje] \gloss{I would work} with a [te] before an non-finite verb, French-oriented speakers similarly produced phrases such as [ʃ te pe travaje] \gloss{I was working}, suggesting an auxiliary verb status for [te] in both cases.
+      The marker [te] was already discussed in section \ref{sec:french_vs_creole} ...
 
       The numerous future markers have all been reported as having more or less interchangeable functions in both Breaux Bridge and Pointe Coupée (\citeauthor{klingler_if_2003}, \citeyear[pp.~258-260]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~214-220]{neumann_creole_1985}).
       \textcite{neumann_creole_1985} suggested that [a] was a shortened form of [va] rather than [sa], which is perhaps the most reasonable interpretation without a more detailed examination given that word-initial /v/ is regularly elided in Louisiana French when followed by /w/ but /s/ is not \parencite[p.~182]{blainey_first_2013}.
