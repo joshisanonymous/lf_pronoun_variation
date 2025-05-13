@@ -124,7 +124,7 @@
     % Neumann (1985), on the other hand, said that decreolization in morphosyntax and phonology occurred in the direction of Cajun (46)
 
     Besides ambiguities in which third person singular subject pronouns are being produced, one can easily find many other examples of structural features the blur the line between French and Creole.
-    In terms of morphosyntax where the two varieties are thought to be most different, it was found that both French and Creole speakers in St Martin Parish produce a Creole-oriented pattern for negative imperatives when there is an object pronoun (\foreign{i.e.}, verb + \lexi{pas} + pronoun) \parencite[p.~137]{baronian_influence_2005}, and disjunctive pronouns have been attested in post-verbal positions, as is typical in speech said to be Creole (\citeauthor{klingler_if_2003}, \citeyear[p.~40]{klingler_if_2003}; NEUMANN), even when the rest of the clause is clearly French-oriented in structure (\foreign{e.g.}, \sent{s'il a pu rencontrer \emph{elle}}) \parencite[p.~146]{conwell_louisiana_1963}.
+    In terms of morphosyntax where the two varieties are thought to be most different, it was found that both French and Creole speakers in St Martin Parish produce a Creole-oriented pattern for negative imperatives when there is an object pronoun (\foreign{i.e.}, verb + \lexi{pas} + pronoun) \parencite[p.~137]{baronian_influence_2005}, and disjunctive pronouns have been attested in post-verbal positions, as is typical in speech said to be Creole (\citeauthor{klingler_if_2003}, \citeyear[p.~40]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~166-167]{neumann_creole_1985}), even when the rest of the clause is clearly French-oriented in structure as in sentence \ref{sent:postverbal_object_pro}.
     Within noun phrases themselves, it has been argued that the most evidence of decreolization can be found, or in other words, that Creole resembles French the most.
     For instance, to express a generic reference in Creole, one would produce a bare noun just as is done in English rather than a noun with a definite article as is done in French, although this is more of a historical pattern that by the 1980s had already been mostly replaced by the use of definite articles with the only distinguishing characteristic being the articles sometimes appearing in a post-nominal position \parencite[pp.~54/77]{neumann_creole_1985}.
     Not limited strictly to noun phrases, whereas French makes heavy use of grammatical gender, this feature has typically been described as only existing consistently in Creole when there are semantic contrasts (\foreign{e.g.}, \lexi{cousin} \gloss{cousin-masculine} vs \lexi{cousine} \gloss{cousin-feminine}) \parencite[p.~170]{klingler_if_2003}.
@@ -132,6 +132,10 @@
     While some speech may appear prototypically French or prototypically Creole, there are numerous examples of structural convergence.
     % St Martin contains Breaux Bridge, noted by Klingler (2003 "Language") as being a town where French and Creole are in great contact
     % Baronian (2005) wasn't clear on how he distinguished between French and Creole, but did give examples, and those examples were identical save for the use of mo and gain in Creole speech (135), much like what Klingler (2003 "Language", 2005) did
+    
+    \begin{enumerate}[resume=sentences]
+      \item s'il a pu rencontrer \emph{elle} \label{sent:postverbal_object_pro} \parencite[p.~146]{conwell_louisiana_1963}
+    \end{enumerate}
 
       A notoriously common structural feature of creoles is the presence of what have been called preverbal markers that express tense, mood, and aspect (TMA) \parencite{winford_creole_2018}, and Louisiana Creole is no exception.
       In fact, referring to these units as markers or even particles is something of an admission that the lexical categories to which they belong have not been well elaborated as neither markers nor particles are syntactically well defined in linguistics.
@@ -297,7 +301,27 @@
       \textbf{bold} $\to$ attested as Creole pronouns; \textit{italics} $\to$ attested as Creole and French pronouns
     \end{table}
 
-    The table presents the subject pronouns in the standard orthographic representations of their morphemic forms, but there are considerable phonological questions that will be addressed through the coding explanations in section \ref{sec:pronoun_coding}.
+    The table presents the subject pronouns in the standard orthographic representations of some presumed morphemic forms, but it is important to note that there are considerable phonological questions to address in order to establish these forms satisfactorily.
+    One example that is left mostly divided in the table involves forms used exclusively for first person singular reference: [mo], [mwa], [mɔ̃], and [mwɛ̃].
+    These have generally described as subject pronouns used in Creole, but they two been attested in Terrebonne-Lafourche (\citeauthor{gudmestad_variationist_2022}, \citeyear[p.~11]{gudmestad_variationist_2022}; \citeauthor{rottet_language_1995}, \citeyear[p.~178]{rottet_language_1995}) and Vermilion Parish (BRANDON 1955) where they are given as \orth{mon} or \orth{moi}, presumably the [mɔ̃] and [mwa] realizations, respectively, rather than the typically attested [mo] or [mwɛ̃] realizations attested in Creole studies.
+    None of these latter parishes have been noted for having creolophone residents, diminishing the possibility for influence between speech varieties despite the resemblances.
+    Indeed, progressive nasalization as a general phonological process has been noted as a distinguishing trait of Creole \parencite[p.~53]{neumann_creole_1985}, which could render [mo] as [mɔ̃] at times.
+    From the opposite direction, [mɔ̃] or [mwa] has been documented as reducing to [m] before vowels in the speech of francophones \parencite[p.~178]{rottet_language_1995}, just as is typical in Creole (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~95-96]{neumann_creole_1985}; \citeauthor{phillips_etude_1936}, \citeyear[p.~43]{phillips_etude_1936}).
+    In Terrebonne-Lafourche where \lexi{je} can be pronounced as [h], this raises the possibility that speakers are actually producing a variant of \lexi{moi} followed by a barely audible [h] rather than simply \lexi{moi} by itself.
+    Given that voiceless fricatives are likely less audible than voiced fricatives \parencite[p.~117]{maniwa_perception_2008}, such a result would not be surprising, although one must assume that the coding methods employed by previous researchers would have accounted for potentially inaudible tokens.
+    This admittedly would not change how listeners perceive such speakers in that if listeners do not hear the [h], then sociolinguistically, the pronoun is \foreign{de facto} \lexi{moi}.
+    Alternatively, in St Landry Parish where French and Creole are in heavy contact, \lexi{moi} without \lexi{je} was also attested in what was otherwise characterized as French speech \parencite{dubois_attrition_2001}.
+    While it is more difficult to rule the influence of Creole in this last case, meaning it is also more difficult to rule out whether each phonetic variant is socially interpreted differently without conducting a variationist study of them or at least a perceptual study to determine if [mo] and [mɔ̃]/[mwa] are distinguished for listeners.
+    Such issues again suggest that French and Creole are not terribly distinct structurally, as discussed in section \ref{sec:french_vs_creole}, and also raise concerns about how to code pronoun tokens for quantitative analyses.
+    In this particular case, only one token was produced in a context that could be considered distinctly non-Creole (\foreign{i.e.}, before the verb \lexi{avoir}), and so the decision on how to code these cases was not critical.
+    For other forms, however, such ambiguities in what could be considered phonetic variants of a single target pronoun versus separate pronouns was important to disentangle.
+    Those coding decisions will be discussed in detail in section \ref{sec:phonetic_variants}.
+    % Among Indians in Terrebonne-Lafourche, moi for 1sg was more likely before a vowel (Gudmestad & Carmichael 2022:18)
+    % 1sg as [h] among Indians in Terrebonne-Lafourche more frequent before vowels (Rottet 1996, as cited in Gudmestad & Carmichael 2022:5)
+    % Elision of the vowel in mo is possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
+    % In the early 20th century, moi je was more common that je by itself in Evangeline Parish, presumably because Creole was in close contact with "Cajun" at that time (Phillips 1936, as cited in Rottet 1995:181)
+
+
     The literature on subject pronouns in F\&C has been primarily aimed at elaborating descriptive grammars rather than sociolinguistic analyses, thus the majority of the following discussion will be on structure, although descriptive works have included useful sociolinguistic observations at times.
     Some of these observations have been related to race and ethnicity, but there remains considerable work to be done in that area.
 
@@ -554,6 +578,7 @@
         % "Gone", which Neumann (1985) simply describes as a "lexème" rather than giving its lexical category (75)
 
         \subsubsection{Phonetic variants}
+          \label{sec:phonetic_variants}
           While Table \ref{tab:pronouns_attested} includes many equivalent subject pronouns that have been attested, the list expands significantly when including allomorphs and phonetic variants that have been attested.
           Although the current study will not carry out any analyses of phonetic variation in subject pronouns, an overview will help to clarify some coding decisions that will be discussed in section \ref{sec:pronoun_coding}.
     
@@ -572,21 +597,6 @@
           \begin{enumerate}[label=\roman*., series=phonorules]
             \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}
           \end{enumerate}
-          
-          Also used exclusively for first person singular reference are the forms [mo], [mwa], [mɔ̃], and [mwɛ̃].
-          Generally described as a subject pronoun used in Creole, it has also been attested in Terrebonne-Lafourche (\citeauthor{gudmestad_variationist_2022}, \citeyear[p.~11]{gudmestad_variationist_2022}; \citeauthor{rottet_language_1995}, \citeyear[p.~178]{rottet_language_1995}) and Vermilion Parish (BRANDON 1955) where it is given as \orth{mon} or \orth{moi}, presumably the [mɔ̃] and [mwa] realizations, respectively, rather than the typically attested [mo] or [mwɛ̃] realizations in Creole.
-          None of these parishes have been noted for having creolophone residents, diminishing the possibility for influence between speech varieties despite the resemblances.
-          Indeed, progressive nasalization as a general phonological process has been noted as a distinguishing trait of Creole \parencite[p.~53]{neumann_creole_1985}, which would render [mo] as [mɔ̃] when present.
-          From the opposite direction, the morpheme has been documented as reducing to [m] before vowels in the speech of francophones \parencite[p.~178]{rottet_language_1995}, just as is typical in Creole (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~95-96]{neumann_creole_1985}; \citeauthor{phillips_etude_1936}, \citeyear[p.~43]{phillips_etude_1936}).
-          In Terrebonne-Lafourche where \lexi{je} can be pronounced as [h], this raises the possibility that speakers are actually producing a variant of \lexi{moi} followed by a barely audible [h] rather than simply \lexi{moi} by itself.
-          Given that voiceless fricatives are likely less audible than voiced fricatives \parencite[p.~117]{maniwa_perception_2008}, such a result would not be surprising, although one must assume that the coding methods employed by previous researchers would have accounted for potentially inaudible tokens.
-          Alternatively, in St Landry Parish where French and Creole are in heavy contact, \lexi{moi} without \lexi{je} was also attested in what was otherwise characterized as French speech \parencite{dubois_attrition_2001}.
-          While it is more difficult to rule the influence of Creole in this last case, meaning it is also more difficult to rule out whether each phonetic variant is socially interpreted differently without conducting a variationist study of them.
-          In the absence of such a study, and given their obviously shared origin in the disjunctive pronoun \lexi{moi} and similar phonological behavior, they can perhaps be treated as equivalents, and in the case of the present study, no tokens of [mwa] nor [mwɛ̃] were found, therefore simplifying the issue.
-          % Among Indians in Terrebonne-Lafourche, moi for 1sg was more likely before a vowel (Gudmestad & Carmichael 2022:18)
-          % 1sg as [h] among Indians in Terrebonne-Lafourche more frequent before vowels (Rottet 1996, as cited in Gudmestad & Carmichael 2022:5)
-          % Elision of the vowel in mo is possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
-          % In the early 20th century, moi je was more common that je by itself in Evangeline Parish, presumably because Creole was in close contact with "Cajun" at that time (Phillips 1936, as cited in Rottet 1995:181)
     
           The form pairs [nu] - [no] and [vu] - [vo] present similar problems of interpretation but with a different results.
           The first realization for each pair has been found in both French-oriented and Creole-oriented speech but with different behaviors.
