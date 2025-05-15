@@ -48,6 +48,7 @@
   }
   \newcommand{\court}[1]{\textit{#1}}
   \newcommand{\titlebook}[1]{\textit{#1}}
+  \newcommand{\codeEn}[1]{\textsc{#1}}
 
 \begin{document}
   <<setup, echo = FALSE, message = FALSE>>=
