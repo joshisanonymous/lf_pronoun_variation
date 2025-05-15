@@ -337,7 +337,7 @@
     % \end{enumerate}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    On the other end of the spectrum is the case of a pronoun form \lexi{ça}, which appears in many places in the paradigm in Table \ref{sent:pronouns_attested}, a behavior that makes it stand apart from what one expects from how it is used in standard Hexagonal French.
+    On the other end of the spectrum is the case of a pronoun form \lexi{ça}, which appears in many places in the paradigm in Table \ref{tab:pronouns_attested}, a behavior that makes it stand apart from what one expects from how it is used in standard Hexagonal French.
     This pronoun is indeed common in other French-related varieties but typically only as a demonstrative pronoun replacing \lexi{cela} or \lexi{ceci} in casual speech.
     However, not only are the latter two pronouns thought to be absent in Louisiana (\citeauthor{brown_pronominal_1988}, \citeyear[p.~124]{brown_pronominal_1988}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~48-49]{smith_morphosyntactic_1994}), but \lexi{ça} goes beyond its use as a demonstrative in F\&C to be a typical expletive pronoun (\foreign{e.g.}, \sent{ça mouille} \gloss{it rains}) as well as something of a pseudo-expletive pronoun with a wide scope.
     In other words, when \lexi{ça} appears as a second person plural pronoun, for instance, it gets its reference from a co-occurring disjunctive pronoun, in this case \lexi{vous-autres}, as in sentence \ref{sent:vous-autres_ca}.
@@ -455,11 +455,21 @@
 
     The following verb has also been found to be associated with realizations of first person singular pronouns.
     In Lafourche Parish, a null pronoun for first person singular was reported as being most frequent before reflexive verbs yielding constructions such as \sent{ø me rappelle} \gloss{I remember} and \sent{ø me doute} \gloss{I suspect} \parencite[Guilbeau, 1950, as cited in][p.~183]{rottet_language_1995}.
+    It is notable that the reflexive pronouns used in such verbal constructions (\foreign{e.g.}, \lexi{me}) provide clues for the subject of the verb.
+    This is especially true for first person singular.
+    A reflexive pronoun such as \lexi{se} may point back to third person singular or third person plural with no distinction for the intended gender or animacy of the subject.
+    In Louisiana, it may even point back to second person plural as in sentence \ref{sent:reflexive_vous-autres}.
+    Howevever, for first person singular, only \lexi{me} is possible -- or \lexi{mo-même} in the speech of those with post-verbal object pronouns \parencite[p.~212]{klingler_if_2003} -- therefore removing the need for an explicit subject pronoun to make the subject clear.
+
+    Another verbal association for first person singular pronouns was found in St Landry Parish where \lexi{je} alone was found to be 
     % 1sg
-      % In Lafourche Parish, null realizations of 1sg have been reported to be most frequent with reflexive verbs (Guilbeau 1950, as cited in Rottet 1995:183)
       % In St Landry, je or moi je were associated with avoir and verbs expressing beliefs and opinions whereas moi alone was associated with être and "verbes réguliers" (Dubois 2001:160)
         % Why have people looked at "moi je" in the first place? (bring up Rottet's arguments that it's not being used for contrast or emphasis)
       % Among Indians in Terrbonne-Lafourche, 1sg with -er verbs as [ʒ] is disfavored, as null or [h] is the baseline, and as [ʃ] is favored (Gudmestad & Carmichael 2022:14-15)
+
+    \begin{enumerate}[resume=sentences]
+      \item Faut que vous-autres se couche de bonne heure. \label{sent:reflexive_vous-autres} \parencite[p.~85]{papen_structural_1997}
+    \end{enumerate}
 
   \section{F\&C subject pronouns and their social variation}
     \label{sec:pronoun_social}
