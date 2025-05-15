@@ -461,15 +461,33 @@
     In Louisiana, it may even point back to second person plural as in sentence \ref{sent:reflexive_vous-autres}.
     Howevever, for first person singular, only \lexi{me} is possible -- or \lexi{mo-même} in the speech of those with post-verbal object pronouns \parencite[p.~212]{klingler_if_2003} -- therefore removing the need for an explicit subject pronoun to make the subject clear.
 
-    Another verbal association for first person singular pronouns was found in St Landry Parish where \lexi{je} alone was found to be 
-    % 1sg
-      % In St Landry, je or moi je were associated with avoir and verbs expressing beliefs and opinions whereas moi alone was associated with être and "verbes réguliers" (Dubois 2001:160)
-        % Why have people looked at "moi je" in the first place? (bring up Rottet's arguments that it's not being used for contrast or emphasis)
-      % Among Indians in Terrbonne-Lafourche, 1sg with -er verbs as [ʒ] is disfavored, as null or [h] is the baseline, and as [ʃ] is favored (Gudmestad & Carmichael 2022:14-15)
+    \begin{enumerate}[resume=sentences]
+      \item Faut que \emph{vous-autres se} couche de bonne heure. \label{sent:reflexive_vous-autres} \parencite[p.~85]{papen_structural_1997}
+      \item[] \gloss{It's necessary that you all put yourselves to bed early.}
+    \end{enumerate}
+
+    Another verbal association for first person singular pronouns was found in St Landry Parish where \lexi{je} alone as well as \lexi{moi je} were found to be associated with verbs expressing beliefs and opinions, whereas \lexi{moi} by itself was associated with the verb \lexi{être} and ``verbes réguliers''\footnote{
+      Literally, \gloss{regular verbs}, by which \textcite{dubois_attrition_2001} seemed to mean lexical verbs.
+    } \parencite[p.~160]{dubois_attrition_2001}.
+    This combination of the disjunctive pronoun \lexi{moi} with the clitic pronoun \lexi{je} as a distinct variant has been used before in analyses.
+    Typical in French varieties around the world, disjunctive pronouns such as \lexi{moi} would be added to either for emphasis since French clitics cannot be stressed or to highlight a contrast (\foreign{e.g.}, \sent{he thinks this, but I think differently, me}).
+    \textcite{rottet_language_1995} justified the choice of treating \lexi{moi je} as a normal, non-discursive variant by arguing that some passages of conversation with his participants contain more tokens of \lexi{moi je} together than \lexi{je} alone, leading him to conclude that ``it would be very strange indeed if emphatic contexts outnumbered nonemphatic ones in `normal' conversation'' (pp.~178-179).
+    \lexi{Moi je} is not, however, included in the present analyses as a pronoun variant because the example used, reproduced in sentence \ref{sent:moi_je} below, can in fact be interpreted as contrastive instances of \lexi{moi} as the speaker is contrasting their own knowledge of prayers in French with what other people might know.
+    With all due respect for the decisions previous researchers have taken, my own position is that there is not enough evidence to motivate treating disjunctive-clitic pronoun combinations are distinct variants aggregated with other lone clitic pronouns in opposition with how disjunctive-clitic pronouns have been understood in standard French varieties.
+    Rather, disjunctive pronouns function as discursive tools when coordinated with clitic pronouns, discourse being a subject that will be briefly reviewed in the next section.
 
     \begin{enumerate}[resume=sentences]
-      \item Faut que vous-autres se couche de bonne heure. \label{sent:reflexive_vous-autres} \parencite[p.~85]{papen_structural_1997}
+      \item \label{sent:moi_je} KR: Et t'as appris les prières en français ou anglais?
+      \item[] \gloss{And you learned your prayers in French or English?}
+      \item[] I28: \textbf{Mon s}'a 'pris les prières en anglais, mais s'connais le Salut Marie, le \codeEn{HAIL MARY}, en français. Là \textbf{mon s}'connais. Mémère m'a montré. ø veux apprendre les autes, mais c'est pour m'assir là, aller dire que mon ø vas lé apprendre, mais ça c'est le seul qui \textbf{mon s}'connais.
+      \item[] \gloss{I [contrast] learned the prayers in English, but I know the Hail Mary, the \codeEn{HAIL MARY}, in French. That, I [contrast] know. Grandma taught me. I want to learn the others, but I have to sit there, go say that I'm going to learn them, but that's the only one I [contrast] know.}
     \end{enumerate}
+
+    Finally, \textcite{gudmestad_variationist_2022} also found the following verb to constraint which phonetic variants of first person singular \lexi{je} were produced, [ʃ] being favored before verbs of the \lexi{-er} class, [ʒ] being disfavored, and [h] and ø forming the baseline (pp.~14-15).
+    \textcite{gudmestad_variationist_2022} importantly only analyzed the speech of Indians in Terrebonne-Lafourche, which highlights the potential for differing variation systems for other groups in Louisiana.
+    Indeed, the literature on subject pronouns in F\&C has been primarily aimed at elaborating descriptive grammars rather than sociolinguistic analyses.
+    These studies do, however, include useful sociolinguistic observations at times.
+    These observations and comparing the results of studies that have been conducted allow some tentative conclusions about social variation to be drawn, which will be discussed in the next section.
 
   \section{F\&C subject pronouns and their social variation}
     \label{sec:pronoun_social}
