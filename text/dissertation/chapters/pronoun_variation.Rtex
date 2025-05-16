@@ -584,265 +584,266 @@
 
   \section{Methods}
     \label{sec:pronoun_methods}
+    In the case of Creoles and Cajuns having become racialized categories, a natural question is what traits are used to mark individuals as fitting into these categories.
+    The goal of this chapter is to address quantitatively whether subject pronouns constitute one of those traits.
+    The speech of the participants discussed in section \ref{sec:participants} make up the data used for the following analyses.
+    As their social characteristics have already been summarized in Table \ref{tab:participants_background}, this section will primarily focus on how subject pronoun tokens and the predicates following them were coded and what statistical analyses were carried out.
+
     \subsection{Pronoun coding}
       \label{sec:pronoun_coding}
-      % Repeated tokens
-        % In cases of hesitations or restarts of the same clause, only the final token was coded
+      Coding tokens of subject pronouns is essentially about deciding how and what to count in the data.
+      Some of those decisions are relatively trivial.
+      For instance, when speakers hesitated or restarted the same clause, rather than counting each utterance of a subject pronoun throughout those restarts, only the final subject pronoun uttered was counted.
+      More complicated is determining how to manage pronouns that may or may not be phonetic variants of a single target pronoun and determining which referent a given pronoun token is targetting.
 
-        \subsubsection{Phonetic variants}
-          \label{sec:phonetic_variants}
-          While Table \ref{tab:pronouns_attested} includes many equivalent subject pronouns that have been attested, the list expands significantly when including allomorphs and phonetic variants that have been attested.
-          Although the current study will not carry out any analyses of phonetic variation in subject pronouns, an overview will help to clarify some coding decisions that will be discussed in section \ref{sec:pronoun_coding}.
-    
-          The morpheme \lexi{je}, which in Louisiana has only attested as a first person singular subject pronoun, has received significant attention in the literature.
-          The two segments of this morpheme often metathesize (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}), to the extent that the metathesized form is sometimes the only form provided in grammars \parencite[pp.~31-32]{chaudoir_study_1938}.
-          The vowel, [ə], can be elided not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
-          The appearance of the vowel has been argued to be only for ``clarity or emphasis'' \parencite[p.~141]{conwell_louisiana_1963}.
-          This results in the consonant, which can be realized as [ʒ], [ʃ], [z], [s], or [h] \parencite[p.~72]{carmichael_language_2019}, being adjacent to the initial segment of the following word.
-          There is thus a clear phonological rule that applies to this particular morpheme where [ʒ] and [z] are devoiced before voiceless segments (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}), as in Rule \ref{phonorule:pro_devoicing}.
-          Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme.
-          This is not the case, however, for [z], which is only in variation with [ʒ] in the pronoun \lexi{je} \parencite[p.~121]{dajko_ethnic_2009}.
-          While one could possibly argue that [z] and [ʒ] represent two distinct morphemes based on this, \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) data shows [z] in stylistic variation with [ʒ], suggesting individual speakers use both variants.
-          It is certainly not out of the question that an individual could use two different subject pronouns for the same referent, but this seems less likely when the sole difference is a slight change in place of articulation.
-          The evidence suggests then that all of these realizations are variants of one subject pronoun morpheme: \lexi{je}.
-    
-          \begin{enumerate}[label=\roman*., series=phonorules]
-            \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}
-          \end{enumerate}
-    
-          The form pairs [nu] - [no] and [vu] - [vo] present similar problems of interpretation but with a different results.
-          The first realization for each pair has been found in both French-oriented and Creole-oriented speech but with different behaviors.
-          In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
-          The same was found in Lafayette for both [nu] and [vu] \parencite[pp.~142-143]{conwell_louisiana_1963}.
-          In Creole-oriented speech, however, such an environment leads to a reduction of [nu] to [n] and [vu] to [v] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for [nu] for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
-          This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{nous} and \lexi{vous} versus \lexi{nou} and \lexi{vou}.
-          What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
-          Two factors support the idea that they are treated as distinct.
-          The first is that Creole-oriented speakers may alternate between [nu] and [no] as well as [vu] and [vo] \parencite[p.~24c]{morgan_structural_1959}, whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} and \lexi{vous} - \lexi{vou} to a greater degree.
-          This was in fact the case for one speaker in my own corpus who produced both [nu] and [no].
-          This is admittedly a weak argument for treating these as different pronouns.
-          The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs
-          % no and nu in Breaux Bridge (Neumann 1985:166)
-          % vous
-            % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
-          % Going by verb is not useful either
-            % Byers (1988), in his pilot study, found that [vu] would take a verb with an /e/ ending more often for speakers over 45 whereas younger speakers used bare verbs (50) and would mostly be produced as vous est with être (52)
-              % In his main study, he found a split between age with those over 45 producing more /e/ endings and êtes (71-74)
-            % Likewise, both short and long forms could be used with vous in Creole speech, the latter being phonetically identical to an -ez form
-              % A long form could be disambiguated with the context indicating either past perfective (not -ez) or not (-ez)
-                % This is fairly reliable for what's been documented in Breaux Bridge, but not for those from further away where there's more "free variation" documented
+      \subsubsection{Phonetic variants}
+        \label{sec:phonetic_variants}
+        The analyses carried out here are lexical rather than phonetic, but ambiguities easily arise in which phonetic forms may be treated as targeting the same pronoun and which are distinct.
+        One such example, that of [mo], [mɔ̃], [mwa], and [mwɛ̃], was discussed in section \ref{sec:pronoun_structure}, but others must be addressed, as well.
+  
+        The morpheme \lexi{je}, for instance, which in Louisiana has only been attested as a first person singular subject pronoun, has received significant attention in the literature.
+        The two segments of this morpheme often metathesize (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}), to the extent that the metathesized form is sometimes the only form provided in grammars \parencite[pp.~31-32]{chaudoir_study_1938}.
+        The vowel, [ə], can be elided not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
+        The appearance of the vowel has been argued to be only for ``clarity or emphasis'' \parencite[p.~141]{conwell_louisiana_1963}.
+        This results in the consonant, which can be realized as [ʒ], [ʃ], [z], [s], or [h] \parencite[p.~72]{carmichael_language_2019}, being adjacent to the initial segment of the following word.
+        There is thus a clear phonological rule that applies to this particular morpheme where [ʒ] and [z] are devoiced before voiceless segments (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}), as in Rule \ref{phonorule:pro_devoicing}.
+        Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme.
+        This is not the case, however, for [z], which is only in variation with [ʒ] in the pronoun \lexi{je} \parencite[p.~121]{dajko_ethnic_2009}.
+        While one could possibly argue that [z] and [ʒ] represent two distinct morphemes based on this, \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) data shows [z] in stylistic variation with [ʒ], suggesting individual speakers use both variants.
+        It is certainly not out of the question that an individual could use two different subject pronouns for the same referent, but this seems less likely when the sole difference is a slight change in place of articulation.
+        The evidence suggests then that all of these realizations are variants of one subject pronoun morpheme: \lexi{je}.
+  
+        \begin{enumerate}[label=\roman*., series=phonorules]
+          \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}
+        \end{enumerate}
+  
+        The form pairs [nu] - [no] and [vu] - [vo] present similar problems of interpretation but with a different results.
+        The first realization for each pair has been found in both French-oriented and Creole-oriented speech but with different behaviors.
+        In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
+        The same was found in Lafayette for both [nu] and [vu] \parencite[pp.~142-143]{conwell_louisiana_1963}.
+        In Creole-oriented speech, however, such an environment leads to a reduction of [nu] to [n] and [vu] to [v] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for [nu] for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
+        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{nous} and \lexi{vous} versus \lexi{nou} and \lexi{vou}.
+        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
+        Two factors support the idea that they are treated as distinct.
+        The first is that Creole-oriented speakers may alternate between [nu] and [no] as well as [vu] and [vo] \parencite[p.~24c]{morgan_structural_1959}, whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} and \lexi{vous} - \lexi{vou} to a greater degree.
+        This was in fact the case for one speaker in my own corpus who produced both [nu] and [no].
+        This is admittedly a weak argument for treating these as different pronouns.
+        The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs
+        % no and nu in Breaux Bridge (Neumann 1985:166)
+        % vous
+          % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
+        % Going by verb is not useful either
+          % Byers (1988), in his pilot study, found that [vu] would take a verb with an /e/ ending more often for speakers over 45 whereas younger speakers used bare verbs (50) and would mostly be produced as vous est with être (52)
+            % In his main study, he found a split between age with those over 45 producing more /e/ endings and êtes (71-74)
+          % Likewise, both short and long forms could be used with vous in Creole speech, the latter being phonetically identical to an -ez form
+            % A long form could be disambiguated with the context indicating either past perfective (not -ez) or not (-ez)
+              % This is fairly reliable for what's been documented in Breaux Bridge, but not for those from further away where there's more "free variation" documented
 
-          % nou/nous/no
-          	% These are arguably simple phonetic variations in vowel quality with the same underlying form, but the arguments against that are...
-              % Are there speakers who produce both [nu] + V and [nuz] + V?
-                % Tracy Roth is an example of [nu] + V without any cases of [nuz] (e.g., nou apprend 17:33), but I don't think anyone else produces both forms before vowels
-              % Are there speakers who produce both [no] and [nu]?
-                % Tracy Roth produces only [nu] (never [nuz]) except two tokens of [no] in no dit (29:46) and no apprenne (31:20), suggesting a phonetic variation between [no] and [nu] (but not necessarily with [nuz]). In other words, no and nou are one pronoun that I assign the underlying form of no to (but perhaps not no and nous)
-                  % Supporting this further, Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
-                % Owen Webre produces [no] and 3 tokens of [nu]
-                  % Each [nu] is followed by a verb with a standard French inflection -- nou disons (3:32) and nou sommes (14:45 and 14:47) -- suggesting that these have the underlying form nous
-                    % This is different from Tracy Roth who never produces [nu] with such verbal inflections
-              % In either case, if there are speakers who produce both forms, are there any structural or contextual clues that suggest that they are separate pronouns in these speakers' grammars?
-              % The 1pl -ons ending only exists for hortative "allons" in Terrebonne-Lafourche (Papen & Rottet 1997:96)
-    
-          % vous-autres
-            % Generally written with <-res>, probably due to its disjunctive use in SF, but no final consonants are attested in Louisiana even in liaison positions (i.e., no [r_V] nor [z_V])
-            % zòt, zo, and ouzò(t) are attested in Pointe coupee (Klingler 2003 "Turn":206/213) as well as zot, zo, and uzot in Breaux Bridge (Neumann 1985:166), but I suspect these are various lenitions of /v/ and /t/
-              % Neumann (1985) remarked surprise that zot had not been attested by the time of her study despite it being used in Saint-Ybars (Mercier 1881) (169), perhaps because it was registered as a form of vous-autres
-            % [wɔt] is attested for vous-autres in rapid speech in Terrebonne-Lafourche (Rottet 1995:185-186)
-    
-          % on
-            % "on" generates a liaison (Oukada 1977:192; J. S. Smith 1994:53)
-              % In Terrebonne-Lafourche, however, there's an example of "on" without a liaison: on ôte as [ɔ̃ ot] (Guilbeau 1950, as cited in Papen & Rottet 1997:78)
-    
-          % tu and to
-            % Oukada (1977) reported the generalized loss of a pronoun's vowel before verbs that begin with vowels based on the occurrence of t'es (193)
-            % tu can be [ty], [ti], or [t] before a vowel (Conwell & Juilland 1963:142-143; J. S. Smith 1994:45)
-              % Parr (1940) also reported the first two (xi)
-              % Phillips only reported the latter two (1936:42, 1939:218-219)
-              % J. S. Smith (1994) made the point this [y] is ``more open and lax'' and this [i] ``more relaxed'' than SF (45)
-                % My own participants seemed to produce something between [y] and [i], suggesting that lip-rounding is simply weakened for [y] to sometimes give the impression of [i], with the exception of one late learner participant who used a very clear [i] at all times
-            % "to" can be reduced to [t] (Broussard 1972:8; Klingler 2003 "Turn":209-210; Phillips 1936:43)
-              % This opens up difficulties in distinguishing to from tu
-            % Nothing in the literature suggests that this elision takes place before a consonant for either pronoun, so there will likely always be pronounced and elided versions of the pronoun in each speaker's speech, so code t' according to what they pronounce elsewhere for the sake of robustness.
-              % Speaker only produces [t] and tu > code as tu
-              % Speaker only produces [t] and [to] > code as to
-              % Speaker produces [t], tu, and [to] > Exclude [t]
-            % Establishing that the vowel doesn't simply represent allomorphes of an underlying "tV"
-              % These are arguably simple phonetic variations in vowel quality with the same underlying form, but the arguments against that are...
-                % Several speakers do produce both sometimes [ti] and sometimes [ty] in the same structural context
-                  % Is there a structural or contextual explanation that would suggest these are separate underlying pronouns?
-                % Some speakers do produce both [ty] and [to]
-                  % IIRC, these have similar but not identical distributions in linguistic structure, which would suggest style switching
-                    % Check Owen Webre as he produces both I think but isn't as clear about whether he's style switching
-                    % Oliver Lesage produces both [ty] and [to] but only 2 tokens of the latter in a quoted discourse with another Creole speaker after I ask him whether he has chances to speak "couru-vini", as he calls it (2:16)
-                    % Tracy Roth does indeed produce both, producing [ty] only once with the notable difference in syntax of a preverbal indirect object pronoun: tu me peux fais ça (17:40)
+        % nou/nous/no
+          % These are arguably simple phonetic variations in vowel quality with the same underlying form, but the arguments against that are...
+            % Are there speakers who produce both [nu] + V and [nuz] + V?
+              % Tracy Roth is an example of [nu] + V without any cases of [nuz] (e.g., nou apprend 17:33), but I don't think anyone else produces both forms before vowels
+            % Are there speakers who produce both [no] and [nu]?
+              % Tracy Roth produces only [nu] (never [nuz]) except two tokens of [no] in no dit (29:46) and no apprenne (31:20), suggesting a phonetic variation between [no] and [nu] (but not necessarily with [nuz]). In other words, no and nou are one pronoun that I assign the underlying form of no to (but perhaps not no and nous)
+                % Supporting this further, Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
+              % Owen Webre produces [no] and 3 tokens of [nu]
+                % Each [nu] is followed by a verb with a standard French inflection -- nou disons (3:32) and nou sommes (14:45 and 14:47) -- suggesting that these have the underlying form nous
+                  % This is different from Tracy Roth who never produces [nu] with such verbal inflections
+            % In either case, if there are speakers who produce both forms, are there any structural or contextual clues that suggest that they are separate pronouns in these speakers' grammars?
+            % The 1pl -ons ending only exists for hortative "allons" in Terrebonne-Lafourche (Papen & Rottet 1997:96)
+  
+        % vous-autres
+          % Generally written with <-res>, probably due to its disjunctive use in SF, but no final consonants are attested in Louisiana even in liaison positions (i.e., no [r_V] nor [z_V])
+          % zòt, zo, and ouzò(t) are attested in Pointe coupee (Klingler 2003 "Turn":206/213) as well as zot, zo, and uzot in Breaux Bridge (Neumann 1985:166), but I suspect these are various lenitions of /v/ and /t/
+            % Neumann (1985) remarked surprise that zot had not been attested by the time of her study despite it being used in Saint-Ybars (Mercier 1881) (169), perhaps because it was registered as a form of vous-autres
+          % [wɔt] is attested for vous-autres in rapid speech in Terrebonne-Lafourche (Rottet 1995:185-186)
+  
+        % on
+          % "on" generates a liaison (Oukada 1977:192; J. S. Smith 1994:53)
+            % In Terrebonne-Lafourche, however, there's an example of "on" without a liaison: on ôte as [ɔ̃ ot] (Guilbeau 1950, as cited in Papen & Rottet 1997:78)
+  
+        % tu and to
+          % Oukada (1977) reported the generalized loss of a pronoun's vowel before verbs that begin with vowels based on the occurrence of t'es (193)
+          % tu can be [ty], [ti], or [t] before a vowel (Conwell & Juilland 1963:142-143; J. S. Smith 1994:45)
+            % Parr (1940) also reported the first two (xi)
+            % Phillips only reported the latter two (1936:42, 1939:218-219)
+            % J. S. Smith (1994) made the point this [y] is ``more open and lax'' and this [i] ``more relaxed'' than SF (45)
+              % My own participants seemed to produce something between [y] and [i], suggesting that lip-rounding is simply weakened for [y] to sometimes give the impression of [i], with the exception of one late learner participant who used a very clear [i] at all times
+          % "to" can be reduced to [t] (Broussard 1972:8; Klingler 2003 "Turn":209-210; Phillips 1936:43)
+            % This opens up difficulties in distinguishing to from tu
+          % Nothing in the literature suggests that this elision takes place before a consonant for either pronoun, so there will likely always be pronounced and elided versions of the pronoun in each speaker's speech, so code t' according to what they pronounce elsewhere for the sake of robustness.
+            % Speaker only produces [t] and tu > code as tu
+            % Speaker only produces [t] and [to] > code as to
+            % Speaker produces [t], tu, and [to] > Exclude [t]
+          % Establishing that the vowel doesn't simply represent allomorphes of an underlying "tV"
+            % These are arguably simple phonetic variations in vowel quality with the same underlying form, but the arguments against that are...
+              % Several speakers do produce both sometimes [ti] and sometimes [ty] in the same structural context
+                % Is there a structural or contextual explanation that would suggest these are separate underlying pronouns?
+              % Some speakers do produce both [ty] and [to]
+                % IIRC, these have similar but not identical distributions in linguistic structure, which would suggest style switching
+                  % Check Owen Webre as he produces both I think but isn't as clear about whether he's style switching
+                  % Oliver Lesage produces both [ty] and [to] but only 2 tokens of the latter in a quoted discourse with another Creole speaker after I ask him whether he has chances to speak "couru-vini", as he calls it (2:16)
+                  % Tracy Roth does indeed produce both, producing [ty] only once with the notable difference in syntax of a preverbal indirect object pronoun: tu me peux fais ça (17:40)
 
-          % elle
-          	% Collapsed these: [ɛl] [ɛ] [al] [a]
-              % Considered different realizations of the same morpheme in the literature (Papen & Rottet 1997:83)
+        % elle
+          % Collapsed these: [ɛl] [ɛ] [al] [a]
+            % Considered different realizations of the same morpheme in the literature (Papen & Rottet 1997:83)
 
-          % il and elle
-            % Both il and elle lose their /l/ before consonants (Chaudoir 1938:33; Conwell & Juilland 1963:144; Parr 1940:xi; Phillips 1936:42-43, 1939:218-219; J. S. Smith 1994:47)
-              % In Lafayette, Conwell & Juilland (1963) reported that [al] was rare, [ɛ(l)] being preferred (Conwell & Juilland 1963:144)
-              % In Terrebonne-Lafourche, Parr (1940) reported [al] as the norm and [ɛ] only even being possible before consonants (xi)
-                % Similarly, in Lafayette, [ɛ(l)] was rare enough that J. S. Smith (1994) mused that this might have simply been a disjunctive pronoun being produced without the resumptive clitic pronoun (47) as the disjunctive has only been reported as [ɛl]
-                % Some have only attested [ɛl] as a disjunctive (Chaudoir 1938:33; Phillips 1936:43)
-                % Girard Lomheim (2019) did no more than provide a table of the subject pronoun morphemes, but listed "alle" and not "elle" (5), suggesting the same lack of [ɛl] in Vermilion and St Landry
-            % Liaisons are not always produced for speakers who reduce pronouns such as these
-              % This is the case for some speakers in Terrebonne-Lafourche as far back as Guilbeau (1950) who had the example on ôte as [ɔ̃ ot] (as cited in Papen & Rottet 1997:78)
-              % Later in Terrebonne-Lafourche, elle is always realized with [l] before a vowel but il may or may not be or may be [in] (Papen & Rottet 1997:84)
-          
-          % li
-            % Can be reduced to [l] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
-            % li in Pointe Coupee sometimes becomes simply [i] before a consonant (Klingler 2003 "Turn":210-211)
-              % This is likewise possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
-    
-          % ils
-            % ils also ca reduce to [i] before consonants (Parr 1940:xi; J. S. Smith 1994:58)
-            % ils generates a liaison but it may be realized as [z] or [l] in Lafayette (Conwell & Juilland 1963:145; J. S. Smith 1994:58) and Terrebonne-Lafourche (Papen & Rottet 1997:84) but some only report a [z] liaison (Parr 1940:xi; Phillips 1936:43, 1939:218-219)
-              % This leaves open the question of whether those who only use [l] as a liaison have ils in their lexicon at all or if il is simply not marked for number
+        % il and elle
+          % Both il and elle lose their /l/ before consonants (Chaudoir 1938:33; Conwell & Juilland 1963:144; Parr 1940:xi; Phillips 1936:42-43, 1939:218-219; J. S. Smith 1994:47)
+            % In Lafayette, Conwell & Juilland (1963) reported that [al] was rare, [ɛ(l)] being preferred (Conwell & Juilland 1963:144)
+            % In Terrebonne-Lafourche, Parr (1940) reported [al] as the norm and [ɛ] only even being possible before consonants (xi)
+              % Similarly, in Lafayette, [ɛ(l)] was rare enough that J. S. Smith (1994) mused that this might have simply been a disjunctive pronoun being produced without the resumptive clitic pronoun (47) as the disjunctive has only been reported as [ɛl]
+              % Some have only attested [ɛl] as a disjunctive (Chaudoir 1938:33; Phillips 1936:43)
+              % Girard Lomheim (2019) did no more than provide a table of the subject pronoun morphemes, but listed "alle" and not "elle" (5), suggesting the same lack of [ɛl] in Vermilion and St Landry
+          % Liaisons are not always produced for speakers who reduce pronouns such as these
+            % This is the case for some speakers in Terrebonne-Lafourche as far back as Guilbeau (1950) who had the example on ôte as [ɔ̃ ot] (as cited in Papen & Rottet 1997:78)
+            % Later in Terrebonne-Lafourche, elle is always realized with [l] before a vowel but il may or may not be or may be [in] (Papen & Rottet 1997:84)
+        
+        % li
+          % Can be reduced to [l] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
+          % li in Pointe Coupee sometimes becomes simply [i] before a consonant (Klingler 2003 "Turn":210-211)
+            % This is likewise possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
+  
+        % ils
+          % ils also ca reduce to [i] before consonants (Parr 1940:xi; J. S. Smith 1994:58)
+          % ils generates a liaison but it may be realized as [z] or [l] in Lafayette (Conwell & Juilland 1963:145; J. S. Smith 1994:58) and Terrebonne-Lafourche (Papen & Rottet 1997:84) but some only report a [z] liaison (Parr 1940:xi; Phillips 1936:43, 1939:218-219)
+            % This leaves open the question of whether those who only use [l] as a liaison have ils in their lexicon at all or if il is simply not marked for number
 
-          % Cases of ambiguity between ils and il when pronounced [il] or [i]
-            % Applies even when you might otherwise expect a [z] liaison as this is sometimes absent in LF or pronounced as an [l] liaison
-            % Use verbal inflection if present.
-              % This is justified in that nothing in the literature suggests that it's possible to have something like ils a or ils est, so there's no reason to believe that something [il/z a/ɛ] is ils.
-              % [i(l) est] > il
-              % [i(l) sont] > ils
-              % [i(l) a] > il
-              % [i(l) ɔ̃] > ils
-              % [i(z) ɔ̃] > ils
-              % [i(l) parl] > Rely on indications of referent if present
-            % If neither the verb nor the context makes the referent clear, transcribe it but don't annotate (not a useable token)
-            % If the verb and the context are contradictory and no liaison is possible, omit (not a useable token)
-              % e.g., Les élèves, /il fɛ/
-                % While structures like "les élèves fait" are attested, once a pronoun is used, the verb is expected to take an explicitly different inflection (find citation)
-            % ils agreement can be marked with -ont on the verb both in present habitual and in the past imperfective with -iont (Papen & Rottet 1997:97; Rottet 1995:201-202)
-              % This also leads to forms such as ils avont, ils allont, and ils faisont (Rottet 1995:202)
+        % Cases of ambiguity between ils and il when pronounced [il] or [i]
+          % Applies even when you might otherwise expect a [z] liaison as this is sometimes absent in LF or pronounced as an [l] liaison
+          % Use verbal inflection if present.
+            % This is justified in that nothing in the literature suggests that it's possible to have something like ils a or ils est, so there's no reason to believe that something [il/z a/ɛ] is ils.
+            % [i(l) est] > il
+            % [i(l) sont] > ils
+            % [i(l) a] > il
+            % [i(l) ɔ̃] > ils
+            % [i(z) ɔ̃] > ils
+            % [i(l) parl] > Rely on indications of referent if present
+          % If neither the verb nor the context makes the referent clear, transcribe it but don't annotate (not a useable token)
+          % If the verb and the context are contradictory and no liaison is possible, omit (not a useable token)
+            % e.g., Les élèves, /il fɛ/
+              % While structures like "les élèves fait" are attested, once a pronoun is used, the verb is expected to take an explicitly different inflection (find citation)
+          % ils agreement can be marked with -ont on the verb both in present habitual and in the past imperfective with -iont (Papen & Rottet 1997:97; Rottet 1995:201-202)
+            % This also leads to forms such as ils avont, ils allont, and ils faisont (Rottet 1995:202)
 
-          % il vs li when pronounced as [i]
-            % Both elisions have been documented
-              % li > i / ?? ; in Breaux Bridge for White speakers (Neumann 1985:170)
-              % li > i / _ C ; in Pointe Coupee (Klingler 2003 "Turn":210)
-              % il > i / _ V ; sometimes, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
-              % il > i / _ C ; always, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
-            % Considering how robust this elision can be for some speakers, excluding cases of just [i] could lead to excluding all or almost all tokens, so code [i] in accordance with what the speaker uses exclusively elsewhere
-              % Speaker only produces [i] and [li] > Code as li
-                % Elizabeth Naquin is(?) my only participant who produces only li and i, the latter being relegated to two tokens of i faut (10:48 and 10:58)
-              % Speaker only produces [i] and [il] > Code as il
-              % Speaker only produces [i] > Code as i
-              % Speaker produces [i], [li], and [il] > Exclude [i]
-    
-          % eux
-            % More often written as <eusse>, but <eux> is used here simply to highlight its origin and because this is a somewhat regularized process (e.g., ceux can be pronounced with a final [s])
-            % eux has several phonetic variants attested: [ø], [øs], [øz], and [zø] in Lafourche (Rottet 1995:201) as well as generally throughout South Louisiana (Byers 1988:88-92)
-              % Oukada (1977) reported the same except for no [zø] (192)
-    
-          % eux-autres
-            % Same as with vous-autres, the general orthographic representation includes the <-res> despite it not being pronounced
-            % eux-autres has several variants attested: [øzot], [zøt], [zot], and [hɔt] (Rottet 1995:201)
-    
-          % yé
-            % Can reduce to [j] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
-              % This is likewise possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
+        % il vs li when pronounced as [i]
+          % Both elisions have been documented
+            % li > i / ?? ; in Breaux Bridge for White speakers (Neumann 1985:170)
+            % li > i / _ C ; in Pointe Coupee (Klingler 2003 "Turn":210)
+            % il > i / _ V ; sometimes, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
+            % il > i / _ C ; always, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
+          % Considering how robust this elision can be for some speakers, excluding cases of just [i] could lead to excluding all or almost all tokens, so code [i] in accordance with what the speaker uses exclusively elsewhere
+            % Speaker only produces [i] and [li] > Code as li
+              % Elizabeth Naquin is(?) my only participant who produces only li and i, the latter being relegated to two tokens of i faut (10:48 and 10:58)
+            % Speaker only produces [i] and [il] > Code as il
+            % Speaker only produces [i] > Code as i
+            % Speaker produces [i], [li], and [il] > Exclude [i]
+  
+        % eux
+          % More often written as <eusse>, but <eux> is used here simply to highlight its origin and because this is a somewhat regularized process (e.g., ceux can be pronounced with a final [s])
+          % eux has several phonetic variants attested: [ø], [øs], [øz], and [zø] in Lafourche (Rottet 1995:201) as well as generally throughout South Louisiana (Byers 1988:88-92)
+            % Oukada (1977) reported the same except for no [zø] (192)
+  
+        % eux-autres
+          % Same as with vous-autres, the general orthographic representation includes the <-res> despite it not being pronounced
+          % eux-autres has several variants attested: [øzot], [zøt], [zot], and [hɔt] (Rottet 1995:201)
+  
+        % yé
+          % Can reduce to [j] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
+            % This is likewise possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
 
-          % C' treated as underlying ça
-            % While you could perhaps argue that this should be underlying ce, none of my speakers produced a surface ce form (e.g., no ce sont nor ce n'est pas)
-              % There are also cases like Florence Gaspard saying un petit brin l'argent c'était couru loin (38:13), whereas a more French oriented speaker would likely say un petit brin d'argent ça courait loin
-                % And to be even clearer, my Creole oriented speakers did indeed by and large use ça for this/that just as the French oriented speakers did, so while one could say that an utterance from one speaker cannot be used as foolproof evidence of an underlying form for another speaker, there are multiple reasons to believe that these forms would be linked
-            % Ça with fait is coded as expletive both when meaning "it's been" or as the conjunction and discourse marker meaning "so"
+        % C' treated as underlying ça
+          % While you could perhaps argue that this should be underlying ce, none of my speakers produced a surface ce form (e.g., no ce sont nor ce n'est pas)
+            % There are also cases like Florence Gaspard saying un petit brin l'argent c'était couru loin (38:13), whereas a more French oriented speaker would likely say un petit brin d'argent ça courait loin
+              % And to be even clearer, my Creole oriented speakers did indeed by and large use ça for this/that just as the French oriented speakers did, so while one could say that an utterance from one speaker cannot be used as foolproof evidence of an underlying form for another speaker, there are multiple reasons to believe that these forms would be linked
+          % Ça with fait is coded as expletive both when meaning "it's been" or as the conjunction and discourse marker meaning "so"
 
-          % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
-            % B. Brown (1988) discussed the c' in "c'est" as a variant of ça (130/138-143)
-              % She follows Thibault (1986) in this interpretation for French in Montreal (141-142)
-            % I agree that it can be impersonal, but in the vast majority of cases, it is difficult to rule out either a demonstrative interpretation or a presentative use (which is somewhat demonstrative, as well)
-            % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
-          % Klingler (2003 "Turn") gives examples of c'est as impersonal, equivalent to "it" (he seems to have meant expletive), but they could all be interpreted as "that" also (309-310)
+        % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
+          % B. Brown (1988) discussed the c' in "c'est" as a variant of ça (130/138-143)
+            % She follows Thibault (1986) in this interpretation for French in Montreal (141-142)
+          % I agree that it can be impersonal, but in the vast majority of cases, it is difficult to rule out either a demonstrative interpretation or a presentative use (which is somewhat demonstrative, as well)
+          % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
+        % Klingler (2003 "Turn") gives examples of c'est as impersonal, equivalent to "it" (he seems to have meant expletive), but they could all be interpreted as "that" also (309-310)
 
-    \subsection{Other pronoun issues}
-      \label{sec:pronoun_issues}
-      % c'est
-        % The pronoun is either 1) demonstrative, 2) expletive, or some version of 3) 3rd person
-        % Lean demonstrative when referent is clearly abstract, when it feels like a presentative function, or when it feels like interpreting the pronoun as "this/that" rather than "it" is the only possibility
-          % Abstract in this case means more like referring to an idea expressed in a phrase rather than a non-material thing (e.g., un nom is not abstract but il m'a dit qu'il aimait le sucre is abstract)
-          % Presentative example: le seul qui était pas cadien c'était mon ancêtre
-            % Interrogatives are treated as presentatives, though this might be worth going back over (e.g., quoi c'est l'expression)
-              % This seems to align with how French dictionaries list it
-        % Lean 3rd person when the referent is clear and concrete and it's possible to rule out a demonstrative function
-          % It's obviously not possible to be certain that many cases are not demonstrative, so this will be a rather rare coding
-            % Indeed, after having finished coding, this turned out to be rare. It's tempting to assume 3rd person when the phrase would be translated into English as it is and in fact sounds awkward in English as ths/that is, but without access to speakers' underlying grammars, it's not possible to rule out that demonstratives simply have far larger distributions in Louisiana French than in English. In fact, even some of the cases from SF (see next right below this) suggest just that for SF let alone for LF
-          % What follows the verb can help distinguish between a presentative function (coded as demonstrative) vs a descriptive function (coded as 3rd person)
-            % For SF, this looks like:
-            % le livre, c'est un livre amusant > presentative (demonstrative)
-            % le livre, c'est un roman > presentative (demonstrative)
-            % le livre, il est amusant > descriptive (3sg)
-              % In LF, if this comes out as c'est amusant, it should be coded as 3sg
-            % le livre, c'est sur l'étagère > demonstrative
-            % le livre, il est sur l'étagère > descriptive (3sg)
-              % In SF, then, the prepositional complement doesn't indicate whether a presentative/demonstrative pronoun is required or a descriptive one.
-              % In LF, code as presented on the surface for lack of anything else that could clarify.
-                % c'est > demonstrative
-                % il est > descriptive (3sg)
-            % l'homme, il est dans la chambre > descriptive (3sg)
-        % Lean expletive when there is no clear referent
-          % This will often be phrases that translate to something like "it is adj." where the "it" has no referent
-        % C'est difficile de faire and il est difficile de faire will thus both be expletive
+      \subsubsection{Other pronoun issues}
+        \label{sec:pronoun_issues}
+        % c'est
+          % The pronoun is either 1) demonstrative, 2) expletive, or some version of 3) 3rd person
+          % Lean demonstrative when referent is clearly abstract, when it feels like a presentative function, or when it feels like interpreting the pronoun as "this/that" rather than "it" is the only possibility
+            % Abstract in this case means more like referring to an idea expressed in a phrase rather than a non-material thing (e.g., un nom is not abstract but il m'a dit qu'il aimait le sucre is abstract)
+            % Presentative example: le seul qui était pas cadien c'était mon ancêtre
+              % Interrogatives are treated as presentatives, though this might be worth going back over (e.g., quoi c'est l'expression)
+                % This seems to align with how French dictionaries list it
+          % Lean 3rd person when the referent is clear and concrete and it's possible to rule out a demonstrative function
+            % It's obviously not possible to be certain that many cases are not demonstrative, so this will be a rather rare coding
+              % Indeed, after having finished coding, this turned out to be rare. It's tempting to assume 3rd person when the phrase would be translated into English as it is and in fact sounds awkward in English as ths/that is, but without access to speakers' underlying grammars, it's not possible to rule out that demonstratives simply have far larger distributions in Louisiana French than in English. In fact, even some of the cases from SF (see next right below this) suggest just that for SF let alone for LF
+            % What follows the verb can help distinguish between a presentative function (coded as demonstrative) vs a descriptive function (coded as 3rd person)
+              % For SF, this looks like:
+              % le livre, c'est un livre amusant > presentative (demonstrative)
+              % le livre, c'est un roman > presentative (demonstrative)
+              % le livre, il est amusant > descriptive (3sg)
+                % In LF, if this comes out as c'est amusant, it should be coded as 3sg
+              % le livre, c'est sur l'étagère > demonstrative
+              % le livre, il est sur l'étagère > descriptive (3sg)
+                % In SF, then, the prepositional complement doesn't indicate whether a presentative/demonstrative pronoun is required or a descriptive one.
+                % In LF, code as presented on the surface for lack of anything else that could clarify.
+                  % c'est > demonstrative
+                  % il est > descriptive (3sg)
+              % l'homme, il est dans la chambre > descriptive (3sg)
+          % Lean expletive when there is no clear referent
+            % This will often be phrases that translate to something like "it is adj." where the "it" has no referent
+          % C'est difficile de faire and il est difficile de faire will thus both be expletive
 
-      % ça, eux, eux-autres, and yé when referring to 3pl
-        % Code these as masculine when any one of the referents is masculine
-          % These are likely gender-less
-            % Papen & Rottet (1997:84) claimed as much for the first 3
-            % Neumann (1985:166) and Klingler (2003 "Turn":209) claimed as much for yé
-          % This groups them with ils, which Papen & Rottet (1997) also claim in genderless in LA (84), and ils in SF is nearly genderless
-        % Code these as feminine if they ever end up being clearly used for a group of exclusively female referents
+        % ça, eux, eux-autres, and yé when referring to 3pl
+          % Code these as masculine when any one of the referents is masculine
+            % These are likely gender-less
+              % Papen & Rottet (1997:84) claimed as much for the first 3
+              % Neumann (1985:166) and Klingler (2003 "Turn":209) claimed as much for yé
+            % This groups them with ils, which Papen & Rottet (1997) also claim in genderless in LA (84), and ils in SF is nearly genderless
+          % Code these as feminine if they ever end up being clearly used for a group of exclusively female referents
 
-      % Sometimes a 3pl pronoun can be making a generic reference (e.g., ça connaît pas s'il a venu where 'they' have not been specified at all in the context)
-        % In these cases, these will be annotated as 3pl (masculine) rather than imp (impersonal)
-          % Masculine because the referent is likely something like "people" or "such and such group of people" and that group is unlikely to be exclusively female.
-        % Impersonal you for instance is clearly not the person being spoken to, but generic they could involve an actual imagined referent
+        % Sometimes a 3pl pronoun can be making a generic reference (e.g., ça connaît pas s'il a venu where 'they' have not been specified at all in the context)
+          % In these cases, these will be annotated as 3pl (masculine) rather than imp (impersonal)
+            % Masculine because the referent is likely something like "people" or "such and such group of people" and that group is unlikely to be exclusively female.
+          % Impersonal you for instance is clearly not the person being spoken to, but generic they could involve an actual imagined referent
 
-      % tu as vouvoiement and vous as tutoiement
-        % Directed at myself
-          % Judge based on the pattern leading up to the token
-            % e.g., If tu is used several times and then suddenly a singular vous, code as a T form
-          % If no patterns are yet established, code a tu as T and vous as V
-            % Exception: If something about the translation task indicates that they shouldn't be accepted as is
-        % Directed at others
-          % Patterns are unlikely, but judge based on patterns if they exist
-          % When lacking a pattern, judge by translation task results and/or literature suggestions for appropriateness
-            % Translation task: Things like server to diners and children to grandparents will indicate T-V patterns
-            % Literature:
-              % Rottet (1995) found it to be related to age, with a familiar elderly woman requesting vous and others requesting tu  because vous made them feel old (198)
-                % This coincides with my experience, one participant in her 60s explicitly telling me that she wasn't old enough for vous
-              % Rottet (1995) also asked elderly participants about addressing their parents and some used tu while others used vous
-        % Of note is that some speakers are clearly very out of practice with vous as some, when addressing me, would say things like tu comprends or tu vois but would use vous in non subject positions like il est plus gros que vous (Rose Louvière 22:32)
+        % tu as vouvoiement and vous as tutoiement
+          % Directed at myself
+            % Judge based on the pattern leading up to the token
+              % e.g., If tu is used several times and then suddenly a singular vous, code as a T form
+            % If no patterns are yet established, code a tu as T and vous as V
+              % Exception: If something about the translation task indicates that they shouldn't be accepted as is
+          % Directed at others
+            % Patterns are unlikely, but judge based on patterns if they exist
+            % When lacking a pattern, judge by translation task results and/or literature suggestions for appropriateness
+              % Translation task: Things like server to diners and children to grandparents will indicate T-V patterns
+              % Literature:
+                % Rottet (1995) found it to be related to age, with a familiar elderly woman requesting vous and others requesting tu  because vous made them feel old (198)
+                  % This coincides with my experience, one participant in her 60s explicitly telling me that she wasn't old enough for vous
+                % Rottet (1995) also asked elderly participants about addressing their parents and some used tu while others used vous
+          % Of note is that some speakers are clearly very out of practice with vous as some, when addressing me, would say things like tu comprends or tu vois but would use vous in non subject positions like il est plus gros que vous (Rose Louvière 22:32)
 
-      % vous (sg.+formal) vs vous (pl.)
-        % Use context to distinguish between them
-          % e.g., If I've only been tutoyer'd by the participant and then a relation of mine is mentioned and then there's suddenly a vous, it's likely plural
-        % When used as impersonal, it doesn't matter which interpretation of vous it could be because it's coded as impersonal
+        % vous (sg.+formal) vs vous (pl.)
+          % Use context to distinguish between them
+            % e.g., If I've only been tutoyer'd by the participant and then a relation of mine is mentioned and then there's suddenly a vous, it's likely plural
+          % When used as impersonal, it doesn't matter which interpretation of vous it could be because it's coded as impersonal
 
-      % on
-        % This could be 1pl or imp
-        % Default to 1pl when any referent group that includes the speaker is a possible and valid interpretation
-          % This effectively leaves very generalized statements as the only ones interpreted as impersonal, though even these may be questionable sometimes
-            % Example: Comment on dit ça?
-          % While including cases of on that are indeed impersonal in the group of 1pl would not really skew the results for 1pl since all those who use on at all have very clear cases of using it as 1pl and very few if any cases of using anything else, including cases of on as impersonal if they are in fact 1pl would very much skew the impersonal results as that group includes many cases of tu (and maybe to?)
-        % This can be adjusted later if the translation tasks uncover a clearer patterning for on as impersonal
+        % on
+          % This could be 1pl or imp
+          % Default to 1pl when any referent group that includes the speaker is a possible and valid interpretation
+            % This effectively leaves very generalized statements as the only ones interpreted as impersonal, though even these may be questionable sometimes
+              % Example: Comment on dit ça?
+            % While including cases of on that are indeed impersonal in the group of 1pl would not really skew the results for 1pl since all those who use on at all have very clear cases of using it as 1pl and very few if any cases of using anything else, including cases of on as impersonal if they are in fact 1pl would very much skew the impersonal results as that group includes many cases of tu (and maybe to?)
+          % This can be adjusted later if the translation tasks uncover a clearer patterning for on as impersonal
 
-      % Some subordinate clause pronouns are excluded, especially for Creole-oriented speakers, because it is unclear whether the subordinate verb is finite or not.
-        % This is often the case when pour is used between clauses, a situation that is difficult to analyze (Rottet 1995:274-276)
-        % e.g., "quand li'tait dit nous-autres pour fait des affaires" (Floyd Kerry:14:34)
-          % [quand li'tait dit nous-autres [pour fait des affaires]]
-          % [quand li'tait dit [nous-autres pour fait des affaires]]
+        % Some subordinate clause pronouns are excluded, especially for Creole-oriented speakers, because it is unclear whether the subordinate verb is finite or not.
+          % This is often the case when pour is used between clauses, a situation that is difficult to analyze (Rottet 1995:274-276)
+          % e.g., "quand li'tait dit nous-autres pour fait des affaires" (Floyd Kerry:14:34)
+            % [quand li'tait dit nous-autres [pour fait des affaires]]
+            % [quand li'tait dit [nous-autres pour fait des affaires]]
     
     \subsection{Predicates following the pronoun}
-        % Verbs
-          % Two stems exist in Pointe Coupee Creole, but the systematicity of these is not clear for all speakers (Klingler 2003 "Turn":236-237)
-            % Two stems exist in Breaux Bridge, as well, but long were reported for "accompli" in the present and short for habitual present (Neumann 1985:63)
-          % Conditional verb forms can be used to express both the first and second part of a hypothetical as well as imperfective past in Terrebonne-Lafourche (Papen & Rottet 1997:99-100)
-          % Older speakers use être as the auxiliary in passé composé "with intransitive verbs of motion" and "with intransitive verbs when the resulting state ... is implied" (e.g., il est fini) but not normally with reflexive verbs in Terrebonne-Lafourche (Papen & Rottet 1997:101)
-
       % Positing one underlying form when there are multiple surface forms
         % This is relevant for the random effect of following word
         % In most cases, when the standard French form is clear from the surface form, it was assumed that these were the same verb. For example...
@@ -910,85 +911,91 @@
           % treated as two, ultimately
             % Maybe give counts to show how much of a potential impact this even has?
 
-    \subsection{Preverbal marker coding}
-      \label{sec:preverbal_markers}
-      All of the tense markers in Louisiana Creole can be sensibly analyzed as auxiliary verbs.
-      These include [te] for past and [va], [a], [ale], [sa], and [sra] for future, summarized along with mood and aspect markers in Table \ref{tab:creole_markers}.
-      The marker [te] was already discussed in section \ref{sec:french_vs_creole} ...
+      % Lagniappe
+        % Two stems exist in Pointe Coupee Creole, but the systematicity of these is not clear for all speakers (Klingler 2003 "Turn":236-237)
+          % Two stems exist in Breaux Bridge, as well, but long were reported for "accompli" in the present and short for habitual present (Neumann 1985:63)
+        % Conditional verb forms can be used to express both the first and second part of a hypothetical as well as imperfective past in Terrebonne-Lafourche (Papen & Rottet 1997:99-100)
+        % Older speakers use être as the auxiliary in passé composé "with intransitive verbs of motion" and "with intransitive verbs when the resulting state ... is implied" (e.g., il est fini) but not normally with reflexive verbs in Terrebonne-Lafourche (Papen & Rottet 1997:101)
 
-      The numerous future markers have all been reported as having more or less interchangeable functions in both Breaux Bridge and Pointe Coupée (\citeauthor{klingler_if_2003}, \citeyear[pp.~258-260]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~214-220]{neumann_creole_1985}).
-      \textcite{neumann_creole_1985} suggested that [a] was a shortened form of [va] rather than [sa], which is perhaps the most reasonable interpretation without a more detailed examination given that word-initial /v/ is regularly elided in Louisiana French when followed by /w/ but /s/ is not \parencite[p.~182]{blainey_first_2013}.
-      This results in [va] and [a] being an inflected form of the French verb \lexi{aller} \gloss{to go}, \lexi{va(s)}, and [ale] being the non-finite form.
-      \lexi{Aller} is used in French to indicate future tense just as these elements do in Creole.
-      The marker [sra] is likely a variant of [sa] that was only used in 19th century New Orleans as the only attestations come from a description of Creole as spoken in that time and place \parencite[p.~108]{fortier_french_1884}.\footnote{
-        There is one attestation from St Martinville in the 1950s in the phrase \sent{moi qui sera} \parencite[p.~11]{morgan_lexicon_1960}, but it is not entirely clear that this person's speech was uncontroversially Creole-oriented as such a phrase would be perfectly normal in Louisiana French, as well, and no other context was provided.
-      }
-      Both [sa] and [sra] are thus equivalent to the inflected future forms of the French verb \lexi{être} \gloss{to be}, \lexi{sera(s)}, which in most inflections would be pronounced [s(ə)ra].
-      The French form is furthermore commonly followed by adjectives or by some past participles, many of which are homophonous with their related infinitive verb forms, leading to essentially identical constructions in French and Creole, as in the hypothetical sentences \ref{sent:french_sra} and \ref{sent:creole_sa} below, albeit with slightly different semantics in some cases.
-      Given these analyses, there does not appear to be a motivation for treating these items as markers rather than auxiliary verbs just as \lexi{aller} and \lexi{être} would be treated as auxiliary verbs in similar constructions in French.
-      % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
+      \subsubsection{Preverbal marker coding}
+        \label{sec:preverbal_markers}
+        All of the tense markers in Louisiana Creole can be sensibly analyzed as auxiliary verbs.
+        These include [te] for past and [va], [a], [ale], [sa], and [sra] for future, summarized along with mood and aspect markers in Table \ref{tab:creole_markers}.
+        The marker [te] was already discussed in section \ref{sec:french_vs_creole} ...
 
-      \begin{enumerate}[label=\arabic*, series=sentences]
-        \item \sent{Il sera fâché.} (Louisiana French) \label{sent:french_sra}
-        \item[] {}[i sra faʃe]
-        \item[] \gloss{He will be angry.}
-        \item {}[li sa faʃe] (Louisiana Creole) \label{sent:creole_sa}
-        \item[] \gloss{He will be angry.}
-      \end{enumerate}
+        The numerous future markers have all been reported as having more or less interchangeable functions in both Breaux Bridge and Pointe Coupée (\citeauthor{klingler_if_2003}, \citeyear[pp.~258-260]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~214-220]{neumann_creole_1985}).
+        \textcite{neumann_creole_1985} suggested that [a] was a shortened form of [va] rather than [sa], which is perhaps the most reasonable interpretation without a more detailed examination given that word-initial /v/ is regularly elided in Louisiana French when followed by /w/ but /s/ is not \parencite[p.~182]{blainey_first_2013}.
+        This results in [va] and [a] being an inflected form of the French verb \lexi{aller} \gloss{to go}, \lexi{va(s)}, and [ale] being the non-finite form.
+        \lexi{Aller} is used in French to indicate future tense just as these elements do in Creole.
+        The marker [sra] is likely a variant of [sa] that was only used in 19th century New Orleans as the only attestations come from a description of Creole as spoken in that time and place \parencite[p.~108]{fortier_french_1884}.\footnote{
+          There is one attestation from St Martinville in the 1950s in the phrase \sent{moi qui sera} \parencite[p.~11]{morgan_lexicon_1960}, but it is not entirely clear that this person's speech was uncontroversially Creole-oriented as such a phrase would be perfectly normal in Louisiana French, as well, and no other context was provided.
+        }
+        Both [sa] and [sra] are thus equivalent to the inflected future forms of the French verb \lexi{être} \gloss{to be}, \lexi{sera(s)}, which in most inflections would be pronounced [s(ə)ra].
+        The French form is furthermore commonly followed by adjectives or by some past participles, many of which are homophonous with their related infinitive verb forms, leading to essentially identical constructions in French and Creole, as in the hypothetical sentences \ref{sent:french_sra} and \ref{sent:creole_sa} below, albeit with slightly different semantics in some cases.
+        Given these analyses, there does not appear to be a motivation for treating these items as markers rather than auxiliary verbs just as \lexi{aller} and \lexi{être} would be treated as auxiliary verbs in similar constructions in French.
+        % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
 
-      Elements used to express mood likewise can reasonably interpreted as verbs, and in fact have been interpreted as such.
-      One exception is [kapab], which is best interpreted as an adjective, although it and its variants [ka] and [kab] have been analyzed as auxiliary verbs in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[p.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~223]{neumann_creole_1985}).
-      \textcite{neumann_creole_1985} explicitly acknowledged that [kapab] comes from the French \lexi{être capable [kapab(l)] de} \gloss{to be capable of} where it is an adjective expressing ability but did not explain how she established it rather as an auxiliary verb in Creole.
-      \textcite[p.~273]{klingler_if_2003}, on the other hand, relied on \citeauthor{valdman_creole_1978}'s (\citeyear[p.~223]{valdman_creole_1978}) criteria that an auxiliary can be followed by another verb but either cannot be followed by an NP to form a VP or has a sense distinct from any related ``verbe autonome\footnote{autonomous verb},'' by which I assume he meant lexical verb, or both.
-      Putting aside that this is not a particularly clear definition -- is the first criteria necessary or optional when the latter criteria are met, and what counts as a related verb? -- these criteria do not match any of the many definitional criteria in the literature summarized by \textcite[pp.~22-24]{heine_auxiliaries_1993} and in fact the criteria of not being followed by an NP is contradicted by several syntacticians.
-      While [kapab] does, then, appear to be an auxiliary according to the proposed requirements, but those requirements are not themselves well supported, whereas an analysis of [kapab] as an adjective raises no such definitional vagaries and applies to all the examples given such as in sentences \ref{sent:kapab1_klingler} and \ref{sent:kapab2_klingler} taken from \textcite{klingler_if_2003}\footnote{
-        The orthographic convention used by Klingler, reproduced here, is more or less in line with the IPA.
-      }.
-      In both of these sentences, the lack of an overt copula preceding [ka] may give one pause in interpreting [ka] as an adjective, but copula absence is common cross-linguistically.
-      Otherwise, the Creole versions are practically identical to the French versions where \lexi{capable} is uncontroversially an adjective.
+        \begin{enumerate}[label=\arabic*, series=sentences]
+          \item \sent{Il sera fâché.} (Louisiana French) \label{sent:french_sra}
+          \item[] {}[i sra faʃe]
+          \item[] \gloss{He will be angry.}
+          \item {}[li sa faʃe] (Louisiana Creole) \label{sent:creole_sa}
+          \item[] \gloss{He will be angry.}
+        \end{enumerate}
 
-      \begin{enumerate}[resume=sentences]
-        \item Se juch mon ki \emph{ka} parle sa. (LC) (p.~273) \label{sent:kapab1_klingler}
-        \item[] C'est juste moi qui suis \emph{capable} de parler ça. (FR)
-        \item[] \gloss{It's just me who is capable of speaking that.}
-        \item Mounn \emph{ka} apronn. (LC) (p.~274) \label{sent:kapab2_klingler}
-        \item[] Le monde est \emph{capable} d'apprendre. (FR)
-        \item[] \gloss{People are capable of learning.}
-      \end{enumerate}
+        Elements used to express mood likewise can reasonably interpreted as verbs, and in fact have been interpreted as such.
+        One exception is [kapab], which is best interpreted as an adjective, although it and its variants [ka] and [kab] have been analyzed as auxiliary verbs in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[p.~247]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~223]{neumann_creole_1985}).
+        \textcite{neumann_creole_1985} explicitly acknowledged that [kapab] comes from the French \lexi{être capable [kapab(l)] de} \gloss{to be capable of} where it is an adjective expressing ability but did not explain how she established it rather as an auxiliary verb in Creole.
+        \textcite[p.~273]{klingler_if_2003}, on the other hand, relied on \citeauthor{valdman_creole_1978}'s (\citeyear[p.~223]{valdman_creole_1978}) criteria that an auxiliary can be followed by another verb but either cannot be followed by an NP to form a VP or has a sense distinct from any related ``verbe autonome\footnote{autonomous verb},'' by which I assume he meant lexical verb, or both.
+        Putting aside that this is not a particularly clear definition -- is the first criteria necessary or optional when the latter criteria are met, and what counts as a related verb? -- these criteria do not match any of the many definitional criteria in the literature summarized by \textcite[pp.~22-24]{heine_auxiliaries_1993} and in fact the criteria of not being followed by an NP is contradicted by several syntacticians.
+        While [kapab] does, then, appear to be an auxiliary according to the proposed requirements, but those requirements are not themselves well supported, whereas an analysis of [kapab] as an adjective raises no such definitional vagaries and applies to all the examples given such as in sentences \ref{sent:kapab1_klingler} and \ref{sent:kapab2_klingler} taken from \textcite{klingler_if_2003}\footnote{
+          The orthographic convention used by Klingler, reproduced here, is more or less in line with the IPA.
+        }.
+        In both of these sentences, the lack of an overt copula preceding [ka] may give one pause in interpreting [ka] as an adjective, but copula absence is common cross-linguistically.
+        Otherwise, the Creole versions are practically identical to the French versions where \lexi{capable} is uncontroversially an adjective.
 
-      The other items expressing mood include [pe], [ve], [ole], and [se] with its very rare variant [sre], all attested in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~220-226/231-233]{neumann_creole_1985}).
-      The first two are equivalent to French \lexi{peux/peut} [pø] and \lexi{veux/veut} [vø], respectively, representing inflections of the modal auxiliary verbs \lexi{pouvoir} \gloss{to be able} and \lexi{vouloir} \gloss{to want}.
-      These are both predictable from Louisiana Creole phonology where front rounded vowels in French have not retained their rounding in the Creole of many speakers \parencite[p.~143]{klingler_if_2003}.
-      The form [ole] is also believed to be derived from \lexi{vouloir}, whereas [se] and [sre] have a fairly transparent connection with French \lexi{serait/serais/seraient} [s(ə)re] or [s(ə)rɛ], all conditional inflections of the verb \lexi{être} \gloss{to be}.
-      Drawing most of these, and [kapab] for that matter, even closer to their French variants is the placement of the negation \lexi{pas} [pa].
-      In French, \lexi{pas} would come after finite forms of \lexi{pouvoir}, \lexi{vouloir} and \lexi{être} but before adjectives such as \lexi{capable}, and this is exactly what happens in Louisiana Creole.
-      The only exception is the verb [ole] which is preceded by \lexi{pas} even in present habitual constructions where they are necessarily followed by \lexi{pas} in both regions.
-      This idiosyncrasy is shared with the verbs [kone] \gloss{to know}, [gɛ̃] \gloss{to have}, and [kuri] \gloss{to go} (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~320]{neumann_creole_1985}).
-      Such exceptions for some of the most frequent words in the language are not surprising, however, as irregular constructions in all languages generally apply to the most frequent words.
-      It would therefore hardly be appropriate to override the many clear analogies between Louisiana Creole ``markers'' and their French origins based on these exceptions.
+        \begin{enumerate}[resume=sentences]
+          \item Se juch mon ki \emph{ka} parle sa. (LC) (p.~273) \label{sent:kapab1_klingler}
+          \item[] C'est juste moi qui suis \emph{capable} de parler ça. (FR)
+          \item[] \gloss{It's just me who is capable of speaking that.}
+          \item Mounn \emph{ka} apronn. (LC) (p.~274) \label{sent:kapab2_klingler}
+          \item[] Le monde est \emph{capable} d'apprendre. (FR)
+          \item[] \gloss{People are capable of learning.}
+        \end{enumerate}
 
-      It is notable that the above modal elements were all classified as simply auxiliaries in past analyses rather than dividing them up more specifically in terms of types of auxiliaries as will be done here, specifically grouping together the copula and the auxiliaries that gloss as \gloss{to have} (\foreign{i.e.}, \lexi{avoir} and \lexi{gain}) and distinguishing those from lexical verbs and modal auxiliaries expressing ability and desirability.
-      It had long ago been observed that \lexi{ça} was the third person plural subject pronoun of choice for all verbs other than \lexi{être}, \lexi{avoir}, \lexi{aller}, and \lexi{faire} in Evangeline Parish \parencite[p.~43]{phillips_etude_1936}, and a more quantitative study later showed verb type to be meaningful for predicting the use of \lexi{ça} as a third person plural subject pronoun among French-oriented speakers in a study where modal auxiliary verbs were chosen as one category whereas the auxiliary \lexi{être}, which itself is exceptional in that it is a copula, was lumped in with intransitive verbs in general, meaning many cases of \lexi{c'est} were coded as \lexi{ça} with an intransitive verb rather than with the copula \parencite[pp.~173-174]{brown_pronominal_1988}.
-      My own pilot study of the same pronoun showed that \lexi{ils} was favored with the the auxiliary verbs \lexi{être} and \lexi{avoir} but \lexi{ça} with lexical and more inherently modal auxiliary verbs such as \lexi{pouvoir} and \lexi{vouloir}.
-      Prudence in classifying verb types should therefore be taken.
-      The case of [se] is, for instance, raises some questions.
-      This element can act as a tense-aspect auxiliary or a purely modal auxiliary and is derived from the French copula.
-      For the first function, it indicates imperfective past in lieu of [te] in the Creole of some speakers \parencite[p.~261]{klingler_if_2003} just as Standard French conditional inflections can in lieu of past imperfective inflections in the French of Louisiana (\citeauthor{lane_notes_1934}, \citeyear[p.~329]{lane_notes_1934}; \citeauthor{papen_structural_1997}, \citeyear[p.~100]{papen_structural_1997}).
-      This is thought to be related to the influence of English \lexi{would}, which can be indicate either imperfective past (tense-aspect auxiliary) or conditional mood (modal auxiliary).
-      That this occurs in both French-related varieties spoken in Louisiana means that no distance is created between Creole and French but rather that this fact draws them closer together in structure.
-      As for coding, as [se] is being analyzed as a conditional inflection of the French copula, it is classified as a copula here.
+        The other items expressing mood include [pe], [ve], [ole], and [se] with its very rare variant [sre], all attested in both Pointe Coupée and Breaux Bridge (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~220-226/231-233]{neumann_creole_1985}).
+        The first two are equivalent to French \lexi{peux/peut} [pø] and \lexi{veux/veut} [vø], respectively, representing inflections of the modal auxiliary verbs \lexi{pouvoir} \gloss{to be able} and \lexi{vouloir} \gloss{to want}.
+        These are both predictable from Louisiana Creole phonology where front rounded vowels in French have not retained their rounding in the Creole of many speakers \parencite[p.~143]{klingler_if_2003}.
+        The form [ole] is also believed to be derived from \lexi{vouloir}, whereas [se] and [sre] have a fairly transparent connection with French \lexi{serait/serais/seraient} [s(ə)re] or [s(ə)rɛ], all conditional inflections of the verb \lexi{être} \gloss{to be}.
+        Drawing most of these, and [kapab] for that matter, even closer to their French variants is the placement of the negation \lexi{pas} [pa].
+        In French, \lexi{pas} would come after finite forms of \lexi{pouvoir}, \lexi{vouloir} and \lexi{être} but before adjectives such as \lexi{capable}, and this is exactly what happens in Louisiana Creole.
+        The only exception is the verb [ole] which is preceded by \lexi{pas} even in present habitual constructions where they are necessarily followed by \lexi{pas} in both regions.
+        This idiosyncrasy is shared with the verbs [kone] \gloss{to know}, [gɛ̃] \gloss{to have}, and [kuri] \gloss{to go} (\citeauthor{klingler_if_2003}, \citeyear[pp.~261/275-276]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~320]{neumann_creole_1985}).
+        Such exceptions for some of the most frequent words in the language are not surprising, however, as irregular constructions in all languages generally apply to the most frequent words.
+        It would therefore hardly be appropriate to override the many clear analogies between Louisiana Creole ``markers'' and their French origins based on these exceptions.
 
-      As for aspect, two markers have been discussed in the literature: [bɪn] and [ape] with its variant [ap].
-      Both of these are attested in both Pointe Coupée and Breaux Bridge with the addition of another variant of [ape], [e], attested only in the former (\citeauthor{klingler_if_2003}, \citeyear[pp.~255/262-263]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~75/209/211]{neumann_creole_1985}).
-      \textcite{klingler_if_2003} categorized both as markers only, whereas \textcite{neumann_creole_1985} did likewise for [ape] but only gave a brief mention of [bɪn] without any categorization at all, perhaps not deeming it very important given its English origin as she likewise did not include it in her glossary.
-      Indeed, the origin of [bɪn] is transparently English \lexi{been}.
-      It is used in Creole to express perfect aspect in a way that is very similar to the use of \lexi{been} in African-American English, where it has been described as an auxiliary verb \parencite{dayton_grammatical_1996}.
-      A similar categorization is thus appropriate for Creole, as well.
+        It is notable that the above modal elements were all classified as simply auxiliaries in past analyses rather than dividing them up more specifically in terms of types of auxiliaries as will be done here, specifically grouping together the copula and the auxiliaries that gloss as \gloss{to have} (\foreign{i.e.}, \lexi{avoir} and \lexi{gain}) and distinguishing those from lexical verbs and modal auxiliaries expressing ability and desirability.
+        It had long ago been observed that \lexi{ça} was the third person plural subject pronoun of choice for all verbs other than \lexi{être}, \lexi{avoir}, \lexi{aller}, and \lexi{faire} in Evangeline Parish \parencite[p.~43]{phillips_etude_1936}, and a more quantitative study later showed verb type to be meaningful for predicting the use of \lexi{ça} as a third person plural subject pronoun among French-oriented speakers in a study where modal auxiliary verbs were chosen as one category whereas the auxiliary \lexi{être}, which itself is exceptional in that it is a copula, was lumped in with intransitive verbs in general, meaning many cases of \lexi{c'est} were coded as \lexi{ça} with an intransitive verb rather than with the copula \parencite[pp.~173-174]{brown_pronominal_1988}.
+        My own pilot study of the same pronoun showed that \lexi{ils} was favored with the the auxiliary verbs \lexi{être} and \lexi{avoir} but \lexi{ça} with lexical and more inherently modal auxiliary verbs such as \lexi{pouvoir} and \lexi{vouloir}.
+        Prudence in classifying verb types should therefore be taken.
+        The case of [se] is, for instance, raises some questions.
+        This element can act as a tense-aspect auxiliary or a purely modal auxiliary and is derived from the French copula.
+        For the first function, it indicates imperfective past in lieu of [te] in the Creole of some speakers \parencite[p.~261]{klingler_if_2003} just as Standard French conditional inflections can in lieu of past imperfective inflections in the French of Louisiana (\citeauthor{lane_notes_1934}, \citeyear[p.~329]{lane_notes_1934}; \citeauthor{papen_structural_1997}, \citeyear[p.~100]{papen_structural_1997}).
+        This is thought to be related to the influence of English \lexi{would}, which can be indicate either imperfective past (tense-aspect auxiliary) or conditional mood (modal auxiliary).
+        That this occurs in both French-related varieties spoken in Louisiana means that no distance is created between Creole and French but rather that this fact draws them closer together in structure.
+        As for coding, as [se] is being analyzed as a conditional inflection of the French copula, it is classified as a copula here.
 
-      The progressive marker [ape] may appear a unique creole feature in light of the absence of any such cognate in modern standard Hexagonal French, but it in fact has a clear origin in French.
-      It is derived from the French preposition \lexi{après} [aprɛ], still used in the normal prepositional sense of \gloss{after} in modern varieties of French and in Louisiana Creole, but previously used with its progressive function starting at least in 16th century French with the form \sent{être après V} \gloss{to be V-ing} \parencite[p.~56]{gougenheim_etude_1929} and continuing to be used in French varieties in North America up to recent times (\citeauthor{posner_morphologie_1998}, \citeyear[p.~109]{posner_morphologie_1998}; \citeauthor{pusch_lexpression_2005}, \citeyear{pusch_lexpression_2005}) including in French-oriented speech in Louisiana (\citeauthor{lane_notes_1934}, \citeyear[pp.~328-329]{lane_notes_1934}; \citeauthor{papen_structural_1997}, \citeyear[p.~102]{papen_structural_1997}) where \lexi{être} is typically dropped in the present progressive and \lexi{après} is likewise phonological reduced, resulting in a form all but identical to that used in Creole.
-      Despite its analysis as a marker in Creole, however, it has consistently been described as a preposition in French varieties that use it to indicate progressive aspect \parencite{dostie_etre_2021, pusch_lexpression_2005}.
-      These congruencies in these constructions between French and Creole both suggest structural similarity and that it would be more sensible to treat [ape] as a preposition in Creole rather than placing in the ambiguous marker category.
+        As for aspect, two markers have been discussed in the literature: [bɪn] and [ape] with its variant [ap].
+        Both of these are attested in both Pointe Coupée and Breaux Bridge with the addition of another variant of [ape], [e], attested only in the former (\citeauthor{klingler_if_2003}, \citeyear[pp.~255/262-263]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[pp.~75/209/211]{neumann_creole_1985}).
+        \textcite{klingler_if_2003} categorized both as markers only, whereas \textcite{neumann_creole_1985} did likewise for [ape] but only gave a brief mention of [bɪn] without any categorization at all, perhaps not deeming it very important given its English origin as she likewise did not include it in her glossary.
+        Indeed, the origin of [bɪn] is transparently English \lexi{been}.
+        It is used in Creole to express perfect aspect in a way that is very similar to the use of \lexi{been} in African-American English, where it has been described as an auxiliary verb \parencite{dayton_grammatical_1996}.
+        A similar categorization is thus appropriate for Creole, as well.
+
+        The progressive marker [ape] may appear a unique creole feature in light of the absence of any such cognate in modern standard Hexagonal French, but it in fact has a clear origin in French.
+        It is derived from the French preposition \lexi{après} [aprɛ], still used in the normal prepositional sense of \gloss{after} in modern varieties of French and in Louisiana Creole, but previously used with its progressive function starting at least in 16th century French with the form \sent{être après V} \gloss{to be V-ing} \parencite[p.~56]{gougenheim_etude_1929} and continuing to be used in French varieties in North America up to recent times (\citeauthor{posner_morphologie_1998}, \citeyear[p.~109]{posner_morphologie_1998}; \citeauthor{pusch_lexpression_2005}, \citeyear{pusch_lexpression_2005}) including in French-oriented speech in Louisiana (\citeauthor{lane_notes_1934}, \citeyear[pp.~328-329]{lane_notes_1934}; \citeauthor{papen_structural_1997}, \citeyear[p.~102]{papen_structural_1997}) where \lexi{être} is typically dropped in the present progressive and \lexi{après} is likewise phonological reduced, resulting in a form all but identical to that used in Creole.
+        Despite its analysis as a marker in Creole, however, it has consistently been described as a preposition in French varieties that use it to indicate progressive aspect \parencite{dostie_etre_2021, pusch_lexpression_2005}.
+        These congruencies in these constructions between French and Creole both suggest structural similarity and that it would be more sensible to treat [ape] as a preposition in Creole rather than placing in the ambiguous marker category.
     
     \subsection{Analyses carried out}
   \section{Results}
