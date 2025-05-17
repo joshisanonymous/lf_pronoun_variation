@@ -617,7 +617,35 @@
           \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}
         \end{enumerate}
   
-        The form pairs [nu] - [no] and [vu] - [vo] present similar problems of interpretation but with a different results.
+        The form pair [nu] - [no] presents similar problems of interpretation but with a different results.
+        The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
+        In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
+        The same was found in Lafayette \parencite[pp.~142-143]{conwell_louisiana_1963}, which is a region where creolophones are to be found.
+        In Creole-oriented speech, on the other hand, such an linguistic environment leads to a reduction of [nu] to [n] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
+        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{nous} versus \lexi{nou}.
+        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
+        Two factors support the idea that they are treated as distinct.
+        The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann_creole_1985}, \citeyear[p.~166]{neumann_creole_1985}), whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} to a greater degree.
+        This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels but never with a [z] liaison, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
+        This is admittedly a weak argument for treating these as different pronouns, however.
+        The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs.
+        For instance, while Owen Webre produces many tokens of [no], the few tokens of [nu] that he produced were followed by standard French verb inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_own}.
+        These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items existed in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
+        With these factors in mind, [nu] was grouped with [no], by far the most frequent variant, when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}.
+        % Other non-liaison examples: Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
+
+        \begin{enumerate}[resume=sentences]
+          \item {}[nu] apprend un tas. \label{sent:nu_tracy} (17:33, Tracy Roth)
+          \item[] \gloss{We learn a lot.}
+          \item {}[no] apprenne comment pour laver. \label{sent:no_tracy} (31:20, Tracy Roth)
+          \item[] \gloss{We learned how to wash.}
+          \item {}[nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. \label{sent:nu1_owen} (3:32, Owen Webre)
+          \item[] \gloss{We say someone that had some animals or rather some livestock like that.}
+          \item {}[nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. \label{sent:nu2_owen} (14:47, Owen Webre)
+          \item[] \gloss{We're the people who should be of a certain level, something like that.}
+        \end{enumerate}
+
+        The pair [vu] - [vo] present similar problems of interpretation but with a different results.
         The first realization for each pair has been found in both French-oriented and Creole-oriented speech but with different behaviors.
         In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
         The same was found in Lafayette for both [nu] and [vu] \parencite[pp.~142-143]{conwell_louisiana_1963}.
@@ -629,28 +657,15 @@
         This was in fact the case for one speaker in my own corpus who produced both [nu] and [no].
         This is admittedly a weak argument for treating these as different pronouns.
         The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs
-        % no and nu in Breaux Bridge (Neumann 1985:166)
+
         % vous
           % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
-        % Going by verb is not useful either
-          % Byers (1988), in his pilot study, found that [vu] would take a verb with an /e/ ending more often for speakers over 45 whereas younger speakers used bare verbs (50) and would mostly be produced as vous est with être (52)
-            % In his main study, he found a split between age with those over 45 producing more /e/ endings and êtes (71-74)
-          % Likewise, both short and long forms could be used with vous in Creole speech, the latter being phonetically identical to an -ez form
-            % A long form could be disambiguated with the context indicating either past perfective (not -ez) or not (-ez)
-              % This is fairly reliable for what's been documented in Breaux Bridge, but not for those from further away where there's more "free variation" documented
-
-        % nou/nous/no
-          % These are arguably simple phonetic variations in vowel quality with the same underlying form, but the arguments against that are...
-            % Are there speakers who produce both [nu] + V and [nuz] + V?
-              % Tracy Roth is an example of [nu] + V without any cases of [nuz] (e.g., nou apprend 17:33), but I don't think anyone else produces both forms before vowels
-            % Are there speakers who produce both [no] and [nu]?
-              % Tracy Roth produces only [nu] (never [nuz]) except two tokens of [no] in no dit (29:46) and no apprenne (31:20), suggesting a phonetic variation between [no] and [nu] (but not necessarily with [nuz]). In other words, no and nou are one pronoun that I assign the underlying form of no to (but perhaps not no and nous)
-                % Supporting this further, Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
-              % Owen Webre produces [no] and 3 tokens of [nu]
-                % Each [nu] is followed by a verb with a standard French inflection -- nou disons (3:32) and nou sommes (14:45 and 14:47) -- suggesting that these have the underlying form nous
-                  % This is different from Tracy Roth who never produces [nu] with such verbal inflections
-            % In either case, if there are speakers who produce both forms, are there any structural or contextual clues that suggest that they are separate pronouns in these speakers' grammars?
-            % The 1pl -ons ending only exists for hortative "allons" in Terrebonne-Lafourche (Papen & Rottet 1997:96)
+          % Going by verb is not useful for disambiguating either
+            % Byers (1988), in his pilot study, found that [vu] would take a verb with an /e/ ending more often for speakers over 45 whereas younger speakers used bare verbs (50) and would mostly be produced as vous est with être (52)
+              % In his main study, he found a split between age with those over 45 producing more /e/ endings and êtes (71-74)
+            % Likewise, both short and long forms could be used with vous in Creole speech, the latter being phonetically identical to an -ez form
+              % A long form could be disambiguated with the context indicating either past perfective (not -ez) or not (-ez)
+                % This is fairly reliable for what's been documented in Breaux Bridge, but not for those from further away where there's more "free variation" documented
   
         % vous-autres
           % Generally written with <-res>, probably due to its disjunctive use in SF, but no final consonants are attested in Louisiana even in liaison positions (i.e., no [r_V] nor [z_V])
