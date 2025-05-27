@@ -37,43 +37,28 @@ networks <- read.csv("../data/networks.csv", fileEncoding = "UTF-8",
 tokens <- read.csv("../data/pronoun_tokens.csv", fileEncoding = "UTF-8",
                    stringsAsFactors = TRUE, na.strings = "")
 source("data_cleaning.R")
+source("subsets.R")
+source("plots-pre.R")
 
-# Some subsets ---------------------------------------------------------------
-tokens3plAnim <- tokens[grep("3pl", tokens$ProType),]
-tokens3plAnim$ProType <- recode_factor(
-  tokens3plAnim$ProType,
-  "3pl.AF" = "3pl.A",
-  "3pl.AM" = "3pl.A",
-  "3pl.AMF" = "3pl.A",
-  "3pl.IF" = "3pl.I",
-  "3pl.IM" = "3pl.I"
-)
+###############################
+# Final cleaning for analysis # ------------------------------------------------
+###############################
 
-tokens3plGender <- tokens[grep("3pl.(A|I)(M|F|MF)", tokens$ProType),]
-tokens3plGender$ProType <- recode_factor(
-  tokens3plGender$ProType,
-  "3pl.AF" = "3pl.F",
-  "3pl.AM" = "3pl.M",
-  "3pl.AMF" = "3pl.MF",
-  "3pl.IF" = "3pl.F",
-  "3pl.IM" = "3pl.M"
-)
-
-parishLong <- rbind(
-  data.frame(
-    "Group" = "Raised",
-    table(participants$`Raised (parish)`)
-  ),
-  data.frame(
-    "Group" = "Residence",
-    table(participants$`Residence (parish)`)
-  )
-)
-colnames(parishLong) <- c("Group", "Parish", "Count")
-
-# Remove tokens deemed not useful for analyses
+# Collapse pronoun types that aren't important
 tokens$ProType <- recode_factor(
   tokens$ProType,
+  "1pl.F" = "1pl",
+  "1pl.M" = "1pl",
+  "1pl.MF" = "1pl",
+  "2pl.F" = "2pl",
+  "2pl.M" = "2pl",
+  "2pl.MF" = "2pl",
+  "3sg.A" = "3sg",
+  "3sg.I" = "3sg",
+  "3sg.AF" = "3sg.F",
+  "3sg.IF" = "3sg.F",
+  "3sg.AM" = "3sg.M",
+  "3sg.IM" = "3sg.M",
   "3pl.A" = "3pl",
   "3pl.AF" = "3pl",
   "3pl.AM" = "3pl",
@@ -84,7 +69,7 @@ tokens$ProType <- recode_factor(
 )
 tokensAll <- tokens
 
-# Remove very low count 3pl variants
+# Remove very low count variants
 tokens <- droplevels(subset(tokens, ProUnder != "elles" & ProUnder != "eux" &
                                     ProUnder != "eux-autres"))
 tokens <- droplevels(tokens <- tokens[!(tokens$ProType == "3pl" & tokens$ProUnder == "ø"),])
@@ -131,7 +116,7 @@ pro3plByRaceTable <- table(
                               # "ProUnder"])
 
 ############
-# Analyses #
+# Analyses # -------------------------------------------------------------------
 ############
 
 # Factor independencies
@@ -162,9 +147,9 @@ indOccGend <- fisher.test(table(participants$Occupation, participants$Gender))
   # Use only one model if not used
   # thirdPl = multinomResponse("3pl")
 # )
-small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
-        data = tokens[tokens$ProType == "3pl",],
-        random = list(~ 1|Name, ~ 1|PredUnder))
+# small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
+#         data = tokens[tokens$ProType == "3pl",],
+#         random = list(~ 1|Name, ~ 1|PredUnder))
 
 # Check for multicollinearity between factors and remove those that are
 # highly collinear. In particular, verify whether ethnicity and race
@@ -193,4 +178,4 @@ small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
 #                                    participants[participants$Ethnicity == "Cajun",
 #                                                 "Network.Ethnic.Homophily"])
 source("maps.R")
-source("plots.R")
+source("plots-final.R")
