@@ -1,18 +1,3 @@
-# 3pl checks ------------------------------------------------------------------
-# Check for the importance of animacy for 3pl
-graph3plAnim <- ggplot(tokens3plAnim,
-  aes(x = ProUnder)) +
-  geom_bar() +
-  facet_wrap(. ~ ProType) +
-  theme_bw()
-
-# Check for the importance of gender for 3pl
-graph3plGender <- ggplot(tokens3plGender,
-       aes(x = ProUnder)) +
-  geom_bar() +
-  facet_wrap(. ~ ProType) +
-  theme_bw()
-
 # Ethnicity and race -----------------------------------------------------------
 raceBar <- ggplot(
   participants,
@@ -51,14 +36,7 @@ pro3plByRaceBar <- ggplot(
        value.name = "Count"),
   aes(x = thirdPl, y = Count, fill = thirdPl)) +
   geom_bar(stat = "identity") +
-  facet_wrap(. ~ Race, nrow = 3, labeller = as_labeller(c(
-    `Singular Black` = "==Noir.e sg==",
-    `Singular Creole` = "Créole sg",
-    `Protean Creole` = "Créole pr",
-    `Transcendent` = "Transcendant.e",
-    `Singular White` = "==Blanc.he sg==",
-    `Singular Cajun` = "Cadien.ne sg",
-    `Protean Cajun` = "Cadien.ne pr"))) +
+  facet_wrap(. ~ Race, nrow = 3) +
   theme(text=element_text(size=15), legend.text = element_markdown(),
         legend.position = "none") +
   scale_fill_manual(values = color_key[5:7]) +
@@ -68,7 +46,7 @@ pro3plByRaceBar <- ggplot(
 parishBar <- ggplot(
   parishLong,
   aes(x = Parish, y = Count, fill = Group)) +
-    geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
+  geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
   scale_fill_manual(values = c(color_key[3], color_key[1])) +
   labs(fill = NULL) +
   theme_bw() +
