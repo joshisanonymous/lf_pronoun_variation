@@ -29,14 +29,15 @@ ethByRaceBarFR <- ethByRaceBar +
   labs(x = "Ethnicité", y = "Compte") +
   scale_x_discrete(labels = c("Créole", "Cadien.ne"))
 
-# Social pronoun graphs --------------------------------------------------------
-plotsGender <- lapply(tablesGender, socialPlot)
-plotsEducation <- lapply(tablesEducation, socialPlot)
-plotsOccupation <- lapply(tablesOccupation, socialPlot)
-plotsRaised <- lapply(tablesRaised, socialPlot)
-plotsResidence <- lapply(tablesResidence, socialPlot)
-plotsEthnicity <- lapply(tablesEthnicity, socialPlot)
-plotsRace <- lapply(tablesRace, socialPlot)
+# Pronoun graphs --------------------------------------------------------
+plotsPredicate <- lapply(tablesPredicate, plotSocial)
+plotsGender <- lapply(tablesGender, plotSocial)
+plotsEducation <- lapply(tablesEducation, plotSocial)
+plotsOccupation <- lapply(tablesOccupation, plotSocial)
+plotsRaised <- lapply(tablesRaised, plotSocial)
+plotsResidence <- lapply(tablesResidence, plotSocial)
+plotsEthnicity <- lapply(tablesEthnicity, plotSocial)
+plotsRace <- lapply(tablesRace, plotSocial)
 
 # Location graph ---------------------------------------------------------------
 parishBar <- ggplot(
@@ -81,8 +82,8 @@ parishBar <- ggplot(
 #   theme_bw()
 
 # Combined plots --------------------------------------------------------------
-parishBarMap <- ggarrange(
-  ggarrange(mapraisedonly, mapresidenceonly, ncol = 2),
+parishBarMap <- ggpubr::ggarrange(
+  ggpubr::ggarrange(mapraisedonly, mapresidenceonly, ncol = 2),
   parishBar, nrow = 2
 )
 

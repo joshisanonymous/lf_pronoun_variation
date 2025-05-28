@@ -1019,19 +1019,19 @@
     
     \begin{figure}[tbhp]
       <<>>=
-      gender1pl2pl
+      plotCombined1pl2plGender
       @
     \end{figure}
 
     \begin{figure}[tbhp]
       <<>>=
-      animGender3sg
+      plotCombined3sgAnimateGender
       @
     \end{figure}
 
     \begin{figure}[tbhp]
       <<>>=
-      animGender3pl
+      plotCombined3plAnimateGender
       @
     \end{figure}
 

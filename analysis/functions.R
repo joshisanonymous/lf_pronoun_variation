@@ -2,8 +2,29 @@
 # Functions #
 #############
 
+# Subsets
+subsetTokens <- function(pronoun, feature) {
+  if(feature == "animacy") {
+    subset <- tokens[grep(paste0(pronoun, "\\.(A|I)(F|M|MF)?"), tokens$ProType),]
+    subset$ProType <- as.factor(gsub("A(F|M|MF)$", "A", subset$ProType))
+    subset$ProType <- as.factor(gsub("I(F|M|MF)$", "I", subset$ProType))
+  } else if(feature == "gender") {
+    subset <- tokens[grep(paste0(pronoun, "\\.(A|I)?(F|M|MF)"), tokens$ProType),]
+    subset$ProType <- as.factor(gsub("(A|I)F$", "F", subset$ProType))
+    subset$ProType <- as.factor(gsub("(A|I)M$", "M", subset$ProType))
+    subset$ProType <- as.factor(gsub("(A|I)MF$", "MF", subset$ProType))
+  } else if(feature == "animate gender") {
+    subset <- tokens[grep(paste0(pronoun, "\\.A(F|M|MF)"), tokens$ProType),]
+  } else if(feature == "inanimate gender") {
+    subset <- tokens[grep(paste0(pronoun, "\\.I(F|M|MF)"), tokens$ProType),]
+  } else {
+    print("Error. Choose the pronoun feature you want.")
+  }
+  return(subset)
+}
+
 # Social tables
-socialTable <- function(pronoun, socialVariable) {
+tableSocial <- function(pronoun, socialVariable) {
   table(
     droplevels(tokens[tokens$ProType == pronoun, socialVariable]),
     droplevels(tokens[tokens$ProType == pronoun, "ProUnder"])
@@ -34,8 +55,7 @@ getEIHomophily <- function(df, name) {
 # For main models (for each, add + Network.Ethnic.Homophily:Ethnicity later when network data read)
 binomResponse <- function(pronoun) {
   glmer(ProUnder ~ PredType + `Birth Year` + Gender + Ethnicity +
-          Occupation + Education +
-          (1|Name) + (1|PredUnder),
+          Occupation + Education + (1|Name) + (1|PredUnder),
         data = droplevels(tokens[tokens$ProType == pronoun,]),
         family = binomial)
 }
@@ -48,10 +68,8 @@ multinomResponse <- function(pronoun) {
 }
 
 # Plots
-
-socialPlot <- function(table) {
-  ggplot(
-    melt(table,
+plotSocial <- function(table) {
+  ggplot(melt(table,
          varnames = c("socialVar", "pronoun"),
          value.name = "Count"),
     aes(x = pronoun, y = Count, fill = pronoun)) +
@@ -60,5 +78,13 @@ socialPlot <- function(table) {
     theme(text=element_text(size=15), legend.text = element_markdown(),
           legend.position = "none") +
     scale_fill_manual(values = color_key) +
+    labs(x = "Pronoun", y = "Count")
+}
+
+plotPronoun <- function(df) {
+  ggplot(df, aes(x = ProUnder)) +
+    geom_bar() +
+    facet_wrap(. ~ ProType) +
+    theme_bw() +
     labs(x = "Pronoun", y = "Count")
 }

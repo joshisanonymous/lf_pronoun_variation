@@ -12,8 +12,8 @@
 library(ggplot2)
 library(ggtext)
 library(ggh4x)
+library(ggpubr)
 library(egg)
-# library(ggpubr)
 library(reshape2)
 library(mclogit)
 library(lme4)
@@ -107,118 +107,7 @@ rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
 # Merge participant metadata with tokens
 tokens <- merge(tokens, participants, by = "Name")
 
-# Create generic DFs and tables
-ethByRaceTable <- table(participants$Ethnicity, participants$Race)
-
-# Social pronoun tables
-tablesEthnicity <- list(
-  firstSg = socialTable("1sg", "Ethnicity"),
-  secondSgT = socialTable("2sg.T", "Ethnicity"),
-  secondSgV = socialTable("2sg.V", "Ethnicity"),
-  thirdSgF = socialTable("3sg.F", "Ethnicity"),
-  thirdSgM = socialTable("3sg.M", "Ethnicity"),
-  firstPl = socialTable("1pl", "Ethnicity"),
-  secondPl = socialTable("2pl", "Ethnicity"),
-  thirdPl = socialTable("3pl", "Ethnicity"),
-  # demonstrative = socialTable("demo", "Ethnicity"),
-  expletive = socialTable("expl", "Ethnicity"),
-  impersonal = socialTable("imp", "Ethnicity")
-)
-
-tablesRace <- list(
-  firstSg = socialTable("1sg", "Race"),
-  secondSgT = socialTable("2sg.T", "Race"),
-  secondSgV = socialTable("2sg.V", "Race"),
-  thirdSgF = socialTable("3sg.F", "Race"),
-  thirdSgM = socialTable("3sg.M", "Race"),
-  firstPl = socialTable("1pl", "Race"),
-  secondPl = socialTable("2pl", "Race"),
-  thirdPl = socialTable("3pl", "Race"),
-  # demonstrative = socialTable("demo", "Race"),
-  expletive = socialTable("expl", "Race"),
-  impersonal = socialTable("imp", "Race")
-)
-
-tablesGender <- list(
-  firstSg = socialTable("1sg", "Gender"),
-  secondSgT = socialTable("2sg.T", "Gender"),
-  secondSgV = socialTable("2sg.V", "Gender"),
-  thirdSgF = socialTable("3sg.F", "Gender"),
-  thirdSgM = socialTable("3sg.M", "Gender"),
-  firstPl = socialTable("1pl", "Gender"),
-  secondPl = socialTable("2pl", "Gender"),
-  thirdPl = socialTable("3pl", "Gender"),
-  # demonstrative = socialTable("demo", "Gender"),
-  expletive = socialTable("expl", "Gender"),
-  impersonal = socialTable("imp", "Gender")
-)
-
-tablesEducation <- list(
-  firstSg = socialTable("1sg", "Education"),
-  secondSgT = socialTable("2sg.T", "Education"),
-  secondSgV = socialTable("2sg.V", "Education"),
-  thirdSgF = socialTable("3sg.F", "Education"),
-  thirdSgM = socialTable("3sg.M", "Education"),
-  firstPl = socialTable("1pl", "Education"),
-  secondPl = socialTable("2pl", "Education"),
-  thirdPl = socialTable("3pl", "Education"),
-  # demonstrative = socialTable("demo", "Education"),
-  expletive = socialTable("expl", "Education"),
-  impersonal = socialTable("imp", "Education")
-)
-
-tablesOccupation <- list(
-  firstSg = socialTable("1sg", "Occupation"),
-  secondSgT = socialTable("2sg.T", "Occupation"),
-  secondSgV = socialTable("2sg.V", "Occupation"),
-  thirdSgF = socialTable("3sg.F", "Occupation"),
-  thirdSgM = socialTable("3sg.M", "Occupation"),
-  firstPl = socialTable("1pl", "Occupation"),
-  secondPl = socialTable("2pl", "Occupation"),
-  thirdPl = socialTable("3pl", "Occupation"),
-  # demonstrative = socialTable("demo", "Occupation"),
-  expletive = socialTable("expl", "Occupation"),
-  impersonal = socialTable("imp", "Occupation")
-)
-
-tablesRaised <- list(
-  firstSg = socialTable("1sg", "Raised (parish)"),
-  secondSgT = socialTable("2sg.T", "Raised (parish)"),
-  secondSgV = socialTable("2sg.V", "Raised (parish)"),
-  thirdSgF = socialTable("3sg.F", "Raised (parish)"),
-  thirdSgM = socialTable("3sg.M", "Raised (parish)"),
-  firstPl = socialTable("1pl", "Raised (parish)"),
-  secondPl = socialTable("2pl", "Raised (parish)"),
-  thirdPl = socialTable("3pl", "Raised (parish)"),
-  # demonstrative = socialTable("demo", "Raised (parish)"),
-  expletive = socialTable("expl", "Raised (parish)"),
-  impersonal = socialTable("imp", "Raised (parish)")
-)
-
-tablesResidence <- list(
-  firstSg = socialTable("1sg", "Residence (parish)"),
-  secondSgT = socialTable("2sg.T", "Residence (parish)"),
-  secondSgV = socialTable("2sg.V", "Residence (parish)"),
-  thirdSgF = socialTable("3sg.F", "Residence (parish)"),
-  thirdSgM = socialTable("3sg.M", "Residence (parish)"),
-  firstPl = socialTable("1pl", "Residence (parish)"),
-  secondPl = socialTable("2pl", "Residence (parish)"),
-  thirdPl = socialTable("3pl", "Residence (parish)"),
-  # demonstrative = socialTable("demo", "Residence (parish)"),
-  expletive = socialTable("expl", "Residence (parish)"),
-  impersonal = socialTable("imp", "Residence (parish)")
-)
-
-# coreByFrTable <- table(networks$Alter.French.Frequency, networks$Alter.Type)
-# verbCollatesMostFrequent <- table(tokens$PredUnder)
-# verbCollatesMostFrequent <- verbCollatesMostFrequent[
-#   order(verbCollatesMostFrequent, decreasing = TRUE)
-# ]
-# thirdSgITable <- table(tokens[tokens$ProType == "3sg.IF" |
-#                               tokens$ProType == "3sg.IM",
-#                               "ProUnder"])
-# thirdPlFTable <- table(tokens[tokens$ProType == "3pl.F",
-                              # "ProUnder"])
+source("tables.R")
 
 ############
 # Analyses # -------------------------------------------------------------------
