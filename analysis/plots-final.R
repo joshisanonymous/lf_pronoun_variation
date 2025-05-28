@@ -29,20 +29,16 @@ ethByRaceBarFR <- ethByRaceBar +
   labs(x = "Ethnicité", y = "Compte") +
   scale_x_discrete(labels = c("Créole", "Cadien.ne"))
 
-# Race graphs ------------------------------------------------------------------
-pro3plByRaceBar <- ggplot(
-  melt(pro3plByRaceTable,
-       varnames = c("Race", "thirdPl"),
-       value.name = "Count"),
-  aes(x = thirdPl, y = Count, fill = thirdPl)) +
-  geom_bar(stat = "identity") +
-  facet_wrap(. ~ Race, nrow = 3) +
-  theme(text=element_text(size=15), legend.text = element_markdown(),
-        legend.position = "none") +
-  scale_fill_manual(values = color_key[5:7]) +
-  labs(x = "Pronom", y = "Compte")
+# Social pronoun graphs --------------------------------------------------------
+plotsGender <- lapply(tablesGender, socialPlot)
+plotsEducation <- lapply(tablesEducation, socialPlot)
+plotsOccupation <- lapply(tablesOccupation, socialPlot)
+plotsRaised <- lapply(tablesRaised, socialPlot)
+plotsResidence <- lapply(tablesResidence, socialPlot)
+plotsEthnicity <- lapply(tablesEthnicity, socialPlot)
+plotsRace <- lapply(tablesRace, socialPlot)
 
-# Location graph --------------------------------------------------------------
+# Location graph ---------------------------------------------------------------
 parishBar <- ggplot(
   parishLong,
   aes(x = Parish, y = Count, fill = Group)) +
@@ -86,9 +82,34 @@ parishBar <- ggplot(
 
 # Combined plots --------------------------------------------------------------
 parishBarMap <- ggarrange(
-  ggarrange(
-    mapraisedonly, mapresidenceonly,
-    ncol = 2
-  ), parishBar,
-  nrow = 2
+  ggarrange(mapraisedonly, mapresidenceonly, ncol = 2),
+  parishBar, nrow = 2
+)
+
+plotsGenderCombined <- ggarrange(
+  plots = plotsGender, ncol = 2
+)
+
+plotsEducationCombined <- ggarrange(
+  plots = plotsEducation, ncol = 2
+)
+
+plotsOccupationCombined <- ggarrange(
+  plots = plotsOccupation, ncol = 2
+)
+
+plotsEthnicityCombined <- ggarrange(
+  plots = plotsEthnicity, ncol = 2
+)
+
+plotsRaceCombined <- ggarrange(
+  plots = plotsRace, ncol = 1
+)
+
+plotsRaisedCombined <- ggarrange(
+  plots = plotsRaised, ncol = 1
+)
+
+plotsResidenceCombined <- ggarrange(
+  plots = plotsResidence, ncol = 1
 )

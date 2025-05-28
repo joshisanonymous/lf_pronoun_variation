@@ -102,7 +102,7 @@ participants$`Residence (parish)` <- factor(participants$`Residence (parish)`,
 participants$Occupation <- factor(participants$Occupation,
                            levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
-                          levels = c("No College", "Some College", "College Graduate"))
+                          levels = c("No College", "College Graduate"))
 participants$Ethnicity <- factor(participants$Ethnicity,
                           levels = c("Creole", "Cajun"))
 

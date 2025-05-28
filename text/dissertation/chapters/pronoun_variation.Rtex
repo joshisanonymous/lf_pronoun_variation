@@ -646,15 +646,13 @@
         \end{enumerate}
 
         The pair [vu] - [vo] present similar problems of interpretation but with a different results.
-        The first realization for each pair has been found in both French-oriented and Creole-oriented speech but with different behaviors.
-        In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
-        The same was found in Lafayette for both [nu] and [vu] \parencite[pp.~142-143]{conwell_louisiana_1963}.
-        In Creole-oriented speech, however, such an environment leads to a reduction of [nu] to [n] and [vu] to [v] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for [nu] for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
-        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{nous} and \lexi{vous} versus \lexi{nou} and \lexi{vou}.
+        The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
+        In Lafayette, [vu] leads to a [z] liaison before a vowel \parencite[pp.~142-143]{conwell_louisiana_1963}.
+        In Creole-oriented speech, however, such an environment leads instead to a reduction of [vu] to [v] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[p.~209]{klingler_if_2003}).
+        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{vous} versus \lexi{vou}.
         What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
         Two factors support the idea that they are treated as distinct.
-        The first is that Creole-oriented speakers may alternate between [nu] and [no] as well as [vu] and [vo] \parencite[p.~24c]{morgan_structural_1959}, whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} and \lexi{vous} - \lexi{vou} to a greater degree.
-        This was in fact the case for one speaker in my own corpus who produced both [nu] and [no].
+        The first is that Creole-oriented speakers may alternate between [vu] and [vo] \parencite[p.~24c]{morgan_structural_1959}, whereas French-oriented speakers do not, phonetically distinguishing \lexi{vous} - \lexi{vou} to a greater degree.
         This is admittedly a weak argument for treating these as different pronouns.
         The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs
 
@@ -1018,6 +1016,235 @@
     % Do pronouns covary?
       % This sort of co-variation was perhaps first analyzed in Brazilian Portuguese by Guy (2013) to determine the validity of the existence of sociolects in Rio de Janeiro
         % The naming of said sociolects is of course a sociopolitical discussion, but it is useful to examine not just where individual linguistic variables vary according to social variables but also where groups of variables do so
+    
+    \begin{figure}[tbhp]
+      <<>>=
+      gender1pl2pl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<>>=
+      animGender3sg
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<>>=
+      animGender3pl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.asp = 0.75>>=
+      ethByRaceBar
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 9, fig.width = 7>>=
+      plotsGenderCombined
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 9, fig.width = 7>>=
+      plotsEducationCombined
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 9, fig.width = 7>>=
+      plotsOccupationCombined
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 9, fig.width = 7>>=
+      plotsEthnicityCombined
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$firstSg
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$secondSgT
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$secondSgV
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$thirdSgF
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$thirdSgM
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$firstPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$secondPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$thirdPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$expletive
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsRace$impersonal
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$firstSg
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$secondSgT
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$secondSgV
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$thirdSgF
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$thirdSgM
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$firstPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$secondPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$thirdPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$expletive
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$impersonal
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$firstSg
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$secondSgT
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$secondSgV
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$thirdSgF
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$thirdSgM
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$firstPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$secondPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$thirdPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$expletive
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      <<fig.height = 4>>=
+      plotsResidence$impersonal
+      @
+    \end{figure}
+
   \section{Discussion}
     \label{sec:pronoun_discussion}
     % The principle of multiple causes is the idea that more than one factor influences language variation patterns (Bayley 2002, as cited in Hazen 2014:12)

@@ -12,7 +12,8 @@
 library(ggplot2)
 library(ggtext)
 library(ggh4x)
-library(ggpubr)
+library(egg)
+# library(ggpubr)
 library(reshape2)
 library(mclogit)
 library(lme4)
@@ -70,40 +71,144 @@ tokens$ProType <- recode_factor(
 tokensAll <- tokens
 
 # Remove very low count variants
-tokens <- droplevels(subset(tokens, ProUnder != "elles" & ProUnder != "eux" &
-                                    ProUnder != "eux-autres"))
-tokens <- droplevels(tokens <- tokens[!(tokens$ProType == "3pl" & tokens$ProUnder == "ø"),])
+tokens <- subset(tokens, !(ProType == "1sg" & ProUnder == "ça"))
+tokens <- subset(tokens, !(ProType == "1pl" & (ProUnder == "vous-autres" | ProUnder == "nous-autres" | ProUnder == "ça")))
+tokens <- subset(tokens, !(ProType == "2sg.T" & ProUnder == "ça"))
+tokens <- subset(tokens, ProType != "3sg")
+tokens <- subset(tokens, !(ProType == "3sg.F" & (ProUnder == "il" | ProUnder == "ça")))
+tokens <- subset(tokens, !(ProType == "3sg.M" & (ProUnder == "elle" | ProUnder == "ça" | ProUnder == "ø")))
+tokens <- subset(tokens, !(ProType == "3pl" & (ProUnder == "elles" | ProUnder == "eux" | ProUnder == "eux-autres" | ProUnder == "ø")))
+tokens <- subset(tokens, !(ProType == "demo" & ProUnder == "ø"))
+tokens <- subset(tokens, !(ProType == "expl" & ProUnder == "li"))
+tokens <- subset(tokens, !(ProType == "imp" & ProUnder == "ø"))
+tokens <- droplevels(tokens)
 rownames(tokens) <- NULL
 
 # Calculate EI homophily indices for each participant
-# for(name in participants$Name) {
-#   # For whole personal networks
-#   homophIndex <- getEIHomophily(networks, name)
-#   participants[participants$Name == name, "Network.Ethnic.Homophily"] <- homophIndex
-#   tokens[tokens$Name == name, "Network.Ethnic.Homophily"] <- homophIndex
-#   # For just anglophone alters
-#   justAnglo <- networks[networks$Alter.French.Frequency == "Never", ]
-#   homophIndex <- getEIHomophily(justAnglo, name)
-#   participants[participants$Name == name, "Anglo.Network.Ethnic.Homophily"] <- homophIndex
-#   tokens[tokens$Name == name, "Anglo.Network.Ethnic.Homophily"] <- homophIndex
-#   # For just francophone alters
-#   justFranco <- networks[networks$Alter.French.Frequency != "Never", ]
-#   homophIndex <- getEIHomophily(justFranco, name)
-#   participants[participants$Name == name, "Franco.Network.Ethnic.Homophily"] <- homophIndex
-#   tokens[tokens$Name == name, "Franco.Network.Ethnic.Homophily"] <- homophIndex
-# }
+for(name in participants$Name) {
+  # For whole personal networks
+  homophIndex <- getEIHomophily(networks, name)
+  participants[participants$Name == name, "Network.Ethnic.Homophily"] <- homophIndex
+  tokens[tokens$Name == name, "Network.Ethnic.Homophily"] <- homophIndex
+  # For just anglophone alters
+  justAnglo <- networks[networks$Alter.French.Frequency == "Never", ]
+  homophIndex <- getEIHomophily(justAnglo, name)
+  participants[participants$Name == name, "Anglo.Network.Ethnic.Homophily"] <- homophIndex
+  tokens[tokens$Name == name, "Anglo.Network.Ethnic.Homophily"] <- homophIndex
+  # For just francophone alters
+  justFranco <- networks[networks$Alter.French.Frequency != "Never", ]
+  homophIndex <- getEIHomophily(justFranco, name)
+  participants[participants$Name == name, "Franco.Network.Ethnic.Homophily"] <- homophIndex
+  tokens[tokens$Name == name, "Franco.Network.Ethnic.Homophily"] <- homophIndex
+}
 # Clean-up for loop
-# rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
+rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
 
 # Merge participant metadata with tokens
 tokens <- merge(tokens, participants, by = "Name")
 
 # Create generic DFs and tables
 ethByRaceTable <- table(participants$Ethnicity, participants$Race)
-pro3plByRaceTable <- table(
-  droplevels(tokens[tokens$ProType == "3pl", "Race"]),
-  droplevels(tokens[tokens$ProType == "3pl", "ProUnder"])
+
+# Social pronoun tables
+tablesEthnicity <- list(
+  firstSg = socialTable("1sg", "Ethnicity"),
+  secondSgT = socialTable("2sg.T", "Ethnicity"),
+  secondSgV = socialTable("2sg.V", "Ethnicity"),
+  thirdSgF = socialTable("3sg.F", "Ethnicity"),
+  thirdSgM = socialTable("3sg.M", "Ethnicity"),
+  firstPl = socialTable("1pl", "Ethnicity"),
+  secondPl = socialTable("2pl", "Ethnicity"),
+  thirdPl = socialTable("3pl", "Ethnicity"),
+  # demonstrative = socialTable("demo", "Ethnicity"),
+  expletive = socialTable("expl", "Ethnicity"),
+  impersonal = socialTable("imp", "Ethnicity")
 )
+
+tablesRace <- list(
+  firstSg = socialTable("1sg", "Race"),
+  secondSgT = socialTable("2sg.T", "Race"),
+  secondSgV = socialTable("2sg.V", "Race"),
+  thirdSgF = socialTable("3sg.F", "Race"),
+  thirdSgM = socialTable("3sg.M", "Race"),
+  firstPl = socialTable("1pl", "Race"),
+  secondPl = socialTable("2pl", "Race"),
+  thirdPl = socialTable("3pl", "Race"),
+  # demonstrative = socialTable("demo", "Race"),
+  expletive = socialTable("expl", "Race"),
+  impersonal = socialTable("imp", "Race")
+)
+
+tablesGender <- list(
+  firstSg = socialTable("1sg", "Gender"),
+  secondSgT = socialTable("2sg.T", "Gender"),
+  secondSgV = socialTable("2sg.V", "Gender"),
+  thirdSgF = socialTable("3sg.F", "Gender"),
+  thirdSgM = socialTable("3sg.M", "Gender"),
+  firstPl = socialTable("1pl", "Gender"),
+  secondPl = socialTable("2pl", "Gender"),
+  thirdPl = socialTable("3pl", "Gender"),
+  # demonstrative = socialTable("demo", "Gender"),
+  expletive = socialTable("expl", "Gender"),
+  impersonal = socialTable("imp", "Gender")
+)
+
+tablesEducation <- list(
+  firstSg = socialTable("1sg", "Education"),
+  secondSgT = socialTable("2sg.T", "Education"),
+  secondSgV = socialTable("2sg.V", "Education"),
+  thirdSgF = socialTable("3sg.F", "Education"),
+  thirdSgM = socialTable("3sg.M", "Education"),
+  firstPl = socialTable("1pl", "Education"),
+  secondPl = socialTable("2pl", "Education"),
+  thirdPl = socialTable("3pl", "Education"),
+  # demonstrative = socialTable("demo", "Education"),
+  expletive = socialTable("expl", "Education"),
+  impersonal = socialTable("imp", "Education")
+)
+
+tablesOccupation <- list(
+  firstSg = socialTable("1sg", "Occupation"),
+  secondSgT = socialTable("2sg.T", "Occupation"),
+  secondSgV = socialTable("2sg.V", "Occupation"),
+  thirdSgF = socialTable("3sg.F", "Occupation"),
+  thirdSgM = socialTable("3sg.M", "Occupation"),
+  firstPl = socialTable("1pl", "Occupation"),
+  secondPl = socialTable("2pl", "Occupation"),
+  thirdPl = socialTable("3pl", "Occupation"),
+  # demonstrative = socialTable("demo", "Occupation"),
+  expletive = socialTable("expl", "Occupation"),
+  impersonal = socialTable("imp", "Occupation")
+)
+
+tablesRaised <- list(
+  firstSg = socialTable("1sg", "Raised (parish)"),
+  secondSgT = socialTable("2sg.T", "Raised (parish)"),
+  secondSgV = socialTable("2sg.V", "Raised (parish)"),
+  thirdSgF = socialTable("3sg.F", "Raised (parish)"),
+  thirdSgM = socialTable("3sg.M", "Raised (parish)"),
+  firstPl = socialTable("1pl", "Raised (parish)"),
+  secondPl = socialTable("2pl", "Raised (parish)"),
+  thirdPl = socialTable("3pl", "Raised (parish)"),
+  # demonstrative = socialTable("demo", "Raised (parish)"),
+  expletive = socialTable("expl", "Raised (parish)"),
+  impersonal = socialTable("imp", "Raised (parish)")
+)
+
+tablesResidence <- list(
+  firstSg = socialTable("1sg", "Residence (parish)"),
+  secondSgT = socialTable("2sg.T", "Residence (parish)"),
+  secondSgV = socialTable("2sg.V", "Residence (parish)"),
+  thirdSgF = socialTable("3sg.F", "Residence (parish)"),
+  thirdSgM = socialTable("3sg.M", "Residence (parish)"),
+  firstPl = socialTable("1pl", "Residence (parish)"),
+  secondPl = socialTable("2pl", "Residence (parish)"),
+  thirdPl = socialTable("3pl", "Residence (parish)"),
+  # demonstrative = socialTable("demo", "Residence (parish)"),
+  expletive = socialTable("expl", "Residence (parish)"),
+  impersonal = socialTable("imp", "Residence (parish)")
+)
+
 # coreByFrTable <- table(networks$Alter.French.Frequency, networks$Alter.Type)
 # verbCollatesMostFrequent <- table(tokens$PredUnder)
 # verbCollatesMostFrequent <- verbCollatesMostFrequent[
@@ -121,7 +226,7 @@ pro3plByRaceTable <- table(
 
 # Factor independencies
 indOccEduc <- fisher.test(table(participants$Occupation, participants$Education))
-indOccGend <- fisher.test(table(participants$Occupation, participants$Gender))
+indOccGend <- fisher.test(table(participants$Occupation, participants$Ethnicity))
 
 # Pronoun Models #
   ##############
@@ -132,21 +237,19 @@ indOccGend <- fisher.test(table(participants$Occupation, participants$Gender))
 # verbs of opinion/belief.
 
 # logitModels <- list(
-  # firstSg = multinomResponse("1sg"),
-  # secondSgT = binomResponse("2sg.T"),
-  # secondSgV = multinomResponse("2sg.V"),
-  # thirdSgAF = binomResponse("3sg.AF"),
-  # thirdSgAM = binomResponse("3sg.AM"),
-  # Check thirdSgITable to see if il or elle are ever used for inanimate referents
-  # Use only one 3rd person inanimate model if il/elle not used
-  # thirdSgIF = multinomResponse("3sg.IF"),
-  # thirdSgIM = multinomResponse("3sg.IM"),
-  # firstPl = multinomResponse("1pl"),
-  # secondPl = multinomResponse("2pl"),
-  # Check thirdPlFTable to see if elles is ever used for 3rd person plural
-  # Use only one model if not used
-  # thirdPl = multinomResponse("3pl")
+#   firstSg = multinomResponse("1sg"),
+#   secondSgT = binomResponse("2sg.T"),
+#   secondSgV = multinomResponse("2sg.V"),
+#   thirdSgF = binomResponse("3sg.F"),
+#   thirdSgM = binomResponse("3sg.M"),
+#   firstPl = multinomResponse("1pl"),
+#   secondPl = multinomResponse("2pl"),
+#   thirdPl = multinomResponse("3pl"),
+#   demostrative = multinomResponse("demo"),
+#   expletive = multinomResponse("expl"),
+#   impersonal = multinomResponse("imp")
 # )
+
 # small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
 #         data = tokens[tokens$ProType == "3pl",],
 #         random = list(~ 1|Name, ~ 1|PredUnder))
