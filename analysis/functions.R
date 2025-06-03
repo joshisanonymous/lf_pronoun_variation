@@ -34,11 +34,11 @@ tableSocial <- function(pronoun, socialVariable) {
 # Network stuff
 getAlterEthCount <- function(df, name, participantEthnicity, sameEthnicity = TRUE) {
   if(sameEthnicity == TRUE) {
-    length(df[df$Participant == name &
+    length(df[df$Name == name &
                 df$Alter.Ethnicity == participantEthnicity,
               "Alter.Ethnicity"])
   } else {
-    length(df[df$Participant == name &
+    length(df[df$Name == name &
                 df$Alter.Ethnicity != participantEthnicity,
               "Alter.Ethnicity"])
   }
