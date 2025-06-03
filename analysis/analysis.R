@@ -125,23 +125,23 @@ indOccGend <- fisher.test(table(participants$Occupation, participants$Ethnicity)
 # Carmichael (2022), which suggest 1sg effects for être vs avoir and
 # verbs of opinion/belief.
 
-# logitModels <- list(
-#   firstSg = multinomResponse("1sg"),
-#   secondSgT = binomResponse("2sg.T"),
-#   secondSgV = multinomResponse("2sg.V"),
-#   thirdSgF = binomResponse("3sg.F"),
-#   thirdSgM = binomResponse("3sg.M"),
-#   firstPl = multinomResponse("1pl"),
-#   secondPl = multinomResponse("2pl"),
-#   thirdPl = multinomResponse("3pl"),
-#   demostrative = multinomResponse("demo"),
-#   expletive = multinomResponse("expl"),
-#   impersonal = multinomResponse("imp")
-# )
+logitModels <- list(
+  firstSg = multinomResponse("1sg"),
+  secondSgT = binomResponse("2sg.T"),
+  # secondSgV = multinomResponse("2sg.V"), count too low to be meaningful
+  thirdSgF = binomResponse("3sg.F"),
+  thirdSgM = binomResponse("3sg.M"),
+  firstPl = multinomResponse("1pl"),
+  # secondPl = multinomResponse("2pl"), count too low to be meaningful
+  thirdPl = multinomResponse("3pl"),
+  # demostrative = multinomResponse("demo"), categorically "ça"
+  expletive = multinomResponse("expl"),
+  impersonal = multinomResponse("imp")
+)
 
-# small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
-#         data = tokens[tokens$ProType == "3pl",],
-#         random = list(~ 1|Name, ~ 1|PredUnder))
+small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
+        data = tokens[tokens$ProType == "3pl",],
+        random = list(~ 1|Name, ~ 1|PredUnder))
 
 # Check for multicollinearity between factors and remove those that are
 # highly collinear. In particular, verify whether ethnicity and race
