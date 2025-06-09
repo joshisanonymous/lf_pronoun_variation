@@ -88,3 +88,30 @@ plotPronoun <- function(df) {
     theme_bw() +
     labs(x = "Pronoun", y = "Count")
 }
+
+# Maps
+getPolyCenter <- function(placeName){
+  placeCoordinates <- osmdata::getbb(placeName) %>% # Obtain the bounding box corners fro open street map
+    t() %>% # Transpond the returned matrix so that you get x and y coordinates in different columns
+    data.frame() %>% # The next function takes a data frame as input
+    sf::st_as_sf(coords = c("x", "y")) %>%  # Convert to simple feature
+    sf::st_bbox() %>% # get the bounding box of the corners
+    sf::st_as_sfc() %>% # convert bounding box to polygon
+    sf::st_centroid() %>% # get the centroid of the polygon
+    sf::st_as_sf() %>% # store as simple feature
+    sf::`st_crs<-`(4326)  # set the coordinate system to WGS84 (GPS etc.)
+  
+  placeCoordinates %>%
+    dplyr::mutate(placeName = placeName) %>% # add input city name in a column
+    dplyr::rename(geometry = x) %>% # Rename the coordinate column
+    dplyr::relocate(placeName, geometry) %>% # reorder the columns
+    st_coordinates() %>%
+    return()
+}
+
+getPolyCentersFromPlaces <- function(placesVector) {
+  coordinates <- data.frame(placesVector,
+                            t(sapply(lapply(placesVector, getPolyCenter), c)))
+  colnames(coordinates) <- c("place", "longitude", "latitude")
+  return(coordinates)
+}

@@ -9,7 +9,7 @@
   \begin{figure}[tbhp]
     \caption{Acadiana according to HCR 496 \parencite{trepanier_french_1988}}
     \label{fig:mapacadiana}
-    <<fig.asp = 0.5>>=
+    <<>>=
     mapacadiana
     @
   \end{figure}

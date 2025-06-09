@@ -37,6 +37,15 @@ networks <- read.csv("../data/networks.csv", fileEncoding = "UTF-8",
                      stringsAsFactors = TRUE, sep = "\t", na.strings = "")
 tokens <- read.csv("../data/pronoun_tokens.csv", fileEncoding = "UTF-8",
                    stringsAsFactors = TRUE, na.strings = "")
+parishes <- c("Calcasieu Parish", "Cameron Parish", "Jefferson Davis Parish",
+              "Vermilion Parish", "Acadia Parish", "Evangeline Parish",
+              "Avoyelles Parish", "St. Landry Parish", "Lafayette Parish",
+              "Saint Martin Parish", "Iberia Parish", "St. Mary Parish",
+              "Assumption Parish", "Iberville Parish", "Pointe Coupee Parish",
+              "West Baton Rouge Parish", "Ascension Parish", "St. James Parish",
+              "St. John the Baptist Parish", "St. Charles Parish",
+              "Lafourche Parish", "Terrebonne Parish")
+majorCities <- c("New Orleans", "Lafayette", "Baton Rouge")
 source("data_cleaning.R")
 source("subsets.R")
 source("plots-pre.R")
