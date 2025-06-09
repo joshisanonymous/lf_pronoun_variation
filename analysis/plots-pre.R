@@ -25,17 +25,17 @@ plotsInanimateGender <- list(
 
 plotCombined1pl2plGender <- ggarrange(
   plotsGGender$firstPl, plotsGGender$secondPl,
-  nrow = 2
+  nrow = 2, draw = FALSE, newpage = FALSE
 )
 
 plotCombined3sgAnimateGender <- ggarrange(
   plotsAnimacy$thirdSg, plotsGGender$thirdSg,
   plotsAnimateGender$thirdSg, plotsInanimateGender$thirdSg,
-  nrow = 4
+  nrow = 4, draw = FALSE, newpage = FALSE
 )
 
 plotCombined3plAnimateGender <- ggarrange(
   plotsAnimacy$thirdPl, plotsGGender$thirdPl,
   plotsAnimateGender$thirdPl, plotsInanimateGender$thirdPl,
-  nrow = 4
+  nrow = 4, draw = FALSE, newpage = FALSE
 )

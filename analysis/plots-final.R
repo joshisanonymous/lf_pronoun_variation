@@ -88,29 +88,36 @@ parishBarMap <- ggpubr::ggarrange(
 )
 
 plotsGenderCombined <- ggarrange(
-  plots = plotsGender, ncol = 2
+  plots = plotsGender, ncol = 2,
+  draw = FALSE, newpage = FALSE
 )
 
 plotsEducationCombined <- ggarrange(
-  plots = plotsEducation, ncol = 2
+  plots = plotsEducation, ncol = 2,
+  draw = FALSE, newpage = FALSE
 )
 
 plotsOccupationCombined <- ggarrange(
-  plots = plotsOccupation, ncol = 2
+  plots = plotsOccupation, ncol = 2,
+  draw = FALSE, newpage = FALSE
 )
 
 plotsEthnicityCombined <- ggarrange(
-  plots = plotsEthnicity, ncol = 2
+  plots = plotsEthnicity, ncol = 2,
+  draw = FALSE, newpage = FALSE
 )
 
 plotsRaceCombined <- ggarrange(
-  plots = plotsRace, ncol = 1
+  plots = plotsRace, ncol = 1,
+  draw = FALSE, newpage = FALSE
 )
 
 plotsRaisedCombined <- ggarrange(
-  plots = plotsRaised, ncol = 1
+  plots = plotsRaised, ncol = 1,
+  draw = FALSE, newpage = FALSE
 )
 
 plotsResidenceCombined <- ggarrange(
-  plots = plotsResidence, ncol = 1
+  plots = plotsResidence, ncol = 1,
+  draw = FALSE, newpage = FALSE
 )

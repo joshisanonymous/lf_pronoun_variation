@@ -30,7 +30,7 @@
   \usepackage{pbox}
 
   % Document information
-  \title{Race and ethnicity in the language of Creoles and Cajuns}
+  \title{Racialization in the language of Creoles and Cajuns}
   \author{Joshua McNeill}
   \date{\today}
 
@@ -51,7 +51,7 @@
   \newcommand{\codeEn}[1]{\textsc{#1}}
 
 \begin{document}
-  <<setup, echo = FALSE, message = FALSE>>=
+  <<setup, echo = FALSE, message = FALSE, warning = FALSE, results = "hide">>=
   opts_chunk$set(echo = FALSE,
                 warning = FALSE,
                 message = FALSE,
