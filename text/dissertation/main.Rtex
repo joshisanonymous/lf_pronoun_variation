@@ -28,6 +28,7 @@
   \usepackage{graphicx}
     \graphicspath{{../figure/}}
   \usepackage{pbox}
+  \usepackage{xcolor}
 
   % Document information
   \title{Racialization in the language of Creoles and Cajuns}
@@ -49,6 +50,36 @@
   \newcommand{\court}[1]{\textit{#1}}
   \newcommand{\titlebook}[1]{\textit{#1}}
   \newcommand{\codeEn}[1]{\textsc{#1}}
+
+  % Color palette
+  \newcommand{\colorone}[1]{\textcolor[HTML]{332288}{\textbf{#1}}}
+  \newcommand{\colortwo}[1]{\textcolor[HTML]{88CCEE}{\textbf{#1}}}
+  \newcommand{\colorthree}[1]{\textcolor[HTML]{44AA99}{\textbf{#1}}}
+  \newcommand{\colorfour}[1]{\textcolor[HTML]{117733}{\textbf{#1}}}
+  \newcommand{\colorfive}[1]{\textcolor[HTML]{999933}{\textbf{#1}}}
+  \newcommand{\colorsix}[1]{\textcolor[HTML]{DDCC77}{\textbf{#1}}}
+  \newcommand{\colorseven}[1]{\textcolor[HTML]{CC6677}{\textbf{#1}}}
+  \newcommand{\coloreight}[1]{\textcolor[HTML]{882255}{\textbf{#1}}}
+  \newcommand{\colornine}[1]{\textcolor[HTML]{AA4499}{\textbf{#1}}}
+  \newcommand{\colorten}[1]{\textcolor[HTML]{DDDDDD}{\textbf{#1}}}
+
+  \newcommand{\backone}[1]{\colorbox[HTML]{332288}{\textbf{#1}}}
+  \newcommand{\backtwo}[1]{\colorbox[HTML]{88CCEE}{\textbf{#1}}}
+  \newcommand{\backthree}[1]{\colorbox[HTML]{44AA99}{\textbf{#1}}}
+  \newcommand{\backfour}[1]{\colorbox[HTML]{117733}{\textbf{#1}}}
+  \newcommand{\backfive}[1]{\colorbox[HTML]{999933}{\textbf{#1}}}
+  \newcommand{\backsix}[1]{\colorbox[HTML]{DDCC77}{\textbf{#1}}}
+  \newcommand{\backseven}[1]{\colorbox[HTML]{CC6677}{\textbf{#1}}}
+  \newcommand{\backeight}[1]{\colorbox[HTML]{882255}{\textbf{#1}}}
+
+  % \newcommand{\contrastone}[1]{\colorbox[HTML]{EF4444}{\textbf{#1}}}
+  % \newcommand{\contrasttwo}[1]{\colorbox[HTML]{FAA31B}{\textbf{#1}}}
+  % \newcommand{\contrastthree}[1]{\colorbox[HTML]{FFF000}{\textbf{#1}}}
+  % \newcommand{\contrastfour}[1]{\colorbox[HTML]{82C341}{\textbf{#1}}}
+  % \newcommand{\contrastfive}[1]{\colorbox[HTML]{009F75}{\textbf{#1}}}
+  % \newcommand{\contrastsix}[1]{\colorbox[HTML]{88C6ED}{\textbf{#1}}}
+  % \newcommand{\contrastseven}[1]{\colorbox[HTML]{394BA0}{\textbf{#1}}}
+  % \newcommand{\contrasteight}[1]{\colorbox[HTML]{B54799}{\textbf{#1}}}
 
 \begin{document}
   <<setup, echo = FALSE, message = FALSE, warning = FALSE, results = "hide">>=
