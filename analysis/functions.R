@@ -23,6 +23,11 @@ subsetTokens <- function(pronoun, feature) {
   return(subset)
 }
 
+# Phonetic variants table
+tablePhonetic <- function(pronoun) {
+  table(droplevels(tokens[tokens$ProUnder == pronoun, "Pronoun"]))  
+}
+
 # Social tables
 tableSocial <- function(pronoun, socialVariable) {
   table(

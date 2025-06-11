@@ -1,6 +1,31 @@
 # Create generic tables
 ethByRaceTable <- table(participants$Ethnicity, participants$Race)
 
+# Phonetic realizations by underlying pronoun
+tablesPhonetic <- list(
+  je = tablePhonetic("je"),
+  mo = tablePhonetic("mo"),
+  tu = tablePhonetic("tu"),
+  to = tablePhonetic("to"),
+  vous = tablePhonetic("vous"),
+  elle = tablePhonetic("elle"),
+  il = tablePhonetic("il"),
+  li = tablePhonetic("li"),
+  ca = tablePhonetic("ça"),
+  empty = tablePhonetic("ø"),
+  nous = tablePhonetic("nous"),
+  on = tablePhonetic("on"),
+  nousautres = tablePhonetic("nous-autres"),
+  no = tablePhonetic("no"),
+  vousautres = tablePhonetic("vous-autres"),
+  vou = tablePhonetic("vou"),
+  elles = tablePhonetic("elles"),
+  ils = tablePhonetic("ils"),
+  eux = tablePhonetic("eux"),
+  euxautres = tablePhonetic("eux-autres"),
+  ye = tablePhonetic("yé")
+)
+
 # Structural pronoun tables
 tablesPredicate <- list(
   firstSg = tableSocial("1sg", "PredType"),
