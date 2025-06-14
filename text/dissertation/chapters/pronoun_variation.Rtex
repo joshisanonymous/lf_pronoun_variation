@@ -607,9 +607,9 @@
           \caption{Phonetic variants with their corresponding pronoun morpheme}
           \label{tab:phonetic_variants}
           \centering
-          \begin{tabular}{p{5.5cm} p{2cm} | p{5.5cm} p{2cm}}
+          \begin{tabular}{l p{1.8cm} | l p{1.8cm}}
             \multicolumn{4}{c}{} \\
-            Phonetic Variants                                                              & Morpheme & Phonetic Variants                                             & Morpheme \\
+            Phonetic Variants                                                              & Pronoun & Phonetic Variants                                             & Pronoun \\
             \hline
             {}[ʒə], [ʒ], [ʃə], [\backone{ʃ}], [h], [z], [\backtwo{sə}], [\backthree{s}] & je       & [nuz], [\backfour{nu}]                                       & nous \\
             {}[mo], [m]                                                                    & mo       & [ɔ̃], [ɔ̃n]                                                     & on \\
@@ -629,23 +629,79 @@
           Colors indicate phonetic variants that are identical.
           }
         \end{table}
+
+        The example of \lexi{mo} exemplifies a frequent issue in which vowels are elided and thus create ambiguities in what the underlying pronoun actually is.
+        In some cases, this issue is minimal.
+        For instance, [ʃ] appeared in positions that could be interpreted as either \lexi{je} or \lexi{ça} but only \Sexpr{tablesPhonetic$ca["ch'"]} that suggested \lexi{ça} as they were all presentative constructions with the verb \lexi{être} that were identical to these speakers' use of \lexi{c'est} [sɛ] and \lexi{c'était} [stɛ] which were by contrast very frequent.
+        This also matches the literature where \lexi{ça} has never been attested as [ʃ] but \lexi{je} has been.
   
-        The morpheme \lexi{je}, for instance, which in Louisiana has only been attested as a first person singular subject pronoun, has received significant attention in the literature.
-        The two segments of this morpheme often metathesize (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}), to the extent that the metathesized form is sometimes the only form provided in grammars \parencite[pp.~31-32]{chaudoir_study_1938}.
-        The vowel, [ə], can be elided not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
-        The appearance of the vowel has been argued to be only for ``clarity or emphasis'' \parencite[p.~141]{conwell_louisiana_1963}.
-        This results in the consonant, which can be realized as [ʒ], [ʃ], [z], [s], or [h] \parencite[p.~72]{carmichael_language_2019}, being adjacent to the initial segment of the following word.
-        There is thus a clear phonological rule that applies to this particular morpheme where [ʒ] and [z] are devoiced before voiceless segments (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}), as in Rule \ref{phonorule:pro_devoicing}.
+        The morpheme \lexi{je} in Louisiana has in fact received significant attention in the literature with effectively all of the previously attested forms showing up in the data here.
+        The vowel, [ə], has been found to elide not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
+        The appearance of the vowel has even been argued to be only produced for ``clarity or emphasis'' \parencite[p.~141]{conwell_louisiana_1963}.
+        Also, as with other short function words, metathesis is typical (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{chaudoir_study_1938}, \citeyear[pp.~31-32]{chaudoir_study_1938}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}).
+        The vowel thus appears to be the least significant part of the morpheme, leaving variations in the consonants [ʒ], [ʃ], [z], [s], and [h] left to be explained.
+        % This results in the consonant, which can be realized as  \parencite[p.~72]{carmichael_language_2019}, being adjacent to the initial segment of the following word.
+        A devoicing phonological rule that applies to this particular morpheme where [ʒ] and [z] are devoiced before voiceless segments, as in Rule \ref{rule:pro_devoicing}, has been proposed a number of times (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
         Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme.
         This is not the case, however, for [z], which is only in variation with [ʒ] in the pronoun \lexi{je} \parencite[p.~121]{dajko_ethnic_2009}.
         While one could possibly argue that [z] and [ʒ] represent two distinct morphemes based on this, \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) data shows [z] in stylistic variation with [ʒ], suggesting individual speakers use both variants.
         It is certainly not out of the question that an individual could use two different subject pronouns for the same referent, but this seems less likely when the sole difference is a slight change in place of articulation.
         The evidence suggests then that all of these realizations are variants of one subject pronoun morpheme: \lexi{je}.
   
-        \begin{enumerate}[label=\roman*., series=phonorules]
-          \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}
+        \begin{enumerate}[label=\roman*., series=rules]
+          \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}} \label{rule:pro_devoicing}
         \end{enumerate}
-  
+
+        Ambiguity is also caused by vowel elision in \lexi{to} and \lexi {tu} which both lead to the realization [t].
+        Unlike the identical surface forms for \lexi{je} and \lexi{ça}, disentangling whether speakers are targeting \lexi{tu} or \lexi{to} cannot be done through frequency as the full forms are both frequent nor linguistic context as both take up the same linguistic function.
+        What does help, however, is that [t] without a vowel has not been noted to occur before a consonant in the literature.
+        As a result, there were always fully pronounced tokens of \lexi{tu} or \lexi{to} in the speech of my participants.
+        Thus, those who categorically produced either \lexi{tu} or [t] had the latter coded as \lexi{tu}, whereas those who categorically produced [to] or [t] had the latter coded as \lexi{to}.
+        For speakers who produced all three surface forms, their tokens of [t] were excluded from the data.
+        % Oukada (1977) reported the generalized loss of a pronoun's vowel before verbs that begin with vowels based on the occurrence of t'es (193)
+        % "to" can be reduced to [t] (Broussard 1972:8; Klingler 2003 "Turn":209-210; Phillips 1936:43)
+
+        The above uses \lexi{tu} instead of [ty] because there yet anther phonetic form, [ti], again raises questions about underlying forms.
+        In the first place, speaker production and metalinguistic commentary suggest that speakers interpret [ty] and [to] as different pronouns.
+        Oliver Lesage, for instance, produced [to] and [ty] but the former only when he brought up that he could also speak Creole and gave me an example.
+        For other speakers who produced both forms, other linguistic structures also shifted along with them.
+        Both Owen Webre and Tracy Roth produced both [to] and [ty], but his verbal inflections became more Creole-like or more French-like depending on which one was used, and their syntax relative to object pronouns did likewise.
+        Sentence \ref{sent:tu_owen}, then, inflects the modal verb \lexi{devoir} \gloss{to must} to express a suggestion, but sentence \ref{sent:to_owen} uses the Creole-marked structure \lexi{gain pour} to express obligation.
+        Likewise, sentence \ref{sent:tu_tracy} uses the preverbal object pronoun \lexi{me} rather than a postverbal object pronoun as in sentence \ref{sent:to_tracy}.
+        It should be noted that there are exceptions to this patterning, such as sentence \ref{sent:to_tracy_exception} where imperfective past is expressed with an inflected form of \lexi{pouvoir} \lexi{to be able to}, but these truly are exceptions in that, in this case, Tracy almost always relied on auxiliary verbs to express imperfective past as in sentence \ref{sent:to_tracy_past}.
+        Only one speaker who produced both [ty] and [to], Errol Stoufle, did not adjust the surrounding linguistic structures along with the pronoun.
+        For Errol, however, every token of [ty] was the tag question \lexi{tu connais} \gloss{you know}, which he produced frequently.
+
+        \begin{enumerate}[resume=sentences]
+          \item Tu devrais avoir une autre langue. (Owen Webre, 25:26) \label{sent:tu_owen}
+          \item[] \gloss{You should have another language.}
+          \item To gain pour guetter les Américains. (Owen Webre, 17:44) \label{sent:to_owen}
+          \item[] \gloss{You have to watch Americans.}
+          \item Tu me peux fais ça. (Tracy Roth, 17:40) \label{sent:tu_tracy}
+          \item[] \gloss{You can do that for me.}
+          \item To trappé li encore. (Tracy Roth, 15:24) \label{sent:to_tracy}
+          \item[] \gloss{You caught him again.}
+          \item To pouvais fais du sucre. (Tracy Roth, 8:40) \label{sent:to_tracy_exception}
+          \item[] \gloss{You could make some sugar.}
+          \item To'tais peux couru là. (Tracy Roth, 4:44) \label{sent:to_tracy_past}
+          \item[] \gloss{You could go there.}
+        \end{enumerate}
+
+        It is not difficult to conclude that [ty] and [to] are distinct for speakers, then, but [ty] and [ti] present a different scenario in that they appear in identical linguistic contexts for those speakers who produce both.
+        Gene Delcambre's speech exemplifies this in sentences such as \ref{sent:ti_gene} and \ref{sent:tu_gene} below.
+        This is in fact one of several arguments for treating [ty] and [ti] as the same target pronoun for speakers.
+        The literature on French in Louisiana (but not Creole) has consistently presented these as variants of \lexi{tu} (\citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~45]{smith_morphosyntactic_1994}).
+        Part of this interpretation is likely due to their distributions being the same but it is also notable that the vowels are very close, only differing in lip-rounding.
+        Among my own participants, those who produced [ti] appeared more so to have partially weakened lip-rounding rather than a clear [i] save for one participant, Austin Roy, who is a late learner of F\&C and who categorically pruduced a very clear and distinct [i] in every token.
+        These factors suggest that two target pronouns are at play in this case: \lexi{tu} and \lexi{to}.
+        
+        \begin{enumerate}[resume=sentences]
+          \item {}[ti] vas venir jouer pour moi à ce soir. (Gene Delcambre, 33:01) \label{sent:ti_gene}
+          \item[] \gloss{You're going to come play for me tonight.}
+          \item {}[ty] vas aller à la grocerie. (Gene Delcambre, 19:13) \label{sent:tu_gene}
+          \item[] \gloss{You're going to go to the grocery store.}
+        \end{enumerate}
+
         The form pair [nu] - [no] presents similar problems of interpretation but with a different results.
         The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
         In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
@@ -703,29 +759,6 @@
         % on
           % "on" generates a liaison (Oukada 1977:192; J. S. Smith 1994:53)
             % In Terrebonne-Lafourche, however, there's an example of "on" without a liaison: on ôte as [ɔ̃ ot] (Guilbeau 1950, as cited in Papen & Rottet 1997:78)
-  
-        % tu and to
-          % Oukada (1977) reported the generalized loss of a pronoun's vowel before verbs that begin with vowels based on the occurrence of t'es (193)
-          % tu can be [ty], [ti], or [t] before a vowel (Conwell & Juilland 1963:142-143; J. S. Smith 1994:45)
-            % Parr (1940) also reported the first two (xi)
-            % Phillips only reported the latter two (1936:42, 1939:218-219)
-            % J. S. Smith (1994) made the point this [y] is ``more open and lax'' and this [i] ``more relaxed'' than SF (45)
-              % My own participants seemed to produce something between [y] and [i], suggesting that lip-rounding is simply weakened for [y] to sometimes give the impression of [i], with the exception of one late learner participant who used a very clear [i] at all times
-          % "to" can be reduced to [t] (Broussard 1972:8; Klingler 2003 "Turn":209-210; Phillips 1936:43)
-            % This opens up difficulties in distinguishing to from tu
-          % Nothing in the literature suggests that this elision takes place before a consonant for either pronoun, so there will likely always be pronounced and elided versions of the pronoun in each speaker's speech, so code t' according to what they pronounce elsewhere for the sake of robustness.
-            % Speaker only produces [t] and tu > code as tu
-            % Speaker only produces [t] and [to] > code as to
-            % Speaker produces [t], tu, and [to] > Exclude [t]
-          % Establishing that the vowel doesn't simply represent allomorphes of an underlying "tV"
-            % These are arguably simple phonetic variations in vowel quality with the same underlying form, but the arguments against that are...
-              % Several speakers do produce both sometimes [ti] and sometimes [ty] in the same structural context
-                % Is there a structural or contextual explanation that would suggest these are separate underlying pronouns?
-              % Some speakers do produce both [ty] and [to]
-                % IIRC, these have similar but not identical distributions in linguistic structure, which would suggest style switching
-                  % Check Owen Webre as he produces both I think but isn't as clear about whether he's style switching
-                  % Oliver Lesage produces both [ty] and [to] but only 2 tokens of the latter in a quoted discourse with another Creole speaker after I ask him whether he has chances to speak "couru-vini", as he calls it (2:16)
-                  % Tracy Roth does indeed produce both, producing [ty] only once with the notable difference in syntax of a preverbal indirect object pronoun: tu me peux fais ça (17:40)
 
         % elle
           % Collapsed these: [ɛl] [ɛ] [al] [a]
