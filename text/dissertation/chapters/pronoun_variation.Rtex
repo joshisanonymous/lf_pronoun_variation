@@ -598,7 +598,8 @@
 
       \subsubsection{Phonetic variants}
         \label{sec:phonetic_variants}
-        The analyses carried out here are lexical rather than phonetic, but ambiguities easily arise in which phonetic forms may be treated as targeting the same pronoun and which are distinct.
+        The analyses carried out here are lexical rather than phonetic, but ambiguities easily arise in which two distinct pronouns can have identical phonetic realizations or in which several phonetic forms may all be realizations of a single target pronoun.
+        Disentangling these ambiguities is essential for accurately counting pronoun tokens.
         One such example, that of [mo], [mɔ̃], [mwa], and [mwɛ̃], was discussed in section \ref{sec:pronoun_structure}, but others exist, as well.
         The pronouns that these phonetic forms were grouped under in the analysis are summarized in Table \ref{tab:phonetic_variants} where only those phonetic realizations that actually occurred in the data are provided, hence \lexi{mo} was coded as such due to only [mo] and [m] occurring.
         Other cases will be discussed below.
@@ -609,19 +610,19 @@
           \centering
           \begin{tabular}{l p{1.8cm} | l p{1.8cm}}
             \multicolumn{4}{c}{} \\
-            Phonetic Variants                                                              & Pronoun & Phonetic Variants                                             & Pronoun \\
+            Phonetic Variants                                                              & Pronoun  & Phonetic Variants                                             & Pronoun \\
             \hline
-            {}[ʒə], [ʒ], [ʃə], [\backone{ʃ}], [h], [z], [\backtwo{sə}], [\backthree{s}] & je       & [nuz], [\backfour{nu}]                                       & nous \\
+            {}[ʒə], [ʒ], [ʃə], [\backone{ʃ}], [h], [z], [\backtwo{sə}], [\backthree{s}]    & je       & [nuz], [\backfour{nu}]                                        & nous \\
             {}[mo], [m]                                                                    & mo       & [ɔ̃], [ɔ̃n]                                                     & on \\
             {}                                                                             &          & [nuzɔt]                                                       & nous-autres \\
-            {}                                                                             &          & [no], [\backfour{nu}], [n]                                   & no \\
-            {}[ty], [ti], [\backfive{t}], [dy]                                            & tu       & [vuzɔt]                                                       & vous-autres \\
-            {}[to], [\backfive{t}]                                                        & to       & [\backsix{vu}]                                               & vou \\
-            {}[vuz], [\backsix{vu}]                                                       & vous     &                                                               & \\
+            {}                                                                             &          & [no], [\backfour{nu}], [n]                                    & no \\
+            {}[ty], [ti], [\backfive{t}], [dy]                                             & tu       & [vuzɔt]                                                       & vous-autres \\
+            {}[to], [\backfive{t}]                                                         & to       & [\backsix{vu}]                                                & vou \\
+            {}[vuz], [\backsix{vu}]                                                        & vous     &                                                               & \\
             {}[ɛl], [ɛ], [al], [a], [ɑ̃]                                                    & elle     & [ɛlz], [ɛz]                                                   & elles \\
-            {}[\backseven{il}], [\backeight{i}]                                          & il       & [ilz], [ils], [iz], [is], [\backseven{il}], [\backeight{i}] & ils \\
-            {}[li], [l], [\backeight{i}]                                                  & li       & [ø]                                                           & eux \\
-            {}[sa], [\backtwo{sə}], [\backthree{s}], [\backone{ʃ}], [ʒa]                & ça       & [øzɔt]                                                        & eux-autres \\
+            {}[\backseven{il}], [\backeight{i}]                                            & il       & [ilz], [ils], [iz], [is], [\backseven{il}], [\backeight{i}]   & ils \\
+            {}[li], [l], [\backeight{i}]                                                   & li       & [ø]                                                           & eux \\
+            {}[sa], [\backtwo{sə}], [\backthree{s}], [\backone{ʃ}], [ʒa]                   & ça       & [øzɔt]                                                        & eux-autres \\
             {}ø                                                                            & ø        & [ye], [y]                                                     & yé \\
             \multicolumn{4}{c}{} \\
           \end{tabular}
@@ -630,10 +631,146 @@
           }
         \end{table}
 
+        A number of cases can easily be accounted for as they represent well-known cases of liaisons in which a latent final consonant is produced only when the following word begins with a vowel.
+        One of these is the [n] at the end of \lexi{on} (\citeauthor{oukada_louisiana_1977}, \citeyear[p.~192]{oukada_louisiana_1977}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~53]{smith_morphosyntactic_1994}).
+        Likewise, an [l] liaison often occurs at the end of \lexi{il} as well as \lexi{elle} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
+        The latter additionally can be realized with the vowel [ɛ] or [a].
+        Studies that attest to both forms consider them to be variants of the same pronoun, thus they were treated as such here.
+        The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, but there was an additional ambiguity created by their basic forms, [nu] and [vu], that will be discussed mroe later in this section.
+        Similarly well attested through the world is a [z] liaison for \lexi{elles}.
+        This pronoun is very rare in Louisiana and only appeared in liaison contexts in my data.
+        Finally, \lexi{ils} is also widely known to produce a [z] liaison, but in Louisiana, it can also be realized with an [l] liaison (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
+        This case presents significant ambiguities with \lexi{il} and even \lexi{li} which will be discussed further down.
+        Documented liaisons therefore helped categorize a number of phonetic realizations with their appropriate pronoun morphemes.
+        % on
+          % In Terrebonne-Lafourche, however, there's an example of "on" without a liaison: on ôte as [ɔ̃ ot] (Guilbeau 1950, as cited in Papen & Rottet 1997:78)
+        % elle
+          % Collapsed these: [ɛl] [ɛ] [al] [a]
+            % Considered different realizations of the same morpheme in the literature (Papen & Rottet 1997:83)
+          % In Lafayette, Conwell & Juilland (1963) reported that [al] was rare, [ɛ(l)] being preferred (Conwell & Juilland 1963:144)
+            % In Terrebonne-Lafourche, Parr (1940) reported [al] as the norm and [ɛ] only even being possible before consonants (xi)
+              % Similarly, in Lafayette, [ɛ(l)] was rare enough that J. S. Smith (1994) mused that this might have simply been a disjunctive pronoun being produced without the resumptive clitic pronoun (47) as the disjunctive has only been reported as [ɛl]
+              % Some have only attested [ɛl] as a disjunctive (Chaudoir 1938:33; Phillips 1936:43)
+              % Girard Lomheim (2019) did no more than provide a table of the subject pronoun morphemes, but listed "alle" and not "elle" (5), suggesting the same lack of [ɛl] in Vermilion and St Landry
+
+        Some well-known vowel elisions in the same linguistic context (\foreign{i.e.}, before a word-initial vowel in the next word) also account for a number of phonetic forms attested in the present data.
+        A particularly straightforward case is that of \lexi{yé} (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}) as neither it full nor reduced forms can be confused with any other pronoun.
+        This is not true of \lexi{tu} and \lexi{to} which have both been found to reduce to [t], which will be discussed in more detail later.
+        The vowel of \lexi{je} is standardly elided in French varieties around the world, whereas in the Louisiana the vowel and consonant are typically metathesized (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{chaudoir_study_1938}, \citeyear[pp.~31-32]{chaudoir_study_1938}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}).
+        Distinguishing between metathesized and elided realizations in casual speech can be quite difficult, but the effect is essentially the same in that the consonant is what stands out.
+        The range of possible consonants is significant and will thus be discussed more later in this section as will the homophony of some of these with the elided versions of \lexi{ça}/\lexi{ce}.
+        For most elisions, their widespread treatments in the literature made it trivial to decide whether they were targeting distinct pronouns or not just as with liaisons.
+        % yé
+          % Can reduce to [j] even before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
+        
+        % nous and vous phonologically distinct behavior from nou and vou
+        The form pair [nu] - [no] presents similar problems of interpretation but with a different results.
+        The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
+        In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
+        The same was found in Lafayette \parencite[pp.~142-143]{conwell_louisiana_1963}, which is a region where creolophones are to be found.
+        In Creole-oriented speech, on the other hand, such an linguistic environment leads to a reduction of [nu] to [n] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
+        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{nous} versus \lexi{nou}.
+        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
+        Two factors support the idea that they are treated as distinct.
+        The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann_creole_1985}, \citeyear[p.~166]{neumann_creole_1985}), whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} to a greater degree.
+        This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels but never with a [z] liaison, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
+        This is admittedly a weak argument for treating these as different pronouns, however.
+        The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs.
+        For instance, while Owen Webre produces many tokens of [no], the few tokens of [nu] that he produced were followed by standard French verb inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_own}.
+        These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items existed in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
+        With these factors in mind, [nu] was grouped with [no], by far the most frequent variant, when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}.
+        % Other non-liaison examples: Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
+
+        \begin{enumerate}[resume=sentences]
+          \item {}[nu] apprend un tas. \label{sent:nu_tracy} (17:33, Tracy Roth)
+          \item[] \gloss{We learn a lot.}
+          \item {}[no] apprenne comment pour laver. \label{sent:no_tracy} (31:20, Tracy Roth)
+          \item[] \gloss{We learned how to wash.}
+          \item {}[nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. \label{sent:nu1_owen} (3:32, Owen Webre)
+          \item[] \gloss{We say someone that had some animals or rather some livestock like that.}
+          \item {}[nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. \label{sent:nu2_owen} (14:47, Owen Webre)
+          \item[] \gloss{We're the people who should be of a certain level, something like that.}
+        \end{enumerate}
+
+        The pair [vu] - [vo] present similar problems of interpretation but with a different results.
+        The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
+        In Lafayette, [vu] leads to a [z] liaison before a vowel \parencite[pp.~142-143]{conwell_louisiana_1963}.
+        In Creole-oriented speech, however, such an environment leads instead to a reduction of [vu] to [v] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[p.~209]{klingler_if_2003}).
+        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{vous} versus \lexi{vou}.
+        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
+        Two factors support the idea that they are treated as distinct.
+        The first is that Creole-oriented speakers may alternate between [vu] and [vo] \parencite[p.~24c]{morgan_structural_1959}, whereas French-oriented speakers do not, phonetically distinguishing \lexi{vous} - \lexi{vou} to a greater degree.
+        This is admittedly a weak argument for treating these as different pronouns.
+        The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs
+
+        % vous
+          % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
+          % Going by verb is not useful for disambiguating either
+            % Byers (1988), in his pilot study, found that [vu] would take a verb with an /e/ ending more often for speakers over 45 whereas younger speakers used bare verbs (50) and would mostly be produced as vous est with être (52)
+              % In his main study, he found a split between age with those over 45 producing more /e/ endings and êtes (71-74)
+            % Likewise, both short and long forms could be used with vous in Creole speech, the latter being phonetically identical to an -ez form
+              % A long form could be disambiguated with the context indicating either past perfective (not -ez) or not (-ez)
+                % This is fairly reliable for what's been documented in Breaux Bridge, but not for those from further away where there's more "free variation" documented
+
+        % Lots of possible confusion with [i] and [il] being non-liaison versions of singular or plural or even /li/
+
+        % il and elle
+          % Both il and elle lose their /l/ before consonants (Chaudoir 1938:33; Conwell & Juilland 1963:144; Parr 1940:xi; Phillips 1936:42-43, 1939:218-219; J. S. Smith 1994:47)
+          % Liaisons are not always produced for speakers who reduce pronouns such as these
+            % This is the case for some speakers in Terrebonne-Lafourche as far back as Guilbeau (1950) who had the example on ôte as [ɔ̃ ot] (as cited in Papen & Rottet 1997:78)
+            % Later in Terrebonne-Lafourche, elle is always realized with [l] before a vowel but il may or may not be or may be [in] (Papen & Rottet 1997:84)
+        
+        % li
+          % Can be reduced to [l] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
+          % li in Pointe Coupee sometimes becomes simply [i] before a consonant (Klingler 2003 "Turn":210-211)
+            % This is likewise possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
+  
+        % ils
+          % ils also ca reduce to [i] before consonants (Parr 1940:xi; J. S. Smith 1994:58)
+          % ils generates a liaison but it may be realized as [z] or [l] in Lafayette (Conwell & Juilland 1963:145; J. S. Smith 1994:58) and Terrebonne-Lafourche (Papen & Rottet 1997:84) but some only report a [z] liaison (Parr 1940:xi; Phillips 1936:43, 1939:218-219)
+            % This leaves open the question of whether those who only use [l] as a liaison have ils in their lexicon at all or if il is simply not marked for number
+
+        % Cases of ambiguity between ils and il when pronounced [il] or [i]
+          % Applies even when you might otherwise expect a [z] liaison as this is sometimes absent in LF or pronounced as an [l] liaison
+          % Use verbal inflection if present.
+            % This is justified in that nothing in the literature suggests that it's possible to have something like ils a or ils est, so there's no reason to believe that something [il/z a/ɛ] is ils.
+            % [i(l) est] > il
+            % [i(l) sont] > ils
+            % [i(l) a] > il
+            % [i(l) ɔ̃] > ils
+            % [i(z) ɔ̃] > ils
+            % [i(l) parl] > Rely on indications of referent if present
+          % If neither the verb nor the context makes the referent clear, transcribe it but don't annotate (not a useable token)
+          % If the verb and the context are contradictory and no liaison is possible, omit (not a useable token)
+            % e.g., Les élèves, /il fɛ/
+              % While structures like "les élèves fait" are attested, once a pronoun is used, the verb is expected to take an explicitly different inflection (find citation)
+          % ils agreement can be marked with -ont on the verb both in present habitual and in the past imperfective with -iont (Papen & Rottet 1997:97; Rottet 1995:201-202)
+            % This also leads to forms such as ils avont, ils allont, and ils faisont (Rottet 1995:202)
+
+        % il vs li when pronounced as [i]
+          % Both elisions have been documented
+            % li > i / ?? ; in Breaux Bridge for White speakers (Neumann 1985:170)
+            % li > i / _ C ; in Pointe Coupee (Klingler 2003 "Turn":210)
+            % il > i / _ V ; sometimes, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
+            % il > i / _ C ; always, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
+          % Considering how robust this elision can be for some speakers, excluding cases of just [i] could lead to excluding all or almost all tokens, so code [i] in accordance with what the speaker uses exclusively elsewhere
+            % Speaker only produces [i] and [li] > Code as li
+              % Elizabeth Naquin is(?) my only participant who produces only li and i, the latter being relegated to two tokens of i faut (10:48 and 10:58)
+            % Speaker only produces [i] and [il] > Code as il
+            % Speaker only produces [i] > Code as i
+            % Speaker produces [i], [li], and [il] > Exclude [i]
+
+        % Many consontantal variants of je
         The example of \lexi{mo} exemplifies a frequent issue in which vowels are elided and thus create ambiguities in what the underlying pronoun actually is.
         In some cases, this issue is minimal.
         For instance, [ʃ] appeared in positions that could be interpreted as either \lexi{je} or \lexi{ça} but only \Sexpr{tablesPhonetic$ca["ch'"]} that suggested \lexi{ça} as they were all presentative constructions with the verb \lexi{être} that were identical to these speakers' use of \lexi{c'est} [sɛ] and \lexi{c'était} [stɛ] which were by contrast very frequent.
         This also matches the literature where \lexi{ça} has never been attested as [ʃ] but \lexi{je} has been.
+
+        % C' treated as underlying ça
+          % While you could perhaps argue that this should be underlying ce, none of my speakers produced a surface ce form (e.g., no ce sont nor ce n'est pas)
+            % There are also cases like Florence Gaspard saying un petit brin l'argent c'était couru loin (38:13), whereas a more French oriented speaker would likely say un petit brin d'argent ça courait loin
+              % And to be even clearer, my Creole oriented speakers did indeed by and large use ça for this/that just as the French oriented speakers did, so while one could say that an utterance from one speaker cannot be used as foolproof evidence of an underlying form for another speaker, there are multiple reasons to believe that these forms would be linked
+          % Ça with fait is coded as expletive both when meaning "it's been" or as the conjunction and discourse marker meaning "so"
   
         The morpheme \lexi{je} in Louisiana has in fact received significant attention in the literature with effectively all of the previously attested forms showing up in the data here.
         The vowel, [ə], has been found to elide not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
@@ -652,6 +789,7 @@
           \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}} \label{rule:pro_devoicing}
         \end{enumerate}
 
+        % Similar to [i] ambiguity, [t] ambiguity for [ty] or [to]
         Ambiguity is also caused by vowel elision in \lexi{to} and \lexi {tu} which both lead to the realization [t].
         Unlike the identical surface forms for \lexi{je} and \lexi{ça}, disentangling whether speakers are targeting \lexi{tu} or \lexi{to} cannot be done through frequency as the full forms are both frequent nor linguistic context as both take up the same linguistic function.
         What does help, however, is that [t] without a vowel has not been noted to occur before a consonant in the literature.
@@ -701,119 +839,14 @@
           \item {}[ty] vas aller à la grocerie. (Gene Delcambre, 19:13) \label{sent:tu_gene}
           \item[] \gloss{You're going to go to the grocery store.}
         \end{enumerate}
-
-        The form pair [nu] - [no] presents similar problems of interpretation but with a different results.
-        The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
-        In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
-        The same was found in Lafayette \parencite[pp.~142-143]{conwell_louisiana_1963}, which is a region where creolophones are to be found.
-        In Creole-oriented speech, on the other hand, such an linguistic environment leads to a reduction of [nu] to [n] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
-        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{nous} versus \lexi{nou}.
-        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
-        Two factors support the idea that they are treated as distinct.
-        The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann_creole_1985}, \citeyear[p.~166]{neumann_creole_1985}), whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} to a greater degree.
-        This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels but never with a [z] liaison, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
-        This is admittedly a weak argument for treating these as different pronouns, however.
-        The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs.
-        For instance, while Owen Webre produces many tokens of [no], the few tokens of [nu] that he produced were followed by standard French verb inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_own}.
-        These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items existed in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
-        With these factors in mind, [nu] was grouped with [no], by far the most frequent variant, when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}.
-        % Other non-liaison examples: Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
-
-        \begin{enumerate}[resume=sentences]
-          \item {}[nu] apprend un tas. \label{sent:nu_tracy} (17:33, Tracy Roth)
-          \item[] \gloss{We learn a lot.}
-          \item {}[no] apprenne comment pour laver. \label{sent:no_tracy} (31:20, Tracy Roth)
-          \item[] \gloss{We learned how to wash.}
-          \item {}[nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. \label{sent:nu1_owen} (3:32, Owen Webre)
-          \item[] \gloss{We say someone that had some animals or rather some livestock like that.}
-          \item {}[nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. \label{sent:nu2_owen} (14:47, Owen Webre)
-          \item[] \gloss{We're the people who should be of a certain level, something like that.}
-        \end{enumerate}
-
-        The pair [vu] - [vo] present similar problems of interpretation but with a different results.
-        The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
-        In Lafayette, [vu] leads to a [z] liaison before a vowel \parencite[pp.~142-143]{conwell_louisiana_1963}.
-        In Creole-oriented speech, however, such an environment leads instead to a reduction of [vu] to [v] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[p.~209]{klingler_if_2003}).
-        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{vous} versus \lexi{vou}.
-        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
-        Two factors support the idea that they are treated as distinct.
-        The first is that Creole-oriented speakers may alternate between [vu] and [vo] \parencite[p.~24c]{morgan_structural_1959}, whereas French-oriented speakers do not, phonetically distinguishing \lexi{vous} - \lexi{vou} to a greater degree.
-        This is admittedly a weak argument for treating these as different pronouns.
-        The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs
-
-        % vous
-          % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
-          % Going by verb is not useful for disambiguating either
-            % Byers (1988), in his pilot study, found that [vu] would take a verb with an /e/ ending more often for speakers over 45 whereas younger speakers used bare verbs (50) and would mostly be produced as vous est with être (52)
-              % In his main study, he found a split between age with those over 45 producing more /e/ endings and êtes (71-74)
-            % Likewise, both short and long forms could be used with vous in Creole speech, the latter being phonetically identical to an -ez form
-              % A long form could be disambiguated with the context indicating either past perfective (not -ez) or not (-ez)
-                % This is fairly reliable for what's been documented in Breaux Bridge, but not for those from further away where there's more "free variation" documented
   
+        % Others, despite various phonetic forms being cited in the literature, were each only realized in one way in my data
+
         % vous-autres
           % Generally written with <-res>, probably due to its disjunctive use in SF, but no final consonants are attested in Louisiana even in liaison positions (i.e., no [r_V] nor [z_V])
           % zòt, zo, and ouzò(t) are attested in Pointe coupee (Klingler 2003 "Turn":206/213) as well as zot, zo, and uzot in Breaux Bridge (Neumann 1985:166), but I suspect these are various lenitions of /v/ and /t/
             % Neumann (1985) remarked surprise that zot had not been attested by the time of her study despite it being used in Saint-Ybars (Mercier 1881) (169), perhaps because it was registered as a form of vous-autres
           % [wɔt] is attested for vous-autres in rapid speech in Terrebonne-Lafourche (Rottet 1995:185-186)
-  
-        % on
-          % "on" generates a liaison (Oukada 1977:192; J. S. Smith 1994:53)
-            % In Terrebonne-Lafourche, however, there's an example of "on" without a liaison: on ôte as [ɔ̃ ot] (Guilbeau 1950, as cited in Papen & Rottet 1997:78)
-
-        % elle
-          % Collapsed these: [ɛl] [ɛ] [al] [a]
-            % Considered different realizations of the same morpheme in the literature (Papen & Rottet 1997:83)
-
-        % il and elle
-          % Both il and elle lose their /l/ before consonants (Chaudoir 1938:33; Conwell & Juilland 1963:144; Parr 1940:xi; Phillips 1936:42-43, 1939:218-219; J. S. Smith 1994:47)
-            % In Lafayette, Conwell & Juilland (1963) reported that [al] was rare, [ɛ(l)] being preferred (Conwell & Juilland 1963:144)
-            % In Terrebonne-Lafourche, Parr (1940) reported [al] as the norm and [ɛ] only even being possible before consonants (xi)
-              % Similarly, in Lafayette, [ɛ(l)] was rare enough that J. S. Smith (1994) mused that this might have simply been a disjunctive pronoun being produced without the resumptive clitic pronoun (47) as the disjunctive has only been reported as [ɛl]
-              % Some have only attested [ɛl] as a disjunctive (Chaudoir 1938:33; Phillips 1936:43)
-              % Girard Lomheim (2019) did no more than provide a table of the subject pronoun morphemes, but listed "alle" and not "elle" (5), suggesting the same lack of [ɛl] in Vermilion and St Landry
-          % Liaisons are not always produced for speakers who reduce pronouns such as these
-            % This is the case for some speakers in Terrebonne-Lafourche as far back as Guilbeau (1950) who had the example on ôte as [ɔ̃ ot] (as cited in Papen & Rottet 1997:78)
-            % Later in Terrebonne-Lafourche, elle is always realized with [l] before a vowel but il may or may not be or may be [in] (Papen & Rottet 1997:84)
-        
-        % li
-          % Can be reduced to [l] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
-          % li in Pointe Coupee sometimes becomes simply [i] before a consonant (Klingler 2003 "Turn":210-211)
-            % This is likewise possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
-  
-        % ils
-          % ils also ca reduce to [i] before consonants (Parr 1940:xi; J. S. Smith 1994:58)
-          % ils generates a liaison but it may be realized as [z] or [l] in Lafayette (Conwell & Juilland 1963:145; J. S. Smith 1994:58) and Terrebonne-Lafourche (Papen & Rottet 1997:84) but some only report a [z] liaison (Parr 1940:xi; Phillips 1936:43, 1939:218-219)
-            % This leaves open the question of whether those who only use [l] as a liaison have ils in their lexicon at all or if il is simply not marked for number
-
-        % Cases of ambiguity between ils and il when pronounced [il] or [i]
-          % Applies even when you might otherwise expect a [z] liaison as this is sometimes absent in LF or pronounced as an [l] liaison
-          % Use verbal inflection if present.
-            % This is justified in that nothing in the literature suggests that it's possible to have something like ils a or ils est, so there's no reason to believe that something [il/z a/ɛ] is ils.
-            % [i(l) est] > il
-            % [i(l) sont] > ils
-            % [i(l) a] > il
-            % [i(l) ɔ̃] > ils
-            % [i(z) ɔ̃] > ils
-            % [i(l) parl] > Rely on indications of referent if present
-          % If neither the verb nor the context makes the referent clear, transcribe it but don't annotate (not a useable token)
-          % If the verb and the context are contradictory and no liaison is possible, omit (not a useable token)
-            % e.g., Les élèves, /il fɛ/
-              % While structures like "les élèves fait" are attested, once a pronoun is used, the verb is expected to take an explicitly different inflection (find citation)
-          % ils agreement can be marked with -ont on the verb both in present habitual and in the past imperfective with -iont (Papen & Rottet 1997:97; Rottet 1995:201-202)
-            % This also leads to forms such as ils avont, ils allont, and ils faisont (Rottet 1995:202)
-
-        % il vs li when pronounced as [i]
-          % Both elisions have been documented
-            % li > i / ?? ; in Breaux Bridge for White speakers (Neumann 1985:170)
-            % li > i / _ C ; in Pointe Coupee (Klingler 2003 "Turn":210)
-            % il > i / _ V ; sometimes, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
-            % il > i / _ C ; always, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
-          % Considering how robust this elision can be for some speakers, excluding cases of just [i] could lead to excluding all or almost all tokens, so code [i] in accordance with what the speaker uses exclusively elsewhere
-            % Speaker only produces [i] and [li] > Code as li
-              % Elizabeth Naquin is(?) my only participant who produces only li and i, the latter being relegated to two tokens of i faut (10:48 and 10:58)
-            % Speaker only produces [i] and [il] > Code as il
-            % Speaker only produces [i] > Code as i
-            % Speaker produces [i], [li], and [il] > Exclude [i]
   
         % eux
           % More often written as <eusse>, but <eux> is used here simply to highlight its origin and because this is a somewhat regularized process (e.g., ceux can be pronounced with a final [s])
@@ -823,16 +856,6 @@
         % eux-autres
           % Same as with vous-autres, the general orthographic representation includes the <-res> despite it not being pronounced
           % eux-autres has several variants attested: [øzot], [zøt], [zot], and [hɔt] (Rottet 1995:201)
-  
-        % yé
-          % Can reduce to [j] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
-            % This is likewise possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
-
-        % C' treated as underlying ça
-          % While you could perhaps argue that this should be underlying ce, none of my speakers produced a surface ce form (e.g., no ce sont nor ce n'est pas)
-            % There are also cases like Florence Gaspard saying un petit brin l'argent c'était couru loin (38:13), whereas a more French oriented speaker would likely say un petit brin d'argent ça courait loin
-              % And to be even clearer, my Creole oriented speakers did indeed by and large use ça for this/that just as the French oriented speakers did, so while one could say that an utterance from one speaker cannot be used as foolproof evidence of an underlying form for another speaker, there are multiple reasons to believe that these forms would be linked
-          % Ça with fait is coded as expletive both when meaning "it's been" or as the conjunction and discourse marker meaning "so"
 
         % B. Brown (1988) interpreted c'est as an impersonal expression, and by extension ça, and that the c'est is "lexicalized" rather than the combination of c' and est (130-131)
           % B. Brown (1988) discussed the c' in "c'est" as a variant of ça (130/138-143)
