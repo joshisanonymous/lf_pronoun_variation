@@ -664,13 +664,16 @@
           % Can reduce to [j] even before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
         
         % nous and vous phonologically distinct behavior from nou and vou
-        The form pair [nu] - [no] presents similar problems of interpretation but with a different results.
-        The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
-        In Terrebonne-Lafourche \parencite[pp.~190-191]{oukada_louisiana_1977}, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel, just as one finds in Hexagonal French.
-        The same was found in Lafayette \parencite[pp.~142-143]{conwell_louisiana_1963}, which is a region where creolophones are to be found.
-        In Creole-oriented speech, on the other hand, such an linguistic environment leads to a reduction of [nu] to [n] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
-        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{nous} versus \lexi{nou}.
-        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
+        The phonetic realizations [nuz], [nu], and [no] present significant questions about whether speakers and listeners are interpreting these as one, two, or three distinct pronouns.
+        The form [nu] has been found in both French-oriented and Creole-oriented speech in Louisiana but with different behaviors.
+        In Terrebonne-Lafourche, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel \parencite[pp.~190-191]{oukada_louisiana_1977}, just as one finds in Hexagonal French.
+        The same was found in Lafayette \parencite[pp.~142-143]{conwell_louisiana_1963}, which contrasts with Terrebonne-Lafourche in being a region where creolophones are found.
+        In Creole-oriented speech, on the other hand, such an linguistic environment (\foreign{i.e.}, before a vowel) leads to a reduction of [nu] to [n] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
+        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars, perhaps \lexi{nous} versus \lexi{nou}, or at least different morphophonemic rules.
+        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently\footnote{
+          Of course, even if interpreted as a single pronoun with several phonetic variants, those phonetic variants can be socially interpreted differently, as well.
+          However, the goal of the present study was not to conduct a sociophonetic analysis.
+        }.
         Two factors support the idea that they are treated as distinct.
         The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann_creole_1985}, \citeyear[p.~166]{neumann_creole_1985}), whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} to a greater degree.
         This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels but never with a [z] liaison, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
@@ -678,7 +681,8 @@
         The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs.
         For instance, while Owen Webre produces many tokens of [no], the few tokens of [nu] that he produced were followed by standard French verb inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_own}.
         These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items existed in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
-        With these factors in mind, [nu] was grouped with [no], by far the most frequent variant, when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}.
+        With these factors in mind, [nu] was grouped with [no], when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}.
+        From here on out, the alternative pronoun will be denoted as \lexi{no} as the [no] phonetic form was far more frequent than the [nu] form with which it was aggregated.
         % Other non-liaison examples: Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
 
         \begin{enumerate}[resume=sentences]
