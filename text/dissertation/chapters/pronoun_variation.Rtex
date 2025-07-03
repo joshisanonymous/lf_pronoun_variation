@@ -782,38 +782,29 @@
         \end{table}
 
         % Lots of possible confusion with [i] and [il] being non-liaison versions of singular or plural or even /li/
-        Despite its brevity, [i] is the most complicated phonetic realization of a subject pronoun to disentangle as it can represent an underlying \lexi{il}, \lexi{ils}, or \lexi{li}.
-        There form [i] 
-        % Produce underlying [i]: Austin Roy, Floyd Kerry
-          % Austin's are all 3pl followed by a consonant, more cle
-
-        % Establish that il and li are distinct for speakers
-          % Oliver Lesage and Owen Webre produce both il and li
-
-        % No one produced evidence of an underlying [i] (i.e., no one produced [i] before a vowel for 3sg or 3pl)
-        % Terry Guillot only produced no evidence of a [z] liaison for 3pl [i] and [il], both of which occurred as such before vowels
-          % Although Terry was the only one who produced a significant number of tokens, this was equally true for Alice Lemaire, Lillian Himel
-          % Similar for Steven Marcel, except he didn't have any contexts that would have allowed for a liaison
-            % He produced [i] and [il] before consonants
-
-        % il and elle
-          % Both il and elle lose their /l/ before consonants (Chaudoir 1938:33; Conwell & Juilland 1963:144; Parr 1940:xi; Phillips 1936:42-43, 1939:218-219; J. S. Smith 1994:47)
-          % Liaisons are not always produced for speakers who reduce pronouns such as these
-            % This is the case for some speakers in Terrebonne-Lafourche as far back as Guilbeau (1950) who had the example on ôte as [ɔ̃ ot] (as cited in Papen & Rottet 1997:78)
-            % Later in Terrebonne-Lafourche, elle is always realized with [l] before a vowel but il may or may not be or may be [in] (Papen & Rottet 1997:84)
+        Despite its brevity, [i] is the most complicated phonetic realization of a subject pronoun to disentangle as it can represent an underlying \lexi{il}, \lexi{ils}, or \lexi{li} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~210-211]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~170]{neumann_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~47/58]{smith_morphosyntactic_1994}).
+        The form [i] itself was excluded as a possible underlying form as the only two speakers who produced [i] for third person plural referents but never [il] nor [iz] nor [ilz]: Austin Roy and Floyd Kerry.
+        Their tokens of [i] were furthermore all accompanied by irregular verbs inflected as they would be in Hexagonal French as in sentences \ref{sent:i_plural_austin1} and \ref{sent:i_plural_floyd}, suggesting that they could be treated as tokens of \lexi{ils}, or otherwise regular verbs that do not contradict such a treatment as in sentence \ref{sent:i_plural_austin2}.
+        For all other cases, the general process of coding tokens as \lexi{il}, \lexi{ils}, or \lexi{li} followed three steps: 1) determine if the referent is third person plural or not, treating these as two separate categories, 2) find the most complete phonetic realization of the pronoun and assume that all others are abbreviated versions of that token, and finally 3) verify that there are no other complete phonetic realizations that represent an alternative, contradicting pronoun.
         
-        % li
-          % Can be reduced to [l] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
-          % li in Pointe Coupee sometimes becomes simply [i] before a consonant (Klingler 2003 "Turn":210-211)
-            % This is likewise possible before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
-  
-        % ils
-          % ils also ca reduce to [i] before consonants (Parr 1940:xi; J. S. Smith 1994:58)
-          % ils generates a liaison but it may be realized as [z] or [l] in Lafayette (Conwell & Juilland 1963:145; J. S. Smith 1994:58) and Terrebonne-Lafourche (Papen & Rottet 1997:84) but some only report a [z] liaison (Parr 1940:xi; Phillips 1936:43, 1939:218-219)
-            % This leaves open the question of whether those who only use [l] as a liaison have ils in their lexicon at all or if il is simply not marked for number
+        \begin{enumerate}[resume=sentences]
+          \item Mes grands-parents à moi, [i] sont beaucoup plus vieux que l'autre monde de mon âge. (15:01, Austin Roy) \label{sent:i_plural_austin1}
+          \item[] \gloss{My grandparents, they're a lot older than other people my age.}
+          \item Mes grands-parents, [i] parliont tout le français. (14:52, Austin Roy) \label{sent:i_plural_austin2}
+          \item[] \gloss{My grandparents, they all spoke French.}
+          \item Les vieilles mondes, [i] sont partis, to connais? (13:10, Floyd Kerry) \label{sent:i_plural_floyd}
+          \item[] \gloss{The old people, they're gone, you know?}
+        \end{enumerate}
+
+        
+        % ils generates a liaison but it may be realized as [z] or [l] in Lafayette (Conwell & Juilland 1963:145; J. S. Smith 1994:58) and Terrebonne-Lafourche (Papen & Rottet 1997:84) but some only report a [z] liaison (Parr 1940:xi; Phillips 1936:43, 1939:218-219)
+          % This leaves open the question of whether those who only use [l] as a liaison have ils in their lexicon at all or if il is simply not marked for number
+          % Terry Guillot only produced no evidence of a [z] liaison for 3pl [i] and [il], both of which occurred as such before vowels
+            % Although Terry was the only one who produced a significant number of tokens, this was equally true for Alice Lemaire, Lillian Himel
+            % Similar for Steven Marcel, except he didn't have any contexts that would have allowed for a liaison
+              % He produced [i] and [il] before consonants
 
         % Cases of ambiguity between ils and il when pronounced [il] or [i]
-          % Applies even when you might otherwise expect a [z] liaison as this is sometimes absent in LF or pronounced as an [l] liaison
           % Use verbal inflection if present.
             % This is justified in that nothing in the literature suggests that it's possible to have something like ils a or ils est, so there's no reason to believe that something [il/z a/ɛ] is ils.
             % [i(l) est] > il
@@ -829,18 +820,18 @@
           % ils agreement can be marked with -ont on the verb both in present habitual and in the past imperfective with -iont (Papen & Rottet 1997:97; Rottet 1995:201-202)
             % This also leads to forms such as ils avont, ils allont, and ils faisont (Rottet 1995:202)
 
+        % Establish that il and li are distinct for speakers
+          % Oliver Lesage and Owen Webre produce both il and li
+
         % il vs li when pronounced as [i]
-          % Both elisions have been documented
-            % li > i / ?? ; in Breaux Bridge for White speakers (Neumann 1985:170)
-            % li > i / _ C ; in Pointe Coupee (Klingler 2003 "Turn":210)
-            % il > i / _ V ; sometimes, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
-            % il > i / _ C ; always, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
           % Considering how robust this elision can be for some speakers, excluding cases of just [i] could lead to excluding all or almost all tokens, so code [i] in accordance with what the speaker uses exclusively elsewhere
             % Speaker only produces [i] and [li] > Code as li
               % Elizabeth Naquin and Errol Stoufle (and maybe others? but it doesn't matter) produce only [li] and [i]
             % Speaker only produces [i] and [il] > Code as il
             % Speaker only produces [i] > Code as i
             % Speaker produces [i], [li], and [il] > Exclude [i]
+
+        % li can be reduced to [l] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
 
         % Many consontantal variants of je
         The example of \lexi{mo} exemplifies a frequent issue in which vowels are elided and thus create ambiguities in what the underlying pronoun actually is.
