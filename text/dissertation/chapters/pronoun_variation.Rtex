@@ -674,15 +674,16 @@
           Of course, even if interpreted as a single pronoun with several phonetic variants, those phonetic variants can be socially interpreted differently, as well.
           However, the goal of the present study was not to conduct a sociophonetic analysis.
         }.
+        
+        
         Two factors support the idea that they are treated as distinct.
         The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann_creole_1985}, \citeyear[p.~166]{neumann_creole_1985}), whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} to a greater degree.
         This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels but never with a [z] liaison, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
         This is admittedly a weak argument for treating these as different pronouns, however.
-        The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs.
-        For instance, while Owen Webre produces many tokens of [no], the few tokens of [nu] that he produced were followed by standard French verb inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_own}.
+        The factor that provides a stronger argument for a distinction is the inflectional morphology used for verbs.
+        For instance, while Owen Webre produced many tokens of [no], the few tokens of [nu] that he produced were followed by standard French verb inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_owen}.
         These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items existed in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
-        With these factors in mind, [nu] was grouped with [no], when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}.
-        From here on out, the alternative pronoun will be denoted as \lexi{no} as the [no] phonetic form was far more frequent than the [nu] form with which it was aggregated.
+        With these factors in mind, [nu] was grouped with [no] when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}, and as the [no] phonetic form was far more frequent than the [nu] form that was aggregated with it, from here on out, the alternative pronoun will be denoted as \lexi{no}.
         % Other non-liaison examples: Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
 
         \begin{enumerate}[resume=sentences]
@@ -696,27 +697,104 @@
           \item[] \gloss{We're the people who should be of a certain level, something like that.}
         \end{enumerate}
 
-        The pair [vu] - [vo] present similar problems of interpretation but with a different results.
-        The first realization has been found in both French-oriented and Creole-oriented speech but with different behaviors.
-        In Lafayette, [vu] leads to a [z] liaison before a vowel \parencite[pp.~142-143]{conwell_louisiana_1963}.
-        In Creole-oriented speech, however, such an environment leads instead to a reduction of [vu] to [v] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[p.~209]{klingler_if_2003}).
-        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars or at least different morphophonemic rules, perhaps \lexi{vous} versus \lexi{vou}.
-        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently.
-        Two factors support the idea that they are treated as distinct.
-        The first is that Creole-oriented speakers may alternate between [vu] and [vo] \parencite[p.~24c]{morgan_structural_1959}, whereas French-oriented speakers do not, phonetically distinguishing \lexi{vous} - \lexi{vou} to a greater degree.
-        This is admittedly a weak argument for treating these as different pronouns.
-        The factor that provides a stronger argument for a distinction is the inflection morphology used for verbs
+        The phonetic forms [vu] and [vuz]\footnote{
+          Although [vo] is also attested in the literature as alternating with [vu] in Creole-oriented speech (\citeauthor{klingler_if_2003}, \citeyear[pp.~206/213]{klingler_if_2003}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}), [vo] did not appear in my data.
+        } received much the same treatment as the above.
+        Once again, in French-oriented speech, [vu] takes a [z] liaison, yielding [vuz], whereas in Creole-oriented speech, there is instead a reduction to simply [v] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[p.~209]{klingler_if_2003}).
+        One difference, however, is that verbal inflections are not paritcularly helpful for disambiguating tokens of [vu] when not followed by a vowel.
+        The Hexagonal French inflectional pattern results in an /e/ at the end of a verb when the subject pronoun is \lexi{vous}.
+        For French-oriented speakers in Louisiana, this is true for some but not for others, the latter simply using the same bare verb for all inflections \parencite[p.~52]{byers_defining_1988}.\footnote{
+          \citeauthor{byers_defining_1988}'s (\citeyear{byers_defining_1988}) results suggest that this was a change in progress as those over 45 were more likely to produce a verb final /e/ with \lexi{vous} (pp.~71-74).
+        }
+        The resulting phonetic forms are identical to what have been called short and long forms of verbs in studies of Creole in Louisiana which for most verbs means without a final /e/ versus with a final /e/, respectively.\footnote{
+          While Creole as spoken in Pointe Coupee has been noted for sometimes using long verb forms for the present habitual \parencite[p.~237]{klingler_if_2003}, this was only expressed with short verb forms in my data.
+        }
+        These patterns are summarized in Tables \ref{tab:inflect_manger_sf} through \ref{tab:inflect_manger_lc}.
+        As a result, only irregularly inflected verbs as in sentence \ref{sent:vu_deborah} which was coded as \lexi{vous} given its correspondance with the Standard French irregular inflection of \lexi{savoir} as \lexi{savez}.
+        Fortunately, with the relatively low count of [vu], almost all tokens could still be classified as \lexi{vou} or \lexi{vous} based on the presence or absence of a liaison and verbal morphology.
+        The few remaining tokens were produced by speakers who otherwise categorically used \lexi{vou} or \lexi{vous} in more transparent linguistic contexts and so were classified as being the same.
+        Unfortunately, the low count also meant that no participant used both \lexi{vou} and \lexi{vous} so their status as distinct pronouns for F\&C speakers can only be assumed.
+        % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
 
-        % vous
-          % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
-          % Going by verb is not useful for disambiguating either
-            % Byers (1988), in his pilot study, found that [vu] would take a verb with an /e/ ending more often for speakers over 45 whereas younger speakers used bare verbs (50) and would mostly be produced as vous est with être (52)
-              % In his main study, he found a split between age with those over 45 producing more /e/ endings and êtes (71-74)
-            % Likewise, both short and long forms could be used with vous in Creole speech, the latter being phonetically identical to an -ez form
-              % A long form could be disambiguated with the context indicating either past perfective (not -ez) or not (-ez)
-                % This is fairly reliable for what's been documented in Breaux Bridge, but not for those from further away where there's more "free variation" documented
+        \begin{enumerate}[resume=sentences]
+          \item {}[vu] savez? Moi, je suis ici. (3:30, Deborah Tauzin) \label{sent:vu_deborah}
+          \item[] \gloss{You know? Me, I'm here.}
+        \end{enumerate}
+        
+        \begin{table}[tbhp]
+          \captionsetup{font={footnotesize}}
+          \centering
+          Verbal inflections for \lexi{manger}
+          \label{tab:inflect_manger}
+
+          \begin{minipage}{0.1\textwidth}
+            \begin{flushright}
+              \begin{tabular}{r}
+                \\
+                \\
+                \\
+                vou(s) \\
+                other  \\
+                \\
+                \\
+              \end{tabular}
+            \end{flushright}
+          \end{minipage}
+          \begin{minipage}{0.25\textwidth}
+            \centering
+            \begin{tabular}{| c | c |}
+              \multicolumn{2}{c}{} \\
+              \multicolumn{1}{c}{present}        & \multicolumn{1}{c}{perfective} \\
+              \multicolumn{1}{c}{} & \multicolumn{1}{c}{past} \\
+              \hline
+              {}/mɑ̃ʒe/                    & \multirow{2}{*}{/mɑ̃ʒe/} \\
+              {}/mɑ̃ʒ/                     & \\
+              \hline
+            \end{tabular}
+            \caption{Standard French}\label{tab:inflect_manger_sf}
+          \end{minipage}
+          \begin{minipage}{0.25\textwidth}
+            \centering
+            \begin{tabular}{| c | c |}
+              \multicolumn{2}{c}{} \\
+              \multicolumn{1}{c}{present}        & \multicolumn{1}{c}{perfective} \\
+              \multicolumn{1}{c}{} & \multicolumn{1}{c}{past} \\
+              \hline
+              {}/mɑ̃ʒ(e)/                  & \multirow{2}{*}{/mɑ̃ʒe/} \\
+              {}/mɑ̃ʒ/                     & \\
+              \hline
+            \end{tabular}
+            \caption{Louisiana French}\label{tab:inflect_manger_lf}
+          \end{minipage}
+          \begin{minipage}{0.25\textwidth}
+            \centering
+            \begin{tabular}{| c | c |}
+              \multicolumn{2}{c}{} \\
+              \multicolumn{1}{c}{present} & \multicolumn{1}{c}{perfective} \\
+              \multicolumn{1}{c}{}        & \multicolumn{1}{c}{past} \\
+              \hline
+              \multirow{2}{*}{/mɑ̃ʒ/}      & \multirow{2}{*}{/mɑ̃ʒe/} \\
+                                          & \\
+              \hline
+            \end{tabular}
+            \caption{Louisiana Creole}\label{tab:inflect_manger_lc}
+          \end{minipage}
+        \end{table}
 
         % Lots of possible confusion with [i] and [il] being non-liaison versions of singular or plural or even /li/
+        Despite its brevity, [i] is the most complicated phonetic realization of a subject pronoun to disentangle as it can represent an underlying \lexi{il}, \lexi{ils}, or \lexi{li}.
+        There form [i] 
+        % Produce underlying [i]: Austin Roy, Floyd Kerry
+          % Austin's are all 3pl followed by a consonant, more cle
+
+        % Establish that il and li are distinct for speakers
+          % Oliver Lesage and Owen Webre produce both il and li
+
+        % No one produced evidence of an underlying [i] (i.e., no one produced [i] before a vowel for 3sg or 3pl)
+        % Terry Guillot only produced no evidence of a [z] liaison for 3pl [i] and [il], both of which occurred as such before vowels
+          % Although Terry was the only one who produced a significant number of tokens, this was equally true for Alice Lemaire, Lillian Himel
+          % Similar for Steven Marcel, except he didn't have any contexts that would have allowed for a liaison
+            % He produced [i] and [il] before consonants
 
         % il and elle
           % Both il and elle lose their /l/ before consonants (Chaudoir 1938:33; Conwell & Juilland 1963:144; Parr 1940:xi; Phillips 1936:42-43, 1939:218-219; J. S. Smith 1994:47)
@@ -759,7 +837,7 @@
             % il > i / _ C ; always, in Terrebonne-Lafourche (Papen & Rottet 1997:84)
           % Considering how robust this elision can be for some speakers, excluding cases of just [i] could lead to excluding all or almost all tokens, so code [i] in accordance with what the speaker uses exclusively elsewhere
             % Speaker only produces [i] and [li] > Code as li
-              % Elizabeth Naquin is(?) my only participant who produces only li and i, the latter being relegated to two tokens of i faut (10:48 and 10:58)
+              % Elizabeth Naquin and Errol Stoufle (and maybe others? but it doesn't matter) produce only [li] and [i]
             % Speaker only produces [i] and [il] > Code as il
             % Speaker only produces [i] > Code as i
             % Speaker produces [i], [li], and [il] > Exclude [i]
