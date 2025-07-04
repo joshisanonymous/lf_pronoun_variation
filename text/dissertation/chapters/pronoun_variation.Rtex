@@ -785,7 +785,7 @@
         Despite its brevity, [i] is the most complicated phonetic realization of a subject pronoun to disentangle as it can represent an underlying \lexi{il}, \lexi{ils}, or \lexi{li} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~210-211]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~170]{neumann_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~47/58]{smith_morphosyntactic_1994}).
         The form [i] itself was excluded as a possible underlying form as the only two speakers who produced [i] for third person plural referents but never [il] nor [iz] nor [ilz]: Austin Roy and Floyd Kerry.
         Their tokens of [i] were furthermore all accompanied by irregular verbs inflected as they would be in Hexagonal French as in sentences \ref{sent:i_plural_austin1} and \ref{sent:i_plural_floyd}, suggesting that they could be treated as tokens of \lexi{ils}, or otherwise regular verbs that do not contradict such a treatment as in sentence \ref{sent:i_plural_austin2}.
-        For all other cases, the general process of coding tokens as \lexi{il}, \lexi{ils}, or \lexi{li} followed three steps: 1) determine if the referent is third person plural or not, treating these as two separate categories, 2) find the most complete phonetic realization of the pronoun and assume that all others are abbreviated versions of that token, and finally 3) verify that there are no other complete phonetic realizations that represent an alternative, contradicting pronoun.
+        For all other cases, the general process of coding tokens as \lexi{il}, \lexi{ils}, or \lexi{li} followed three steps: 1) determine if the referent is third person plural or not through either verbal morphology or co-referring expressions, treating third person plural and non-third person plural as two separate categories, 2) find the most complete phonetic realization of the pronoun and assume that all others are abbreviated versions of that token, and finally 3) verify that there are no other complete phonetic realizations that represent an alternative, contradicting pronoun.
         
         \begin{enumerate}[resume=sentences]
           \item Mes grands-parents à moi, [i] sont beaucoup plus vieux que l'autre monde de mon âge. (15:01, Austin Roy) \label{sent:i_plural_austin1}
@@ -796,8 +796,17 @@
           \item[] \gloss{The old people, they're gone, you know?}
         \end{enumerate}
 
-        
-        % ils generates a liaison but it may be realized as [z] or [l] in Lafayette (Conwell & Juilland 1963:145; J. S. Smith 1994:58) and Terrebonne-Lafourche (Papen & Rottet 1997:84) but some only report a [z] liaison (Parr 1940:xi; Phillips 1936:43, 1939:218-219)
+        In general, applying these steps was a straightforward process.
+        For tokens with third person plural referents, speakers with tokens of [i] or [il] before consonants typically had tokens that also came before vowels where a [z] liaison was present without having any contradictory tokens before vowels, allowing all tokens to be coded as \lexi{ils}.
+        Likewise, for non-third person plural referents, speakers who produced [i] before consonants otherwise had either only tokens of [il] or only tokens of [li], allowing the [i] tokens to be coded as \lexi{il} or \lexi{li}, respectively.
+        This case was, however, complicated for speakers who produced both [il] and [li] as this made it impossible to determine the underlying target for tokens of non-third person plural [i].
+        Only two speakers presented this scenario: Oliver Lesage and Owen Webre.
+        While their tokens of non-third person plural [i] had to be excluded as a result, they also provided solid evidence that F\&C speakers interpret [il] and [li] as distinct pronouns through the fact that they produced both, making them available to be socially meaningful.
+        In Oliver's case, his use of [li] was accompanied by meta-linguistic commentary that made it clear that he was displaying his ability to speak what he called \foreign{couru vini}.
+
+        A final complication for \lexi{il}, \lexi{ils}, and \lexi{li} came from what has been interpreted in the literature as variability in the liaisons produced for \lexi{ils} in that the liaison can be the expected [z] or the unexpected [l] (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
+
+        % ils generates a liaison but it may be realized as [z] or [l]
           % This leaves open the question of whether those who only use [l] as a liaison have ils in their lexicon at all or if il is simply not marked for number
           % Terry Guillot only produced no evidence of a [z] liaison for 3pl [i] and [il], both of which occurred as such before vowels
             % Although Terry was the only one who produced a significant number of tokens, this was equally true for Alice Lemaire, Lillian Himel
@@ -820,16 +829,9 @@
           % ils agreement can be marked with -ont on the verb both in present habitual and in the past imperfective with -iont (Papen & Rottet 1997:97; Rottet 1995:201-202)
             % This also leads to forms such as ils avont, ils allont, and ils faisont (Rottet 1995:202)
 
-        % Establish that il and li are distinct for speakers
-          % Oliver Lesage and Owen Webre produce both il and li
-
         % il vs li when pronounced as [i]
           % Considering how robust this elision can be for some speakers, excluding cases of just [i] could lead to excluding all or almost all tokens, so code [i] in accordance with what the speaker uses exclusively elsewhere
-            % Speaker only produces [i] and [li] > Code as li
-              % Elizabeth Naquin and Errol Stoufle (and maybe others? but it doesn't matter) produce only [li] and [i]
-            % Speaker only produces [i] and [il] > Code as il
             % Speaker only produces [i] > Code as i
-            % Speaker produces [i], [li], and [il] > Exclude [i]
 
         % li can be reduced to [l] before vowels (Broussard 1972:8; Klingler 2003 "Turn":209-210)
 
