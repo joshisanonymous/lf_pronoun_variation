@@ -636,10 +636,10 @@
         Likewise, an [l] liaison often occurs at the end of \lexi{il} as well as \lexi{elle} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
         The latter additionally can be realized with the vowel [ɛ] or [a].
         Studies that attest to both forms consider them to be variants of the same pronoun, thus they were treated as such here.
-        The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, but there was an additional ambiguity created by their basic forms, [nu] and [vu], that will be discussed more later in this section.
+        The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, but there was an additional ambiguity created by their non-liaison forms, [nu] and [vu], that will be discussed later in this section.
         Similarly well attested through the world is a [z] liaison for \lexi{elles}.
-        This pronoun is very rare in Louisiana and only appeared in liaison contexts in my data.
-        Finally, \lexi{ils} is also widely known to produce a [z] liaison, but in Louisiana, it can also be realized with an [l] liaison (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
+        This pronoun is very rare in Louisiana and only appeared in liaison contexts in my data, making it unambiguous.
+        Finally, \lexi{ils} is also widely known to generate a [z] liaison, but in Louisiana, it can also be realized with an [l] liaison (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
         This case presents significant ambiguities with \lexi{il} and even \lexi{li} which will be discussed further down.
         Documented liaisons therefore helped categorize a number of phonetic realizations with their appropriate pronoun morphemes.
         % on
@@ -677,23 +677,23 @@
         
         
         Two factors support the idea that they are treated as distinct.
-        The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann_creole_1985}, \citeyear[p.~166]{neumann_creole_1985}), whereas French-oriented speakers do not, phonetically distinguishing \lexi{nous} - \lexi{nou} to a greater degree.
-        This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels but never with a [z] liaison, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
+        The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann_creole_1985}, \citeyear[p.~166]{neumann_creole_1985}), whereas French-oriented speakers do not, which thus phonetically distinguishes \lexi{nous} - \lexi{nou} to a greater degree.
+        This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, but never with a [z] liaison, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
         This is admittedly a weak argument for treating these as different pronouns, however.
         The factor that provides a stronger argument for a distinction is the inflectional morphology used for verbs.
-        For instance, while Owen Webre produced many tokens of [no], the few tokens of [nu] that he produced were followed by standard French verb inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_owen}.
-        These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items existed in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
-        With these factors in mind, [nu] was grouped with [no] when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}, and as the [no] phonetic form was far more frequent than the [nu] form that was aggregated with it, from here on out, the alternative pronoun will be denoted as \lexi{no}.
+        For instance, while Owen Webre produced many tokens of [no], the few tokens of [nu] that he produced were followed by Standard French verbal inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_owen}.
+        These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items exist in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
+        With these factors in mind, [nu] was grouped with [no] when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}, and as the [no] phonetic form was far more frequent than the [nu] form with which it was aggregated, the alternative pronoun will henceforth be denoted as \lexi{no}.
         % Other non-liaison examples: Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
 
         \begin{enumerate}[resume=sentences]
-          \item {}[nu] apprend un tas. \label{sent:nu_tracy} (17:33, Tracy Roth)
+          \item {}[nu] apprend un tas. \label{sent:nu_tracy} (Tracy Roth, 17:33)
           \item[] \gloss{We learn a lot.}
-          \item {}[no] apprenne comment pour laver. \label{sent:no_tracy} (31:20, Tracy Roth)
+          \item {}[no] apprenne comment pour laver. \label{sent:no_tracy} (Tracy Roth, 31:20)
           \item[] \gloss{We learned how to wash.}
-          \item {}[nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. \label{sent:nu1_owen} (3:32, Owen Webre)
+          \item {}[nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. \label{sent:nu1_owen} (Owen Webre, 3:32)
           \item[] \gloss{We say someone that had some animals or rather some livestock like that.}
-          \item {}[nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. \label{sent:nu2_owen} (14:47, Owen Webre)
+          \item {}[nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. \label{sent:nu2_owen} (Owen Webre, 14:47)
           \item[] \gloss{We're the people who should be of a certain level, something like that.}
         \end{enumerate}
 
@@ -702,7 +702,7 @@
         } received much the same treatment as the above.
         Once again, in French-oriented speech, [vu] takes a [z] liaison, yielding [vuz], whereas in Creole-oriented speech, there is instead a reduction to simply [v] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[p.~209]{klingler_if_2003}).
         One difference, however, is that verbal inflections are not paritcularly helpful for disambiguating tokens of [vu] when not followed by a vowel.
-        The Hexagonal French inflectional pattern results in an /e/ at the end of a verb when the subject pronoun is \lexi{vous}.
+        The Standard French inflectional pattern results in an /e/ at the end of a verb when the subject pronoun is \lexi{vous}.
         For French-oriented speakers in Louisiana, this is true for some but not for others, the latter simply using the same bare verb for all inflections \parencite[p.~52]{byers_defining_1988}.\footnote{
           \citeauthor{byers_defining_1988}'s (\citeyear{byers_defining_1988}) results suggest that this was a change in progress as those over 45 were more likely to produce a verb final /e/ with \lexi{vous} (pp.~71-74).
         }
@@ -717,7 +717,7 @@
         % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
 
         \begin{enumerate}[resume=sentences]
-          \item {}[vu] savez? Moi, je suis ici. (3:30, Deborah Tauzin) \label{sent:vu_deborah}
+          \item {}[vu] savez? Moi, je suis ici. (Deborah Tauzin, 3:30) \label{sent:vu_deborah}
           \item[] \gloss{You know? Me, I'm here.}
         \end{enumerate}
         
@@ -742,7 +742,7 @@
           \end{minipage}
           \begin{minipage}{0.25\textwidth}
             \centering
-            \begin{tabular}{| c | c |}
+            \begin{tabular}{| l | c |}
               \multicolumn{2}{c}{} \\
               \multicolumn{1}{c}{present}        & \multicolumn{1}{c}{perfective} \\
               \multicolumn{1}{c}{} & \multicolumn{1}{c}{past} \\
@@ -755,7 +755,7 @@
           \end{minipage}
           \begin{minipage}{0.25\textwidth}
             \centering
-            \begin{tabular}{| c | c |}
+            \begin{tabular}{| l | c |}
               \multicolumn{2}{c}{} \\
               \multicolumn{1}{c}{present}        & \multicolumn{1}{c}{perfective} \\
               \multicolumn{1}{c}{} & \multicolumn{1}{c}{past} \\
@@ -783,17 +783,17 @@
 
         % Lots of possible confusion with [i] and [il] being non-liaison versions of singular or plural or even /li/
         The much more frequent phonetic form [i] was the most complicated phonetic realization of a subject pronoun to disentangle as it can represent an underlying \lexi{il}, \lexi{ils}, or \lexi{li} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~210-211]{klingler_if_2003}; \citeauthor{neumann_creole_1985}, \citeyear[p.~170]{neumann_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~47/58]{smith_morphosyntactic_1994}).
-        The form [i] itself was excluded as a possible underlying form as only two speakers produced [i] for third person plural referents but never [il] nor [iz] nor [ilz]: Austin Roy and Floyd Kerry.
-        Their tokens of [i] were furthermore all accompanied by irregular verbs inflected as they would be in Hexagonal French as in sentences \ref{sent:i_plural_austin1} and \ref{sent:i_plural_floyd}, suggesting that they could be treated as tokens of \lexi{ils}, or otherwise regular verbs that do not contradict such a treatment as in sentence \ref{sent:i_plural_austin2}.
+        The form [i] itself was excluded as a possible underlying form as only two speakers produced [i] but never [il] nor [iz] nor [ilz] for third person plural referents: Austin Roy and Floyd Kerry.
+        Their tokens of [i] were furthermore all accompanied by irregular verbs inflected as they would be in Standard French as in sentences \ref{sent:i_plural_austin1} and \ref{sent:i_plural_floyd}, suggesting that they could be treated as tokens of \lexi{ils}, or otherwise regular verbs that do not contradict such a treatment as in sentence \ref{sent:i_plural_austin2}.
         For all other cases, the general process of coding tokens as \lexi{il}, \lexi{ils}, or \lexi{li} followed three steps: 1) determine if the referent is third person plural or not through either verbal morphology or co-referring expressions, treating third person plural and non-third person plural as two separate categories, 2) find the most complete phonetic realization of the pronoun and assume that all others are abbreviated versions of that token, and finally 3) verify that there are no other complete phonetic realizations that represent an alternative, contradicting pronoun.
         
         \begin{enumerate}[resume=sentences]
-          \item Mes grands-parents à moi, [i] sont beaucoup plus vieux que l'autre monde de mon âge. (15:01, Austin Roy) \label{sent:i_plural_austin1}
+          \item Mes grands-parents à moi, [i] sont beaucoup plus vieux que l'autre monde de mon âge. (Austin Roy, 15:01) \label{sent:i_plural_austin1}
           \item[] \gloss{My grandparents, they're a lot older than other people my age.}
-          \item Mes grands-parents, [i] parliont tout le français. (14:52, Austin Roy) \label{sent:i_plural_austin2}
-          \item[] \gloss{My grandparents, they all spoke French.}
-          \item Les vieilles mondes, [i] sont partis, to connais? (13:10, Floyd Kerry) \label{sent:i_plural_floyd}
+          \item Les vieilles mondes, [i] sont partis, to connais? (Floyd Kerry, 13:10) \label{sent:i_plural_floyd}
           \item[] \gloss{The old people, they're gone, you know?}
+          \item Mes grands-parents, [i] parliont tout le français. (Austin Roy, 14:52) \label{sent:i_plural_austin2}
+          \item[] \gloss{My grandparents, they all spoke French.}
         \end{enumerate}
 
         In general, applying these steps was a straightforward process.
@@ -804,12 +804,12 @@
         While their tokens of non-third person plural [i] had to be excluded as a result, they also provided solid evidence that F\&C speakers interpret [il] and [li] as distinct pronouns through the fact that they produced both, making them available to be socially meaningful.
         In Oliver's case, his use of [li] was accompanied by meta-linguistic commentary that made it clear that he was displaying his ability to speak what he called \foreign{couru vini}.
 
-        A final complication for \lexi{il}, \lexi{ils}, and \lexi{li} came from what has been interpreted in the literature as variability in the liaisons produced for \lexi{ils} in that the liaison can be the expected [z] or the unexpected [l] (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
+        A final complication for \lexi{il}, \lexi{ils}, and \lexi{li} came from what has been interpreted in the literature as variability in the liaisons produced for \lexi{ils} in that the liaison can be the typical [z] found in French varieties around the world or an atypical [l] that is common in Louisiana (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
         Among the current participants, Alice Lemaire, Lillian Himel, and Terry Guillot produced only [l] liaisons, although only Terry produced a significant number of tokens out of these three.
-        While this might suggest that a speakers such as Terry has one pronoun, \lexi{il}, that is used for both third person plural referents as well as various singular referents, evidence from other speakers supports interpreting all third person plural tokens with an [l] liaison as targeting \lexi{ils} in that others produced both [l] and [z] liaisons.
+        While this might suggest that a speaker such as Terry has one pronoun, \lexi{il}, that is used for both third person plural referents as well as various singular referents, evidence from other speakers supports interpreting all third person plural tokens with an [l] liaison as targeting \lexi{ils} in that others produced both [l] and [z] liaisons.
         Bruce Wiltz and Jack Munson, for instance, primarily used an [l] liaison, but each also produced one token of [ilz] before a vowel.
         On the other hand, Dennis Oubre and Lucille Royer produced mostly [z] liaisons before vowels but Dennis also had two tokens of [il] and Lucille one token.
-        These speakers' linguistic behavior point to the idea that there is some phonetic variation in the liaison of a single underlying pronoun, \lexi{ils}, thus those speakers who only produced [l] liaisons had their tokens coded as \lexi{ils}.
+        These speakers' linguistic behaviors point to the idea that there is some phonetic variation in the liaison of a single underlying pronoun, \lexi{ils}, thus those speakers who only produced [l] liaisons had their tokens coded as \lexi{ils}.
 
         % Many consontantal variants of je
         The example of \lexi{mo} exemplifies a frequent issue in which vowels are elided and thus create ambiguities in what the underlying pronoun actually is.
