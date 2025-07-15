@@ -891,7 +891,7 @@
         Finally, there are three other pronouns that have been described in the literature as having various phonetic realizations but all were realized with only one phonetic form in my data.
         Those include \lexi{vous-autres} as [vuzɔt], \lexi{eux} as [ø], and \lexi{eux-autres} as [øzɔt].
         Their counts were also extremely low.
-
+        While the goal of this section was to clarify how phonetic variants were aggregated for the sake of accurate counting of tokens, the issue of low count variants will be taken up in section \ref{sec:analysis_methods}.
 
         % vous-autres
           % Generally written with <-res>, probably due to its disjunctive use in SF, but no final consonants are attested in Louisiana even in liaison positions (i.e., no [r_V] nor [z_V])
@@ -915,10 +915,35 @@
           % For lexicalization, her evidence is that ça sont doesn't occur nor ça n'est pas, and while I can't rule out the possibility that it's lexicalized, this evidence feels weak to me
         % Klingler (2003 "Turn") gives examples of c'est as impersonal, equivalent to "it" (he seems to have meant expletive), but they could all be interpreted as "that" also (309-310)
 
-      \subsubsection{Other pronoun issues}
-        \label{sec:pronoun_issues}
-        % Exclusions due to low counts
-          % eux and eux-autres
+      \subsubsection{Pronoun types}
+        \label{sec:pronoun_types}
+        Having dealt with the phonetic forms that pronouns can take, there is still the issue of coding each token for its pronoun type.
+
+        \begin{table}[tbhp]
+          \caption{Subject pronouns attested in this study's corpus}
+          \label{tab:pronouns_attested}
+          \centering
+          \begin{tabular}{r | r | r}
+            \multicolumn{3}{c}{} \\
+                                   & Singular                                             & Plural \\
+            \hline
+            1st person             & \Sexpr{toString(names(tablesProType$firstSg))}       & \Sexpr{toString(names(tablesProType$firstPl))} \\
+            2nd person (T)         & \Sexpr{toString(names(tablesProType$secondSgT))}     & \Sexpr{toString(names(tablesProType$secondPl))} \\
+            2nd person (V)         & \Sexpr{toString(names(tablesProType$secondSgV))}     & \\
+            3rd person (M)         & \Sexpr{toString(names(tablesProType$thirdSgM))}      & \\
+            3rd person (F)         & \Sexpr{toString(names(tablesProType$thirdSgF))}      & \\
+            3rd person (N)         & \Sexpr{toString(names(tablesProType$thirdSgN))}      & \Sexpr{toString(names(tablesProType$thirdPl))} \\
+            demonstrative          & \Sexpr{toString(names(tablesProType$demonstrative))} & \\
+            \cline{2-3}
+            expletive              & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProType$expletive))}} \\
+            impersonal             & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProType$impersonal))}} \\
+            \multicolumn{3}{c}{} \\
+          \end{tabular}
+
+          {\footnotesize T $\to$ informal; V $\to$ formal; \\
+          M $\to$ masculine; F $\to$ feminine; N $\to$ no gender}
+        \end{table}
+        % Some 3sg neuter pronouns were produced (e.g., Austin using ça in the same way as English singular they) but are left out because they aren't being analyzed
 
         % c'est
           % The pronoun is either 1) demonstrative, 2) expletive, or some version of 3) 3rd person
@@ -1150,6 +1175,11 @@
         These congruencies in these constructions between French and Creole both suggest structural similarity and that it would be more sensible to treat [ape] as a preposition in Creole rather than placing in the ambiguous marker category.
     
     \subsection{Analyses carried out}
+        \label{sec:analysis_methods}
+        % Exclusions due to low counts
+          % eux and eux-autres
+
+
   \section{Results}
     \label{sec:pronoun_results}
     % Do pronouns covary?

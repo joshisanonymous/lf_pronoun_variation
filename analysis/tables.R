@@ -26,6 +26,22 @@ tablesPhonetic <- list(
   ye = tablePhonetic("yé")
 )
 
+# All attested variants for each pronoun type
+tablesProType <- list(
+  firstSg = tableProType("1sg"),
+  secondSgT = tableProType("2sg.T"),
+  secondSgV = tableProType("2sg.V"),
+  thirdSgF = tableProType("3sg.F"),
+  thirdSgM = tableProType("3sg.M"),
+  thirdSgN = tableProType("3sg"),
+  firstPl = tableProType("1pl"),
+  secondPl = tableProType("2pl"),
+  thirdPl = tableProType("3pl"),
+  demonstrative = tableProType("demo"),
+  expletive = tableProType("expl"),
+  impersonal = tableProType("imp")
+)
+
 # Structural pronoun tables
 tablesPredicate <- list(
   firstSg = tableSocial("1sg", "PredType"),
