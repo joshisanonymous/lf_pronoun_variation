@@ -918,6 +918,11 @@
       \subsubsection{Pronoun types}
         \label{sec:pronoun_types}
         Having dealt with the phonetic forms that pronouns can take, there is still the issue of coding each token for its pronoun type.
+        The possible pronoun types in the current data are summarized in Table \ref{tab:pronouns_attested} along with the variants that occurred for each.
+        The categories cover all possible person and number combinations, a T-V distinction for second person singular, and a gender distinction for third person singular.
+        Demonstrative, expletive, and impersonal pronouns types were also present in the data and so considered for analysis, although demonstratives were effectively categorical as only \Sexpr{tablesProType$demonstrative["ø"]} null token was found whereas all others were \lexi{ça}.
+        These three pronoun types were defined, respectively, as pronouns that are primarily deictic in nature, pronouns that have make no reference and do not contribute to the meaning of the proposition, and pronouns that have a generic reference.
+        While classifying most pronoun tokens was relatively straightforward, there were some more complicated cases which will be discussed in this section.
 
         \begin{table}[tbhp]
           \caption{Subject pronouns attested in this study's corpus}
@@ -928,7 +933,7 @@
                                    & Singular                                             & Plural \\
             \hline
             1st person             & \Sexpr{toString(names(tablesProType$firstSg))}       & \Sexpr{toString(names(tablesProType$firstPl))} \\
-            2nd person (T)         & \Sexpr{toString(names(tablesProType$secondSgT))}     & \Sexpr{toString(names(tablesProType$secondPl))} \\
+            2nd person (T)         & \Sexpr{toString(names(tablesProType$secondSgT))}     & \multirow{2}{*}{\Sexpr{toString(names(tablesProType$secondPl))}} \\
             2nd person (V)         & \Sexpr{toString(names(tablesProType$secondSgV))}     & \\
             3rd person (M)         & \Sexpr{toString(names(tablesProType$thirdSgM))}      & \\
             3rd person (F)         & \Sexpr{toString(names(tablesProType$thirdSgF))}      & \\
@@ -944,6 +949,19 @@
           M $\to$ masculine; F $\to$ feminine; N $\to$ no gender}
         \end{table}
         % Some 3sg neuter pronouns were produced (e.g., Austin using ça in the same way as English singular they) but are left out because they aren't being analyzed
+
+        In determining the possible pronoun types, an agnostic approach was taken for gender and animacy.
+        In other words, while evidence from the literature discussed in section \ref{sec:pronoun_structure} provided guidelines for what to expect, all possible person and number combinations were also each initially coded for all possible gender combinations (\foreign{i.e.}, masculine, feminine, mixed), and singular and plural third person tokens were all initially coded for animacy.\footnote{
+          Animacy is not relevant to first and second person pronouns unless one assumes that inanimate objects can speak or listen.
+        }
+
+        % ça, eux, eux-autres, and yé when referring to 3pl
+          % Code these as masculine when any one of the referents is masculine
+            % These are likely gender-less
+              % Papen & Rottet (1997:84) claimed as much for the first 3
+              % Neumann (1985:166) and Klingler (2003 "Turn":209) claimed as much for yé
+            % This groups them with ils, which Papen & Rottet (1997) also claim in genderless in LA (84), and ils in SF is nearly genderless
+          % Code these as feminine if they ever end up being clearly used for a group of exclusively female referents
 
         % c'est
           % The pronoun is either 1) demonstrative, 2) expletive, or some version of 3) 3rd person
@@ -971,14 +989,6 @@
           % Lean expletive when there is no clear referent
             % This will often be phrases that translate to something like "it is adj." where the "it" has no referent
           % C'est difficile de faire and il est difficile de faire will thus both be expletive
-
-        % ça, eux, eux-autres, and yé when referring to 3pl
-          % Code these as masculine when any one of the referents is masculine
-            % These are likely gender-less
-              % Papen & Rottet (1997:84) claimed as much for the first 3
-              % Neumann (1985:166) and Klingler (2003 "Turn":209) claimed as much for yé
-            % This groups them with ils, which Papen & Rottet (1997) also claim in genderless in LA (84), and ils in SF is nearly genderless
-          % Code these as feminine if they ever end up being clearly used for a group of exclusively female referents
 
         % Sometimes a 3pl pronoun can be making a generic reference (e.g., ça connaît pas s'il a venu where 'they' have not been specified at all in the context)
           % In these cases, these will be annotated as 3pl (masculine) rather than imp (impersonal)
