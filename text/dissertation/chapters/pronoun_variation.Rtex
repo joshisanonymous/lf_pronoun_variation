@@ -920,8 +920,8 @@
         Having dealt with the phonetic forms that pronouns can take, there is still the issue of coding each token for its pronoun type.
         The possible pronoun types in the current data are summarized in Table \ref{tab:pronouns_attested} along with the variants that occurred for each.
         The categories cover all possible person and number combinations, a T-V distinction for second person singular, and a gender distinction for third person singular.
-        Demonstrative, expletive, and impersonal pronouns types were also present in the data and so considered for analysis, although demonstratives were effectively categorical as only \Sexpr{tablesProType$demonstrative["ø"]} null token was found whereas all others were \lexi{ça}.
-        These three pronoun types were defined, respectively, as pronouns that are primarily deictic in nature, pronouns that have make no reference and do not contribute to the meaning of the proposition, and pronouns that have a generic reference.
+        Demonstrative, expletive, and impersonal pronoun types were also present in the data and so considered for analysis, although demonstratives were effectively categorical as only \Sexpr{tablesProType$demonstrative["ø"]} null token was found whereas all others were \lexi{ça}.
+        These latter three pronoun types were defined, respectively, as pronouns that are primarily deictic in nature, pronouns that make no reference and do not contribute to the meaning of the proposition, and pronouns that have a generic reference.
         While classifying most pronoun tokens was relatively straightforward, there were some more complicated cases which will be discussed in this section.
 
         \begin{table}[tbhp]
@@ -951,9 +951,44 @@
         % Some 3sg neuter pronouns were produced (e.g., Austin using ça in the same way as English singular they) but are left out because they aren't being analyzed
 
         In determining the possible pronoun types, an agnostic approach was taken for gender and animacy.
-        In other words, while evidence from the literature discussed in section \ref{sec:pronoun_structure} provided guidelines for what to expect, all possible person and number combinations were also each initially coded for all possible gender combinations (\foreign{i.e.}, masculine, feminine, mixed), and singular and plural third person tokens were all initially coded for animacy.\footnote{
+        In other words, while evidence from the literature discussed in section \ref{sec:pronoun_structure} provided guidelines for what to expect, all possible person and number combinations were initially coded for all possible gender combinations (\foreign{i.e.}, masculine, feminine, mixed), and singular and plural third person tokens were all initially coded for animacy\footnote{
           Animacy is not relevant to first and second person pronouns unless one assumes that inanimate objects can speak or listen.
-        }
+        }.
+        In doing so, some distinctions for gender and animacy were able to be ruled out.
+        For instance, Figure \ref{fig:1pl_gender} shows that all pronoun forms can refer to all gender combinations with the exception of \lexi{ça} with only \Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "ça",])} token and \lexi{vous-autres} also with only \Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "vous-autres",])} token.
+        Likewise, Figure \ref{fig:3sg_gender_animcy} makes it plainly evident that 3sg animacy is not expressed through pronoun choice as the distributions of 3sg.AF and 3sg.AM are essentially identical as are the distributions of 3sg.IF and 3sg.IM, despite the overall counts of inanimate pronouns being much smaller.
+        Gender, on the other hand, can be expressed in that \lexi{elle} is relegated to feminine referents only and \lexi{il} almost entirely to masculine referents.
+        For 3pl pronouns, the gender reference was very often ambiguous, but among those that made clear references for gender and animacy, Figure \ref{fig:3pl_gender_animcy} suggest that 3pl pronouns are neutral for both grammatical features.
+        Only \lexi{elles} was exclusive to feminine referents but was very infrequent whereas all other pronouns regularly referred to feminine, masculine, and feminine-masculine groups.
+        Again, the much smaller count for inanimate tokens makes it more difficult to draw conclusions, but from what is available, all 3pl pronouns can be used for both animate and inanimate reference save for the very rare \lexi{elles} not appearing for inanimate referents, and \lexi{yé} was absent for 3pl inanimate feminine referents.
+        The latter's presence for all other categories suggests that this was coincidental rather than impossible, however.
+
+        \begin{figure}[tbhp]
+          \caption{Distribution of 1pl pronouns by gender}
+          \label{fig:1pl_gender}
+          \centering
+          <<fig.asp = 0.5>>=
+          plotsGGender$firstPl
+          @
+        \end{figure}
+
+        \begin{figure}[tbhp]
+          \caption{Distribution of 3sg pronouns by gender and animacy-gender}
+          \label{fig:3sg_gender_animcy}
+          \centering
+          <<>>=
+          plotCombined3sgAnimateGender
+          @
+        \end{figure}
+
+        \begin{figure}[tbhp]
+          \caption{Distribution of 3pl pronouns by gender and animacy-gender}
+          \label{fig:3pl_gender_animcy}
+          \centering
+          <<>>=
+          plotCombined3plAnimateGender
+          @
+        \end{figure}
 
         % ça, eux, eux-autres, and yé when referring to 3pl
           % Code these as masculine when any one of the referents is masculine
