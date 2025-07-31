@@ -90,12 +90,16 @@ plotSocial <- function(table) {
     labs(x = "Pronoun", y = "Count")
 }
 
-plotPronoun <- function(df) {
-  ggplot(df, aes(x = ProUnder)) +
+plotPronoun <- function(df, rotate_labels = FALSE) {
+  plot <- ggplot(df, aes(x = ProUnder)) +
     geom_bar() +
     facet_wrap(. ~ ProType) +
     theme_bw() +
     labs(x = "Pronoun", y = "Count")
+  if(rotate_labels == TRUE) {
+    plot <- plot + theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  }
+  return(plot)
 }
 
 # Maps
