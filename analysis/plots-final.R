@@ -82,10 +82,10 @@ parishBar <- ggplot(
 #   theme_bw()
 
 # Combined plots --------------------------------------------------------------
-parishBarMap <- ggpubr::ggarrange(
-  ggpubr::ggarrange(mapraisedonly, mapresidenceonly, ncol = 2),
-  parishBar, nrow = 2
-)
+# parishBarMap <- ggpubr::ggarrange(
+#   ggpubr::ggarrange(mapraisedonly, mapresidenceonly, ncol = 2),
+#   parishBar, nrow = 2
+# )
 
 plotsGenderCombined <- ggarrange(
   plots = plotsGender, ncol = 2,

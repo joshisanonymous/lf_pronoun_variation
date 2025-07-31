@@ -179,5 +179,5 @@ homophByEthnicGroupTtest <- t.test(participants[participants$Ethnicity == "Creol
                                    participants[participants$Ethnicity == "Cajun",
                                                 "Network.Ethnic.Homophily"])
 
-source("maps.R")
+# source("maps.R")
 source("plots-final.R")
