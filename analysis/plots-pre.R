@@ -6,7 +6,7 @@ plotsAnimacy <- list(
 
 plotsGGender <- list(
   thirdSg = plotPronoun(subsetsGender$thirdSg),
-  firstPl = plotPronoun(subsetsGender$firstPl),
+  firstPl = plotPronoun(subsetsGender$firstPl, rotate_labels = TRUE),
   secondPl = plotPronoun(subsetsGender$secondPl),
   thirdPl = plotPronoun(subsetsGender$thirdPl)
 )
@@ -29,13 +29,11 @@ plotCombined1pl2plGender <- ggarrange(
 )
 
 plotCombined3sgAnimateGender <- ggarrange(
-  plotsAnimacy$thirdSg, plotsGGender$thirdSg,
-  plotsAnimateGender$thirdSg, plotsInanimateGender$thirdSg,
-  nrow = 4, draw = FALSE, newpage = FALSE
+  plotsGGender$thirdSg, plotsAnimateGender$thirdSg, plotsInanimateGender$thirdSg,
+  nrow = 3, draw = FALSE, newpage = FALSE
 )
 
 plotCombined3plAnimateGender <- ggarrange(
-  plotsAnimacy$thirdPl, plotsGGender$thirdPl,
-  plotsAnimateGender$thirdPl, plotsInanimateGender$thirdPl,
-  nrow = 4, draw = FALSE, newpage = FALSE
+  plotsGGender$thirdPl, plotsAnimateGender$thirdPl, plotsInanimateGender$thirdPl,
+  nrow = 3, draw = FALSE, newpage = FALSE
 )
