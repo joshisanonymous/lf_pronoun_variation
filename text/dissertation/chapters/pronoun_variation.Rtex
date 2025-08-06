@@ -955,13 +955,14 @@
           Animacy is not relevant to first and second person pronouns unless one assumes that inanimate objects can speak or listen.
         }.
         In doing so, some distinctions for gender and animacy were able to be ruled out.
-        For instance, Figure \ref{fig:1pl_gender} shows that all pronoun forms can refer to all gender combinations with the exception of \lexi{ça} with only \Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "ça",])} token and \lexi{vous-autres} also with only \Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "vous-autres",])} token.
+        For instance, Figure \ref{fig:1pl_gender} shows that all 1pl pronoun forms can refer to all gender combinations with the exception of \lexi{ça} with only \Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "ça",])} token and \lexi{vous-autres} also with only \Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "vous-autres",])} token.
         Likewise, Figure \ref{fig:3sg_gender_animcy} makes it plainly evident that 3sg animacy is not expressed through pronoun choice as the distributions of 3sg.AF and 3sg.AM are essentially identical as are the distributions of 3sg.IF and 3sg.IM, despite the overall counts of inanimate pronouns being much smaller.
         Gender, on the other hand, can be expressed in that \lexi{elle} is relegated to feminine referents only and \lexi{il} almost entirely to masculine referents.
-        For 3pl pronouns, the gender reference was very often ambiguous, but among those that made clear references for gender and animacy, Figure \ref{fig:3pl_gender_animcy} suggest that 3pl pronouns are neutral for both grammatical features.
+        For 3pl pronouns, the gender reference was very often ambiguous, but among those that did make clear references for gender and animacy, Figure \ref{fig:3pl_gender_animcy} suggest that 3pl pronouns are neutral for both grammatical features.
         Only \lexi{elles} was exclusive to feminine referents but was very infrequent whereas all other pronouns regularly referred to feminine, masculine, and feminine-masculine groups.
-        Again, the much smaller count for inanimate tokens makes it more difficult to draw conclusions, but from what is available, all 3pl pronouns can be used for both animate and inanimate reference save for the very rare \lexi{elles} not appearing for inanimate referents, and \lexi{yé} was absent for 3pl inanimate feminine referents.
+        Again, the much smaller count for inanimate tokens makes it more difficult to draw conclusions, but from what is available, all 3pl pronouns can be used for both animate and inanimate reference save for the very rare \lexi{elles} not appearing for inanimate referents and \lexi{yé} being absent for 3pl inanimate feminine referents.
         The latter's presence for all other categories suggests that this was coincidental rather than impossible, however.
+        Finally, gender for 2pl was also found to be an unimportant distinction as \lexi{vous-autres} was used for all possible genders with only \Sexpr{nrow(subsetsGender$secondPl[subsetsGender$secondPl$ProUnder == "vous",])} tokens of \lexi{vous} whose gender reference could be conclusively identified was produced.
 
         \begin{figure}[tbhp]
           \caption{Distribution of 1pl pronouns by gender}
@@ -990,6 +991,74 @@
           @
         \end{figure}
 
+        A grammatical feature that was significantly more difficult to accurately interpret for coding was the T-V distinction for 2sg pronouns to the extent that any conclusions drawn about these pronouns from the current data must be considered very tentative.
+        The coding decision itself consisted of determining whether tokens of primarily \lexi{tu}, \lexi{to}, \lexi{vous}, and \lexi{vou} were meant to be understand as T (informal) or V (formal) forms of 2sg.
+        As discussed in section \ref{sec:pronoun_social}, surface forms such as \lexi{tu} have been found in the literature to be used at times for V addressees, so while the question might appear to be answered by simply assuming that \lexi{tu} and \lexi{to} are always T forms and \lexi{vous} and \lexi{vou} are always V forms, that is not necessarily the case.
+        Contextually, the primary clue for whether T of V was intended was the age of the interlocutor, myself in most cases, in that the literature has consistently found that older interlocutors received V forms and younger T forms.
+        This generally coincided with my own participants' linguistic behavior when they explicitly commented on the T-V distinction.
+        One participants in her 60s appeared to be offended at one point because I was using \lexi{vous} with her which she explained was for people older than her.
+        However, another participant in her 70s who I addressed with \lexi{vous} quickly asked me to switch to \lexi{tu}, joking that we had known each other for several minutes and that was long enough that we could drop the formality.
+        Age was thus an indication of intention but not completely sufficient.
+        
+        Another strategy was to use to rely on deviations from a participant's speech patterns.
+        For instance, if a participant consistently referred to me using \lexi{tu} or \lexi{to} and then suddenly referred to me using \lexi{vous} or \lexi{vou}, this might be an indication that the latter were meant to be understood as T forms despite their surface structure.
+        However, this was also not fully sufficient because it could have also meant that the former were meant to be understood as V forms instead.
+        Casting even more doubt on this strategy was the fact that some participants appeared to have more eratic patterns.
+        One such case was Rose Louvière who would address me using \lexi{tu} for subject pronouns but \lexi{vous} for disjunctive pronouns as in sentences \ref{sent:rose_TV1} and \ref{sent:rose_TV2}.
+        Again, while such patterns were instructive, they were not completely sufficient.
+
+        \begin{enumerate}[resume=sentences]
+          \item Ça peut tour asteur, tu vois? (Rose Louvière, 22:54) \label{sent:rose_TV1}
+          \item[] \gloss{They can tour now, you see?}
+          \item Il est plus gros que vous (Rose Louvière, 22:32) \label{sent:rose_TV2}
+          \item[] \gloss{He is bigger than you.}
+        \end{enumerate}
+
+        A final aid for determining T-V intentions for 2sg pronouns was the translation task that some participants completed.
+        Indeed, this was the principal method of data collection in past studies that looked as subject pronouns in that contexts could be created that would more conclusively elicit either T forms or V forms, something that is not very possible using the sociolinguistic interviews on which the present study primarily relied.
+        The translation task involved speakers of all ages and relationships addressing each other, such as a child addressing their grandfather.
+        While quite helpful, there remains a question of whether participants who completed the task were truly placing themselves in all the various roles when choosing which pronouns to use.
+
+        Relatedly, whereas 2sg pronouns were difficult to conclusively code as T or V forms, the task was impossible for 2pl as only \Sexpr{nrow(tokens[tokens$ProType == "2pl",])} tokens were produced.
+        Likewise, the relevance of gender for 2pl pronouns was also not able to be determined.
+        All tokens were instead simply aggregated into one category.
+        % vous (sg.+formal) vs vous (pl.)
+          % Use context to distinguish between thhem
+            % e.g., If I've only been tutoyer'd by the participant and then a relation of mine is mentioned and then there's suddenly a vous, it's likely plural
+
+        The construction \lexi{c'est} presented a different sort of complication for coding.
+        As \textcite{brown_pronominal_1988} did (pp.~173-174), tokens of \lexi{c'} were coded as \lexi{ça} for this study, but they were not interpreted in the same way.
+        While \textcite{brown_pronominal_1988} described \lexi{c'est} as an impersonal expression (pp.~130-131) -- by which she likely meant expletive -- this was only one of the possible uses acknowledged here, the other being demonstrative or the closely related presentative function.
+        It is also tempting to consider \lexi{c'est} as being third person and definite, especially in translating into English where \lexi{it} would often be used rather than the demonstrative \lexi{this/that}, but it seems more likely that the functional range of \lexi{it}-\lexi{this/that} is not the same as \lexi{il/elle/li}-\lexi{c'/ça}.
+        Even in Hexagonal French, this proves to be the case as can be seen in the acceptability of sentences \ref{sent:it_vs_that_unaccept} and \ref{sent:it_vs_that_accept}, where direct translations to English, as provided here, would lead to the opposite result for acceptability judgements.
+        This is even more evidentally the case in Louisiana where \lexi{il/elle/li est} for inanimate referents or expletive functions is essentially completely absent as \lexi{c'est} is used in these cases.
+        As a result, almost all tokens of \lexi{c'est} were coded as demonstrative/presentative including in interrogatives, such as in sentence \ref{sent:interrogative_cest}, as those are perhaps best interpreted as presentatives.
+        Otherwiuse, tokens that were clearly expletive such as sentence \ref{sent:judy_cest} were coded as such and \Sexpr{nrow(tokens[tokens$SubjPred == "c'est" & tokens$ProType == "3pl",])} tokens that strongly suggested 3pl reference were also coded as such.
+
+        \begin{enumerate}[resume=sentences]
+          \item *Le livre, il est un roman intéressant. \label{sent:it_vs_that_unaccept}
+          \item[] \gloss{The book, it's an interesting novel.}
+          \item Le livre, c'est un roman intéressant. \label{sent:it_vs_that_accept}
+          \item[] \gloss{*The book, that's an interesting novel.}
+          \item Quoi c'est l'expression, love conquers all? (Brian Roger, 5:28) \label{sent:interrogative_cest}
+          \item[] \gloss{What's the expression, love conquers all?}
+          \item C'est trop chaud. (Judy Soileau Courtade, 9:15) \label{sent:judy_cest}
+          \item[] \gloss{It's too hot. (the weather)}
+        \end{enumerate}
+        
+        A pronoun that can take up truly impersonal functions is \lexi{on}.
+        In this case, there is the complication of deciding whether tokens of \lexi{on} are impersonal or are making first person plural reference \parencite{laberge_anything_1980} as either interpretation often works without creating confusion.
+        Indeed, somewhat analogously, the English pronoun \lexi{we} can be impersonal or 1pl \parencite{kitagawa_impersonal_1990}, suggesting that this dual function is not terribly unusual, and one might guess that is because of the shared aspects of the semantics of both uses.
+        Even in contexts where a fairly impersonal meaning is being expressed, as in sentence \ref{sent:ambiguous_on}, it is not entirely clear that the intended meaning is not \gloss{we} in the sense of \gloss{we, the people of Louisiana}.
+        The coding strategy for ambiguous tokens of \lexi{on} was therefore based on what would least skew the distributions for impersonal pronouns and 1pl pronouns.
+        As it was expected and in fact came to be, clearly impersonal \lexi{on} would be rare (\Sexpr{nrow(tokens[tokens$ProType == "imp" & tokens$ProUnder == "on",])} tokens) whereas clearly 1pl \lexi{on} would be very frequent (\Sexpr{nrow(tokens[tokens$ProType == "1pl" & tokens$ProUnder == "on",])} tokens), coding ambiguous tokens as 1pl would be the more conservative choice and thus what was done here.
+
+        \begin{enumerate}[resume=sentences]
+          \item Si c'est on est après parler avec quelqu'un, on dit charrer. (Jerry Pierre Quintero, 0:32) \label{sent:ambiguous_on}
+          \item[] \gloss{If it's that \emph{one is/we are} speaking with someone, \emph{one/we} say charrer.}
+        \end{enumerate}
+
+        % Lagniappe -----------------------------------------
         % ça, eux, eux-autres, and yé when referring to 3pl
           % Code these as masculine when any one of the referents is masculine
             % These are likely gender-less
@@ -998,72 +1067,29 @@
             % This groups them with ils, which Papen & Rottet (1997) also claim in genderless in LA (84), and ils in SF is nearly genderless
           % Code these as feminine if they ever end up being clearly used for a group of exclusively female referents
 
-        % c'est
-          % The pronoun is either 1) demonstrative, 2) expletive, or some version of 3) 3rd person
-          % Lean demonstrative when referent is clearly abstract, when it feels like a presentative function, or when it feels like interpreting the pronoun as "this/that" rather than "it" is the only possibility
-            % Abstract in this case means more like referring to an idea expressed in a phrase rather than a non-material thing (e.g., un nom is not abstract but il m'a dit qu'il aimait le sucre is abstract)
-            % Presentative example: le seul qui était pas cadien c'était mon ancêtre
-              % Interrogatives are treated as presentatives, though this might be worth going back over (e.g., quoi c'est l'expression)
-                % This seems to align with how French dictionaries list it
-          % Lean 3rd person when the referent is clear and concrete and it's possible to rule out a demonstrative function
-            % It's obviously not possible to be certain that many cases are not demonstrative, so this will be a rather rare coding
-              % Indeed, after having finished coding, this turned out to be rare. It's tempting to assume 3rd person when the phrase would be translated into English as it is and in fact sounds awkward in English as ths/that is, but without access to speakers' underlying grammars, it's not possible to rule out that demonstratives simply have far larger distributions in Louisiana French than in English. In fact, even some of the cases from SF (see next right below this) suggest just that for SF let alone for LF
-            % What follows the verb can help distinguish between a presentative function (coded as demonstrative) vs a descriptive function (coded as 3rd person)
-              % For SF, this looks like:
-              % le livre, c'est un livre amusant > presentative (demonstrative)
-              % le livre, c'est un roman > presentative (demonstrative)
-              % le livre, il est amusant > descriptive (3sg)
-                % In LF, if this comes out as c'est amusant, it should be coded as 3sg
-              % le livre, c'est sur l'étagère > demonstrative
-              % le livre, il est sur l'étagère > descriptive (3sg)
-                % In SF, then, the prepositional complement doesn't indicate whether a presentative/demonstrative pronoun is required or a descriptive one.
-                % In LF, code as presented on the surface for lack of anything else that could clarify.
-                  % c'est > demonstrative
-                  % il est > descriptive (3sg)
-              % l'homme, il est dans la chambre > descriptive (3sg)
-          % Lean expletive when there is no clear referent
-            % This will often be phrases that translate to something like "it is adj." where the "it" has no referent
-          % C'est difficile de faire and il est difficile de faire will thus both be expletive
-
         % Sometimes a 3pl pronoun can be making a generic reference (e.g., ça connaît pas s'il a venu where 'they' have not been specified at all in the context)
           % In these cases, these will be annotated as 3pl (masculine) rather than imp (impersonal)
             % Masculine because the referent is likely something like "people" or "such and such group of people" and that group is unlikely to be exclusively female.
           % Impersonal you for instance is clearly not the person being spoken to, but generic they could involve an actual imagined referent
 
-        % tu as vouvoiement and vous as tutoiement
-          % Directed at myself
-            % Judge based on the pattern leading up to the token
-              % e.g., If tu is used several times and then suddenly a singular vous, code as a T form
-            % If no patterns are yet established, code a tu as T and vous as V
-              % Exception: If something about the translation task indicates that they shouldn't be accepted as is
-          % Directed at others
-            % Patterns are unlikely, but judge based on patterns if they exist
-            % When lacking a pattern, judge by translation task results and/or literature suggestions for appropriateness
-              % Translation task: Things like server to diners and children to grandparents will indicate T-V patterns
-              % Literature:
-                % Rottet (1995) found it to be related to age, with a familiar elderly woman requesting vous and others requesting tu  because vous made them feel old (198)
-                  % This coincides with my experience, one participant in her 60s explicitly telling me that she wasn't old enough for vous
-                % Rottet (1995) also asked elderly participants about addressing their parents and some used tu while others used vous
-          % Of note is that some speakers are clearly very out of practice with vous as some, when addressing me, would say things like tu comprends or tu vois but would use vous in non subject positions like il est plus gros que vous (Rose Louvière 22:32)
+        % Subordinate clause stuff
+          % Finally, a small remark must be made on subordinate clauses.
+          % Given that object relative pronouns in both French and Creole in Louisiana are frequently null (\citeauthor{brown_pronominal_1988}, \citeyear[p.~125]{brown_pronominal_1988}; \citeauthor{klingler_if_2003}, \citeyear[p.~225]{klingler_if_2003}; \citeauthor{rottet_language_1995}, \citeyear[p.~223]{rottet_language_1995}),\footnote{
+          %   This seems to be a change in progress as \textcite{parr_glossary_1940} described it as ``rare'' (p.~xiii), but null object relatives appeared to be the norm for my participants.
+          % } it was at times unclear whether a pronoun was the object of the main clause with an infinitive in the subordinate clause or the subject of a finite subordinate clause.
 
-        % vous (sg.+formal) vs vous (pl.)
-          % Use context to distinguish between them
-            % e.g., If I've only been tutoyer'd by the participant and then a relation of mine is mentioned and then there's suddenly a vous, it's likely plural
-          % When used as impersonal, it doesn't matter which interpretation of vous it could be because it's coded as impersonal
+          % \begin{enumerate}[resume=sentences]
+          %   \item Quand li'tait dit nous-autres pour fait des affaires... (Floyd Kerry, 14:34)
+          %   \item[] \gloss{When she would tell us to do things...}
+          %   \item {}[quand li'tait dit nous-autres [pour fait des affairs]]
+          %   \item {}[quand li'tait dit]
+          % \end{enumerate}
 
-        % on
-          % This could be 1pl or imp
-          % Default to 1pl when any referent group that includes the speaker is a possible and valid interpretation
-            % This effectively leaves very generalized statements as the only ones interpreted as impersonal, though even these may be questionable sometimes
-              % Example: Comment on dit ça?
-            % While including cases of on that are indeed impersonal in the group of 1pl would not really skew the results for 1pl since all those who use on at all have very clear cases of using it as 1pl and very few if any cases of using anything else, including cases of on as impersonal if they are in fact 1pl would very much skew the impersonal results as that group includes many cases of tu (and maybe to?)
-          % This can be adjusted later if the translation tasks uncover a clearer patterning for on as impersonal
-
-        % Some subordinate clause pronouns are excluded, especially for Creole-oriented speakers, because it is unclear whether the subordinate verb is finite or not.
-          % This is often the case when pour is used between clauses, a situation that is difficult to analyze (Rottet 1995:274-276)
-          % e.g., "quand li'tait dit nous-autres pour fait des affaires" (Floyd Kerry:14:34)
-            % [quand li'tait dit nous-autres [pour fait des affaires]]
-            % [quand li'tait dit [nous-autres pour fait des affaires]]
+          % Some subordinate clause pronouns are excluded, especially for Creole-oriented speakers, because it is unclear whether the subordinate verb is finite or not.
+            % This is often the case when pour is used between clauses, a situation that is difficult to analyze (Rottet 1995:274-276)
+            % e.g., "quand li'tait dit nous-autres pour fait des affaires" (Floyd Kerry:14:34)
+              % [quand li'tait dit nous-autres [pour fait des affaires]]
+              % [quand li'tait dit [nous-autres pour fait des affaires]]
     
     \subsection{Predicates following the pronoun}
       % Positing one underlying form when there are multiple surface forms
