@@ -1092,6 +1092,16 @@
               % [quand li'tait dit [nous-autres pour fait des affaires]]
     
     \subsection{Predicates following the pronoun}
+      As briefly discussed in section \ref{sec:pronoun_structure}, the type of verb that follows a subject pronoun has previously been found to impact subject pronoun realization, particularly for 3pl pronouns.
+      The data here was thus coded for not only the verb type but the predicate type as there is not always a finite verb in a finite clause, and here I am counting the copula as a verb.
+      The levels used for predicate time here include \Sexpr{levels(tokens$PredType)[1]}, \Sexpr{levels(tokens$PredType)[2]}, \Sexpr{levels(tokens$PredType)[3]}, \Sexpr{levels(tokens$PredType)[4]}\footnote{
+        While a preposition itself would be difficult to categorize as a predicate, a prepositional phrase is not, so the term \lexi{preposition} here is more accurately shorthand for \lexi{prepositional phrase}.
+      }, \Sexpr{levels(tokens$PredType)[5]}, and \Sexpr{levels(tokens$PredType)[6]}.
+      The most important of these levels is auxiliary verbs which I limit primarily to the copula (\lexi{être}), verbs that can also means \gloss{to have} (\lexi{avoir} and \lexi{gain}), and verbs that can also mean \gloss{to go} (\lexi{aller} but also some very rare tokens of \lexi{courir}, \lexi{gone}, and \lexi{venir}).
+      These latter two were only coded as auxiliary when they were not in fact the main lexical verb in the clause but rather played only an auxiliary role.
+      Previous studies and my own pilot study suggest that these specific auxiliaries have an impact on subject pronoun realization but not necessarily other auxiliaries, meaning those that always expressed capability or obligation.
+      These latter auxiliaries were coded as modal rather than auxiliary.
+
       % Positing one underlying form when there are multiple surface forms
         % This is relevant for the random effect of following word
         % In most cases, when the standard French form is clear from the surface form, it was assumed that these were the same verb. For example...
@@ -1125,12 +1135,6 @@
           % gain/avoir pour
             % Code as modal since this is uninterpretable from its component parts and expresses necessity
 
-      % être
-        % Copulas can be left out
-          % In equative questions (what's your name) and equative affirmative declaratative sentences where the subject is a pronoun in Pointe Coupee Creole (Klingler 2003 "Turn":292/331)
-        % Do not code a null être
-          % Coding these instead as predicate adjectives or predicate nominal or predicate prepositional phrase provides more new information (we already know that auxiliaries yield ils) while still answering the question of whether non-verbal predicates will also promote ils
-
       % Verbs that can be lexical or auxiliary
         % aller
           % Treated as auxiliary when used purely to indicate tense
@@ -1143,6 +1147,12 @@
             % This is especially true given that Creole in Louisiana has been described as having frequent copula deletion, making the distinction between verb and adjective particularly unclear
           % All tokens were treated as verbs, ultimately
             % Some cases were clearly auxiliary, such as Tracy Roth saying "mo pas gone payer pour toi" (33:14), indicating future tense
+
+      % être
+        % Copulas can be left out
+          % In equative questions (what's your name) and equative affirmative declaratative sentences where the subject is a pronoun in Pointe Coupee Creole (Klingler 2003 "Turn":292/331)
+        % Do not code a null être
+          % Coding these instead as predicate adjectives or predicate nominal or predicate prepositional phrase provides more new information (we already know that auxiliaries yield ils) while still answering the question of whether non-verbal predicates will also promote ils
 
       % Verbs that were only treated as lexical
         % ça fait (que)
