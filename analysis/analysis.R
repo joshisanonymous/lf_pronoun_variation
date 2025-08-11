@@ -23,9 +23,6 @@ library(dplyr)
 library(lubridate)
 source("functions.R")
 
-# table(droplevels(tokens[tokens$PredType == "modal" & (tokens$PredUnder == "faire" |
-                        # tokens$PredUnder == "se faire"), "Name"])) # Change to lexical
-
 ######################
 # Data and variables # -------------------------------------------------------
 ######################
