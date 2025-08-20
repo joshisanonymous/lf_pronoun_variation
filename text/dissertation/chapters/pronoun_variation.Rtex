@@ -920,7 +920,7 @@
         Having dealt with the phonetic forms that pronouns can take, there is still the issue of coding each token for its pronoun type.
         The possible pronoun types in the current data are summarized in Table \ref{tab:pronouns_attested} along with the variants that occurred for each.
         The categories cover all possible person and number combinations, a T-V distinction for second person singular, and a gender distinction for third person singular.
-        Demonstrative, expletive, and impersonal pronoun types were also present in the data and so considered for analysis, although demonstratives were effectively categorical as only \Sexpr{tablesProType$demonstrative["ø"]} null token was found whereas all others were \lexi{ça}.
+        Demonstrative, expletive, and impersonal pronoun types were also present in the data and so considered for analysis, although demonstratives were effectively categorical as only \Sexpr{tablesProTypeAll$demonstrative["ø"]} null token was found whereas all others were \lexi{ça}.
         These latter three pronoun types were defined, respectively, as pronouns that are primarily deictic in nature, pronouns that make no reference and do not contribute to the meaning of the proposition, and pronouns that have a generic reference.
         While classifying most pronoun tokens was relatively straightforward, there were some more complicated cases which will be discussed in this section.
 
@@ -932,16 +932,16 @@
             \multicolumn{3}{c}{} \\
                                    & Singular                                             & Plural \\
             \hline
-            1st person             & \Sexpr{toString(names(tablesProType$firstSg))}       & \Sexpr{toString(names(tablesProType$firstPl))} \\
-            2nd person (T)         & \Sexpr{toString(names(tablesProType$secondSgT))}     & \multirow{2}{*}{\Sexpr{toString(names(tablesProType$secondPl))}} \\
-            2nd person (V)         & \Sexpr{toString(names(tablesProType$secondSgV))}     & \\
-            3rd person (M)         & \Sexpr{toString(names(tablesProType$thirdSgM))}      & \\
-            3rd person (F)         & \Sexpr{toString(names(tablesProType$thirdSgF))}      & \\
-            3rd person (N)         & \Sexpr{toString(names(tablesProType$thirdSgN))}      & \Sexpr{toString(names(tablesProType$thirdPl))} \\
-            demonstrative          & \Sexpr{toString(names(tablesProType$demonstrative))} & \\
+            1st person             & \Sexpr{toString(names(tablesProTypeAll$firstSg))}       & \Sexpr{toString(names(tablesProTypeAll$firstPl))} \\
+            2nd person (T)         & \Sexpr{toString(names(tablesProTypeAll$secondSgT))}     & \multirow{2}{*}{\Sexpr{toString(names(tablesProTypeAll$secondPl))}} \\
+            2nd person (V)         & \Sexpr{toString(names(tablesProTypeAll$secondSgV))}     & \\
+            3rd person (M)         & \Sexpr{toString(names(tablesProTypeAll$thirdSgM))}      & \\
+            3rd person (F)         & \Sexpr{toString(names(tablesProTypeAll$thirdSgF))}      & \\
+            3rd person (N)         & \Sexpr{toString(names(tablesProTypeAll$thirdSgN))}      & \Sexpr{toString(names(tablesProTypeAll$thirdPl))} \\
+            demonstrative          & \Sexpr{toString(names(tablesProTypeAll$demonstrative))} & \\
             \cline{2-3}
-            expletive              & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProType$expletive))}} \\
-            impersonal             & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProType$impersonal))}} \\
+            expletive              & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProTypeAll$expletive))}} \\
+            impersonal             & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProTypeAll$impersonal))}} \\
             \multicolumn{3}{c}{} \\
           \end{tabular}
 
@@ -1259,14 +1259,99 @@
     
     \subsection{Analyses carried out}
         \label{sec:analysis_methods}
+        To help better understand if subject pronouns can function as markers of Creole and/or Cajun identities, binomial and multinomial logistic regression models were built for each pronoun type.
+        Binomial models were used when a pronoun type consisted of only two levels and multinomial when it consisted of more than two levels.
+        While multinomial models are not common in the literature, they have been successfully deployed in previous work on Louisiana pronouns \parencite{gudmestad_variationist_2022}, and so were chosen here to avoid the need to choose which pronoun levels to aggregate together.
+
+        While Table \ref{tab:pronouns_attested} showed all of the pronouns that appeared in the data here for each pronoun type, not all of these were used as levels due to some having extremely low counts.
+        The pronoun \lexi{ça} was dropped from all pronoun types other than 3pl, demonstrative, and expletive.
+        As discussed in section \ref{sec:pronoun_structure}, this pronoun is in most categories so semantically deficient that it can stand in as a resumptive pronoun for any referent.
+        Its use for most pronoun types was thus relegated to no more than three tokens.
+        Likewise, \lexi{nous-autres} and \lexi{vous-autres} each only appeared once as 1pl pronouns, \lexi{il} only appeared for a feminine referent twice, and \lexi{elle} only appeared for a masculine referent once, all of which were excluded for modeling purposes.
+        Null pronouns appeared for several pronoun types but no more than four times for any other than 1sg and expletive and were therefore excluded from all but these latter two categories.
+        The pronoun \lexi{li}, while common for 3sg in both genders, only had two tokens that were expletive and so were excluded from that pronoun type.
+        Finally, impersonal pronouns raised a more difficult question with \lexi{vous}.
+        While only one token of \lexi{vou} appeared and so could be easily excluded, there were \Sexpr{tablesProTypeAll$impersonal["vous"]} tokens of \lexi{vous}.
+        As these were produced by three different speakers, they were ultimately included for modeling.
+
+        Two pronoun types were unable to be modeled due to their very low frequencies in the data: 2sg.V and 2pl.
+        These summed to \Sexpr{sum(tablesProTypeFinal$secondSgV)} and \Sexpr{sum(tablesProTypeFinal$secondPl)} tokens, respectively.
+        Participants were often made aware that they were free to ask questions during interviews to help elicit second person pronouns, but as their interlocutor was myself, a sole non-senior person, there were few opportunities to use a V pronoun or a plural pronoun outside of reported speech when telling stories and translation tasks.
+        On the other hand, 2sg.T pronouns were relatively common, at least to the extent that it could be established that a pronoun was meant to be understood as a T form (see section \ref{sec:pronoun_types} for discussion of this issue).
+        Table \ref{tab:pronouns_modeled} provides a summary of pronoun types and their levels as used for modeling where the first level was coded as the reference level.
+
+        \begin{table}[tbhp]
+          \caption{Subject pronoun types with their levels used for final modeling}
+          \label{tab:pronouns_modeled}
+          \centering
+          \begin{tabular}{r | r | r}
+            \multicolumn{3}{c}{} \\
+                                   & Singular                                                    & Plural \\
+            \hline
+            1st person             & \Sexpr{toString(names(tablesProTypeFinal$firstSg))}         & \Sexpr{toString(names(tablesProTypeFinal$firstPl))} \\
+            2nd person (T)         & \Sexpr{toString(names(tablesProTypeFinal$secondSgT))}       & \textbf{\multirow{2}{*}{\Sexpr{toString(names(tablesProTypeFinal$secondPl))}}} \\
+            2nd person (V)         & \textbf{\Sexpr{toString(names(tablesProTypeFinal$secondSgV))}} & \\
+            3rd person (M)         & \Sexpr{toString(names(tablesProTypeFinal$thirdSgM))}        & \\
+            3rd person (F)         & \Sexpr{toString(names(tablesProTypeFinal$thirdSgF))}        & \\
+            demonstrative          & \textbf{\Sexpr{toString(names(tablesProTypeFinal$demonstrative))}} & \\
+            \cline{2-3}
+            expletive              & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProTypeFinal$expletive))}} \\
+            impersonal             & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProTypeFinal$impersonal))}} \\
+            \multicolumn{3}{c}{} \\
+          \end{tabular}
+
+          {\footnotesize T $\to$ informal; V $\to$ formal \\
+          M $\to$ masculine; F $\to$ feminine \\
+          \textbf{bold} $\to$ pronoun type not modeled}
+        \end{table}
+
+        Regardless of whether building a binomial or multinomial model, the same factors were used.
+        In terms of an \code{R} formula, this looks like Equation \ref{eq:regression_model} where each factor has the levels shown in Table \ref{tab:predictor_levels}.
+        Just as with each pronoun type, the first level for each factor is the reference level that was used.
+        The only structural factor modeled was the predicate type as no other structures have previously been found to have an impact on subject pronoun realization.
+        All other factors were social in nature, the most important of which was naturally what is called here ethnicity.
+        It is worth repeating that this is more of an agnostically used term as the object under investigation in this study is whether Creole and Cajun constitute races in Louisiana (\foreign{i.e.}, whether they are racialized categories).
+        The use of the term \lexi{ethnicity} in listing model factors is therefore not meant to represent a conclusion to this question.
+        Relatedly, participants were also asked how they identify racially, but as this yielded a number of different responses with very low counts, self-identified race could not be included in models but did yield results worthy of discussion here.
+
+        All social factors were discussed in section \ref{sec:participants}, but some additional notes can be made here.
+        First, several social factors are very likely correlated.
+        Those with a high attained education, for instance, are likely to have white collar jobs and also likely to have some experience with institutional instruction of French.
+        Additionally, participants' F\&C background could cover several factor levels, but only those that appeared to be their primary context for the acquisition of F\&C were assigned to them in order to avoid having many different categories.
+        In most cases, this meant coding their F\&C background as whereever their first exposure to F\&C occurred unless they explicitly described that time as not being where they truly started to use the language.
+        For instance, Judy Soileau Courtade grew up with F\&C all around her but explained to me that she did not make a concerted effort to use the language until she was married. % Verify that this is really the moment when she started
+        This approach to coding means that several participants' institutional exposure is not directly modeled, but this was expected to be related to educational attainement and so still maintained with that latter factor.
+        Finally, speaker and predicate were included as random effects as is standard for both.
+        For predicates, this helps prevent having the results skewed by frequently repeated fixed phrases much like using word as a random effect when building models of variation in vowels.
+
+        \begin{enumerate}[label=\roman*., ref=\roman*, series=equations]
+          \item Pronoun Type $\sim$ Predicate Type + Ethnicity + Gender + Occupation Type + Education Attained + Birth Year + F\&C Background + IE Ethnic Homophily:Ethnicity + (1|Speaker) + (1|Predicate) \label{eq:regression_model}
+        \end{enumerate}
+
+        \begin{table}[tbhp]
+          \caption{Levels for each factor that was included in models}
+          \label{tab:predictor_levels}
+          \centering
+          \begin{tabular}{r | r}
+            \multicolumn{2}{c}{} \\
+            Factor                        & Levels \\
+            \hline
+            Predicate Type                & \Sexpr{toString(levels(tokens$PredType))} \\
+            Ethnicity                     & \Sexpr{toString(levels(tokens$Ethnicity))} \\
+            Gender                        & \Sexpr{toString(levels(tokens$Gender))} \\
+            Occupation Type               & \Sexpr{toString(levels(tokens$Occupation))} \\
+            Education Attained            & \Sexpr{toString(levels(tokens$Education))} \\
+            F\&C Background               & Naturalistic, Personal, Institutional \\ % Update later with code for levels
+            \multicolumn{2}{c}{} \\
+          \end{tabular}
+        \end{table}
         
-        % Models
-
-        % Pronoun exclusions due to low counts
-          % eux and eux-autres
-
-        % Social variables that could not be included
-
+        A final two social factors were not modeled here but will be discussed whereas another was modeled here but will not be discussed until chapter \ref{chap:personal_networks}.
+        The two unmodeled factors are place of residence and place where the participant was raised.
+        Exact towns were recorded for all speakers for both of these factors, but even when aggregating by parish, the counts for each level were not high enough to reliably model.
+        However, the results are interesting as-is and so will be shown with the caveat that no real conclusions can be drawn from them.
+        The factor of IE ethnic homophily was modeled but will not be discussed in this chapter as this relates to the social network questions asked in the next chapter.
+        The calculation for IE homophily as well as the explanation of why it was modeled as having an interaction with ethnicity will all be discussed there.
 
   \section{Results}
     \label{sec:pronoun_results}
