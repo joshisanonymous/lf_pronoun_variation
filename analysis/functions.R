@@ -28,8 +28,13 @@ tablePhonetic <- function(pronoun) {
   table(droplevels(tokens[tokens$ProUnder == pronoun, "Pronoun"]))  
 }
 
-tableProType <- function(protype) {
-  table(droplevels(tokensAll[tokensAll$ProType == protype, "ProUnder"]))  
+tableProType <- function(protype, subset = "all") {
+  if(subset == "all") {
+    table(droplevels(tokensAll[tokensAll$ProType == protype, "ProUnder"]))    
+  }
+  else if(subset == "final") {
+    table(droplevels(tokens[tokens$ProType == protype, "ProUnder"]))    
+  }
 }
 
 # Social tables

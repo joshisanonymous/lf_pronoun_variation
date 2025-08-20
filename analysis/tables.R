@@ -27,7 +27,7 @@ tablesPhonetic <- list(
 )
 
 # All attested variants for each pronoun type
-tablesProType <- list(
+tablesProTypeAll <- list(
   firstSg = tableProType("1sg"),
   secondSgT = tableProType("2sg.T"),
   secondSgV = tableProType("2sg.V"),
@@ -40,6 +40,22 @@ tablesProType <- list(
   demonstrative = tableProType("demo"),
   expletive = tableProType("expl"),
   impersonal = tableProType("imp")
+)
+
+# Attested variants for each pronoun type kept for final modeling
+tablesProTypeFinal <- list(
+  firstSg = tableProType("1sg", subset = "final"),
+  secondSgT = tableProType("2sg.T", subset = "final"),
+  secondSgV = tableProType("2sg.V", subset = "final"),
+  thirdSgF = tableProType("3sg.F", subset = "final"),
+  thirdSgM = tableProType("3sg.M", subset = "final"),
+  thirdSgN = tableProType("3sg", subset = "final"),
+  firstPl = tableProType("1pl", subset = "final"),
+  secondPl = tableProType("2pl", subset = "final"),
+  thirdPl = tableProType("3pl", subset = "final"),
+  demonstrative = tableProType("demo", subset = "final"),
+  expletive = tableProType("expl", subset = "final"),
+  impersonal = tableProType("imp", subset = "final")
 )
 
 # Structural pronoun tables

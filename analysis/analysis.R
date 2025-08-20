@@ -89,7 +89,7 @@ tokens <- subset(tokens, !(ProType == "3sg.M" & (ProUnder == "elle" | ProUnder =
 tokens <- subset(tokens, !(ProType == "3pl" & (ProUnder == "elles" | ProUnder == "eux" | ProUnder == "eux-autres" | ProUnder == "ø")))
 tokens <- subset(tokens, !(ProType == "demo" & ProUnder == "ø"))
 tokens <- subset(tokens, !(ProType == "expl" & ProUnder == "li"))
-tokens <- subset(tokens, !(ProType == "imp" & ProUnder == "ø"))
+tokens <- subset(tokens, !(ProType == "imp" & (ProUnder == "ø" | ProUnder == "vou")))
 tokens <- droplevels(tokens)
 rownames(tokens) <- NULL
 
@@ -128,11 +128,6 @@ indOccGend <- fisher.test(table(participants$Occupation, participants$Ethnicity)
 
 # Pronoun Models #
   ##############
-
-# It may be beneficial to split up verb type into more than just
-# auxiliary, modal, and lexical based on Dubois (2001) and Gudmestad &
-# Carmichael (2022), which suggest 1sg effects for être vs avoir and
-# verbs of opinion/belief.
 
 # logitModels <- list(
 #   firstSg = multinomResponse("1sg"),
