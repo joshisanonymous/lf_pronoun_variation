@@ -52,7 +52,8 @@ tokens$PredType <- factor(tokens$PredType,
 # Fix headers
 colnames(participants) <- c("Name", "Recorded", "Birth Year", "Raised (town)",
                             "Raised (parish)", "Residence (town)", "Residence (parish)",
-                            "F&C Background", "Education", "Occupation", "Occupational History",
+                            "F&C Background", "Institutional French", "F&C Notes",
+                            "Education", "Occupation", "Occupational History",
                             "Retired", "Gender", "Gender Source", "Race", "Ethnicity",
                             "Transcribed", "Coded", "Anonymized", "Length Completed",
                             "Total Length", "Notes")
@@ -63,32 +64,23 @@ participants <- droplevels(subset(participants, Ethnicity != "French" &
 
 # Convert times to something calculable
 participants$`Total Length` <-  period_to_seconds(hms(participants$`Total Length`))/60/60
-                 
-# Collapse factor levels
+
+# Clean up race levels to aggregate or abbreviate
 participants$Race <- recode_factor(
   participants$Race,
-  "Black" = "Singular Black",
-  "African-American / Black" = "Singular Black",
-  "Black American" = "Singular Black",
-  "Creole" = "Singular Creole",
-  "African / Creole" = "Protean Creole",
-  "Paraphrase: Whatever they call me" = "Transcendent",
-  "White" = "Singular White",
-  "Caucasian" = "Singular White",
-  "Caucasian / White" = "Singular White",
-  "Cajun" = "Singular Cajun",
-  "Cajun / Acadian" = "Singular Cajun",
-  "White (Cajun if it's there)" = "Singular Cajun",
-  "Caucasian / Cajun" = "Protean Cajun"
+  "Cajun / White" = "White / Cajun",
+  "Caucasian" = "White",
+  "Caucasian / White" = "White",
+  "Cajun / Caucasian" = "White / Cajun",
+  "Paraphrase: Whatever they call me" = "Transcendent"
 )
+
+# Collapse factor levels
 participants[participants$Name == "Samantha Primeaux", "Education"] <- "College Graduate"
 participants[participants$Name == "Oliver Gomez", "Education"] <- "No College"
 participants$Education <- droplevels(participants$Education)
-# participants$`F&C Background` <- recode_factor(
-#   participants$`F&C Background`,
-#   "Naturalistic > Institutional" = "Naturalistic",
-#   "Naturalistic > Institutional > Personal" = "Naturalistic"
-# )
+participants$`F&C Background` <- sub("\\W{1,}.*", "", participants$`F&C Background`)
+participants[participants$Name == "Jack Munson", "F&C Background"] <- "Naturalistic"
 
 # Order factors in order to make reasonable reference levels
 participants$`Raised (parish)` <- factor(participants$`Raised (parish)`,
@@ -99,6 +91,8 @@ participants$`Raised (parish)` <- factor(participants$`Raised (parish)`,
 participants$`Residence (parish)` <- factor(participants$`Residence (parish)`,
                                      levels = c("Lafayette", "St Martin", "Acadia",
                                                 "St Landry", "Vermilion", "East Baton Rouge"))
+participants$`F&C Background` <- factor(participants$`F&C Background`,
+                                 levels = c("Naturalistic", "Personal", "Institutional"))
 participants$Occupation <- factor(participants$Occupation,
                            levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
