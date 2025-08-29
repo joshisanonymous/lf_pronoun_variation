@@ -1320,16 +1320,18 @@
         Additionally, participants' F\&C background could cover several factor levels, but only those that appeared to be their primary context for the acquisition of F\&C were assigned to them in order to avoid having many different categories.
         In most cases, this meant coding their F\&C background as whereever their first exposure to F\&C occurred unless they explicitly described that time as not being where they truly started to use the language.
         For instance, Judy Soileau Courtade grew up with F\&C all around her -- and her parents only spoke F\&C before they went to school -- but she explained to me that she only began speaking the language at the age of 18 after marrying her bilingual husband and to be able to communicate with members of the community for work.
-        This approach to coding means that several participants' institutional exposure is not directly modeled, but this was expected to be related to educational attainement and so still maintained with that latter factor.
+        For all but \Sexpr{nrow(participants[participants$`F&C Background` != "Naturalistic",])} participants, F\&C was initially acquired naturalistically, making this factor worth noting but inappropriate for modeling.
+        Experience with institutional instruction of French (\foreign{i.e.}, Institutional French) was instead modeled.
+        Only those with a college education had such experience, but not all those with a college education did.
         Finally, speaker and predicate were included as random effects as is standard for both.
         For predicates, this helps prevent having the results skewed by frequently repeated fixed phrases much like using word as a random effect when building models of variation in vowels.
 
         \begin{enumerate}[label=\roman*., ref=\roman*, series=equations]
-          \item Pronoun Type $\sim$ Predicate Type + Ethnicity + Gender + Occupation Type + Education Attained + Birth Year + F\&C Background + IE Ethnic Homophily:Ethnicity + (1|Speaker) + (1|Predicate) \label{eq:regression_model}
+          \item Pronoun Type $\sim$ Predicate Type + Ethnicity + Gender + Occupation Type + Education Attained + Birth Year + Insitutional French + IE Ethnic Homophily:Ethnicity + (1|Speaker) + (1|Predicate) \label{eq:regression_model}
         \end{enumerate}
 
         \begin{table}[tbhp]
-          \caption{Levels for each factor that was included in models}
+          \caption{Levels for each factor relevant to modeling}
           \label{tab:predictor_levels}
           \centering
           \begin{tabular}{r | r}
@@ -1341,7 +1343,8 @@
             Gender                        & \Sexpr{toString(levels(tokens$Gender))} \\
             Occupation Type               & \Sexpr{toString(levels(tokens$Occupation))} \\
             Education Attained            & \Sexpr{toString(levels(tokens$Education))} \\
-            F\&C Background               & Naturalistic, Personal, Institutional \\ % Update later with code for levels
+            F\&C Background               & \Sexpr{toString(levels(tokens$`F&C Background`))} \\
+            Institutional French          & \Sexpr{toString(levels(tokens$`Institutional French`))} \\
             \multicolumn{2}{c}{} \\
           \end{tabular}
         \end{table}
