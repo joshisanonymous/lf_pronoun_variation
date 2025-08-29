@@ -93,6 +93,8 @@ participants$`Residence (parish)` <- factor(participants$`Residence (parish)`,
                                                 "St Landry", "Vermilion", "East Baton Rouge"))
 participants$`F&C Background` <- factor(participants$`F&C Background`,
                                  levels = c("Naturalistic", "Personal", "Institutional"))
+participants$`Institutional French` <- factor(participants$`Institutional French`,
+                                       levels = c("No", "Yes"))
 participants$Occupation <- factor(participants$Occupation,
                            levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
