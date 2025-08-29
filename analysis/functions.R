@@ -68,15 +68,16 @@ getEIHomophily <- function(df, name) {
 
 # For main models (for each, add + Network.Ethnic.Homophily:Ethnicity later when network data read)
 binomResponse <- function(pronoun) {
-  glmer(ProUnder ~ PredType + `Birth Year` + Gender + Ethnicity +
-          Occupation + Education + (1|Name) + (1|PredUnder),
+  glmer(ProUnder ~ PredType + Ethnicity + Gender + Occupation + Education +
+          `Birth Year` + `Institutional French` + Network.Ethnic.Homophily*Ethnicity +
+          (1|Name) + (1|PredUnder),
         data = droplevels(tokens[tokens$ProType == pronoun,]),
         family = binomial)
 }
 
 multinomResponse <- function(pronoun) {
-  mblogit(ProUnder ~ PredType + `Birth Year` + Gender + Ethnicity +
-            Occupation + Education,
+  mblogit(ProUnder ~ PredType + Ethnicity + Gender + Occupation + Education +
+            `Birth Year` + `Institutional French` + Network.Ethnic.Homophily*Ethnicity,
           data = droplevels(tokens[tokens$ProType == pronoun,]),
           random = list(~ 1|Name, ~ 1|PredUnder))
 }
