@@ -400,39 +400,39 @@
       \centering
       \begin{tabular}{p{12cm} l}
         & \\
-        \Sexpr{colnames(participants)[11]} & \Sexpr{colnames(participants)[10]} \\
+        \Sexpr{colnames(participants)[13]} & \Sexpr{colnames(participants)[12]} \\
         \hline
-        \Sexpr{participants[18, 11]}       & \Sexpr{participants[18, 10]} \\
-        \Sexpr{participants[11, 11]}       & \Sexpr{participants[11, 10]} \\
-        \Sexpr{participants[12, 11]}       & \Sexpr{participants[12, 10]} \\
-        \Sexpr{participants[31, 11]}       & \Sexpr{participants[31, 10]} \\
-        \Sexpr{participants[13, 11]}       & \Sexpr{participants[13, 10]} \\
-        \Sexpr{participants[1, 11]}        & \Sexpr{participants[1, 10]} \\
-        \Sexpr{participants[30, 11]}       & \Sexpr{participants[30, 10]} \\
-        \Sexpr{participants[25, 11]}       & \Sexpr{participants[25, 10]} \\
-        \Sexpr{participants[10, 11]}       & \Sexpr{participants[10, 10]} \\
-        \Sexpr{participants[27, 11]}       & \Sexpr{participants[27, 10]} \\
-        \Sexpr{participants[6, 11]}        & \Sexpr{participants[6, 10]} \\
-        \Sexpr{participants[26, 11]}       & \Sexpr{participants[26, 10]} \\
-        \Sexpr{participants[9, 11]}        & \Sexpr{participants[9, 10]} \\
-        \Sexpr{participants[5, 11]}        & \Sexpr{participants[5, 10]} \\
-        % \Sexpr{participants[29, 11]}       & \Sexpr{participants[29, 10]} \\
-        \Sexpr{participants[8, 11]}        & \Sexpr{participants[8, 10]} \\
-        \Sexpr{participants[16, 11]}       & \Sexpr{participants[16, 10]} \\
-        \Sexpr{participants[14, 11]}       & \Sexpr{participants[14, 10]} \\
-        \Sexpr{participants[2, 11]}        & \Sexpr{participants[2, 10]} \\
-        \Sexpr{participants[15, 11]}       & \Sexpr{participants[15, 10]} \\
-        \Sexpr{participants[22, 11]}       & \Sexpr{participants[22, 10]} \\
-        \Sexpr{participants[17, 11]}       & \Sexpr{participants[17, 10]} \\
-        \Sexpr{participants[19, 11]}       & \Sexpr{participants[19, 10]} \\
-        \Sexpr{participants[3, 11]}        & \Sexpr{participants[3, 10]} \\
-        % \Sexpr{participants[28, 11]}       & \Sexpr{participants[28, 10]} \\
-        \Sexpr{participants[20, 11]}       & \Sexpr{participants[20, 10]} \\
-        % \Sexpr{participants[21, 11]}       & \Sexpr{participants[21, 10]} \\
-        \Sexpr{participants[4, 11]}        & \Sexpr{participants[4, 10]} \\
-        \Sexpr{participants[7, 11]}        & \Sexpr{participants[7, 10]} \\
-        \Sexpr{participants[23, 11]}       & \Sexpr{participants[23, 10]} \\
-        % \Sexpr{participants[24, 11]}       & \Sexpr{participants[24, 10]} \\
+        \Sexpr{participants[18, 13]}       & \Sexpr{participants[18, 12]} \\
+        \Sexpr{participants[11, 13]}       & \Sexpr{participants[11, 12]} \\
+        \Sexpr{participants[12, 13]}       & \Sexpr{participants[12, 12]} \\
+        \Sexpr{participants[31, 13]}       & \Sexpr{participants[31, 12]} \\
+        \Sexpr{participants[13, 13]}       & \Sexpr{participants[13, 12]} \\
+        \Sexpr{participants[1, 13]}        & \Sexpr{participants[1, 12]} \\
+        \Sexpr{participants[30, 13]}       & \Sexpr{participants[30, 12]} \\
+        \Sexpr{participants[25, 13]}       & \Sexpr{participants[25, 12]} \\
+        \Sexpr{participants[10, 13]}       & \Sexpr{participants[10, 12]} \\
+        \Sexpr{participants[27, 13]}       & \Sexpr{participants[27, 12]} \\
+        \Sexpr{participants[6, 13]}        & \Sexpr{participants[6, 12]} \\
+        \Sexpr{participants[26, 13]}       & \Sexpr{participants[26, 12]} \\
+        \Sexpr{participants[9, 13]}        & \Sexpr{participants[9, 12]} \\
+        \Sexpr{participants[5, 13]}        & \Sexpr{participants[5, 12]} \\
+        % \Sexpr{participants[29, 13]}       & \Sexpr{participants[29, 12]} \\
+        \Sexpr{participants[8, 13]}        & \Sexpr{participants[8, 12]} \\
+        \Sexpr{participants[16, 13]}       & \Sexpr{participants[16, 12]} \\
+        \Sexpr{participants[14, 13]}       & \Sexpr{participants[14, 12]} \\
+        \Sexpr{participants[2, 13]}        & \Sexpr{participants[2, 12]} \\
+        \Sexpr{participants[15, 13]}       & \Sexpr{participants[15, 12]} \\
+        \Sexpr{participants[22, 13]}       & \Sexpr{participants[22, 12]} \\
+        \Sexpr{participants[17, 13]}       & \Sexpr{participants[17, 12]} \\
+        \Sexpr{participants[19, 13]}       & \Sexpr{participants[19, 12]} \\
+        \Sexpr{participants[3, 13]}        & \Sexpr{participants[3, 12]} \\
+        % \Sexpr{participants[28, 13]}       & \Sexpr{participants[28, 12]} \\
+        \Sexpr{participants[20, 13]}       & \Sexpr{participants[20, 12]} \\
+        % \Sexpr{participants[21, 13]}       & \Sexpr{participants[21, 12]} \\
+        \Sexpr{participants[4, 13]}        & \Sexpr{participants[4, 12]} \\
+        \Sexpr{participants[7, 13]}        & \Sexpr{participants[7, 12]} \\
+        \Sexpr{participants[23, 13]}       & \Sexpr{participants[23, 12]} \\
+        % \Sexpr{participants[24, 13]}       & \Sexpr{participants[24, 12]} \\
       \end{tabular}
     \end{table}
 
@@ -538,78 +538,78 @@
         % Inclusion of more nuanced racial identities has occurred
           % Black-White biracial men in DC were found to have different intonational patterns depending on their self-identifications as singular Black, using the pattern traditionally found to be associated with Black identities in general, versus self-identifications as border, using a pattern that has not traditionally been found to be indexical of Black identities (Holliday 2019:8)
 
-    \begin{sidewaystable}[tbhp]
-      \caption{Background information for each individual participant}
-      \label{tab:participants_background}
-      \centering \footnotesize
-      \begin{tabular}{l r r r r r r L{2cm} r r}
-        & & & & & & & & & \\
-        \Sexpr{colnames(participants)[1]} & \Sexpr{colnames(participants)[16]} & \Sexpr{colnames(participants)[15]} & \Sexpr{colnames(participants)[13]} & \Sexpr{colnames(participants)[3]}  &
-        \Sexpr{colnames(participants)[7]} & \Sexpr{colnames(participants)[5]}  & F\&C Background                    & \Sexpr{colnames(participants)[9]}  & \Sexpr{colnames(participants)[10]} \\
-        \hline
-        \Sexpr{participants[13, 1]}       & \Sexpr{participants[13, 16]}       & \Sexpr{participants[13, 15]}       & \Sexpr{participants[13, 13]}       & \Sexpr{participants[13, 3]}        &
-        \Sexpr{participants[13, 7]}       & \Sexpr{participants[13, 5]}        & \Sexpr{participants[13, 8]}        & \Sexpr{participants[13, 9]}        & \Sexpr{participants[13, 10]} \\
-        \Sexpr{participants[15, 1]}       & \Sexpr{participants[15, 16]}       & \Sexpr{participants[15, 15]}       & \Sexpr{participants[15, 13]}       & \Sexpr{participants[15, 3]}        &
-        \Sexpr{participants[15, 7]}       & \Sexpr{participants[15, 5]}        & \Sexpr{participants[15, 8]}        & \Sexpr{participants[15, 9]}        & \Sexpr{participants[15, 10]} \\
-        \Sexpr{participants[16, 1]}       & \Sexpr{participants[16, 16]}       & \Sexpr{participants[16, 15]}       & \Sexpr{participants[16, 13]}       & \Sexpr{participants[16, 3]}        &
-        \Sexpr{participants[16, 7]}       & \Sexpr{participants[16, 5]}        & \Sexpr{participants[16, 8]}        & \Sexpr{participants[16, 9]}        & \Sexpr{participants[16, 10]} \\
-        \Sexpr{participants[31, 1]}       & \Sexpr{participants[31, 16]}       & \Sexpr{participants[31, 15]}       & \Sexpr{participants[31, 13]}       & \Sexpr{participants[31, 3]}        &
-        \Sexpr{participants[31, 7]}       & \Sexpr{participants[31, 5]}        & \Sexpr{participants[31, 8]}        & \Sexpr{participants[31, 9]}        & \Sexpr{participants[31, 10]} \\
-        \Sexpr{participants[30, 1]}       & \Sexpr{participants[30, 16]}       & \Sexpr{participants[30, 15]}       & \Sexpr{participants[30, 13]}       & \Sexpr{participants[30, 3]}        &
-        \Sexpr{participants[30, 7]}       & \Sexpr{participants[30, 5]}        & \Sexpr{participants[30, 8]}        & \Sexpr{participants[30, 9]}        & \Sexpr{participants[30, 10]} \\
-        \Sexpr{participants[12, 1]}       & \Sexpr{participants[12, 16]}       & \Sexpr{participants[12, 15]}       & \Sexpr{participants[12, 13]}       & \Sexpr{participants[12, 3]}        &
-        \Sexpr{participants[12, 7]}       & \Sexpr{participants[12, 5]}        & \Sexpr{participants[12, 8]}        & \Sexpr{participants[12, 9]}        & \Sexpr{participants[12, 10]} \\
-        \Sexpr{participants[24, 1]}       & \Sexpr{participants[24, 16]}       & \Sexpr{participants[24, 15]}       & \Sexpr{participants[24, 13]}       & \Sexpr{participants[24, 3]}        &
-        \Sexpr{participants[24, 7]}       & \Sexpr{participants[24, 5]}        & \Sexpr{participants[24, 8]}        & \Sexpr{participants[24, 9]}        & \Sexpr{participants[24, 10]} \\
-        \Sexpr{participants[28, 1]}       & \Sexpr{participants[28, 16]}       & \Sexpr{participants[28, 15]}       & \Sexpr{participants[28, 13]}       & \Sexpr{participants[28, 3]}        &
-        \Sexpr{participants[28, 7]}       & \Sexpr{participants[28, 5]}        & \Sexpr{participants[28, 8]}        & \Sexpr{participants[28, 9]}        & \Sexpr{participants[28, 10]} \\
-        \Sexpr{participants[7, 1]}        & \Sexpr{participants[7, 16]}        & \Sexpr{participants[7, 15]}        & \Sexpr{participants[7, 13]}        & \Sexpr{participants[7, 3]}         &
-        \Sexpr{participants[7, 7]}        & \Sexpr{participants[7, 5]}         & \Sexpr{participants[7, 8]}         & \Sexpr{participants[7, 9]}         & \Sexpr{participants[7, 10]} \\
-        \Sexpr{participants[11, 1]}       & \Sexpr{participants[11, 16]}       & \Sexpr{participants[11, 15]}       & \Sexpr{participants[11, 13]}       & \Sexpr{participants[11, 3]}        &
-        \Sexpr{participants[11, 7]}       & \Sexpr{participants[11, 5]}        & \Sexpr{participants[11, 8]}        & \Sexpr{participants[11, 9]}        & \Sexpr{participants[11, 10]} \\
-        \Sexpr{participants[25, 1]}       & \Sexpr{participants[25, 16]}       & \Sexpr{participants[25, 15]}       & \Sexpr{participants[25, 13]}       & \Sexpr{participants[25, 3]}        &
-        \Sexpr{participants[25, 7]}       & \Sexpr{participants[25, 5]}        & \Sexpr{participants[25, 8]}        & \Sexpr{participants[25, 9]}        & \Sexpr{participants[25, 10]} \\
-        \Sexpr{participants[26, 1]}       & \Sexpr{participants[26, 16]}       & \Sexpr{participants[26, 15]}       & \Sexpr{participants[26, 13]}       & \Sexpr{participants[26, 3]}        &
-        \Sexpr{participants[26, 7]}       & \Sexpr{participants[26, 5]}        & \Sexpr{participants[26, 8]}        & \Sexpr{participants[26, 9]}        & \Sexpr{participants[26, 10]} \\
-        \Sexpr{participants[2, 1]}        & \Sexpr{participants[2, 16]}        & \Sexpr{participants[2, 15]}        & \Sexpr{participants[2, 13]}        & \Sexpr{participants[2, 3]}         &
-        \Sexpr{participants[2, 7]}        & \Sexpr{participants[2, 5]}         & \Sexpr{participants[2, 8]}         & \Sexpr{participants[2, 9]}         & \Sexpr{participants[2, 10]} \\
-        \Sexpr{participants[4, 1]}        & \Sexpr{participants[4, 16]}        & \Sexpr{participants[4, 15]}        & \Sexpr{participants[4, 13]}        & \Sexpr{participants[4, 3]}         &
-        \Sexpr{participants[4, 7]}        & \Sexpr{participants[4, 5]}         & \Sexpr{participants[4, 8]}         & \Sexpr{participants[4, 9]}         & \Sexpr{participants[4, 10]} \\
-        \Sexpr{participants[5, 1]}        & \Sexpr{participants[5, 16]}        & \Sexpr{participants[5, 15]}        & \Sexpr{participants[5, 13]}        & \Sexpr{participants[5, 3]}         &
-        \Sexpr{participants[5, 7]}        & \Sexpr{participants[5, 5]}         & \Sexpr{participants[5, 8]}         & \Sexpr{participants[5, 9]}         & \Sexpr{participants[5, 10]} \\
-        \Sexpr{participants[14, 1]}       & \Sexpr{participants[14, 16]}       & \Sexpr{participants[14, 15]}       & \Sexpr{participants[14, 13]}       & \Sexpr{participants[14, 3]}        &
-        \Sexpr{participants[14, 7]}       & \Sexpr{participants[14, 5]}        & \Sexpr{participants[14, 8]}        & \Sexpr{participants[14, 9]}        & \Sexpr{participants[14, 10]} \\
-        \Sexpr{participants[22, 1]}       & \Sexpr{participants[22, 16]}       & \Sexpr{participants[22, 15]}       & \Sexpr{participants[22, 13]}       & \Sexpr{participants[22, 3]}        &
-        \Sexpr{participants[22, 7]}       & \Sexpr{participants[22, 5]}        & \Sexpr{participants[22, 8]}        & \Sexpr{participants[22, 9]}        & \Sexpr{participants[22, 10]} \\
-        \Sexpr{participants[23, 1]}       & \Sexpr{participants[23, 16]}       & \Sexpr{participants[23, 15]}       & \Sexpr{participants[23, 13]}       & \Sexpr{participants[23, 3]}        &
-        \Sexpr{participants[23, 7]}       & \Sexpr{participants[23, 5]}        & \Sexpr{participants[23, 8]}        & \Sexpr{participants[23, 9]}        & \Sexpr{participants[23, 10]} \\
-        \Sexpr{participants[29, 1]}       & \Sexpr{participants[29, 16]}       & \Sexpr{participants[29, 15]}       & \Sexpr{participants[29, 13]}       & \Sexpr{participants[29, 3]}        &
-        \Sexpr{participants[29, 7]}       & \Sexpr{participants[29, 5]}        & \Sexpr{participants[29, 8]}        & \Sexpr{participants[29, 9]}        & \Sexpr{participants[29, 10]} \\
-        \Sexpr{participants[8, 1]}        & \Sexpr{participants[8, 16]}        & \Sexpr{participants[8, 15]}        & \Sexpr{participants[8, 13]}        & \Sexpr{participants[8, 3]}         &
-        \Sexpr{participants[8, 7]}        & \Sexpr{participants[8, 5]}         & \Sexpr{participants[8, 8]}         & \Sexpr{participants[8, 9]}         & \Sexpr{participants[8, 10]} \\
-        \Sexpr{participants[3, 1]}        & \Sexpr{participants[3, 16]}        & \Sexpr{participants[3, 15]}        & \Sexpr{participants[3, 13]}        & \Sexpr{participants[3, 3]}         &
-        \Sexpr{participants[3, 7]}        & \Sexpr{participants[3, 5]}         & \Sexpr{participants[3, 8]}         & \Sexpr{participants[3, 9]}         & \Sexpr{participants[3, 10]} \\
-        \Sexpr{participants[10, 1]}       & \Sexpr{participants[10, 16]}       & \Sexpr{participants[10, 15]}       & \Sexpr{participants[10, 13]}       & \Sexpr{participants[10, 3]}        &
-        \Sexpr{participants[10, 7]}       & \Sexpr{participants[10, 5]}        & \Sexpr{participants[10, 8]}        & \Sexpr{participants[10, 9]}        & \Sexpr{participants[10, 10]} \\
-        \Sexpr{participants[6, 1]}        & \Sexpr{participants[6, 16]}        & \Sexpr{participants[6, 15]}        & \Sexpr{participants[6, 13]}        & \Sexpr{participants[6, 3]}         &
-        \Sexpr{participants[6, 7]}        & \Sexpr{participants[6, 5]}         & \Sexpr{participants[6, 8]}         & \Sexpr{participants[6, 9]}         & \Sexpr{participants[6, 10]} \\
-        \Sexpr{participants[1, 1]}        & \Sexpr{participants[1, 16]}        & \Sexpr{participants[1, 15]}        & \Sexpr{participants[1, 13]}        & \Sexpr{participants[1, 3]}         &
-        \Sexpr{participants[1, 7]}        & \Sexpr{participants[1, 5]}         & \Sexpr{participants[1, 8]}         & \Sexpr{participants[1, 9]}         & \Sexpr{participants[1, 10]} \\
-        \Sexpr{participants[9, 1]}        & \Sexpr{participants[9, 16]}        & \Sexpr{participants[9, 15]}        & \Sexpr{participants[9, 13]}        & \Sexpr{participants[9, 3]}         &
-        \Sexpr{participants[9, 7]}        & \Sexpr{participants[9, 5]}         & \Sexpr{participants[9, 8]}         & \Sexpr{participants[9, 9]}         & \Sexpr{participants[9, 10]} \\
-        \Sexpr{participants[17, 1]}       & \Sexpr{participants[17, 16]}       & \Sexpr{participants[17, 15]}       & \Sexpr{participants[17, 13]}       & \Sexpr{participants[17, 3]}        &
-        \Sexpr{participants[17, 7]}       & \Sexpr{participants[17, 5]}        & \Sexpr{participants[17, 8]}        & \Sexpr{participants[17, 9]}        & \Sexpr{participants[17, 10]} \\
-        \Sexpr{participants[18, 1]}       & \Sexpr{participants[18, 16]}       & \Sexpr{participants[18, 15]}       & \Sexpr{participants[18, 13]}       & \Sexpr{participants[18, 3]}        &
-        \Sexpr{participants[18, 7]}       & \Sexpr{participants[18, 5]}        & \Sexpr{participants[18, 8]}        & \Sexpr{participants[18, 9]}        & \Sexpr{participants[18, 10]} \\
-        \Sexpr{participants[19, 1]}       & \Sexpr{participants[19, 16]}       & \Sexpr{participants[19, 15]}       & \Sexpr{participants[19, 13]}       & \Sexpr{participants[19, 3]}        &
-        \Sexpr{participants[19, 7]}       & \Sexpr{participants[19, 5]}        & \Sexpr{participants[19, 8]}        & \Sexpr{participants[19, 9]}        & \Sexpr{participants[19, 10]} \\
-        \Sexpr{participants[20, 1]}       & \Sexpr{participants[20, 16]}       & \Sexpr{participants[20, 15]}       & \Sexpr{participants[20, 13]}       & \Sexpr{participants[20, 3]}        &
-        \Sexpr{participants[20, 7]}       & \Sexpr{participants[20, 5]}        & \Sexpr{participants[20, 8]}        & \Sexpr{participants[20, 9]}        & \Sexpr{participants[20, 10]} \\
-        \Sexpr{participants[21, 1]}       & \Sexpr{participants[21, 16]}       & \Sexpr{participants[21, 15]}       & \Sexpr{participants[21, 13]}       & \Sexpr{participants[21, 3]}        &
-        \Sexpr{participants[21, 7]}       & \Sexpr{participants[21, 5]}        & \Sexpr{participants[21, 8]}        & \Sexpr{participants[21, 9]}        & \Sexpr{participants[21, 10]} \\
-        \Sexpr{participants[27, 1]}       & \Sexpr{participants[27, 16]}       & \Sexpr{participants[27, 15]}       & \Sexpr{participants[27, 13]}       & \Sexpr{participants[27, 3]}        &
-        \Sexpr{participants[27, 7]}       & \Sexpr{participants[27, 5]}        & \Sexpr{participants[27, 8]}        & \Sexpr{participants[27, 9]}        & \Sexpr{participants[27, 10]} \\
-      \end{tabular}
-    \end{sidewaystable}
+    % \begin{sidewaystable}[tbhp]
+    %   \caption{Background information for each individual participant}
+    %   \label{tab:participants_background}
+    %   \centering \footnotesize
+    %   \begin{tabular}{l r r r r r r L{2cm} r r}
+    %     & & & & & & & & & \\
+    %     \Sexpr{colnames(participants)[1]} & \Sexpr{colnames(participants)[16]} & \Sexpr{colnames(participants)[15]} & \Sexpr{colnames(participants)[13]} & \Sexpr{colnames(participants)[3]}  &
+    %     \Sexpr{colnames(participants)[7]} & \Sexpr{colnames(participants)[5]}  & F\&C Background                    & \Sexpr{colnames(participants)[9]}  & \Sexpr{colnames(participants)[10]} \\
+    %     \hline
+    %     \Sexpr{participants[13, 1]}       & \Sexpr{participants[13, 16]}       & \Sexpr{participants[13, 15]}       & \Sexpr{participants[13, 13]}       & \Sexpr{participants[13, 3]}        &
+    %     \Sexpr{participants[13, 7]}       & \Sexpr{participants[13, 5]}        & \Sexpr{participants[13, 8]}        & \Sexpr{participants[13, 9]}        & \Sexpr{participants[13, 10]} \\
+    %     \Sexpr{participants[15, 1]}       & \Sexpr{participants[15, 16]}       & \Sexpr{participants[15, 15]}       & \Sexpr{participants[15, 13]}       & \Sexpr{participants[15, 3]}        &
+    %     \Sexpr{participants[15, 7]}       & \Sexpr{participants[15, 5]}        & \Sexpr{participants[15, 8]}        & \Sexpr{participants[15, 9]}        & \Sexpr{participants[15, 10]} \\
+    %     \Sexpr{participants[16, 1]}       & \Sexpr{participants[16, 16]}       & \Sexpr{participants[16, 15]}       & \Sexpr{participants[16, 13]}       & \Sexpr{participants[16, 3]}        &
+    %     \Sexpr{participants[16, 7]}       & \Sexpr{participants[16, 5]}        & \Sexpr{participants[16, 8]}        & \Sexpr{participants[16, 9]}        & \Sexpr{participants[16, 10]} \\
+    %     \Sexpr{participants[31, 1]}       & \Sexpr{participants[31, 16]}       & \Sexpr{participants[31, 15]}       & \Sexpr{participants[31, 13]}       & \Sexpr{participants[31, 3]}        &
+    %     \Sexpr{participants[31, 7]}       & \Sexpr{participants[31, 5]}        & \Sexpr{participants[31, 8]}        & \Sexpr{participants[31, 9]}        & \Sexpr{participants[31, 10]} \\
+    %     \Sexpr{participants[30, 1]}       & \Sexpr{participants[30, 16]}       & \Sexpr{participants[30, 15]}       & \Sexpr{participants[30, 13]}       & \Sexpr{participants[30, 3]}        &
+    %     \Sexpr{participants[30, 7]}       & \Sexpr{participants[30, 5]}        & \Sexpr{participants[30, 8]}        & \Sexpr{participants[30, 9]}        & \Sexpr{participants[30, 10]} \\
+    %     \Sexpr{participants[12, 1]}       & \Sexpr{participants[12, 16]}       & \Sexpr{participants[12, 15]}       & \Sexpr{participants[12, 13]}       & \Sexpr{participants[12, 3]}        &
+    %     \Sexpr{participants[12, 7]}       & \Sexpr{participants[12, 5]}        & \Sexpr{participants[12, 8]}        & \Sexpr{participants[12, 9]}        & \Sexpr{participants[12, 10]} \\
+    %     \Sexpr{participants[24, 1]}       & \Sexpr{participants[24, 16]}       & \Sexpr{participants[24, 15]}       & \Sexpr{participants[24, 13]}       & \Sexpr{participants[24, 3]}        &
+    %     \Sexpr{participants[24, 7]}       & \Sexpr{participants[24, 5]}        & \Sexpr{participants[24, 8]}        & \Sexpr{participants[24, 9]}        & \Sexpr{participants[24, 10]} \\
+    %     \Sexpr{participants[28, 1]}       & \Sexpr{participants[28, 16]}       & \Sexpr{participants[28, 15]}       & \Sexpr{participants[28, 13]}       & \Sexpr{participants[28, 3]}        &
+    %     \Sexpr{participants[28, 7]}       & \Sexpr{participants[28, 5]}        & \Sexpr{participants[28, 8]}        & \Sexpr{participants[28, 9]}        & \Sexpr{participants[28, 10]} \\
+    %     \Sexpr{participants[7, 1]}        & \Sexpr{participants[7, 16]}        & \Sexpr{participants[7, 15]}        & \Sexpr{participants[7, 13]}        & \Sexpr{participants[7, 3]}         &
+    %     \Sexpr{participants[7, 7]}        & \Sexpr{participants[7, 5]}         & \Sexpr{participants[7, 8]}         & \Sexpr{participants[7, 9]}         & \Sexpr{participants[7, 10]} \\
+    %     \Sexpr{participants[11, 1]}       & \Sexpr{participants[11, 16]}       & \Sexpr{participants[11, 15]}       & \Sexpr{participants[11, 13]}       & \Sexpr{participants[11, 3]}        &
+    %     \Sexpr{participants[11, 7]}       & \Sexpr{participants[11, 5]}        & \Sexpr{participants[11, 8]}        & \Sexpr{participants[11, 9]}        & \Sexpr{participants[11, 10]} \\
+    %     \Sexpr{participants[25, 1]}       & \Sexpr{participants[25, 16]}       & \Sexpr{participants[25, 15]}       & \Sexpr{participants[25, 13]}       & \Sexpr{participants[25, 3]}        &
+    %     \Sexpr{participants[25, 7]}       & \Sexpr{participants[25, 5]}        & \Sexpr{participants[25, 8]}        & \Sexpr{participants[25, 9]}        & \Sexpr{participants[25, 10]} \\
+    %     \Sexpr{participants[26, 1]}       & \Sexpr{participants[26, 16]}       & \Sexpr{participants[26, 15]}       & \Sexpr{participants[26, 13]}       & \Sexpr{participants[26, 3]}        &
+    %     \Sexpr{participants[26, 7]}       & \Sexpr{participants[26, 5]}        & \Sexpr{participants[26, 8]}        & \Sexpr{participants[26, 9]}        & \Sexpr{participants[26, 10]} \\
+    %     \Sexpr{participants[2, 1]}        & \Sexpr{participants[2, 16]}        & \Sexpr{participants[2, 15]}        & \Sexpr{participants[2, 13]}        & \Sexpr{participants[2, 3]}         &
+    %     \Sexpr{participants[2, 7]}        & \Sexpr{participants[2, 5]}         & \Sexpr{participants[2, 8]}         & \Sexpr{participants[2, 9]}         & \Sexpr{participants[2, 10]} \\
+    %     \Sexpr{participants[4, 1]}        & \Sexpr{participants[4, 16]}        & \Sexpr{participants[4, 15]}        & \Sexpr{participants[4, 13]}        & \Sexpr{participants[4, 3]}         &
+    %     \Sexpr{participants[4, 7]}        & \Sexpr{participants[4, 5]}         & \Sexpr{participants[4, 8]}         & \Sexpr{participants[4, 9]}         & \Sexpr{participants[4, 10]} \\
+    %     \Sexpr{participants[5, 1]}        & \Sexpr{participants[5, 16]}        & \Sexpr{participants[5, 15]}        & \Sexpr{participants[5, 13]}        & \Sexpr{participants[5, 3]}         &
+    %     \Sexpr{participants[5, 7]}        & \Sexpr{participants[5, 5]}         & \Sexpr{participants[5, 8]}         & \Sexpr{participants[5, 9]}         & \Sexpr{participants[5, 10]} \\
+    %     \Sexpr{participants[14, 1]}       & \Sexpr{participants[14, 16]}       & \Sexpr{participants[14, 15]}       & \Sexpr{participants[14, 13]}       & \Sexpr{participants[14, 3]}        &
+    %     \Sexpr{participants[14, 7]}       & \Sexpr{participants[14, 5]}        & \Sexpr{participants[14, 8]}        & \Sexpr{participants[14, 9]}        & \Sexpr{participants[14, 10]} \\
+    %     \Sexpr{participants[22, 1]}       & \Sexpr{participants[22, 16]}       & \Sexpr{participants[22, 15]}       & \Sexpr{participants[22, 13]}       & \Sexpr{participants[22, 3]}        &
+    %     \Sexpr{participants[22, 7]}       & \Sexpr{participants[22, 5]}        & \Sexpr{participants[22, 8]}        & \Sexpr{participants[22, 9]}        & \Sexpr{participants[22, 10]} \\
+    %     \Sexpr{participants[23, 1]}       & \Sexpr{participants[23, 16]}       & \Sexpr{participants[23, 15]}       & \Sexpr{participants[23, 13]}       & \Sexpr{participants[23, 3]}        &
+    %     \Sexpr{participants[23, 7]}       & \Sexpr{participants[23, 5]}        & \Sexpr{participants[23, 8]}        & \Sexpr{participants[23, 9]}        & \Sexpr{participants[23, 10]} \\
+    %     \Sexpr{participants[29, 1]}       & \Sexpr{participants[29, 16]}       & \Sexpr{participants[29, 15]}       & \Sexpr{participants[29, 13]}       & \Sexpr{participants[29, 3]}        &
+    %     \Sexpr{participants[29, 7]}       & \Sexpr{participants[29, 5]}        & \Sexpr{participants[29, 8]}        & \Sexpr{participants[29, 9]}        & \Sexpr{participants[29, 10]} \\
+    %     \Sexpr{participants[8, 1]}        & \Sexpr{participants[8, 16]}        & \Sexpr{participants[8, 15]}        & \Sexpr{participants[8, 13]}        & \Sexpr{participants[8, 3]}         &
+    %     \Sexpr{participants[8, 7]}        & \Sexpr{participants[8, 5]}         & \Sexpr{participants[8, 8]}         & \Sexpr{participants[8, 9]}         & \Sexpr{participants[8, 10]} \\
+    %     \Sexpr{participants[3, 1]}        & \Sexpr{participants[3, 16]}        & \Sexpr{participants[3, 15]}        & \Sexpr{participants[3, 13]}        & \Sexpr{participants[3, 3]}         &
+    %     \Sexpr{participants[3, 7]}        & \Sexpr{participants[3, 5]}         & \Sexpr{participants[3, 8]}         & \Sexpr{participants[3, 9]}         & \Sexpr{participants[3, 10]} \\
+    %     \Sexpr{participants[10, 1]}       & \Sexpr{participants[10, 16]}       & \Sexpr{participants[10, 15]}       & \Sexpr{participants[10, 13]}       & \Sexpr{participants[10, 3]}        &
+    %     \Sexpr{participants[10, 7]}       & \Sexpr{participants[10, 5]}        & \Sexpr{participants[10, 8]}        & \Sexpr{participants[10, 9]}        & \Sexpr{participants[10, 10]} \\
+    %     \Sexpr{participants[6, 1]}        & \Sexpr{participants[6, 16]}        & \Sexpr{participants[6, 15]}        & \Sexpr{participants[6, 13]}        & \Sexpr{participants[6, 3]}         &
+    %     \Sexpr{participants[6, 7]}        & \Sexpr{participants[6, 5]}         & \Sexpr{participants[6, 8]}         & \Sexpr{participants[6, 9]}         & \Sexpr{participants[6, 10]} \\
+    %     \Sexpr{participants[1, 1]}        & \Sexpr{participants[1, 16]}        & \Sexpr{participants[1, 15]}        & \Sexpr{participants[1, 13]}        & \Sexpr{participants[1, 3]}         &
+    %     \Sexpr{participants[1, 7]}        & \Sexpr{participants[1, 5]}         & \Sexpr{participants[1, 8]}         & \Sexpr{participants[1, 9]}         & \Sexpr{participants[1, 10]} \\
+    %     \Sexpr{participants[9, 1]}        & \Sexpr{participants[9, 16]}        & \Sexpr{participants[9, 15]}        & \Sexpr{participants[9, 13]}        & \Sexpr{participants[9, 3]}         &
+    %     \Sexpr{participants[9, 7]}        & \Sexpr{participants[9, 5]}         & \Sexpr{participants[9, 8]}         & \Sexpr{participants[9, 9]}         & \Sexpr{participants[9, 10]} \\
+    %     \Sexpr{participants[17, 1]}       & \Sexpr{participants[17, 16]}       & \Sexpr{participants[17, 15]}       & \Sexpr{participants[17, 13]}       & \Sexpr{participants[17, 3]}        &
+    %     \Sexpr{participants[17, 7]}       & \Sexpr{participants[17, 5]}        & \Sexpr{participants[17, 8]}        & \Sexpr{participants[17, 9]}        & \Sexpr{participants[17, 10]} \\
+    %     \Sexpr{participants[18, 1]}       & \Sexpr{participants[18, 16]}       & \Sexpr{participants[18, 15]}       & \Sexpr{participants[18, 13]}       & \Sexpr{participants[18, 3]}        &
+    %     \Sexpr{participants[18, 7]}       & \Sexpr{participants[18, 5]}        & \Sexpr{participants[18, 8]}        & \Sexpr{participants[18, 9]}        & \Sexpr{participants[18, 10]} \\
+    %     \Sexpr{participants[19, 1]}       & \Sexpr{participants[19, 16]}       & \Sexpr{participants[19, 15]}       & \Sexpr{participants[19, 13]}       & \Sexpr{participants[19, 3]}        &
+    %     \Sexpr{participants[19, 7]}       & \Sexpr{participants[19, 5]}        & \Sexpr{participants[19, 8]}        & \Sexpr{participants[19, 9]}        & \Sexpr{participants[19, 10]} \\
+    %     \Sexpr{participants[20, 1]}       & \Sexpr{participants[20, 16]}       & \Sexpr{participants[20, 15]}       & \Sexpr{participants[20, 13]}       & \Sexpr{participants[20, 3]}        &
+    %     \Sexpr{participants[20, 7]}       & \Sexpr{participants[20, 5]}        & \Sexpr{participants[20, 8]}        & \Sexpr{participants[20, 9]}        & \Sexpr{participants[20, 10]} \\
+    %     \Sexpr{participants[21, 1]}       & \Sexpr{participants[21, 16]}       & \Sexpr{participants[21, 15]}       & \Sexpr{participants[21, 13]}       & \Sexpr{participants[21, 3]}        &
+    %     \Sexpr{participants[21, 7]}       & \Sexpr{participants[21, 5]}        & \Sexpr{participants[21, 8]}        & \Sexpr{participants[21, 9]}        & \Sexpr{participants[21, 10]} \\
+    %     \Sexpr{participants[27, 1]}       & \Sexpr{participants[27, 16]}       & \Sexpr{participants[27, 15]}       & \Sexpr{participants[27, 13]}       & \Sexpr{participants[27, 3]}        &
+    %     \Sexpr{participants[27, 7]}       & \Sexpr{participants[27, 5]}        & \Sexpr{participants[27, 8]}        & \Sexpr{participants[27, 9]}        & \Sexpr{participants[27, 10]} \\
+    %   \end{tabular}
+    % \end{sidewaystable}
 
   \section{Summary}
