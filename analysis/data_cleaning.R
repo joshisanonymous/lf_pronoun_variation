@@ -80,7 +80,11 @@ participants[participants$Name == "Samantha Primeaux", "Education"] <- "College 
 participants[participants$Name == "Oliver Gomez", "Education"] <- "No College"
 participants$Education <- droplevels(participants$Education)
 participants$`F&C Background` <- sub("\\W{1,}.*", "", participants$`F&C Background`)
+
+# Insert temporary but likely values for missing values
 participants[participants$Name == "Jack Munson", "F&C Background"] <- "Naturalistic"
+participants[participants$Name == "Laura Laviolette", "Institutional French"] <- "No"
+participants[participants$Name == "Terry Guillot", "Education"] <- "No College"
 
 # Order factors in order to make reasonable reference levels
 participants$`Raised (parish)` <- factor(participants$`Raised (parish)`,
@@ -90,7 +94,7 @@ participants$`Raised (parish)` <- factor(participants$`Raised (parish)`,
                                              "Lafourche"))
 participants$`Residence (parish)` <- factor(participants$`Residence (parish)`,
                                      levels = c("Lafayette", "St Martin", "Acadia",
-                                                "St Landry", "Vermilion", "East Baton Rouge"))
+                                                "St Landry", "Vermilion", "E Baton Rouge"))
 participants$`F&C Background` <- factor(participants$`F&C Background`,
                                  levels = c("Naturalistic", "Personal", "Institutional"))
 participants$`Institutional French` <- factor(participants$`Institutional French`,
