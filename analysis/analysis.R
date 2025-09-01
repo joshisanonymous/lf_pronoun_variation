@@ -43,7 +43,7 @@ parishes <- c("Calcasieu Parish", "Cameron Parish", "Jefferson Davis Parish",
               "Avoyelles Parish", "St. Landry Parish", "Lafayette Parish",
               "Saint Martin Parish", "Iberia Parish", "St. Mary Parish",
               "Assumption Parish", "Iberville Parish", "Pointe Coupee Parish",
-              "West Baton Rouge Parish", "Ascension Parish", "St. James Parish",
+              "East Baton Rouge Parish", "Ascension Parish", "St. James Parish",
               "St. John the Baptist Parish", "St. Charles Parish",
               "Lafourche Parish", "Terrebonne Parish")
 majorCities <- c("New Orleans", "Lafayette", "Baton Rouge")
@@ -99,20 +99,22 @@ for(name in participants$Name) {
   # For whole personal networks
   homophIndex <- getEIHomophily(networks, name)
   participants[participants$Name == name, "Network.Ethnic.Homophily"] <- homophIndex
-  tokens[tokens$Name == name, "Network.Ethnic.Homophily"] <- homophIndex
   # For just anglophone alters
   justAnglo <- networks[networks$Alter.French.Frequency == "Never", ]
   homophIndex <- getEIHomophily(justAnglo, name)
   participants[participants$Name == name, "Anglo.Network.Ethnic.Homophily"] <- homophIndex
-  tokens[tokens$Name == name, "Anglo.Network.Ethnic.Homophily"] <- homophIndex
   # For just francophone alters
   justFranco <- networks[networks$Alter.French.Frequency != "Never", ]
   homophIndex <- getEIHomophily(justFranco, name)
   participants[participants$Name == name, "Franco.Network.Ethnic.Homophily"] <- homophIndex
-  tokens[tokens$Name == name, "Franco.Network.Ethnic.Homophily"] <- homophIndex
 }
 # Clean-up for loop
 rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
+
+# Set dummy EI homophily of participants who did not give network info
+homophilyDumy <- mean(participants$Network.Ethnic.Homophily, na.rm = TRUE)
+participants[participants$Name == "Errol Stoufle", "Network.Ethnic.Homophily"] <- homophilyDummy
+participants[participants$Name == "Rachel Chenevert", "Network.Ethnic.Homophily"] <- homophilyDummy
 
 # Merge participant metadata with tokens
 tokens <- merge(tokens, participants, by = "Name")
