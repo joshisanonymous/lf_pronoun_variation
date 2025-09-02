@@ -112,7 +112,7 @@ for(name in participants$Name) {
 rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
 
 # Set dummy EI homophily of participants who did not give network info
-homophilyDumy <- mean(participants$Network.Ethnic.Homophily, na.rm = TRUE)
+homophilyDummy <- mean(participants$Network.Ethnic.Homophily, na.rm = TRUE)
 participants[participants$Name == "Errol Stoufle", "Network.Ethnic.Homophily"] <- homophilyDummy
 participants[participants$Name == "Rachel Chenevert", "Network.Ethnic.Homophily"] <- homophilyDummy
 
