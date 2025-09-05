@@ -172,6 +172,77 @@ tablesResidence <- list(
   impersonal = tableSocial("imp", "Residence (parish)")
 )
 
+tablesSocial <- list(
+  ethnicityRace = table(participants$Ethnicity, participants$Race),
+  ethnicityGend = table(participants$Ethnicity, participants$Gender),
+  ethnicityRet = table(participants$Ethnicity, participants$Retired),
+  ethnicityOcc = table(participants$Ethnicity, participants$Occupation),
+  ethnicityEd = table(participants$Ethnicity, participants$Education),
+  ethnicityInst = table(participants$Ethnicity, participants$`Institutional French`),
+  ethnicityFC = table(participants$Ethnicity, participants$`F&C Background`),
+  
+  raceEthn = table(participants$Race, participants$Ethnicity),
+  raceGend = table(participants$Race, participants$Gender),
+  raceRet = table(participants$Race, participants$Retired),
+  raceOcc = table(participants$Race, participants$Occupation),
+  raceEd = table(participants$Race, participants$Education),
+  raceInst = table(participants$Race, participants$`Institutional French`),
+  raceFC = table(participants$Race, participants$`F&C Background`),
+  
+  genderEthn = table(participants$Gender, participants$Ethnicity),
+  genderRace = table(participants$Gender, participants$Race),
+  genderRet = table(participants$Gender, participants$Retired),
+  genderOcc = table(participants$Gender, participants$Occupation),
+  genderEd = table(participants$Gender, participants$Education),
+  genderInst = table(participants$Gender, participants$`Institutional French`),
+  genderFC = table(participants$Gender, participants$`F&C Background`),
+  
+  retiredEthn = table(participants$Retired, participants$Ethnicity),
+  retiredRace = table(participants$Retired, participants$Race),
+  retiredGend = table(participants$Retired, participants$Gender),
+  retiredOcc = table(participants$Retired, participants$Occupation),
+  retiredEd = table(participants$Retired, participants$Education),
+  retiredInst = table(participants$Retired, participants$`Institutional French`),
+  retiredFC = table(participants$Retired, participants$`F&C Background`),
+  
+  occupationEthn = table(participants$Occupation, participants$Ethnicity),
+  occupationRace = table(participants$Occupation, participants$Race),
+  occupationGend = table(participants$Occupation, participants$Gender),
+  occupationRet = table(participants$Occupation, participants$Retired),
+  occupationEd = table(participants$Occupation, participants$Education),
+  occupationInst = table(participants$Occupation, participants$`Institutional French`),
+  occupationFC = table(participants$Occupation, participants$`F&C Background`),
+  
+  educationEthn = table(participants$Education, participants$Ethnicity),
+  educationRace = table(participants$Education, participants$Race),
+  educationGend = table(participants$Education, participants$Gender),
+  educationRet = table(participants$Education, participants$Retired),
+  educationOcc = table(participants$Education, participants$Occupation),
+  educationInst = table(participants$Education, participants$`Institutional French`),
+  educationFC = table(participants$Education, participants$`F&C Background`),
+  
+  institutionalEthn = table(participants$`Institutional French`, participants$Ethnicity),
+  institutionalRace = table(participants$`Institutional French`, participants$Race),
+  institutionalGend = table(participants$`Institutional French`, participants$Gender),
+  institutionalRet = table(participants$`Institutional French`, participants$Retired),
+  institutionalOcc = table(participants$`Institutional French`, participants$Occupation),
+  institutionalEd = table(participants$`Institutional French`, participants$Education),
+  institutionalFC = table(participants$`Institutional French`, participants$`F&C Background`),
+  
+  backgroundFC = table(participants$`F&C Background`, participants$Ethnicity),
+  backgroundRace = table(participants$`F&C Background`, participants$Race),
+  backgroundGend = table(participants$`F&C Background`, participants$Gender),
+  backgroundRet = table(participants$`F&C Background`, participants$Retired),
+  backgroundOcc = table(participants$`F&C Background`, participants$Occupation),
+  backgroundEd = table(participants$`F&C Background`, participants$Education),
+  backgroundInst = table(participants$`F&C Background`, participants$`Institutional French`),
+)
+
+tableInstToOccEd <- table(
+  participants[participants$Occupation == "White Collar" & participants$Education == "College Graduate",
+               "Institutional French"]
+)
+
 # coreByFrTable <- table(networks$Alter.French.Frequency, networks$Alter.Type)
 # verbCollatesMostFrequent <- table(tokens$PredUnder)
 # verbCollatesMostFrequent <- verbCollatesMostFrequent[
