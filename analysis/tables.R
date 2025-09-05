@@ -180,7 +180,6 @@ tablesSocial <- list(
   ethnicityEd = table(participants$Ethnicity, participants$Education),
   ethnicityInst = table(participants$Ethnicity, participants$`Institutional French`),
   ethnicityFC = table(participants$Ethnicity, participants$`F&C Background`),
-  
   raceEthn = table(participants$Race, participants$Ethnicity),
   raceGend = table(participants$Race, participants$Gender),
   raceRet = table(participants$Race, participants$Retired),
@@ -188,7 +187,6 @@ tablesSocial <- list(
   raceEd = table(participants$Race, participants$Education),
   raceInst = table(participants$Race, participants$`Institutional French`),
   raceFC = table(participants$Race, participants$`F&C Background`),
-  
   genderEthn = table(participants$Gender, participants$Ethnicity),
   genderRace = table(participants$Gender, participants$Race),
   genderRet = table(participants$Gender, participants$Retired),
@@ -196,7 +194,6 @@ tablesSocial <- list(
   genderEd = table(participants$Gender, participants$Education),
   genderInst = table(participants$Gender, participants$`Institutional French`),
   genderFC = table(participants$Gender, participants$`F&C Background`),
-  
   retiredEthn = table(participants$Retired, participants$Ethnicity),
   retiredRace = table(participants$Retired, participants$Race),
   retiredGend = table(participants$Retired, participants$Gender),
@@ -204,7 +201,6 @@ tablesSocial <- list(
   retiredEd = table(participants$Retired, participants$Education),
   retiredInst = table(participants$Retired, participants$`Institutional French`),
   retiredFC = table(participants$Retired, participants$`F&C Background`),
-  
   occupationEthn = table(participants$Occupation, participants$Ethnicity),
   occupationRace = table(participants$Occupation, participants$Race),
   occupationGend = table(participants$Occupation, participants$Gender),
@@ -212,7 +208,6 @@ tablesSocial <- list(
   occupationEd = table(participants$Occupation, participants$Education),
   occupationInst = table(participants$Occupation, participants$`Institutional French`),
   occupationFC = table(participants$Occupation, participants$`F&C Background`),
-  
   educationEthn = table(participants$Education, participants$Ethnicity),
   educationRace = table(participants$Education, participants$Race),
   educationGend = table(participants$Education, participants$Gender),
@@ -220,7 +215,6 @@ tablesSocial <- list(
   educationOcc = table(participants$Education, participants$Occupation),
   educationInst = table(participants$Education, participants$`Institutional French`),
   educationFC = table(participants$Education, participants$`F&C Background`),
-  
   institutionalEthn = table(participants$`Institutional French`, participants$Ethnicity),
   institutionalRace = table(participants$`Institutional French`, participants$Race),
   institutionalGend = table(participants$`Institutional French`, participants$Gender),
@@ -228,14 +222,13 @@ tablesSocial <- list(
   institutionalOcc = table(participants$`Institutional French`, participants$Occupation),
   institutionalEd = table(participants$`Institutional French`, participants$Education),
   institutionalFC = table(participants$`Institutional French`, participants$`F&C Background`),
-  
   backgroundFC = table(participants$`F&C Background`, participants$Ethnicity),
   backgroundRace = table(participants$`F&C Background`, participants$Race),
   backgroundGend = table(participants$`F&C Background`, participants$Gender),
   backgroundRet = table(participants$`F&C Background`, participants$Retired),
   backgroundOcc = table(participants$`F&C Background`, participants$Occupation),
   backgroundEd = table(participants$`F&C Background`, participants$Education),
-  backgroundInst = table(participants$`F&C Background`, participants$`Institutional French`),
+  backgroundInst = table(participants$`F&C Background`, participants$`Institutional French`)
 )
 
 tableInstToOccEd <- table(
