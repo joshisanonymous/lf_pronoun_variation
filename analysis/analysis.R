@@ -130,39 +130,29 @@ source("tables.R")
 indOccEduc <- fisher.test(table(participants$Occupation, participants$Education))
 indOccGend <- fisher.test(table(participants$Occupation, participants$Ethnicity))
 
-# table(tokens[tokens$ProType == "imp", "Institutional French"],
-#       droplevels(tokens[tokens$ProType == "imp", "ProUnder"]))
-# table(droplevels(tokens[tokens$ProType == "imp", "ProUnder"]))
-# binomResponse("2sg.T")
-# multinomResponse("expl", exclude_aux = TRUE)
-
 # Pronoun Models #
   ##############
 
-# logitModels <- list(
-#   firstSg = multinomResponse("1sg"),
-#   secondSgT = binomResponse("2sg.T"),
-#   # secondSgV = multinomResponse("2sg.V"), count too low to be meaningfully modeled
-#   thirdSgF = binomResponse("3sg.F"),
-#   thirdSgM = binomResponse("3sg.M"),
-#   firstPl = multinomResponse("1pl"), # Warning: w/just Institutional French
-#   # secondPl = multinomResponse("2pl"), count too low to be meaningful
-#   thirdPl = multinomResponse("3pl"), # Warning: w/just Institutional French
-#   # demostrative = multinomResponse("demo"), categorically "ça"
-#   expletive = multinomResponse("expl"),
-#   impersonal = multinomResponse("imp") # Warning: w/just Institutional French
-# )
+logitModels <- list(
+  firstSg = multinomResponse("1sg"),
+  secondSgT = multinomResponse("2sg.T"),
+  # secondSgV = multinomResponse("2sg.V"), count too low to be meaningfully modeled
+  thirdSgF = multinomResponse("3sg.F", exclude_modal = TRUE),
+  thirdSgM = multinomResponse("3sg.M"),
+  firstPl = multinomResponse("1pl"),
+  # secondPl = multinomResponse("2pl"), count too low to be meaningful
+  thirdPl = multinomResponse("3pl"),
+  # demostrative = multinomResponse("demo"), categorically "ça"
+  expletive = multinomResponse("expl", exclude_aux = TRUE),
+  impersonal = multinomResponse("imp")
+)
 
 # small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
 #         data = tokens[tokens$ProType == "3pl",],
 #         random = list(~ 1|Name, ~ 1|PredUnder))
 
-# Check for multicollinearity between factors and remove those that are
-# highly collinear. In particular, verify whether ethnicity and race
-# are collinear.
+# Check for multicollinearity 
 # logitVif <- lapply(logitModels, vif)
-
-# Use AIC to check model fits and further remove factors if sensible
 
 # Social Networks #
   ###############

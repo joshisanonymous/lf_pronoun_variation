@@ -66,24 +66,18 @@ getEIHomophily <- function(df, name) {
   return(homophIndex)
 }
 
-# For main models (for each, add + Network.Ethnic.Homophily:Ethnicity later when network data read)
-binomResponse <- function(pronoun) {
-  glmer(ProUnder ~ PredType + Ethnicity + Gender + Occupation + Education + scale(`Birth Year`) + `Institutional French` + Network.Ethnic.Homophily:Ethnicity +
-          (1|Name) + (1|PredUnder),
-        data = droplevels(tokens[tokens$ProType == pronoun,]),
-        family = binomial)
-}
-
-multinomResponse <- function(pronoun, exclude_aux = FALSE) {
+# Model
+multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE) { # Doesn't converge if Institutional French included
   if(exclude_aux == TRUE) {
     tokens <- droplevels(subset(tokens, !(PredType == "auxiliary")))
+  } else if(exclude_modal == TRUE) {
+    tokens <- droplevels(subset(tokens, !(PredType == "modal")))
   }
-  mblogit(ProUnder ~ PredType,
+  mblogit(ProUnder ~ PredType + Ethnicity + Gender + Occupation + Retired +
+            Education + scale(`Birth Year`) + Network.Ethnic.Homophily:Ethnicity,
           data = droplevels(tokens[tokens$ProType == pronoun,]),
           random = list(~ 1|Name, ~ 1|PredUnder))
 }
-
-# PredType + Ethnicity + Gender + Occupation + Retired + Education + `Institutional French` + scale(`Birth Year`) + Network.Ethnic.Homophily:Ethnicity
 
 # Plots
 plotSocial <- function(table) {
