@@ -7,6 +7,7 @@ louisiana <- opq(getbb("Louisiana"), timeout = 60 * 20) |>
   add_osm_feature(key = "boundary", value = "administrative") |>
   add_osm_feature(key = "admin_level", value = c("4", "6", "8")) |>
   osmdata_sf()
+louisiana$osm_multipolygons <- st_make_valid(louisiana$osm_multipolygons)
 state <- subset(louisiana$osm_multipolygons,
                 admin_level == "4" & name == "Louisiana")
 parishPolygons <- louisiana$osm_multipolygons |>
