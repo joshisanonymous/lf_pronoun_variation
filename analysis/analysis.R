@@ -80,9 +80,9 @@ tokens$ProType <- recode_factor(
 )
 tokensAll <- tokens
 
-# Remove very low count variants
+# Remove very low count levels
 tokens <- subset(tokens, !(ProType == "1sg" & ProUnder == "ça"))
-tokens <- subset(tokens, !(ProType == "1pl" & (ProUnder == "vous-autres" | ProUnder == "nous-autres" | ProUnder == "ça")))
+tokens <- subset(tokens, !(ProType == "1pl" & (ProUnder == "vous-autres" | ProUnder == "nous-autres" | ProUnder == "ça" | ProUnder == "nous")))
 tokens <- subset(tokens, !(ProType == "2sg.T" & ProUnder == "ça"))
 tokens <- subset(tokens, ProType != "3sg")
 tokens <- subset(tokens, !(ProType == "3sg.F" & (ProUnder == "il" | ProUnder == "ça")))
@@ -90,7 +90,8 @@ tokens <- subset(tokens, !(ProType == "3sg.M" & (ProUnder == "elle" | ProUnder =
 tokens <- subset(tokens, !(ProType == "3pl" & (ProUnder == "elles" | ProUnder == "eux" | ProUnder == "eux-autres" | ProUnder == "ø")))
 tokens <- subset(tokens, !(ProType == "demo" & ProUnder == "ø"))
 tokens <- subset(tokens, !(ProType == "expl" & ProUnder == "li"))
-tokens <- subset(tokens, !(ProType == "imp" & (ProUnder == "ø" | ProUnder == "vou")))
+tokens <- subset(tokens, !(ProType == "imp" & (ProUnder == "ø" | ProUnder == "vou" | ProUnder == "vous" | ProUnder == "on")))
+tokens <- subset(tokens, !(PredType == "noun" | PredType == "adjective" | PredType == "preposition"))
 tokens <- droplevels(tokens)
 rownames(tokens) <- NULL
 
@@ -129,21 +130,27 @@ source("tables.R")
 indOccEduc <- fisher.test(table(participants$Occupation, participants$Education))
 indOccGend <- fisher.test(table(participants$Occupation, participants$Ethnicity))
 
+# table(tokens[tokens$ProType == "imp", "Institutional French"],
+#       droplevels(tokens[tokens$ProType == "imp", "ProUnder"]))
+# table(droplevels(tokens[tokens$ProType == "imp", "ProUnder"]))
+# binomResponse("2sg.T")
+# multinomResponse("expl", exclude_aux = TRUE)
+
 # Pronoun Models #
   ##############
 
 # logitModels <- list(
 #   firstSg = multinomResponse("1sg"),
 #   secondSgT = binomResponse("2sg.T"),
-#   # secondSgV = multinomResponse("2sg.V"), count too low to be meaningful
+#   # secondSgV = multinomResponse("2sg.V"), count too low to be meaningfully modeled
 #   thirdSgF = binomResponse("3sg.F"),
 #   thirdSgM = binomResponse("3sg.M"),
-#   firstPl = multinomResponse("1pl"),
+#   firstPl = multinomResponse("1pl"), # Warning: w/just Institutional French
 #   # secondPl = multinomResponse("2pl"), count too low to be meaningful
-#   thirdPl = multinomResponse("3pl"),
+#   thirdPl = multinomResponse("3pl"), # Warning: w/just Institutional French
 #   # demostrative = multinomResponse("demo"), categorically "ça"
 #   expletive = multinomResponse("expl"),
-#   impersonal = multinomResponse("imp")
+#   impersonal = multinomResponse("imp") # Warning: w/just Institutional French
 # )
 
 # small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
@@ -177,5 +184,5 @@ homophByEthnicGroupTtest <- t.test(participants[participants$Ethnicity == "Creol
                                    participants[participants$Ethnicity == "Cajun",
                                                 "Network.Ethnic.Homophily"])
 
-# source("maps.R")
+source("maps.R")
 source("plots-final.R")
