@@ -410,13 +410,14 @@
         \Sexpr{participants[11, 13]}       & \Sexpr{participants[11, 12]} \\
         \Sexpr{participants[12, 13]}       & \Sexpr{participants[12, 12]} \\
         \Sexpr{participants[31, 13]}       & \Sexpr{participants[31, 12]} \\
-        \Sexpr{participants[13, 13]}       & \Sexpr{participants[13, 12]} \\
-        \Sexpr{participants[1, 13]}        & \Sexpr{participants[1, 12]} \\
-        \Sexpr{participants[30, 13]}       & \Sexpr{participants[30, 12]} \\
-        \Sexpr{participants[25, 13]}       & \Sexpr{participants[25, 12]} \\
-        \Sexpr{participants[10, 13]}       & \Sexpr{participants[10, 12]} \\
-        \Sexpr{participants[27, 13]}       & \Sexpr{participants[27, 12]} \\
-        \Sexpr{participants[6, 13]}        & \Sexpr{participants[6, 12]} \\
+        \Sexpr{participants[30, 13]}       & \Sexpr{participants[30, 12]} \\ % blue
+        \Sexpr{participants[13, 13]}       & \Sexpr{participants[13, 12]} \\ % pink
+        \Sexpr{participants[1, 13]}        & \Sexpr{participants[1, 12]} \\ % pink
+        \Sexpr{participants[25, 13]}       & \Sexpr{participants[25, 12]} \\ % pink
+        \Sexpr{participants[27, 13]}       & \Sexpr{participants[27, 12]} \\ % pink
+        \Sexpr{participants[17, 13]}       & \Sexpr{participants[17, 12]} \\ % pnk
+        \Sexpr{participants[10, 13]}       & \Sexpr{participants[10, 12]} \\ % white
+        \Sexpr{participants[6, 13]}        & \Sexpr{participants[6, 12]} \\ % white
         \Sexpr{participants[26, 13]}       & \Sexpr{participants[26, 12]} \\
         \Sexpr{participants[9, 13]}        & \Sexpr{participants[9, 12]} \\
         \Sexpr{participants[5, 13]}        & \Sexpr{participants[5, 12]} \\
@@ -427,7 +428,6 @@
         \Sexpr{participants[2, 13]}        & \Sexpr{participants[2, 12]} \\
         \Sexpr{participants[15, 13]}       & \Sexpr{participants[15, 12]} \\
         \Sexpr{participants[22, 13]}       & \Sexpr{participants[22, 12]} \\
-        \Sexpr{participants[17, 13]}       & \Sexpr{participants[17, 12]} \\
         \Sexpr{participants[19, 13]}       & \Sexpr{participants[19, 12]} \\
         \Sexpr{participants[3, 13]}        & \Sexpr{participants[3, 12]} \\
         % \Sexpr{participants[28, 13]}       & \Sexpr{participants[28, 12]} \\
