@@ -916,6 +916,9 @@
         % Klingler (2003 "Turn") gives examples of c'est as impersonal, equivalent to "it" (he seems to have meant expletive), but they could all be interpreted as "that" also (309-310)
 
       \subsubsection{Pronoun types}
+        % Removed variants due to low counts that need to be updated in description
+          % 1pl: nous
+          % imp: vous, on
         \label{sec:pronoun_types}
         Having dealt with the phonetic forms that pronouns can take, there is still the issue of coding each token for its pronoun type.
         The possible pronoun types in the current data are summarized in Table \ref{tab:pronouns_attested} along with the variants that occurred for each.
@@ -1092,6 +1095,7 @@
               % [quand li'tait dit [nous-autres pour fait des affaires]]
     
     \subsection{Predicates following the pronoun}
+      % Nouns, adjectives, and prepositions were removed for modeling due to low counts causing the models to not converge. Update this section with that in mind.
       As briefly discussed in section \ref{sec:pronoun_structure}, the type of verb that follows a subject pronoun has previously been found to impact subject pronoun realization, particularly for 3pl pronouns.
       The data here was thus coded for not only the verb type but the predicate type as there is not always a finite verb in a finite clause, and here I am counting the copula as a verb.
       It should also be noted that the \lexi{predicate} is used here as shorthand for the word following the subject pronoun.
