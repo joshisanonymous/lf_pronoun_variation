@@ -80,8 +80,8 @@ participants[participants$Name == "Samantha Primeaux", "Education"] <- "College 
 participants[participants$Name == "Oliver Gomez", "Education"] <- "No College"
 participants$Education <- droplevels(participants$Education)
 participants$`F&C Background` <- sub("\\W{1,}.*", "", participants$`F&C Background`)
-# participants$Occupation <- recode_factor(participants$Occupation, "Pink Collar" = "Blue Collar")
-# participants$Occupation <- droplevels(participants$Occupation)
+participants$Occupation <- recode_factor(participants$Occupation, "Pink Collar" = "Blue Collar")
+participants$Occupation <- droplevels(participants$Occupation)
 
 # Insert temporary but likely values for missing values
 participants[participants$Name == "Jack Munson", "F&C Background"] <- "Naturalistic"
@@ -103,7 +103,7 @@ participants$`F&C Background` <- factor(participants$`F&C Background`,
 participants$`Institutional French` <- factor(participants$`Institutional French`,
                                        levels = c("No", "Yes"))
 participants$Occupation <- factor(participants$Occupation,
-                           levels = c("Blue Collar", "Pink Collar", "White Collar"))
+                           levels = c("Blue Collar", "White Collar"))
 participants$Education <- factor(participants$Education,
                           levels = c("No College", "College Graduate"))
 participants$Ethnicity <- factor(participants$Ethnicity,
