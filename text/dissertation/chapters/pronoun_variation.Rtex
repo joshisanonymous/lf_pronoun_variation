@@ -1370,9 +1370,66 @@
 
   \section{Results}
     \label{sec:pronoun_results}
-    % Do pronouns covary?
+    % A principle to keep in mind throughout: Do these pronouns covary?
       % This sort of co-variation was perhaps first analyzed in Brazilian Portuguese by Guy (2013) to determine the validity of the existence of sociolects in Rio de Janeiro
         % The naming of said sociolects is of course a sociopolitical discussion, but it is useful to examine not just where individual linguistic variables vary according to social variables but also where groups of variables do so
+
+    % Pronoun types that had no significant factors
+      % 3sg.F and 3sg.M
+      % 1pl, although White Collar did approach significance
+        % Work type will be discussed more later in this section
+
+    % Structural factors
+      % Auxiliaries (etre and avoir) very clearly yielded more ils for 3pl
+      % Significance was very high although the effect size was not the highest of all results
+        % ye also approached significance but was likely tempered by not forming a system with ca as ils seems to do
+
+      % Unexpectedly(?), auxiliary verbs were also significant for 1sg where null and mo were less likely than je before auxiliaries
+        % One thing that makes the null result more surprising is that, as in fully pro-drop languages (cite something for tu esta_ maybe), one might expect null to occur when verbal morphology helps to identify the intended subject, but for these speakers, the verbal morphology is more fleshed out for auxiliaries than for non-auxiliaries
+
+    % Social factors that proved to be unimportant
+      % Gender
+      % Retired
+
+    % Factors that were mildly important
+      % Birth year
+        % Preference for to over tu for 2sg.T
+      % Education
+        % College graduates were less likely to use il over null for expletive pronouns
+        % Approached significance for preferring to over tu for impersonal pronouns
+
+    % Most consistently significant factor
+      % Occupation type
+        % 1sg: null and mo were dispreferred
+        % 2sg.T: to was dispreferred
+        % 3pl: dispreferred ye
+          % Nothing significant between ca and ils, likely because they form a system
+        % expletive: dispreferred il compared to null
+        % impersonal: dispreferred to compared to tu
+        % Approached signifiance for 1pl with no being dispreferred
+
+    % Ethnicity
+      % This was the factor that would suggest that pronouns are indexical of racialized identities but was not a significant factor for any pronoun type save for expletive
+        % dispreferred il over null for expletives
+      % However, in all cases, the coefficients did reproduce the way Louisianians TALK about differences in the speech of Creoles and Cajuns
+        % Cajuns were...
+        % ..less likely to produce mo over je
+        % ..less likely to produce to over tu for 2sg.T
+        % ..less likely to produce li over elle for 3sg.F
+        % ..less likely to produce li over il for 3sg.M
+        % ..slightly less likely to produce no over on
+        % ..less likely to produce ye over ils and ils over ca
+        % ..less likely to produce to over tu for impersonal
+        % These are the sort of patterns Cajun participants produced when they discussed Creoles speaking differently
+          % Of course, these same participants at times made it clear that Cajuns talk like Creoles sometimes and Creoles talk like Cajuns, so while there seem to be stereotypes about the speech of each group, the reality of how actual language use patterns doesn't support these stereotypes to the extent that even those who hold the stereotypes recognize that
+      % For an exploratory analysis: let's look at how occupation and ethnicity interact
+        % After all, the tendencies, though again not significant, align with occupation type tendencies which were significant
+          % Almost all Cajuns were White collar but just under half of Creoles were White collar
+          % However, none of the non-White Collar Cajuns produced any of the traditionally "Louisiana Creole" pronouns
+            % The two Cajuns who did so regularly and one who demonstrated his ability to speak "Kouri-Vini" were all White Collar
+        % But let's look
+          % Models with just this interaction tend to fail to converge due to cells with low or zero counts
+          % What can be see consistently in simple bar plots, though, is that blue collar Creoles always favor traditional Creole pronoun variants much more than any other subsection of the participants
 
   \section{Discussion}
     \label{sec:pronoun_discussion}
