@@ -122,6 +122,17 @@ tokens <- merge(tokens, participants, by = "Name")
 
 source("tables.R")
 
+# Subsets to use for some exploratory graphs
+subsetsProType <- list(
+  firstSg = subsetProType("1sg"),
+  secondSgT = subsetProType("2sg.T"),
+  thirdSgF = subsetProType("3sg.F"),
+  thirdSgM = subsetProType("3sg.M"),
+  firstPl = subsetProType("1pl"),
+  thirdPl = subsetProType("3pl"),
+  impersonal = subsetProType("imp")
+)
+
 ############
 # Analyses # -------------------------------------------------------------------
 ############

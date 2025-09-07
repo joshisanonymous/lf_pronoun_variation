@@ -38,6 +38,7 @@ plotsRaised <- lapply(tablesRaised, plotSocial)
 plotsResidence <- lapply(tablesResidence, plotSocial)
 plotsEthnicity <- lapply(tablesEthnicity, plotSocial)
 plotsRace <- lapply(tablesRace, plotSocial)
+plotsEthOcc <- lapply(subsetsProType, plotEthOcc)
 
 # Location graph ---------------------------------------------------------------
 parishBar <- ggplot(

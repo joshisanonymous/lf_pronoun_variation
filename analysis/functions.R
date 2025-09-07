@@ -23,6 +23,10 @@ subsetTokens <- function(pronoun, feature) {
   return(subset)
 }
 
+subsetProType <- function(pronoun) {
+  tokens[tokens$ProType == pronoun,]
+}
+
 # Phonetic variants table
 tablePhonetic <- function(pronoun) {
   table(droplevels(tokens[tokens$ProUnder == pronoun, "Pronoun"]))  
@@ -42,7 +46,7 @@ tableSocial <- function(pronoun, socialVariable) {
   table(
     droplevels(tokens[tokens$ProType == pronoun, socialVariable]),
     droplevels(tokens[tokens$ProType == pronoun, "ProUnder"])
-  )  
+  )
 }
 
 # Network stuff
@@ -66,8 +70,8 @@ getEIHomophily <- function(df, name) {
   return(homophIndex)
 }
 
-# Model
-multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE) { # Doesn't converge if Institutional French included
+# Models
+multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE) {
   if(exclude_aux == TRUE) {
     tokens <- droplevels(subset(tokens, !(PredType == "auxiliary")))
   } else if(exclude_modal == TRUE) {
@@ -102,6 +106,15 @@ plotPronoun <- function(df, rotate_labels = FALSE) {
   if(rotate_labels == TRUE) {
     plot <- plot + theme(axis.text.x = element_text(angle = 45, hjust = 1))
   }
+  return(plot)
+}
+
+plotEthOcc <- function(df) {
+  plot <- ggplot(df, aes(x = ProUnder)) +
+    geom_bar() +
+    facet_wrap(Ethnicity ~ Occupation) +
+    theme_bw() +
+    labs(x = "Pronoun", y = "Count")
   return(plot)
 }
 
