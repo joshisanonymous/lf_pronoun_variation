@@ -1,3 +1,4 @@
+# Animacy and grammatical gender
 subsetsAnimacy <- list(
   thirdSg = subsetTokens("3sg", "animacy"),
   thirdPl = subsetTokens("3pl", "animacy")
