@@ -163,7 +163,7 @@ logitModels <- list(
 #         random = list(~ 1|Name, ~ 1|PredUnder))
 
 # Check for multicollinearity 
-# logitVif <- lapply(logitModels, vif)
+logitVif <- lapply(logitModels, vif)
 
 # Social Networks #
   ###############
