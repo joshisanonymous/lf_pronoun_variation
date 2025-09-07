@@ -231,6 +231,9 @@ tablesSocial <- list(
   backgroundInst = table(participants$`F&C Background`, participants$`Institutional French`)
 )
 
+# Exploration of interactions between ethnicity and occupation
+tableEthnToOcc <- table(participants$Ethnicity, participants$Occupation)
+
 tableInstToOccEd <- table(
   participants[participants$Occupation == "White Collar" & participants$Education == "College Graduate",
                "Institutional French"]
