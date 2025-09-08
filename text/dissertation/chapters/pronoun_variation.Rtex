@@ -1370,24 +1370,34 @@
 
   \section{Results}
     \label{sec:pronoun_results}
-    % A principle to keep in mind throughout: Do these pronouns covary along ethnicity?
-      % This would suggest not only that an individual pronoun is indexical of Creoles or Cajuns but whether this rises to the level of a systems that are indexical of each group
-      % This sort of co-variation was perhaps first analyzed in Brazilian Portuguese by Guy (2013) to determine the validity of the existence of sociolects in Rio de Janeiro
-        % The naming of said sociolects is of course a sociopolitical discussion, but it is useful to examine not just where individual linguistic variables vary according to social variables but also where groups of variables do so
+    The question most central to the quantitative analyses carried out here is whether or not subject pronouns in F\&C act as markers for Creole and Cajun identities.
+    In terms of racialization, such a result would suggest that speech can serve as a identifier with the potential to lead to acts of discrimination.
+    Given that the analysis here treats all of the subject pronouns, it can also address the question of whether these pronouns covary, which would suggest that they form a whole system that distinguishes Creoles and Cajuns.
+    However, the results do not lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities.
+    Notable results will be discussed in this section, whereas the full summary read-outs for each model are given in the appendix. % Add this appendix data
 
-    % Pronoun types that had no significant factors
-      % 3sg.F and 3sg.M
-      % 1pl, although White Collar did approach significance
-        % Work type will be discussed more later in this section
+    Three pronoun types did not result in any statistically significant associations.
+    For both feminine and masculine versions of 3sg, made up of \lexi{li} versus \lexi{elle} and \lexi{li} versus \lexi{il} respectively, the latter variants were slightly preferred overall (intercepts of \Sexpr{round_any(logitModelSummaries$thirdSgF$coefficients["li~(Intercept)", "Estimate"], 0.001, round)} and \Sexpr{round_any(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"], 0.001, round)}).
+    For 1pl, made up of \lexi{no} and \lexi{on}, the latter was again slightly preferred overall but even less so than for the 3sg pronoun types.
+    One factor that stood out for 1pl was occupation type in that this factor approached significance ($P <$ \Sexpr{round_any(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Pr(>|z|)"], 0.001, ceiling)}) with white collar speakers greatly dispreferring \lexi{no} (coefficient $\approx$ \Sexpr{round_any(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Estimate"], 0.001, round)}).
+    This is in accord with the results for occupation type for other pronoun types, as will be seen below.
 
-    % Structural factors
-      % Auxiliaries (etre and avoir) very clearly yielded more ils for 3pl
-        % Show graph (plotsPredicate$thirdPl)
-      % Significance was very high although the effect size was not the highest of all results
-        % ye also approached significance but was likely tempered by not forming a system with ca as ils seems to do
+    The one structural factor included in the models yielded the expected results based on previous studies.
+    For 3pl subject pronouns, auxiliaries (\foreign{i.e.}, \lexi{être}, \lexi{avoir} and \lexi{aller}) entailed a preference for \lexi{ils} over \lexi{ça} (intercept $\approx$ \Sexpr{round_any(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"], 0.001, round)}; coefficient $\approx$ \Sexpr{round_any(logitModelSummaries$thirdPl$coefficients["ils~PredTypeauxiliary", "Estimate"], 0.001, round)}; $P <$ \Sexpr{round_any(logitModelSummaries$thirdPl$coefficients["ils~PredTypeauxiliary", "Pr(>|z|)"], 0.001, ceiling)}), as can be seen in Figure \ref{fig:3pl_predtype}.
+    While a preference for \lexi{yé} over \lexi{ça} also approached significance, the fact that it did not likely results from \lexi{ça} and \lexi{ils} forming a system whereas those who have \lexi{yé} are unlikely to have any other 3pl subject pronoun save for cases of style shifting.
 
-      % Unexpectedly(?), auxiliary verbs were also significant for 1sg where null and mo were less likely than je before auxiliaries
-        % One thing that makes the null result more surprising is that, as in fully pro-drop languages (cite something for tu esta_ maybe), one might expect null to occur when verbal morphology helps to identify the intended subject, but for these speakers, the verbal morphology is more fleshed out for auxiliaries than for non-auxiliaries
+    \begin{figure}[tbhp]
+      \caption{Third person plural by predicate type}
+      \label{fig:3pl_predtype}
+      \centering
+      <<fig.height = 4>>=
+      plotsPredicate$thirdPl
+      @
+    \end{figure}
+
+    
+    % Unexpectedly(?), auxiliary verbs were also significant for 1sg where null and mo were less likely than je before auxiliaries
+      % One thing that makes the null result more surprising is that, as in fully pro-drop languages (cite something for tu esta_ maybe), one might expect null to occur when verbal morphology helps to identify the intended subject, but for these speakers, the verbal morphology is more fleshed out for auxiliaries than for non-auxiliaries
 
     % Social factor caveats
       % In general, some of these social factors are going to correlated
@@ -1442,8 +1452,25 @@
         % This seems to suggest that there is a pronoun system that's indexical of blue collar Creoles that is carried over as a stereotype for all Creoles, but the models of the data here do not support that
           % Perhaps a larger sample of speakers is needed to draw such a conclusion quantitatively
 
+    % Finally, what about race?
+      % Racial self-identifications are generally associated with ethnic identities
+        % Notably, one cannot claim a Black, AA, or Creole racial identity while also claiming a Cajun identitiy
+      % What do some pronoun distributions look like for Black/AA vs White/Caucasian compared to Creole vs Cajun?
+
   \section{Discussion}
     \label{sec:pronoun_discussion}
+    % Are the markers of Creoles and Cajuns?
+      % Subject pronouns are certainly not indicators much less markers in Labov's (1972 "Sociolinguistic Patterns":237) sense as that would require some clear differentiation in use (i.e., production) between Creoles and Cajuns
+      % It is also hard to say that subject pronouns are indexical in the sense of indexical orders (Silverstein 2003; Johnstone & Kiesling 2008) as these are also implicitly related to regular associations between groups of speakers and linguistic forms
+      % Subject pronouns may, however, be markers or signifiers of Creole and Cajun identities in the sense used in the literature on race (e.g., Fassin 2011:420; Holt 1995:3).
+        % In this sense, a feature, linguistic or otherwise, must simply be associated with a group that is racialized
+        % Quantitatively, this is not well supported here, but as we'll see in chapter 5, it is a recurring theme in the discourse of Louisianians
+    
+    % How might subject pronouns be markers of Creole and Cajun identities without being quantitatively associated with these groups in a robust way?
+      % Subject pronouns were more neatly divided between Creoles and Cajuns in the past
+        % This is unlikely since it has always
+
+
     % The principle of multiple causes is the idea that more than one factor influences language variation patterns (Bayley 2002, as cited in Hazen 2014:12)
       % This does not only mean that multiple identified factors are at work but that unindentified factors may also be at work
     % Dying languages are expected to show 1) reduction/simplification, 2) stylistic shrinkage, 3) increased variability, and 4) rapid change (Dressler 1972; Dorian 1989; O'Shannessy 2011; Palosaari & Campbell 2011; Schmidt 1985; Wolfram 2004, all as cited in Carmichael & Gudmestad 2019:72)
