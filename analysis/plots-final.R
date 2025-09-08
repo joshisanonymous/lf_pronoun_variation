@@ -21,6 +21,17 @@ ethByRaceBar <- ggplot(
   geom_bar(stat = "identity", position = "dodge") +
   theme(text=element_text(size=20), legend.text = element_markdown())
 
+plotEduInst <- ggplot(melt(tablesSocial$educationInst,
+                           varnames = c("Insitutional", "Education"),
+                           value.name = "Count"),
+                      aes(x = Education, y = Count, fill = Education)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(. ~ Insitutional) +
+  theme(text=element_text(size=15), legend.text = element_markdown(),
+        legend.position = "none") +
+  scale_fill_manual(values = color_key) +
+  labs(x = "Insitutional French Instruction", y = "Count")
+
 # Translation
 ethByRaceBarFR <- ethByRaceBar +
   scale_fill_manual(values = color_key,
