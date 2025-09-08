@@ -21,7 +21,6 @@ library(car)
 library(plyr)
 library(dplyr)
 library(lubridate)
-library(equatiomatic) # Might be usable for generating algebraic model equations if it works
 source("functions.R")
 
 ######################
