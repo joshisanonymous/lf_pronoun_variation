@@ -1395,26 +1395,44 @@
       @
     \end{figure}
 
+    A somewhat unexpected structural result was that \lexi{je} was a more likely 1sg subject pronoun before auxiliaries than \lexi{mo} (intercept $\approx$ \Sexpr{round_any(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"], 0.001, round)}; coefficient $\approx$ \Sexpr{round_any(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Estimate"], 0.001, round)}; $P <$ \Sexpr{round_any(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Pr(>|z|)"], 0.001, ceiling)}) or a null pronoun (intercept $\approx$ \Sexpr{round_any(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"], 0.001, round)}; coefficient $\approx$ \Sexpr{round_any(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Estimate"], 0.001, round)}; $P <$ \Sexpr{round_any(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Pr(>|z|)"], 0.001, ceiling)}) as this is not a constraint that was previously found.
+    The most thorough structural investigation of 1sg subject pronouns, \textcite{gudmestad_variationist_2022}, looked at phonetic variation rather than lexical variation as is done here.
+    They examined verb inflection classes rather than the lexical categories of verbs and had mixed results.
+    Null pronouns were more likely than the [ʃ] realization of \lexi{je} before \lexi{-er} verbs but less likely than the [ʒ] realization in the same context (pp.~14-15).\footnote{
+      While they did also look at \lexi{mo}/\lexi{moi}, it was somewhat tangential as it is not a phonetic variant of \lexi{je}.
+    }
+    The present study thus adds to the overall picture for structural variation of 1sg subject pronouns in Louisiana and to null pronouns in general.
+    Indeed, a pattern found in studies of null pronouns in other languages -- generally fully pro-drop languages -- is that null pronouns are less likely in linguistic contexts where the verbal morphology does not completely disambiguate the subject on its own \parencite{hochberg_functional_1986}, but for the speakers in the present data, the verbal morphology is more fleshed out for auxiliary verbs than non-auxiliaries, yet it was these latter verbs that led to more null 1sg pronouns.
+    This was, however, the extent of the impact that verb type had on subject pronoun realization.
+
+    For social factors, it should be noted that none were correlated with each other to an extent that would perhaps warrant their removal.
+    The generalized VIF values (\foreign{i.e.}, $GVIF^{1/2*df}$) for all factors in all models were easily below 5.
+    This was true despite some factors being logically correlated.
+    For instance, older individuals are more likely to be retired in general and those with college educations are more likely to have White collar jobs.
+    None of this appeared to make the models any more difficult to interpret, regardless.
+
+    Some social factors were either not significant at all or only significant in very few models.
+    Among the former were gender and participants' status as retired or not.
+    Among the latter were birth year and attained education.
+    Birth year had predictive value for 2sg.T subject pronouns as \lexi{to} became more likely relative to \lexi{tu} as speakers got younger (intercept $\approx$ \Sexpr{round_any(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"], 0.001, round)}, coefficient $\approx$ \Sexpr{round_any(logitModelSummaries$secondSgT$coefficients["to~scale(`Birth Year`)", "Estimate"], 0.001, round)}, $P <$ \Sexpr{round_any(logitModelSummaries$secondSgT$coefficients["to~scale(`Birth Year`)", "Pr(>|z|)"], 0.001, ceiling)}).
+    In the this context, however, younger refers to those closer to 60 all but two participants were born before 1962.
+    Of the two youngest speakers, both in their 20s, one was Creole and one was Cajun but neither used \lexi{to} at all.
     
-    % Unexpectedly(?), auxiliary verbs were also significant for 1sg where null and mo were less likely than je before auxiliaries
-      % One thing that makes the null result more surprising is that, as in fully pro-drop languages (cite something for tu esta_ maybe), one might expect null to occur when verbal morphology helps to identify the intended subject, but for these speakers, the verbal morphology is more fleshed out for auxiliaries than for non-auxiliaries
+    Education, on the other hand, had predictive value for expletive subject pronouns and impersonal subject pronouns.
+    Those with college educations were less likely to produce \lexi{il} for expletives than a null pronoun (intercept $\approx$ \Sexpr{round_any(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"], 0.001, round)}, coefficient $\approx$ \Sexpr{round_any(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Estimate"], 0.001, round)}, $P <$ \Sexpr{round_any(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Pr(>|z|)"], 0.001, ceiling)}) and were far more likely to prodouce \lexi{to} for impersonal pronouns than \lexi{tu} (intercept $\approx$ \Sexpr{round_any(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"], 0.001, round)}, coefficient $\approx$ \Sexpr{round_any(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Estimate"], 0.001, round)}, $P <$ \Sexpr{round_any(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Pr(>|z|)"], 0.001, ceiling)}).
+    One might expect the opposite result for expletives as \lexi{il} is normative in classroom language learning situations, and as Figure \ref{fig:education_by_institutionalFr} shows, only those participants who went to college had any such experience.
+    This expectation fails to be met even more so with impersonal pronouns as in fact neither \lexi{to} nor \lexi{tu} but rather \lexi{on} are normative in the classroom, which was so infrequent as an impersonal pronoun in the data for this study that it could not be included in the model.
+    Anecdotally, it is not uncommon for students to transfer impersonal English \lexi{you} to the French classroom and produce \lexi{tu} or \lexi{vous} for impersonal expressions.
+    In either case, speakers in the present data did not transfer their experience with classroom French into the language they used during interviews.
 
-    % Social factor caveats
-      % In general, some of these social factors are going to correlated
-        % Older people are more likely to be retired
-        % Those with college educations are more likely to have White collar jobs
-      % However, for this particular dataset, their generalized VIF values (i.e., GVIF^(1/2*df)) suggests that no factors included in the models are autocorrelated to a degree that would warrant removal
-
-    % Social factors that proved to be unimportant
-      % Gender
-      % Retired
-
-    % Factors that were mildly important
-      % Birth year
-        % Preference for to over tu for 2sg.T
-      % Education
-        % College graduates were less likely to use il over null for expletive pronouns
-        % Approached significance for preferring to over tu for impersonal pronouns
+    \begin{figure}[tbhp]
+      \caption{Participants' experience with French instruction relative to their education levels}
+      \label{fig:education_by_institutionalFr}
+      \centering
+      <<fig.height = 4>>=
+      plotEduInst
+      @
+    \end{figure}
 
     % Most consistently significant factor
       % Occupation type
