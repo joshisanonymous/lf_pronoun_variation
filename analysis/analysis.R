@@ -158,6 +158,8 @@ logitModels <- list(
   impersonal = multinomResponse("imp")
 )
 
+logitModelSummaries <- lapply(logitModels, summary)
+
 # small3plModel <- mblogit(ProUnder ~ PredType + Ethnicity,
 #         data = tokens[tokens$ProType == "3pl",],
 #         random = list(~ 1|Name, ~ 1|PredUnder))
