@@ -112,11 +112,7 @@
     @
     <<child = "./chapters/conclusion.Rtex">>=
     @
-
     \printbibliography
-
-    \appendix
-      \chapter{Interview Schedule}
-        \label{app:schedule}
-        \input{../../research_tools/interview_modules/pronouns_race_ethnicity.tex}
+    <<child = "./chapters/appendix.Rtex">>=
+    @
 \end{document}

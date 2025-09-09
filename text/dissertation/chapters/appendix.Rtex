@@ -1,0 +1,12 @@
+\appendix
+\chapter{Interview Schedule}
+  \label{app:schedule}
+  \input{../../research_tools/interview_modules/pronouns_race_ethnicity.tex}
+
+\chapter{Raw Code Output}
+  \label{app:code}
+  \begin{verbatim}
+  <<>>=
+  logitModelSummaries
+  @
+  \end{verbatim}
