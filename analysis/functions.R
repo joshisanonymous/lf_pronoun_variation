@@ -2,6 +2,15 @@
 # Functions #
 #############
 
+# Formatting
+Round <- function(number) {
+  sprintf("%.3f", round_any(number, 0.001, round))
+}
+
+Ceiling <- function(number) {
+  sprintf("%.3f", round_any(number, 0.001, ceiling))
+}
+
 # Subsets
 subsetTokens <- function(pronoun, feature) {
   if(feature == "animacy") {
