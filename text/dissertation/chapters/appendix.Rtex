@@ -3,10 +3,10 @@
   \label{app:schedule}
   \input{../../research_tools/interview_modules/pronouns_race_ethnicity.tex}
 
-\chapter{Raw Code Output}
+\chapter{Raw Code Output for Models}
   \label{app:code}
-  \begin{verbatim}
+  \begin{Verbatim}[fontsize=\small]
   <<>>=
   logitModelSummaries
   @
-  \end{verbatim}
+  \end{Verbatim}
