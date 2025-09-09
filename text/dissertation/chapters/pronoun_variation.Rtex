@@ -1374,7 +1374,7 @@
     In terms of racialization, such a result would suggest that speech can serve as a identifier with the potential to lead to acts of discrimination.
     Given that the analysis here treats all of the subject pronouns, it can also address the question of whether these pronouns covary, which would suggest that they form a whole system that distinguishes Creoles and Cajuns.
     However, the results do not lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities.
-    Notable results will be discussed in this section, whereas the full summary read-outs for each model are given in the appendix. % Add this appendix data
+    Notable results will be discussed in this section, whereas the full summary read-outs for each model are given in Appendix \ref{app:code}.
 
     Three pronoun types did not result in any statistically significant associations.
     For both feminine and masculine versions of 3sg, made up of \lexi{li} versus \lexi{elle} and \lexi{li} versus \lexi{il} respectively, the latter variants were slightly preferred overall (intercepts of \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~(Intercept)", "Estimate"])} and \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}).
@@ -1499,6 +1499,58 @@
         % ..less likely to produce to over tu for impersonal
         % These are the sort of patterns Cajun participants produced when they discussed Creoles speaking differently
           % Of course, these same participants at times made it clear that Cajuns talk like Creoles sometimes and Creoles talk like Cajuns, so while there seem to be stereotypes about the speech of each group, the reality of how actual language use patterns doesn't support these stereotypes to the extent that even those who hold the stereotypes recognize that
+
+    \begin{figure}[tbhp]
+      \captionsetup{font={footnotesize}}
+      \centering
+      Pronoun counts by ethnicity
+      \label{fig:ethnicity_pronouns}
+
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{1sg}\label{fig:ethnicity_1sg}
+        <<out.width = "95%">>=
+        plotsEthnicity$firstSg
+        @
+      \end{minipage}
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{1pl}\label{fig:ethnicity_1pl}
+        <<out.width = "95%">>=
+        plotsEthnicity$firstPl
+        @
+      \end{minipage}
+
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{2sg.T}\label{fig:ethnicity_2sgT}
+        <<out.width = "95%">>=
+        plotsEthnicity$secondSgT
+        @
+      \end{minipage}
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{3pl}\label{fig:ethnicity_3pl}
+        <<out.width = "95%">>=
+        plotsEthnicity$thirdPl
+        @
+      \end{minipage}
+
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{expletive}\label{fig:ethnicity_expletive}
+        <<out.width = "95%">>=
+        plotsEthnicity$expletive
+        @
+      \end{minipage}
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{impersonal}\label{fig:ethnicity_impersonal}
+        <<out.width = "95%">>=
+        plotsEthnicity$impersonal
+        @
+      \end{minipage}
+    \end{figure}
 
     % For an exploratory analysis: let's look at how occupation and ethnicity interact
       % After all, the tendencies, though again not significant, align with occupation type tendencies which were significant
