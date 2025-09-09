@@ -30,6 +30,7 @@
     \graphicspath{{../figure/}}
   \usepackage{pbox}
   \usepackage{xcolor}
+  \usepackage{fancyvrb}
 
   % Document information
   \title{Racialization in the language of Creoles and Cajuns}
