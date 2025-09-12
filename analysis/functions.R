@@ -80,14 +80,19 @@ getEIHomophily <- function(df, name) {
 }
 
 # Models
+test3plPred <- function(pronoun) {
+  mblogit(ProUnder ~ PredType,
+          data = droplevels(tokens[tokens$ProType == pronoun,]),
+          random = list(~ 1|Name, ~ 1|PredUnder))
+}
+
 multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE) {
   if(exclude_aux == TRUE) {
     tokens <- droplevels(subset(tokens, !(PredType == "auxiliary")))
   } else if(exclude_modal == TRUE) {
     tokens <- droplevels(subset(tokens, !(PredType == "modal")))
   }
-  mblogit(ProUnder ~ PredType + Ethnicity + Gender + Occupation + Retired +
-            Education + scale(`Birth Year`) + Network.Ethnic.Homophily:Ethnicity,
+  mblogit(ProUnder ~ PredType + Ethnicity + Gender + `Institutional French` + scale(`Birth Year`),
           data = droplevels(tokens[tokens$ProType == pronoun,]),
           random = list(~ 1|Name, ~ 1|PredUnder))
 }
@@ -122,6 +127,15 @@ plotEthOcc <- function(df) {
   plot <- ggplot(df, aes(x = ProUnder)) +
     geom_bar() +
     facet_wrap(Ethnicity ~ Occupation) +
+    theme_bw() +
+    labs(x = "Pronoun", y = "Count")
+  return(plot)
+}
+
+plotEduOcc <- function(df) {
+  plot <- ggplot(df, aes(x = ProUnder)) +
+    geom_bar() +
+    facet_wrap(Education ~ Occupation) +
     theme_bw() +
     labs(x = "Pronoun", y = "Count")
   return(plot)

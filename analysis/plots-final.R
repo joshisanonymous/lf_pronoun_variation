@@ -45,11 +45,13 @@ plotsPredicate <- lapply(tablesPredicate, plotSocial)
 plotsGender <- lapply(tablesGender, plotSocial)
 plotsEducation <- lapply(tablesEducation, plotSocial)
 plotsOccupation <- lapply(tablesOccupation, plotSocial)
+plotsInstitutionalFr <- lapply(tablesInstitutionalFr, plotSocial)
 plotsRaised <- lapply(tablesRaised, plotSocial)
 plotsResidence <- lapply(tablesResidence, plotSocial)
 plotsEthnicity <- lapply(tablesEthnicity, plotSocial)
 plotsRace <- lapply(tablesRace, plotSocial)
 plotsEthOcc <- lapply(subsetsProType, plotEthOcc)
+plotsEduOcc <- lapply(subsetsProType, plotEduOcc)
 
 # Location graph ---------------------------------------------------------------
 parishBar <- ggplot(

@@ -119,8 +119,6 @@ participants[participants$Name == "Rachel Chenevert", "Network.Ethnic.Homophily"
 # Merge participant metadata with tokens
 tokens <- merge(tokens, participants, by = "Name")
 
-source("tables.R")
-
 # Subsets to use for some exploratory graphs
 subsetsProType <- list(
   firstSg = subsetProType("1sg"),
@@ -186,5 +184,6 @@ homophByEthnicGroupTtest <- t.test(participants[participants$Ethnicity == "Creol
                                    participants[participants$Ethnicity == "Cajun",
                                                 "Network.Ethnic.Homophily"])
 
+source("tables.R")
 source("maps.R")
 source("plots-final.R")

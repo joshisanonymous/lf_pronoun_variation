@@ -144,6 +144,20 @@ tablesOccupation <- list(
   impersonal = tableSocial("imp", "Occupation")
 )
 
+tablesInstitutionalFr <- list(
+  firstSg = tableSocial("1sg", "Institutional French"),
+  secondSgT = tableSocial("2sg.T", "Institutional French"),
+  secondSgV = tableSocial("2sg.V", "Institutional French"),
+  thirdSgF = tableSocial("3sg.F", "Institutional French"),
+  thirdSgM = tableSocial("3sg.M", "Institutional French"),
+  firstPl = tableSocial("1pl", "Institutional French"),
+  secondPl = tableSocial("2pl", "Institutional French"),
+  thirdPl = tableSocial("3pl", "Institutional French"),
+  # demonstrative = tableSocial("demo", "Institutional French"),
+  expletive = tableSocial("expl", "Institutional French"),
+  impersonal = tableSocial("imp", "Institutional French")
+)
+
 tablesRaised <- list(
   firstSg = tableSocial("1sg", "Raised (parish)"),
   secondSgT = tableSocial("2sg.T", "Raised (parish)"),
