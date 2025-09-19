@@ -87,7 +87,7 @@ participants$`F&C Background` <- sub("\\W{1,}.*", "", participants$`F&C Backgrou
 # participants[participants$Name == "Judy Soileau Courtade", "Occupation"] <- "White Collar"
 # participants[participants$Name == "Rachel Chenevert", "Occupation"] <- "Blue Collar"
 # participants[participants$Name == "Rose Louvière", "Occupation"] <- "White Collar"
-participants$Occupation <- droplevels(participants$Occupation)
+# participants$Occupation <- droplevels(participants$Occupation)
 
 # Insert temporary but likely values for missing values
 participants[participants$Name == "Jack Munson", "F&C Background"] <- "Naturalistic"
