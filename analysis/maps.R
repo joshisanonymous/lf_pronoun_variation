@@ -40,7 +40,7 @@ participant_raised <- subset(parishPolygons,
   name == "Lafourche Parish")
 participant_residence <- subset(parishPolygons,
   name == "Vermilion Parish" | name == "Acadia Parish" | name == "St. Landry Parish" |
-  name == "Lafayette Parish" | name == "Saint Martin Parish")
+  name == "Lafayette Parish" | name == "Saint Martin Parish" | name == "East Baton Rouge Parish")
 focus_area <- subset(parishPolygons,
   name == "St. Landry Parish" | name == "Lafayette Parish" | name == "Saint Martin Parish")
 majorCitiesPolygons <- subset(louisiana$osm_multipolygons, admin_level == "8" &
