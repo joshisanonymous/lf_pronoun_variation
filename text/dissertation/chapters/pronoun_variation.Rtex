@@ -1331,9 +1331,9 @@
         For predicates, this helps prevent having the results skewed by frequently repeated fixed phrases much like using word as a random effect when building models of variation in vowels.
 
         \begin{enumerate}[label=\roman*., ref=\roman*, series=equations]
-          \item Pronoun Type $\sim$ Predicate Type + Ethnicity + Gender + Occupation Type + Retired + Education Attained + Birth Year\footnote{
+          \item Pronoun Type $\sim$ Predicate Type + Ethnicity + Gender + Institutional French + Birth Year\footnote{
             For modeling, this factor was rescaled to avoid producing a very large effect size.
-          } + IE Ethnic Homophily:Ethnicity + (1|Speaker) + (1|Predicate) \label{eq:regression_model}
+          } + (1|Speaker) + (1|Predicate) \label{eq:regression_model}
         \end{enumerate}
 
         \begin{table}[tbhp]
@@ -1347,13 +1347,13 @@
             Predicate Type                & \Sexpr{toString(levels(tokens$PredType))} \\
             Ethnicity                     & \Sexpr{toString(levels(tokens$Ethnicity))} \\
             Gender                        & \Sexpr{toString(levels(tokens$Gender))} \\
-            Occupation Type               & \Sexpr{toString(levels(tokens$Occupation))} \\
-            Retired                       & \Sexpr{toString(levels(tokens$Retired))} \\
-            Education Attained            & \Sexpr{toString(levels(tokens$Education))} \\
+            Institutional French          & \Sexpr{toString(levels(tokens$`Institutional French`))} \\
             Birth Year                    & \emph{continuous} \\
-            Ethnic Homophily              & \emph{continuous} \\
+            \textbf{Ethnic Homophily}     & \emph{continuous} \\
             \textbf{F\&C Background}      & \Sexpr{toString(levels(tokens$`F&C Background`))} \\
-            \textbf{Institutional French} & \Sexpr{toString(levels(tokens$`Institutional French`))} \\
+            \textbf{Occupation Type}      & \Sexpr{toString(levels(tokens$Occupation))} \\
+            \textbf{Retired}              & \Sexpr{toString(levels(tokens$Retired))} \\
+            \textbf{Education Attained}   & \Sexpr{toString(levels(tokens$Education))} \\
             \multicolumn{2}{c}{} \\
           \end{tabular}
 
@@ -1379,8 +1379,11 @@
     Three pronoun types did not result in any statistically significant associations.
     For both feminine and masculine versions of 3sg, made up of \lexi{li} versus \lexi{elle} and \lexi{li} versus \lexi{il} respectively, the latter variants were slightly preferred overall (intercepts of \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~(Intercept)", "Estimate"])} and \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}).
     For 1pl, made up of \lexi{no} and \lexi{on}, the latter was again slightly preferred overall but even less so than for the 3sg pronoun types.
-    One factor that stood out for 1pl was occupation type in that this factor approached significance ($P <$ \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Pr(>|z|)"])}) with white collar speakers greatly dispreferring \lexi{no} (coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Estimate"])}).
+    One factor that stood out for 1pl was occupation type in that this factor approached significance with white collar speakers greatly dispreferring \lexi{no}.
     This is in accord with the results for occupation type for other pronoun types, as will be seen below.
+
+    % ($P <$ \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Pr(>|z|)"])})
+    % (coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Estimate"])})
 
     The one structural factor included in the models yielded the expected results based on previous studies.
     For 3pl subject pronouns, auxiliaries (\foreign{i.e.}, \lexi{être}, \lexi{avoir} and \lexi{aller}) entailed a preference for \lexi{ils} over \lexi{ça} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}; coefficient $\approx$ \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~PredTypeauxiliary", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~PredTypeauxiliary", "Pr(>|z|)"])}), as can be seen in Figure \ref{fig:3pl_predtype}.
@@ -1418,12 +1421,12 @@
     In the this context, however, younger refers to those closer to 60 all but two participants were born before 1962.
     Of the two youngest speakers, both in their 20s, one was Creole and one was Cajun but neither used \lexi{to} at all.
     
-    Education, on the other hand, had predictive value for expletive subject pronouns and impersonal subject pronouns.
-    Those with college educations were less likely to produce \lexi{il} for expletives than a null pronoun (intercept $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Pr(>|z|)"])}) and were far more likely to prodouce \lexi{to} for impersonal pronouns than \lexi{tu} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Pr(>|z|)"])}).
-    One might expect the opposite result for expletives as \lexi{il} is normative in classroom language learning situations, and as Figure \ref{fig:education_by_institutionalFr} shows, only those participants who went to college had any such experience.
-    This expectation fails to be met even more so with impersonal pronouns as in fact neither \lexi{to} nor \lexi{tu} but rather \lexi{on} are normative in the classroom, which was so infrequent as an impersonal pronoun in the data for this study that it could not be included in the model.
-    Anecdotally, it is not uncommon for students to transfer impersonal English \lexi{you} to the French classroom and produce \lexi{tu} or \lexi{vous} for impersonal expressions.
-    In either case, speakers in the present data did not transfer their experience with classroom French into the language they used during interviews.
+    % Education, on the other hand, had predictive value for expletive subject pronouns and impersonal subject pronouns.
+    % Those with college educations were less likely to produce \lexi{il} for expletives than a null pronoun (intercept $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Pr(>|z|)"])}) and were far more likely to prodouce \lexi{to} for impersonal pronouns than \lexi{tu} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Pr(>|z|)"])}).
+    % One might expect the opposite result for expletives as \lexi{il} is normative in classroom language learning situations, and as Figure \ref{fig:education_by_institutionalFr} shows, only those participants who went to college had any such experience.
+    % This expectation fails to be met even more so with impersonal pronouns as in fact neither \lexi{to} nor \lexi{tu} but rather \lexi{on} are normative in the classroom, which was so infrequent as an impersonal pronoun in the data for this study that it could not be included in the model.
+    % Anecdotally, it is not uncommon for students to transfer impersonal English \lexi{you} to the French classroom and produce \lexi{tu} or \lexi{vous} for impersonal expressions.
+    % In either case, speakers in the present data did not transfer their experience with classroom French into the language they used during interviews.
 
     \begin{figure}[tbhp]
       \caption{Participants' experience with French instruction relative to their education levels}
@@ -1445,45 +1448,45 @@
     What is striking about this result is not that white collar speakers prefer more standard language but rather that previous descriptions of F\&C in Louisiana have foregone any attempt to examine socioeconomic class with the argument that there was no meaningful stratification in these communities.
     While occupation type is not equivalent to socioeconomic class in and of itself, it can certainly factor into the socioeconomic equation, suggesting that this may be a worthwhile avenue of study in F\&C going forward.
 
-    \begin{table}[tbhp]
-      \caption{Occupation type for each pronoun type model}
-      \label{tab:occupation_results}
-      \centering
-      Levels: Blue Collar $\to$ White Collar \\
-      \begin{tabular}{l c @{ $\to$ } c r r r l}
-        \multicolumn{5}{c}{} \\
-        Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Coefficient & $P <$ & \\
-        \hline
-        1sg          & je & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}                  &
-                                  \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~OccupationWhite Collar", "Estimate"])}       &
-                                  \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~OccupationWhite Collar", "Pr(>|z|)"])}     &*\\
-                     & je & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}                 &
-                                  \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~OccupationWhite Collar", "Estimate"])}      &
-                                  \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~OccupationWhite Collar", "Pr(>|z|)"])}    &*\\
-        2sg.T        & tu & to  & \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"])}               &
-                                  \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~OccupationWhite Collar", "Estimate"])}    &
-                                  \Sexpr{Ceiling(logitModelSummaries$secondSgT$coefficients["to~OccupationWhite Collar", "Pr(>|z|)"])}  &*\\
-        1pl          & on & no  & \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~(Intercept)", "Estimate"])}                 &
-                                  \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Estimate"])}      &
-                                  \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Pr(>|z|)"])}    & \\
-        3pl          & ça & ils & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}                &
-                                  \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~OccupationWhite Collar", "Estimate"])}     &
-                                  \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~OccupationWhite Collar", "Pr(>|z|)"])}   & \\
-                     & ça & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}                 &
-                                  \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~OccupationWhite Collar", "Estimate"])}      &
-                                  \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~OccupationWhite Collar", "Pr(>|z|)"])}    &*\\
-        expletive    & ø  & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}               &
-                                  \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~OccupationWhite Collar", "Estimate"])}    &
-                                  \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~OccupationWhite Collar", "Pr(>|z|)"])}  &*\\
-                     & ø  & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}               &
-                                  \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~OccupationWhite Collar", "Estimate"])}    &
-                                  \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~OccupationWhite Collar", "Pr(>|z|)"])}  &*\\
-        impersonal   & tu & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}              &
-                                  \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~OccupationWhite Collar", "Estimate"])}   &
-                                  \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~OccupationWhite Collar", "Pr(>|z|)"])} &*\\
+    % \begin{table}[tbhp]
+    %   \caption{Occupation type for each pronoun type model}
+    %   \label{tab:occupation_results}
+    %   \centering
+    %   Levels: Blue Collar $\to$ White Collar \\
+    %   \begin{tabular}{l c @{ $\to$ } c r r r l}
+    %     \multicolumn{5}{c}{} \\
+    %     Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Coefficient & $P <$ & \\
+    %     \hline
+    %     1sg          & je & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}                  &
+    %                               \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~OccupationWhite Collar", "Estimate"])}       &
+    %                               \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~OccupationWhite Collar", "Pr(>|z|)"])}     &*\\
+    %                  & je & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}                 &
+    %                               \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~OccupationWhite Collar", "Estimate"])}      &
+    %                               \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~OccupationWhite Collar", "Pr(>|z|)"])}    &*\\
+    %     2sg.T        & tu & to  & \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"])}               &
+    %                               \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~OccupationWhite Collar", "Estimate"])}    &
+    %                               \Sexpr{Ceiling(logitModelSummaries$secondSgT$coefficients["to~OccupationWhite Collar", "Pr(>|z|)"])}  &*\\
+    %     1pl          & on & no  & \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~(Intercept)", "Estimate"])}                 &
+    %                               \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Estimate"])}      &
+    %                               \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Pr(>|z|)"])}    & \\
+    %     3pl          & ça & ils & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}                &
+    %                               \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~OccupationWhite Collar", "Estimate"])}     &
+    %                               \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~OccupationWhite Collar", "Pr(>|z|)"])}   & \\
+    %                  & ça & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}                 &
+    %                               \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~OccupationWhite Collar", "Estimate"])}      &
+    %                               \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~OccupationWhite Collar", "Pr(>|z|)"])}    &*\\
+    %     expletive    & ø  & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}               &
+    %                               \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~OccupationWhite Collar", "Estimate"])}    &
+    %                               \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~OccupationWhite Collar", "Pr(>|z|)"])}  &*\\
+    %                  & ø  & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}               &
+    %                               \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~OccupationWhite Collar", "Estimate"])}    &
+    %                               \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~OccupationWhite Collar", "Pr(>|z|)"])}  &*\\
+    %     impersonal   & tu & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}              &
+    %                               \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~OccupationWhite Collar", "Estimate"])}   &
+    %                               \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~OccupationWhite Collar", "Pr(>|z|)"])} &*\\
 
-      \end{tabular}
-    \end{table}
+    %   \end{tabular}
+    % \end{table}
 
     % Ethnicity
       % This was the factor that would suggest that pronouns are indexical of racialized identities but was not a significant factor for any pronoun type save for expletive
