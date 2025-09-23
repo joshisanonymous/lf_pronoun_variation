@@ -1373,17 +1373,57 @@
     The question most central to the quantitative analyses carried out here is whether or not subject pronouns in F\&C act as markers for Creole and Cajun identities.
     In terms of racialization, such a result would suggest that speech can serve as a identifier with the potential to lead to acts of discrimination.
     Given that the analysis here treats all of the subject pronouns, it can also address the question of whether these pronouns covary, which would suggest that they form a whole system that distinguishes Creoles and Cajuns.
-    However, the results do not lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities.
-    Notable results will be discussed in this section, whereas the full summary read-outs for each model are given in Appendix \ref{app:code}.
+    The results do in fact lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities, but there are some other results worth noting in this section beforehand.
+    The full summary read-outs for each model are given in Appendix \ref{app:code}.
 
-    Three pronoun types did not result in any statistically significant associations.
-    For both feminine and masculine versions of 3sg, made up of \lexi{li} versus \lexi{elle} and \lexi{li} versus \lexi{il} respectively, the latter variants were slightly preferred overall (intercepts of \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~(Intercept)", "Estimate"])} and \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}).
-    For 1pl, made up of \lexi{no} and \lexi{on}, the latter was again slightly preferred overall but even less so than for the 3sg pronoun types.
-    One factor that stood out for 1pl was occupation type in that this factor approached significance with white collar speakers greatly dispreferring \lexi{no}.
-    This is in accord with the results for occupation type for other pronoun types, as will be seen below.
+    Only one pronoun type did not yield any statistically significant results when modeled, that being 3sg.M.
+    This variable consisted of \lexi{li} compared to the reference level \lexi{il}.
+    Two factors did, however, approach significance -- ethnicity ($P <$ \Sexpr{Ceiling(logitModelSummaries$thirdSgM$coefficients["li~EthnicityCajun", "Pr(>|z|)"])}) and exposure to institutional French ($P <$ \Sexpr{Ceiling(logitModelSummaries$thirdSgM$coefficients["li~`Institutional French`Yes", "Pr(>|z|)"])}) -- both of which proved to be important factors in subject pronoun realization overall, as will be seen.
+    While the odds were higher that participants would produce \lexi{li} with factors at the reference levels of Creole for ethnicity and no institutional French exposure (intercept $\approx$ \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}), being Cajun and being exposed to institutional French both lowered the odds considerably (estimate $\approx$ \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~EthnicityCajun", "Estimate"])} and estimate $\approx$ \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~`Institutional French`Yes", "Estimate"])}, respectively).
+    Again, although these results are not statistically significant, they do align with expectations.
+    The literature has by and large only included analyses of \lexi{li} when conceptualized as studies specifically of the language variety Louisiana Creole, so for Creoles to veer towards \lexi{li} and Cajuns towards \lexi{il} is reasonable.
+    In terms of exposure to institutional French, one can safely assume that \lexi{li} would never be brought up in a French classroom -- and a Louisiana Creole language classroom has never existed to my knowledge -- whereas \lexi{il} is plainly the norm, so it likewise makes sense for those who have not been in a classroom to feel free to use \lexi{li} and for those who may have felt pressure to adapt to classroom French to use \lexi{il}.
+    
+    % Gender was the only non-significant factors
+      % Close to significance for expletive null > ça
+    Similarly to only one response variable having significant factors, only one factor was not significant for any pronoun types: gender.
+    This was clearly the case even just from examining the raw count distributions for each pronoun type.
+    Only for 3pl did it appear that women may have been behaving the differently than men.
+    As Figure \ref{fig:gender_3pl}, the use of \lexi{yé} relative to \lexi{ils} appears to be quite different for the two groups.
+    However, the reference level was \lexi{ça}, from which both groups show an increase of counts for \lexi{yé}.
+    Furthermore, 3pl \lexi{ça} and \lexi{ils} likely form a system, as will be seen, and when collapsing these two pronouns as in Figure \ref{fig:gender_3pl_collapsed}, both men and women seem to follow a very similar pattern.
+    For expletive pronouns, gender did approach statistical significance with the odds of producing \lexi{ça} over a null pronoun increased for women over men (estimate $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~GenderWoman", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~GenderWoman", "Pr(>|z|)"])}), but the distribution similarities in Figure \ref{fig:gender_expl} suggest that this was coincidental rather than a slightly underpowered statistical analysis.
+    Indeed, no participants ever explicitly brought up differences in the speech of men versus women, allowing for a safe conclusion that gender is not an important factor for subject pronoun realization in F\&C.
+    
+    \begin{figure}[tbhp]
+      \captionsetup{font={footnotesize}}
+      \centering
+      Pronoun counts by gender
+      \label{fig:gender_pronouns}
 
-    % ($P <$ \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Pr(>|z|)"])})
-    % (coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~OccupationWhite Collar", "Estimate"])})
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{3pl}\label{fig:gender_3pl}
+        <<out.width = "95%">>=
+        plotsGender$thirdPl
+        @
+      \end{minipage}
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{3pl (collapsed)}\label{fig:gender_3pl_collapsed}
+        <<out.width = "95%">>=
+        plotThirdPlCollapsedGender
+        @
+      \end{minipage}
+
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{expletive}\label{fig:gender_expl}
+        <<out.width = "95%">>=
+        plotsGender$expletive
+        @
+      \end{minipage}
+    \end{figure}
 
     The one structural factor included in the models yielded the expected results based on previous studies.
     For 3pl subject pronouns, auxiliaries (\foreign{i.e.}, \lexi{être}, \lexi{avoir} and \lexi{aller}) entailed a preference for \lexi{ils} over \lexi{ça} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}; coefficient $\approx$ \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~PredTypeauxiliary", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~PredTypeauxiliary", "Pr(>|z|)"])}), as can be seen in Figure \ref{fig:3pl_predtype}.
@@ -1413,13 +1453,6 @@
     This was true despite some factors being logically correlated.
     For instance, older individuals are more likely to be retired in general and those with college educations are more likely to have White collar jobs.
     None of this appeared to make the models any more difficult to interpret, regardless.
-
-    Some social factors were either not significant at all or only significant in very few models.
-    Among the former were gender and participants' status as retired or not.
-    Among the latter were birth year and attained education.
-    Birth year had predictive value for 2sg.T subject pronouns as \lexi{to} became more likely relative to \lexi{tu} as speakers got younger (intercept $\approx$ \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~scale(`Birth Year`)", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$secondSgT$coefficients["to~scale(`Birth Year`)", "Pr(>|z|)"])}).
-    In the this context, however, younger refers to those closer to 60 all but two participants were born before 1962.
-    Of the two youngest speakers, both in their 20s, one was Creole and one was Cajun but neither used \lexi{to} at all.
     
     % Education, on the other hand, had predictive value for expletive subject pronouns and impersonal subject pronouns.
     % Those with college educations were less likely to produce \lexi{il} for expletives than a null pronoun (intercept $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Pr(>|z|)"])}) and were far more likely to prodouce \lexi{to} for impersonal pronouns than \lexi{tu} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Pr(>|z|)"])}).
@@ -1437,16 +1470,16 @@
       @
     \end{figure}
 
-    The above social factors did not consistently prove to be statistically significant predictors of subject pronoun realization.
-    Occupation type, however, was significant for almost all pronoun types, as shown in Table \ref{tab:occupation_results}.
-    Only 3sg masculine and feminine are absent, as they are for all factors, and 1pl did not quite reach the level of statistical significance.
-    For 3pl, the only significant result was \lexi{yé} being dispreferred relative to \lexi{ça} for white collar workers whereas occupation type had no predictive value for the use of \lexi{ils} relative to \lexi{ça}.
-    As discussed above, \lexi{ils} and \lexi{ça} seem to form a system constrained by verb type, and so it is not surprising that they would vary in tandem when considering social factors.
-    Overall, white collar workers were more likely to use many of the pronouns that align with Hexagonal French: \lexi{je}, \lexi{tu} for 2sg.T, and \lexi{on} for 1pl.
-    Likewise, they were more likely to produce \lexi{il} as an expletive pronoun, although \lexi{ça} was also much more highly preferred than a null pronoun, this latter form being unattested in other French varieties for this function to the best of my knowledge.
-    \lexi{Ça} was also preferred for 3pl by white collar workers, which is perhaps the result that most distinguishes their pronoun use from that of francophones in other parts of the world.
-    What is striking about this result is not that white collar speakers prefer more standard language but rather that previous descriptions of F\&C in Louisiana have foregone any attempt to examine socioeconomic class with the argument that there was no meaningful stratification in these communities.
-    While occupation type is not equivalent to socioeconomic class in and of itself, it can certainly factor into the socioeconomic equation, suggesting that this may be a worthwhile avenue of study in F\&C going forward.
+    % The above social factors did not consistently prove to be statistically significant predictors of subject pronoun realization.
+    % Occupation type, however, was significant for almost all pronoun types, as shown in Table \ref{tab:occupation_results}.
+    % Only 3sg masculine and feminine are absent, as they are for all factors, and 1pl did not quite reach the level of statistical significance.
+    % For 3pl, the only significant result was \lexi{yé} being dispreferred relative to \lexi{ça} for white collar workers whereas occupation type had no predictive value for the use of \lexi{ils} relative to \lexi{ça}.
+    % As discussed above, \lexi{ils} and \lexi{ça} seem to form a system constrained by verb type, and so it is not surprising that they would vary in tandem when considering social factors.
+    % Overall, white collar workers were more likely to use many of the pronouns that align with Hexagonal French: \lexi{je}, \lexi{tu} for 2sg.T, and \lexi{on} for 1pl.
+    % Likewise, they were more likely to produce \lexi{il} as an expletive pronoun, although \lexi{ça} was also much more highly preferred than a null pronoun, this latter form being unattested in other French varieties for this function to the best of my knowledge.
+    % \lexi{Ça} was also preferred for 3pl by white collar workers, which is perhaps the result that most distinguishes their pronoun use from that of francophones in other parts of the world.
+    % What is striking about this result is not that white collar speakers prefer more standard language but rather that previous descriptions of F\&C in Louisiana have foregone any attempt to examine socioeconomic class with the argument that there was no meaningful stratification in these communities.
+    % While occupation type is not equivalent to socioeconomic class in and of itself, it can certainly factor into the socioeconomic equation, suggesting that this may be a worthwhile avenue of study in F\&C going forward.
 
     % \begin{table}[tbhp]
     %   \caption{Occupation type for each pronoun type model}
