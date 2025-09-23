@@ -130,6 +130,13 @@ subsetsProType <- list(
   impersonal = subsetProType("imp")
 )
 
+subsetThirdPlCollapsed <- droplevels(subsetsProType$thirdPl)
+subsetThirdPlCollapsed$ProUnder <- recode_factor(
+  subsetThirdPlCollapsed$ProUnder,
+  "ça" = "ça/ils",
+  "ils" = "ça/ils"
+)
+
 ############
 # Analyses # -------------------------------------------------------------------
 ############

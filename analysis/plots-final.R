@@ -53,6 +53,18 @@ plotsRace <- lapply(tablesRace, plotSocial)
 plotsEthOcc <- lapply(subsetsProType, plotEthOcc)
 plotsEduOcc <- lapply(subsetsProType, plotEduOcc)
 
+plotThirdPlCollapsedGender <- ggplot(melt(table(subsetThirdPlCollapsed$Gender,
+                                                subsetThirdPlCollapsed$ProUnder),
+              varnames = c("socialVar", "pronoun"),
+              value.name = "Count"),
+         aes(x = pronoun, y = Count, fill = pronoun)) +
+    geom_bar(stat = "identity") +
+    facet_wrap(. ~ socialVar) +
+    theme(text=element_text(size=15), legend.text = element_markdown(),
+          legend.position = "none") +
+    scale_fill_manual(values = color_key) +
+    labs(x = "Pronoun", y = "Count")
+
 # Location graph ---------------------------------------------------------------
 parishBar <- ggplot(
   parishLong,
