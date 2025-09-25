@@ -1425,7 +1425,7 @@
       \end{minipage}
     \end{figure}
 
-    Only one structural factor, that of following verb, was included in the models, but it did yield the result that was expected from previous studies as well as some unexpected results, all of which are summarized in Table \ref{tab:verb_results}.
+    Only one structural factor, that of following verb, was included in the models, but it did yield the result that was expected from previous studies as well an unexpected result, all of which are summarized in Table \ref{tab:verb_results}.
     What was expected was that the odds of producing \lexi{ils} for 3pl rather than \lexi{ça} would increase before auxiliary verbs, meaning \lexi{être}, \lexi{avoir}, and \lexi{aller},\footnote{
       The verbs \lexi{courir}, \lexi{venir}, \lexi{gone} and in some instances \lexi{gain} were also treated as auxiliaries but were so rare in this function that they did not appear after 3pl subject pronouns.
     } forming a system where there are \lexi{ils/ça} users and then \lexi{yé} users.
@@ -1534,12 +1534,6 @@
     }
     The present study thus adds to the overall picture for structural variation of 1sg subject pronouns in Louisiana and to null pronouns in general.
     Indeed, a pattern found in studies of null pronouns in other languages -- generally fully pro-drop languages -- is that null pronouns are less likely in linguistic contexts where the verbal morphology does not completely disambiguate the subject on its own \parencite{hochberg_functional_1986}, but for the speakers in the present data, the verbal morphology is more fleshed out for auxiliary verbs than non-auxiliaries, yet it was these latter verbs that led to more null 1sg pronouns.
-
-
-    % expletives
-      % auxiliary was excluded due to cells with too low counts
-      % modal led both to more ça and il relative to null
-        % What are the modal verbs?
 
     For social factors, it should be noted that none were correlated with each other to an extent that would perhaps warrant their removal.
     The generalized VIF values (\foreign{i.e.}, $GVIF^{1/2*df}$) for all factors in all models were easily below 5.
