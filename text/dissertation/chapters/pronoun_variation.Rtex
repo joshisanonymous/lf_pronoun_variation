@@ -1535,13 +1535,8 @@
     The present study thus adds to the overall picture for structural variation of 1sg subject pronouns in Louisiana and to null pronouns in general.
     Indeed, a pattern found in studies of null pronouns in other languages -- generally fully pro-drop languages -- is that null pronouns are less likely in linguistic contexts where the verbal morphology does not completely disambiguate the subject on its own \parencite{hochberg_functional_1986}, but for the speakers in the present data, the verbal morphology is more fleshed out for auxiliary verbs than non-auxiliaries, yet it was these latter verbs that led to more null 1sg pronouns.
 
-    For social factors, it should be noted that none were correlated with each other to an extent that would perhaps warrant their removal.
-    The generalized VIF values (\foreign{i.e.}, $GVIF^{1/2*df}$) for all factors in all models were easily below 5.
-    This was true despite some factors being logically correlated.
-    For instance, older individuals are more likely to be retired in general and those with college educations are more likely to have White collar jobs.
-    None of this appeared to make the models any more difficult to interpret, regardless.
-    
-    
+    % Institutional French
+      % Likely goes along with education
 
     \begin{figure}[tbhp]
       \caption{Participants' experience with French instruction relative to their education levels}
@@ -1551,21 +1546,7 @@
       plotEduInst
       @
     \end{figure}
-
-    % The above social factors did not consistently prove to be statistically significant predictors of subject pronoun realization.
-    % Occupation type, however, was significant for almost all pronoun types, as shown in Table \ref{tab:occupation_results}.
-    % Only 3sg masculine and feminine are absent, as they are for all factors, and 1pl did not quite reach the level of statistical significance.
-    % For 3pl, the only significant result was \lexi{yé} being dispreferred relative to \lexi{ça} for white collar workers whereas occupation type had no predictive value for the use of \lexi{ils} relative to \lexi{ça}.
-    % As discussed above, \lexi{ils} and \lexi{ça} seem to form a system constrained by verb type, and so it is not surprising that they would vary in tandem when considering social factors.
-    % Overall, white collar workers were more likely to use many of the pronouns that align with Hexagonal French: \lexi{je}, \lexi{tu} for 2sg.T, and \lexi{on} for 1pl.
-    % Likewise, they were more likely to produce \lexi{il} as an expletive pronoun, although \lexi{ça} was also much more highly preferred than a null pronoun, this latter form being unattested in other French varieties for this function to the best of my knowledge.
-    % \lexi{Ça} was also preferred for 3pl by white collar workers, which is perhaps the result that most distinguishes their pronoun use from that of francophones in other parts of the world.
-    % What is striking about this result is not that white collar speakers prefer more standard language but rather that previous descriptions of F\&C in Louisiana have foregone any attempt to examine socioeconomic class with the argument that there was no meaningful stratification in these communities.
-    % While occupation type is not equivalent to socioeconomic class in and of itself, it can certainly factor into the socioeconomic equation, suggesting that this may be a worthwhile avenue of study in F\&C going forward.
-
-    % Institutional French
-      % Likely goes along with education
-
+    
     % Ethnicity
       % How did non-modeled factors play into this?
         % Socioeconomic class (education and occupation) is probably tied up in this, as well
