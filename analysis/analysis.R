@@ -127,6 +127,7 @@ subsetsProType <- list(
   thirdSgM = subsetProType("3sg.M"),
   firstPl = subsetProType("1pl"),
   thirdPl = subsetProType("3pl"),
+  expletive = subsetProType("expl"),
   impersonal = subsetProType("imp")
 )
 
