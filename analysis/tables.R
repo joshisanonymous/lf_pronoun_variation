@@ -186,6 +186,20 @@ tablesResidence <- list(
   impersonal = tableSocial("imp", "Residence (parish)")
 )
 
+tablesParticipant <- list(
+  firstSg = sapply(as.character(participants$Name), tableParticipant, protype = "1sg", simplify = FALSE),
+  secondSgT = sapply(as.character(participants$Name), tableParticipant, protype = "2sg.T", simplify = FALSE),
+  secondSgV = sapply(as.character(participants$Name), tableParticipant, protype = "2sg.V", simplify = FALSE),
+  thirdSgF = sapply(as.character(participants$Name), tableParticipant, protype = "3sg.F", simplify = FALSE),
+  thirdSgM = sapply(as.character(participants$Name), tableParticipant, protype = "3sg.M", simplify = FALSE),
+  firstPl = sapply(as.character(participants$Name), tableParticipant, protype = "1pl", simplify = FALSE),
+  secondPl = sapply(as.character(participants$Name), tableParticipant, protype = "2pl", simplify = FALSE),
+  thirdPl = sapply(as.character(participants$Name), tableParticipant, protype = "3pl", simplify = FALSE),
+  # demonstrative = sapply(as.character(participants$Name), tableParticipant, protype = "demo", simplify = FALSE),
+  expletive = sapply(as.character(participants$Name), tableParticipant, protype = "expl", simplify = FALSE),
+  impersonal = sapply(as.character(participants$Name), tableParticipant, protype = "imp", simplify = FALSE)
+)
+
 tablesSocial <- list(
   ethnicityRace = table(participants$Ethnicity, participants$Race),
   ethnicityGend = table(participants$Ethnicity, participants$Gender),

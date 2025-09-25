@@ -58,6 +58,11 @@ tableSocial <- function(pronoun, socialVariable) {
   )
 }
 
+# Tables for birth year
+tableParticipant <- function(name, protype) {
+  table(droplevels(tokens[tokens$Name == name & tokens$ProType == protype, "ProUnder"]))
+}
+
 # Network stuff
 getAlterEthCount <- function(df, name, participantEthnicity, sameEthnicity = TRUE) {
   if(sameEthnicity == TRUE) {
