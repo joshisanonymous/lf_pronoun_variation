@@ -1541,12 +1541,7 @@
     For instance, older individuals are more likely to be retired in general and those with college educations are more likely to have White collar jobs.
     None of this appeared to make the models any more difficult to interpret, regardless.
     
-    % Education, on the other hand, had predictive value for expletive subject pronouns and impersonal subject pronouns.
-    % Those with college educations were less likely to produce \lexi{il} for expletives than a null pronoun (intercept $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~EducationCollege Graduate", "Pr(>|z|)"])}) and were far more likely to prodouce \lexi{to} for impersonal pronouns than \lexi{tu} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}, coefficient $\approx$ \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Estimate"])}, $P <$ \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~EducationCollege Graduate", "Pr(>|z|)"])}).
-    % One might expect the opposite result for expletives as \lexi{il} is normative in classroom language learning situations, and as Figure \ref{fig:education_by_institutionalFr} shows, only those participants who went to college had any such experience.
-    % This expectation fails to be met even more so with impersonal pronouns as in fact neither \lexi{to} nor \lexi{tu} but rather \lexi{on} are normative in the classroom, which was so infrequent as an impersonal pronoun in the data for this study that it could not be included in the model.
-    % Anecdotally, it is not uncommon for students to transfer impersonal English \lexi{you} to the French classroom and produce \lexi{tu} or \lexi{vous} for impersonal expressions.
-    % In either case, speakers in the present data did not transfer their experience with classroom French into the language they used during interviews.
+    
 
     \begin{figure}[tbhp]
       \caption{Participants' experience with French instruction relative to their education levels}
@@ -1568,20 +1563,15 @@
     % What is striking about this result is not that white collar speakers prefer more standard language but rather that previous descriptions of F\&C in Louisiana have foregone any attempt to examine socioeconomic class with the argument that there was no meaningful stratification in these communities.
     % While occupation type is not equivalent to socioeconomic class in and of itself, it can certainly factor into the socioeconomic equation, suggesting that this may be a worthwhile avenue of study in F\&C going forward.
 
+    % Institutional French
+      % Likely goes along with education
+
     % Ethnicity
-      % This was the factor that would suggest that pronouns are indexical of racialized identities but was not a significant factor for any pronoun type save for expletive
-        % dispreferred il over null for expletives
-      % However, in all cases, the coefficients did reproduce the way Louisianians TALK about differences in the speech of Creoles and Cajuns
-        % Cajuns were...
-        % ..less likely to produce mo over je
-        % ..less likely to produce to over tu for 2sg.T
-        % ..less likely to produce li over elle for 3sg.F
-        % ..less likely to produce li over il for 3sg.M
-        % ..slightly less likely to produce no over on
-        % ..less likely to produce ye over ils and ils over ca
-        % ..less likely to produce to over tu for impersonal
-        % These are the sort of patterns Cajun participants produced when they discussed Creoles speaking differently
-          % Of course, these same participants at times made it clear that Cajuns talk like Creoles sometimes and Creoles talk like Cajuns, so while there seem to be stereotypes about the speech of each group, the reality of how actual language use patterns doesn't support these stereotypes to the extent that even those who hold the stereotypes recognize that
+      % How did non-modeled factors play into this?
+        % Socioeconomic class (education and occupation) is probably tied up in this, as well
+          % Check cross-tabs to determine this roughly
+          % But if so, this could be simply related to exposure to institutional French
+            % F&C isn't really a public language, not a language used at work or anywhere where there might be pressure to develop a formal style
 
     \begin{figure}[tbhp]
       \captionsetup{font={footnotesize}}
@@ -1634,17 +1624,6 @@
         @
       \end{minipage}
     \end{figure}
-
-    % For an exploratory analysis: let's look at how occupation and ethnicity interact
-      % After all, the tendencies, though again not significant, align with occupation type tendencies which were significant
-        % Almost all Cajuns were White collar but just under half of Creoles were White collar
-        % However, none of the non-White Collar Cajuns produced any of the traditionally "Louisiana Creole" pronouns
-          % The two Cajuns who did so regularly and one who demonstrated his ability to speak "Kouri-Vini" were all White Collar
-      % But let's look
-        % Models with just this interaction tend to fail to converge due to cells with low or zero counts
-        % What can be see consistently in simple bar plots, though, is that blue collar Creoles always favor traditional Creole pronoun variants much more than any other subsection of the participants
-        % This seems to suggest that there is a pronoun system that's indexical of blue collar Creoles that is carried over as a stereotype for all Creoles, but the models of the data here do not support that
-          % Perhaps a larger sample of speakers is needed to draw such a conclusion quantitatively
 
     % Finally, what about race?
       % Racial self-identifications are generally associated with ethnic identities
