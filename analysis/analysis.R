@@ -16,6 +16,7 @@ library(ggpubr)
 library(egg)
 library(reshape2)
 library(mclogit)
+predict_mblogit <- mclogit:::predict.mblogit
 library(lme4)
 library(car)
 library(plyr)
@@ -47,6 +48,8 @@ parishes <- c("Calcasieu Parish", "Cameron Parish", "Jefferson Davis Parish",
               "Lafourche Parish", "Terrebonne Parish")
 majorCities <- c("New Orleans", "Lafayette", "Baton Rouge")
 source("data_cleaning.R")
+birthScaled <- scale(participants$`Birth Year`)
+birthSequence <- seq(min(participants$`Birth Year`), max(participants$`Birth Year`), by = 1)
 source("subsets.R")
 source("plots-pre.R")
 
@@ -138,6 +141,28 @@ subsetThirdPlCollapsed$ProUnder <- recode_factor(
   "ils" = "ça/ils"
 )
 
+# Data to use for plotting model results
+dataToPredictBirthYear <- data.frame(
+  `Birth Year` = (birthSequence - attr(birthScaled, "scaled:center")) / attr(birthScaled, "scaled:scale"),
+  `Unscaled Birth Year` = birthSequence,
+  PredType = factor(levels(tokens$PredType)[1], levels = levels(tokens$PredType)),
+  Ethnicity = factor(levels(tokens$Ethnicity)[1], levels = levels(tokens$Ethnicity)),
+  Gender = factor(levels(tokens$Gender)[1], levels = levels(tokens$Gender)),
+  `Institutional French` = factor(levels(tokens$`Institutional French`)[1], levels = levels(tokens$`Institutional French`)),
+  Name = factor(levels(tokens$Name)[1], levels = levels(tokens$Name)),
+  PredUnder = factor(levels(tokens$PredUnder)[1], levels = levels(tokens$PredUnder))
+)
+
+dataAllPossible <- expand.grid(
+  `Birth Year` = (birthSequence - attr(birthScaled, "scaled:center")) / attr(birthScaled, "scaled:scale"),
+  PredType = levels(tokens$PredType),
+  Ethnicity = levels(tokens$Ethnicity),
+  Gender = levels(tokens$Gender),
+  `Institutional French` = levels(tokens$`Institutional French`),
+  Name = factor(levels(tokens$Name)[1], levels = levels(tokens$Name)),
+  PredUnder = factor(levels(tokens$PredUnder)[1], levels = levels(tokens$PredUnder))
+)
+
 ############
 # Analyses # -------------------------------------------------------------------
 ############
@@ -171,6 +196,17 @@ logitModelSummaries <- lapply(logitModels, summary)
 
 # Check for multicollinearity 
 logitVif <- lapply(logitModels, vif)
+
+# Add values to data used for plotting model results
+dataToPredictBirthYear$Fit <- predict_mblogit(logitModels$secondSgT, newdata = dataToPredictBirthYear, type = "response", random = NULL)
+
+ggplot() +
+  geom_jitter(data = subsetsProType$secondSgT,
+              aes(x = `Birth Year`, y = ProUnder)) +
+  geom_line(data = dataAllPossible,
+            aes (x = `Unscaled Birth Year`, y = Fit)) +
+  xlab("Birth Year") +
+  theme_bw()
 
 # Social Networks #
   ###############

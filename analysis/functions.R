@@ -58,7 +58,7 @@ tableSocial <- function(pronoun, socialVariable) {
   )
 }
 
-# Tables for birth year
+# Tables for individual participants
 tableParticipant <- function(name, protype) {
   table(droplevels(tokens[tokens$Name == name & tokens$ProType == protype, "ProUnder"]))
 }
@@ -145,6 +145,17 @@ plotEduOcc <- function(df) {
     labs(x = "Pronoun", y = "Count")
   return(plot)
 }
+
+plotParticipant <- function(name, protype) {
+  ggplot(data = tokens[tokens$Name == name & tokens$ProType == protype,],
+         aes(x = ProUnder)) +
+  geom_bar() +
+  theme_bw() +
+  labs(x = "Pronoun", y = "Count", title = name)
+}
+
+# Regression plot
+
 
 # Maps
 getPolyCenter <- function(placeName){

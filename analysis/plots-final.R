@@ -65,6 +65,8 @@ plotThirdPlCollapsedGender <- ggplot(melt(table(subsetThirdPlCollapsed$Gender,
     scale_fill_manual(values = color_key) +
     labs(x = "Pronoun", y = "Count")
 
+lapply(participants[order(participants$`Birth Year`), "Name"], plotParticipant, protype = "2sg.T")
+
 # Location graph ---------------------------------------------------------------
 parishBar <- ggplot(
   parishLong,
