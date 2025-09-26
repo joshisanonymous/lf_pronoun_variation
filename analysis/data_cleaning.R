@@ -115,6 +115,9 @@ participants$Education <- factor(participants$Education,
 participants$Ethnicity <- factor(participants$Ethnicity,
                           levels = c("Creole", "Cajun"))
 
+# Add a column for age from birth years
+participants$Age <- 2023 - participants$`Birth Year`
+
 # Network cleaning -----------------------------------------------------------
 # Collapse factor levels when relevant
 networks$Alter.Ethnicity <- recode_factor(

@@ -28,9 +28,6 @@ source("functions.R")
 # Data and variables # -------------------------------------------------------
 ######################
 
-# Variables
-color_key <- c("#332288", "#88CCEE", "#44AA99", "#117733", "#999933", "#DDCC77",
-               "#CC6677", "#882255", "#AA4499", "#DDDDDD")
 # Read in data
 participants <- read.csv("../data/metadata.csv", fileEncoding = "UTF-8",
                          stringsAsFactors = TRUE, sep = "\t", na.strings = "")
@@ -47,9 +44,16 @@ parishes <- c("Calcasieu Parish", "Cameron Parish", "Jefferson Davis Parish",
               "St. John the Baptist Parish", "St. Charles Parish",
               "Lafourche Parish", "Terrebonne Parish")
 majorCities <- c("New Orleans", "Lafayette", "Baton Rouge")
+
 source("data_cleaning.R")
-birthScaled <- scale(participants$`Birth Year`)
+
+# Variables
+color_key <- c("#332288", "#88CCEE", "#44AA99", "#117733", "#999933", "#DDCC77",
+               "#CC6677", "#882255", "#AA4499", "#DDDDDD")
+
 birthSequence <- seq(min(participants$`Birth Year`), max(participants$`Birth Year`), by = 1)
+
+# Some pre-analysis prep
 source("subsets.R")
 source("plots-pre.R")
 
@@ -141,28 +145,6 @@ subsetThirdPlCollapsed$ProUnder <- recode_factor(
   "ils" = "ça/ils"
 )
 
-# Data to use for plotting model results
-dataToPredictBirthYear <- data.frame(
-  `Birth Year` = (birthSequence - attr(birthScaled, "scaled:center")) / attr(birthScaled, "scaled:scale"),
-  `Unscaled Birth Year` = birthSequence,
-  PredType = factor(levels(tokens$PredType)[1], levels = levels(tokens$PredType)),
-  Ethnicity = factor(levels(tokens$Ethnicity)[1], levels = levels(tokens$Ethnicity)),
-  Gender = factor(levels(tokens$Gender)[1], levels = levels(tokens$Gender)),
-  `Institutional French` = factor(levels(tokens$`Institutional French`)[1], levels = levels(tokens$`Institutional French`)),
-  Name = factor(levels(tokens$Name)[1], levels = levels(tokens$Name)),
-  PredUnder = factor(levels(tokens$PredUnder)[1], levels = levels(tokens$PredUnder))
-)
-
-dataAllPossible <- expand.grid(
-  `Birth Year` = (birthSequence - attr(birthScaled, "scaled:center")) / attr(birthScaled, "scaled:scale"),
-  PredType = levels(tokens$PredType),
-  Ethnicity = levels(tokens$Ethnicity),
-  Gender = levels(tokens$Gender),
-  `Institutional French` = levels(tokens$`Institutional French`),
-  Name = factor(levels(tokens$Name)[1], levels = levels(tokens$Name)),
-  PredUnder = factor(levels(tokens$PredUnder)[1], levels = levels(tokens$PredUnder))
-)
-
 ############
 # Analyses # -------------------------------------------------------------------
 ############
@@ -198,14 +180,43 @@ logitModelSummaries <- lapply(logitModels, summary)
 logitVif <- lapply(logitModels, vif)
 
 # Add values to data used for plotting model results
-dataToPredictBirthYear$Fit <- predict_mblogit(logitModels$secondSgT, newdata = dataToPredictBirthYear, type = "response", random = NULL)
+birthScaled <- scale(tokens[tokens$ProType == "3pl", "Birth Year"])
 
-ggplot() +
-  geom_jitter(data = subsetsProType$secondSgT,
-              aes(x = `Birth Year`, y = ProUnder)) +
-  geom_line(data = dataAllPossible,
-            aes (x = `Unscaled Birth Year`, y = Fit)) +
-  xlab("Birth Year") +
+dataPredictBirthYear <- data.frame(
+  # `Birth Year` = birthScaled,
+  # `Birth Year` = (birthSequence - attr(birthScaled, "scaled:center")) / attr(birthScaled, "scaled:scale"),
+  # `Unscaled Birth Year` = birthSequence,
+  Age = participants$Age,
+  PredType = factor(levels(tokens$PredType)[1], levels = levels(tokens$PredType)),
+  Ethnicity = factor(levels(tokens$Ethnicity)[1], levels = levels(tokens$Ethnicity)),
+  Gender = factor(levels(tokens$Gender)[1], levels = levels(tokens$Gender)),
+  `Institutional French` = factor(levels(tokens$`Institutional French`)[1], levels = levels(tokens$`Institutional French`)),
+  Name = factor(levels(tokens$Name)[1], levels = levels(tokens$Name)),
+  PredUnder = factor(levels(logitModels$secondSgT$data$PredUnder)[1], levels = levels(logitModels$secondSgT$data$PredUnder)),
+  check.names = FALSE
+)
+
+fittedBirthYear <- predict(
+  logitModels$secondSgT, newdata = dataPredictBirthYear,
+  type = "response", random = NULL
+)
+
+modelBirthYear <- cbind(dataPredictBirthYear, fittedBirthYear)
+
+plot2sgAge <- ggplot() +
+  geom_jitter(data = tokens[tokens$ProType == "2sg.T" & (tokens$ProUnder == "tu" | tokens$ProUnder == "to"),],
+              aes(x = Age, y = as.numeric(ProUnder == "to")),
+              width = 0.5, height = 0.025) +
+  geom_line(data = modelBirthYear,
+            aes(x = Age, y = to),
+            color = "red") +
+  # stat_summary(data = modelBirthYear,
+  #              aes(x = Ethnicity, y = yé),
+  #              fun = mean, geom = "point",
+  #              color = "red", size = 6) +
+  xlab("Age") +
+  scale_y_continuous(breaks = c(0, 1), labels = c("tu", "to"), limits = c(-0.1, 1.1)) +
+  scale_x_reverse() +
   theme_bw()
 
 # Social Networks #

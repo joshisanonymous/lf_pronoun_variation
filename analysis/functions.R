@@ -97,7 +97,7 @@ multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE
   } else if(exclude_modal == TRUE) {
     tokens <- droplevels(subset(tokens, !(PredType == "modal")))
   }
-  mblogit(ProUnder ~ PredType + Ethnicity + Gender + `Institutional French` + scale(`Birth Year`),
+  mblogit(ProUnder ~ PredType + Ethnicity + Gender + `Institutional French` + Age,
           data = droplevels(tokens[tokens$ProType == pronoun,]),
           random = list(~ 1|Name, ~ 1|PredUnder))
 }
