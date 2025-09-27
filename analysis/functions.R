@@ -201,7 +201,7 @@ plotParticipant <- function(name, protype) {
   labs(x = "Pronoun", y = "Count", title = name)
 }
 
-# Regression plot
+# Regression plots
 plotLogitNumAge <- function(pronoun, reference, contrast) {
   ggplot() +
     geom_jitter(data = subsetsProType[[pronoun]],
