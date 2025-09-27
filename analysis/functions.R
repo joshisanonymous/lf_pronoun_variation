@@ -2,7 +2,7 @@
 # Functions #
 #############
 
-# Formatting
+# Formatting -------------------------------------------------------------------
 Round <- function(number) {
   sprintf("%.3f", round_any(number, 0.001, round))
 }
@@ -11,7 +11,7 @@ Ceiling <- function(number) {
   sprintf("%.3f", round_any(number, 0.001, ceiling))
 }
 
-# Subsets
+# Subsets ----------------------------------------------------------------------
 subsetTokens <- function(pronoun, feature) {
   if(feature == "animacy") {
     subset <- tokens[grep(paste0(pronoun, "\\.(A|I)(F|M|MF)?"), tokens$ProType),]
@@ -36,6 +36,53 @@ subsetProType <- function(pronoun) {
   tokens[tokens$ProType == pronoun,]
 }
 
+# For model plots
+getNewdataAge <- function(pronoun) {
+  data.frame(
+    Age = participants$Age,
+    PredType = factor(levels(logitModels[[pronoun]]$data$PredType)[1], levels = levels(logitModels[[pronoun]]$data$PredType)),
+    Ethnicity = factor(levels(logitModels[[pronoun]]$data$Ethnicity)[1], levels = levels(logitModels[[pronoun]]$data$Ethnicity)),
+    Gender = factor(levels(logitModels[[pronoun]]$data$Gender)[1], levels = levels(logitModels[[pronoun]]$data$Gender)),
+    `Institutional French` = factor(levels(logitModels[[pronoun]]$data$`Institutional French`)[1], levels = levels(logitModels[[pronoun]]$data$`Institutional French`)),
+    Name = factor(levels(logitModels[[pronoun]]$data$Name)[1], levels = levels(logitModels[[pronoun]]$data$Name)),
+    PredUnder = factor(levels(logitModels[[pronoun]]$data$PredUnder)[1], levels = levels(logitModels[[pronoun]]$data$PredUnder)),
+    check.names = FALSE
+  )
+}
+
+getNewdataPredType <- function(pronoun, level_fr = NULL) {
+  if(!is.null(level_fr)) {
+    french <- level_fr
+  } else {
+    french <- levels(logitModels[[pronoun]]$data$`Institutional French`)[1]
+  }
+  data.frame(
+    Age = mean(participants$Age),
+    PredType = factor(levels(logitModels[[pronoun]]$data$PredType), levels = levels(logitModels[[pronoun]]$data$PredType)),
+    Ethnicity = factor(levels(logitModels[[pronoun]]$data$Ethnicity)[1], levels = levels(logitModels[[pronoun]]$data$Ethnicity)),
+    Gender = factor(levels(logitModels[[pronoun]]$data$Gender)[1], levels = levels(logitModels[[pronoun]]$data$Gender)),
+    `Institutional French` = factor(french, levels = levels(logitModels[[pronoun]]$data$`Institutional French`)),
+    Name = factor(levels(logitModels[[pronoun]]$data$Name)[1], levels = levels(logitModels[[pronoun]]$data$Name)),
+    PredUnder = factor(levels(logitModels[[pronoun]]$data$PredUnder)[1], levels = levels(logitModels[[pronoun]]$data$PredUnder)),
+    check.names = FALSE
+  )
+}
+
+predictNewdataAge <- function(pronoun) {
+  predict(
+    logitModels[[pronoun]], newdata = newdataAge[[pronoun]],
+    type = "response", random = NULL
+  )  
+}
+
+predictNewdataPredType <- function(pronoun) {
+  predict(
+    logitModels[[pronoun]], newdata = newdataPredType[[pronoun]],
+    type = "response", random = NULL
+  )  
+}
+
+# Tables -----------------------------------------------------------------------
 # Phonetic variants table
 tablePhonetic <- function(pronoun) {
   table(droplevels(tokens[tokens$ProUnder == pronoun, "Pronoun"]))  
@@ -63,7 +110,7 @@ tableParticipant <- function(name, protype) {
   table(droplevels(tokens[tokens$Name == name & tokens$ProType == protype, "ProUnder"]))
 }
 
-# Network stuff
+# Network stuff ----------------------------------------------------------------
 getAlterEthCount <- function(df, name, participantEthnicity, sameEthnicity = TRUE) {
   if(sameEthnicity == TRUE) {
     length(df[df$Name == name &
@@ -84,7 +131,7 @@ getEIHomophily <- function(df, name) {
   return(homophIndex)
 }
 
-# Models
+# Models -----------------------------------------------------------------------
 test3plPred <- function(pronoun) {
   mblogit(ProUnder ~ PredType,
           data = droplevels(tokens[tokens$ProType == pronoun,]),
@@ -102,7 +149,7 @@ multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE
           random = list(~ 1|Name, ~ 1|PredUnder))
 }
 
-# Plots
+# Plots ------------------------------------------------------------------------
 plotSocial <- function(table) {
   ggplot(melt(table,
          varnames = c("socialVar", "pronoun"),
@@ -155,9 +202,32 @@ plotParticipant <- function(name, protype) {
 }
 
 # Regression plot
+plotLogitNumAge <- function(pronoun, reference, contrast) {
+  ggplot() +
+    geom_jitter(data = subsetsProType[[pronoun]],
+                aes(x = Age, y = as.numeric(ProUnder == contrast), color = Ethnicity),
+                width = 2, height = 0.05) +
+    scale_color_manual(values = color_key) +
+    geom_line(data = modelsAge[[pronoun]],
+              aes(x = Age, y = !! sym(contrast)),
+              color = "#CC6677", linewidth = 1.5) +
+    labs(x = "Age", y = paste("Probability of", contrast)) +
+    scale_y_continuous(breaks = c(0, 1), labels = c(reference, contrast), limits = c(-0.1, 1.1)) +
+    scale_x_reverse() +
+    theme_bw()
+}
 
+plotLogitBarPredType <- function(pronoun) {
+  ggplot(data = modelsPredType[[pronoun]],
+         aes(x = ProUnder, y = Probability, fill = ProUnder)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~ PredType) +
+  labs(x = "Pronoun", y = "Probability") +
+  scale_fill_manual(values = color_key) +
+  theme(legend.position = "none")
+}
 
-# Maps
+# Maps -------------------------------------------------------------------------
 getPolyCenter <- function(placeName){
   placeCoordinates <- osmdata::getbb(placeName) %>% # Obtain the bounding box corners fro open street map
     t() %>% # Transpond the returned matrix so that you get x and y coordinates in different columns

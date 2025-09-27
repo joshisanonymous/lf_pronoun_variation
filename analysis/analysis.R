@@ -16,7 +16,6 @@ library(ggpubr)
 library(egg)
 library(reshape2)
 library(mclogit)
-predict_mblogit <- mclogit:::predict.mblogit
 library(lme4)
 library(car)
 library(plyr)
@@ -50,8 +49,6 @@ source("data_cleaning.R")
 # Variables
 color_key <- c("#332288", "#88CCEE", "#44AA99", "#117733", "#999933", "#DDCC77",
                "#CC6677", "#882255", "#AA4499", "#DDDDDD")
-
-birthSequence <- seq(min(participants$`Birth Year`), max(participants$`Birth Year`), by = 1)
 
 # Some pre-analysis prep
 source("subsets.R")
@@ -179,45 +176,53 @@ logitModelSummaries <- lapply(logitModels, summary)
 # Check for multicollinearity 
 logitVif <- lapply(logitModels, vif)
 
-# Add values to data used for plotting model results
-birthScaled <- scale(tokens[tokens$ProType == "3pl", "Birth Year"])
-
-dataPredictBirthYear <- data.frame(
-  # `Birth Year` = birthScaled,
-  # `Birth Year` = (birthSequence - attr(birthScaled, "scaled:center")) / attr(birthScaled, "scaled:scale"),
-  # `Unscaled Birth Year` = birthSequence,
-  Age = participants$Age,
-  PredType = factor(levels(tokens$PredType)[1], levels = levels(tokens$PredType)),
-  Ethnicity = factor(levels(tokens$Ethnicity)[1], levels = levels(tokens$Ethnicity)),
-  Gender = factor(levels(tokens$Gender)[1], levels = levels(tokens$Gender)),
-  `Institutional French` = factor(levels(tokens$`Institutional French`)[1], levels = levels(tokens$`Institutional French`)),
-  Name = factor(levels(tokens$Name)[1], levels = levels(tokens$Name)),
-  PredUnder = factor(levels(logitModels$secondSgT$data$PredUnder)[1], levels = levels(logitModels$secondSgT$data$PredUnder)),
-  check.names = FALSE
+# Create data to be used for plotting model results
+# For Age
+newdataAge <- list(
+  secondSgT = getNewdataAge("secondSgT"),
+  thirdPl = getNewdataAge("secondSgT")
 )
 
-fittedBirthYear <- predict(
-  logitModels$secondSgT, newdata = dataPredictBirthYear,
-  type = "response", random = NULL
+predictsAge <- list(
+  secondSgT = predictNewdataAge("secondSgT"),
+  thirdPl = predictNewdataAge("thirdPl")
 )
 
-modelBirthYear <- cbind(dataPredictBirthYear, fittedBirthYear)
+modelsAge <- list(
+  secondSgT = cbind(newdataAge$secondSgT, predictsAge$secondSgT),
+  thirdPl = cbind(newdataAge$thirdPl, predictsAge$thirdPl)
+)
 
-plot2sgAge <- ggplot() +
-  geom_jitter(data = tokens[tokens$ProType == "2sg.T" & (tokens$ProUnder == "tu" | tokens$ProUnder == "to"),],
-              aes(x = Age, y = as.numeric(ProUnder == "to")),
-              width = 0.5, height = 0.025) +
-  geom_line(data = modelBirthYear,
-            aes(x = Age, y = to),
-            color = "red") +
-  # stat_summary(data = modelBirthYear,
-  #              aes(x = Ethnicity, y = yé),
-  #              fun = mean, geom = "point",
-  #              color = "red", size = 6) +
-  xlab("Age") +
-  scale_y_continuous(breaks = c(0, 1), labels = c("tu", "to"), limits = c(-0.1, 1.1)) +
-  scale_x_reverse() +
-  theme_bw()
+# For PredType
+newdataPredType <- list(
+  firstSg = getNewdataPredType("firstSg"),
+  thirdPl = getNewdataPredType("thirdPl", level_fr = "Yes")
+)
+
+predictsPredType <- list(
+  firstSg = predictNewdataPredType("firstSg"),
+  thirdPl = predictNewdataPredType("thirdPl")
+)
+
+modelsPredType <- list(
+  firstSg = cbind(newdataPredType$firstSg, predictsPredType$firstSg),
+  thirdPl = cbind(newdataPredType$thirdPl, predictsPredType$thirdPl)
+)
+
+modelsPredType$firstSg <- melt(
+  modelsPredType$firstSg,
+  id.vars = c("Age", "PredType", "Ethnicity", "Gender",
+              "Institutional French", "Name", "PredUnder"),
+  variable.name = "ProUnder",
+  value.name = "Probability"
+)
+modelsPredType$thirdPl <- melt(
+  modelsPredType$thirdPl,
+  id.vars = c("Age", "PredType", "Ethnicity", "Gender",
+              "Institutional French", "Name", "PredUnder"),
+  variable.name = "ProUnder",
+  value.name = "Probability"
+)
 
 # Social Networks #
   ###############
