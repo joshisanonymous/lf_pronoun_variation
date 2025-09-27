@@ -956,9 +956,9 @@
         }.
         In doing so, some distinctions for gender and animacy were able to be ruled out.
         For instance, Figure \ref{fig:1pl_gender} shows that all 1pl pronoun forms can refer to all gender combinations with the exception of \lexi{ça} with only \Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "ça",])} token and \lexi{vous-autres} also with only \Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "vous-autres",])} token.
-        Likewise, Figure \ref{fig:3sg_gender_animcy} makes it plainly evident that 3sg animacy is not expressed through pronoun choice as the distributions of 3sg.AF and 3sg.AM are essentially identical as are the distributions of 3sg.IF and 3sg.IM, despite the overall counts of inanimate pronouns being much smaller.
+        Likewise, Figure \ref{fig:3sg_gender_animacy} makes it plainly evident that 3sg animacy is not expressed through pronoun choice as the distributions of 3sg.AF and 3sg.AM are essentially identical as are the distributions of 3sg.IF and 3sg.IM, despite the overall counts of inanimate pronouns being much smaller.
         Gender, on the other hand, can be expressed in that \lexi{elle} is relegated to feminine referents only and \lexi{il} almost entirely to masculine referents.
-        For 3pl pronouns, the gender reference was very often ambiguous, but among those that did make clear references for gender and animacy, Figure \ref{fig:3pl_gender_animcy} suggest that 3pl pronouns are neutral for both grammatical features.
+        For 3pl pronouns, the gender reference was very often ambiguous, but among those that did make clear references for gender and animacy, Figure \ref{fig:3pl_gender_animacy} suggest that 3pl pronouns are neutral for both grammatical features.
         Only \lexi{elles} was exclusive to feminine referents but was very infrequent whereas all other pronouns regularly referred to feminine, masculine, and feminine-masculine groups.
         Again, the much smaller count for inanimate tokens makes it more difficult to draw conclusions, but from what is available, all 3pl pronouns can be used for both animate and inanimate reference save for the very rare \lexi{elles} not appearing for inanimate referents and \lexi{yé} being absent for 3pl inanimate feminine referents.
         The latter's presence for all other categories suggests that this was coincidental rather than impossible, however.
@@ -975,7 +975,7 @@
 
         \begin{figure}[tbhp]
           \caption{Distribution of 3sg pronouns by gender and animacy-gender}
-          \label{fig:3sg_gender_animcy}
+          \label{fig:3sg_gender_animacy}
           \centering
           <<>>=
           plotCombined3sgAnimateGender
@@ -984,7 +984,7 @@
 
         \begin{figure}[tbhp]
           \caption{Distribution of 3pl pronouns by gender and animacy-gender}
-          \label{fig:3pl_gender_animcy}
+          \label{fig:3pl_gender_animacy}
           \centering
           <<>>=
           plotCombined3plAnimateGender
@@ -1331,9 +1331,7 @@
         For predicates, this helps prevent having the results skewed by frequently repeated fixed phrases much like using word as a random effect when building models of variation in vowels.
 
         \begin{enumerate}[label=\roman*., ref=\roman*, series=equations]
-          \item Pronoun Type $\sim$ Predicate Type + Ethnicity + Gender + Institutional French + Birth Year\footnote{
-            For modeling, this factor was rescaled to avoid producing a very large effect size.
-          } + (1|Speaker) + (1|Predicate) \label{eq:regression_model}
+          \item Pronoun Type $\sim$ Following Verb Type + Ethnicity + Gender + Institutional French + Age + (1|Speaker) + (1|Predicate) \label{eq:regression_model}
         \end{enumerate}
 
         \begin{table}[tbhp]
@@ -1344,11 +1342,11 @@
             \multicolumn{2}{c}{} \\
             Factor                        & Levels \\
             \hline
-            Predicate Type                & \Sexpr{toString(levels(tokens$PredType))} \\
+            Following Verb Type           & \Sexpr{toString(levels(tokens$PredType))} \\
             Ethnicity                     & \Sexpr{toString(levels(tokens$Ethnicity))} \\
             Gender                        & \Sexpr{toString(levels(tokens$Gender))} \\
             Institutional French          & \Sexpr{toString(levels(tokens$`Institutional French`))} \\
-            Birth Year                    & \emph{continuous} \\
+            Age                           & \emph{continuous} \\
             \textbf{Ethnic Homophily}     & \emph{continuous} \\
             \textbf{F\&C Background}      & \Sexpr{toString(levels(tokens$`F&C Background`))} \\
             \textbf{Occupation Type}      & \Sexpr{toString(levels(tokens$Occupation))} \\
@@ -1384,16 +1382,13 @@
     The literature has by and large only included analyses of \lexi{li} when conceptualized as studies specifically of the language variety Louisiana Creole, so for Creoles to veer towards \lexi{li} and Cajuns towards \lexi{il} is reasonable.
     In terms of exposure to institutional French, one can safely assume that \lexi{li} would never be brought up in a French classroom -- and a Louisiana Creole language classroom has never existed to my knowledge -- whereas \lexi{il} is plainly the norm, so it likewise makes sense for those who have not been in a classroom to feel free to use \lexi{li} and for those who may have felt pressure to adapt to classroom French to use \lexi{il}.
     
-    % Gender was the only non-significant factors
-      % Close to significance for expletive null > ça
-    Similarly to only one response variable having significant factors, only one factor was not significant for any pronoun types: gender.
+    Similarly to only one response variable having no significant factors, only one factor was not significant for any pronoun types: gender.
     This was clearly the case even just from examining the raw count distributions for each pronoun type.
     Only for 3pl did it appear that women may have been behaving the differently than men.
     As Figure \ref{fig:gender_3pl}, the use of \lexi{yé} relative to \lexi{ils} appears to be quite different for the two groups.
     However, the reference level was \lexi{ça}, from which both groups show an increase of counts for \lexi{yé}.
     Furthermore, 3pl \lexi{ça} and \lexi{ils} likely form a system, as will be seen, and when collapsing these two pronouns as in Figure \ref{fig:gender_3pl_collapsed}, both men and women seem to follow a very similar pattern.
-    For expletive pronouns, gender did approach statistical significance with the odds of producing \lexi{ça} over a null pronoun even lower for women than for men (intercept $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}; estimate $\approx$ \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~GenderWoman", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~GenderWoman", "Pr(>|z|)"])}), but the distribution similarities in Figure \ref{fig:gender_expl} suggest that this was coincidental rather than a slightly underpowered statistical analysis.
-    Indeed, no participants ever explicitly brought up differences in the speech of men versus women, allowing for a safe conclusion that gender is not an important factor for subject pronoun realization in F\&C.
+    Indeed, no participants ever explicitly brought up differences in the speech of men versus women.
     
     \begin{figure}[tbhp]
       \captionsetup{font={footnotesize}}
@@ -1415,23 +1410,16 @@
         plotThirdPlCollapsedGender
         @
       \end{minipage}
-
-      \begin{minipage}{0.45\linewidth}
-        \centering
-        \caption{expletive}\label{fig:gender_expl}
-        <<out.width = "95%">>=
-        plotsGender$expletive
-        @
-      \end{minipage}
     \end{figure}
 
-    Only one structural factor, that of following verb, was included in the models, but it did yield the result that was expected from previous studies as well an unexpected result, all of which are summarized in Table \ref{tab:verb_results}.
+    Only one structural factor, that of the following verb, was included in the models.
+    This yielded the result that was expected based on results from previous studies as well an unexpected result, all of which are summarized in Table \ref{tab:verb_results}.
     What was expected was that the odds of producing \lexi{ils} for 3pl rather than \lexi{ça} would increase before auxiliary verbs, meaning \lexi{être}, \lexi{avoir}, and \lexi{aller},\footnote{
       The verbs \lexi{courir}, \lexi{venir}, \lexi{gone} and in some instances \lexi{gain} were also treated as auxiliaries but were so rare in this function that they did not appear after 3pl subject pronouns.
     } forming a system where there are \lexi{ils/ça} users and then \lexi{yé} users.
     This effect had been seen in previous studies \parencite{brown_pronominal_1988, byers_defining_1988}.
-    As Figure \ref{fig:3pl_predtype} shows, before auxiliaries, \lexi{ça} is essentially unheard of.
-    Of those tokens of \lexi{ça} that were produced before auxiliaries, most were produced before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ça" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ça",])}) in contrast to the rarity of \lexi{ils} before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ils" & tokens$PredUnder == "aller",])} out of out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ils",])}) and even the rarity of \lexi{yé} before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "yé" & tokens$PredUnder == "aller",])} out of out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "yé",])}).
+    As Figures \ref{fig:3pl_predtype} and \ref{fig:3pl_model_predtype} show, before auxiliaries, \lexi{ça} is essentially unheard of.
+    Of those tokens of \lexi{ça} that were produced before auxiliaries, most were produced before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ça" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ça",])}) in contrast to the rarity of \lexi{ils} before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ils" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ils",])}) and even the rarity of \lexi{yé} before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "yé" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "yé",])}).
     The implication is that the truly important verbs are \lexi{être} and \lexi{avoir} but not \lexi{aller}.
     The verb type that would include the two former and exclude the latter is not entirely clear, however.
 
@@ -1440,44 +1428,6 @@
       \label{tab:verb_results}
       \centering
       \begin{tabular}{l c @{ $\to$ } c r r r l}
-                     & \multicolumn{4}{c}{Response Levels: Lexical $\to$ Modal} \\
-        Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
-        \hline
-        1sg          & je   & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}             &
-                                    \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~PredTypemodal", "Estimate"])}           &
-                                    \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~PredTypemodal", "Pr(>|z|)"])}         & \\
-                     & je   & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}            &
-                                    \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~PredTypemodal", "Estimate"])}          &
-                                    \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~PredTypemodal", "Pr(>|z|)"])}        & \\
-        2sg.T        & tu   & to  & \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"])}          &
-                                    \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~PredTypemodal", "Estimate"])}        &
-                                    \Sexpr{Ceiling(logitModelSummaries$secondSgT$coefficients["to~PredTypemodal", "Pr(>|z|)"])}      & \\
-        3sg.F        & elle & li  & N/A               &
-                                    N/A    &
-                                    N/A  & \\
-        3sg.M        & il   & li  & \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}           &
-                                    \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~PredTypemodal", "Estimate"])}         &
-                                    \Sexpr{Ceiling(logitModelSummaries$thirdSgM$coefficients["li~PredTypemodal", "Pr(>|z|)"])}       & \\
-        1pl          & on   & no  & \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~(Intercept)", "Estimate"])}            &
-                                    \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~PredTypemodal", "Estimate"])}          &
-                                    \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~PredTypemodal", "Pr(>|z|)"])}        & \\
-        3pl          & ça   & ils & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}           &
-                                    \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~PredTypemodal", "Estimate"])}         &
-                                    \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~PredTypemodal", "Pr(>|z|)"])}       & \\
-                     & ça   & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}            &
-                                    \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~PredTypemodal", "Estimate"])}          &
-                                    \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~PredTypemodal", "Pr(>|z|)"])}        & \\
-        expletive    & ø    & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}          &
-                                    \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~PredTypemodal", "Estimate"])}        &
-                                    \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~PredTypemodal", "Pr(>|z|)"])}      &*\\
-                     & ø    & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}          &
-                                    \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~PredTypemodal", "Estimate"])}        &
-                                    \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~PredTypemodal", "Pr(>|z|)"])}      &*\\
-        impersonal   & tu   & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}         &
-                                    \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~PredTypemodal", "Estimate"])}       &
-                                    \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~PredTypemodal", "Pr(>|z|)"])}     & \\
-        \hline
-        \multicolumn{5}{c}{} \\
                      & \multicolumn{4}{c}{Response Levels: Lexical $\to$ Auxiliary} \\
         Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
         \hline
@@ -1518,12 +1468,32 @@
     \end{table}
 
     \begin{figure}[tbhp]
-      \caption{Third person plural by predicate type}
-      \label{fig:3pl_predtype}
+      \captionsetup{font={footnotesize}}
       \centering
-      <<fig.height = 4>>=
-      plotsPredicate$thirdPl
-      @
+      3pl pronouns by following verb type
+      \label{fig:3pl_results}
+
+      \begin{minipage}{0.9\linewidth}
+        \caption{Observed data}
+        \label{fig:3pl_predtype}
+        \centering
+        <<fig.height = 4>>=
+        plotsPredicate$thirdPl
+        @
+      \end{minipage}
+
+      \begin{minipage}{0.9\linewidth}
+        \caption{Predicted values}
+        \label{fig:3pl_model_predtype}
+        \centering
+        <<fig.height = 4>>=
+        plotsModelPredType$thirdPl
+        @
+      \end{minipage}
+
+      {\footnotesize
+      Predicted values come from holding all other factors constant at their reference levels except institutional French, which was set to ``yes''.
+      }
     \end{figure}
 
     A somewhat unexpected structural result was that the odds of producing \lexi{je} for 1sg were higher before auxiliaries than \lexi{mo} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}; coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Pr(>|z|)"])}) or a null pronoun (intercept $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}; coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Pr(>|z|)"])}) as this is not a constraint that had been previously found.
@@ -1534,6 +1504,49 @@
     }
     The present study thus adds to the overall picture for structural variation of 1sg subject pronouns in Louisiana and to null pronouns in general.
     Indeed, a pattern found in studies of null pronouns in other languages -- generally fully pro-drop languages -- is that null pronouns are less likely in linguistic contexts where the verbal morphology does not completely disambiguate the subject on its own \parencite{hochberg_functional_1986}, but for the speakers in the present data, the verbal morphology is more fleshed out for auxiliary verbs than non-auxiliaries, yet it was these latter verbs that led to more null 1sg pronouns.
+
+    The remaining factors that were modeled were all social factors, two of which proved to be quite impactful on subject pronoun realization, institutional French exposure and ethnicity, and another, that impacted 2sg.T and 3pl pronouns, that being age.
+    A major gap exists in birth years between the two youngest participants, both born in \Sexpr{max(participants$`Birth Year`)}, and the others in that the youngest of the remaining participants was born in \Sexpr{sort(participants$`Birth Year`)[length(participants$`Birth Year`) - 2]}, a difference of \Sexpr{max(participants$`Birth Year`) - sort(participants$`Birth Year`)[length(participants$`Birth Year`) - 2]} years.
+    In contrast, the other \Sexpr{nrow(participants) - 2} participants have birth years ranging from \Sexpr{max(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)])} to \Sexpr{max(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)])} with almost all gaps being 1 year and the maximum gap being \Sexpr{max(diff(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))} years.
+    While this caveat should be kept in mind, these outliers are not likely to distort the statistical results to a huge degree considering that, with and without the two youngest participants, the means are nearly identical (\Sexpr{round(mean(participants$`Birth Year`))} and \Sexpr{round(mean(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))}, respectively) the medians are identical (\Sexpr{median(participants$`Birth Year`)}) and the standard deviations are not exceptionally different (\Sexpr{round(sd(participants$`Birth Year`))} and \Sexpr{round(sd(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))}, respectively).
+
+    For age, then, there is some evidence of a shift from a predominance of \lexi{tu} for 2sg.T to \lexi{to} as well as from a predominance of \lexi{ils/ça} to \lexi{yé}, as can be seen in Figures \ref{fig:2sg_age} and \ref{fig:3pl_age}, respectively.
+    What is also apparent from the figures is that there seems to be an interaction with ethnicity and age, as well.
+    Of those who produced \lexi{to}, almost all were Creoles, and almost all of those tokens produced by Cajuns came from Errol Stoufle of Breaux Bridge where Creole-oriented speech has long been documented.
+    Likewise, only two Cajuns were produced \lexi{yé} for 3pl: Errol Stoufle once again and Elizabeth Naquin.
+    The latter was born and still resided in the town of \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Raised (town)"]}, a place where it has been noted that ``Whites'' are known to speak Louisiana Creole \parencite[p.~40]{neumann_creole_1985}.
+    Outside of these two exceptions, what the results for age more likely represent is evidence that Creoles are more likely to pass on F\&C than Cajuns.
+    Among the participants in this study, Creoles had generally less education and tended towards blue collar occupations, suggesting a lower socioeconomic class, which is not very disimilar from the case of the Indians of Terrebonne-Lafourche, who were poorer and more isolated than the Cajuns there, and who were likewise documented as more readily passing on the language in the 1990s \parencite[pp.~64/310]{rottet_language_1995}.
+    This topic will be addressed more later in this section as well as in the next chapter.
+
+    \begin{figure}[tbhp]
+      \captionsetup{font={footnotesize}}
+      \centering
+      Pronouns by age
+      \label{fig:age_results}
+
+      \begin{minipage}{0.9\linewidth}
+        \caption{Predicted and observed values for 2sg.T}
+        \label{fig:2sg_age}
+        \centering
+        <<fig.height = 4>>=
+        plotsModelAge$secondSgT
+        @
+      \end{minipage}
+
+      \begin{minipage}{0.9\linewidth}
+        \caption{Predicted and observed values for 3pl}
+        \label{fig:3pl_age}
+        \centering
+        <<fig.height = 4>>=
+        plotsModelAge$thirdPl
+        @
+      \end{minipage}
+
+      {\footnotesize
+      Predicted values all come from holding all other factors constant at their reference levels.
+      }
+    \end{figure}
 
     % Institutional French
       % Likely goes along with education
