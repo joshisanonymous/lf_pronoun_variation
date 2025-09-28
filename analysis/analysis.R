@@ -142,6 +142,8 @@ subsetThirdPlCollapsed$ProUnder <- recode_factor(
   "ils" = "ça/ils"
 )
 
+source("tables.R")
+
 ############
 # Analyses # -------------------------------------------------------------------
 ############
@@ -245,6 +247,5 @@ homophByEthnicGroupTtest <- t.test(participants[participants$Ethnicity == "Creol
                                    participants[participants$Ethnicity == "Cajun",
                                                 "Network.Ethnic.Homophily"])
 
-source("tables.R")
 source("maps.R")
 source("plots-final.R")
