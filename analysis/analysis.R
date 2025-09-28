@@ -149,6 +149,7 @@ subsetThirdPlCollapsed$ProUnder <- recode_factor(
 # Factor independencies
 indOccEduc <- fisher.test(table(participants$Occupation, participants$Education))
 indOccGend <- fisher.test(table(participants$Occupation, participants$Ethnicity))
+indEducInstFr <- fisher.test(tablesSocial$educationInst)
 
 # Pronoun Models #
   ##############
