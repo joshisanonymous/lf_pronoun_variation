@@ -1548,14 +1548,69 @@
       }
     \end{figure}
 
-    % Institutional French
-      % Likely goes along with education
+    Exposure to institutional French, or in other words having been in a French classroom, was much more consistently a statistically significant factor in the models.
+    The subject pronouns with higher better odds of being produced if one had institutional French exposure included \lexi{je} for 1sg, \lexi{on} for 1pl, and \lexi{tu} for impersonal.
+    For expletive pronouns, while there was not a signficant result when comparing \lexi{ça} to a null pronoun, \lexi{il} did have significant higher odds than a null pronoun.
+    For 3pl, the odds of producing \lexi{ils} over \lexi{ça} also increased with exposure to institutional French.
+    All of these subject pronouns -- \lexi{je}, \lexi{on}, \lexi{tu}, and \lexi{ils} -- are the the norm for what is taught in French classrooms, whereas their alternatives -- \lexi{mo}, \lexi{no}, \lexi{to}, and \lexi{ça}, respectively -- are not.
+    A rather straightforward explanation that can be drawn from this is that the formality of the setting has influenced speakers' F\&C.
+    This would align anecdotally with the apparent linguistic insecurity that I found when talking to people in the community both among Cajuns and Creoles, which will be discussed more in chapter \ref{chap:ethnic_race_meaning}.
+
+    \begin{table}[tbhp]
+      \caption{Institutional French exposure for each pronoun type model}
+      \label{tab:inst_french_results}
+      \centering
+      \begin{tabular}{l c @{ $\to$ } c r r r l}
+                     & \multicolumn{4}{c}{Response Levels: No $\to$ Yes} \\
+        Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
+        \hline
+        1sg          & je   & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}             &
+                                    \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~`Institutional French`Yes", "Estimate"])}       &
+                                    \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~`Institutional French`Yes", "Pr(>|z|)"])}     &*\\
+                     & je   & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}            &
+                                    \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~`Institutional French`Yes", "Estimate"])}      &
+                                    \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~`Institutional French`Yes", "Pr(>|z|)"])}    &*\\
+        2sg.T        & tu   & to  & \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"])}          &
+                                    \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~`Institutional French`Yes", "Estimate"])}    &
+                                    \Sexpr{Ceiling(logitModelSummaries$secondSgT$coefficients["to~`Institutional French`Yes", "Pr(>|z|)"])}  & \\
+        3sg.F        & elle & li  & \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~(Intercept)", "Estimate"])}           &
+                                    \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~`Institutional French`Yes", "Estimate"])}     &
+                                    \Sexpr{Ceiling(logitModelSummaries$thirdSgF$coefficients["li~`Institutional French`Yes", "Pr(>|z|)"])}   & \\
+        3sg.M        & il   & li  & \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}           &
+                                    \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~`Institutional French`Yes", "Estimate"])}     &
+                                    \Sexpr{Ceiling(logitModelSummaries$thirdSgM$coefficients["li~`Institutional French`Yes", "Pr(>|z|)"])}   & \\
+        1pl          & on   & no  & \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~(Intercept)", "Estimate"])}            &
+                                    \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~`Institutional French`Yes", "Estimate"])}      &
+                                    \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~`Institutional French`Yes", "Pr(>|z|)"])}    &*\\
+        3pl          & ça   & ils & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}           &
+                                    \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~`Institutional French`Yes", "Estimate"])}     &
+                                    \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~`Institutional French`Yes", "Pr(>|z|)"])}   &*\\
+                     & ça   & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}            &
+                                    \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~`Institutional French`Yes", "Estimate"])}      &
+                                    \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~`Institutional French`Yes", "Pr(>|z|)"])}    &*\\
+        expletive    & ø    & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}          &
+                                    \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~`Institutional French`Yes", "Estimate"])}    &
+                                    \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~`Institutional French`Yes", "Pr(>|z|)"])}  & \\
+                     & ø    & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}          &
+                                    \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~`Institutional French`Yes", "Estimate"])}    &
+                                    \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~`Institutional French`Yes", "Pr(>|z|)"])}  &*\\
+        impersonal   & tu   & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}         &
+                                    \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~`Institutional French`Yes", "Estimate"])}   &
+                                    \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~`Institutional French`Yes", "Pr(>|z|)"])} &*\\
+      \end{tabular}
+    \end{table}
+
+    While a classroom can be an influencing factor in one's speech, making it a good candidate for explaining the results for institutional French exposure here, there is again a socioeconomic component.
+    In the case of 3pl pronouns, institutional French exposure not only increased the odds of producing \lexi{ils} relative to \lexi{ça} but also decreased the odds of producing \lexi{yé} relative to \lexi{ça}, neither of which are pronouns that would ever be heard in a French classroom to expression 3pl, although the latter would be heard as a demonstrative pronoun.
+    This means that the language used in the classroom cannot be directly influencing a preference for \lexi{ça} like it can for a preference for \lexi{ils}.
+    However, as Figure \ref{fig:education_by_institutioonalFr} shows, there's a relatively clear relationship between have a college education and having been exposed to institutional French (Fisher's exact: $P <$ \Sexpr{Ceiling(indEducInstFr$p.value)}).
+    This does not mean that exposure to institutional French has no impact on speakers but rather that those who use \lexi{ça} are generally either from a higher socioeconomic class or are more likely to head towards a higher socioeconomic class than those who use \lexi{yé}.
 
     \begin{figure}[tbhp]
-      \caption{Participants' experience with French instruction relative to their education levels}
+      \caption{Participants' exposure to institutional French relative to their education levels}
       \label{fig:education_by_institutionalFr}
       \centering
-      <<fig.height = 4>>=
+      <<fig.asp = 2>>=
       plotEduInst
       @
     \end{figure}
