@@ -1512,7 +1512,7 @@
 
     For age, then, there is some evidence of a shift from a predominance of \lexi{tu} for 2sg.T to \lexi{to} as well as from a predominance of \lexi{ils/ça} to \lexi{yé}, as can be seen in Figures \ref{fig:2sg_age} and \ref{fig:3pl_age}, respectively.
     What is also apparent from the figures is that there seems to be an interaction with ethnicity and age, as well.
-    Of those who produced \lexi{to}, almost all were Creoles, and almost all of those tokens produced by Cajuns came from Errol Stoufle of Breaux Bridge where Creole-oriented speech has long been documented.
+    Of those who produced \lexi{to}, almost all were Creoles, and almost all of those tokens produced by Cajuns came from Errol Stoufle of \Sexpr{participants[participants$Name == "Errol Stoufle", "Raised (town)"]} where Creole-oriented speech has long been documented.
     Likewise, only two Cajuns were produced \lexi{yé} for 3pl: Errol Stoufle once again and Elizabeth Naquin.
     The latter was born and still resided in the town of \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Raised (town)"]}, a place where it has been noted that ``Whites'' are known to speak Louisiana Creole \parencite[p.~40]{neumann_creole_1985}.
     Outside of these two exceptions, what the results for age more likely represent is evidence that Creoles are more likely to pass on F\&C than Cajuns.
@@ -1610,74 +1610,169 @@
       \caption{Participants' exposure to institutional French relative to their education levels}
       \label{fig:education_by_institutionalFr}
       \centering
-      <<fig.asp = 2>>=
+      <<fig.asp = 0.5>>=
       plotEduInst
       @
     \end{figure}
     
-    % Ethnicity
-      % How did non-modeled factors play into this?
-        % Socioeconomic class (education and occupation) is probably tied up in this, as well
-          % Check cross-tabs to determine this roughly
-          % But if so, this could be simply related to exposure to institutional French
-            % F&C isn't really a public language, not a language used at work or anywhere where there might be pressure to develop a formal style
+    An even more consistent social factor, and the primary factor of interest in this analysis, is ethnicity, meaning being Creole or Cajun.
+    To reiterate, the term \lexi{ethnicity} is used here not as a conclusion about the racialization of these categories but rather as an agnostic term to stand in before any conclusions can be drawn.
+    The models, summarized for ethnicity in Table \ref{tab:ethnicity_results}, show statistical significance for almost all pronouns, thus being Cajun shifts the odds towards \lexi{je} over \lexi{mo} for 1sg, \lexi{tu} over \lexi{to} for 2sg.T, \lexi{elle} over \lexi{li} for 3sg.F, \lexi{il} over \lexi{li} for 3sg.M, \lexi{on} over \lexi{no} for 1pl, \lexi{ils/ça} over \lexi{yé} for 3pl, and \lexi{tu} over \lexi{to} for impersonal.
+    In other words, Cajuns show a preference for subject pronouns that have traditionally been described as part of Louisiana French and Creoles for those that have traditionally been described as part of Louisiana Creole.
+    While on the surface this might seem like a result too obvious to be noteworthy, Creoles have been documented using the former variants \parencite{klingler_language_2003, klingler_probleme_2005} and Cajuns, often equated to Whites, have been documented using the latter variants \parencite{klingler_if_2003, neumann_creole_1985}.
+    This was also the case among the participants here.
+    For instance, both Terry Guillot and James Corporon self-identified as Creoles and used exclusively the former variants.
+    In fact, not only did James not use \lexi{yé} for 3pl, he did not even use \lexi{ça}, preferring at all times to use the very standard French \lexi{ils}.
+    On the other hand, as already mentioned, Errol Stoufle and Elizabeth Naquin, both self-identified Cajuns, used almost exclusively variants of the latter type.
+    There were additionally speakers who used a mix of the former and latter variants, sometimes as a demonstration of an ability to switch styles or code switch -- Elizabeth began her interview with two tokens of \lexi{je} for 1sg before settling in to exclusively using \lexi{mo} after the two minute mark, and Oliver Lesage explicitly talked about his ability to switch -- and sometimes as their typical speech patterns.
+    Gene Delcambre fits the second description in that all of his subject pronouns matched those traditionally described as French except for 3pl where he consistently used \lexi{yé}.
+    Both this inconsistency between Creole and Cajun identity and speech patterns as well as the consistency uncovered by the models here are apparent enough to the community that metalinguistic commentary identifies both truths, as the discussion between Cynthia Robichaux Savoie and Lucille Royer below makes clear.
+
+    \begin{itemize}
+      \item[JM:] Est-ce que les Créoles parlent différemment des Cadiens? ...
+      \item[CRS:] I went to the store. Mo'tais couru au store.
+      \item[LR:] Et toi t'as été plus élevée autour du créole. À la Ville Platte, les Noirs à la Ville Platte parlaient français cadien d'après ce que moi je me rappelle.
+      \item[CRS:] Oui, il y a des Noirs qui parlent français comme nous-autres, mais il y a des Blancs qui parlent créole comme les Noirs.
+      \item[JM:] {}[\textit{Do Creoles speak different from Cajuns? ...}
+      \item[CRS:] \textit{I went to the store. I went to the store.}
+      \item[LR:] \textit{And you were more raised around Creole. In Ville Platte, Blacks in Ville Platte spoke Cajun French from what I remember.}
+      \item[CRS:] \textit{Yes, there are Black who speak French like us, but there are Whites who speak Creole like Blacks.}]
+    \end{itemize}
+
+    \begin{table}[tbhp]
+      \caption{Ethnicity for each pronoun type model}
+      \label{tab:ethnicity_results}
+      \centering
+      \begin{tabular}{l c @{ $\to$ } c r r r l}
+                     & \multicolumn{4}{c}{Response Levels: Creole $\to$ Cajun} \\
+        Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
+        \hline
+        1sg          & je   & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}          &
+                                    \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~EthnicityCajun", "Estimate"])}       &
+                                    \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~EthnicityCajun", "Pr(>|z|)"])}     & \\
+                     & je   & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}         &
+                                    \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~EthnicityCajun", "Estimate"])}      &
+                                    \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~EthnicityCajun", "Pr(>|z|)"])}    &*\\
+        2sg.T        & tu   & to  & \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"])}       &
+                                    \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~EthnicityCajun", "Estimate"])}    &
+                                    \Sexpr{Ceiling(logitModelSummaries$secondSgT$coefficients["to~EthnicityCajun", "Pr(>|z|)"])}  &*\\
+        3sg.F        & elle & li  & \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~(Intercept)", "Estimate"])}        &
+                                    \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~EthnicityCajun", "Estimate"])}     &
+                                    \Sexpr{Ceiling(logitModelSummaries$thirdSgF$coefficients["li~EthnicityCajun", "Pr(>|z|)"])}   &*\\
+        3sg.M        & il   & li  & \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}        &
+                                    \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~EthnicityCajun", "Estimate"])}     &
+                                    \Sexpr{Ceiling(logitModelSummaries$thirdSgM$coefficients["li~EthnicityCajun", "Pr(>|z|)"])}   &*\\
+        1pl          & on   & no  & \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~(Intercept)", "Estimate"])}         &
+                                    \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~EthnicityCajun", "Estimate"])}      &
+                                    \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~EthnicityCajun", "Pr(>|z|)"])}    &*\\
+        3pl          & ça   & ils & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}        &
+                                    \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~EthnicityCajun", "Estimate"])}     &
+                                    \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~EthnicityCajun", "Pr(>|z|)"])}   & \\
+                     & ça   & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}         &
+                                    \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~EthnicityCajun", "Estimate"])}      &
+                                    \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~EthnicityCajun", "Pr(>|z|)"])}    &*\\
+        expletive    & ø    & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}       &
+                                    \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~EthnicityCajun", "Estimate"])}    &
+                                    \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~EthnicityCajun", "Pr(>|z|)"])}  & \\
+                     & ø    & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}       &
+                                    \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~EthnicityCajun", "Estimate"])}    &
+                                    \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~EthnicityCajun", "Pr(>|z|)"])}  & \\
+        impersonal   & tu   & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}      &
+                                    \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~EthnicityCajun", "Estimate"])}   &
+                                    \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~EthnicityCajun", "Pr(>|z|)"])} &*\\
+      \end{tabular}
+    \end{table}
+
+    Subject pronouns in F\&C can therefore be said to mark ones identity as Creole or Cajun.
+    Creole pronouns match what has been described in the Louisiana Creole literature -- \lexi{mo}, \lexi{to}, \lexi{li}, \lexi{li}, \lexi{no}, \lexi{yé}, and \lexi{to} -- while Cajun pronouns match what has been described in the Louisiana French literature -- \lexi{je}, \lexi{tu}, \lexi{elle}, \lexi{il}, \lexi{on}, \lexi{ils/ça}, and \lexi{tu}.
+    As the above discussion has perhaps made clear, this also means that subject pronouns are distinguished by the racial categories used broadly in the US: Black and White.
+    Participants did not always give exactly one of these two categories when asked to self-identify racially,\footnote{
+      The range of racial self-identifications given was in fact the reason this factor was not modeled.
+    } but what they did provide can be remapped to these two categories for exploration in a relatively uncontroversial manner.
+    If all those who used the words White or Caucasian in their racial self-identification are recoded as White, all those who used the words Black or African-American are recoded as Black, and all those who chose Creole, Cajun, or no race are excluded, the distribution of American races by Louisiana ethnicities look like Figure \ref{fig:ethnicity_by_race}.
+    What this suggests is that there exists a statistical association between these two categories (Fisher's exact: $P <$ \Sexpr{Ceiling(indEthnRace$p.value)}).
+    In effect, one cannot claim to be Cajun and Black at the same time, and although one can do the inverse, it is not typical.
+
+    \begin{figure}[tbhp]
+      \caption{Participants' race relative to their ethnicity}
+      \label{fig:ethnicity_by_race}
+      \centering
+      <<fig.asp = 0.5>>=
+      plotParticipantsEthnRace
+      @
+    \end{figure}
+
+    For the two participants who did claim White Creole identities, Deborah Tauzin and Jerry Pierre Quintero, their subject pronouns were not those traditionally described as belonging to Louisiana Creole but rather those typical of descriptions of Louisiana French.
+    Indeed, there is perhaps an even stronger association between American racial categories and subject pronoun realizations than for their related categories of Creole and Cajun.
+    Figures \ref{fig:subset_race_1sg} through \ref{fig:subset_race_impersonal} show the same pronouns for which ethnicity had a statistically significant effect in the models but in this case with the subset of American racial categories.
+    They represent a clear pattern of Blacks using more Creole variants and Whites using more French variants.
+    For a direct comparison, Table \ref{tab:percentage_ethn_race} shows that the percentage of French pronouns produced by those who identified as Cajun was nearly identical to the subset of those who identified as White, whereas the percentage of Creole pronouns for those who identified as Black was noticeably higher than for those who identified as Creole for every pronoun type.
+    In essence, Creole pronouns do not just mark someone as Creole but mark them as Black and Creole.
 
     \begin{figure}[tbhp]
       \captionsetup{font={footnotesize}}
       \centering
-      Pronoun counts by ethnicity
-      \label{fig:ethnicity_pronouns}
+      Pronoun counts by race
+      \label{fig:subset_race_pronouns}
 
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{1sg}\label{fig:ethnicity_1sg}
+        \caption{1sg}\label{fig:subset_race_1sg}
         <<out.width = "95%">>=
-        plotsEthnicity$firstSg
+        plotsSubsetRace$firstSg
         @
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{1pl}\label{fig:ethnicity_1pl}
+        \caption{1pl}\label{fig:subset_race_1pl}
         <<out.width = "95%">>=
-        plotsEthnicity$firstPl
-        @
-      \end{minipage}
-
-      \begin{minipage}{0.45\linewidth}
-        \centering
-        \caption{2sg.T}\label{fig:ethnicity_2sgT}
-        <<out.width = "95%">>=
-        plotsEthnicity$secondSgT
-        @
-      \end{minipage}
-      \begin{minipage}{0.45\linewidth}
-        \centering
-        \caption{3pl}\label{fig:ethnicity_3pl}
-        <<out.width = "95%">>=
-        plotsEthnicity$thirdPl
+        plotsSubsetRace$firstPl
         @
       \end{minipage}
 
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{expletive}\label{fig:ethnicity_expletive}
+        \caption{2sg.T}\label{fig:subset_race_2sgT}
         <<out.width = "95%">>=
-        plotsEthnicity$expletive
+        plotsSubsetRace$secondSgT
         @
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{impersonal}\label{fig:ethnicity_impersonal}
+        \caption{3pl}\label{fig:subset_race_3pl}
         <<out.width = "95%">>=
-        plotsEthnicity$impersonal
+        plotsSubsetRace$thirdPl
         @
       \end{minipage}
+
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{impersonal}\label{fig:subset_race_impersonal}
+        <<out.width = "95%">>=
+        plotsSubsetRace$impersonal
+        @
+      \end{minipage}
+
+      {\footnotesize
+      Counting only those who reference Black/African-American or White/Caucasian in their racial self-identifications and recoding them as Black and White.
+      }
     \end{figure}
 
-    % Finally, what about race?
-      % Racial self-identifications are generally associated with ethnic identities
-        % Notably, one cannot claim a Black, AA, or Creole racial identity while also claiming a Cajun identitiy
-      % What do some pronoun distributions look like for Black/AA vs White/Caucasian compared to Creole vs Cajun?
+    \begin{table}[tbhp]
+        \centering
+        \caption{Percentage of primary pronouns by ethnicity and race}
+        \label{tab:percentage_ethn_race}
+        \begin{tabular}{r | r l r l | r l r l}
+          Pronoun    & \multicolumn{2}{c}{Creole} & \multicolumn{2}{c}{Black} & \multicolumn{2}{c}{Cajun} & \multicolumn{2}{c}{White} \\
+          \hline
+          1sg        & \Sexpr{round(tablesEthnicityProps$firstSg["Creole", "mo"] * 100, digits = 1)}\%    & \lexi{mo} & \Sexpr{round(tablesSubsetRaceProps$firstSg["Black", "mo"] * 100, digits = 1)}\%                   & \lexi{mo} & \Sexpr{round(tablesEthnicityProps$firstSg["Cajun", "je"] * 100, digits = 1)}\%    & \lexi{je}   & \Sexpr{round(tablesSubsetRaceProps$firstSg["White", "je"] * 100, digits = 1)}\%    & \lexi{je} \\
+          2sg.T      & \Sexpr{round(tablesEthnicityProps$secondSgT["Creole", "to"] * 100, digits = 1)}\%  & \lexi{to} & \Sexpr{round(tablesSubsetRaceProps$secondSgT["Black", "to"] * 100, digits = 1)}\%                 & \lexi{to} & \Sexpr{round(tablesEthnicityProps$secondSgT["Cajun", "tu"] * 100, digits = 1)}\%  & \lexi{tu}   & \Sexpr{round(tablesSubsetRaceProps$secondSgT["White", "tu"] * 100, digits = 1)}\%  & \lexi{tu} \\
+          3sg.F      & \Sexpr{round(tablesEthnicityProps$thirdSgF["Creole", "li"] * 100, digits = 1)}\%   & \lexi{li} & \Sexpr{sprintf("%.1f", round(tablesSubsetRaceProps$thirdSgF["Black", "li"] * 100, digits = 1))}\% & \lexi{li} & \Sexpr{round(tablesEthnicityProps$thirdSgF["Cajun", "elle"] * 100, digits = 1)}\% & \lexi{elle} & \Sexpr{round(tablesSubsetRaceProps$thirdSgF["White", "elle"] * 100, digits = 1)}\% & \lexi{elle} \\
+          3sg.M      & \Sexpr{round(tablesEthnicityProps$thirdSgM["Creole", "li"] * 100, digits = 1)}\%   & \lexi{li} & \Sexpr{round(tablesSubsetRaceProps$thirdSgM["Black", "li"] * 100, digits = 1)}\%                  & \lexi{li} & \Sexpr{round(tablesEthnicityProps$thirdSgM["Cajun", "il"] * 100, digits = 1)}\%   & \lexi{il}   & \Sexpr{sprintf("%.1f", round(tablesSubsetRaceProps$thirdSgM["White", "il"] * 100, digits = 1))}\% & \lexi{il} \\
+          1pl        & \Sexpr{round(tablesEthnicityProps$firstPl["Creole", "no"] * 100, digits = 1)}\%    & \lexi{no} & \Sexpr{round(tablesSubsetRaceProps$firstPl["Black", "no"] * 100, digits = 1)}\%                   & \lexi{no} & \Sexpr{round(tablesEthnicityProps$firstPl["Cajun", "on"] * 100, digits = 1)}\%    & \lexi{on}   & \Sexpr{round(tablesSubsetRaceProps$firstPl["White", "on"] * 100, digits = 1)}\%    & \lexi{on} \\
+          3pl        & \Sexpr{round(tablesEthnicityProps$thirdPl["Creole", "yé"] * 100, digits = 1)}\%    & \lexi{yé} & \Sexpr{round(tablesSubsetRaceProps$thirdPl["Black", "yé"] * 100, digits = 1)}\%                   & \lexi{yé} & \Sexpr{round((tablesEthnicityProps$thirdPl["Cajun", "ils"] + tablesEthnicityProps$thirdPl["Cajun", "ça"]) * 100, digits = 1)}\% & \lexi{ils}/\lexi{ça} & \Sexpr{round((tablesSubsetRaceProps$thirdPl["White", "ils"] + tablesSubsetRaceProps$thirdPl["White", "ça"]) * 100, digits = 1)}\% & \lexi{ils}/\lexi{ça} \\          impersonal & \Sexpr{round(tablesEthnicityProps$impersonal["Creole", "to"] * 100, digits = 1)}\% & \lexi{to} & \Sexpr{round(tablesSubsetRaceProps$impersonal["Black", "to"] * 100, digits = 1)}\%                & \lexi{to} & \Sexpr{round(tablesEthnicityProps$impersonal["Cajun", "tu"] * 100, digits = 1)}\% & \lexi{tu}   & \Sexpr{round(tablesSubsetRaceProps$impersonal["White", "tu"] * 100, digits = 1)}\% & \lexi{tu} \\
+        \end{tabular}
+      \end{table}
 
     % And what about the non-modeled pronouns?
 
