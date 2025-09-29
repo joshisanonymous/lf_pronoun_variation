@@ -105,6 +105,13 @@ tableSocial <- function(pronoun, socialVariable) {
   )
 }
 
+tableSubsetSocial <- function(pronoun, socialVariable) {
+  table(
+    droplevels(subsetTokensRace[subsetTokensRace$ProType == pronoun, socialVariable]),
+    droplevels(subsetTokensRace[subsetTokensRace$ProType == pronoun, "ProUnder"])
+  )
+}
+
 # Tables for individual participants
 tableParticipant <- function(name, protype) {
   table(droplevels(tokens[tokens$Name == name & tokens$ProType == protype, "ProUnder"]))

@@ -247,5 +247,56 @@ homophByEthnicGroupTtest <- t.test(participants[participants$Ethnicity == "Creol
                                    participants[participants$Ethnicity == "Cajun",
                                                 "Network.Ethnic.Homophily"])
 
+# Exploratory stuff ------------------------------------------------------------
+subsetParticipantsRace <- droplevels(participants[participants$Race != "Transcendent" &
+                                                    participants$Race != "Cajun / Acadian" &
+                                                    participants$Race != "Creole" &
+                                                    !is.na(participants$Race),])
+
+subsetParticipantsRace$Race <- recode_factor(
+  subsetParticipantsRace$Race,
+  "White / Cajun" = "White",
+  "Caucasian Cajun" = "White",
+  "African-American" = "Black",
+  "African-American / Black" = "Black",
+  "African-American / Creole" = "Black"
+)
+tableParticipantsEthnRace <- table(subsetParticipantsRace$Ethnicity, subsetParticipantsRace$Race)
+indEthnRace <- fisher.test(tableParticipantsEthnRace)
+
+subsetTokensRace <- droplevels(tokens[tokens$Race != "Transcendent" &
+                                      tokens$Race != "Cajun / Acadian" &
+                                      tokens$Race != "Creole" &
+                                      !is.na(tokens$Race),])
+
+subsetTokensRace$Race <- recode_factor(
+  subsetTokensRace$Race,
+  "White / Cajun" = "White",
+  "Caucasian Cajun" = "White",
+  "African-American" = "Black",
+  "African-American / Black" = "Black",
+  "African-American / Creole" = "Black"
+)
+subsetTokensRace$Race <- factor(subsetTokensRace$Race,
+  levels = c("Black", "White")
+)
+
+tablesSubsetRace <- list(
+  firstSg = tableSubsetSocial("1sg", "Race"),
+  secondSgT = tableSubsetSocial("2sg.T", "Race"),
+  secondSgV = tableSubsetSocial("2sg.V", "Race"),
+  thirdSgF = tableSubsetSocial("3sg.F", "Race"),
+  thirdSgM = tableSubsetSocial("3sg.M", "Race"),
+  firstPl = tableSubsetSocial("1pl", "Race"),
+  secondPl = tableSubsetSocial("2pl", "Race"),
+  thirdPl = tableSubsetSocial("3pl", "Race"),
+  # demonstrative = tableSubsetSocial("demo", "Race"),
+  expletive = tableSubsetSocial("expl", "Race"),
+  impersonal = tableSubsetSocial("imp", "Race")
+)
+
+tablesEthnicityProps <- lapply(tablesEthnicity, prop.table, margin = 1)
+tablesSubsetRaceProps <- lapply(tablesSubsetRace, prop.table, margin = 1)
+
 source("maps.R")
 source("plots-final.R")

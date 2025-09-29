@@ -1,4 +1,5 @@
-# Ethnicity and race -----------------------------------------------------------
+# Cross-sections of social variables -------------------------------------------
+# Ethnicity by race
 raceBar <- ggplot(
   participants,
   aes(x = Race)
@@ -21,6 +22,18 @@ ethByRaceBar <- ggplot(
   geom_bar(stat = "identity", position = "dodge") +
   theme(text=element_text(size=20), legend.text = element_markdown())
 
+# Ethnicity by American-esque races
+plotParticipantsEthnRace <- ggplot(
+  melt(tableParticipantsEthnRace,
+       varnames = c("Ethnicity", "Race"),
+       value.name = "Count"),
+    aes(x = Ethnicity, y = Count, fill = Race)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_bw() +
+  scale_fill_manual(values = color_key) +
+  labs(x = "Ethnicity", y = "Count")
+
+# Education by institutional French
 plotEduInst <- ggplot(melt(tablesSocial$educationInst,
                            varnames = c("Insitutional", "Education"),
                            value.name = "Count"),
@@ -50,6 +63,7 @@ plotsRaised <- lapply(tablesRaised, plotSocial)
 plotsResidence <- lapply(tablesResidence, plotSocial)
 plotsEthnicity <- lapply(tablesEthnicity, plotSocial)
 plotsRace <- lapply(tablesRace, plotSocial)
+plotsSubsetRace <- lapply(tablesSubsetRace, plotSocial)
 plotsEthOcc <- lapply(subsetsProType, plotEthOcc)
 plotsEduOcc <- lapply(subsetsProType, plotEduOcc)
 
