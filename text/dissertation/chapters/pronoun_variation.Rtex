@@ -1279,7 +1279,7 @@
         As these were produced by three different speakers, they were ultimately included for modeling.
 
         Two pronoun types were unable to be modeled due to their very low frequencies in the data: 2sg.V and 2pl.
-        These summed to \Sexpr{sum(tablesProTypeFinal$secondSgV)} and \Sexpr{sum(tablesProTypeFinal$secondPl)} tokens, respectively.
+        These summed to \Sexpr{sum(tablesProTypeFinal$secondSgV)} and \Sexpr{sum(tablesProTypeFinal$secondPl)} tokens, respectively, rendering them unusable even for basic exploratory analyses.
         Participants were often made aware that they were free to ask questions during interviews to help elicit second person pronouns, but as their interlocutor was myself, a sole non-senior person, there were few opportunities to use a V pronoun or a plural pronoun outside of reported speech when telling stories and translation tasks.
         On the other hand, 2sg.T pronouns were relatively common, at least to the extent that it could be established that a pronoun was meant to be understood as a T form (see section \ref{sec:pronoun_types} for discussion of this issue).
         Table \ref{tab:pronouns_modeled} provides a summary of pronoun types and their levels as used for modeling where the first level was coded as the reference level.
@@ -1399,14 +1399,14 @@
       \begin{minipage}{0.45\linewidth}
         \centering
         \caption{3pl}\label{fig:gender_3pl}
-        <<out.width = "95%">>=
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotsGender$thirdPl
         @
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
         \caption{3pl (collapsed)}\label{fig:gender_3pl_collapsed}
-        <<out.width = "95%">>=
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotThirdPlCollapsedGender
         @
       \end{minipage}
@@ -1472,7 +1472,7 @@
       \centering
       \caption{3pl pronouns by following verb type}
       \label{fig:3pl_predtype}
-      <<fig.height = 4>>=
+      <<fig.height = 0.3 * textheight>>=
       plotsPredicate$thirdPl
       @
     \end{figure}
@@ -1510,7 +1510,7 @@
         \caption{Predicted and observed values for 2sg.T}
         \label{fig:2sg_age}
         \centering
-        <<fig.height = 4>>=
+        <<fig.height = 0.35 * textheight>>=
         plotsModelAge$secondSgT
         @
       \end{minipage}
@@ -1519,7 +1519,7 @@
         \caption{Predicted and observed values for 3pl}
         \label{fig:3pl_age}
         \centering
-        <<fig.height = 4>>=
+        <<fig.height = 0.35 * textheight>>=
         plotsModelAge$thirdPl
         @
       \end{minipage}
@@ -1591,7 +1591,7 @@
       \caption{Participants' exposure to institutional French relative to their education levels}
       \label{fig:education_by_institutionalFr}
       \centering
-      <<fig.asp = 0.5>>=
+      <<fig.height = 0.3 * textheight, fig.width = 0.75 * textwidth>>=
       plotEduInst
       @
     \end{figure}
@@ -1678,7 +1678,7 @@
       \caption{Participants' race relative to their ethnicity}
       \label{fig:ethnicity_by_race}
       \centering
-      <<fig.asp = 0.5>>=
+      <<fig.height = 0.3 * textheight, fig.width = 0.75 * textwidth>>=
       plotParticipantsEthnRace
       @
     \end{figure}
@@ -1756,21 +1756,20 @@
 
     \begin{table}[tbhp]
         \centering
-        \caption{Percentage of primary pronouns by ethnicity and race}
+        \caption{Percentage of primary Creole pronouns by ethnicity and race}
         \label{tab:percentage_ethn_race}
-        \begin{tabular}{r | r l r l | r l r l}
-          Pronoun    & \multicolumn{2}{c}{Creole} & \multicolumn{2}{c}{Black} & \multicolumn{2}{c}{Cajun} & \multicolumn{2}{c}{White} \\
+        \begin{tabular}{r | r r | r r}
+          Pronoun         & Creole                                                                             & Black                                                                                             & Cajun                                                                             & White \\
           \hline
-          1sg        & \Sexpr{round(tablesEthnicityProps$firstSg["Creole", "mo"] * 100, digits = 1)}\%    & \lexi{mo} & \Sexpr{round(tablesSubsetRaceProps$firstSg["Black", "mo"] * 100, digits = 1)}\%                   & \lexi{mo} & \Sexpr{round(tablesEthnicityProps$firstSg["Cajun", "je"] * 100, digits = 1)}\%    & \lexi{je}   & \Sexpr{round(tablesSubsetRaceProps$firstSg["White", "je"] * 100, digits = 1)}\%    & \lexi{je} \\
-          2sg.T      & \Sexpr{round(tablesEthnicityProps$secondSgT["Creole", "to"] * 100, digits = 1)}\%  & \lexi{to} & \Sexpr{round(tablesSubsetRaceProps$secondSgT["Black", "to"] * 100, digits = 1)}\%                 & \lexi{to} & \Sexpr{round(tablesEthnicityProps$secondSgT["Cajun", "tu"] * 100, digits = 1)}\%  & \lexi{tu}   & \Sexpr{round(tablesSubsetRaceProps$secondSgT["White", "tu"] * 100, digits = 1)}\%  & \lexi{tu} \\
-          3sg.F      & \Sexpr{round(tablesEthnicityProps$thirdSgF["Creole", "li"] * 100, digits = 1)}\%   & \lexi{li} & \Sexpr{sprintf("%.1f", round(tablesSubsetRaceProps$thirdSgF["Black", "li"] * 100, digits = 1))}\% & \lexi{li} & \Sexpr{round(tablesEthnicityProps$thirdSgF["Cajun", "elle"] * 100, digits = 1)}\% & \lexi{elle} & \Sexpr{round(tablesSubsetRaceProps$thirdSgF["White", "elle"] * 100, digits = 1)}\% & \lexi{elle} \\
-          3sg.M      & \Sexpr{round(tablesEthnicityProps$thirdSgM["Creole", "li"] * 100, digits = 1)}\%   & \lexi{li} & \Sexpr{round(tablesSubsetRaceProps$thirdSgM["Black", "li"] * 100, digits = 1)}\%                  & \lexi{li} & \Sexpr{round(tablesEthnicityProps$thirdSgM["Cajun", "il"] * 100, digits = 1)}\%   & \lexi{il}   & \Sexpr{sprintf("%.1f", round(tablesSubsetRaceProps$thirdSgM["White", "il"] * 100, digits = 1))}\% & \lexi{il} \\
-          1pl        & \Sexpr{round(tablesEthnicityProps$firstPl["Creole", "no"] * 100, digits = 1)}\%    & \lexi{no} & \Sexpr{round(tablesSubsetRaceProps$firstPl["Black", "no"] * 100, digits = 1)}\%                   & \lexi{no} & \Sexpr{round(tablesEthnicityProps$firstPl["Cajun", "on"] * 100, digits = 1)}\%    & \lexi{on}   & \Sexpr{round(tablesSubsetRaceProps$firstPl["White", "on"] * 100, digits = 1)}\%    & \lexi{on} \\
-          3pl        & \Sexpr{round(tablesEthnicityProps$thirdPl["Creole", "yé"] * 100, digits = 1)}\%    & \lexi{yé} & \Sexpr{round(tablesSubsetRaceProps$thirdPl["Black", "yé"] * 100, digits = 1)}\%                   & \lexi{yé} & \Sexpr{round((tablesEthnicityProps$thirdPl["Cajun", "ils"] + tablesEthnicityProps$thirdPl["Cajun", "ça"]) * 100, digits = 1)}\% & \lexi{ils}/\lexi{ça} & \Sexpr{round((tablesSubsetRaceProps$thirdPl["White", "ils"] + tablesSubsetRaceProps$thirdPl["White", "ça"]) * 100, digits = 1)}\% & \lexi{ils}/\lexi{ça} \\          impersonal & \Sexpr{round(tablesEthnicityProps$impersonal["Creole", "to"] * 100, digits = 1)}\% & \lexi{to} & \Sexpr{round(tablesSubsetRaceProps$impersonal["Black", "to"] * 100, digits = 1)}\%                & \lexi{to} & \Sexpr{round(tablesEthnicityProps$impersonal["Cajun", "tu"] * 100, digits = 1)}\% & \lexi{tu}   & \Sexpr{round(tablesSubsetRaceProps$impersonal["White", "tu"] * 100, digits = 1)}\% & \lexi{tu} \\
+          1sg (mo)        & \Sexpr{round(tablesEthnicityProps$firstSg["Creole", "mo"] * 100, digits = 1)}\%    & \Sexpr{round(tablesSubsetRaceProps$firstSg["Black", "mo"] * 100, digits = 1)}\%                   & \Sexpr{round(tablesEthnicityProps$firstSg["Cajun", "mo"] * 100, digits = 1)}\%    & \Sexpr{round(tablesSubsetRaceProps$firstSg["White", "mo"] * 100, digits = 1)}\%    \\
+          2sg.T (to)      & \Sexpr{round(tablesEthnicityProps$secondSgT["Creole", "to"] * 100, digits = 1)}\%  & \Sexpr{round(tablesSubsetRaceProps$secondSgT["Black", "to"] * 100, digits = 1)}\%                 & \Sexpr{round(tablesEthnicityProps$secondSgT["Cajun", "to"] * 100, digits = 1)}\%  & \Sexpr{round(tablesSubsetRaceProps$secondSgT["White", "to"] * 100, digits = 1)}\%  \\
+          3sg.F (li)      & \Sexpr{round(tablesEthnicityProps$thirdSgF["Creole", "li"] * 100, digits = 1)}\%   & \Sexpr{sprintf("%.1f", round(tablesSubsetRaceProps$thirdSgF["Black", "li"] * 100, digits = 1))}\% & \Sexpr{round(tablesEthnicityProps$thirdSgF["Cajun", "li"] * 100, digits = 1)}\%   & \Sexpr{round(tablesSubsetRaceProps$thirdSgF["White", "li"] * 100, digits = 1)}\%   \\
+          3sg.M (li)      & \Sexpr{round(tablesEthnicityProps$thirdSgM["Creole", "li"] * 100, digits = 1)}\%   & \Sexpr{round(tablesSubsetRaceProps$thirdSgM["Black", "li"] * 100, digits = 1)}\%                  & \Sexpr{round(tablesEthnicityProps$thirdSgM["Cajun", "li"] * 100, digits = 1)}\%   & \Sexpr{round(tablesSubsetRaceProps$thirdSgM["White", "li"] * 100, digits = 1)}\%   \\
+          1pl (no)        & \Sexpr{round(tablesEthnicityProps$firstPl["Creole", "no"] * 100, digits = 1)}\%    & \Sexpr{round(tablesSubsetRaceProps$firstPl["Black", "no"] * 100, digits = 1)}\%                   & \Sexpr{round(tablesEthnicityProps$firstPl["Cajun", "no"] * 100, digits = 1)}\%    & \Sexpr{round(tablesSubsetRaceProps$firstPl["White", "no"] * 100, digits = 1)}\%    \\
+          3pl (yé)        & \Sexpr{round(tablesEthnicityProps$thirdPl["Creole", "yé"] * 100, digits = 1)}\%    & \Sexpr{round(tablesSubsetRaceProps$thirdPl["Black", "yé"] * 100, digits = 1)}\%                   & \Sexpr{round(tablesEthnicityProps$thirdPl["Cajun", "yé"] * 100, digits = 1)}\%    & \Sexpr{round(tablesSubsetRaceProps$thirdPl["White", "yé"] * 100, digits = 1)}\%    \\
+          impersonal (to) & \Sexpr{round(tablesEthnicityProps$impersonal["Creole", "to"] * 100, digits = 1)}\% & \Sexpr{round(tablesSubsetRaceProps$impersonal["Black", "to"] * 100, digits = 1)}\%                & \Sexpr{round(tablesEthnicityProps$impersonal["Cajun", "to"] * 100, digits = 1)}\% & \Sexpr{round(tablesSubsetRaceProps$impersonal["White", "to"] * 100, digits = 1)}\% \\
         \end{tabular}
       \end{table}
-
-    % And what about the non-modeled pronouns?
 
   \section{Discussion}
     \label{sec:pronoun_discussion}
