@@ -1418,7 +1418,7 @@
       The verbs \lexi{courir}, \lexi{venir}, \lexi{gone} and in some instances \lexi{gain} were also treated as auxiliaries but were so rare in this function that they did not appear after 3pl subject pronouns.
     } forming a system where there are \lexi{ils/ça} users and then \lexi{yé} users.
     This effect had been seen in previous studies \parencite{brown_pronominal_1988, byers_defining_1988}.
-    As Figures \ref{fig:3pl_predtype} and \ref{fig:3pl_model_predtype} show, before auxiliaries, \lexi{ça} is essentially unheard of.
+    As Figure \ref{fig:3pl_predtype} shows, before auxiliaries, \lexi{ça} is essentially unheard of.
     Of those tokens of \lexi{ça} that were produced before auxiliaries, most were produced before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ça" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ça",])}) in contrast to the rarity of \lexi{ils} before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ils" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ils",])}) and even the rarity of \lexi{yé} before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "yé" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "yé",])}).
     The implication is that the truly important verbs are \lexi{être} and \lexi{avoir} but not \lexi{aller}.
     The verb type that would include the two former and exclude the latter is not entirely clear, however.
@@ -1468,32 +1468,13 @@
     \end{table}
 
     \begin{figure}[tbhp]
-      \captionsetup{font={footnotesize}}
+      % \captionsetup{font={footnotesize}}
       \centering
-      3pl pronouns by following verb type
-      \label{fig:3pl_results}
-
-      \begin{minipage}{0.9\linewidth}
-        \caption{Observed data}
-        \label{fig:3pl_predtype}
-        \centering
-        <<fig.height = 4>>=
-        plotsPredicate$thirdPl
-        @
-      \end{minipage}
-
-      \begin{minipage}{0.9\linewidth}
-        \caption{Predicted values}
-        \label{fig:3pl_model_predtype}
-        \centering
-        <<fig.height = 4>>=
-        plotsModelPredType$thirdPl
-        @
-      \end{minipage}
-
-      {\footnotesize
-      Predicted values come from holding all other factors constant at their reference levels except institutional French, which was set to ``yes''.
-      }
+      \caption{3pl pronouns by following verb type}
+      \label{fig:3pl_predtype}
+      <<fig.height = 4>>=
+      plotsPredicate$thirdPl
+      @
     \end{figure}
 
     A somewhat unexpected structural result was that the odds of producing \lexi{je} for 1sg were higher before auxiliaries than \lexi{mo} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}; coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Pr(>|z|)"])}) or a null pronoun (intercept $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}; coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Pr(>|z|)"])}) as this is not a constraint that had been previously found.
@@ -1718,14 +1699,14 @@
       \begin{minipage}{0.45\linewidth}
         \centering
         \caption{1sg}\label{fig:subset_race_1sg}
-        <<out.width = "95%">>=
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$firstSg
         @
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
         \caption{1pl}\label{fig:subset_race_1pl}
-        <<out.width = "95%">>=
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$firstPl
         @
       \end{minipage}
@@ -1733,23 +1714,38 @@
       \begin{minipage}{0.45\linewidth}
         \centering
         \caption{2sg.T}\label{fig:subset_race_2sgT}
-        <<out.width = "95%">>=
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$secondSgT
         @
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{3pl}\label{fig:subset_race_3pl}
-        <<out.width = "95%">>=
-        plotsSubsetRace$thirdPl
+        \caption{impersonal}\label{fig:subset_race_impersonal}
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        plotsSubsetRace$impersonal
         @
       \end{minipage}
 
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{impersonal}\label{fig:subset_race_impersonal}
-        <<out.width = "95%">>=
-        plotsSubsetRace$impersonal
+        \caption{3sg.F}\label{fig:subset_race_3sgF}
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        plotsSubsetRace$thirdSgF
+        @
+      \end{minipage}
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{3sg.M}\label{fig:subset_race_3sgM}
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        plotsSubsetRace$thirdSgM
+        @
+      \end{minipage}
+
+      \begin{minipage}{0.45\linewidth}
+        \centering
+        \caption{3pl}\label{fig:subset_race_3pl}
+        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        plotsSubsetRace$thirdPl
         @
       \end{minipage}
 
@@ -1779,30 +1775,32 @@
   \section{Discussion}
     \label{sec:pronoun_discussion}
     % Are the markers of Creoles and Cajuns?
-      % Subject pronouns are certainly not indicators much less markers in Labov's (1972 "Sociolinguistic Patterns":237) sense as that would require some clear differentiation in use (i.e., production) between Creoles and Cajuns
-      % It is also hard to say that subject pronouns are indexical in the sense of indexical orders (Silverstein 2003; Johnstone & Kiesling 2008) as these are also implicitly related to regular associations between groups of speakers and linguistic forms
-      % Subject pronouns may, however, be markers or signifiers of Creole and Cajun identities in the sense used in the literature on race (e.g., Fassin 2011:420; Holt 1995:3).
+      % (might not need to bother with this framework) Subject pronouns are certainly indicators in Labov's (1972 "Sociolinguistic Patterns":237) sense as this requires clear differentiation in use (i.e., production) between Creoles and Cajuns, which the data shows
+        % What about Labovian markers?
+      % It could also be said that subject pronouns are indexical in the sense of indexical orders (Silverstein 2003; Johnstone & Kiesling 2008)
+        % This sort of indexicality implies regular associations between groups of speakers and linguistic forms, which the data shows
+        % Which indexical order is harder to say as a robust analysis of perceptions was not conducted, but speakers did use clear metalinguistic commentary on how Creole and Cajun speech differs
+      % Pronouns being indexical of Creole and Cajun identity also entails that they are markers or signifiers of those identities in the sense used in the literature on race (e.g., Fassin 2011:420; Holt 1995:3).
         % In this sense, a feature, linguistic or otherwise, must simply be associated with a group that is racialized
-        % Quantitatively, this is not well supported here, but as we'll see in chapter 5, it is a recurring theme in the discourse of Louisianians
     
-    % How might subject pronouns be markers of Creole and Cajun identities without being quantitatively associated with these groups in a robust way?
-      % Subject pronouns were more neatly divided between Creoles and Cajuns in the past
-        % This is unlikely since it has always
+    % Subject pronouns are perhaps also markers of broader American racial categories
+      % The principle of multiple causes is the idea that more than one factor influences language variation patterns (Bayley 2002, as cited in Hazen 2014:12)
+        % This does not only mean that multiple identified factors are at work but that unindentified factors may also be at work
 
+    % Subject pronouns marking one as both Creole and Black or both Cajun and White is indicative of a level of racialization equivalent to that found in the US generally
+      % In this sense, Creole and Cajun identities are simply the local expressions -- with their own idiosyncracies -- of macro-social categories that have been superimposed on Louisiana since the Civil War
 
-    % The principle of multiple causes is the idea that more than one factor influences language variation patterns (Bayley 2002, as cited in Hazen 2014:12)
-      % This does not only mean that multiple identified factors are at work but that unindentified factors may also be at work
-    % Dying languages are expected to show 1) reduction/simplification, 2) stylistic shrinkage, 3) increased variability, and 4) rapid change (Dressler 1972; Dorian 1989; O'Shannessy 2011; Palosaari & Campbell 2011; Schmidt 1985; Wolfram 2004, all as cited in Carmichael & Gudmestad 2019:72)
-      % Sasse (1992), with examples, suggested that dying language show extreme phonological variation (as cited in Rottet 1995:49)
-      % Dorian (1981) argued that speakers of dying languages have greater tolerance for variations as there are no longer ideal language users to emulate and therefore no standard (as cited in Rottet 1995:38)
-        % However, Schmidt (1985) reported older speakers of Dyirbal correcting younger speakers despite it being a dying language (as cited in Rottet 1995:38)
-      % Rottet (1995) speculated dying languages would be "in flux in far more ways" than healthy languages, even though the changes are the same (313)
-      % Dorian (1994 "Varieties") has argued that variation is socially neutral in endangered languages in the sense that it exists but doesn't mean anything to speakers (as cited in Mayeux 2024 "Racial":28)
-    % Style shifting in the pronouns used by participants
-      % Second repertoire acquisition is defined as the acquisition of a new set of features due to their indexing a change in some aspect of one's identity at some point in life (Benor 2010:167-168)
-        % One of the clearest examples Owen Webre who had experience as a French teacher, which may have been the addition of more complexity to his linguistic identity
-    % Social meaning
-      % Bell (1984) argued that most variables are markers (152)
-      % Benor (2010) argued that the social meaning of language variation "changes according to context, and it is negotiated in interactions" (160)
-      % It has been argued that speakers, whether consciously or not, use language variation to either align themselves with or distinguish themselves from others (Benor 2010:160; Le Page & Tabouret-Keller 1985)
-      % Sharma (2011) claimed the variationist approach to social meaning assumes that a single variable in correlation with "macrosocial factors" explains its meaning (465)
+    % It is notable that racialization can be identified in speech patterns even in a language that is in heavy decline and that finds very little public use
+      % In some ways, this is unexpected
+        % It has been argued that there is greater tolerance for variation in these languages because there is no obvious standard that would lead to conformity in speech patterns (Dorian 1981, as cited in Rottet 1995:38)
+          % This is true in Louisiana on both an informal level in that speakers regularly report not having anyone else to speak the language 
+          % But it is not not exactly true on an institutional level where many speakers appear to have had exposure to an effectively non-indigenous related variety that has influenced them
+            % That non-indigenous variety has much more resemblance to the Cajun-associated pronouns, and Cajuns do appear more likely to be college educated and therefore more likely to have had exposure to standard Hexagonal French
+      % Thus, there was reason to expect that Creole and Cajun speech patterns in F\&C would be capable of functioning as indexical of racialized identities
+        % A difference in educational attainment itself is indicative of racialization
+        % As institutional French exposure has an effect on subject pronoun use, the data suggests that Creoles are more likely to be influenced by home language use and Cajuns more likely to be influenced by institutional language use
+        % Additionally, even in cases where home use is the overriding influence for members of both groups, speech distinctions that are indicative or racialization are perhaps not unexpected because there could be a certain amount of fossilization since the time that speakers stopped having regular contact with other F\&C speakers outside of the home
+          % In other words, Black Creoles who do not use F\&C with anyone outside of a small, intimate group of people, are not going to be exposed to other ways of speaking F\&C that may actuate linguistic changes (Weinreich et al 1968) and likewise for White Cajuns
+          % It is thus important to understand the personal social networks of Creoles and Cajuns, particularly in terms of their homophily, to better understand how subject pronouns in a declining language can still wind up being markers of racialized identities
+            % In turn, to the extent that homophilous personal social networks are indicative of segregation, such an analysis also functions as further evidence for or against the racialization of Creole and Cajun identities
+            % Chapter 4 will thus elaborate a social network analysis of the present data.
