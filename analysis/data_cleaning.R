@@ -122,7 +122,13 @@ participants$Age <- 2023 - participants$`Birth Year`
 # Collapse factor levels when relevant
 networks$`Alter Ethnicity` <- recode_factor(
   networks$`Alter Ethnicity`,
-  "African/Creole" = "Creole"
+  "African-American/Creole" = "Creole",
+  "African/Creole" = "Creole",
+  "Creole-African-American" = "Creole",
+  "Creole/French" = "Creole",
+  "White Creole" = "Creole",
+  "Americanized Cajun" = "Cajun",
+  "Cajun-American" = "Cajun"
 )
 
 # Order factor in order to make a reasonable reference level
