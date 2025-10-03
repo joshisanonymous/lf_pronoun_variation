@@ -280,6 +280,10 @@
           % This is relevant for the naming of core network attributes in my data
         % In some cases, it's been found that proxy reports are not terribly accurate when it comes to naming characteristics of alters, but the respondent's perceptions of alters may be more important than the literal qualities of alters according to said alters themselves (Cornwell & Hoaglin 2015, as cited in Stark 2018:245-246)
     \subsection{Analyses}
+      % Alter ethnicities were collapsed
+        % If the ethnicity given contained the terms Cajun or Creole anywhere in it, it was reduced to simply Cajun or Creole, respectively
+          % e.g. Cajun-American became Cajun
+          % One alter was described as Acadian, and such descriptions were not collapsed to Cajun
       % The EI homophily index is a measure of homohily in an ego network calculated as $\frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ where External refers to out-group alters and Internal to in-group alters and a value of -1 would be perfect homophily (Lizardo & Jilbert 2020)
   \section{Results}
   \section{Conclusion}
