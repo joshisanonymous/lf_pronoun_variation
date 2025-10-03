@@ -103,10 +103,10 @@ parishBar <- ggplot(
 # # French usage by alter type (i.e., coreness)
 # coreByFrBar <- ggplot(
 #   melt(coreByFrTable,
-#        varnames = c("French.Frequency", "Alter.Type"),
+#        varnames = c("French.Frequency", "Alter Type"),
 #        value.name = "Count"),
 #   aes(
-#     x = Alter.Type,
+#     x = !! symb(Alter Type),
 #     y = Count,
 #     fill = French.Frequency
 #   )
@@ -118,13 +118,22 @@ parishBar <- ggplot(
 # homophByLanguage <- ggplot(
 #   melt(participants,
 #        id.vars = "Name",
-#        measure.vars = c("Network.Ethnic.Homophily",
-#                         "Anglo.Network.Ethnic.Homophily",
-#                         "Franco.Network.Ethnic.Homophily"),
+#        measure.vars = c("Network Ethnic Homophily",
+#                         "Anglo Network Ethnic Homophily",
+#                         "Franco Network Ethnic Homophily"),
 #        variable.name = "Section.of.Network",
-#        value.name = "Ethnic.Homophily"),
+#        value.name = "Ethnic Homophily"),
+
+# melt(participants,
+#        id.vars = "Name",
+#        measure.vars = c("Network Ethnic Homophily",
+#                         "Anglo Network Ethnic Homophily",
+#                         "Franco Network Ethnic Homophily"),
+#        variable.name = "Section.of.Network",
+#        value.name = "Ethnic Homophily")
+
 #   aes(
-#     y = Ethnic.Homophily,
+#     y = !! sym(Ethnic Homophily),
 #     x = Section.of.Network
 #   )
 # ) +

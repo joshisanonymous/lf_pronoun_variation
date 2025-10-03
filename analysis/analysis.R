@@ -31,7 +31,8 @@ source("functions.R")
 participants <- read.csv("../data/metadata.csv", fileEncoding = "UTF-8",
                          stringsAsFactors = TRUE, sep = "\t", na.strings = "")
 networks <- read.csv("../data/networks.csv", fileEncoding = "UTF-8",
-                     stringsAsFactors = TRUE, sep = "\t", na.strings = "")
+                     stringsAsFactors = TRUE, sep = "\t", na.strings = "",
+                     check.names = FALSE)
 tokens <- read.csv("../data/pronoun_tokens.csv", fileEncoding = "UTF-8",
                    stringsAsFactors = TRUE, na.strings = "")
 parishes <- c("Calcasieu Parish", "Cameron Parish", "Jefferson Davis Parish",
@@ -102,23 +103,23 @@ rownames(tokens) <- NULL
 for(name in participants$Name) {
   # For whole personal networks
   homophIndex <- getEIHomophily(networks, name)
-  participants[participants$Name == name, "Network.Ethnic.Homophily"] <- homophIndex
+  participants[participants$Name == name, "Network Ethnic Homophily"] <- homophIndex
   # For just anglophone alters
-  justAnglo <- networks[networks$Alter.French.Frequency == "Never", ]
+  justAnglo <- networks[networks$`Alter French Frequency` == "Never", ]
   homophIndex <- getEIHomophily(justAnglo, name)
-  participants[participants$Name == name, "Anglo.Network.Ethnic.Homophily"] <- homophIndex
+  participants[participants$Name == name, "Anglo Network Ethnic Homophily"] <- homophIndex
   # For just francophone alters
-  justFranco <- networks[networks$Alter.French.Frequency != "Never", ]
+  justFranco <- networks[networks$`Alter French Frequency` != "Never", ]
   homophIndex <- getEIHomophily(justFranco, name)
-  participants[participants$Name == name, "Franco.Network.Ethnic.Homophily"] <- homophIndex
+  participants[participants$Name == name, "Franco Network Ethnic Homophily"] <- homophIndex
 }
 # Clean-up for loop
 rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
 
 # Set dummy EI homophily of participants who did not give network info
-homophilyDummy <- mean(participants$Network.Ethnic.Homophily, na.rm = TRUE)
-participants[participants$Name == "Errol Stoufle", "Network.Ethnic.Homophily"] <- homophilyDummy
-participants[participants$Name == "Rachel Chenevert", "Network.Ethnic.Homophily"] <- homophilyDummy
+homophilyDummy <- mean(participants$`Network Ethnic Homophily`, na.rm = TRUE)
+participants[participants$Name == "Errol Stoufle", "Network Ethnic Homophily"] <- homophilyDummy
+participants[participants$Name == "Rachel Chenevert", "Network Ethnic Homophily"] <- homophilyDummy
 
 # Merge participant metadata with tokens
 tokens <- merge(tokens, participants, by = "Name")
@@ -232,20 +233,20 @@ modelsPredType$thirdPl <- melt(
 
 # Multinomial logistic model for the relationship between frequency of French
 # use and alter type (i.e., core alters vs non-core)
-coreByFrMultinom <- mblogit(Alter.French.Frequency ~ Alter.Type,
+coreByFrMultinom <- mblogit(`Alter French Frequency` ~ `Alter Type`,
                             data = networks,
                             random = ~ 1|Name)
 
 # # Is there a difference between the anglophone and francophone ethnic homophily?
-homophByLanguageTtest <- t.test(participants$Anglo.Network.Ethnic.Homophily,
-                                participants$Franco.Network.Ethnic.Homophily,
+homophByLanguageTtest <- t.test(participants$`Anglo Network Ethnic Homophily`,
+                                participants$`Franco Network Ethnic Homophily`,
                                 paired = TRUE)
 
 # # Is one ethnic group more homophilous than the other?
 homophByEthnicGroupTtest <- t.test(participants[participants$Ethnicity == "Creole",
-                                                "Network.Ethnic.Homophily"],
+                                                "Network Ethnic Homophily"],
                                    participants[participants$Ethnicity == "Cajun",
-                                                "Network.Ethnic.Homophily"])
+                                                "Network Ethnic Homophily"])
 
 # Exploratory stuff ------------------------------------------------------------
 subsetParticipantsRace <- droplevels(participants[participants$Race != "Transcendent" &
@@ -300,3 +301,4 @@ tablesSubsetRaceProps <- lapply(tablesSubsetRace, prop.table, margin = 1)
 
 source("maps.R")
 source("plots-final.R")
+source("sna.R")

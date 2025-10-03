@@ -121,12 +121,12 @@ tableParticipant <- function(name, protype) {
 getAlterEthCount <- function(df, name, participantEthnicity, sameEthnicity = TRUE) {
   if(sameEthnicity == TRUE) {
     length(df[df$Name == name &
-                df$Alter.Ethnicity == participantEthnicity,
-              "Alter.Ethnicity"])
+                df$`Alter Ethnicity` == participantEthnicity,
+              "Alter Ethnicity"])
   } else {
     length(df[df$Name == name &
-                df$Alter.Ethnicity != participantEthnicity,
-              "Alter.Ethnicity"])
+                df$`Alter Ethnicity` != participantEthnicity,
+              "Alter Ethnicity"])
   }
 }
 
@@ -136,6 +136,13 @@ getEIHomophily <- function(df, name) {
   diffEth <- getAlterEthCount(df, name, parEthnicity, sameEthnicity = FALSE)
   homophIndex <- (diffEth - sameEth) / (diffEth + sameEth)
   return(homophIndex)
+}
+
+# Model
+multinomResponse <- function(pronoun) {
+  mblogit(ProUnder ~  Ethnicity + Gender + `Institutional French` + Age,
+          data = droplevels(tokens[tokens$ProType == pronoun,]),
+          random = list(~ 1|Name, ~ 1|PredUnder))
 }
 
 # Models -----------------------------------------------------------------------

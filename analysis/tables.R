@@ -267,7 +267,7 @@ tableInstToOccEd <- table(
                "Institutional French"]
 )
 
-# coreByFrTable <- table(networks$Alter.French.Frequency, networks$Alter.Type)
+# coreByFrTable <- table(networks$`Alter French Frequency`, networks$`Alter Type`)
 # verbCollatesMostFrequent <- table(tokens$PredUnder)
 # verbCollatesMostFrequent <- verbCollatesMostFrequent[
 #   order(verbCollatesMostFrequent, decreasing = TRUE)

@@ -120,11 +120,11 @@ participants$Age <- 2023 - participants$`Birth Year`
 
 # Network cleaning -----------------------------------------------------------
 # Collapse factor levels when relevant
-networks$Alter.Ethnicity <- recode_factor(
-  networks$Alter.Ethnicity,
+networks$`Alter Ethnicity` <- recode_factor(
+  networks$`Alter Ethnicity`,
   "African/Creole" = "Creole"
 )
 
 # Order factor in order to make a reasonable reference level
-networks$Alter.French.Frequency <- factor(networks$Alter.French.Frequency,
+networks$`Alter French Frequency` <- factor(networks$`Alter French Frequency`,
                                    levels = c("Never", "Occasionally", "Often", "Always"))
