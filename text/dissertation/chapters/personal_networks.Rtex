@@ -280,12 +280,47 @@
           % This is relevant for the naming of core network attributes in my data
         % In some cases, it's been found that proxy reports are not terribly accurate when it comes to naming characteristics of alters, but the respondent's perceptions of alters may be more important than the literal qualities of alters according to said alters themselves (Cornwell & Hoaglin 2015, as cited in Stark 2018:245-246)
     \subsection{Analyses}
-      % Alter ethnicities were collapsed
+      % Alter ethnicities were collapsed for personal networks
         % If the ethnicity given contained the terms Cajun or Creole anywhere in it, it was reduced to simply Cajun or Creole, respectively
           % e.g. Cajun-American became Cajun
+            % Had ethnicities not been collapsed, there would have been individuals that participants likely viewed as ethnically related to themselves that were then not counted towards the homophily of their network
+            % An Americanized Cajun is still a Cajun
           % One alter was described as Acadian, and such descriptions were not collapsed to Cajun
+          % How many was this?
+      % Alter ethnicities were further collapsed for whole network representation
+        % Some alters were named by more than one participant so a choice needed to be made when representing the entire network with only one node per unique person
+        % Generally, there were very few mismatches in judgements
+          % Bruce Rivero as Cajun and No Answer
+          % David Roche as Creole and African-American
+          % Jacqueline Newchurch as Cajun (4x) and White
+          % Lucille Royer as Cajun (2x), White, Mulato, and Unsure
+          % Richard Chenevert as Cajun and White
+          % These last two were participants and so their self-identifications as Cajuns were used but also matched what others generally said
+        % When there were a plurality of identical judgements of ethnicity, that plurality was assigned as the ethnicity
+        % When there was one judgement of Creole or Cajun and another of Black, African-American, or White, the former was used
+          % This was the most common situation, highlighting once again the superimposition of broader US racial categories and local categories
+          % In no cases did one person say Cajun while another said Black or one person Creole while another said White
       % The EI homophily index is a measure of homohily in an ego network calculated as $\frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ where External refers to out-group alters and Internal to in-group alters and a value of -1 would be perfect homophily (Lizardo & Jilbert 2020)
   \section{Results}
+    % The primary question here is whether there is evidence of segregation of Creole and Cajuns as that would be expected when these groups are racialized
+      % The overall picture of the network already suggests intuitively that this is the case
+      % The central nodes in each star are the participants
+        % Almost all are primarily made up of alters of the same ethnicity
+        % Where alters are not primarily of the same ethnicity, they are generally of ethnicities other than Cajun for Creoles or Creole for Cajuns
+          % In other words, no self-identified Cajun had a personal network primarily made up of Creoles nor vice versa.
+      % Some participants are more connected to a larger network while others are not, as well
+        % These are generally the Cajun participants
+        % Only two Creoles, Owen Webre and James Corporon are connected to the larger network
+
+    % These are good first indications, but no attempt was made here to elaborate the whole community network, so no whole network quantifications can be made with any reliability
+      % Indeed, the fact that the network shows broader connections at all is completely accidental
+      % While snowball sampling was not avoided, only a very small number of participants were obtained this way
+        % Brian Roger was perhaps the only one technically obtained this way
+        % Similar to snowball sampling, some participants were linked because they were interviewed together (Lucille and Cynthia, Tracy and Florence) or because they both frequented locations where participants were recruited
+      % Likewise, the nodes acting as bridges in the network are not always participants
+        % Who were the non-participant bridges?
+      % Thus while whole network analyses are inappropriate, personal network analyses can help answer our question
+
     \begin{figure}[tbhp]
       \caption{All participants and alters}
       \label{fig:network_whole}
@@ -294,5 +329,11 @@
       networkWholePlot()
       @
     \end{figure}
+
+    % What do we see for homophily
+
+    % Does this have an impact on pronoun use?
+
   \section{Conclusion}
+
     % Neumann (1985) looked at Blacks in her study of Breaux Bridge Creole because she claimed that their language was «moins affectés par la "décréolisation"» (2)
