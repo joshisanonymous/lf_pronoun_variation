@@ -286,5 +286,13 @@
           % One alter was described as Acadian, and such descriptions were not collapsed to Cajun
       % The EI homophily index is a measure of homohily in an ego network calculated as $\frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ where External refers to out-group alters and Internal to in-group alters and a value of -1 would be perfect homophily (Lizardo & Jilbert 2020)
   \section{Results}
+    \begin{figure}[tbhp]
+      \caption{All participants and alters}
+      \label{fig:network_whole}
+      \centering
+      <<fig.height = 0.6 * textheight>>=
+      networkWholePlot()
+      @
+    \end{figure}
   \section{Conclusion}
     % Neumann (1985) looked at Blacks in her study of Breaux Bridge Creole because she claimed that their language was «moins affectés par la "décréolisation"» (2)
