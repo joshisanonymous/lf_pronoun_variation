@@ -117,6 +117,14 @@ tableParticipant <- function(name, protype) {
   table(droplevels(tokens[tokens$Name == name & tokens$ProType == protype, "ProUnder"]))
 }
 
+# Tables for participants' alters' ethnicities
+tableAlterEths <- function(name, collapsed = TRUE) {
+  if(collapsed == FALSE) {
+    table(droplevels(networksUncollapsedEth[networksUncollapsedEth$Name == name, "Alter Ethnicity"]))
+  }
+  table(droplevels(networks[networks$Name == name, "Alter Ethnicity"]))
+}
+
 # Network stuff ----------------------------------------------------------------
 getAlterEthCount <- function(df, name, participantEthnicity, sameEthnicity = TRUE) {
   if(sameEthnicity == TRUE) {

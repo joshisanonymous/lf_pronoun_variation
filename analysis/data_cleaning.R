@@ -119,6 +119,10 @@ participants$Ethnicity <- factor(participants$Ethnicity,
 participants$Age <- 2023 - participants$`Birth Year`
 
 # Network cleaning -----------------------------------------------------------
+# Preserve non-collapsed Creole and Cajun levels
+networksUncollapsedEth <- networks
+networksUncollapsedEth$`Alter Ethnicity` <- fct_infreq(networksUncollapsedEth$`Alter Ethnicity`)
+
 # Collapse factor levels when relevant
 networks$`Alter Ethnicity` <- recode_factor(
   networks$`Alter Ethnicity`,

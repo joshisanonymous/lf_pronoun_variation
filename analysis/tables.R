@@ -267,6 +267,11 @@ tableInstToOccEd <- table(
                "Institutional French"]
 )
 
+# Network stuff ----------------------------------------------------------------
+# Participants' alters' ethnicities
+tablesAlterEthsUncollapsed <- lapply(setNames(unique(networks$Name), unique(networks$Name)), tableAlterEths, collapsed = FALSE)
+tablesAlterEths <- lapply(setNames(unique(networks$Name), unique(networks$Name)), tableAlterEths)
+
 # coreByFrTable <- table(networks$`Alter French Frequency`, networks$`Alter Type`)
 # verbCollatesMostFrequent <- table(tokens$PredUnder)
 # verbCollatesMostFrequent <- verbCollatesMostFrequent[
