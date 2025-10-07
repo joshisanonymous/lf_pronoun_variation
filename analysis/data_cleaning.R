@@ -131,6 +131,9 @@ networks$`Alter Ethnicity` <- recode_factor(
   "Cajun-American" = "Cajun"
 )
 
+# Reorder factors for alter ethnicity by most frequent
+networks$`Alter Ethnicity` <- fct_infreq(networks$`Alter Ethnicity`)
+
 # Order factor in order to make a reasonable reference level
 networks$`Alter French Frequency` <- factor(networks$`Alter French Frequency`,
                                    levels = c("Never", "Occasionally", "Often", "Always"))

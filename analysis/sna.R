@@ -52,9 +52,6 @@ V(networkWhole)$color[V(networkWhole)$Ethnicity %in% names(networkWholeColors)] 
 
 set.seed(0321)
 networkWholeLayout <- layout_with_fr(networkWhole)
-# networkWholeLayout <- norm_coords(networkWholeLayout,
-#                                   ymin = -1, ymax = 1,
-#                                   xmin = -1, xmax = 1)
 
 networkWholePlot <- function() {
   par(mar = c(1, 1, 1, 1))
@@ -70,3 +67,21 @@ networkWholePlot <- function() {
   legend("topright", legend = c("Creole", "Cajun", "Other"), pch = 19, pt.cex = 2,
        col = c(color_key[1:2], "darkgrey"), bty = "n", cex = 0.9, title = "Ethnicity")
 }
+
+# Multinomial logistic model for the relationship between frequency of French
+# use and alter type (i.e., core alters vs non-core)
+coreByFrMultinom <- mblogit(`Alter French Frequency` ~ `Alter Type`,
+                            data = networks,
+                            random = ~ 1|Name)
+
+# Is there a difference between the anglophone and francophone ethnic homophily?
+homophByLanguageTtest <- t.test(participants$`Anglo Network Ethnic Homophily`,
+                                participants$`Franco Network Ethnic Homophily`,
+                                paired = TRUE)
+
+# Is one ethnic group more homophilous than the other?
+homophByEthnicGroupTtest <- t.test(
+  participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert",
+               "Network Ethnic Homophily"],
+  participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle",
+               "Network Ethnic Homophily"])

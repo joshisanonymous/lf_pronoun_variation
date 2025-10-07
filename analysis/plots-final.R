@@ -1,13 +1,6 @@
 # Cross-sections of social variables -------------------------------------------
 # Ethnicity by race
-raceBar <- ggplot(
-  participants,
-  aes(x = Race)
-) +
-  geom_bar() +
-  theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1.05)) +
-  labs(y = "Count")
+plotParticipantRace <- plotBar(participants, "Race")
 
 ethByRaceBar <- ggplot(
   melt(ethByRaceTable,
@@ -100,6 +93,8 @@ parishBar <- ggplot(
   theme(axis.text.x = element_text(angle = 45, hjust = 1.05))
 
 # Network graphs --------------------------------------------------------------
+plotAlterEthnicity <- plotBar(networks, "Alter Ethnicity")
+
 # # French usage by alter type (i.e., coreness)
 # coreByFrBar <- ggplot(
 #   melt(coreByFrTable,

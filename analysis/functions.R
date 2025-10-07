@@ -164,6 +164,14 @@ multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE
 }
 
 # Plots ------------------------------------------------------------------------
+plotBar <- function(df, column) {
+  ggplot(df, aes(x = !! sym(column))) +
+  geom_bar() +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1.05)) +
+  labs(y = "Count")
+}
+
 plotSocial <- function(table) {
   ggplot(melt(table,
          varnames = c("socialVar", "pronoun"),

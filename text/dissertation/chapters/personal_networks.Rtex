@@ -7,7 +7,8 @@
   % Sociological definitions of community
     % A local unit, characterised for its members by common locality and primary interaction (Gumperz 1962, cited as according to Hymes 1972 in L. Milroy 1980/1987:15, but Hymes cites Gumperz)
     % A small-scale, local, concrete social unit which is important to a person's definition of their social identity (L. Milroy 1980/1987:14)
-  \section{Comparison with non-social network approaches}
+
+  % \section{Comparison with non-social network approaches}
     % Comparison to speech communities
       % This approach is in fact present in the current study
       % Definitions
@@ -65,7 +66,8 @@
           % This isn't as formalized or quantifiable as in SNA
       % Eckert & McConnell (1992) sum up the sort of features that emerge from communities of practice as shared ways of doing things, ways of talking, beliefs, values, and power relations (464)
       % Use in sociolinguistics
-  \section{Social network analysis}
+
+  % \section{Social network analysis}
     % What is social network analysis
       % Originally, a network was defined as a social field of a given individual which includes their own unique sets of cognatic kin and friends, where lines representing interaction link the individual to points, which may be either people or groups (Barnes 1954:43)
       % Compared to speech communities and communities of practice, social networks can be particularly effective when working analyzing the spread of linguistic change or interaction patterns (Dodsworth 2014:262-263)
@@ -159,10 +161,12 @@
     % Weaknesses
       % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
         % This is more about how one conceptualizes of community
-  \section{The social and linguistic landscape as it pertains to social networks}
+
+  % \section{The social and linguistic landscape as it pertains to social networks}
     % Some general qualities of social networks have been reported
       % Rural networks tend towards density and multiplexity, whereas urban networks tend towards spareness and uniplexity, although old working-class areas tend to function as "urban villages," essentially rural areas within urban areas (Turner 1967 [I think], as cited in L. Milroy 1980/1987:137)
-    \subsection{Social networks in the US}
+
+    % \subsection{Social networks in the US}
       % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
       % Homophilous can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
       % According to the GGS, mean age and education homophily in personal networks has not changed between 1985 and 2004 (J. A. Smith et al. 2014:439)
@@ -174,7 +178,8 @@
         % Marital homogamy according to religion has decreased (Fischer & Hout 2006, as cited in J. A. Smith et al. 2014:434)
       % Differences between personal networks in rural vs urban areas
         % It has been predicted that rural networks are more homogenous in education, race-ethnicity, and religion, but more heterogenous in age and gender, the latter due to ties being more with kin than friends (Beggs et al. 1996:312)
-      \subsubsection{Race and ethnicity}
+
+      % \subsubsection{Race and ethnicity}
         % Wright et al. (2014) argue that racial segregation is "a barometer of race relations" (174)
         % In 1985, racial and ethnic division was "the most salient social distinction structuring U.S. confidant relations" (Marsden 1988, as cited in J. A. Smith et al. 2014:446)
           % White-Asian ties have increased between 1985 and 2004 (J. A. Smith et al. 2014:446-447)
@@ -183,7 +188,8 @@
           % Racial endogamy has declined over the 20th century but is still the most prevalent endogamous pattern in the US (Rosenfeld 2008)
           % Racial (and ethnic?) occupational segregation had "flattened out and changed slowly" between the 1980s and 2000s (Tomaskovic-Devey et al. 2006, as cited in J. A. Smith et al. 2014:436)
         % Taylor (1992) found that Black national leaders in the US formed a "considerably more closely knit" network, even though the White network had a longer history (as cited in Andersen & Taylor 2013:128)
-    \subsection{Social networks in South Louisiana}
+
+    % \subsection{Social networks in South Louisiana}
       % Gold (1976) claims that the sharecropper networks around Mamou in the early to mid 20th century were close knit out of necessity (272)
       % Differences from those in the US in general
         % Less difference in density between urban and rural networks than found elsewhere in the US (Beggs et al. 1996:315)
@@ -192,7 +198,8 @@
         % Louisiana ties tend to be longer lasting than elsewhere in the US (Beggs et al. 1996:315)
           % So not only more homogenous, but less likely to change, as well
         % Louisiana personal networks were found to be more homogenous racially and ethnically than elsewhere in the US, but this result wasn't statistically significant (Beggs et al. 1996:315)
-      \subsubsection{Race and ethnicity}
+
+      % \subsubsection{Race and ethnicity}
         % Between the 1990 and 2010 censuses, there were fewer low-diversity White neighborhoods nationwide (66% > 42.5%), and Black dominant neighborhoods nationwide have become more racially diverse, though in Louisiana, low-diversity Black neighborhoods have actually increased (Wright et al. 2014:176-177)
         % Beggs et al. (1996) predicted rural communities would be more racially and ethnically homogenous than urban communities and found racial and ethnic homogeneity to be even more prevalent in Louisiana than the country in general (though not as a statistically significant finding)
         % The racial make-up of Creoles of Color's childhood friends had an impact on how they racially self-identified (Susberry 2004:45/48):
@@ -201,7 +208,8 @@
           % Border Creole had mostly White friends
             % This feels like an acknowledgement that one isn't or can't be seen as White while not wanting to distance oneself from friends by claiming a singular Black identity
           % Protean had an even mix of friends of various racial identities
-    \subsection{Language choice constrained by personal networks}
+
+    % \subsection{Language choice constrained by personal networks}
       % How am I conceptualizing "language" in this section?
         % Including choice between styles
       % In Oberwart, Austria, older people with more "peasantness" represented in their personal networks were much more likely to use Hungarian, but younger WOMEN with high peasantness networks chose German (Gal 1978, as cited in Sharma & Dodsworth 2020:353)
@@ -213,13 +221,15 @@
       % The language choice of Chinese-English bilinguals in Tyneside, England was most accurately predicted by the ethnic index of their personal networks (W. Li et al. 1992/2000:184)
         % While this might seem obvious, those with high ethnic indices were more likely to choose Chinese with interlocutors that those with low indices would use a mix of Chinese and English or just English with (W. Li et al. 1992/2000:184)
       % Within Dyirbal-English speaking communities, the amount of Dyirbal used in casual conversation was relative to the usage of the least monolingual Dyirbal speaker in the group (Schmidt 1985, as cited in L. Milroy 1980/1987:176)
-    \subsection{Linguistic variation constrained by network characteristics}
+
+    % \subsection{Linguistic variation constrained by network characteristics}
       % Rural migrants to the urban area of Brazlândia, Brazil decreased their usage of rural variants in Portuguese as their integration into the urban community increased (specifically /l/ vocalization and subject-verb agreement patterns) (Bortoni-Ricardo 1985, as cited in Sharma & Dodsworth 2020:348)
       % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
       % Benor & Cohen (forthcoming) and Benor (forthcoming) found that Jewish Americans who are more orthodox, go to synagogue more, and have more Jewish friends use Hebrew and Yiddish loanwords and constructions more than other Jewish Americans (as cited in Benor 2010:163-164)
       % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
         % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
-    \subsection{Diffusion of linguistic features within and between networks}
+
+    % \subsection{Diffusion of linguistic features within and between networks}
       % Diffusion outside of linguistics
         % Early work in sociology already showed the usefulness of SNA for examining diffusion
           % Britain (2010) suggested that humans view distance either as physical, social, or psychological (as cited in Bell 2014:234)
@@ -243,8 +253,11 @@
       % Race
         % In English in the US, diffusion of linguistic features was asymmetric so that African-Americans picked up White features but Whites didn't pick up African-American features (Ahs & Myhill 1986, as cited in Sharma & Dodsworth 2020:354)
         % On the other hand, Delilah, a White study participant in Cincinnati, had a network that was heavily African-American and as such was completely fluent in AAVE (Sweetland 2002, as cited in Fought 2013:391)
-    \subsection{Previous work on relationships between personal networks and language in Louisiana}
+
+    % \subsection{Previous work on relationships between personal networks and language in Louisiana}
+
   \section{Methods}
+
     \subsection{Data collection}
       \label{sec:network_collection}
       % Name generator questions
@@ -279,7 +292,8 @@
         % Agreement between respondent's responses about targets and targets' responses become higher the more time spent together (Amato & Ochiltree 1987; Bahrick et al. 1975; Cohen & Orum 1972; Lien et al. 2001, all as cited in Cobb 2018 "Answering":90)
           % This is relevant for the naming of core network attributes in my data
         % In some cases, it's been found that proxy reports are not terribly accurate when it comes to naming characteristics of alters, but the respondent's perceptions of alters may be more important than the literal qualities of alters according to said alters themselves (Cornwell & Hoaglin 2015, as cited in Stark 2018:245-246)
-    \subsection{Analyses}
+
+    % \subsection{Analyses}
       % Alter ethnicities were collapsed for personal networks
         % If the ethnicity given contained the terms Cajun or Creole anywhere in it, it was reduced to simply Cajun or Creole, respectively
           % e.g. Cajun-American became Cajun
@@ -301,25 +315,25 @@
           % This was the most common situation, highlighting once again the superimposition of broader US racial categories and local categories
           % In no cases did one person say Cajun while another said Black or one person Creole while another said White
       % The EI homophily index is a measure of homohily in an ego network calculated as $\frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ where External refers to out-group alters and Internal to in-group alters and a value of -1 would be perfect homophily (Lizardo & Jilbert 2020)
-  \section{Results}
-    % The primary question here is whether there is evidence of segregation of Creole and Cajuns as that would be expected when these groups are racialized
-      % The overall picture of the network already suggests intuitively that this is the case
-      % The central nodes in each star are the participants
-        % Almost all are primarily made up of alters of the same ethnicity
-        % Where alters are not primarily of the same ethnicity, they are generally of ethnicities other than Cajun for Creoles or Creole for Cajuns
-          % In other words, no self-identified Cajun had a personal network primarily made up of Creoles nor vice versa.
-      % Some participants are more connected to a larger network while others are not, as well
-        % These are generally the Cajun participants
-        % Only two Creoles, Owen Webre and James Corporon are connected to the larger network
 
-    % These are good first indications, but no attempt was made here to elaborate the whole community network, so no whole network quantifications can be made with any reliability
-      % Indeed, the fact that the network shows broader connections at all is completely accidental
-      % While snowball sampling was not avoided, only a very small number of participants were obtained this way
-        % Brian Roger was perhaps the only one technically obtained this way
-        % Similar to snowball sampling, some participants were linked because they were interviewed together (Lucille and Cynthia, Tracy and Florence) or because they both frequented locations where participants were recruited
-      % Likewise, the nodes acting as bridges in the network are not always participants
-        % Who were the non-participant bridges?
-      % Thus while whole network analyses are inappropriate, personal network analyses can help answer our question
+  \section{Results}
+    The primary question being asked in this chapter is if there is evidence of segregation between Creoles and Cajuns as that would be expected when these groups are racialized.
+    In this case, that evidence takes the form of the ethnic homophily of the personal social networks of participants in the study.
+    However, even a broad overview of the community social network, as seen in Figure \ref{fig:network_whole} to the extent that it was elaborated here, intuitively suggests that Creoles and Cajuns are in fact segregated.
+    The figure is made up of a number of star graphs where the center node of each, ego, is a participant and all others are alters of participants.
+    Almost all of these star graphs are made up of alters who are all of the same ethnicity as ego.
+    Where alters are not primarily of the same ethnicity, they are generally of ethnicities other than Cajun for Creoles or Creole for Cajuns.
+    In other words, no self-identified Cajun had a personal social network made up primarily of Creoles and no self-identified Creole had a personal social network made up primarily of Cajuns.
+    It is also clear that some participants are more connected to the alrger network than others.
+    Those who are more connected are almost all Cajuns with the exception of Creoles Owen Webre and James Corporon.
+
+    These are good first indications that Creoles and Cajuns are segregated, but as no attempt was made here to elaborate the whole community network, no whole network measures can be used with any reliability to analyze the data.
+    Indeed, the fact that the network shows connections between personal star networks at all is completely accidental.
+    Snowball sampling would naturally lead to connections between participants, and while snowball sampling was not avoided, very few participants were obtained this way, those being Brian Roger, Randal Chenevert, and Arthur Rousseau.
+    Notably, neither Randal nor Arthur named Oliver Gomez, the participant who suggested their participation, nor vice versa.
+    In fact, not all of the bridges in the network were participants in the study.
+    Additionally, some other participants were linked because they were either interviewed together -- Lucille Royer and Cynthia Robichaux Savoie as well as Tracy Roth and Florence Gaspard -- or because they frequented locations where participants were recruited.
+    Thus, while whole network analyses are inappropriate here due to the only incidental nature of the network having bridges at all, personal network analyses can help provide some quantitative answers to the question of segregation.
 
     \begin{figure}[tbhp]
       \caption{All participants and alters}
@@ -330,9 +344,79 @@
       @
     \end{figure}
 
-    % What do we see for homophily quantitatively?
+    Looking more quantitatively at personal networks, there is a relatively clear pattern of networks being ethnically homophilous with a few caveats.
+    Table \ref{tab:homophily_participants} shows the EI homophily statistic for each participant, arranged by ethnicity.
+    The mean homophily and median homophily for the study overall were \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} and \Sexpr{Round(median(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, respectively, with a standard deviation of \Sexpr{Round(sd(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}.
+    These values below zero indicate that, on average, these personal networks show more ethnic homophily than not.
+    However, when grouping by ethnicity, Creoles have a mean slightly above zero whereas the mean for Cajuns remains below zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}; mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}).
+    The this difference is not statistically significant ($t$-test for difference in means: $P <$ \Sexpr{Ceiling(homophByEthnicGroupTtest$p.value)}), though it nearly is.
+    It might be tempting to conclude that this characteristic of the networks of Creoles and Cajuns differs between them, but a deeper look at the individuals who contradict the overall trend helps to explain why that is not the case.
+    
+    \begin{table}[tbhp]
+      \caption{Ethnic homophily of participants' personal networks}
+      \label{tab:homophily_participants}
+      \centering
+      \begin{tabular}{l l l l r}
+        Participant & Ethnicity & Race & Gender & Homophily \\
+        \hline
+        Floyd Kerry              & \Sexpr{participants[participants$Name == "Floyd Kerry", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Floyd Kerry", "Race"]}                           & \Sexpr{participants[participants$Name == "Floyd Kerry", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Floyd Kerry", "Network Ethnic Homophily"])} \\
+        Terry Guillot            & \Sexpr{participants[participants$Name == "Terry Guillot", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Terry Guillot", "Race"]}                       & \Sexpr{participants[participants$Name == "Terry Guillot", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Terry Guillot", "Network Ethnic Homophily"])} \\
+        Florence Gaspard         & \Sexpr{participants[participants$Name == "Florence Gaspard", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Florence Gaspard", "Race"]}                 & \Sexpr{participants[participants$Name == "Florence Gaspard", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Florence Gaspard", "Network Ethnic Homophily"])} \\
+        Rachel Chenevert         & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Race"]}                 & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Gender"]}         & N/A \\
+        Tracy Roth               & \Sexpr{participants[participants$Name == "Tracy Roth", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Tracy Roth", "Race"]}                             & \Sexpr{participants[participants$Name == "Tracy Roth", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Tracy Roth", "Network Ethnic Homophily"])} \\
+        James Corporon           & \Sexpr{participants[participants$Name == "James Corporon", "Ethnicity"]} & \Sexpr{participants[participants$Name == "James Corporon", "Race"]}                     & \Sexpr{participants[participants$Name == "James Corporon", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "James Corporon", "Network Ethnic Homophily"])} \\
+        Owen Webre               & \Sexpr{participants[participants$Name == "Owen Webre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Owen Webre", "Race"]}                             & \Sexpr{participants[participants$Name == "Owen Webre", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Owen Webre", "Network Ethnic Homophily"])} \\
+        Samantha Primeaux        & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Race"]}               & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Gender"]}        & \Sexpr{Round(participants[participants$Name == "Samantha Primeaux", "Network Ethnic Homophily"])} \\
+        Gene Delcambre           & \Sexpr{participants[participants$Name == "Gene Delcambre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Gene Delcambre", "Race"]}                     & \Sexpr{participants[participants$Name == "Gene Delcambre", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "Gene Delcambre", "Network Ethnic Homophily"])} \\
+        Deborah Tauzin           & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Race"]}                     & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "Deborah Tauzin", "Network Ethnic Homophily"])} \\
+        Jerry Pierre Quintero    & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Race"]}       & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Gender"]}    & \Sexpr{Round(participants[participants$Name == "Jerry Pierre Quintero", "Network Ethnic Homophily"])} \\
+        \hline
+        Mean for Creoles         & & & & \Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} \\
+        \hline
+        Mary Bonvillain          & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Race"]}                   & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Gender"]}          & \Sexpr{Round(participants[participants$Name == "Mary Bonvillain", "Network Ethnic Homophily"])} \\
+        Dennis Oubre             & \Sexpr{participants[participants$Name == "Dennis Oubre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Dennis Oubre", "Race"]}                         & \Sexpr{participants[participants$Name == "Dennis Oubre", "Gender"]}             & \Sexpr{Round(participants[participants$Name == "Dennis Oubre", "Network Ethnic Homophily"])} \\
+        Alice Lemaire            & \Sexpr{participants[participants$Name == "Alice Lemaire", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Alice Lemaire", "Race"]}                       & \Sexpr{participants[participants$Name == "Alice Lemaire", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Alice Lemaire", "Network Ethnic Homophily"])} \\
+        Cynthia Robichaux Savoie & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Race"]} & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Gender"]} & \Sexpr{Round(participants[participants$Name == "Cynthia Robichaux Savoie", "Network Ethnic Homophily"])} \\
+        Elizabeth Naquin         & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Race"]}                 & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Elizabeth Naquin", "Network Ethnic Homophily"])} \\
+        Judy Soileau Courtade    & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Race"]}       & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Gender"]}    & \Sexpr{Round(participants[participants$Name == "Judy Soileau Courtade", "Network Ethnic Homophily"])} \\
+        Lucille Royer            & \Sexpr{participants[participants$Name == "Lucille Royer", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Lucille Royer", "Race"]}                       & \Sexpr{participants[participants$Name == "Lucille Royer", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Lucille Royer", "Network Ethnic Homophily"])} \\
+        Arthur Rousseau          & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Race"]}                   & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Gender"]}          & \Sexpr{Round(participants[participants$Name == "Arthur Rousseau", "Network Ethnic Homophily"])} \\
+        Austin Roy               & \Sexpr{participants[participants$Name == "Austin Roy", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Austin Roy", "Race"]}                             & \Sexpr{participants[participants$Name == "Austin Roy", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Austin Roy", "Network Ethnic Homophily"])} \\
+        Brian Roger              & \Sexpr{participants[participants$Name == "Brian Roger", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Brian Roger", "Race"]}                           & \Sexpr{participants[participants$Name == "Brian Roger", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Brian Roger", "Network Ethnic Homophily"])} \\
+        Bruce Wiltz              & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Race"]}                           & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Bruce Wiltz", "Network Ethnic Homophily"])} \\
+        Errol Stoufle            & \Sexpr{participants[participants$Name == "Errol Stoufle", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Errol Stoufle", "Race"]}                       & \Sexpr{participants[participants$Name == "Errol Stoufle", "Gender"]}            & N/A \\
+        Jack Munson              & \Sexpr{participants[participants$Name == "Jack Munson", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Jack Munson", "Race"]}                           & \Sexpr{participants[participants$Name == "Jack Munson", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Jack Munson", "Network Ethnic Homophily"])} \\
+        Oliver Gomez             & \Sexpr{participants[participants$Name == "Oliver Gomez", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Oliver Gomez", "Race"]}                         & \Sexpr{participants[participants$Name == "Oliver Gomez", "Gender"]}             & \Sexpr{Round(participants[participants$Name == "Oliver Gomez", "Network Ethnic Homophily"])} \\
+        Randal Chenevert         & \Sexpr{participants[participants$Name == "Randal Chenevert", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Randal Chenevert", "Race"]}                 & \Sexpr{participants[participants$Name == "Randal Chenevert", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Randal Chenevert", "Network Ethnic Homophily"])} \\
+        Lillian Himel            & \Sexpr{participants[participants$Name == "Lillian Himel", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Lillian Himel", "Race"]}                       & \Sexpr{participants[participants$Name == "Lillian Himel", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Lillian Himel", "Network Ethnic Homophily"])} \\
+        Oliver Lesage            & \Sexpr{participants[participants$Name == "Oliver Lesage", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Oliver Lesage", "Race"]}                       & \Sexpr{participants[participants$Name == "Oliver Lesage", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Oliver Lesage", "Network Ethnic Homophily"])} \\
+        Steven Marcel            & \Sexpr{participants[participants$Name == "Steven Marcel", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Steven Marcel", "Race"]}                       & \Sexpr{participants[participants$Name == "Steven Marcel", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Steven Marcel", "Network Ethnic Homophily"])} \\
+        Rose Louvière            & \Sexpr{participants[participants$Name == "Rose Louvière", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Rose Louvière", "Race"]}                       & \Sexpr{participants[participants$Name == "Rose Louvière", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Rose Louvière", "Network Ethnic Homophily"])} \\
+        Laura Laviolette         & \Sexpr{participants[participants$Name == "Laura Laviolette", "Ethnicity"]} & N/A                                                                                   & \Sexpr{participants[participants$Name == "Laura Laviolette", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Laura Laviolette", "Network Ethnic Homophily"])} \\
+        \hline
+        Mean for Cajuns          & & & & \Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))} \\
+        \hline
+        Mean for all             & & & & \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} \\
+        \multicolumn{5}{c}{} \\
+      \end{tabular}
+      
+      {\footnotesize
+        -1 $\to$ perfect homophily ; 1 $\to$ no homophily at all
+      }
+    \end{table}
 
+    When participants were asked to assign an ethnicity to the alters they had named, they sometimes defaulted to broad racialized American categories, especially African-American and White as shown in Figure \ref{fig:alter_ethnicities}.
+    
     % What do we see with certain personal networks that aren't homophilous
+
+    \begin{figure}[tbhp]
+      \caption{Ethnicities assigned to alters by participants}
+      \label{fig:alter_ethnicities}
+      \centering
+      <<fig.height = 0.4 * textheight>>=
+      plotAlterEthnicity
+      @
+    \end{figure}
 
     % What's going on with those who are homophilous but have one or two from the other ethnicity (i.e., Cajuns with a Creole or vice versa)?
 

@@ -13,6 +13,7 @@ library(ggplot2)
 library(ggtext)
 library(ggh4x)
 library(ggpubr)
+library(forcats)
 library(egg)
 library(reshape2)
 library(mclogit)
@@ -227,26 +228,6 @@ modelsPredType$thirdPl <- melt(
   variable.name = "ProUnder",
   value.name = "Probability"
 )
-
-# Social Networks #
-  ###############
-
-# Multinomial logistic model for the relationship between frequency of French
-# use and alter type (i.e., core alters vs non-core)
-coreByFrMultinom <- mblogit(`Alter French Frequency` ~ `Alter Type`,
-                            data = networks,
-                            random = ~ 1|Name)
-
-# # Is there a difference between the anglophone and francophone ethnic homophily?
-homophByLanguageTtest <- t.test(participants$`Anglo Network Ethnic Homophily`,
-                                participants$`Franco Network Ethnic Homophily`,
-                                paired = TRUE)
-
-# # Is one ethnic group more homophilous than the other?
-homophByEthnicGroupTtest <- t.test(participants[participants$Ethnicity == "Creole",
-                                                "Network Ethnic Homophily"],
-                                   participants[participants$Ethnicity == "Cajun",
-                                                "Network Ethnic Homophily"])
 
 # Exploratory stuff ------------------------------------------------------------
 subsetParticipantsRace <- droplevels(participants[participants$Race != "Transcendent" &
