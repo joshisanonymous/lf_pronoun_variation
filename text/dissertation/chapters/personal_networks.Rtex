@@ -370,8 +370,7 @@
         Gene Delcambre           & \Sexpr{participants[participants$Name == "Gene Delcambre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Gene Delcambre", "Race"]}                     & \Sexpr{participants[participants$Name == "Gene Delcambre", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "Gene Delcambre", "Network Ethnic Homophily"])} \\
         Deborah Tauzin           & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Race"]}                     & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "Deborah Tauzin", "Network Ethnic Homophily"])} \\
         Jerry Pierre Quintero    & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Race"]}       & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Gender"]}    & \Sexpr{Round(participants[participants$Name == "Jerry Pierre Quintero", "Network Ethnic Homophily"])} \\
-        \hline
-        Mean for Creoles         & & & & \Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} \\
+        \textbf{Mean for Creoles}& & & & \textbf{\Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}} \\
         \hline
         Mary Bonvillain          & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Race"]}                   & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Gender"]}          & \Sexpr{Round(participants[participants$Name == "Mary Bonvillain", "Network Ethnic Homophily"])} \\
         Dennis Oubre             & \Sexpr{participants[participants$Name == "Dennis Oubre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Dennis Oubre", "Race"]}                         & \Sexpr{participants[participants$Name == "Dennis Oubre", "Gender"]}             & \Sexpr{Round(participants[participants$Name == "Dennis Oubre", "Network Ethnic Homophily"])} \\
@@ -393,8 +392,7 @@
         Steven Marcel            & \Sexpr{participants[participants$Name == "Steven Marcel", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Steven Marcel", "Race"]}                       & \Sexpr{participants[participants$Name == "Steven Marcel", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Steven Marcel", "Network Ethnic Homophily"])} \\
         Rose Louvière            & \Sexpr{participants[participants$Name == "Rose Louvière", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Rose Louvière", "Race"]}                       & \Sexpr{participants[participants$Name == "Rose Louvière", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Rose Louvière", "Network Ethnic Homophily"])} \\
         Laura Laviolette         & \Sexpr{participants[participants$Name == "Laura Laviolette", "Ethnicity"]} & N/A                                                                                   & \Sexpr{participants[participants$Name == "Laura Laviolette", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Laura Laviolette", "Network Ethnic Homophily"])} \\
-        \hline
-        Mean for Cajuns          & & & & \Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))} \\
+        \textbf{Mean for Cajuns} & & & & \textbf{\Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}} \\
         \hline
         Mean for all             & & & & \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} \\
         \multicolumn{5}{c}{} \\
@@ -405,9 +403,29 @@
       }
     \end{table}
 
-    When participants were asked to assign an ethnicity to the alters they had named, they sometimes defaulted to broad racialized American categories, especially African-American and White as shown in Figure \ref{fig:alter_ethnicities}.
-    
-    % What do we see with certain personal networks that aren't homophilous
+    When participants were asked to assign an ethnicity to the alters they had named, it was typical for Black Creoles -- and not unheard of for Cajuns either -- to provide either broad American racialized categories (\foreign{i.e.}, Black or African-American) or to combine Creole with one of those categories (\foreign{e.g.}, African-American/Creole).
+    Figure \ref{fig:alter_ethnicities} summarizes the results with collapsing the latter types into simply Creole or Cajun as was done before homophily was calculated.
+    For two Black Creoles, Tracy Roth and Owen Webre, all of the alters in their personal networks were described as ``of color'' for the former and African-American for the latter.
+    In Owen Webre's case, he described his own race as African-American or Black, which makes it clear that he a racialized identity with those that he named in his network.
+    For Tracy Roth, his own racial self-identification was Black, which would suggest again a connection with his named network alters through a racialized identity, although less clearly than for Owen Webre.
+    Given the interconnectedness with these such social categories and conceptions of Creole, it is not entirely clear that these two were not referring to people whom they considered to be Creoles, as well, in which case terms like \lexi{of color} or \lexi{African-American} may have simply been primed for them first when asking to describe another's ethnicity.
+    Owen Webre indeed had a deeply thought out conception of what it means to be Creole, as will be seen in Chapter \ref{chap:ethnic_race_meaning}.
+
+    % Diverse networks
+      % James Corporon, although he did list one person as White
+        % No Cajun
+      % Jerry Pierre Quintero, although Creole was the biggest category
+        % No Cajun
+      % Jack Munson, Cajun was the biggest category but he named very few people
+        % No Creole
+      % Lillian Himel, Cajun and American were equally large
+        % No Creole
+        
+    % Not diverse but not American racial categories. Two exceptional cases
+      % Gene Delcambre, all "no answer" except one Creole
+      % Deborah Tauzin, almost all "American"
+
+    % Cajuns who named Creoles and vice versa
 
     \begin{figure}[tbhp]
       \caption{Ethnicities assigned to alters by participants}
