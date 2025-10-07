@@ -476,8 +476,8 @@
       \begin{figure}[tbhp]
         \caption{Racial self-identifications of participants}
         \label{fig:race_counts}
-        <<fig.asp = 0.5>>=
-        raceBar
+        <<fig.height = 0.4 * textheight>>=
+        plotParticipantRace
         @
       \end{figure}
 
