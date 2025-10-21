@@ -1,5 +1,6 @@
 library(igraph)
 
+# Data -------------------------------------------------------------------------
 # Create data frame with attributes for all network nodes including alters
 networkWholeNodeAttrs <- data.frame(
   "Name" = unique(networks$Alter),
@@ -43,6 +44,7 @@ networkWholeNodeAttrs <- rbind(
 networkSharedAlters <- filter(add_count(networks, Alter), n > 1)
 # networkSharedAlters[order(networkSharedAlters$Alter), c(1, 2, 4)]
 
+# Network viz ------------------------------------------------------------------
 # Visualize whole network
 networkWhole <- graph_from_data_frame(networks[, c("Name", "Alter")],
                                       vertices = networkWholeNodeAttrs)
@@ -68,6 +70,7 @@ networkWholePlot <- function() {
        col = c(color_key[1:2], "darkgrey"), bty = "n", cex = 0.9, title = "Ethnicity")
 }
 
+# Models and tests -------------------------------------------------------------
 # Multinomial logistic model for the relationship between frequency of French
 # use and alter type (i.e., core alters vs non-core)
 coreByFrMultinom <- mblogit(`Alter French Frequency` ~ `Alter Type`,
