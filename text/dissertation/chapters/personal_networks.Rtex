@@ -503,16 +503,26 @@
         \item Pronoun Type $\sim$ Network Ethnic Homophily * Ethnicity + (1|Speaker) + (1|Predicate) \label{eq:regression_model_homophily}
       \end{enumerate}
       
-      The results indicate that the degree of ethnic homophily is not predictive of subject pronoun realization.
+      The results indicate that the degree of ethnic homophily does not predict subject pronoun realization.
       The raw output for all of the models can be seen in Appendix \ref{app:code}.
       No factors were significant for any pronoun type.
-      While this may have been expected for Creoles given that their EI homophily values are sometimes misleading, Cajuns' networks generally had readily interpretable EI homophily scores, yet the degree of homophily had no impact on pronoun realization for this latter group either.
+      While this may have been expected for Creoles given that their EI homophily values are sometimes misleading, Cajuns' networks generally had readily interpretable EI homophily scores.
+      As Figure \ref{fig:homophily_boxplots} shows, Creoles had a number of individuals whose homophily was above zero that probably should not be interpreted as a lack of homophily, whereas Cajuns have a relatively tight distribution in the negative homophily range.
+      Despite this, the degree of homophily had no impact on pronoun realization for this latter group either.
 
-      % Does this have an impact on pronoun use?
-        % Anyone to exclude for modeling?
-          % Probably not, but it will be necessary to talk about the unreliability of results for Creoles
-        % Results
-        % What to say in light of core alters generally not being those that participants speak F&C with?
+      \begin{figure}[tbhp]
+        \caption{Distributions of network ethnic homophily by ethnicity}
+        \label{fig:homophily_boxplots}
+        \centering
+        <<fig.height = 0.3 * textheight>>=
+        plotHomophily
+        @
+      \end{figure}
+
+      The amount of data points, one for each participant, is rather small to draw any strong conclusions from this part of the analysis, but the evidence so far suggests that it is not how homophilous one's network is that impacts subject pronoun use but rather just the fact that one is Creole or Cajun.
+      This is perhaps expected given the amount of segregation between the two groups.
+      For Cajuns who have less homophilous networks, that lack of homophily is not a result of having Creoles in the networks and \foreign{vice versa}.
+      In other words, the requisite contact that would be needed between Creoles and Cajuns for their linguistic features to come to be shared is simply not there even for those who have diverse networks.
 
   \section{Conclusion}
 
