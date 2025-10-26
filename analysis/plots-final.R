@@ -95,6 +95,13 @@ parishBar <- ggplot(
 # Network graphs --------------------------------------------------------------
 plotAlterEthnicity <- plotBar(networks, "Alter Ethnicity")
 
+plotHomophily <- ggplot(data = participants,
+       aes(x = Ethnicity, y = `Network Ethnic Homophily`)) +
+  geom_boxplot() +
+  geom_point(aes(group = Ethnicity), color = "red", size = 2) +
+  coord_flip() +
+  theme_bw()
+
 # # French usage by alter type (i.e., coreness)
 # coreByFrBar <- ggplot(
 #   melt(coreByFrTable,
