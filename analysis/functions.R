@@ -146,13 +146,6 @@ getEIHomophily <- function(df, name) {
   return(homophIndex)
 }
 
-# Model
-multinomResponse <- function(pronoun) {
-  mblogit(ProUnder ~  Ethnicity + Gender + `Institutional French` + Age,
-          data = droplevels(tokens[tokens$ProType == pronoun,]),
-          random = list(~ 1|Name, ~ 1|PredUnder))
-}
-
 # Models -----------------------------------------------------------------------
 test3plPred <- function(pronoun) {
   mblogit(ProUnder ~ PredType,
@@ -167,6 +160,12 @@ multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE
     tokens <- droplevels(subset(tokens, !(PredType == "modal")))
   }
   mblogit(ProUnder ~ PredType + Ethnicity + Gender + `Institutional French` + Age,
+          data = droplevels(tokens[tokens$ProType == pronoun,]),
+          random = list(~ 1|Name, ~ 1|PredUnder))
+}
+
+multinomHomophily <- function(pronoun) {
+  mblogit(ProUnder ~ `Network Ethnic Homophily`*Ethnicity,
           data = droplevels(tokens[tokens$ProType == pronoun,]),
           random = list(~ 1|Name, ~ 1|PredUnder))
 }

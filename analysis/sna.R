@@ -73,6 +73,9 @@ networkWholePlot <- function() {
 # Models and tests -------------------------------------------------------------
 # Multinomial logistic model for the relationship between frequency of French
 # use and alter type (i.e., core alters vs non-core)
+# Probably not worth bringing up since the non-core alters are those named when
+# asked who participants speak F&C with, so naturally non-core alters will be
+# predictive of more French use
 coreByFrMultinom <- mblogit(`Alter French Frequency` ~ `Alter Type`,
                             data = networks,
                             random = ~ 1|Name)
@@ -88,3 +91,20 @@ homophByEthnicGroupTtest <- t.test(
                "Network Ethnic Homophily"],
   participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle",
                "Network Ethnic Homophily"])
+
+# Pronoun models
+logitModelsHomophily <- list(
+  firstSg = multinomHomophily("1sg"),
+  secondSgT = multinomHomophily("2sg.T"),
+  # secondSgV = multinomHomophily("2sg.V"), count too low to be meaningfully modeled
+  thirdSgF = multinomHomophily("3sg.F"),
+  thirdSgM = multinomHomophily("3sg.M"),
+  firstPl = multinomHomophily("1pl"),
+  # secondPl = multinomHomophily("2pl"), count too low to be meaningful
+  thirdPl = multinomHomophily("3pl"),
+  # demostrative = multinomHomophily("demo"), categorically "ça"
+  expletive = multinomHomophily("expl"),
+  impersonal = multinomHomophily("imp")
+)
+
+logitModelHomophilySummaries <- lapply(logitModelsHomophily, summary)
