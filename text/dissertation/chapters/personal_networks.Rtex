@@ -317,6 +317,7 @@
       % The EI homophily index is a measure of homohily in an ego network calculated as $\frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ where External refers to out-group alters and Internal to in-group alters and a value of -1 would be perfect homophily (Lizardo & Jilbert 2020)
 
   \section{Results}
+    \label{sec:network_results}
     The primary question being asked in this chapter is if there is evidence of segregation between Creoles and Cajuns as that would be expected when these groups are racialized.
     In this case, that evidence takes the form of the ethnic homophily of the personal social networks of participants in the study.
     However, even a broad overview of the community social network, as seen in Figure \ref{fig:network_whole} to the extent that it was elaborated here, intuitively suggests that Creoles and Cajuns are in fact segregated.
@@ -345,157 +346,173 @@
       @
     \end{figure}
 
-    Looking more quantitatively at personal networks, there is a relatively clear pattern of networks being ethnically homophilous with a few caveats.
-    Table \ref{tab:homophily_participants} shows the EI homophily statistic for each participant, arranged by ethnicity.
-    The mean homophily and median homophily for the study overall were \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} and \Sexpr{Round(median(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, respectively, with a standard deviation of \Sexpr{Round(sd(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}.
-    These values being below zero indicate that, on average, these personal networks show more ethnic homophily than not.
-    However, when grouping by ethnicity, Creoles have a mean slightly above zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}) whereas the mean for Cajuns remains below zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}).
-    The this difference is not statistically significant ($t$-test for difference in means: $P <$ \Sexpr{Ceiling(homophByEthnicGroupTtest$p.value)}), though it nearly is.
-    It might be tempting to conclude that this characteristic of the networks of Creoles and Cajuns differs between them, but a deeper look at the individuals who contradict the overall trend helps to explain why that is not the case.
-    
-    \begin{table}[tbhp]
-      \caption{Ethnic homophily of participants' personal networks}
-      \label{tab:homophily_participants}
-      \centering
-      \begin{tabular}{l l l l r}
-        Participant & Ethnicity & Race & Gender & Homophily \\
-        \hline
-        Floyd Kerry              & \Sexpr{participants[participants$Name == "Floyd Kerry", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Floyd Kerry", "Race"]}                           & \Sexpr{participants[participants$Name == "Floyd Kerry", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Floyd Kerry", "Network Ethnic Homophily"])} \\
-        Terry Guillot            & \Sexpr{participants[participants$Name == "Terry Guillot", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Terry Guillot", "Race"]}                       & \Sexpr{participants[participants$Name == "Terry Guillot", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Terry Guillot", "Network Ethnic Homophily"])} \\
-        Florence Gaspard         & \Sexpr{participants[participants$Name == "Florence Gaspard", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Florence Gaspard", "Race"]}                 & \Sexpr{participants[participants$Name == "Florence Gaspard", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Florence Gaspard", "Network Ethnic Homophily"])} \\
-        Rachel Chenevert         & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Race"]}                 & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Gender"]}         & N/A \\
-        Tracy Roth               & \Sexpr{participants[participants$Name == "Tracy Roth", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Tracy Roth", "Race"]}                             & \Sexpr{participants[participants$Name == "Tracy Roth", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Tracy Roth", "Network Ethnic Homophily"])} \\
-        James Corporon           & \Sexpr{participants[participants$Name == "James Corporon", "Ethnicity"]} & \Sexpr{participants[participants$Name == "James Corporon", "Race"]}                     & \Sexpr{participants[participants$Name == "James Corporon", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "James Corporon", "Network Ethnic Homophily"])} \\
-        Owen Webre               & \Sexpr{participants[participants$Name == "Owen Webre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Owen Webre", "Race"]}                             & \Sexpr{participants[participants$Name == "Owen Webre", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Owen Webre", "Network Ethnic Homophily"])} \\
-        Samantha Primeaux        & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Race"]}               & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Gender"]}        & \Sexpr{Round(participants[participants$Name == "Samantha Primeaux", "Network Ethnic Homophily"])} \\
-        Gene Delcambre           & \Sexpr{participants[participants$Name == "Gene Delcambre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Gene Delcambre", "Race"]}                     & \Sexpr{participants[participants$Name == "Gene Delcambre", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "Gene Delcambre", "Network Ethnic Homophily"])} \\
-        Deborah Tauzin           & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Race"]}                     & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "Deborah Tauzin", "Network Ethnic Homophily"])} \\
-        Jerry Pierre Quintero    & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Race"]}       & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Gender"]}    & \Sexpr{Round(participants[participants$Name == "Jerry Pierre Quintero", "Network Ethnic Homophily"])} \\
-        \textbf{Mean for Creoles}& & & & \textbf{\Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}} \\
-        \hline
-        Mary Bonvillain          & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Race"]}                   & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Gender"]}          & \Sexpr{Round(participants[participants$Name == "Mary Bonvillain", "Network Ethnic Homophily"])} \\
-        Dennis Oubre             & \Sexpr{participants[participants$Name == "Dennis Oubre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Dennis Oubre", "Race"]}                         & \Sexpr{participants[participants$Name == "Dennis Oubre", "Gender"]}             & \Sexpr{Round(participants[participants$Name == "Dennis Oubre", "Network Ethnic Homophily"])} \\
-        Alice Lemaire            & \Sexpr{participants[participants$Name == "Alice Lemaire", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Alice Lemaire", "Race"]}                       & \Sexpr{participants[participants$Name == "Alice Lemaire", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Alice Lemaire", "Network Ethnic Homophily"])} \\
-        Cynthia Robichaux Savoie & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Race"]} & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Gender"]} & \Sexpr{Round(participants[participants$Name == "Cynthia Robichaux Savoie", "Network Ethnic Homophily"])} \\
-        Elizabeth Naquin         & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Race"]}                 & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Elizabeth Naquin", "Network Ethnic Homophily"])} \\
-        Judy Soileau Courtade    & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Race"]}       & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Gender"]}    & \Sexpr{Round(participants[participants$Name == "Judy Soileau Courtade", "Network Ethnic Homophily"])} \\
-        Lucille Royer            & \Sexpr{participants[participants$Name == "Lucille Royer", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Lucille Royer", "Race"]}                       & \Sexpr{participants[participants$Name == "Lucille Royer", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Lucille Royer", "Network Ethnic Homophily"])} \\
-        Arthur Rousseau          & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Race"]}                   & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Gender"]}          & \Sexpr{Round(participants[participants$Name == "Arthur Rousseau", "Network Ethnic Homophily"])} \\
-        Austin Roy               & \Sexpr{participants[participants$Name == "Austin Roy", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Austin Roy", "Race"]}                             & \Sexpr{participants[participants$Name == "Austin Roy", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Austin Roy", "Network Ethnic Homophily"])} \\
-        Brian Roger              & \Sexpr{participants[participants$Name == "Brian Roger", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Brian Roger", "Race"]}                           & \Sexpr{participants[participants$Name == "Brian Roger", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Brian Roger", "Network Ethnic Homophily"])} \\
-        Bruce Wiltz              & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Race"]}                           & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Bruce Wiltz", "Network Ethnic Homophily"])} \\
-        Errol Stoufle            & \Sexpr{participants[participants$Name == "Errol Stoufle", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Errol Stoufle", "Race"]}                       & \Sexpr{participants[participants$Name == "Errol Stoufle", "Gender"]}            & N/A \\
-        Jack Munson              & \Sexpr{participants[participants$Name == "Jack Munson", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Jack Munson", "Race"]}                           & \Sexpr{participants[participants$Name == "Jack Munson", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Jack Munson", "Network Ethnic Homophily"])} \\
-        Oliver Gomez             & \Sexpr{participants[participants$Name == "Oliver Gomez", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Oliver Gomez", "Race"]}                         & \Sexpr{participants[participants$Name == "Oliver Gomez", "Gender"]}             & \Sexpr{Round(participants[participants$Name == "Oliver Gomez", "Network Ethnic Homophily"])} \\
-        Randal Chenevert         & \Sexpr{participants[participants$Name == "Randal Chenevert", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Randal Chenevert", "Race"]}                 & \Sexpr{participants[participants$Name == "Randal Chenevert", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Randal Chenevert", "Network Ethnic Homophily"])} \\
-        Lillian Himel            & \Sexpr{participants[participants$Name == "Lillian Himel", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Lillian Himel", "Race"]}                       & \Sexpr{participants[participants$Name == "Lillian Himel", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Lillian Himel", "Network Ethnic Homophily"])} \\
-        Oliver Lesage            & \Sexpr{participants[participants$Name == "Oliver Lesage", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Oliver Lesage", "Race"]}                       & \Sexpr{participants[participants$Name == "Oliver Lesage", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Oliver Lesage", "Network Ethnic Homophily"])} \\
-        Steven Marcel            & \Sexpr{participants[participants$Name == "Steven Marcel", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Steven Marcel", "Race"]}                       & \Sexpr{participants[participants$Name == "Steven Marcel", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Steven Marcel", "Network Ethnic Homophily"])} \\
-        Rose Louvière            & \Sexpr{participants[participants$Name == "Rose Louvière", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Rose Louvière", "Race"]}                       & \Sexpr{participants[participants$Name == "Rose Louvière", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Rose Louvière", "Network Ethnic Homophily"])} \\
-        Laura Laviolette         & \Sexpr{participants[participants$Name == "Laura Laviolette", "Ethnicity"]} & N/A                                                                                   & \Sexpr{participants[participants$Name == "Laura Laviolette", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Laura Laviolette", "Network Ethnic Homophily"])} \\
-        \textbf{Mean for Cajuns} & & & & \textbf{\Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}} \\
-        \hline
-        Mean for all             & & & & \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} \\
-        \multicolumn{5}{c}{} \\
-      \end{tabular}
+    \subsection{Personal networks}
+      \label{sec:network_results_personal}
+      Looking more quantitatively at personal networks, there is a relatively clear pattern of networks being ethnically homophilous with a few caveats.
+      Table \ref{tab:homophily_participants} shows the EI homophily statistic for each participant, arranged by ethnicity.
+      The mean homophily and median homophily for the study overall were \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} and \Sexpr{Round(median(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, respectively, with a standard deviation of \Sexpr{Round(sd(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}.
+      These values being below zero indicate that, on average, these personal networks show more ethnic homophily than not.
+      However, when grouping by ethnicity, Creoles have a mean slightly above zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}) whereas the mean for Cajuns remains below zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}).
+      The this difference is not statistically significant ($t$-test for difference in means: $P <$ \Sexpr{Ceiling(homophByEthnicGroupTtest$p.value)}), though it nearly is.
+      It might be tempting to conclude that this characteristic of the networks of Creoles and Cajuns differs between them, but a deeper look at the individuals who contradict the overall trend helps to explain why that is not the case.
       
-      {\footnotesize
-        -1 $\to$ perfect homophily ; 1 $\to$ no homophily at all
-      }
-    \end{table}
+      \begin{table}[tbhp]
+        \caption{Ethnic homophily of participants' personal networks}
+        \label{tab:homophily_participants}
+        \centering
+        \begin{tabular}{l l l l r}
+          Participant & Ethnicity & Race & Gender & Homophily \\
+          \hline
+          Floyd Kerry              & \Sexpr{participants[participants$Name == "Floyd Kerry", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Floyd Kerry", "Race"]}                           & \Sexpr{participants[participants$Name == "Floyd Kerry", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Floyd Kerry", "Network Ethnic Homophily"])} \\
+          Terry Guillot            & \Sexpr{participants[participants$Name == "Terry Guillot", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Terry Guillot", "Race"]}                       & \Sexpr{participants[participants$Name == "Terry Guillot", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Terry Guillot", "Network Ethnic Homophily"])} \\
+          Florence Gaspard         & \Sexpr{participants[participants$Name == "Florence Gaspard", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Florence Gaspard", "Race"]}                 & \Sexpr{participants[participants$Name == "Florence Gaspard", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Florence Gaspard", "Network Ethnic Homophily"])} \\
+          Rachel Chenevert         & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Race"]}                 & \Sexpr{participants[participants$Name == "Rachel Chenevert", "Gender"]}         & N/A \\
+          Tracy Roth               & \Sexpr{participants[participants$Name == "Tracy Roth", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Tracy Roth", "Race"]}                             & \Sexpr{participants[participants$Name == "Tracy Roth", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Tracy Roth", "Network Ethnic Homophily"])} \\
+          James Corporon           & \Sexpr{participants[participants$Name == "James Corporon", "Ethnicity"]} & \Sexpr{participants[participants$Name == "James Corporon", "Race"]}                     & \Sexpr{participants[participants$Name == "James Corporon", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "James Corporon", "Network Ethnic Homophily"])} \\
+          Owen Webre               & \Sexpr{participants[participants$Name == "Owen Webre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Owen Webre", "Race"]}                             & \Sexpr{participants[participants$Name == "Owen Webre", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Owen Webre", "Network Ethnic Homophily"])} \\
+          Samantha Primeaux        & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Race"]}               & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Gender"]}        & \Sexpr{Round(participants[participants$Name == "Samantha Primeaux", "Network Ethnic Homophily"])} \\
+          Gene Delcambre           & \Sexpr{participants[participants$Name == "Gene Delcambre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Gene Delcambre", "Race"]}                     & \Sexpr{participants[participants$Name == "Gene Delcambre", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "Gene Delcambre", "Network Ethnic Homophily"])} \\
+          Deborah Tauzin           & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Race"]}                     & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Gender"]}           & \Sexpr{Round(participants[participants$Name == "Deborah Tauzin", "Network Ethnic Homophily"])} \\
+          Jerry Pierre Quintero    & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Race"]}       & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Gender"]}    & \Sexpr{Round(participants[participants$Name == "Jerry Pierre Quintero", "Network Ethnic Homophily"])} \\
+          \textbf{Mean for Creoles}& & & & \textbf{\Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}} \\
+          \hline
+          Mary Bonvillain          & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Race"]}                   & \Sexpr{participants[participants$Name == "Mary Bonvillain", "Gender"]}          & \Sexpr{Round(participants[participants$Name == "Mary Bonvillain", "Network Ethnic Homophily"])} \\
+          Dennis Oubre             & \Sexpr{participants[participants$Name == "Dennis Oubre", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Dennis Oubre", "Race"]}                         & \Sexpr{participants[participants$Name == "Dennis Oubre", "Gender"]}             & \Sexpr{Round(participants[participants$Name == "Dennis Oubre", "Network Ethnic Homophily"])} \\
+          Alice Lemaire            & \Sexpr{participants[participants$Name == "Alice Lemaire", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Alice Lemaire", "Race"]}                       & \Sexpr{participants[participants$Name == "Alice Lemaire", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Alice Lemaire", "Network Ethnic Homophily"])} \\
+          Cynthia Robichaux Savoie & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Race"]} & \Sexpr{participants[participants$Name == "Cynthia Robichaux Savoie", "Gender"]} & \Sexpr{Round(participants[participants$Name == "Cynthia Robichaux Savoie", "Network Ethnic Homophily"])} \\
+          Elizabeth Naquin         & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Race"]}                 & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Elizabeth Naquin", "Network Ethnic Homophily"])} \\
+          Judy Soileau Courtade    & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Race"]}       & \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Gender"]}    & \Sexpr{Round(participants[participants$Name == "Judy Soileau Courtade", "Network Ethnic Homophily"])} \\
+          Lucille Royer            & \Sexpr{participants[participants$Name == "Lucille Royer", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Lucille Royer", "Race"]}                       & \Sexpr{participants[participants$Name == "Lucille Royer", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Lucille Royer", "Network Ethnic Homophily"])} \\
+          Arthur Rousseau          & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Race"]}                   & \Sexpr{participants[participants$Name == "Arthur Rousseau", "Gender"]}          & \Sexpr{Round(participants[participants$Name == "Arthur Rousseau", "Network Ethnic Homophily"])} \\
+          Austin Roy               & \Sexpr{participants[participants$Name == "Austin Roy", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Austin Roy", "Race"]}                             & \Sexpr{participants[participants$Name == "Austin Roy", "Gender"]}               & \Sexpr{Round(participants[participants$Name == "Austin Roy", "Network Ethnic Homophily"])} \\
+          Brian Roger              & \Sexpr{participants[participants$Name == "Brian Roger", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Brian Roger", "Race"]}                           & \Sexpr{participants[participants$Name == "Brian Roger", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Brian Roger", "Network Ethnic Homophily"])} \\
+          Bruce Wiltz              & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Race"]}                           & \Sexpr{participants[participants$Name == "Bruce Wiltz", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Bruce Wiltz", "Network Ethnic Homophily"])} \\
+          Errol Stoufle            & \Sexpr{participants[participants$Name == "Errol Stoufle", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Errol Stoufle", "Race"]}                       & \Sexpr{participants[participants$Name == "Errol Stoufle", "Gender"]}            & N/A \\
+          Jack Munson              & \Sexpr{participants[participants$Name == "Jack Munson", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Jack Munson", "Race"]}                           & \Sexpr{participants[participants$Name == "Jack Munson", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Jack Munson", "Network Ethnic Homophily"])} \\
+          Oliver Gomez             & \Sexpr{participants[participants$Name == "Oliver Gomez", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Oliver Gomez", "Race"]}                         & \Sexpr{participants[participants$Name == "Oliver Gomez", "Gender"]}             & \Sexpr{Round(participants[participants$Name == "Oliver Gomez", "Network Ethnic Homophily"])} \\
+          Randal Chenevert         & \Sexpr{participants[participants$Name == "Randal Chenevert", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Randal Chenevert", "Race"]}                 & \Sexpr{participants[participants$Name == "Randal Chenevert", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Randal Chenevert", "Network Ethnic Homophily"])} \\
+          Lillian Himel            & \Sexpr{participants[participants$Name == "Lillian Himel", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Lillian Himel", "Race"]}                       & \Sexpr{participants[participants$Name == "Lillian Himel", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Lillian Himel", "Network Ethnic Homophily"])} \\
+          Oliver Lesage            & \Sexpr{participants[participants$Name == "Oliver Lesage", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Oliver Lesage", "Race"]}                       & \Sexpr{participants[participants$Name == "Oliver Lesage", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Oliver Lesage", "Network Ethnic Homophily"])} \\
+          Steven Marcel            & \Sexpr{participants[participants$Name == "Steven Marcel", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Steven Marcel", "Race"]}                       & \Sexpr{participants[participants$Name == "Steven Marcel", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Steven Marcel", "Network Ethnic Homophily"])} \\
+          Rose Louvière            & \Sexpr{participants[participants$Name == "Rose Louvière", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Rose Louvière", "Race"]}                       & \Sexpr{participants[participants$Name == "Rose Louvière", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Rose Louvière", "Network Ethnic Homophily"])} \\
+          Laura Laviolette         & \Sexpr{participants[participants$Name == "Laura Laviolette", "Ethnicity"]} & N/A                                                                                   & \Sexpr{participants[participants$Name == "Laura Laviolette", "Gender"]}         & \Sexpr{Round(participants[participants$Name == "Laura Laviolette", "Network Ethnic Homophily"])} \\
+          \textbf{Mean for Cajuns} & & & & \textbf{\Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}} \\
+          \hline
+          Mean for all             & & & & \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} \\
+          \multicolumn{5}{c}{} \\
+        \end{tabular}
+        
+        {\footnotesize
+          -1 $\to$ perfect homophily ; 1 $\to$ no homophily at all
+        }
+      \end{table}
 
-    When participants were asked to assign an ethnicity to the alters they had named, it was typical for Black Creoles -- and not unheard of for Cajuns either -- to provide either broad American racialized categories (\foreign{i.e.}, Black or African-American) or to combine Creole with one of these categories (\foreign{e.g.}, African-American/Creole).
-    Figure \ref{fig:alter_ethnicities} summarizes the results with collapsing the latter types into simply Creole or Cajun as was done before homophily was calculated.
-    For two Black Creoles, Tracy Roth and Owen Webre, all of the alters in their personal networks were described as ``of color'' for the former and African-American for the latter.
-    In Owen Webre's case, he described his own race as African-American or Black, which makes it clear that he shares a racialized identity with those that he named in his network.
-    For Tracy Roth, his own racial self-identification was Black, which would suggest again a connection with his named network alters through a racialized identity, although less clearly than for Owen Webre.
-    Given the interconnectedness with these broader social categories and conceptions of Creole, it is not entirely clear that these two were not referring to people whom they considered to be Creoles, as well, in which case terms like \lexi{of color} or \lexi{African-American} may have simply been primed for them first when asked to describe another's ethnicity.
-    Owen Webre indeed had a deeply thought out conception of what it means to be Creole, as will be seen in Chapter \ref{chap:ethnic_race_meaning}.
+      When participants were asked to assign an ethnicity to the alters they had named, it was typical for Black Creoles -- and not unheard of for Cajuns either -- to provide either broad American racialized categories (\foreign{i.e.}, Black or African-American) or to combine Creole with one of these categories (\foreign{e.g.}, African-American/Creole).
+      Figure \ref{fig:alter_ethnicities} summarizes the results with collapsing the latter types into simply Creole or Cajun as was done before homophily was calculated.
+      For two Black Creoles, Tracy Roth and Owen Webre, all of the alters in their personal networks were described as ``of color'' for the former and African-American for the latter.
+      In Owen Webre's case, he described his own race as African-American or Black, which makes it clear that he shares a racialized identity with those that he named in his network.
+      For Tracy Roth, his own racial self-identification was Black, which would suggest again a connection with his named network alters through a racialized identity, although less clearly than for Owen Webre.
+      Given the interconnectedness with these broader social categories and conceptions of Creole, it is not entirely clear that these two were not referring to people whom they considered to be Creoles, as well, in which case terms like \lexi{of color} or \lexi{African-American} may have simply been primed for them first when asked to describe another's ethnicity.
+      Owen Webre indeed had a deeply thought out conception of what it means to be Creole, as will be seen in Chapter \ref{chap:ethnic_race_meaning}.
 
-    \begin{figure}[tbhp]
-      \caption{Ethnicities assigned to alters by participants}
-      \label{fig:alter_ethnicities}
-      \centering
-      <<fig.height = 0.4 * textheight>>=
-      plotAlterEthnicity
-      @
-    \end{figure}
+      \begin{figure}[tbhp]
+        \caption{Ethnicities assigned to alters by participants}
+        \label{fig:alter_ethnicities}
+        \centering
+        <<fig.height = 0.4 * textheight>>=
+        plotAlterEthnicity
+        @
+      \end{figure}
 
-    Some participants whose networks showed little ethnic homophily in fact had quite diverse personal networks.
-    However, these were evenly split between two Cajuns (Jack Munson and Lillian Himel) and two Creoles (James Corporon and Jerry Pierre Quintero), as seen in Table \ref{tab:networks_diverse}.
-    For Jack and Lillian, a considerable number of Cajuns made up their personal networks despite their diversity.
-    For Jack, whose personal network was quite small, Cajuns made up half of his alters, the others being Chinese and Spanish, while for Lillian, Americans were as frequently named as Cajuns and even made up slightly more of her core network.
-    Similarly for James and Jerry, Creoles constituted the largest group in their personal networks.
-    The latter also gave ethnicities such as Italian and Redneck and the former also gave Carmerounian, Canadian, and White.
-    The last, a non-core alter, is one of the few potential instances of a Creole naming a Cajun or a Cajun naming a Creole depending on whether James considered all White Louisianians to be Cajuns or not. % Revisit this sentence once you relisten to his discussion of what Cajuns are
-    Indeed, the most important aspect of these ethnically diverse personal networks is that Creoles did not name Cajuns in their networks and Cajuns did not name Creoles, which was also generally true for all other participants.
-    Thus, even when little ethnic homophily is found, it is not the result of Creoles and Cajuns interacting but rather the result of non-Creoles and non-Cajuns being added to the mix.
+      Some participants whose networks showed little ethnic homophily in fact had quite diverse personal networks.
+      However, these were evenly split between two Cajuns (Jack Munson and Lillian Himel) and two Creoles (James Corporon and Jerry Pierre Quintero), as seen in Table \ref{tab:networks_diverse}.
+      For Jack and Lillian, a considerable number of Cajuns made up their personal networks despite their diversity.
+      For Jack, whose personal network was quite small, Cajuns made up half of his alters, the others being Chinese and Spanish, while for Lillian, Americans were as frequently named as Cajuns and even made up slightly more of her core network.
+      Similarly for James and Jerry, Creoles constituted the largest group in their personal networks.
+      The latter also gave ethnicities such as Italian and Redneck and the former also gave Carmerounian, Canadian, and White.
+      The last, a non-core alter, is one of the few potential instances of a Creole naming a Cajun or a Cajun naming a Creole depending on whether James considered all White Louisianians to be Cajuns or not. % Revisit this sentence once you relisten to his discussion of what Cajuns are
+      Indeed, the most important aspect of these ethnically diverse personal networks is that Creoles did not name Cajuns in their networks and Cajuns did not name Creoles, which was also generally true for all other participants.
+      Thus, even when little ethnic homophily is found, it is not the result of Creoles and Cajuns interacting but rather the result of non-Creoles and non-Cajuns being added to the mix.
 
-    \begin{table}[tbhp]
-      \caption{Participants with ethnically diverse personal networks}
-      \label{tab:networks_diverse}
-      \centering
-      {\small
-      \begin{tabular}{l l l | l l l}
-        \multicolumn{3}{c |}{Creoles}                          & \multicolumn{3}{c}{Cajuns} \\
-        \hline
-        Participant           & Alter Ethnicity & Alter Type & Participant & Alter Ethnicity & Alter Type \\
-        \hline
-        James Corporon        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][1]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][1]}        & Jack Munson   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Ethnicity"][1]}   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Type"][1]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][2]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][2]}        &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Ethnicity"][2]}   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Type"][2]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][3]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][3]}        &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Ethnicity"][3]}   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Type"][3]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][4]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][4]}        &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Ethnicity"][4]}   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Type"][4]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][5]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][5]}        & Lillian Himel & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][1]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][1]} \\
-        Jerry Pierre Quintero & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][1]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][1]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][2]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][2]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][2]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][2]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][3]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][3]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][3]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][3]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][4]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][4]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][4]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][4]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][5]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][5]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][5]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][5]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][6]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][6]} \\
-                              & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][6]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][6]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][7]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][7]} \\
-                              &                                                                                                              &                                                                                                         &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][8]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][8]} \\
-                              &                                                                                                              &                                                                                                         &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][9]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][9]} \\
-      \end{tabular}}
-    \end{table}
-    
-    The final two participants whose personal networks showed little ethnic homophily were Deborah Tauzin and Gene Delccambre.
-    These two, both Creoles, had particularly unique network make-ups.
-    For Deborah, all of her alters were core alters except one, and all of those were described as American except the non-core alter who was described as French.
-    This is perhaps born out of Deborah's own interpretation of what a Creole is being rather idiosyncratic.
-    She identified as a Creole and also as White, something that she explained was unique for people from the town of Creole in southwest Louisiana where she grew up.
-    She also expressed during her interview, in rather vague terms, a general distaste for the term \lexi{Cajun}.
-    It is thus possible that she used \lexi{American} as a default term for anyone who might be described by others as a Creole or a Cajun.
+      \begin{table}[tbhp]
+        \caption{Participants with ethnically diverse personal networks}
+        \label{tab:networks_diverse}
+        \centering
+        {\small
+        \begin{tabular}{l l l | l l l}
+          \multicolumn{3}{c |}{Creoles}                          & \multicolumn{3}{c}{Cajuns} \\
+          \hline
+          Participant           & Alter Ethnicity & Alter Type & Participant & Alter Ethnicity & Alter Type \\
+          \hline
+          James Corporon        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][1]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][1]}        & Jack Munson   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Ethnicity"][1]}   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Type"][1]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][2]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][2]}        &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Ethnicity"][2]}   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Type"][2]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][3]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][3]}        &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Ethnicity"][3]}   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Type"][3]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][4]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][4]}        &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Ethnicity"][4]}   & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jack Munson", "Alter Type"][4]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Ethnicity"][5]}        & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "James Corporon", "Alter Type"][5]}        & Lillian Himel & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][1]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][1]} \\
+          Jerry Pierre Quintero & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][1]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][1]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][2]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][2]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][2]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][2]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][3]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][3]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][3]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][3]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][4]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][4]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][4]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][4]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][5]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][5]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][5]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][5]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][6]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][6]} \\
+                                & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Ethnicity"][6]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Jerry Pierre Quintero", "Alter Type"][6]} &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][7]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][7]} \\
+                                &                                                                                                              &                                                                                                         &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][8]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][8]} \\
+                                &                                                                                                              &                                                                                                         &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][9]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][9]} \\
+        \end{tabular}}
+      \end{table}
+      
+      The final two participants whose personal networks showed little ethnic homophily were Deborah Tauzin and Gene Delccambre.
+      These two, both Creoles, had particularly unique network make-ups.
+      For Deborah, all of her alters were core alters except one, and all of those were described as American except the non-core alter who was described as French.
+      This is perhaps born out of Deborah's own interpretation of what a Creole is being rather idiosyncratic.
+      She identified as a Creole and also as White, something that she explained was unique for people from the town of Creole in southwest Louisiana where she grew up.
+      She also expressed during her interview, in rather vague terms, a general distaste for the term \lexi{Cajun}.
+      It is thus possible that she used \lexi{American} as a default term for anyone who might be described by others as a Creole or a Cajun.
 
-    Gene presented an even more radical picture.
-    He self-identified as a Creole but could not choose a descriptor for his race, explaining that others kept changing what they would call his people over time.
-    The changing terms that he used were all for broader American racialized categories such a \lexi{Black} or \lexi{colored}.
-    He thus extended this indeterminacy to the alters whom he named, all of whom were core alters, giving no answer for their ethnicities save for one individual whom he described as Creole/French.
-    While this technically leads to a complete lack of ethnic homophily mathematically, like Tracy Roth and Owen Webre above, it is relatively clear that Gene shared a racialized identity with the core members of his personal network.
+      Gene presented an even more radical picture.
+      He self-identified as a Creole but could not choose a descriptor for his race, explaining that others kept changing what they would call his people over time.
+      The changing terms that he used were all for broader American racialized categories such a \lexi{Black} or \lexi{colored}.
+      He thus extended this indeterminacy to the alters whom he named, all of whom were core alters, giving no answer for their ethnicities save for one individual whom he described as Creole/French.
+      While this technically leads to a complete lack of ethnic homophily mathematically, like Tracy Roth and Owen Webre above, it is relatively clear that Gene shared a racialized identity with the core members of his personal network.
 
-    The segregation between Creoles and Cajuns is thus nearly complete.
-    Even the few instances where Cajuns named alters in their networks and explicitly described them as Creole do not constitute very good evidence of cracks in the segregation between the two groups, notably because it was only Cajuns who named Creoles and never Creoles who named Cajuns.
-    Those who did so include Elizabeth Naquin and Steven Marcel who both named two Creoles as well as Randal Chenevert, Austin Roy, and Oliver Lesage who each named one Creole.
-    None of the Creoles named by any participant were part of their set of core alters, meaning these were examples of people with whom these speakers suggested they might speak F\&C from day to day and nothing more.
-    In some cases, it also seemed that participants were consciously striving to make their personal networks appear more diverse than they actually are.
-    For instance, Oliver Lesage gave an individual who would come to do work on his property who had to be listed simply as ``tractor driver'' because he could not remember the gentleman's name.
-    Likewise, Steven Marcel named an individual whom he could only describe as a plumber due to forgetting his name.
-    He did also name another Creole whom he called Toots, a nickname, but again did not know this individual's name despite his visible attempts to remember.
-    
-    That is not to say that all Creoles named by Cajuns appeared to be tokens rather than those whom they would name simply because they came to mind.
-    Others, those named by Elizabeth Naquin and Randal Chenevert, were acquaintances they made through volunteer work.
-    % Cajuns who named Creoles and vice versa
-      % In fact, there are only Cajuns who named Creoles and no vice versa
-      % Elizabeth Naquin: 2 Creoles
-      % Randal Chenevert: 1 Creole
-      % Steven Marcel: 2 Creoles
-      % Austin Roy: 1 White Creole
-      % Oliver Lesage: 1 Creole
-        % I think this was the vague "tractor driver"
+      The segregation between Creoles and Cajuns is thus nearly complete.
+      Even the few instances where Cajuns named alters in their networks and explicitly described them as Creole do not constitute very good evidence of cracks in the segregation between the two groups, notably because it was only Cajuns who named Creoles and never Creoles who named Cajuns.
+      Those who did so include Elizabeth Naquin and Steven Marcel who both named two Creoles as well as Randal Chenevert, Austin Roy, and Oliver Lesage who each named one Creole.
+      None of the Creoles named by any participant were part of their set of core alters, meaning these were examples of people with whom these speakers suggested they might speak F\&C from day to day and nothing more.
+      In some cases, it also seemed that participants were consciously striving to make their personal networks appear more diverse than they actually are, something that Creole participants did not seem to feel the need to do.
+      For instance, Oliver Lesage gave an individual who would come to do work on his property who had to be listed simply as ``tractor driver'' because he could not remember the gentleman's name.
+      Likewise, Steven Marcel named an individual whom he could only describe as a plumber due to forgetting his name.
+      He did also name another Creole whom he called Toots, a nickname, but again did not know this individual's name despite his visible attempts to remember.
+      
+      That is not to say that all Creoles named by Cajuns appeared to be brought up to specifically diversify their networks rather than simply because they were the first individuals to come to mind.
+      Some others more readily named, like those named by Elizabeth Naquin and Randal Chenevert, were acquaintances they made through volunteer work, although again this highlights the non-core nature of these alters.
+      For Austin Roy, the Creole he named was even more immediately accessible in his thoughts as he was the first person named after asking Austin with whom he speaks F\&C from day to day.
+      The Creole, Wayne, was one of Austin's fellow graduate students who in fact did not meet Austin's own definition of Creole, those being Black Louisiana francophones, which he acknowledged was not congruent with who might self-identify as Creole in other parts of Louisiana.
+      Indeed, Austin described Wayne as a White Creole due to his mother's family name and their origin in Avoyelles Parish where that family would have been considered Creole.
+      This scenario perhaps implies that there is segregation between Cajuns and White Creoles is not necessarily the same as segregation between Cajuns and Black Creoles.
 
-    % What's going on with those who are homophilous but have one or two from the other ethnicity (i.e., Cajuns with a Creole or vice versa)?
+    \subsection{Personal networks' impact on subject pronoun use}
+      \label{sec:network_results_pronouns}
+      The personal social network data for the participants in this study presents evidence that Louisianians have generally ethnically homophilous networks between Creoles and Cajuns which itself is evidence of segregation between Creoles and Cajuns.
+      Where personal networks were not ethnically homophilous, the explanation was always something other than participants having a mix of Creole and Cajun alters.
+      This is expected when groups are racialized and also presents a possible explanation for the mechanism that led to the variation in subject pronoun use in Chapter \ref{chap:pronoun_variation} that was highly predictable along ethnic lines.
+      What was not examined in the subject pronoun models, however, was whether the degree of ethnic homophily in personal networks is predictive of pronoun use.
+      In other words, are those Creoles with less homophilous networks more likely to use non-Creole pronouns and are those Cajuns with less homophilous networks more likely to use Creole pronouns?
+      For each pronoun type, Model \ref{eq:regression_model_homophily} was therefore fit.
 
-    % What ethnicities did they name that weren't Cajun or Creole?
+      \begin{enumerate}[label=\roman*., ref=\roman*, series=equations]
+        \item Pronoun Type $\sim$ Network Ethnic Homophily * Ethnicity + (1|Speaker) + (1|Predicate) \label{eq:regression_model_homophily}
+      \end{enumerate}
+      
+      The results indicate that the degree of ethnic homophily is not predictive of subject pronoun realization.
+      The raw output for all of the models can be seen in Appendix \ref{app:code}.
+      No factors were significant for any pronoun type.
+      While this may have been expected for Creoles given that their EI homophily values are sometimes misleading, Cajuns' networks generally had readily interpretable EI homophily scores, yet the degree of homophily had no impact on pronoun realization for this latter group either.
 
-    % Does this have an impact on pronoun use?
+      % Does this have an impact on pronoun use?
+        % Anyone to exclude for modeling?
+          % Probably not, but it will be necessary to talk about the unreliability of results for Creoles
+        % Results
+        % What to say in light of core alters generally not being those that participants speak F&C with?
 
   \section{Conclusion}
 
