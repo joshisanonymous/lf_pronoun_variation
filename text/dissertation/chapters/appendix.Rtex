@@ -15,6 +15,6 @@
   \section{Subject pronouns predicted by ethnic homophily}
     \begin{Verbatim}[fontsize=\small]
     <<>>=
-    logitModelsHomophilySummaries
+    logitModelHomophilySummaries
     @
     \end{Verbatim}
