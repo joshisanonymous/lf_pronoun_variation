@@ -257,48 +257,103 @@
     % \subsection{Previous work on relationships between personal networks and language in Louisiana}
 
   \section{Methods}
+    \label{sec:network_methods}
+    The question of whether there is segregation between Creoles and Cajuns was examined here by analyzing ethnic homophily in the social networks of participants.
+    To do this, network data was collected for each participant.
+    This raised a few challenges related to how to ask for alters and how to gather information on those alters, all of which will be discussed in section \ref{sec:network_collection}.
+    The quantitative analyses carried out consisted of relatively straightforward descriptive statistics, but there were important decisions made about how to prepare the data for calculating those statistics which will be discussed in section \ref{sec:network_analyses}.
 
     \subsection{Data collection}
       \label{sec:network_collection}
-      % Name generator questions
-        % This is basically how to ask someone who the people they interact with are, which there are many ways to do
-        % The most common name generator is that used for the GSS: "From time to time, most people discuss important matters with other people. Looking back over the last six months - who are the people with whom you discussed matters important to you? Just tell me their first names or initials" (Stark 2018:244)
-          % Names generated from this question
-            % This generator in the GSS of 1985 yielded a mean of 3.01 alters with a SD of 1.77 (Marsden 1987:125)
-            % This and the "most significant people in your life" generator yielded a mean of 5.4 alters with a SD of 2.6 among college students (Straits 2000:129)
-            % Despite these numbers seeming small, Marin & Hampton (2007), testing generator questions in Boston, found the GSS question to be one of the two most robust (163)
-          % This was translated into French by myself and occasionally needed to be explicated further for participants who were confused about what I was asking
-          % I coded these alters as core
-            % In Cooley's (1909) terminology, these could constitute the primary group (as cited in Andersen & Taylor 2013:123)
-        % The length of an interview can increase the likelihood of false reporting or minimal reporting of alters (Eagle & Bell 2015; Paik & Sanchagrin 2013, both as cited in Stark 2018:246)
-          % My interviews were generally 1 hour (get exact average from data in R), and all but two participants (Rachel Chenevert and Alice Lemaire) were still quite talkative by the end
-            % Rachel had to return to work, and Alice was perhaps too fatigued to continue in French but was still talkative in English
-        % Two questions is more effective than one (Marin & Hamilton 2007, as cited in Stark 2018:244)
-        % Recall bias can be reduced by bringing certain contexts to the attention of the respondent (Marin 2004, as cited in Stark 2018:245)
-        % Examples in sociolinguistics
-          % Eckert (2000) simply asked participants who they were friends with at different points of interviews (80)
-          % To collect alters, Sharma's (2017) participants were "asked to describe the main groups of people they interacted with on a regular basis, providing further details of each alter, including ethnicity, background, accent, frequency of interaction, domains of interaction, shared ties, and a relative closeness ranking" (400)
-            % For analyses, Sharma (2017) excluded naming family members because they are not voluntarily chosen and yet would have made up a large proportion of their networks (400)
-              % The motivation for emphasizing voluntary choices in her study isn't clear, but it would not be an issue here
-              % L. Milroy (1980/1987) also discussed Hymes' (1974) idea of primary interaction, which is an interaction between two people which is strictly personal and wholly voluntary (84-85)
-      % Names asked for: Any number
-        % While asking for a specific number of alters can increase comparability between personal networks, it can also lead to overlooking important ties or including unimportant ties (Sharma & Dodsworth 2020:345)
-      % Proxy reports consist of "answers to survey questions about the respondent that are provided by someone other than the target respondent" (Cobb 2018 "Answering":87)
-        % Ideally, characteristics of alters should be obtained in a follow-up meeting for higher accuracy (due to not being fatigued by the interview) (Stark 2018:245), but in my case, almost no participants gave any indication of being anything but talkative by the end of interviews (with the exceptions of Rachel Chenevert and Alice Lemaire), and follow-up interviews felt as though they would be highly likely of not being feasible
-          % Financial and temporal limitations on my part
-          % Participants may perhaps feel less enthusiastic about agreeing to second meetings
-        % Agreement between respondent's responses about targets and targets' responses is all around high but higher for open-ended questions (compared to closed-ended) and higher for shorter closed-ended questions (compared to longer closed-ended questions) (Cobb 2018 "Proxy")
-          % My questions about targets were all short, half being open-ended (targets' ethnicities?) and half closed-ended (French frequency with targets?).
-        % Agreement between respondent's responses about targets and targets' responses become higher the more time spent together (Amato & Ochiltree 1987; Bahrick et al. 1975; Cohen & Orum 1972; Lien et al. 2001, all as cited in Cobb 2018 "Answering":90)
-          % This is relevant for the naming of core network attributes in my data
-        % In some cases, it's been found that proxy reports are not terribly accurate when it comes to naming characteristics of alters, but the respondent's perceptions of alters may be more important than the literal qualities of alters according to said alters themselves (Cornwell & Hoaglin 2015, as cited in Stark 2018:245-246)
+      The data used for the analysis of personal networks came from the same participants as the analysis of subject pronoun variation.
+      Network questioned were asked during the same interviews, and almost all participants responded to these questions.
+      The two exceptions were Rachel Chenevert, a Creole, and Errol Stoufle, a Cajun.
+      The target for interview lengths was an hour with network questions coming last in most cases.\footnote{
+        Technically, the transcription task was left for last but was skipped for most participants.
+      } This duration has been cited as leading to interviewer fatigue effects but not interviewee fatigue effects \parencite{paik_social_2013}.
+      Indeed, my participants were happy to keep talking even during the longest interviews with the only exception being Alice Lemaire, and given that there was only one interviewer, fatigue would likely have been similar in each case.
+      Instead, in the case of Rachel, the interview took place during a break in her work to which she had to return after about 35 minutes, short of the time when network questions would have been asked.
+      In the case of Errol, he simply felt uncomfortable giving names despite explaining that he could give initials or just given names.
 
-    % \subsection{Analyses}
+      Network data was therefore collected by the remaining \Sexpr{length(table(networks$Name))} participants, all while still conducting interviews in F\&C.
+      Two name generator questions were posed to each participant as well as two name interpretor questions to elicit information about each alter who was named.
+      The goal of the name generator questions is essentially to determine with whom participants interact, but there is more than one level of interaction possible.
+      Two name generators were used as this has been found to be more effective, depending on the network measures in which one is interested, than relying on a lower-burden, single name generator \parencite{marin_simplifying_2007}.
+      
+      The first name generator question is the important matters question used for the GSS.
+      This is not only has this generator been thoroughly investigated \parencite[\foreign{e.g.},][]{burt_whats_2012, ruan_content_1998}, but it is also one of the two questions used in the multiple generator approached that \citeauthor{marin_simplifying_2007}'s (\citeyear{marin_simplifying_2007}) examined.
+      The question, along with the F\&C version used for this study, is reproduced here as sentence \ref{sent:name_generator_GSS}.
+      While the translation was literally comprehensible for participants on the surface, it did sometimes need to be explained further so that participants could understand the sort of people I was asking them to name.
+      The most common confusion was what was meant by ``important personal matters,'' as this was sometimes interpreted as being business matters or philosophical matters, leading to naming of people such as lawyers or those with whom they discuss topics such as politics.
+      Another confusion, however, was whether the question was about discussing important matters specifically in F\&C rather than in any language, the latter being the intent.
+
+      \begin{enumerate}[resume=sentences]
+        \item \label{sent:name_generator_GSS} From time to time, most people discuss important matters with other people. Looking back over the last six months -- that would be back to last August -- who are the people with whom you discussed an important personal matter? \parencite[p.~331]{burt_network_1984}
+        \item[] \longtrans{Tous les temps en temps, le monde parle pour les affaires importantes avec d’autre monde. Si tu peux jongler pour les six derniers mois, qui sont les individus avec qui toi tu parles pour les affaires qui te sont importantes?}
+      \end{enumerate}
+
+      This name generator was originally found to yield of mean of 3.01 alters with a $SD$ of 1.77 \parencite[p.~125]{marsden_core_1987}, which is in line with those generated in the current study (mean $\approx$ \Sexpr{round(mean(table(networks[networks$`Alter Type` == "Core", "Name"])), 2)}, $SD \approx$ \Sexpr{round(sd(table(networks[networks$`Alter Type` == "Core", "Name"])), 2)}).
+      These numbers for the important matters question may appear rather small, but this has been found to be one of the most robust questions for getting good results \parencite[p.~163]{marin_simplifying_2007}.
+      Alters named in this way were coded as core alters.
+      
+      The second name generator question, sentence \ref{sent:name_generator_french}, was aimed at generating what were coded as non-core alters.
+      The question focuses specifically on the use of F\&C to ensure that personal networks were not wholly made up of alters with whom participants only speak English as such networks would not provide any means of drawing connections between participants' subject pronoun usage in F\&C and their personal networks.
+      Despite most participants referring to their language as \lexi{français} \gloss{French}, this question was at times extended to say \foreign{français ou créole} \gloss{French or Creole} for fear that participants might name only speakers of a single specific language variety otherwise.
+      It was also often necessary to clarify that the question was asking them to name people with whom they spoke F\&C at all, not necessarily only F\&C, that come to mind, although the more frequent interlocutors were of greater interest than those with whom they interacted very little.
+      This question resulted in a mean of \Sexpr{round(mean(table(networks[networks$`Alter Type` == "Non-Core", "Name"])), 2)} more named alters ($SD \approx$ \Sexpr{round(sd(table(networks[networks$`Alter Type` == "Non-Core", "Name"])), 2)}), bringing the total to a mean of \Sexpr{round(mean(table(networks$Name)), 2)} ($SD \approx$ \Sexpr{round(sd(table(networks$Name)), 2)}).
+      These numbers themselves highlight that obtaining a fixed number of alters was not the goal.
+      As has been noted, while doing so may help for comparability between networks, it can also lead to overlooking important ties or including unimportant ties \parencite[p.~345]{sharma_language_2020}.
+
+      \begin{enumerate}[resume=sentences]
+        \item \label{sent:name_generator_french} Qui sont les personnes avec qui tu parles souvent français?
+        \item[] \longtrans{Who are the people with whoom you often speak French?}
+      \end{enumerate}
+        
+      % Recall bias can be reduced by bringing certain contexts to the attention of the respondent (Marin 2004, as cited in Stark 2018:245)
+      % Examples in sociolinguistics
+        % Eckert (2000) simply asked participants who they were friends with at different points of interviews (80)
+        % To collect alters, Sharma's (2017) participants were "asked to describe the main groups of people they interacted with on a regular basis, providing further details of each alter, including ethnicity, background, accent, frequency of interaction, domains of interaction, shared ties, and a relative closeness ranking" (400)
+          % For analyses, Sharma (2017) excluded naming family members because they are not voluntarily chosen and yet would have made up a large proportion of their networks (400)
+            % The motivation for emphasizing voluntary choices in her study isn't clear, but it would not be an issue here
+            % L. Milroy (1980/1987) also discussed Hymes' (1974) idea of primary interaction, which is an interaction between two people which is strictly personal and wholly voluntary (84-85)
+
+      With the list of alters generated, participants were asked two name interpretor questions immediately afterward.
+      One of these questions, reproduced in sentence \ref{sent:interpret_ethnicity}, constituted a type of proxy report \parencite[p.~87]{cobb_answering_2018}.
+      It has been suggested that these questions be asked during a follow-up meeting with participants as this lowers interviewee fatigue and increases accuracy \parencite[p.~245]{stark_collecting_2018}, but for the current study, the lack of any sign of fatigue from participants meant that the greater risk would have been attempting to set up follow-up meetings.
+      Not only would participants perhaps lose their enthusiasm for partaking in the interim, but follow-ups would increase both the time needed to complete data collection and the cost of data collection, two factors for which resources were limited.
+
+      It is reasonable to also doubt the accuracy of proxy reports in general.
+      Previous work has found open-ended questions to yield the most highly accurate responses \parencite{cobb_proxy_2018}, which is in fact the sort of name interpretor question that sentence \ref{sent:interpret_ethnicity} represents.
+      Additionally, as has previously been observed, even when accuracy in terms of agreement between the respondent and the person they are describing is low, what is often more important is the respondent's perception \parencite[p.~277]{cornwell_survey_2014}.
+      While it would have been beneficial for the ethnicity question to know what the alters themselves would say, a participant perceiving alters as having one ethnicity or another makes up one half of common two part criteria for claiming an ethnicity, the first being that one sees oneself as a member of an ethnic group and the second being that others in the group accept the person as a member of the group.
+      Essentially, if a Cajun describes an alter as Cajun, that alter most likely can pass as a Cajun, and indeed, as will be discussed in section \ref{sec:network_analyses}, agreement was high between participants when they were describing the ethnicities of shared alters.
+
+      \begin{enumerate}[resume=sentences]
+        \item Pour chaque personne sur cette liste, quoi c’est son éthnicité, c’est-à-dire son \foreign{ethnicity}? \label{sent:interpret_ethnicity}
+        \item[] \longtrans{For each person on this list, what is their ethnicity, that is to say their ethnicity?}
+        \item Pour chaque personne sur cette liste, combien souvent tu parles français avec? \label{sent:interpret_french}
+        \item[] \longtrans{For each person on this list, how often do you speak French with them?}
+      \end{enumerate}
+
+      At times, participants needed some clarification as to what exactly they were being asked for the ethnicity question.
+      This could take the form of misunderstanding whether they were being asked if they know what an alter would say rather than just what they themselves would say about the alter.
+      The question was therefore often followed up with an explanation that their answer did not have to be exactly what their alter would say.
+      Another form of clarification that was sometimes needed was what was meant by the term \lexi{ethnicity}.
+      The word was repeated in English in the original question as \lexi{ethnicité} is not a widely used word in the community, but examples were also provided.
+      Typically these examples included Cajun, Creole, American, Indian, and Latino, which was generally sufficient as an explanation.
+
+      The second name interpretor question, reproduced in sentence \ref{sent:interpret_french}, aimed at obtaining the proportion of French used in discourse with each alter.
+      This question was asked for each alter, non-core and core, as being named as a core alter (\foreign{i.e.}, as someone with whom a participant would discuss important matters) was not mutually exclusive with the possibility of speaking F\&C with that person, as well.
+      There was generally no confusion related to this question.
+
+    \subsection{Analyses}
+      \label{sec:network_analyses}
+
       % Alter ethnicities were collapsed for personal networks
         % If the ethnicity given contained the terms Cajun or Creole anywhere in it, it was reduced to simply Cajun or Creole, respectively
           % e.g. Cajun-American became Cajun
             % Had ethnicities not been collapsed, there would have been individuals that participants likely viewed as ethnically related to themselves that were then not counted towards the homophily of their network
-            % An Americanized Cajun is still a Cajun
+            % When a participant describes someone as an "Americanized Cajun", they may be giving a nuanced view of that alter's ethnicity, but part of that nuance is the idea that they are Cajun
           % One alter was described as Acadian, and such descriptions were not collapsed to Cajun
           % How many was this?
       % Alter ethnicities were further collapsed for whole network representation
