@@ -41,7 +41,7 @@ networkWholeNodeAttrs <- rbind(
 )
 
 # Shared alters to see disagreements in ethnic categorization of alters
-networkSharedAlters <- filter(add_count(networks, Alter), n > 1)
+networkSharedAlters <- droplevels(filter(add_count(networks, Alter), n > 1))
 # networkSharedAlters[order(networkSharedAlters$Alter), c(1, 2, 4)]
 
 # Network viz ------------------------------------------------------------------
