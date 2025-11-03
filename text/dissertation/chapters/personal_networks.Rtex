@@ -348,28 +348,64 @@
 
     \subsection{Analyses}
       \label{sec:network_analyses}
+      Generally, the analyses of participants' personal networks that were undertaken involved straightforward descriptive statistics.
+      The major exception was the statistic used to quantify homophily, external-interal (EI) homophily \parencite{lizardo_social_2020}, given in Equation \ref{eq:ei_homophily}.
+      EI homophily is calculated for each participant's personal social network.
+      The external component is the count of all out-group alters, whereas the internal component is all in-group alters.
+      In the present context, an in-group alter would be one who has the same ethnicity as ego (\foreign{i.e.}, the participant), and an out-group alter is any other alter.
+      The statistic produces values from -1 to 1 where -1 represents perfect homophily and 1 the complete absence of homophily.
 
-      % Alter ethnicities were collapsed for personal networks
-        % If the ethnicity given contained the terms Cajun or Creole anywhere in it, it was reduced to simply Cajun or Creole, respectively
-          % e.g. Cajun-American became Cajun
-            % Had ethnicities not been collapsed, there would have been individuals that participants likely viewed as ethnically related to themselves that were then not counted towards the homophily of their network
-            % When a participant describes someone as an "Americanized Cajun", they may be giving a nuanced view of that alter's ethnicity, but part of that nuance is the idea that they are Cajun
-          % One alter was described as Acadian, and such descriptions were not collapsed to Cajun
-          % How many was this?
-      % Alter ethnicities were further collapsed for whole network representation
-        % Some alters were named by more than one participant so a choice needed to be made when representing the entire network with only one node per unique person
-        % Generally, there were very few mismatches in judgements
-          % Bruce Rivero as Cajun and No Answer
-          % David Roche as Creole and African-American
-          % Jacqueline Newchurch as Cajun (4x) and White
-          % Lucille Royer as Cajun (2x), White, Mulato, and Unsure
-          % Richard Chenevert as Cajun and White
-          % These last two were participants and so their self-identifications as Cajuns were used but also matched what others generally said
-        % When there were a plurality of identical judgements of ethnicity, that plurality was assigned as the ethnicity
-        % When there was one judgement of Creole or Cajun and another of Black, African-American, or White, the former was used
-          % This was the most common situation, highlighting once again the superimposition of broader US racial categories and local categories
-          % In no cases did one person say Cajun while another said Black or one person Creole while another said White
-      % The EI homophily index is a measure of homohily in an ego network calculated as $\frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ where External refers to out-group alters and Internal to in-group alters and a value of -1 would be perfect homophily (Lizardo & Jilbert 2020)
+      \begin{enumerate}[label=\roman*., ref=\roman*, resume=equations]
+        \item EI homophily $= \frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ \label{eq:ei_homophily}
+      \end{enumerate}
+
+      The more important discussion in terms of analyses, however, is the way in which the ethnicities of alters were coded both from the perspective of personal networks and from the perspective of the whole network.
+      When analyzing personal networks, it was necessary to decide how to code alters who were given multiple or compound ethnicities by participants.
+      Multiple ethnicities refers to, for example, when an alter is described as both African-American and Creole.
+      Compound ethnicities, on the other hand, included alters who were given labels that combined multiple categories into a single, more nuanced category such as Creole-African-American or Americanized Cajun.
+      Maintaining these multiple and compound ethnicities as-is, while interesting to discuss and take account of qualitatively, also risks overlooking what are essentially homophilous relationships.
+      When a Cajun participant describes an alter as an ``Americanized Cajun'', it is not likely that they see that alter as being completely ethnically distinct from themselves.
+      The use of a qualifier does indeed suggest that the participant does not see this alter as being ethnically identical, but to deny the ethnic connection altogether would also be inaccurate.
+      With that in mind, all multiple and compound ethnicities that included Creole were collapsed to simply Creole, and those that included Cajun were collapsed to simply Cajun.
+      These changes are summarized in Table \ref{tab:collapsed_alter_ethnicities}, which also demonstrates that these cases made up a relatively small number of the total of \Sexpr{nrow(networks)} alters named.
+
+      One special case remained which was an alter residing in Canada who was described Steven Marcel as Acadian.
+      As was discussed in section \ref{sec:cajun_history}, Acadians are central to how Cajuns understand their own ethnic origin, so much so that some Louisianians will still use Acadian as a synonym for Cajun such as in the title of the annual Lafayette music festival: Festivals Acadiens et Créoles.
+      There is therefore an argument for recoding this alter as Cajun, but this was not done because several other alters named by Steven were described as Cajun, suggesting that he made a distinction between these two labels.
+
+      \begin{table}[tbhp]
+        \caption{Collapsed alter ethnicities}
+        \label{tab:collapsed_alter_ethnicities}
+        \centering
+        \begin{tabular}{r @{ $\to$ } l r}
+          Given                     & Coded  & Count \\
+          \hline
+          African-American/Creole   & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African-American/Creole",])} \\
+          African/Creole            & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African/Creole",])} \\
+          Creole-African-American   & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole-African-American",])} \\
+          Creole/French             & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole/French",])} \\
+          White-Creole              & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "White Creole",])} \\
+          Americanized-Cajun        & Cajun  & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Americanized Cajun",])} \\
+          Cajun-American            & Cajun  & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Cajun-American",])} \\
+          \multicolumn{3}{c}{} \\
+        \end{tabular}
+
+        {\footnotesize
+        / $\to$ multiple ethnicities; - $\to$ compound ethnicity
+        }
+      \end{table}
+
+      For the \Sexpr{length(levels(networkSharedAlters$Alter))} alters who were named by more than one participant, a choice needed to be made about the ethnicity to assign to them when representing them in the whole network where each individual is represented by one node.
+      For exactly half of these alters, there was a mismatch in ethnicities assigned to them, but for the other half, there was complete agreement.
+      Notably, one of these latter alters was also a participant, Cynthia Robichaux Savoie, whose ethnic self-identification was identical to what five others assigned to her.
+      Two other shared alters were also participants, Lucille Royer and Richard Chenevert, and so the ethnicity assigned to them when named as alters that matched their own self-identifications was used.
+      
+      There were three other shared alters who had more than one ethnicity assigned to them by participants.
+      One of these, Bruce Rivero, was described once as Cajun and once a participant elected to not assign an ethnicity to him.
+      He was thus coded as Cajun.
+      For the other two, David Roche and Jacqueline Newchurch, the assigned ethnicities were Creole and African-American for the former and Cajun and White for the latter.
+      In accord with how such cases were treated when a single participant gave an alter more than one ethnicity, Creole and Cajun were assigned to these two, respectively.
+      This choice was further supported for Jacqueline as she was described as Cajun four times and as White only once.
 
   \section{Results}
     \label{sec:network_results}
