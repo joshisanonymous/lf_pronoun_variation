@@ -79,7 +79,8 @@
       % Use in sociolinguistics
 
   \section{Social network analysis}
-    Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she found in Belfast, Ireland.
+    Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she studied in Belfast, Ireland.
+    While this approach has found notable uses in the field since then \parencite[\foreign{e.g.}][]{dodsworth_social_2017, li_two-step_2000, paolillo_virtual_1999, sharma_scalar_2017}, the vast majority of methodological developments have occurred in other fields, notably sociology, mathematics, and computer science.
     
 
     % What is social network analysis
@@ -323,7 +324,7 @@
 
       \begin{enumerate}[resume=sentences]
         \item \label{sent:name_generator_french} Qui sont les personnes avec qui tu parles souvent français?
-        \item[] \longtrans{Who are the people with whoom you often speak French?}
+        \item[] \longtrans{Who are the people with whom you often speak French?}
       \end{enumerate}
         
       % Recall bias can be reduced by bringing certain contexts to the attention of the respondent (Marin 2004, as cited in Stark 2018:245)
