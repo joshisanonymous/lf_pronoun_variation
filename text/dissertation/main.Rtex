@@ -109,7 +109,7 @@
     @
     <<child = "./chapters/pronoun_variation.Rtex">>=
     @
-    <<child = "./chapters/personal_networks.Rtex">>=
+    <<child = "./chapters/networks.Rtex">>=
     @
     <<child = "./chapters/ethnic_race_meaning.Rtex">>=
     @
