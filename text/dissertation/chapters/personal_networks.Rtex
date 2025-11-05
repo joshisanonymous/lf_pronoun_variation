@@ -180,7 +180,7 @@
         % Bell (1984) suggested SNA could be used to formalize the relationship dimension of one's addressee in audience design (200)
         % Sharma (2011) used what she calls a Network Diversity Index (Simpson diversity) to show that those with more diverse personal networks also have greater variation in styles (482-483)
         % Sharma (2017) later collected three types of information for personal networks: 1) ethnicity (South Asianness), 2) nationality (Indianness, i.e. born and raised in India), and the structural piece of information 3) network diversity (groupings of alters meant to represent how many social worlds they interact with) (399-401)
-        
+
     % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
     % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
     % Weaknesses
@@ -402,16 +402,16 @@
         \caption{Collapsed alter ethnicities}
         \label{tab:collapsed_alter_ethnicities}
         \centering
-        \begin{tabular}{r @{ $\to$ } l r}
-          Given                     & Coded  & Count \\
+        \begin{tabular}{r r @{ $\to$ } l}
+          Count & Given & Coded \\
           \hline
-          African-American/Creole   & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African-American/Creole",])} \\
-          African/Creole            & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African/Creole",])} \\
-          Creole-African-American   & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole-African-American",])} \\
-          Creole/French             & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole/French",])} \\
-          White-Creole              & Creole & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "White Creole",])} \\
-          Americanized-Cajun        & Cajun  & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Americanized Cajun",])} \\
-          Cajun-American            & Cajun  & \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Cajun-American",])} \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African-American/Creole",])} & African-American/Creole   & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African/Creole",])}          & African/Creole            & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole-African-American",])} & Creole-African-American   & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole/French",])}           & Creole/French             & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "White Creole",])}            & White-Creole              & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Americanized Cajun",])}      & Americanized-Cajun        & Cajun \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Cajun-American",])}          & Cajun-American            & Cajun \\
           \multicolumn{3}{c}{} \\
         \end{tabular}
 
