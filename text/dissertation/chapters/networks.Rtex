@@ -123,55 +123,43 @@
     Total network analysis is therefore usually conducted for very small, discrete, well-defined communities such as the classic study of a karate club \parencite{zachary_information_1977}, or it is conducted for communities where only very specific, easily documented types of ties are used for a strictly delineated area, such as actors appearing in feature films listed on the website IMDb where ties are simply those with whom they have co-starred in these films \parencite{watts_networks_1999}.
 
     This type of analysis can highlight useful information, however.
-    Some classic examples include calculating the density
-
-    % Total network analysis
-      % Networks can be structurally characterized in a number of ways
-        % Network density is a ratio of actual ties to total possible ties in a network or area of a network (Barnes 1969, as cited in Granovetter 1973:1370)
-          % Relatedly, a network is said to be close-knit or loose-knit depending on if it is high or low density, respectively (Bott 1957/1971:59)
-        % Dispersion is a measure of all the internal distances of a given sociogram (Bavelas 1950:727)
-      % What is a community
-        % A cluster is a segment or compartment of a network which is dense relative to the area around it (L. Milroy 1980/1987:50)
-      % Community detection
-        % Algorithms have been developed for community detection (e.g., Blondel et al. 2008; Newman & Girvan 2004)
-          % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
-            % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
-            % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
-        % Network communities in sociolinguistics
-          % Communities act as norm enforcement mechanisms (or maybe more specifically folkway (Sumner 1906, as cited in Andersen & Taylor 2013:31) enforcement mechanisms)
-            % This has been shown in general (e.g., Boissevain 1974; Bott 1957/1971; Cubitt 1973; Kapferer 1969; Mayer 1963, all as cited in L. Milroy 1980/1987:50/52/135-136)
-            % It's not surprising that SNA communities have been predictive of linguistic behavior
-              % L. Milroy (1980/1987) suggested that vernacular forms persist regardless of the influence of standard varieties because, as she found in Belfast, the social network structure can provide the requisite norm enforcement to resist the influence of standard varieties (162-163)
-              % King (2000) found that the most standard French speaker in her data was a janitor at the only French-language school in Prince Edward Island, which she explained as the result of regular French interactions with those in prestigious positions (55)
-            % It has been suggested that networks enforce norms based on one's perception of the network rather than its objective reality (Boissevain 1974, as cited in L. Milroy 1980/1987:61)
-              % I'm not so sure it's necessary to consciously perceive the existence of a network as people are not likely to give a great many names in response to name generator questions
-                % For instance, J. Milroy & L. Milroy (1985/2012) conceptualized the maintence that stems from the pressure social networks impose as "covert" (49)
-          % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
-          % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
-          % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
-          % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
-          % Eckert (2000) sketched the total network at Belten High but not as a central part of her analysis (177)
-            % Eckert (2000) did not speak to everyone -- rather she took a random sample of people and started from those various points -- and did a more thorough sketch for girls than boys due to time constraints (173-175)
-            % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
-          % Racially homogenous communities lead to more essentialist views of race among children (Deeb et al. 2011; Pauker et al. 2016, both as cited in Roth et al. 2023:49)
-      % Centrality
-        % Many such measures exist
-          % Some are for identifying important ties
-            % A bridge is a tie in a network which provides the only path between two points (Harary et al. 1965, as cited in Granovetter 1973:1364)
-            % Betweenness centrality (Freeman 1977:37)
-            % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
-          % Others are for identifying important nodes
-            % PageRank (Brin & Page 1998)
-            % L. Milroy's (1980/1987) network strength scale, a simply index from 0 to 5 based on responses to several questions (139/141-142)
-            % The index of status (Katz 1953:42), which is basically identical to degree centrality
-            % Relative centrality (Bavelas 1950:727)
-            % Point centrality (Bavelas 1948, as cited in Freeman 1977:35)
-            % Harmonic centrality (Rochat 2009)
-            % HITS centrality (Kleinberg 1999, 1999)
-        % Centrality in sociolinguistics
-          % In Philadelphia, Labov (2001) found Celeste S. to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
-          % A sociolinguistic icon is a person who is an extreme user of advanced variants, and whose central location within a particular social network cluster allows them to define the social meaning of variables (Eckert 2000:216-219)
-            % On the other hand, marginals at Belten High had vowel productions that were either very conservative or simply anomalous (Eckert 2000:205-210)
+    Some classic examples include calculating the density of a network, meaning the ratio of actual ties to possible ties that represents whether a network is close-knit or loose-knit (\citeauthor{barnes_networks_1968}, \citeyear[p.~118]{barnes_networks_1968}; \citeauthor{bott_family_1971}, \citeyear[p.~59]{bott_family_1971}), or calculating the dispersion of the network as the sum of all of its internal distances \parencite[p.~727]{bavelas_communication_1950}.
+    There are always various community detection algorithms that act on the structural properties of the network \parencite[\foreign{e.g.},][]{aslak_constrained_2017, newman_finding_2004, waltman_smart_2013}.
+    Communities in this case, then, are defined as dense clusters within a network that highlight heavy interaction.
+    Relatedly, the centrality of different components of the total network or within detected communities can be quantified in numerous ways.
+    Some of these identify important ties in the network \parencite[\foreign{e.g.},][]{freeman_set_1977}, while most identify important nodes \parencite[\foreign{e.g.},][]{brin_anatomy_1998, katz_new_1953, kleinberg_hubs_1999, kleinberg_authoritative_1999, rochat_closeness_2009}.
+    In sociolinguistics, this last class of analyses have been the main form carried out, often somewhat crudely, for purposes such as establishing individuals who are sociolinguistic ``stars'' or ``icons'' (\foreign{e.g.}, \citeauthor{eckert_linguistic_2000}, \citeyear[pp.~216-219]{eckert_linguistic_2000}; \citeauthor{labov_principles_2001}, \citeyear[p.~350]{labov_principles_2001}).
+    % Community detection
+      % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
+        % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
+        % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
+    % Centrality
+      % Many such measures exist
+        % Some are for identifying important ties
+          % A bridge is a tie in a network which provides the only path between two points (Harary et al. 1965, as cited in Granovetter 1973:1364)
+          % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
+        % Others are for identifying important nodes
+          % L. Milroy's (1980/1987) network strength scale, a simply index from 0 to 5 based on responses to several questions (139/141-142)
+          % Relative centrality (Bavelas 1950:727)
+          % Point centrality (Bavelas 1948, as cited in Freeman 1977:35)
+      
+    % Network communities in sociolinguistics
+      % Communities act as norm enforcement mechanisms (or maybe more specifically folkway (Sumner 1906, as cited in Andersen & Taylor 2013:31) enforcement mechanisms)
+        % This has been shown in general (e.g., Boissevain 1974; Bott 1957/1971; Cubitt 1973; Kapferer 1969; Mayer 1963, all as cited in L. Milroy 1980/1987:50/52/135-136)
+        % It's not surprising that SNA communities have been predictive of linguistic behavior
+          % L. Milroy (1980/1987) suggested that vernacular forms persist regardless of the influence of standard varieties because, as she found in Belfast, the social network structure can provide the requisite norm enforcement to resist the influence of standard varieties (162-163)
+          % King (2000) found that the most standard French speaker in her data was a janitor at the only French-language school in Prince Edward Island, which she explained as the result of regular French interactions with those in prestigious positions (55)
+        % It has been suggested that networks enforce norms based on one's perception of the network rather than its objective reality (Boissevain 1974, as cited in L. Milroy 1980/1987:61)
+          % I'm not so sure it's necessary to consciously perceive the existence of a network as people are not likely to give a great many names in response to name generator questions
+            % For instance, J. Milroy & L. Milroy (1985/2012) conceptualized the maintence that stems from the pressure social networks impose as "covert" (49)
+      % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
+      % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
+      % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
+      % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
+      % Eckert (2000) sketched the total network at Belten High but not as a central part of her analysis (177)
+        % Eckert (2000) did not speak to everyone -- rather she took a random sample of people and started from those various points -- and did a more thorough sketch for girls than boys due to time constraints (173-175)
+        % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
+      % Racially homogenous communities lead to more essentialist views of race among children (Deeb et al. 2011; Pauker et al. 2016, both as cited in Roth et al. 2023:49)
 
     % Ego network analysis/personal networks
       % Definition
