@@ -1584,7 +1584,7 @@
     While a classroom can be an influencing factor in one's speech, making it a good candidate for explaining the results for institutional French exposure here, there is again a socioeconomic component.
     In the case of 3pl pronouns, institutional French exposure not only increased the odds of producing \lexi{ils} relative to \lexi{ça} but also decreased the odds of producing \lexi{yé} relative to \lexi{ça}, neither of which are pronouns that would ever be heard in a French classroom to expression 3pl, although the latter would be heard as a demonstrative pronoun.
     This means that the language used in the classroom cannot be directly influencing a preference for \lexi{ça} like it can for a preference for \lexi{ils}.
-    However, as Figure \ref{fig:education_by_institutioonalFr} shows, there's a relatively clear relationship between have a college education and having been exposed to institutional French (Fisher's exact: $P <$ \Sexpr{Ceiling(indEducInstFr$p.value)}).
+    However, as Figure \ref{fig:education_by_institutionalFr} shows, there's a relatively clear relationship between have a college education and having been exposed to institutional French (Fisher's exact: $P <$ \Sexpr{Ceiling(indEducInstFr$p.value)}).
     This does not mean that exposure to institutional French has no impact on speakers but rather that those who use \lexi{ça} are generally either from a higher socioeconomic class or are more likely to head towards a higher socioeconomic class than those who use \lexi{yé}.
 
     \begin{figure}[tbhp]
