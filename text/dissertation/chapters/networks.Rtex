@@ -175,16 +175,49 @@
       % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
         % This is more about how one conceptualizes of community
 
-  \section{The relationship between segregation and homophily}
+  \section{The relationship between segregation, homophily, and racialization}
     % What is segregation
-      % A baseline of what zero segregation looks like is subunits in a social organization have the same proportions for some social feature (e.g., race) as higher level units (James & Taeuber 1985:3)
+      % Definitions and types
+        % Racial segregation institutionalized in law (Park 1914)
+        % "[T]he differences in the distribution of social groups, such as blacks and whites, among units of social organization such as schools" (James & Taeuber 1985:4)
+        % Racial residential segregation was implicit in a much early work (e.g., O. Duncan & B. Duncan 1955)
+          % But this has also been the perhaps the most type of segregation most commonly analyzed
+            % "[R]esidential segregation is the degree to which two or more groups live separately from one another" (Massey & Denton 1988:282)
+        % In social network analysis, one can speak of network segregation (Zhao 2023)
+          % This is more general in that it doesn't have to be along racial lines
+        % Segregation can also be informal, though (Dixon & Durrheim 2003)
+          % Being informal is not mutually exclusive with systemic forces that bring about segregation, however.
+            % Dixon & Durrheim (2003) explicitly acknowledged this when they looked at umbrella spaces, stating that the racial homogeneity found in these spaces could reflect patterns in wider society since those who sit together on the beach also likely travel together to the beach (12)
+      % Measuring segregation
+        % Many indices that have been cross-examined many times throughout the literature right up to the present (O. Duncan & B. Duncant 1955; James & Taeurber 1985; Massey & Denton 1988; Wu et al. 2025)
+        % A baseline of what zero segregation looks like is subunits in a social organization have the same proportions for some social feature (e.g., race) as higher level units (James & Taeuber 1985:3)
+          % Measures for potential contact are referred to as exposure (James & Taeuber 1985:4; Massey & Denton 1988:287)
+        % Segregation was not measured directly in the present study in this way but rather by using homophily as a proxy for segregation
 
     % What is homophily
+      % "[A] tendency for friendships to form between those who are alike in some designated respect" (Lazarsfeld & Merton 1954:23)
+      % Types
+        % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
+        % Lazarsfeld & Merton (1954), dealing with friendship, suggested that homophily can be arrived at when a value (i.e., view) in a dyadic relationship converge even if the two individuals were not homophilous on this value initially
+          % This is not as simple in the current scenario: ethnicity/race can change, but this can't exactly be brought about by the unilateral changing of an opinion by one inidividual
       % Impact
         % Homophily can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
 
     % Is homophily indicative of segregation?
       % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
+        % In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are salient in the community, salient enough to override other statuses or values around which Creoles and Cajuns may form homophilous relationships
+        % Indeed, the cultural practices of Creoles and Cajuns are by and large shared
+      % Dixon & Durrheim (2003), in analyzing informal segregation on a South African beach, observed over 99.9% racial homogeneity within umbrella spaces (12), which implies a type of racial homophily that goes along with the racial segregation that they also observed.
+      % One would also predict that, where non-homophilous alters exist, they would not be the core of one's personal network
+        % Allport (1954) long ago observed that while contact between Blacks and Whites in the south or Jews and Gentiles in New York City may be frequent, they still did not necessarily ``know'' each other because this was what he called ``casual contact'' (263)
+        % The two types of ties that were used in this study encode this distinction between participants' core and non-core personal networks
+        % A non-core non-homophilous alter is at best an indication that segregation is not complete, but does not go far in saying that the sort of segregation related to racialization does not exist
+
+    % Is segregation indicative of racialized groups?
+      % It at least facilitates racialization by reducing access to the positive effects of contact, namely reduced prejudice
+      % Contact hypothesis
+        % This is the long-held view that inter-group contact reduces prejudice (e.g., Lee & Humphrey 1943:130)
+        % A meta-analysis showed that inter-group contact does in fact reduce prejudice, and that this effect is generalizable beyond contact between racialized groups to contact between all types of groups (e.g., sexual orientation, disabilities, etc) (Pettigrew & Tropp 2006)
       % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
 
   \section{Segregation and homophily in the United States and Louisiana}
@@ -201,6 +234,7 @@
       % It has been predicted that rural networks are more homogenous in education, race-ethnicity, and religion, but more heterogenous in age and gender, the latter due to ties being more with kin than friends (Beggs et al. 1996:312)
 
     % Race and ethnicity in the US
+      % The literature suggested that informal racial segregation was still common in the US by the early 2000s (Dixon & Durrheim 2003:2)
       % Wright et al. (2014) argue that racial segregation is "a barometer of race relations" (174)
       % In 1985, racial and ethnic division was "the most salient social distinction structuring U.S. confidant relations" (Marsden 1988, as cited in J. A. Smith et al. 2014:446)
         % White-Asian ties have increased between 1985 and 2004 (J. A. Smith et al. 2014:446-447)
