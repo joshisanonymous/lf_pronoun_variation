@@ -183,7 +183,7 @@
         % Racial residential segregation was implicit in a much early work (e.g., O. Duncan & B. Duncan 1955)
           % But this has also been the perhaps the most type of segregation most commonly analyzed
             % "[R]esidential segregation is the degree to which two or more groups live separately from one another" (Massey & Denton 1988:282)
-        % In social network analysis, one can speak of network segregation (Zhao 2023)
+        % In social network analysis, one can speak of network segregation (Moody 2001; Zhao 2023)
           % This is more general in that it doesn't have to be along racial lines
         % Segregation can also be informal, though (Dixon & Durrheim 2003)
           % Being informal is not mutually exclusive with systemic forces that bring about segregation, however.
@@ -213,14 +213,18 @@
       % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
         % In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are salient in the community, salient enough to override other statuses or values around which Creoles and Cajuns may form homophilous relationships
         % Indeed, the cultural practices of Creoles and Cajuns are by and large shared
+        % In other words, if Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks, a remaining explanation would be situation of broad segregation that breeds homophily
 
-      % US high school students in the 1990s, there was racial homophily across the board which for Whites was associated with even higher homophily when they were greatly in the minority in a school (Goodreau et al. 2009:118-119), which is itself an indication of racial school segregation
-      % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
-      % Dixon & Durrheim (2003), in analyzing informal segregation on a South African beach, observed over 99.9% racial homogeneity within umbrella spaces (12), which implies a type of racial homophily that goes along with the racial segregation that they also observed.
-      % One would also predict that, where non-homophilous alters exist, they would not be the core of one's personal network
-        % Allport (1954) long ago observed that while contact between Blacks and Whites in the south or Jews and Gentiles in New York City may be frequent, they still did not necessarily ``know'' each other because this was what he called ``casual contact'' (263)
-        % The two types of ties that were used in this study encode this distinction between participants' core and non-core personal networks
-        % A non-core non-homophilous alter is at best an indication that segregation is not complete, but does not go far in saying that the sort of segregation related to racialization does not exist
+      % In more general terms, this is what is found, as well
+        % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
+        % US high school students in the 1990s, there was racial homophily across the board which for Whites was associated with even higher homophily when they were greatly in the minority in a school (Goodreau et al. 2009:118-119), which is itself an indication of racial school segregation
+        % Dixon & Durrheim (2003), in analyzing informal segregation on a South African beach, found spatial racial segregation and also observed over 99.9% racial homogeneity within umbrella spaces (12), which implies a type of racial homophily that goes along with the racial segregation that they also observed.
+        % Perhaps most directly relevant was Zhao's (2023) longitudinal study found that less ethnic segregation in early environments lead to less ethnically homophilous personal friendship networks later on in those same environments
+
+    % With persistent segregation then, one would also predict that, where non-homophilous alters exist, they would not be the core of one's personal network
+      % Allport (1954) long ago observed that while contact between Blacks and Whites in the south or Jews and Gentiles in New York City may be frequent, they still did not necessarily ``know'' each other because this was what he called ``casual contact'' (263)
+      % The two types of ties that were used in this study encode this distinction between participants' core and non-core personal networks
+      % A non-core non-homophilous alter is at best an indication that segregation is not complete, but does not go far in saying that the sort of segregation related to racialization does not exist
 
     % Is segregation indicative of racialized groups?
       % It at least facilitates racialization by reducing access to the positive effects of contact, namely reduced prejudice
