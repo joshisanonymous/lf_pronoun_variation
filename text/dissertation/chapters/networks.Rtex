@@ -188,18 +188,24 @@
         % Segregation can also be informal, though (Dixon & Durrheim 2003)
           % Being informal is not mutually exclusive with systemic forces that bring about segregation, however.
             % Dixon & Durrheim (2003) explicitly acknowledged this when they looked at umbrella spaces, stating that the racial homogeneity found in these spaces could reflect patterns in wider society since those who sit together on the beach also likely travel together to the beach (12)
+
       % Measuring segregation
         % Many indices that have been cross-examined many times throughout the literature right up to the present (O. Duncan & B. Duncant 1955; James & Taeurber 1985; Massey & Denton 1988; Wu et al. 2025)
         % A baseline of what zero segregation looks like is subunits in a social organization have the same proportions for some social feature (e.g., race) as higher level units (James & Taeuber 1985:3)
           % Measures for potential contact are referred to as exposure (James & Taeuber 1985:4; Massey & Denton 1988:287)
-        % Segregation was not measured directly in the present study in this way but rather by using homophily as a proxy for segregation
+        % What this means is that to measure segregation, it is vital to identify in what social organization and on what level segregation is being analyzed
+          % In the present study, for instance, I am talking about ethnic segregation (between Creoles and Cajuns) in their intimate relationships and in their F\&C relationships
 
     % What is homophily
+      % But segregation was not measured directly in the present study in this way but rather by using homophily as a proxy for segregation
       % "[A] tendency for friendships to form between those who are alike in some designated respect" (Lazarsfeld & Merton 1954:23)
+        % Homophily sometimes refers to both a mechanism and result, whereas some distinguish by instead calling the mechanism selective mixing (Goodreau et al. 2009:105)
+        % This is a dyadic mechanism that is one of the three micro-level mechanisms that influence total network structure, the other two being a individual mechanism (sociality, where only one's personal traits lead to the creation of ties) and a triadic mechanism (triadic closure, where a shared alter leads influences the creation of a tie) (Goodreau et al. 2009:104)
       % Types
         % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
         % Lazarsfeld & Merton (1954), dealing with friendship, suggested that homophily can be arrived at when a value (i.e., view) in a dyadic relationship converge even if the two individuals were not homophilous on this value initially
           % This is not as simple in the current scenario: ethnicity/race can change, but this can't exactly be brought about by the unilateral changing of an opinion by one inidividual
+
       % Impact
         % Homophily can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
 
@@ -207,6 +213,9 @@
       % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
         % In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are salient in the community, salient enough to override other statuses or values around which Creoles and Cajuns may form homophilous relationships
         % Indeed, the cultural practices of Creoles and Cajuns are by and large shared
+
+      % US high school students in the 1990s, there was racial homophily across the board which for Whites was associated with even higher homophily when they were greatly in the minority in a school (Goodreau et al. 2009:118-119), which is itself an indication of racial school segregation
+      % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
       % Dixon & Durrheim (2003), in analyzing informal segregation on a South African beach, observed over 99.9% racial homogeneity within umbrella spaces (12), which implies a type of racial homophily that goes along with the racial segregation that they also observed.
       % One would also predict that, where non-homophilous alters exist, they would not be the core of one's personal network
         % Allport (1954) long ago observed that while contact between Blacks and Whites in the south or Jews and Gentiles in New York City may be frequent, they still did not necessarily ``know'' each other because this was what he called ``casual contact'' (263)
@@ -218,7 +227,6 @@
       % Contact hypothesis
         % This is the long-held view that inter-group contact reduces prejudice (e.g., Lee & Humphrey 1943:130)
         % A meta-analysis showed that inter-group contact does in fact reduce prejudice, and that this effect is generalizable beyond contact between racialized groups to contact between all types of groups (e.g., sexual orientation, disabilities, etc) (Pettigrew & Tropp 2006)
-      % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
 
   \section{Segregation and homophily in the United States and Louisiana}
     % Some general qualities of social networks have been reported
@@ -232,6 +240,7 @@
       % Marital homogamy according to religion has decreased (Fischer & Hout 2006, as cited in J. A. Smith et al. 2014:434)
     % Differences between personal networks in rural vs urban areas
       % It has been predicted that rural networks are more homogenous in education, race-ethnicity, and religion, but more heterogenous in age and gender, the latter due to ties being more with kin than friends (Beggs et al. 1996:312)
+    % Race is one of the "widely recognized bases of adolescent friendship clustering" (Goodreau et al. 2009:108)
 
     % Race and ethnicity in the US
       % The literature suggested that informal racial segregation was still common in the US by the early 2000s (Dixon & Durrheim 2003:2)
@@ -243,6 +252,9 @@
         % Racial endogamy has declined over the 20th century but is still the most prevalent endogamous pattern in the US (Rosenfeld 2008)
         % Racial (and ethnic?) occupational segregation had "flattened out and changed slowly" between the 1980s and 2000s (Tomaskovic-Devey et al. 2006, as cited in J. A. Smith et al. 2014:436)
       % Taylor (1992) found that Black national leaders in the US formed a "considerably more closely knit" network, even though the White network had a longer history (as cited in Andersen & Taylor 2013:128)
+      % In US high schools in 1994-1995, all races had racially homophilous friendship networks (Goodreau et al. 2009:118-119)
+        % Blacks had overall more homophily than Whites
+        % There was a racial composition effect in that schools where Whites were a distinct minority resulted in very high White racial homophily, but this effect was not seen for other races
 
     % Social networks in South Louisiana
       % Gold (1976) claims that the sharecropper networks around Mamou in the early to mid 20th century were close knit out of necessity (272)
