@@ -176,39 +176,38 @@
         % This is more about how one conceptualizes of community
 
   \section{The relationship between segregation, homophily, and racialization}
-    % What is segregation
-      % Definitions and types
-        % Racial segregation institutionalized in law (Park 1914)
-        % "[T]he differences in the distribution of social groups, such as blacks and whites, among units of social organization such as schools" (James & Taeuber 1985:4)
-        % Racial residential segregation was implicit in a much early work (e.g., O. Duncan & B. Duncan 1955)
-          % But this has also been the perhaps the most type of segregation most commonly analyzed
-            % "[R]esidential segregation is the degree to which two or more groups live separately from one another" (Massey & Denton 1988:282)
-        % In social network analysis, one can speak of network segregation (Moody 2001; Zhao 2023)
-          % This is more general in that it doesn't have to be along racial lines
-        % Segregation can also be informal, though (Dixon & Durrheim 2003)
-          % Being informal is not mutually exclusive with systemic forces that bring about segregation, however.
-            % Dixon & Durrheim (2003) explicitly acknowledged this when they looked at umbrella spaces, stating that the racial homogeneity found in these spaces could reflect patterns in wider society since those who sit together on the beach also likely travel together to the beach (12)
+    The approach for identifying ethnic segregation in the present study is to directly measure ethnic homophily in personal networks.
+    What is meant by these terms thus needs to be clarified, particularly for segregation as there are many ways to conceptualize segregation.
+    Much of the early work done on segregation was during the Jim Crow era in the United States so that what was often meant was racial segregation institutionalized in law \parencite[\foreign{e.g.},][]{duncan_methodological_1955, park_racial_1914}.
+    As discussed by \textcite{wu_segregation_2025}, segregation studies have often been centered on places rather than people.
+    Much of the literature, as a result, analyzes residential segregation, which is ``the degree to which two or more groups live separately from one another'' \parencite[p.~282]{massey_dimensions_1988}.
+    Notably, residential segregation does not have to be based on race, but neither does segregation have to be based on locations of domiciles.
+    Even though \citeauthor{massey_dimensions_1988}'s definition is for residential segregation, one can imagine various ways in which two groups of people ``live separately'' that do not require them to be physically distant.
+    Segregation can be defined more generally though as ``the differences in the distribution of social groups, such as black and whites, among units of social organization such as schools'' \parencite[p.~4]{james_measures_1985}.
+    A definition such as this would allow, for instance, social groups to be men and women and the unit of social organization to be factories.
+    Social organizations do not have to be such formally defined entities as bureaucracies, though.
+    Segregation can in fact be informal \parencite{dixon_contact_2003}, voluntarily (re)producing segregation where no authority is explicitly enforcing it.
+    In such cases, it is often useful to talk about social network segregation where, for instance, clusters are formed in friendship networks based on some salient feature \parencite{moody_race_2001, zhao_networks_2023}.
 
-      % Measuring segregation
-        % Many indices that have been cross-examined many times throughout the literature right up to the present (O. Duncan & B. Duncant 1955; James & Taeurber 1985; Massey & Denton 1988; Wu et al. 2025)
-        % A baseline of what zero segregation looks like is subunits in a social organization have the same proportions for some social feature (e.g., race) as higher level units (James & Taeuber 1985:3)
-          % Measures for potential contact are referred to as exposure (James & Taeuber 1985:4; Massey & Denton 1988:287)
-        % What this means is that to measure segregation, it is vital to identify in what social organization and on what level segregation is being analyzed
-          % In the present study, for instance, I am talking about ethnic segregation (between Creoles and Cajuns) in their intimate relationships and in their F\&C relationships
+    There is also a long history of debate on how to best measure segregation.
+    Numerous indices of segregation have been developed and cross-examined many times over right up to the present \parencite{duncan_methodological_1955, james_measures_1985, massey_dimensions_1988, wu_segregation_2025}.
+    What these measures all generally have in common is the intuition that an absence of segregation would mean that subunits in some social organization have the same distribution of individuals along some social variable as the supraunit in that social organization \parencite[p.~3]{james_measures_1985}.
+    In other words, if all of the neighborhoods in some town have the same balance of socioeconomic classes as the town does as a whole, this would suggest that there is no socioeconomic segregation in that town.
+    The implication is that, to measure segregation, it is vital to identify the social organization one is analyzing, the subunits of that social organization, and for what social feature segregation is being analyzed.
+    In the present study, for instance, the social organization is the intimate and F\&C language-use relationship network of Lafayette and the surrounding parishes, and the social feature is Creole and Cajun ethnicity.
+    However, as personal network ethnic homophily was used as a proxy for segregation, the subunits of that social organization cannot be defined.
+    
+    Homophily itself is more easily defined than segregation.
+    \textcite{lazarsfeld_friendship_1954} defined it as ``a tendency for friendships to form between those who are alike in some designated respect'' (p.~23).
+    While homophily often does specifically deal with friendships, it is perhaps better to think of it as a tendency for voluntary bonds to form as one can form bonds that represent friendship but also romantic relationships, work relationships, and even family relationships can be viewed as voluntary on some level.
+    Referring to homophily as a tendency also implies that it is a mechanism that engenders ties, but the term is often used to describe ties after the fact, as well.
+    When a distinction needs to be made, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
+    The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
+    For the current study, however, this was not an important consideration, particularly because while ethnicity/race is not immutable, it is also not as regularly modifiable as, for instance, political affiliation.
+    % This is a dyadic mechanism that is one of the three micro-level mechanisms that influence total network structure, the other two being a individual mechanism (sociality, where only one's personal traits lead to the creation of ties) and a triadic mechanism (triadic closure, where a shared alter leads influences the creation of a tie) (Goodreau et al. 2009:104)
+    % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
 
-    % What is homophily
-      % But segregation was not measured directly in the present study in this way but rather by using homophily as a proxy for segregation
-      % "[A] tendency for friendships to form between those who are alike in some designated respect" (Lazarsfeld & Merton 1954:23)
-        % Homophily sometimes refers to both a mechanism and result, whereas some distinguish by instead calling the mechanism selective mixing (Goodreau et al. 2009:105)
-        % This is a dyadic mechanism that is one of the three micro-level mechanisms that influence total network structure, the other two being a individual mechanism (sociality, where only one's personal traits lead to the creation of ties) and a triadic mechanism (triadic closure, where a shared alter leads influences the creation of a tie) (Goodreau et al. 2009:104)
-      % Types
-        % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
-        % Lazarsfeld & Merton (1954), dealing with friendship, suggested that homophily can be arrived at when a value (i.e., view) in a dyadic relationship converge even if the two individuals were not homophilous on this value initially
-          % This is not as simple in the current scenario: ethnicity/race can change, but this can't exactly be brought about by the unilateral changing of an opinion by one inidividual
-
-      % Impact
-        % Homophily can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
-
+    
     % Is homophily indicative of segregation?
       % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
         % In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are salient in the community, salient enough to override other statuses or values around which Creoles and Cajuns may form homophilous relationships
@@ -231,6 +230,7 @@
       % Contact hypothesis
         % This is the long-held view that inter-group contact reduces prejudice (e.g., Lee & Humphrey 1943:130)
         % A meta-analysis showed that inter-group contact does in fact reduce prejudice, and that this effect is generalizable beyond contact between racialized groups to contact between all types of groups (e.g., sexual orientation, disabilities, etc) (Pettigrew & Tropp 2006)
+          % Homophily can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
 
   \section{Segregation and homophily in the United States and Louisiana}
     % Some general qualities of social networks have been reported
