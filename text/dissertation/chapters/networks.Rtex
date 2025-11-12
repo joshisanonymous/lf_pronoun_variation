@@ -175,7 +175,7 @@
       % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
         % This is more about how one conceptualizes of community
 
-  \section{The relationship between segregation, homophily, and racialization}
+  \section{Segregation, homophily, and racialization}
     The approach for identifying ethnic segregation in the present study is to directly measure ethnic homophily in personal networks.
     What is meant by these terms thus needs to be clarified, particularly for segregation as there are many ways to conceptualize segregation.
     Much of the early work done on segregation was during the Jim Crow era in the United States so that what was often meant was racial segregation institutionalized in law \parencite[\foreign{e.g.},][]{duncan_methodological_1955, park_racial_1914}.
@@ -207,30 +207,28 @@
     % This is a dyadic mechanism that is one of the three micro-level mechanisms that influence total network structure, the other two being a individual mechanism (sociality, where only one's personal traits lead to the creation of ties) and a triadic mechanism (triadic closure, where a shared alter leads influences the creation of a tie) (Goodreau et al. 2009:104)
     % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
 
-    
-    % Is homophily indicative of segregation?
-      % It has been argued that network homophily can be an indirect measure for "the salience of sociodemographics features" in the sense that a feature that is not salient for a group of people is not likely to be something that motivates them to associate with each other (Blau & Schwartz 1984; Laumann 1966, both as cited in J. A. Smith et al. 2014:433)
-        % In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are salient in the community, salient enough to override other statuses or values around which Creoles and Cajuns may form homophilous relationships
-        % Indeed, the cultural practices of Creoles and Cajuns are by and large shared
-        % In other words, if Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks, a remaining explanation would be situation of broad segregation that breeds homophily
+    The relationship between homophily and segregation, while reasonable as an assumption, can and should be more clearly established in order to use homophily as a proxy for segregation.
+    A logical argument for this comes from the argument that homophily is effectively a test of whether social features are salient \parencite[p.~29]{blau_crosscutting_1984}.
+    One can imagine that, in order to socially organize around a feature, that feature most be recognizable on some level for individuals in that organization.
+    In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are not only salient in the community but more salient than other shared statuses or values along which Creoles and Cajuns could form homophilous ties.
+    Indeed, as was mentioned in Section \ref{sec:creole_history}, many distinctive cultural practices are shared by Creoles and Cajuns, such as religion, cuisine, and music (\citeauthor{esman_henderson_1985}, \citeyear[p.~7]{esman_henderson_1985}; \citeauthor{spitzer_cajuns_1977}, \citeyear{spitzer_cajuns_1977}, \citeauthor{trepanier_french_1988}, \citeyear{trepanier_french_1988}).
+    In other words, if Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks, a remaining explanation would be a situation of broad racial segregation that breeds homophily.
 
-      % In more general terms, this is what is found, as well
-        % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
-        % US high school students in the 1990s, there was racial homophily across the board which for Whites was associated with even higher homophily when they were greatly in the minority in a school (Goodreau et al. 2009:118-119), which is itself an indication of racial school segregation
-        % Dixon & Durrheim (2003), in analyzing informal segregation on a South African beach, found spatial racial segregation and also observed over 99.9% racial homogeneity within umbrella spaces (12), which implies a type of racial homophily that goes along with the racial segregation that they also observed.
-        % Perhaps most directly relevant was Zhao's (2023) longitudinal study found that less ethnic segregation in early environments lead to less ethnically homophilous personal friendship networks later on in those same environments
+    Beyond the logical argument, however, there is empirical evidence that homophily and segregation go hand in hand.
+    Data for US high schools in the 1990s, for example, showed widespread racial homophily in friendship personal networks \parencite[pp.~118-119]{goodreau_birds_2009}, a time when US schools were also shown to be racially segregated \parencite{orfield_racial_2006}.
+    Likewise, \textcite{dixon_contact_2003}, in analyzing informal segregation on a South African beach, found spatial racial segregation while also observing over 99.9\% racial homogeneity within the small groups that were spending time on the beach together (p.~12), effectively documenting racial homophily simultaneously with racial segregation.
+    Perhaps the most directly relevant evidence, however, was \citeauthor{zhao_networks_2023}'s (\citeyear{zhao_networks_2023}) longitudinal study of how friendship networks develop in Sweden where she found that less ethnic segregation in early life environments led to less   ethnically homophilous friendship personal networks later on in those same environments.
+    % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
 
-    % With persistent segregation then, one would also predict that, where non-homophilous alters exist, they would not be the core of one's personal network
-      % Allport (1954) long ago observed that while contact between Blacks and Whites in the south or Jews and Gentiles in New York City may be frequent, they still did not necessarily ``know'' each other because this was what he called ``casual contact'' (263)
-      % The two types of ties that were used in this study encode this distinction between participants' core and non-core personal networks
-      % A non-core non-homophilous alter is at best an indication that segregation is not complete, but does not go far in saying that the sort of segregation related to racialization does not exist
-
-    % Is segregation indicative of racialized groups?
-      % It at least facilitates racialization by reducing access to the positive effects of contact, namely reduced prejudice
-      % Contact hypothesis
-        % This is the long-held view that inter-group contact reduces prejudice (e.g., Lee & Humphrey 1943:130)
-        % A meta-analysis showed that inter-group contact does in fact reduce prejudice, and that this effect is generalizable beyond contact between racialized groups to contact between all types of groups (e.g., sexual orientation, disabilities, etc) (Pettigrew & Tropp 2006)
-          % Homophily can in fact be beneficial in some ways, but one detriment to them is difficulty understanding others' world views (McPherson 2004 as cited in J. A. Smith et al. 2014:450)
+    The connection between homophily and segregation, then, is well-supported, but as the objective of this study is to analyze racialization in the Creole and Cajun population, prudence demands connecting the informal segregation being considered here to racialization, as well.
+    Again, the logic of such a connection makes sense on its face, much but there is also empirical evidence, the most convincing of which is perhaps contact theory.
+    Contact theory posits that inter-group contact reduces prejudice \parencite[p.~130]{lee_race_1943}, especially when that contact is high in quality \parencite{allport_nature_1954}.
+    A meta-analysis covering decades of work on the theory concluded that it is born out and generalizable beyond contact between racialized groups to contact between all types of groups (\foreign{e.g.}, grouped by sexual orientation, disabilities, etc.) \parencite{pettigrew_meta-analytic_2006}.
+    This suggests two things.
+    The first is that, at the very least, segregation facilitates racialization by removing a means of developing understanding and empathy of the Other.
+    The second is that, where non-homophilous alters exist, those alters would not constitute one's most intimate ties if segregation is simultaneously present.
+    Non-homophilous, intimate ties would represent the sort of quality contacts that reduce prejudice according to contact theory, so their existence would be a positive sign that segregation is not as complete as it might otherwise be.
+    In the present study, this distinction was encoded in the two types of ties elicited.
 
   \section{Segregation and homophily in the United States and Louisiana}
     % Some general qualities of social networks have been reported
