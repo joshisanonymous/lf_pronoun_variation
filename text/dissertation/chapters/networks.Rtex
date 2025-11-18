@@ -270,40 +270,31 @@
 
     Jim Crow, in the legal sense, ended after the Civil Rights Act in 1964 and \court{Jones v. Mayer} and the Fair Housing Act in 1968 \parencite[pp.~viii-ix]{rothstein_color_2017}, but in the sense of the existence of segregation, it is ongoing.
     Despite this -- and despite race/ethnicity being the strongest factor in network homophily on the 1985 General Social Survey (GSS) \parencite{marsden_homogeneity_1988} -- it has been argued that the subject was absent from American discourse in the 1970s and 1980s, as if the problem had been fixed and any signs of racial segregation simply needed time to naturally unravel \parencite[pp.~1-4]{massey_american_1993}.
-    The ongoing nature of segregation was evident right through the 1990s with work as occupation desegregation had seemingly ceased to decrease after 1980 
-      % Post-Jim Crow
-        % 80-90s
-          % Marriage: In 1990, only 4% of Blacks and 2% of Whites married outside of their race (Alba 1995:15-16)
-          % Education: In US high schools in 1994-1995, all races had racially homophilous friendship networks (Goodreau et al. 2009:118-119)
-            % Blacks had overall more homophily than Whites (ibid)
-            % There was a racial composition effect in that schools where Whites were a distinct minority resulted in very high White racial homophily, but this effect was not seen for other races (ibid)
-            % Legal remedies to segregation were still being denied by the Supreme Court in 1992 (Rothstein 2017:xiv)
-              % Anthony Kennedy didn't think past state actions could be considered causes of current segregation and so de jure remedies were inappropriate
-          % Work: Racial occupational desegregation had been decreasing since the 1960s but seemingly ceased after 1980 (Tomaskovic-Devey et al. 2006:584)
+    The ongoing nature of segregation was evident right through the 1990s.
+    While racial occupational desegregation had progressed after 1966, it had seemingly ceased to change after 1980 \parencite{tomaskovic-devey_documenting_2006}.
+    Segregation could also be seen in marriages with almost all Blacks and Whites on the 1990 census entering into racially homophily partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks with generally all young people in 1994-1995 forming by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
+    In education, segregation was still acknowledged as a reality by the Supreme Court in 1992 that, nevertheless, did not allow them to protect desegregation programs, a ruling that was repeated in 2007 \parencite[pp.~xiii-xiv]{rothstein_color_2017}.
 
-        % 2000s
-          % School segregation was still a problem, a problem that was legally entrenched
-            % The Supreme Court ruled against programs in Louisville and Seattle that gave preference to leftover public school openings that would racially balance the schools (Rothstein 2017:xiii-xiv)
-          % The literature suggested that informal racial segregation was still common in the US by the early 2000s (Dixon & Durrheim 2003:2)
-            % Racial endogamy has declined over the 20th century but is still the most prevalent endogamous pattern in the US (Rosenfeld 2008)
-          % The racial make-up of Creoles of Color's childhood friends had an impact on how they racially self-identified (Susberry 2004:45/48):
-            % Singular Blacks had mostly Black friends
-              % This makes sense assuming that their friends were assertive about their Black identities.
-            % Border Creole had mostly White friends
-              % This feels like an acknowledgement that one isn't or can't be seen as White while not wanting to distance oneself from friends by claiming a singular Black identity
-            % Protean had an even mix of friends of various racial identities
+    These signs of segregation did not disappear in the 21st century.
+    Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.
+    Between 1990 and 2010, there was an decrease in low-diversity majority White neighborhoods nationwide (66.0\% > 42.5\%) as well as low-diversity majority Black neighborhoods.
+    However, in Louisiana, there was actually an increase in low-diversity majority Black neighborhoods \parencite[pp.~176-177]{wright_patterns_2014}.
+    One study from the early 2000s even touched on the racial make-up of friendship personal networks of Creoles of color.
+    Those who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole had mostly White friends, and those who identified protean (\foreign{i.e.}, racially fluid) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
+    This result highlighted that there was still a meaningful distinction between Black identity and Creole identity for some and that this distinction was related in some way to the racial composition of Creoles' networks.
 
-        % 2010s
-          % Racial homophily in the US has been very high and extremely stable for over 20 years as of 2014 (J. A. Smith et al. 2014:446)
-            % According to the GSS, it decreased from 0.95 to 0.90 despite the country becoming more racially diverse (J. A. Smith et al. 2014:439)
-          % Between the 1990 and 2010 censuses, there were fewer low-diversity White neighborhoods nationwide (66% > 42.5%), and Black dominant neighborhoods nationwide have become more racially diverse, though in Louisiana, low-diversity Black neighborhoods have actually increased (Wright et al. 2014:176-177)
+    Most recently, racial segregation in Louisiana has implication for environmental issues, health issue, and education issues, much of it related to residential segregation.
+    There exists an area between Baton Rouge and New Orleans known as Cancer Alley due to a preponderance of chemical plants that have greatly impacted those closest to the plants who are predominately Black.
+    These areas are also unincorporated, giving residents little control over zoning or other remedies \parencite{mizutani_backyard_2019}.
+    A study of COVID-19 also showed that those in heavily Black areas of the state were more likely to contract the disease \parencite{scott_place_2023}.
+    In education, schools are still segregated to such an extent that debate on how to go about desegregate them is ongoing \parencite[\foreign{e.g.},][]{egalite_impact_2016}.
 
-    % Currently
-      % Residential segregation still occurs and is tied up with environmental and health issues
-        % The communities closest to the plants in Cancer Alley are predominately Black and are unincorporated, giving them little control over zoning (Mizutani 2019)
-        % Other health implications include COVID prevention (Scott et al. 2023)
-      % Schools are still segregated to such an extent that debate on how to desegregate is still ongoing (e.g., Egalite et al. 2016)
+    The evidence for Louisiana and the United States as racially segregated between Blacks and Whites in many areas of life is significant enough to go without saying, and indeed that is likely why \textcite{massey_american_1993} even long ago were able to argue that the subject was simply not discussed.
+    It does, however, need to be said as long as it persists.
+    What does not go without saying is that this same sort of segregation can be found between Creoles and Cajuns.
+    Surely, the implication is that it is more or less identical to what is found between Blacks and Whites, but analyses of the situation are lacking, hence the goal of this study to examine what is happening in the social worlds of Creole and Cajun F\&C speakers.
 
+    (probably add the most recent census data on racial composition in Lafayette and other towns where participants reside)
 
     % ------- Older notes -----------
     % According to the GGS, mean age and education homophily in personal networks has not changed between 1985 and 2004 (J. A. Smith et al. 2014:439)
