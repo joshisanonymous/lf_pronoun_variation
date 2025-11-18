@@ -234,6 +234,10 @@
     In the present study, this distinction was encoded in the two types of ties elicited.
 
   \section{Segregation in Louisiana}
+    \label{sec:segregation_louisiana}
+    There is something of a dearth of work on segregation specifically between Creoles and Cajuns in Louisiana.
+    Where the subject has been broached, the broader American social categories of Black and White have been used as proxies given the associations between Black and Creole and reciprocally White and Cajun \parencite[\foreign{e.g.},][]{mayeux_racial_2024} rather than establishing more directly whether Creoles and Cajuns are segregated from each other.
+    This association does in fact exist, however, as has been reaffirmed in this very study, so it will be instructive to contextualize the Creole-Cajun segregation analyzed here with a sketch of Black-White segregation in Louisiana and the United States generally.
 
     % General observations
       % It has been predicted that rural networks are more homogenous in education, race-ethnicity, and religion, but more heterogenous in age and gender, the latter due to ties being more with kin than friends (Beggs et al. 1996:312)
@@ -245,44 +249,37 @@
       % Race is one of the "widely recognized bases of adolescent friendship clustering" (Goodreau et al. 2009:108)
       % Wright et al. (2014) argue that racial segregation is "a barometer of race relations" (174)
 
-    % Historically
-      % Jim Crow (1 paragraph)
-        % When did it start?
-          % Harder to say as there was no one act that started it
-            % The legal implementation of Jim Crow occurred gradually after the Civil War with some notable moments such as the so-called Compromimse of 1877 where the federal government generally removed itself from the affairs of southern states and made way for segregation laws (Woodward 1955/1966)
-            % In 1883, the Supreme Court rejected the idea that the 13th Amendment, abolishing slavery, should abolish actions like housing discrimination as this was not deemed an expression of slavery (Rothstein 2017:viii-ix)
-            % One of the most important cases establishing the legitimacy of Jim Crow laws actually occurred in Louisiana as Plessy v. Ferguson, which upheld that seating on public transportation could be racially segregated (Groves 1951)
-          % If so, that means it applied and spread differently across the country
-        % Was segregation different already between north and south?
-          % In the residential sense, probably not in that neither was probably very segregated initially
-            % This would be the case in the south because Blacks were used by Whites as labor and transportation was not like today
-              % This was particularly true during slavery
-                % ``In most aspects of slavery as practiced in the ante-bellum South, however, segregation would have been an inconvenience and an obstruction to the functioning of the system. The very nature of the institution made separation of the races for the most part impracticable. The mere policing of slaves required that they be kept under more or less constant scrutiny, and so did the exaction of involuntary labor'' (Woodward 1955/1966:12)
-              % If one conceives of sharecropping as effectively a reshaped form of slavery, then these points would continue to apply
-                % Most Blacks in the south were agricultural laborers or sharecroppers up through at least 1900 whereas Whites were primarily sharecroppers during that time (Irwin & O'Brien 1998:282)
-                  % This held for Louisiana up to at least 1930 (de Jong 2000:106)
-            % This would be the case in the north because there weren't enough Blacks to form communities or to scare Whites away from them
-              % The proportion of Blacks in Chicago, for example, was 2.0% in 1910 but jumped to 32.7% by 1970, essentially the end of the Great Migration (Tolnay 2003:220-221)
-            % Berlin (1974:257-258) compared Whites and Free Blacks in various cities using the index of dissimilarity and found more segregation in northern cities (mean of 41.7 versus 30.4), though neither mean is very high
-            % By 1940, segregation was much more severe and effectively the same between northern and southern cities (means of 86.0 and 84.9, respectively) (K. Taeurber & A. Taeurber 1965:39-41)
-          % In the general sense, the south obvious ended up with more overt laws that would have caused social segregation if not the extreme residential segregation that the north had as a result of most Blacks being recent arrivals who were not already embedded in White communities since slavery times
-        % When did it end?
-          % Better to start the next paragraph with this since the legal ending was clear but the de facto ending has still not occurred
-          % The precedent that housing discrimination wasn't slavery was not overturned until a Supreme Court case in 1968 (Jones v. Mayer) and protection against housing discrimination wasn't enforceable until the Fair Housing Act of that same year (Rothstein 2017:ix)
+    It is perhaps most appropriate to begin such a sketch with the Jim Crow era rather than slavery as the latter did not allow for even the theoretical free movement of enslaved Blacks.
+    The beginning of Jim Crow is somewhat fluid as there was no singular event that instituted it.
+    Rather, its legal implementation occurred gradually after the Civil War with some notable moments such as the so-called Compromimse of 1877 where the federal government generally removed itself from the affairs of southern states and in effect made way for the passage of formal segregation laws \parencite{woodward_strange_1966}.
+    Other important moments included the Supreme Court in 1883 rejecting the idea that housing discrimination was an expression of slavery that otherwise the 13th Amendment would disallow \parencite[pp.~viii-ix]{rothstein_color_2017}, and in Louisiana, the case of \court{Plessy v. Ferguson} that upheld that seating on public transportation could be racially segregated \parencite{groves_separate_1951}.
+    
+    Each state individually passed laws that codified such segregation, with the result that Jim Crow spread across the country rather than started.
+    The segregation that existed at this early point, then, was not uniform in character from state to state, and in fact was not particularly pronounced anywhere before the first few decades of the 20th century.
+    In the north, segregation was not yet severe because there simply were not large concentrations of Blacks outside of the south.
+    The proportion of the population in Chicago that was Black, for example, was 2.0\% in 1910 and only jumped during the Great Migration, reaching the much more significant proportion of 32.7\% in 1970 \parencite[pp.~220-221]{tolnay_african_2003}.
+    In the south, on the other hand, segregation was not yet severe because the nature of slavery and later sharecropping, conceptually just a remodeled form of slavery, made it impractical to implement segregation.
+    As \textcite{woodward_strange_1966} put it:
+    \begin{quote}
+      In most aspects of slavery as practiced in the ante-bellum South, however, segregation would have been an inconvenience and an obstruction to the functioning of the system.
+      The very nature of the institution made separation of the races for the most part impracticable.
+      The mere policing of slaves required that they be kept under more or less constant scrutiny, and so did the exaction of involuntary labor.  (p.~12)
+    \end{quote}
+    Up through 1900, most Blacks in the south were agricultural laborers or sharecroppers, whereas Whites were primarily sharecroppers during that time, an socio-economic situation that held true in Louisiana specifically at least up to 1930 (\citeauthor{de_jong_aid_2000}, \citeyear[p.~106]{de_jong_aid_2000}; \citeauthor{irwin_where_1998}, \citeyear[p.~282]{irwin_where_1998}), although it is hardly plausible that this would counteract the effects of \foreign{de jure} segregation up to that time.
+    Indeed, indices of dissimilary comparing segregation between free people of color to Whites in 1860 yielding a mean of 41.7 for northern cities and 30.4 for southern, neither being very high \parencite[pp.~257-258]{berlin_slaves_1974}, but by 1940, segregation was much more severe and much more uniform across the country, with a mean of 86.0 for northern cities and 84.9 for southern \parencite[pp.~39-41]{taeurber_negroes_1965}, this last value including the Louisiana cities of New Orleans and Shreveport.
 
+    Jim Crow, in the legal sense, ended after the Civil Rights Act in 1964 and \court{Jones v. Mayer} and the Fair Housing Act in 1968 \parencite[pp.~viii-ix]{rothstein_color_2017}, but in the sense of the existence of segregation, it is ongoing.
+    Despite this -- and despite race/ethnicity being the strongest factor in network homophily on the 1985 General Social Survey (GSS) \parencite{marsden_homogeneity_1988} -- it has been argued that the subject was absent from American discourse in the 1970s and 1980s, as if the problem had been fixed and any signs of racial segregation simply needed time to naturally unravel \parencite[pp.~1-4]{massey_american_1993}.
+    The ongoing nature of segregation was evident right through the 1990s with work as occupation desegregation had seemingly ceased to decrease after 1980 
       % Post-Jim Crow
         % 80-90s
-          % Despite legally codified segregation ending with the Civil Rights Act (1964), de facto segragation still existed and was in fact structurally entrenched in ways that caused it to be reproduced. It was argued that segregation wasn't spoken of in any domains of American life in the 1970s and 1980s, as if the problem had been fixed and any signs of racial segregation were simply a result of the time it takes for already enacted laws to unravel the situation (Massey & Denton 1993:1-4)
-          % In 1985, racial and ethnic division was "the most salient social distinction structuring U.S. confidant relations" (Marsden 1988, as cited in J. A. Smith et al. 2014:446)
-          % Marriage: In 1990, only 6% of Blacks and Whites married outside of their race, but 30% of Asians and Hispanics and 67% of American Indians did (Water 2000, as cited in Susberry 2004:3)
+          % Marriage: In 1990, only 4% of Blacks and 2% of Whites married outside of their race (Alba 1995:15-16)
           % Education: In US high schools in 1994-1995, all races had racially homophilous friendship networks (Goodreau et al. 2009:118-119)
             % Blacks had overall more homophily than Whites (ibid)
             % There was a racial composition effect in that schools where Whites were a distinct minority resulted in very high White racial homophily, but this effect was not seen for other races (ibid)
             % Legal remedies to segregation were still being denied by the Supreme Court in 1992 (Rothstein 2017:xiv)
               % Anthony Kennedy didn't think past state actions could be considered causes of current segregation and so de jure remedies were inappropriate
-          % Work: Racial (and ethnic?) occupational segregation had "flattened out and changed slowly" between the 1980s and 2000s (Tomaskovic-Devey et al. 2006, as cited in J. A. Smith et al. 2014:436)
-          % Beggs et al. (1996) predicted rural communities would be more racially and ethnically homogenous than urban communities and found racial and ethnic homogeneity to be even more prevalent in Louisiana than the country in general (though not as a statistically significant finding)
-            % Louisiana personal networks were found to be more homogenous racially and ethnically than elsewhere in the US, but this result wasn't statistically significant (Beggs et al. 1996:315)
+          % Work: Racial occupational desegregation had been decreasing since the 1960s but seemingly ceased after 1980 (Tomaskovic-Devey et al. 2006:584)
 
         % 2000s
           % School segregation was still a problem, a problem that was legally entrenched
