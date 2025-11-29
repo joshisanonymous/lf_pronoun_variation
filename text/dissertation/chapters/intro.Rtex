@@ -1,6 +1,6 @@
 \chapter{Introduction}
   \label{chap:intro}
-  The idea of Louisiana in the public imagination is most often rather that of South Louisiana and the New Orleans metropolitan area as shown in Figure \ref{fig:mapacadiana} where the highlighted area is of the traditional French speaking parishes (i.e., counties) of South Louisiana.
+  The idea of Louisiana in the public imagination is most often rather that of South Louisiana and the New Orleans metropolitan area as shown in Figure \ref{fig:mapacadiana} where the highlighted area is of the traditional French speaking parishes (\foreign{i.e.}, counties) of South Louisiana.
   Indeed, the boundary between North and South Louisiana is traditionally a division in culinary practices, religion, and language \parencite[p.~309]{trepanier_french_1988}, where those cultural features that most distinguish Louisiana from the rest of the Deep South are those of South Louisiana.
   The language of North Louisiana, for example, has historically been English rather than French and Creole \parencite[p.~265]{gold_french_1979}, and the most prominent religion has historically been Protestant Christianity rather than Catholicism.
   At times, this difference in religious beliefs has even been significant enough that Northerners have been described as ``rabid anti-Catholic Protestants'' \parencite[p.~27]{johnson_louisiana_1976}.
@@ -15,7 +15,7 @@
   \end{figure}
 
   For sociolinguists, the two major social categories of South Louisiana, Creole and Cajun, constitute a major point of interest.
-  These will be referred to as ethnic categories throughout this study in a rather agnostic way as the goal here is to provide evidence that they have been racialized \parencite{omi_racial_2015}.
+  These will be referred to as ethnic categories throughout this study in a rather agnostic way as the goal here is to provide evidence that Creole has become a racialized category \parencite{omi_racial_2015}.
   The winding histories of the definitions of the two terms, which will be discussed in Sections \ref{sec:creole_history} and \ref{sec:cajun_history}, certainly hint at this racialization.
   In general, the term \lexi{Creole} has referred to various groups based on geographical origin, status as free or enslaved, or skin color, ending up as a something of a synonym for Black for many people today, though the modern-day use of the term certainly maintains some variability.
   The term \lexi{Cajun}, on the other hand, started as a term referring to the Acadian diaspora in Louisiana and has morphed into something that refers to people from various backgrounds with the notable restriction that Cajun and Black identities are mutually exclusive.
@@ -31,15 +31,15 @@
   F\&C in Louisiana is a unique cultural resource that is generally valued by many among the populace and even exploited for commercial gain, and yet it is in decline.
   It has been documented as showing variation along geographic and social dimensions, as will be discussed in Sections \ref{sec:participants} and \ref{sec:pronoun_structure}, though recent work focusing on ethnic and/or racial variation in and around the Lafayette area, the geographic focus of this study, is lacking.
   Furthermore, while sociological and anthropological work on race has begun to inform work in sociolinguistics since \textcite{rosa_unsettling_2017}, there still remains ample room in the field for studying racialization.
-  Combining this gap in the descriptive literature on F\&C with the need for more analyses of racialization from a sociolinguistic perspective, the objective of this dissertation is thus to examine how the social categories Creole and Cajun relate to race.
+  Combining this gap in the descriptive literature on F\&C with the need for more analyses of racialization from a sociolinguistic perspective, the objective of this dissertation is to examine the racialization of Creoles and how Cajun relate to that racialization.
   Chapter \ref{chap:pronoun_variation} will analyse subject pronoun usage to establish whether these function as markers of Creole and Cajun identity.
   Chapter \ref{chap:networks} will look at the personal social networks of participants to examine ethnic homophily in them and along what lines as the existence of such attributes of social structures can be an indicator of a racialization.
-  Finally, Chapter \ref{chap:ethnic_race_meaning} will examine how participants spoke about their language and identities in terms of race and ethnicity to determine if their lived experiences are indicative of those of racialized peoples.
+  Finally, Chapter \ref{chap:ethnic_race_meaning} will examine how participants speak about their language and identities in terms of race and ethnicity to determine if their lived experiences are indicative of racialization.
 
   \section{Race and ethnicity}
     \label{sec:race_ethnicity}
-    As Decker (1994) suggested, when using race in sociological research, it is important to explicitly define \lexi{race} in order to make clear how it is being used \parencite[as cited in][p.~22]{omi_racial_1997}.
-    This is especially true in the present study where the goal is to understand if the ethnic categories \lexi{Creole} and \lexi{Cajun} have been racialized.
+    As Decker (1994) suggested, when using race in sociological research, it is crucial to explicitly define it in order to make clear how it is being used \parencite[as cited in][p.~22]{omi_racial_1997}.
+    This is especially true in the present study where the goal is to understand if the Creole ethnic category has been racialized.
     The following is thus not only an explanation of how the concept of race will be used throughout this dissertation but also how it contrasts with ethnicity.
 
     Early conceptualizations of race and ethnicity in the social sciences were relatively straight forward but often problematic, as well, especially in the case of race.
@@ -49,13 +49,14 @@
     While this definition incorporates the idea of conflict, which is readily apparent in modern views of race, it remains essentialist in character in that race is a seen as a fact of nature.
 
     On the other hand, early definitions of ethnicity were not particularly problematic for espousing harmful views -- intentionally or not -- but were instead inconsistent.
-    While \textcite{weber_economy_1978} defined ethnic groups as ``groups that entertain subjective belief in their common descent because of similarities of physical type or of customs or both, or because of memories of colonization and migration'' (p.~389), \textcite{huxley_racial_1935} effectively used them to refer to any population that had interbred with any other population as only completely isolated populations could be considered races in their view (pp.~263-264), and a bit later \textcite{gans_symbolic_1979} implicitly defined ethnic groups in terms of immigration, giving Jewish people, Catholics, and Italians as examples in the US.
-    Perhaps the most general of these earlier definitions was that first proposed by \textcite{moerman_ethnic_1965} and later echoed by others (\citeauthor[\foreign{e.g.},][]{giles_ethnicity_1979}, \citeyear[pp.~252-253]{giles_ethnicity_1979}; \citeauthor{le_page_acts_1985}, \citeyear[p.~2]{le_page_acts_1985}).
+    While \textcite{weber_economy_1978} defined ethnic groups as ``groups that entertain subjective belief in their common descent because of similarities of physical type or of customs or both, or because of memories of colonization and migration'' (p.~389), \textcite{huxley_racial_1935} effectively used ethnic groups to refer to any population that had interbred with any other population as only completely isolated populations could be considered races in their view (pp.~263-264).
+    A bit later \textcite{gans_symbolic_1979} implicitly defined ethnic groups in terms of immigration, giving Jewish people, Catholics, and Italians as examples in the US.
+    Perhaps the most general of these earlier definitions, however, was that which was first proposed by \textcite{moerman_ethnic_1965} and later echoed by others (\citeauthor[\foreign{e.g.},][]{giles_ethnicity_1979}, \citeyear[pp.~252-253]{giles_ethnicity_1979}; \citeauthor{le_page_acts_1985}, \citeyear[p.~2]{le_page_acts_1985}).
     He defined an ethnic group as those individuals who perceive themselves as belonging to the same ethnic category.
     Portions of these definitions of ethnicity are still found in modern definitions, though in the case of Weber's, the involvement of colonization has become central to definitons of race rather than ethnicity.
 
     These definitions of ethnicity also suggest that there has always been some indecision over whether to treat race and ethnicity as separate analytical concepts or not, and by the 2000s, some had maintained a distinction between them while others had not or had at least treated it as a blurry distinction \parencite[p.~25]{brubaker_ethnicity_2009}.
-    Naturally, the current study maintains the distinction along the lines that colonialism is the origin of race and the formation of nation-states the origin of ethnicity \parencite[pp.~902-903]{bonilla-silva_essential_1999}.
+    Naturally, the current study maintains the distinction and does so along the lines that colonialism is the origin of race and the formation of nation-states the origin of ethnicity \parencite[pp.~902-903]{bonilla-silva_essential_1999}.
     Implicit in both, then, is some level of contact between groups that increases the salience of group identities, but in the case of race, that contact necessarily involves conflict.
     \textcite{bonilla-silva_rethinking_1997}, for instance, defined a race as a group that is the effect of ``practices of opposition'' between it and another group ``at the economic, political, social, and ideological levels,'' which is ``usually, although not always,'' tied to concepts of the human body \foreign{post hoc} (p.~472).
 
@@ -80,7 +81,7 @@
         % His position was that neither race nor ethnicity are good analytical concepts in the sense of them representing bounded and solidary groups (Brubaker 2009:27-28) thought he did think ethnicity has a cognitive existence
           % This stance is perhaps supported by the concept of symbolic ethnicity where ethnic identities are no longer about organizing but instead on finding individualized ways to simple feel one's ethnicity (Gans 1979)
 
-    Although some still give the body as the primary trait to which racial categories are attached \parencite[\foreign{e.g.}][pp.~6-7]{susberry_racial_2004}, the key aspect of the above definition is that this association is only made after a group has already been labeled as a race to justify actions against said group.
+    Although some still give the body as the primary trait to which racial categories are attached \parencite[\foreign{e.g.}][pp.~6-7]{susberry_racial_2004}, the key aspect of the above definition is that this association is only made after a group has been labeled as a race to justify actions against said group.
     Groups that have been racialized can be marked by appearance but also by language, religion, or culture, as well \parencite[pp.~636-637]{grosfoguel_racism_2015}.
     Examples of racialized peoples thus include Jewish people in Europe, the Irish in England, and American Indians in the US \parencite[p.~472]{bonilla-silva_rethinking_1997}.
     This is why \textcite{grosfoguel_race_2004} warned that too much focus on color categories obscures ``other forms of racialization'' (p.~326), and \textcite{rosa_unsettling_2017}, speaking of both race and language, argued that studies of these subjects should not begin with ``racialized bodies and communicative practices'' as this limits one's ability to see how these categories ``become racially and linguistically legible,'' meaning that analyses must start with historical and institutional contexts instead (p.~637).
@@ -116,7 +117,11 @@
     The process of creating racialized social categories is known as racial formation, defined as ``the sociohistorical process by which racial identities are created, lived out, transformed, and destroyed'' \parencite[p.~109]{omi_racial_2015}.
     European colonialism is commonly cited as the exact colonial period through which this sociohistorical process played out (\citeauthor{boggs_meaning_1970}, \citeyear[pp.~9-10]{boggs_meaning_1970}; \citeauthor{cox_caste_1959}, \citeyear[pp.~322-332]{cox_caste_1959}; \citeauthor{magubane_political_1979}, \citeyear[pp.~2-3]{magubane_political_1979}; \citeauthor{williams_capitalism_1966}, \citeyear[pp.~7-9]{williams_capitalism_1966}) and sometimes specifically colonialism in the Americas \parencite[Quijano, 1993, as cited in][p.~326]{grosfoguel_race_2004}.
     However, the racialization of people is a possible result of any colonial enterprise, from antiquity to the modern era (\citeauthor{casanova_internal_1965}, \citeyear[p.~31]{casanova_internal_1965}; \citeauthor{lenin_imperialism_1965}, \citeyear[p.~97]{lenin_imperialism_1965}).
-    Likewise, colonialism itself may be enacted upon groups within the same state jurisdiction as the colonizers in what has come to be known as internal colonialism (\citeauthor{casanova_internal_1965}, \citeyear{casanova_internal_1965}; \citeauthor{cruse_rebellion_2009}, \citeyear[p.~191]{cruse_rebellion_2009}; Du Bois, 1944/1985, as cited in \citeauthor{rabaka_web_2007}, \citeyear[p.~87]{rabaka_web_2007}; \citeauthor{pinderhughes_toward_2011}, \citeyear{pinderhughes_toward_2011}; \citeauthor{wolpe_theory_1975}, \citeyear{wolpe_theory_1975}).
+    Likewise, colonialism itself may be enacted upon groups within the same state jurisdiction as the colonizers in what has come to be known as internal colonialism\footnote{
+      \textcite{omi_racial_2015} were in fact critical of the internal colonialism framework for understanding race.
+      However, their criticisms were mostly centered on Blauner's nation-based analyses (pp.~91-94).
+      If one is less insistent on defining nations as having a political objective or on adhering to Blauner's arguments, it becomes more reasonable to integrate internal colonialism into racial formation.
+    } (\citeauthor{casanova_internal_1965}, \citeyear{casanova_internal_1965}; \citeauthor{cruse_rebellion_2009}, \citeyear[p.~191]{cruse_rebellion_2009}; Du Bois, 1944/1985, as cited in \citeauthor{rabaka_web_2007}, \citeyear[p.~87]{rabaka_web_2007}; \citeauthor{pinderhughes_toward_2011}, \citeyear{pinderhughes_toward_2011}; \citeauthor{wolpe_theory_1975}, \citeyear{wolpe_theory_1975}).
 
     % Indeed, as \textcite{casanova_internal_1965} argued before the racial formation perspective was developed, ``Racism and racial discrimination are the historical legacy of the conquest of some peoples by others, from antiquity to the expansion of the great empires and colonial systems of the modern era'' (p.~31).
     % Even earlier, \textcite{lenin_imperialism_1965} described Rome as partaking in colonialism, furthermore stating that it was built on slavery (p.~97), which suggests the same circumstances that propelled racial formation during European colonialism.
@@ -125,7 +130,7 @@
     What makes colonialism so important in the process of racial formation is that it allows for such an extreme form of othering of groups of people that they are conceptualized in society as human but less human than the colonizers, hence a separate race.
     Race becomes something that is inherent to Others and defines essential characteristics about them.
     Once the racial formation process has played out, it becomes self-perpetuating, meaning it will continue even in the absence of an official colonial administration.
-    In fact, once created, racial categories become available for self-identification just as any other social category is despite also being imposed by from the outside \parencite[pp.~471-472]{bonilla-silva_rethinking_1997}, hence African-Americans' attempts at co-opting labels that have been attached to them such as through the Black pride movement \parencite{smith_changing_1992}.
+    In fact, once created, racial categories become available for self-identification just as any other social category is despite also being imposed from the outside \parencite[pp.~471-472]{bonilla-silva_rethinking_1997}, hence African-Americans' attempts at co-opting labels that have been attached to them such as through the Black pride movement \parencite{smith_changing_1992}.
 
     % It is not surprising, then, that essentialist beliefs about race have persisted up to the present time in former European colonies despite the end of direct colonialism (\foreign{e.g.}, \citeauthor{hoffman_racial_2016}, \citeyear[p.~4297]{hoffman_racial_2016}; \citeauthor{yaylaci_determinants_2025}, \citeyear{yaylaci_determinants_2025}).
     % Essentialist views have even been found to persist among researchers in genetics, biology, and anthropology \parencite{roth_conceptualizations_2023}.
@@ -135,10 +140,10 @@
       % Gans (1979) had discussed how 1st and 2nd generation ethnic groups in the US lived in ethnic neighborhoods (i.e., colonies?) where their status as members of the ethnic group were imposed on them from outside (8)
         % This is not entirely different from how race is theorized today, meaning some groups described as ethnic in the past (e.g., Jews, Catholics, Italians, etc. in this case) are better understood as races in modern frameworks
 
-    Under this framework, racism itself is embedded in social systems.
+    Under this framework, racism is embedded in social systems.
     Up through the 1990s, \citeauthor{benedict_race_1983}'s (\citeyear{benedict_race_1983}) definition of racism as ``the dogma that one ethnic group is condemned by nature to congenital inferiority and another group is destined to congenital superiority'' (p.~97) had been the norm that was used in research, though today this would be specifically called ideological racism.
-    Importantly, when treating racism as exclusively this sort of irrational ideology, it leaves education as the only solution to alleviated racism, ignoring any rational aspects of the social system that engender this ideology in the first place \parencite[p.~468]{bonilla-silva_rethinking_1997}.
-    The racialized social systems framework thus shifts racism from an irrational personal ideology to a rational structure that creates lower life chances for those placed into a subordinate racialized category \parencite[p.~470]{bonilla-silva_rethinking_1997}.
+    Importantly, when treating racism as exclusively this sort of irrational ideology, education is left as the only solution to alleviating racism, ignoring any rational aspects of the social system that engender this ideology in the first place \parencite[p.~468]{bonilla-silva_rethinking_1997}.
+    The racialized social systems framework thus shifts racism from an irrational personal ideology to a rational social structure that creates lower life chances for those placed into a subordinate racialized category \parencite[p.~470]{bonilla-silva_rethinking_1997}.
     
     % For instance, undocumented Latinx workers in the US generally benefit the economy as a whole \parencite{becerra_fear_2012, edwards_economic_2017}.
     % Those who worry about the human rights violations that may occur if mass deportation were carried out have used this benefit as an argument against mass deportation \parencite{shanker_trumps_2024}.
@@ -236,14 +241,14 @@
       Despite South Louisiana historically being considered isolated from the United States, the undoing of that isolation over time has in fact been a factor in not only the decline of F\&C in the state but also the reinterpretation of Creole and Cajun identities, as will be discussed in sections \ref{sec:creole_history} and \ref{sec:cajun_history}.
       For the present section, the discussion will roughly follow \citeauthor{marable_great_2002}'s (\citeyear{marable_great_2002}) outlining of the three ``racial domains'' through which African-Americans have passed: slavery, Jim Crow, and finally modern ghettos.
       This is not say that African-Americans (as well as Blacks in general) are the only racialized people in the US, but they hold a prominent position both in public discourse on race as well as in studies of racialization and so their plight over time is useful for contextualizing how race functions in the US.
-      Additionally, as will be seen later, there are clear connections between the categories Creole, Black, and African-American.
+      Additionally, as will be seen later, there are clear connections between the categories Creole, Black, and African-American for Louisianians.
 
       The European colonial enterprise in the Americas began with the exploitation of Others.
       This culminated most prominently with the enslavement of Africans who were then imported into the colonies to perform labor for Europeans colonists.
       The racialization of Africans undoubtedly came about to justify this gross human rights abuse.
       In total, it has been estimated that 9,778,500 people were enslaved and imported into the Americas between 1450 and 1867, whereas an estimated 11,698,000 were exported from Africa between 1450 and 1900 \parencite[p.~477]{lovejoy_volume_1982}.
       This implies that upwards of 1,919,500 live were lost just in the process of moving people.
-      For the British colonies, these people made up a larger proportion of the southern population (39.8\%) than the middle (7.0\%) or the northern (3.1\%) \parencite[p.~74]{franklin_slavery_2000}.
+      For the British colonies, these people made up a larger proportion of the southern population (39.8\%) than the middle (7.0\%) or the northern (3.1\%) populations \parencite[p.~74]{franklin_slavery_2000}.
       The territory of modern-day Louisiana, of course was not part of the British colonies but rather New France until the Louisiana Purchase of 1803.
       Between 1763 and 1800 Lower Louisiana was consistently divided almost evenly between free people and enslaved people \parencite[p.~279]{hall_africans_1992}.
       This is to say that the colonies in the Americas were ripe for the racialization not only of indigenous people but also of enslaved people.
@@ -252,12 +257,12 @@
       The former argued for full inclusion into society and the latter for education to prepare them for work as laborers initially \parencite{morris_scholar_2015}.
       Most Blacks in the US were not able to move up the social ladder towards full inclusion into society at that time by design, hence it has been argued that there were three social classes related to race: working-class Blacks, a small Black bourgeoisie, and Whites \parencite{allen_black_1990}.
       The Black bourgeoisie faced pressure from Whites to keep those in the lower social class under control, which helped them keep their own standing while still ensuring the racial hierarchy.
-      This is perhaps a common feature in racialized social systems as a similar middle status group with a similar role, referred to as Pardos, also developed in Brazil \parencite[pp.~74-77]{wade_race_2010} as well as in South Africa, referred to as Coloureds there \parencite{lewis_between_1987}.
-      Creoles in the Americas in general have also been described in similar terms \parencite[pp.~59-60]{anderson_imagined_2006}, including those in Louisiana, as will be discussed.
+      This is perhaps a common feature in racialized social systems as a similar middle status groups with a similar roles developed in Brazil, referred to as Pardos \parencite[pp.~74-77]{wade_race_2010}, as well as in South Africa, referred to as Coloureds there \parencite{lewis_between_1987}.
+      Creoles in the Americas in general have also been described in similar terms \parencite[pp.~59-60]{anderson_imagined_2006}, including those in Louisiana, as will be discussed in section \ref{sec:creole_history}.
 
-      A theme of oppression is that it often becomes entrenched in a way where it appears to be diminishing but is simply changing in appearance.
-      A particularly vivid example of this change of appearance is the Jim Crow era in the US, which presented indications of improvement that either did not last, were not truly significant, or were simply new chains in disguise.
-      For instance, the Communist Party USA was calling for the ``self-determination of the Negro nation'' as early as the 1920s, focusing on the Black Belt of the south no less, but had all but withdrawn such support by the time McCarthyism had entered full swing \parencite[p.~242]{pinderhughes_toward_2011}.
+      A theme of oppression is that it often becomes entrenched in such a way that it can appear to be diminishing when in reality is simply changing in appearance.
+      A particularly vivid example of this change in appearance is the Jim Crow era in the US, which presented indications of improvement that either did not last, were not truly significant, or were simply new chains in disguise.
+      For instance, the Communist Party USA was calling for the ``self-determination of the Negro nation'' as early as the 1920s, focusing on the Black Belt of the South no less, but had all but withdrawn such support by the time McCarthyism had entered full swing \parencite[p.~242]{pinderhughes_toward_2011}.
       Black banks were also established by the 1920s, but at their pre-Great Depression peak in 1926, they held only 0.2\% of the total US assets (\citeauthor{harris_negro_1936}, \citeyear[pp.~194-195]{harris_negro_1936}; \citeauthor{watkins_money_nodate}, \citeyear{watkins_money_nodate}), a meager amount which may be related to events such as the Tulsa Race Massacre of 1921 that led to the destruction of somewhere between \$32,000,000 and \$48,000,000 in property held by Blacks \parencite[p.~1]{albright_after_2021}.
       Historically Black Colleges and Universities (HBCUs) had already existed by the Jim Crow era but in some cases were stunted due to board members appointing university presidents who were supporters of Jim Crow and/or who could be bullied into upholding the racial order of Jim Crow \parencite[p.~559]{williamson_this_2004}.
       Even the official end of Jim Crow with the passage of the Civil Rights Act in 1964 has been described as the end of the colonial administration in the US but not the end of the colonial situation \parencite[pp.~325-326]{grosfoguel_race_2004}.
