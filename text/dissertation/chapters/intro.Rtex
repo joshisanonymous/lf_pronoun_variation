@@ -27,7 +27,7 @@
   Today, these languages are spoken in South Louisiana as heritage languages, whereas they were the dominant languages perhaps as recently as the mid 20th century.
   Indeed, by the 1980s, South Louisiana was still being described as ``un exemple par excellence d'une société multilingue''\footnote{
     An ideal example of a multilingual society.
-  } \parencite[p.~16]{neumann_creole_1985}.
+  } \parencite[p.~16]{neumann-holzschuh_creole_1985}.
   F\&C in Louisiana is a unique cultural resource that is generally valued by many among the populace and even exploited for commercial gain, and yet it is in decline.
   It has been documented as showing variation along geographic and social dimensions, as will be discussed in Sections \ref{sec:participants} and \ref{sec:pronoun_structure}, though recent work focusing on ethnic and/or racial variation in and around the Lafayette area, the geographic focus of this study, is lacking.
   Furthermore, while sociological and anthropological work on race has begun to inform work in sociolinguistics since \textcite{rosa_unsettling_2017}, there still remains ample room in the field for studying racialization.
@@ -355,7 +355,6 @@
       The point being that, by the end of the second wave, researchers had begun to be more cognizant of the need to reconsider how social variables are used and understood, and that included ethnicity even if race was not being prominently addressed.
       % By the end of the second wave, Rickford in particular was trying to encourage socioliguists to use their positions and knowledge (that they've by and large gained via the good will of minority groups) to give back to minority communities (e.g., Rickford 1997 "Unequal")
 
-      % --------------- Collapse this into a single paragraph that incorporates the 3rd wave research questions outlined in all of these paragraphs ---------------------- %
       The third wave of sociolinguistics turned the focus of research towards social meaning and local categories even more so, making it perhaps not surprising that race has been examined more carefully during this phase.
       One area this care has been extended is in studies of crossing (\foreign{i.e.}, using out-group features) \parencite{bucholtz_you_1999, eberhardt_first_2015, reyes_appropriation_2005}.
       Intersectional analyses of in-group variation have also been more prominent \parencite{eckert_where_2008, mendoza-denton_homegirls:_2008}.
@@ -469,7 +468,7 @@
     % My own participants were all asked to define what a Creole is, and the topic consistently evoked strong reactions that suggested that the answer for them is long and complicated, especially when the question was put to my Cajun participants.
     % When discussing Creoles in terms of non-Whites, \textcite{susberry_racial_2004} suggested that interest has been maintained due to concern over Louisiana exports being marketed as ``Cajun'' and thereby erasing Creole contributions, the lack of laws or even census options that lead to pigeonholing Creoles as Black, an indirectly related focus on French language education in Louisiana, and the popularity of geneological research in the state (p.~14), although on this last point, I would argue that geneological research is popular because Creole and especially Cajun identities are tightly linked to one's ancestry in the minds of residents, as will become apparent in the ensuing discussions.
 
-    Much of the research on the various stages in the development of the definition of Creoles has focused on New Orleans rather than the state as a whole.
+    Much of the research on the various stages in the development of the definition of Creoles has focused on New Orleans rather than the state as a whole. % This paragraph might be better as a long footnote
     This caveat to the ensuing discussion could be explained due to the city simply being a more attractive object of study for historians or perhaps to a lack of primary data for the areas outside of New Orleans.
     However, especially for the 18th century, this is a sensible focus as New Orleans was the colonial population center of the territory.
     Censuses of rural plantations and other settlements in South Louisiana in the 1700s were not numerous but did exist (\citeauthor{mills_family_1981}, \citeyear[p.~27]{mills_family_1981}; \citeauthor{zitomersky_urbanization_1974}, \citeyear[pp.~276-277]{zitomersky_urbanization_1974}).
@@ -483,22 +482,22 @@
           % During these years, the percentage of non-White residents wavered around 50%, although Creole didn't mean non-White at that time
         % These numbers look quite different from what G. M. Hall (1992) reported for 1746, though
 
-    The term \lexi{Creole} was originally no more than a synonym for local or native to the colonies of the American continents, a usage that dates back at least as far back as 1731 \parencite[pp.~95-97]{dominguez_white_1986}.
+    The term \lexi{Creole} was originally no more than a synonym for local or native to the colonies of the American continents, a usage that dates at least as far back as 1731 \parencite[pp.~95-97]{dominguez_white_1986}.
     This means not only were French and Spanish colonists considered to be Creoles but so were many enslaved Africans and free people of color, often referred to in the literature using the original French term \foreign{gens de couleur libres}.
     Free people of color were not unique to Louisiana, but they were particularly common there.
     They were also regularly implicated in redefinitions of the term \lexi{Creole}, especially during Reconstruction.
-    A court case involving one François Tioucou suggests that Free People of Color were present in New Orleans since at least the early 18th century.
+    A court case involving one free person of color, François Tioucou, suggests that they were present in New Orleans since at least the early 18th century.
     Tioucou was not, however, a Creole as he was born in Africa \parencite[pp.~32-33]{everett_free_1966}, meaning that \lexi{free person of color} did not necessarily imply Creole at that time.
     
     A common path to freedom for those born in Louisiana was through a system known as plaçage in which free men entered into relationships with enslaved women or free women of color that in many ways resembled marriages.
     According to the French Black Code or \foreign{Code noire} that was in effect at that time, free men were not permitted to marry nor ``vivre en concubinage''\footnote{
       Cohabit.
-    } \parencite[pp.~3-4]{louis_xv_code_1727}.
+    } with such women \parencite[pp.~3-4]{louis_xv_code_1727}.
     Despite this, there was a strong incentive to have these liaisons anyway.
-    Not only did men greatly outnumber women, but both White men and free women of color had much longer life expectancies than White women and free men of color (Beer, 1911, as cited in \citeauthor{klingler_if_2003}, \citeyear[pp.~15-16]{klingler_if_2003}; \citeauthor{hanger_coping_1997}, \citeyear[p.~220]{hanger_coping_1997}.
+    Not only did men greatly outnumber women, but both White men and free women of color had much longer life expectancies than White women and free men of color (Beer, 1911, as cited in \citeauthor{klingler_if_2003}, \citeyear[pp.~15-16]{klingler_if_2003}; \citeauthor{hanger_coping_1997}, \citeyear[p.~220]{hanger_coping_1997}).
     The simplest path towards creating a family for White men was thus with enslaved women or free women of color.
     For the women, particularly enslaved women, in a world where they had few options \parencite[p.~65]{martin_placage_2000}, these relationships offered them benefits up to the possibility of freedom for themselves and their offspring, hence becoming free people of color.
-    The practice thus continued through the 18th century and into the 19th century, often facilitated by balls where women would be chosen (\citeauthor{featherstonhaugh_excursion_1968}, \citeyear[pp.~141-142]{featherstonhaugh_excursion_1968}; \citeauthor{latrobe_southern_1986}, \citeyear[p.~77]{latrobe_southern_1986}).
+    The practice continued through the 18th century and into the 19th century, often facilitated by balls where women would be chosen (\citeauthor{featherstonhaugh_excursion_1968}, \citeyear[pp.~141-142]{featherstonhaugh_excursion_1968}; \citeauthor{latrobe_southern_1986}, \citeyear[p.~77]{latrobe_southern_1986}).
     These were lifelong commitments in some cases, whereas in others they might have lasted only a few years, often ending when the man entered into a legal marriage with a White woman \parencite[pp.~326-327]{martineau_society_1966-1}.
     % Only 6 "mulattoes" were in the 1732 census for New Orleans (Everett 1966:32-33)
     % The Black Code gave children the status of their mothers (Louis XV 1727:4)
@@ -529,10 +528,10 @@
     The impact that the arrival of Americans had on the identity and status of Creoles was perhaps initially felt most directly by free people of color.
     At the outset of the 19th century, free people of color were certainly not the social and legal equals of Whites, but they did enjoy significantly more rights than enslaved people.
     Free people of color were able to obtain an education, use the courts, work, and own property \parencite[p.~34]{tregle_early_1952}, and they were able to trade real estate, boats, lumber, and jewelry \parencite[p.~242]{hanger_avenues_1990}.
-    Such trading was lucrative for free people of color, to such an extent that they themselves owned enslaved people \parencite[p.~15]{stone_negro_1900}.
+    Such trading was lucrative enough for some that they themselves owned enslaved people \parencite[p.~15]{stone_negro_1900}.
     Indeed, in opposition to proposed legislation that would strip the right of free people of color to own property, including owning enslaved people, a newspaper editorial from 1852 argued that free people of color were more disdainful of enslaved people than even Whites were \parencite[pp.~172-173]{sterkx_free_1972}.
     Although this measure failed, others were successful (\foreign{e.g.}, \citeauthor{harrington-bryan_marcus_2000}, \citeyear[p.~52]{harrington-bryan_marcus_2000}; \citeauthor{johnston_race_1970}, \citeyear[p.~231]{johnston_race_1970}).
-    Such moves highlight the continual deterioration of the rights of free people of color throughout the 1800s as Whites became more and more unsettled by their status, wanting instead to collapse them in with enslaved people, but they also had the effect of undermining the plaçage system by making it more difficult to free enslaved people or for free people of color to obtain inheritances.
+    Such moves highlight the continual deterioration of the rights of free people of color throughout the 1800s as Whites became more and more unsettled by their status, wanting instead to collapse them in with enslaved people, but these moves also had the effect of undermining the plaçage system by making it more difficult to free enslaved people or for free people of color to obtain inheritances.
     
     % The proposal was ultimately not passed nor did another proposal in 1846 to remove the right of free people of color to bear witness in court.
     % In this case, one can easily see the fragile intermediate social status of free people of color in the argument that the chair of the judiciary committee made against the measure in the legislature.
@@ -550,7 +549,7 @@
     % All these of these actions had the effect of undermining the purpose of the plaçage system for enslaved people and free people of color while also making it more difficult to be freed in the first place and more difficult to get ahead once freed, bringing free people of color closer in line with the lot of enslaved people.
 
     Attempts to collapse free people of color and enslaved people into one category intensified further after the Civil War.
-    Louisiana was in a state of financial ruin \parencite[pp.~428-429]{winters_civil_1963}, and that combined with the loss of the war and finding even more Blacks walking freely left Whites feeling that their place in the social order was insecure, a sentiment that found reuglar expression in newspapers \parencite[pp.~173-175]{blassingame_black_1973}
+    Louisiana was in a state of financial ruin \parencite[pp.~428-429]{winters_civil_1963}, and that combined with the loss of the war and finding even more Blacks walking freely left Whites feeling that their place in the social order was insecure, a sentiment that found regular expression in newspapers \parencite[pp.~173-175]{blassingame_black_1973}.
     Public calls were soon being made for all Louisianians, all Creoles, to declare themselves either Black or White and nothing in between.
     For their part, former free people of color, not immune to the change in fortunes in the state, were split on whether to align themselves with formerly enslaved people or with Whites \parencite[p.~135-137]{dominguez_white_1986}.
     For Whites, the choice of how to racially identify former free people of color was not a difficult one.
@@ -559,23 +558,22 @@
 
     Whereas the term \lexi{Creole} was applied to Whites, free people of color, and enslaved people through much of the 19th century, it was after the war that the ``Creole myth'' came about, asserting that only those of pure White blood were Creoles \parencite{tregle_creoles_1992}.
     In the most innocuous of perpetuations of this myth, one finds clarifying appositions in letters such as one from 1878 that equate Creoles with those ``of French descent'' in contrast to Americans who were those ``of English descent'' \parencite[p.~245]{mccants_they_1970}.
-    Something of the old definition still resides in this contrast as Americans, especially when referred to in F\&C (\foreign{i.e.}, \foreign{les Américains}), is said even today to refer to those who are not from South Louisiana, but the emphasis on French descent suggests a White European identity for Creoles as the other end of that contrast.
+    Something of the old definition still resides in this contrast as American, especially when referred to in F\&C (\foreign{i.e.}, \foreign{les Américains}), is said even today to refer to those who are not from South Louisiana, but the emphasis on French descent suggests a White European identity for Creoles as the other end of that contrast.
     In other perpetuations of the myth, there was the addition of the romanticized idea of Creoles having been a sort of aristocratic class.
     \textcite{fortier_french_1884} described Creoles specifically as Whites born in the Americas with either French or Spanish heritage, arguing that they ``occupied a high standing'' before the war (p.~98).
     His evidence was a list of successful politicians going back to the second governor of the US state, a list that was in fact in direct contradiction to the original use of the term \lexi{Creole} as it included people like the fifth governor of Louisiana, Pierre Derbigny, who was born in France.
     Finally, some perpetuations of the myth were rather dehumanizing.
     For example, \textcite{tinker_toucoutou_1928}, writing well after Reconstruction, did not disregard that non-Whites were described as Creoles but rather claimed that this was always with a lowercase \orth{c} indicating an adjective as could be applied to any type of Louisiana product: carrots, eggs, or in this case people (pp.~7-8).
-    Of course, Tinker did not provide any evidence for this claim, and it flies in the face of much of the evidence already discussed here.
+    Of course, Tinker did not provide any evidence for this claim, and it flies in the face of much of what has already been discussed here.
 
     The Creole myth was likely more successful at redefining who Creoles were during the colonial and antebellum periods than in redefining Creoles contemporaneously.
-    There were and still are people who openly identify as Creoles of color, although they have been effectively aggregated into the Black side of a Black-White racial dichotomy that has been pursued since Reconstruction.
-    By the turn of the century, those who were not White or could not pass for White were subject to Jim Crow laws such as the poll tax that was implemented by the Louisiana constitution of 1898 \parencite[pp.~80-81]{louisiana_constitution_1898}.
-    This created the impetus for some Creoles of color to attempt to pass as White.
-    The practice of passing has been documented in New Orleans where families would pass for the sake of the success of their businesses in the 1940s.
-    Some in the 1970s and 1980s continued the practice, as well, sometimes passing in all social contexts, sometimes in limited contexts, sometimes asserting their Whiteness so forcefully that they deny their heritage and sometimes not \parencite[pp.~200-203]{dominguez_white_1986}.
+    There were and still are people who openly identify as Creoles of color in the sense of descending from free people of color, but by the turn of the century, Creoles who were not White or could not pass for White were subject to Jim Crow laws such as the poll tax that was implemented by the Louisiana constitution of 1898 \parencite[pp.~80-81]{louisiana_constitution_1898}.
+    This created the impetus for some such Creoles of color to attempt to pass as White.
+    The practice of passing has been documented up through the 1940s in New Orleans where families would pass for the sake of the success of their businesses.
+    Some in the 1970s and 1980s continued the practice, as well, where passing would be carried out sometimes in all social contexts, sometimes in limited contexts, and sometimes with such a forceful assertion of one's Whiteness that one denies one's heritage \parencite[pp.~200-203]{dominguez_white_1986}.
     Situations such as this are why \textcite{martin_placage_2000} argued that the tenuous existence of Creoles of color has created a schism between them and non-Creole Blacks that endured up until her time at least (pp.~69-70), perhaps not entirely different from the roles discussed in Section \ref{sec:united_states} for the small Black bourgeoisie in the US, the Pardos in Brazil, and the Coulereds in South Africa.
-    Indeed, the drastic changes in the social and political landscape since the first Creoles came about have resulted in the category and by extension the people being difficult to pin down.
-
+    
+    Such drastic changes in the social and political landscape since the first Creoles came about have resulted in the category and by extension the people being difficult to pin down.
     More recently, researchers have attempted to clarify the definition of Creole by asserting that they are multiracial people.
     \textcite{susberry_racial_2004} defined them as ``[m]ultiracial people whose ancestral history is connected to Louisiana'' (p.~8), while the Creoles of color with whom she worked described Creoles as mixed race with French or Spanish colonists in their ancestry (p.~56).
     \textcite{giancarlo_dont_2019} similarly stated that they are mixed race people with French, and not Spanish, cultural origins (p.~42).
@@ -770,10 +768,10 @@
       \textcite{bertrand_french_1965} did not employ the glottonym \lexi{Creole}, but given the prevalence of Creole-marked speech in Pointe Coupée especially (\citeauthor{klingler_if_2003}, \citeyear{klingler_if_2003}; \citeauthor{klingler_language_2003}, \citeyear[p.~81]{klingler_language_2003}; \citeauthor{rottet_language_1995}, \citeyear[p.~7]{rottet_language_1995}), it is likely that at least some of these respondents were treating \lexi{French} as referring to any French-based language used in the area.
     } at home during their childhoods whereas 53.5\% reported speaking only English and 9.0\% reported speaking both.
     For those who reported speaking only French as children, only 68\% still spoke it frequently as adults \parencite[pp.~18-19]{bertrand_french_1965}, all of which demonstrates a shift away from French.
-    By 1970, the US census indicated that 572,262 Louisianians had French as their childhood home language (\citeauthor{johnson_louisiana_1976}, \citeyear[pp.~19/36]{johnson_louisiana_1976}; \citeauthor{neumann_creole_1985}, \citeyear[p.~16]{neumann_creole_1985}), although CODOFIL itself had given a much higher and more optimistic estimate of 1.5 million around that same time \parencite[p.~36]{johnson_louisiana_1976}.
+    By 1970, the US census indicated that 572,262 Louisianians had French as their childhood home language (\citeauthor{johnson_louisiana_1976}, \citeyear[pp.~19/36]{johnson_louisiana_1976}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~16]{neumann-holzschuh_creole_1985}), although CODOFIL itself had given a much higher and more optimistic estimate of 1.5 million around that same time \parencite[p.~36]{johnson_louisiana_1976}.
     Later in that decade, \textcite{smith-thibodeaux_francophones_1977} provided a rough guess of 300,000 to 500,000 French-speakers in Louisiana based on reflections from CODOFIL's previous estimate and national census records (p.~43).
     Often left out of these estimates were estimates for creolophones.
-    One of the few examples came from \textcite{neumann_creole_1985} a bit later where she estimated there to be between 60,000 and 80,000 extant.
+    One of the few examples came from \textcite{neumann-holzschuh_creole_1985} a bit later where she estimated there to be between 60,000 and 80,000 extant.
     She used census data to arrive at this number, reasoning that a certain proportion of those Louisianians who identified as Black and francophone in fact spoke Creole (p.~20).
     % In South Louisiana, 83% of children born in the early 1900s spoke French as their primary language but only 21% for those born between 1956 and 1960 according to census records (Bernard 2003:34)
     
@@ -797,7 +795,7 @@
     Isolation can also be social, however, as in the example of how well Indians in Terrebonne-Lafourche maintained their use of French.
     During the era of formal segregation, White and Black schools both existed but many Indians did not go to either as they were not allowed into the White schools and were not willing to attend the Black schools \parencite[Roy, 1959, as cited in][pp.~61-62]{rottet_language_1995}.
     Despite the disadvantages of physical isolation and the ills of segregation, both inadvertantly helped perpetuate the use of French.
-    However, as isolation broke down in the wake of compulsory education, the oil boom, World War II, and mass communication, South Louisiana became more Americanized (\citeauthor{conrad_acadians_1978}, \citeyear[p.~15]{conrad_acadians_1978}; \citeauthor{neumann_creole_1985}, \citeyear[p.~49]{neumann_creole_1985}), and with that Americanization came a greater propensity towards English.
+    However, as isolation broke down in the wake of compulsory education, the oil boom, World War II, and mass communication, South Louisiana became more Americanized (\citeauthor{conrad_acadians_1978}, \citeyear[p.~15]{conrad_acadians_1978}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~49]{neumann-holzschuh_creole_1985}), and with that Americanization came a greater propensity towards English.
     % Likewise, Pointe Coupee Creole was in part maintained due to 19th century residents being insular to the point of marrying cousins as a norm (Klingler 2003 "Turn":109)
 
     \subsection{Domain indicators}
@@ -888,14 +886,14 @@
 
       Looking again at domains of use, the negativity about the future of F\&C appears warranted even in the 20th century.
       \textcite{rottet_language_1995} based his view on the fact that his data showed a shift in apparent time from using French almost always in all social contexts to using mostly English (pp.~137-138).
-      For creolophones in Breaux Bridge, \textcite{neumann_creole_1985} reported that speakers used the language only with ``des amis ou des personnes de même niveau social''\footnote{
+      For creolophones in Breaux Bridge, \textcite{neumann-holzschuh_creole_1985} reported that speakers used the language only with ``des amis ou des personnes de même niveau social''\footnote{
         friends or people of the same social status
       } (p.~25).
       Looking more holistically at all of South Louisiana, CODOFIL estimated that almost all French interactions were with friends and family as opposed to public domains such as the workplace \parencite[p.~5]{henry_espoir_1990}.
       In contrast, \textcite{brown_pronominal_1988}, perhaps as a result of her desire to be more optimistic about the future of F\&C, specifically looked for participants in Avoyelles and Assumption parishes who preferred French in all contexts and was successful in finding them (p.~70).
       However, the fact that she had to actively search out such participants corroborates the idea that F\&C was losing out to English in most domains.
       This sort of shrinking of contexts of use is exactly what one expects to find with endangered languages and heritage languages such as Wisconsin West Frisian \parencite[p.~237]{ehresmann_phonological_2015}.
-      As \textcite{fishman_bilingualism_2000} argued, widespread individual bilingualism without diglossia generally implies a transitional period from one language to another (p.~79), and as \textcite{neumann_creole_1985} long ago reported, diglossia has not been a thing for young people in Louisiana who by and large always use English (pp.~27-28).
+      As \textcite{fishman_bilingualism_2000} argued, widespread individual bilingualism without diglossia generally implies a transitional period from one language to another (p.~79), and as \textcite{neumann-holzschuh_creole_1985} long ago reported, diglossia has not been a thing for young people in Louisiana who by and large always use English (pp.~27-28).
       % A language shift is the process by which a speech community of a language comes to speak a different langauge to the exclusion of the first (Weinreich 1953/1967:68/94-95)
       % The language is disappearing, perhaps through through Campbell & Muntzel's (1989) concept of gradual death rather than radical death as earlier projections seemed ready to announce
       % Language shift in most contexts is constrained by ethnicity where Cajuns have increased their use of French in some contexts but decreased in others whereas Indians have decreased in all contexts (Rottet 1995:139)
@@ -912,7 +910,7 @@
       This feels especially true of Creole.
       Public events such as language discussion tables are common in the region but almost always ideologically centered on French, whereas my own experience was that it was fairly easy to find relatively young Creole speakers in St Landry and St Martin parishes by random inquiry in public places.
       The status of Creole is in fact poorly estimated.
-      \textcite{neumann_creole_1985} relied on census data about race and language to arrive at her estimate (p.~20), and \citeauthor{klingler_probleme_2005}'s (\citeyear{klingler_probleme_2005}) much more recent estimate of 30,000 does not seem to be based on anything other than a rough guess (p.~351).
+      \textcite{neumann-holzschuh_creole_1985} relied on census data about race and language to arrive at her estimate (p.~20), and \citeauthor{klingler_probleme_2005}'s (\citeyear{klingler_probleme_2005}) much more recent estimate of 30,000 does not seem to be based on anything other than a rough guess (p.~351).
       As always, the energy is applied to answering questions about F\&C is rather almost always applied to French only.
       % A language "acquired as an L1 in a natural setting, typically in the home or the community" (Ehresmann & Bousquette 2015:235)
 
