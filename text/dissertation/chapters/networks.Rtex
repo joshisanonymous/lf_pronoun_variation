@@ -80,19 +80,21 @@
 
   \section{Social network analysis}
     Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she studied in Belfast, Ireland.
-    While this approach has found notable uses in the field since then \parencite[\foreign{e.g.}][]{dodsworth_social_2017, li_two-step_2000, paolillo_virtual_1999, sharma_scalar_2017}, the vast majority of methodological developments have occurred in other fields, notably sociology, mathematics, and computer science, a very brief overview of which will be relevant to will be covered here.
+    While this approach has found notable uses in the field since then \parencite[\foreign{e.g.}][]{dodsworth_social_2017, li_two-step_2000, paolillo_virtual_1999, sharma_scalar_2017}, the vast majority of methodological developments have occurred in other fields such as sociology, mathematics, and computer science, a brief overview of which will be covered here.
 
-    A network was originally defined as a social field of a given individual made up of their friends and kin where links to the individual represented interaction of some sort \parencite[p.~43]{barnes_class_1954}.
+    A network was originally defined as a social field of a given individual made up of their friends and kin where links to the individual represented interaction of some sort \parencite[p.~43]{barnes_class_1954}, which today we would more specifically call a personal network.
     Visually, this can be represented as points (\foreign{e.g.}, friends and kin) and lines (\foreign{e.g.}, interactions).
     These points are typically referred to as nodes or vertices and these lines as ties or edges.
-    Nodes often often represent individuals, as they do in the present study, but can also represent organizations or other social entities, and in the broader field of network theory, they can be almost anything, from web pages to terminals in an electrical circuit.
+    Nodes often represent individuals, as they do in the present study, but can also represent organizations or other social entities, and in the broader field of network theory, they can be almost anything, from web pages to terminals in an electrical circuit.
     % A liaison person is a point in a network which links two network sectors and whose ties to one or both of those sectors are all weak, often being a point at one end of a bridge (Granovetter 1973:1367-1368)
 
     Ties are perhaps more complex in what they may represent as they are generally more abstract.
     While originally conceptualized as representing interactions, which is still inherently an aspect of ties, there are various types of interactions -- those one has with close friends or with a bank teller or with a boss -- which can be further specified by measuring the frequency of those interactions, placing a value on each type of interaction, and identifying whether interactions are one direction or bi-directional.
-    In essence, one is measuring not only interactions but also the strength of those interactions or in other words the strength of ties \parencite{granovetter_strength_1973}.
+    In essence, one is measuring not only interactions but also the strength of those interactions or, as it has famously been called, the strength of ties \parencite{granovetter_strength_1973}.
     In practice, much of this is difficult to measure, so often proxies are used to quantify the strength of a tie.
-    For instance, in \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) case, she simply identified the relationship between the two nodes as being between kin, neighbors, coworkers, or friends (p.~52), each of which made up an attributes of ties but were equally weighted between each other.
+    For instance, in \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) case, she simply identified the relationship between the two nodes as being between kin, neighbors, coworkers, or friends (p.~52), each of which constituted attributes of ties but were equally weighted between each other.
+    Likewise, the methodology used in the current study only allows for qualifying tie strength as strong versus less strong.
+    Such quantifications in social network analysis are both numerous represent the primary advantage of this approach.
     % What are ties and what can ties represent?
       % Ties perhaps have their beginnings in Simmel's work on social geometry (Hollstein 2021)
         % A dyad is a micro level social relationship consisting of two individuals and one tie and a triad three individuals and three ties (Simmel 1902, as cited in Andersen & Taylor 2013:123)
@@ -106,29 +108,32 @@
         % This is probably more about HOW weak the ties are, as it's not difficult to include weakER ties, but it would be to include ties as weak as, say, the grocery store cashier that one encounters once a month
           % Granovetter (1973) proposed using four different measures to determine tie strength: the amount of time of the existence of the tie, the emotional intensity of the relationship, the intimacy (mutual confiding) of the relationship, and reciprocal services rendered across the tie (1361)
 
-    Measuring the strength of ties is just one of the many ways in which networks can be quantified, that quantification being the primary advantage of this approach.
-    Another example would be quantifying social distance as the shortest path between two nodes \parencite[p.~1366]{granovetter_strength_1973}.
-    In sociolinguistics, the quantificational nature of social network analysis has been noted as lending itself well to analyzing interaction patterns and the spread of linguistic change \parencite[pp.~262-263]{dodsworth_speech_2014}.
-    Importantly, measures can be taken that apply to personal (or egocentric) networks or total networks \parencite[p.~250]{bott_family_1971}.
-    While the analyses carried out here are primarily carried out on personal networks, there are some analyses of the total network, as well.
-    It is thus important to have a general understanding of each type of analysis.
+    % Measuring the strength of ties is just one of the many ways in which networks can be quantified, that quantification being the primary advantage of this approach.
+    % Another example would be quantifying social distance as the shortest path between two nodes \parencite[p.~1366]{granovetter_strength_1973}.
+    % In sociolinguistics, the quantificational nature of social network analysis has been noted as lending itself well to analyzing interaction patterns and the spread of linguistic change \parencite[pp.~262-263]{dodsworth_speech_2014}.
+    
     % social network analysis has been noted for being particularly useful for analyzing communities where macro-social variables such as social class are not relevant \parencite[pp.~172-173]{milroy_language_1987}
     % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
       % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
 
-    Total or whole network analysis is what it sounds like, and possibly what most people think of when first learning about social network analysis, and that is the analysis of an entire community or set of communities using a network approach.
-    It is essentially the macro-social level of social network analysis.
-    This is also what makes this sort of analysis, when applied to social networks, much rarer than personal network analysis in that it is contingent on elaborating all network nodes and ties.
-    A truly valid total network analysis must not leave any part of the network unaccounted for as all nodes and ties will impact the statistics that are then generated.
-    Total network analysis is therefore usually conducted for very small, discrete, well-defined communities such as the classic study of a karate club \parencite{zachary_information_1977}, or it is conducted for communities where only very specific, easily documented types of ties are used for a strictly delineated area, such as actors appearing in feature films listed on the website IMDb where ties are simply those with whom they have co-starred in these films \parencite{watts_networks_1999}.
+    Social network analysis can be divided into two types of analyses: personal (or egocentric) network analysis and total (or whole) network analysis \parencite[p.~250]{bott_family_1971}.
+    This division is based partially on the perspective one takes when looking at a network, either examining the ties that extend from an individual (personal network) or examining a network as a whole (total network), but in practice, the difference is constrained more by the limits of data collection.
+    Total network analysis cannot be carried out if any portion of the network is unaccounted for, making it quite rare to apply to any community that is not small, discrete, and well-defined \parencite[\foreign{e.g.},][]{mcneill_lol_2018, watts_networks_1999, zachary_information_1977}.
+    In sociolinguistics, the only aspect of total network analyses that have been used have been measures of centrality which highlight, often somewhat crudely, how integrated an individual is within a given speech community (\foreign{e.g.}, \citeauthor{eckert_linguistic_2000}, \citeyear[pp.~216-219]{eckert_linguistic_2000}; \citeauthor{labov_principles_2001}, \citeyear[p.~350]{labov_principles_2001}) rather than within a given network or network cluster.
 
-    This type of analysis can highlight useful information, however.
-    Some classic examples include calculating the density of a network, meaning the ratio of actual ties to possible ties that represents whether a network is close-knit or loose-knit (\citeauthor{barnes_networks_1968}, \citeyear[p.~118]{barnes_networks_1968}; \citeauthor{bott_family_1971}, \citeyear[p.~59]{bott_family_1971}), or calculating the dispersion of the network as the sum of all of its internal distances \parencite[p.~727]{bavelas_communication_1950}.
-    There are always various community detection algorithms that act on the structural properties of the network \parencite[\foreign{e.g.},][]{aslak_constrained_2017, newman_finding_2004, waltman_smart_2013}.
-    Communities in this case, then, are defined as dense clusters within a network that highlight heavy interaction.
-    Relatedly, the centrality of different components of the total network or within detected communities can be quantified in numerous ways.
-    Some of these identify important ties in the network \parencite[\foreign{e.g.},][]{freeman_set_1977}, while most identify important nodes \parencite[\foreign{e.g.},][]{brin_anatomy_1998, katz_new_1953, kleinberg_hubs_1999, kleinberg_authoritative_1999, rochat_closeness_2009}.
-    In sociolinguistics, this last class of analyses have been the main form carried out, often somewhat crudely, for purposes such as establishing individuals who are sociolinguistic ``stars'' or ``icons'' (\citeauthor{eckert_linguistic_2000}, \citeyear[pp.~216-219]{eckert_linguistic_2000}; \citeauthor{labov_principles_2001}, \citeyear[p.~350]{labov_principles_2001}).
+    % Total or whole network analysis is what it sounds like, and possibly what most people think of when first learning about social network analysis, and that is the analysis of an entire community or set of communities using a network approach.
+    % It is essentially the macro-social level of social network analysis.
+    % This is also what makes this sort of analysis, when applied to social networks, much rarer than personal network analysis in that it is contingent on elaborating all network nodes and ties.
+    % A truly valid total network analysis must not leave any part of the network unaccounted for as all nodes and ties will impact the statistics that are then generated.
+    % Total network analysis is therefore usually conducted for very small, discrete, well-defined communities such as the classic study of a karate club \parencite{zachary_information_1977}, or it is conducted for communities where only very specific, easily documented types of ties are used for a strictly delineated area, such as actors appearing in feature films listed on the website IMDb where ties are simply those with whom they have co-starred in these films \parencite{watts_networks_1999}.
+
+    % This type of analysis can highlight useful information, however.
+    % Some classic examples include calculating the density of a network, meaning the ratio of actual ties to possible ties that represents whether a network is close-knit or loose-knit (\citeauthor{barnes_networks_1968}, \citeyear[p.~118]{barnes_networks_1968}; \citeauthor{bott_family_1971}, \citeyear[p.~59]{bott_family_1971}), or calculating the dispersion of the network as the sum of all of its internal distances \parencite[p.~727]{bavelas_communication_1950}.
+    % There are always various community detection algorithms that act on the structural properties of the network \parencite[\foreign{e.g.},][]{aslak_constrained_2017, newman_finding_2004, waltman_smart_2013}.
+    % Communities in this case, then, are defined as dense clusters within a network that highlight heavy interaction.
+    % Relatedly, the centrality of different components of the total network or within detected communities can be quantified in numerous ways.
+    % Some of these identify important ties in the network \parencite[\foreign{e.g.},][]{freeman_set_1977}, while most identify important nodes \parencite[\foreign{e.g.},][]{brin_anatomy_1998, katz_new_1953, kleinberg_hubs_1999, kleinberg_authoritative_1999, rochat_closeness_2009}.
+    % In sociolinguistics, this last class of analyses have been the main form carried out, often somewhat crudely, for purposes such as establishing individuals who are sociolinguistic ``stars'' or ``icons'' (\citeauthor{eckert_linguistic_2000}, \citeyear[pp.~216-219]{eckert_linguistic_2000}; \citeauthor{labov_principles_2001}, \citeyear[p.~350]{labov_principles_2001}).
     % Community detection
       % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
         % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
@@ -161,13 +166,14 @@
         % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
       % Racially homogenous communities lead to more essentialist views of race among children (Deeb et al. 2011; Pauker et al. 2016, both as cited in Roth et al. 2023:49)
 
-    The other approach to social network analysis, that of personal (or egocentric) network analysis, is far less demanding of resources to carry out than total network analysis, which likely explains why it is these analyses that have been carried out in more traditional-looking variationist sociolinguistics studies \parencite[\foreign{e.g.},][]{sharma_style_2011, sharma_scalar_2017}.
+    The other approach to social network analysis, that of personal (or egocentric) network analysis, is far less demanding of resources to carry out than total network analysis.
+    While still rare in sociolinguistics, they have been carried out in more traditional-looking variationist studies \parencite[\foreign{e.g.},][]{sharma_style_2011, sharma_scalar_2017} and have the advantage of not attempting to adapt network measures to non-network data as when calculating centrality in a speech community.
     Ego, in this case, refers to the node whose perspective is taken in the analysis, leaving all other nodes connected to ego either directly or indirectly to be referred to as alters \parencite[p.~6]{perry_egocentric_2018}.
     In practice, the alters who are collected for ego in such analyses are only those who are directly connected, making up what is called a primary or first-order star network, named as such because a resulting graph of the network would form a star with ego at the center.
     Alternatively, one may include the whole primary or first-order zone, which would add any existing ties between ego's direct alters, or even second-order or $n$th-order zones, which bring these analyses to a point of looking more like total network analyses \parencite[pp.~113-114]{barnes_networks_1968}.
     Calculating statistics for personal networks is essentially about quantifying aspects of an individuals social world.
     Data collected might include the mix of ethnicities, nationalities, or genders of ego's network \parencite{botha_social_2018, li_two-step_2000, sharma_scalar_2017}, as just a few examples.
-    Likewise, the primary data collected for personal networks in the present study was their ethnic make-ups, specifically to the ends of determining if there is evidence of segregation between Creoles and Cajuns.
+    The present study represents an addition to the literature of another personal network analysis where what is quantified for each participant's network is the ethnic make-up of their alters.
 
     % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
     % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
@@ -175,7 +181,7 @@
       % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
         % This is more about how one conceptualizes of community
 
-  \section{Segregation, homophily, and racialization}
+  \section{Homophily and racialization}
     % The approach for identifying ethnic segregation in the present study is to directly measure ethnic homophily in personal networks.
     % What is meant by these terms thus needs to be clarified, particularly for segregation as there are many ways to conceptualize segregation.
     % Much of the early work done on segregation was during the Jim Crow era in the United States so that what was often meant was racial segregation institutionalized in law \parencite[\foreign{e.g.},][]{duncan_methodological_1955, park_racial_1914}.
@@ -234,7 +240,7 @@
     % Non-homophilous, intimate ties would represent the sort of quality contacts that reduce prejudice according to contact theory, so their existence would be a positive sign that segregation is not as complete as it might otherwise be.
     % In the present study, this distinction was encoded in the two types of ties elicited.
 
-  \section{Segregation in Louisiana}
+  \section{Racial homophily in Louisiana}
     \label{sec:segregation_louisiana}
     % There is something of a dearth of work on segregation specifically between Creoles and Cajuns in Louisiana.
     % Where the subject has been broached, the broader American social categories of Black and White have been used as proxies given the associations between Black and Creole and reciprocally White and Cajun \parencite[\foreign{e.g.},][]{mayeux_racial_2024} rather than establishing more directly whether Creoles and Cajuns are segregated from each other.
