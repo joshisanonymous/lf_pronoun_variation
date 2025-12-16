@@ -193,7 +193,50 @@
       % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
         % This is more about how one conceptualizes of community
 
-  \section{Homophily and racialization}
+  \section{Racial homophily in Louisiana}
+    \label{sec:homophily_louisiana}
+    % What is homophily in more detail?
+    More specifically, the aim of the present study was to identify whether the ethnic make-up of participants' networks was more or less homophilous relative to their own self-identifications as Creole or Cajun.
+    \textcite{lazarsfeld_friendship_1954} defined homophily as ``a tendency for friendships to form between those who are alike in some designated respect'' (p.~23).
+    While homophily often does often pertain to friendships, it is perhaps better to think of it as a tendency to form like-ties in general as one can form ties that represent friendships but also romantic relationships, work relationships, family relationships, and so on.
+    Referring to homophily as a tendency also implies that it is a mechanism that engenders ties, but the term is often used to describe ties after the fact, as well.
+    When a distinction needs to be made, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
+    The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also be arrived at by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
+    For the current study, however, this was not an important consideration, particularly because while ethnicity/race is not immutable, it is also not as regularly modifiable as, for instance, political affiliation.
+    % This is a dyadic mechanism that is one of the three micro-level mechanisms that influence total network structure, the other two being a individual mechanism (sociality, where only one's personal traits lead to the creation of ties) and a triadic mechanism (triadic closure, where a shared alter leads influences the creation of a tie) (Goodreau et al. 2009:104)
+    % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
+
+    % What is the connection between homophily and racialization?
+      % In a society with racial inequality, labor opportunities are limited if informal associations are racially homophilous as, even in the absence of legally enforced inequality, those of the dominant race provide social capital such as job opportunities (Loury 1977, as cited in McDonald 2011:317)
+      % Racial minorities generally have "fewer high status and influential contacts than white men" (McDonald 2011:319, citing many studies)
+
+    % Where have we seen this connection play out?
+    % Beyond the logical argument, however, there is empirical evidence that homophily and segregation go hand in hand.
+    Data for US high schools in the 1990s, for example, showed widespread racial homophily in friendship personal networks \parencite[pp.~118-119]{goodreau_birds_2009}, a time when US schools were also shown to be racially segregated \parencite{orfield_racial_2006}.
+    Likewise, \textcite{dixon_contact_2003}, in analyzing informal segregation on a South African beach, found spatial racial segregation while also observing over 99.9\% racial homogeneity within the small groups that were spending time on the beach together (p.~12), effectively documenting racial homophily simultaneously with racial segregation.
+    Perhaps the most directly relevant evidence, however, was \citeauthor{zhao_networks_2023}'s (\citeyear{zhao_networks_2023}) longitudinal study of how friendship networks develop in Sweden where she found that less ethnic segregation in early life environments led to less ethnically homophilous friendship personal networks later on in those same environments.
+    % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
+    Race/ethnicity was the strongest factor in network homophily in the results of the 1985 General Social Survey (GSS) \parencite{marsden_homogeneity_1988}.
+    Segregation could also be seen in marriages with almost all Blacks and Whites on the 1990 census entering into racially homophilous partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks with generally all young people in 1994-1995 forming by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
+    Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.
+
+    % What do we already know about its existence in Louisiana?
+    One study from the early 2000s even touched on the racial make-up of friendship personal networks of Creoles of color.
+    Those who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole had mostly White friends, and those who identified protean (\foreign{i.e.}, racially fluid) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
+    This result highlighted that there was still a meaningful distinction between Black identity and Creole identity for some and that this distinction was related in some way to the racial composition of Creoles' networks.
+    
+    % The relationship between homophily and segregation, while reasonable as an assumption, can and should be more clearly established in order to use homophily as a proxy for segregation.
+    A logical argument for this comes from the argument that homophily is effectively a test of whether social features are salient \parencite[p.~29]{blau_crosscutting_1984}.
+    One can imagine that, in order to socially organize around a feature, that feature most be recognizable on some level for individuals in that organization.
+    In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are not only salient in the community but more salient than other shared statuses or values along which Creoles and Cajuns could form homophilous ties.
+    Indeed, as was mentioned in Section \ref{sec:creole_history}, many distinctive cultural practices are shared by Creoles and Cajuns, such as religion, cuisine, and music (\citeauthor{esman_henderson_1985}, \citeyear[p.~7]{esman_henderson_1985}; \citeauthor{spitzer_cajuns_1977}, \citeyear{spitzer_cajuns_1977}, \citeauthor{trepanier_french_1988}, \citeyear{trepanier_french_1988}).
+    In other words, if Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks, a remaining explanation would be a situation of broad racial segregation that breeds homophily.
+
+    Perhaps something about homophily of strong versus weak ties...
+    % Kretschmer et al. (2025) reviews this a bit
+
+    % -------------------------------------------------------------- %
+
     % The approach for identifying ethnic segregation in the present study is to directly measure ethnic homophily in personal networks.
     % What is meant by these terms thus needs to be clarified, particularly for segregation as there are many ways to conceptualize segregation.
     % Much of the early work done on segregation was during the Jim Crow era in the United States so that what was often meant was racial segregation institutionalized in law \parencite[\foreign{e.g.},][]{duncan_methodological_1955, park_racial_1914}.
@@ -215,30 +258,6 @@
     % In the present study, for instance, the social organization is the intimate and F\&C language-use relationship network of Lafayette and the surrounding parishes, and the social feature is Creole and Cajun ethnicity.
     % However, as personal network ethnic homophily was used as a proxy for segregation, the subunits of that social organization cannot be defined.
     
-    More specifically, the aim of the present study was to identify whether the ethnic make-up of participants' networks was more or less homophilous relative to their own self-identifications as Creole or Cajun.
-    \textcite{lazarsfeld_friendship_1954} defined homophily as ``a tendency for friendships to form between those who are alike in some designated respect'' (p.~23).
-    While homophily often does often pertain to friendships, it is perhaps better to think of it as a tendency for like-ties to form in general as one can form ties that represent friendships but also romantic relationships, work relationships, family relationships, and more.
-    Referring to homophily as a tendency also implies that it is a mechanism that engenders ties, but the term is often used to describe ties after the fact, as well.
-    When a distinction needs to be made, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
-    The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
-    For the current study, however, this was not an important consideration, particularly because while ethnicity/race is not immutable, it is also not as regularly modifiable as, for instance, political affiliation.
-    % This is a dyadic mechanism that is one of the three micro-level mechanisms that influence total network structure, the other two being a individual mechanism (sociality, where only one's personal traits lead to the creation of ties) and a triadic mechanism (triadic closure, where a shared alter leads influences the creation of a tie) (Goodreau et al. 2009:104)
-    % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
-
-    % The relationship between homophily and segregation, while reasonable as an assumption, can and should be more clearly established in order to use homophily as a proxy for segregation.
-    A logical argument for this comes from the argument that homophily is effectively a test of whether social features are salient \parencite[p.~29]{blau_crosscutting_1984}.
-    One can imagine that, in order to socially organize around a feature, that feature most be recognizable on some level for individuals in that organization.
-    In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are not only salient in the community but more salient than other shared statuses or values along which Creoles and Cajuns could form homophilous ties.
-    Indeed, as was mentioned in Section \ref{sec:creole_history}, many distinctive cultural practices are shared by Creoles and Cajuns, such as religion, cuisine, and music (\citeauthor{esman_henderson_1985}, \citeyear[p.~7]{esman_henderson_1985}; \citeauthor{spitzer_cajuns_1977}, \citeyear{spitzer_cajuns_1977}, \citeauthor{trepanier_french_1988}, \citeyear{trepanier_french_1988}).
-    In other words, if Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks, a remaining explanation would be a situation of broad racial segregation that breeds homophily.
-
-    % Beyond the logical argument, however, there is empirical evidence that homophily and segregation go hand in hand.
-    Data for US high schools in the 1990s, for example, showed widespread racial homophily in friendship personal networks \parencite[pp.~118-119]{goodreau_birds_2009}, a time when US schools were also shown to be racially segregated \parencite{orfield_racial_2006}.
-    Likewise, \textcite{dixon_contact_2003}, in analyzing informal segregation on a South African beach, found spatial racial segregation while also observing over 99.9\% racial homogeneity within the small groups that were spending time on the beach together (p.~12), effectively documenting racial homophily simultaneously with racial segregation.
-    Perhaps the most directly relevant evidence, however, was \citeauthor{zhao_networks_2023}'s (\citeyear{zhao_networks_2023}) longitudinal study of how friendship networks develop in Sweden where she found that less ethnic segregation in early life environments led to less ethnically homophilous friendship personal networks later on in those same environments.
-    % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
-
-    Perhaps something about homophily of strong versus weak ties...
     % The connection between homophily and segregation, then, is well-supported, but as the objective of this study is to analyze racialization in the Creole and Cajun population, prudence demands connecting the informal segregation being considered here to racialization, as well.
     % Again, the logic of such a connection makes sense on its face.
     % Segregation is necessary in order to carry out the internal colonization of a people, which is a component of racialization (see Section \ref{sec:race_ethnicity}).
@@ -252,8 +271,8 @@
     % Non-homophilous, intimate ties would represent the sort of quality contacts that reduce prejudice according to contact theory, so their existence would be a positive sign that segregation is not as complete as it might otherwise be.
     % In the present study, this distinction was encoded in the two types of ties elicited.
 
-  \section{Racial homophily in Louisiana}
-    \label{sec:segregation_louisiana}
+  % \section{Racial homophily in Louisiana}
+  %   \label{sec:homophily_louisiana}
     % There is something of a dearth of work on segregation specifically between Creoles and Cajuns in Louisiana.
     % Where the subject has been broached, the broader American social categories of Black and White have been used as proxies given the associations between Black and Creole and reciprocally White and Cajun \parencite[\foreign{e.g.},][]{mayeux_racial_2024} rather than establishing more directly whether Creoles and Cajuns are segregated from each other.
     % This association does in fact exist, however, as has been reaffirmed in this very study, so it will be instructive to contextualize the Creole-Cajun segregation analyzed here with a sketch of Black-White segregation in Louisiana and the United States generally.
@@ -288,19 +307,19 @@
     % Indeed, indices of dissimilary comparing segregation between free people of color to Whites in 1860 yielding a mean of 41.7 for northern cities and 30.4 for southern, neither being very high \parencite[pp.~257-258]{berlin_slaves_1974}, but by 1940, segregation was much more severe and much more uniform across the country, with a mean of 86.0 for northern cities and 84.9 for southern \parencite[pp.~39-41]{taeurber_negroes_1965}, this last value including the Louisiana cities of New Orleans and Shreveport. % Both added to intro lit review
 
     % Jim Crow, in the legal sense, ended after the Civil Rights Act in 1964 and \court{Jones v. Mayer} and the Fair Housing Act in 1968 \parencite[pp.~viii-ix]{rothstein_color_2017}, but in the sense of the existence of segregation, it is ongoing. % Added to intro lit review
-    Despite this -- and despite race/ethnicity being the strongest factor in network homophily on the 1985 General Social Survey (GSS) \parencite{marsden_homogeneity_1988} -- it has been argued that the subject was absent from American discourse in the 1970s and 1980s, as if the problem had been fixed and any signs of racial segregation simply needed time to naturally unravel \parencite[pp.~1-4]{massey_american_1993}.
+    % Despite this, it has been argued that the subject was absent from American discourse in the 1970s and 1980s, as if the problem had been fixed and any signs of racial segregation simply needed time to naturally unravel \parencite[pp.~1-4]{massey_american_1993}.
     % The ongoing nature of segregation was evident right through the 1990s.
     % While racial occupational desegregation had progressed after 1966, it had seemingly ceased to change after 1980 \parencite{tomaskovic-devey_documenting_2006}. % Added to intro lit review
-    Segregation could also be seen in marriages with almost all Blacks and Whites on the 1990 census entering into racially homophily partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks with generally all young people in 1994-1995 forming by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
+    % Segregation could also be seen in marriages with almost all Blacks and Whites on the 1990 census entering into racially homophily partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks with generally all young people in 1994-1995 forming by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
     % In education, segregation was still acknowledged as a reality by the Supreme Court in 1992 that, nevertheless, did not allow them to protect desegregation programs, a ruling that was repeated in 2007 \parencite[pp.~xiii-xiv]{rothstein_color_2017}. % Added to intro lit review
 
     % These signs of segregation did not disappear in the 21st century.
-    Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.
+    % Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.
     % Between 1990 and 2010, there was an decrease in low-diversity majority White neighborhoods nationwide (66.0\% > 42.5\%) as well as low-diversity majority Black neighborhoods.
     % However, in Louisiana, there was actually an increase in low-diversity majority Black neighborhoods \parencite[pp.~176-177]{wright_patterns_2014}. % Added to intro lit review
-    One study from the early 2000s even touched on the racial make-up of friendship personal networks of Creoles of color.
-    Those who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole had mostly White friends, and those who identified protean (\foreign{i.e.}, racially fluid) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
-    This result highlighted that there was still a meaningful distinction between Black identity and Creole identity for some and that this distinction was related in some way to the racial composition of Creoles' networks.
+    % One study from the early 2000s even touched on the racial make-up of friendship personal networks of Creoles of color.
+    % Those who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole had mostly White friends, and those who identified protean (\foreign{i.e.}, racially fluid) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
+    % This result highlighted that there was still a meaningful distinction between Black identity and Creole identity for some and that this distinction was related in some way to the racial composition of Creoles' networks.
 
     % Most recently, racial segregation in Louisiana has implication for environmental issues, health issue, and education issues, much of it related to residential segregation.
     % There exists an area between Baton Rouge and New Orleans known as Cancer Alley due to a preponderance of chemical plants that have greatly impacted those closest to the plants who are predominately Black.
@@ -739,3 +758,5 @@
   \section{Conclusion}
 
     % Neumann (1985) looked at Blacks in her study of Breaux Bridge Creole because she claimed that their language was «moins affectés par la "décréolisation"» (2)
+
+    % Do Creole participants' networks lack high status alters that could act as good social capital resources?
