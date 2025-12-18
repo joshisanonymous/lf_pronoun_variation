@@ -93,6 +93,21 @@
     Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she studied in Belfast, Ireland.
     While this approach has found notable uses in the field since then \parencite[\foreign{e.g.}][]{dodsworth_social_2017, li_two-step_2000, paolillo_virtual_1999, sharma_scalar_2017}, the vast majority of methodological developments have occurred in other fields such as sociology, mathematics, and computer science.
     A brief overview of those methods that have were used in the present study will be covered here.
+    % Jon wants to talk about all the ethnicity studies cited in Sharma & Dodsworth, soo...
+      % Ash & Myhill (1986) found that the amount of cross-racial contact between Blacks and Whites in Philadelphia had an impact on the percentage of Black features that speakers used
+        % Those with little contact were at the far ends whereas those with considerable contact met each other in the middle
+        % "Contact" was an index based on the reported demographics of their neighborhoods, schools, and how many other race friends and spouses/lovers they had
+      % Stoessel (2002) found that immigrants to the US were more likely to maintain their mothertongue if their US networks had more speakers of the language and if those speakers were in close proximity (106)
+        % Rich personal network information and qualitative follow-up
+      % Cheshire et al. (2008) looked at the effect of the ethnic (includes Black) homophily of personal networks on English features of London speakers
+        % Homophily was an index from 1 to 5 with 1 being equivalent to no different ethnicities from ego and 5 being 80% different ethnicities (6)
+          % No one scored 1 or 2, so all had at least 40% non-ethnically homophilous alters
+        % Their results suggest that having ethnically non-homophilous networks can make one a bridge for the diffusion of vowel features from minority ethnic groups, although their results for consonants were much more nuanced
+      % M. Newman (2010) looked at the ethnic make-up of personal networks for Latinos in New York
+        % These were almost all entirely ethnically homophilous, making it difficult to draw any conclusions about how differences in personal networks related to their English speech patterns.
+        % This is perhaps why his use of personal networks was limited to some qualitative comments in the discussion of his results
+      % M. Hoffman & J. Walker (2010) asked participants if they have partners, friends, neighbors, and co-workers were the same ethnicity as themselves as part of measuring their ethnic orientation
+        % This was only nominally social network analysis or at least was social network analysis that was not directly implemented into analyses which rather used the ethnic orientation as a social variable
 
     A network was originally defined as a social field of a given individual made up of their friends and kin where links to the individual represented interaction of some sort \parencite[p.~43]{barnes_class_1954}, which today we would more specifically call a personal network.
     Visually, this can be represented as points (\foreign{e.g.}, friends and kin) and lines (\foreign{e.g.}, interactions).
@@ -207,10 +222,18 @@
     % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
 
     % What is the connection between homophily and racialization?
-      % In a society with racial inequality, labor opportunities are limited if informal associations are racially homophilous as, even in the absence of legally enforced inequality, those of the dominant race provide social capital such as job opportunities (Loury 1977, as cited in McDonald 2011:317)
-      % Racial minorities generally have "fewer high status and influential contacts than white men" (McDonald 2011:319, citing many studies)
+      % Having the wrong network can be detrimental to one's life outcomes
+      % One way in which a group's disadvantages are perpetuated then is to be cut off from ties with a more privileged group
+        % This could be exemplified as having homophilous personal networks
+      % That homophily around a social characteristic is possible suggests that that characteristic is salient
+        % Logically, salience is needed for racialization to take place as one needs to know what group one is exploiting in order to exploit that group
+      % Network effects can also exasperate inequalities (DiMaggio & Garip 2012)
+        % In other words, if one begins life from a disadvantaged position, one's disadvantages can be amplified if one forms networks of other like-individuals, and perhaps more importantly, those who begin from a privileged position gain even more advantages by forming networks with other like-individuals
+        % This can be seen, for instance, in how social capital resources are obtained in the labor market
+          % Having White men in one's occupational network gives one more access to social capital at least in terms of jobs leads and higher social status alters, but racial minorities do not generally have White men in their occupational networks (McDonald 2011)
+      % Essentially, networks
 
-    % Where have we seen this connection play out?
+    % Where have we seen racial homophily?
     % Beyond the logical argument, however, there is empirical evidence that homophily and segregation go hand in hand.
     Data for US high schools in the 1990s, for example, showed widespread racial homophily in friendship personal networks \parencite[pp.~118-119]{goodreau_birds_2009}, a time when US schools were also shown to be racially segregated \parencite{orfield_racial_2006}.
     Likewise, \textcite{dixon_contact_2003}, in analyzing informal segregation on a South African beach, found spatial racial segregation while also observing over 99.9\% racial homogeneity within the small groups that were spending time on the beach together (p.~12), effectively documenting racial homophily simultaneously with racial segregation.
