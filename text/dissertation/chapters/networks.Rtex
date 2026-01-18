@@ -422,6 +422,49 @@
       % The peasantness of personal network alters was more predictive of the choice of Hungarian over German than the peasantness of the participants themselves
     % Lippi-Green (1989) examined vocalic language change in Austria and found that one's centrality in the local economy was associated with maintaining the conservative variant
       % She developed an index similar to how Milroy did
+    % Reynolds (2002) found that Punjabi/Urdu was more likely to be used in Sheffield, UK for participants who had more Punjabi friends (but there was no statistically significant association for kin alters)
+      % Effect sizes weren't given, so it is not clear if the ethnic composition of networks or age were more impactful
+      % Calculated the "ethnic tie percentage" of participants' personal networks as the percentage of alters who spoke Punjabi or Urdu
+        % He seemed to do this only for exchange ties, which accounted for most of his participants' networks
+        % The percentage was high across the board with a mean of ~80% Punjabi and median of ~82%
+    % Cheshire (1978) developed a sort of measure of centrality that she called "peer-group status" to analyze the use of non-standard -s verb inflections among adolescents in Reading, UK
+      % Centrality ranged from 0 to 2 and was determined impressionistically
+    % W. Edwards (1992) created a vernacular culture index (VCI), inspired by the indices of Milroy (1980) and Cheshire (1978)
+      % The questions targetted both physical/geographic integration into the Detroit neighborhood as well as psychological/attitudinal orientations towards the neighborhood
+        % The attitudinal questions are probably not measuring centrality but rather something more akin to Carmichael's (2017) place orientation index
+      % The higher values for the index correlated with higher use of Black variants of half of the phonological variables examined
+      % Although White speakers were not included in the study, these results still lent some support to the idea that a lack of interaction between Blacks and Whites leads to differences in their speech patterns as one of the questions asked for the index targeted whether participants often interacted with Whites or not, which a strong geographic integration into this almost entirely Black neighborhood also effectively captured
+        % Previous work indicated that Whites in Detroit had different behavior for the chosen linguistic variables, as well (Edwards 1988; Wolfram 1969:169)
+    % Feagin (1986) offered some qualitative discussion of her participants' networks but, since she did not collect her data with networks in mind, she was unable to implement Milroy's (1980) network strength scale for quantitative analysis
+      % In fact, when she did attempt to do this for some of the teenagers in her data, the results were quite difficult to interpret
+        % This was likely due to such indices necessarily needing to developed for each community individually, as Lippi-Green (1989) argued (218)
+    % Labov & Harris (1986) essentially enumerated one Black individual's, Eddie's, personal network slightly beyond the first-order zone and found that the speech patterns of his alters were better explained by their social histories than their place in the resulting network
+      % Because they did not obtain the personal networks of the alters, this conclusion was likely premature, especially when social network analysis has proven predictive in all other cases
+      % Notable is that they only carried out some pseudo-quantitative analyses on the network, meaning they literally drew the network, highlighted how much each alter used a feature, and gave their interpretations of the image
+    % Lanza & Svendsen (2007) looked at language choice among Filipinos in Norway and found that the higher the ethnic homophily in their networks, the more likely they were to use Filipino languages with their kids
+      % Like many, they split networks into exchange networks and interactive networks
+        % Interactive networks were generally less ethnically homophilous than exchange networks
+    % A. Wong (2010) looked at a small sample of Chinese-Americans in New York City (N = 4) and found that those with more ethnic homophily in their networks did not use the New York variant of /ɔ/ whereas the others did.
+      % For the other vocalic variables, her speakers had the same behavior and it was only partially in line with the local pattern
+      % She measured homophily in the same way as was done here.
+      % Ties were divided into affective (instead of interactive or passive) and exchange, but this information was not used in the analysis
+    % Kirke (2005) looked at a small sample of Irish immigrants in New York City (N = 4) and found that the one participant who effectively maintained the Irish variant also had by far the more Irish network
+      % While this was something of a measure of homophily, she also calculated the tie strengths for alters and factored that into the Irishness measure
+    % Sharma & Sankaran (2011) examined the Asianness of the networks of different generations of Punjabis in the UK and only found this factor to be significant for one of the three generations
+    % Schleef et al. (2011) looked at the acquisition of local-like variation of (ing) by Polish adolescents in Edinburgh and Scotland and found higher proportions of Polish alters led to more [ɪŋ] in the former city but not the latter.
+      % Their network data collection was underexplained but seemed to consist of simply asking participants if they mostly interacted with Polish or British adolescents
+        % In fact, it was not even clear if they asked about the language of alters (Polish vs English) or the nationality (Polish vs British) since their descriptions changed throughout the article
+    % Dodsworth & Benton (2017) found some evidence that being structurally closer to the core of Raleigh, North Carolina's network led to greater maintenance of southern vowels
+      % Their methodology was unique for sociolinguistics as they used a bipartite network to get closer to a total network analysis and used cohesive blocking to uncover participants' position in the network
+    % Fridland's (2003) small sample in Memphis suggested that African-Americans with greater homophily in their social networks take greater part in the southern vowel shift
+      % Pretty small number of participants at 10, 5 under 25 and 5 over 40, and so there were no statistical analyses
+      % Alters were not collected but rather a questionnaire was used that asked participants to self-report the racial mix of their close ties
+    % Botha (2018) found that the amount and range of Singapore English particles used by those in first order versus second order network zones differed
+      % Also, first and second order zones were not defined as in Barnes as what Botha called second order zones were made up of alters who were still directly tied to ego
+        % Instead, the zones were essentially clusters that were connected to ego but minimally to each other
+      % This is perhaps the only time that the language of alters was recorded, although it is a missed opportunity as he did not compare their language to that of the connected egos
+    % Sneller (2024) found that local orientation and the type of schools speakers attended had an impact on the vowel system speakers adopted in Philadelphia
+      % She attempted to employ Dodsworth & Benton's (2017) bipartite network methodology with schools as the other class of nodes, but no network measures were taken
 
   \section{Methods}
     \label{sec:network_methods}
