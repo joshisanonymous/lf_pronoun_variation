@@ -25,11 +25,21 @@
     \label{sec:sna_sociolinguistics}
     % The idea of SNA, at least in terms of the importance of understanding with whom speakers interact, has been present in linguistics for a long time
       % Bloomfield (1933) argued that individuals who interact frequently will likely come to speak similarly (46-47)
+        % This has been found time and time again, including when it comes to interracial interactions
+          % In a case study, Delilah, a White woman in Cincinnati, grew up and lived in an environment that was heavily African-American and as such was a fluent speaker of AAVE (Sweetland 2002)
         % Gal (1979) had argued that not all interactions are the same, however, so it's not as simple as that (15)
       % This idea is strong enough that even after network analysis proper found its way into socioilnguistics, it and other network underpinnings have been invoked conceptually without the implementation of network measures (\foreign{e.g.}, \citeauthor{eckert_linguistic_2000}, \citeyear[pp.~216-219]{eckert_linguistic_2000}; M. Hoffman & J. Walker 2010; \citeauthor{labov_principles_2001}, \citeyear[p.~350]{labov_principles_2001}; Sneller, 2024)
         % Maybe include Eckert's quote
         % The quantificational nature of network analysis has made it tempting to invoke even when ethnography work or non-network statistical modeling is sufficient
       % In sociolinguistics, the quantificational nature of social network analysis has been noted as lending itself well to analyzing interaction patterns and the spread of linguistic change \parencite[pp.~262-263]{dodsworth_speech_2014}.
+        % Diffusion was a central focus on early SNA developments in sociology, especially when focusing on the strength of ties (Granovetter 1970, 1973; Milgram 1967)
+        % As well as in language diffusion
+          % Downes (1984) and Labov (1980) viewed strong ties as the ones that act as bridges for the diffusion of linguistic features (both cited in L. Milroy 1980/1987:200)
+          % It's been argued that joint negotiation rather than simple individual-to-individual contact is what leads to the uptake of linguistic features in a network (Eckert 2019, as cited in Sharma & Dodsworth 2020:353-354)
+          % Women commonly have these diffuse, open networks in urban Western contexts (Sharma & Dodsworth 2020:350)
+          % In Philadelphia, the early adopters of language change were women with many on-block and off-block ties, highlighting the importance both of centrality in a community and interactions outside of the community (Labov 2001, as cited in Sharma & Dodsworth 2020:348/351)
+            % Labov (2001) found Celeste S. in Philadelphia to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
+            % This is hard to tell in my study as I only looked at personal networks, but I can at least say whether women's networks are more ethnically diverse than men's
 
     % SNA really took off in sociolinguistics during the second wave, which produced important findings but also produced methods that have stayed relatively stagnant ever since
       % The main finding was that how integrated a speaker is in a community can explain their linguistic behavior where their the broad demographic categories to which they belong may not, which has generally been done by measuring centrality
@@ -50,10 +60,17 @@
           % Feagin (1986) offered some qualitative discussion of her participants' networks but, since she did not collect her data with networks in mind, she was unable to implement Milroy's (1980) network strength scale for quantitative analysis
             % In fact, when she did attempt to do this for some of the teenagers in her data, the results were quite difficult to interpret
               % This was likely due to such indices necessarily needing to developed for each community individually, as Lippi-Green (1989) argued (218)
-          % This is at least in part due to such centrality measures requiring total network analyses, for which the impracticality of carrying out these analyses has limited their use in sociolinguistic research primarily to online networks (e.g. Kim et al. 2014; McNeill 2018; Paolillo 1999) 
+          % This is at least in part due to such centrality measures requiring total network analyses, for which the impracticality of carrying out these analyses has limited their use in sociolinguistic research primarily to online networks (e.g. Kim et al. 2014; McNeill 2018; Paolillo 1999)
+            % The results have been similar when more generalizable centrality measures have been used, though
+              % Central users, judged by frequency of interaction, of the IRC EFNet channel #india mostly chose to send messages in Hindi (Paolillo 1999)
 
     % The other approach that has proven fruitful has been identifying characteristics of speakers' personal networks to understand how integrated they are into a community as a whole but how those with whom they interact directly relate to them
       % Typically, this means analyzing the homophily of personal networks
+        % \textcite{lazarsfeld_friendship_1954} defined homophily as ``a tendency for friendships to form between those who are alike in some designated respect'' (p.~23).
+        % While homophily often does often pertain to friendships, it is perhaps better to think of it as a tendency to form like-ties in general as one can form ties that represent friendships but also romantic relationships, work relationships, family relationships, and so on.
+        % Referring to homophily as a tendency also implies that it is a mechanism that engenders ties, but the term is often used to describe ties after the fact, as well.
+        % When a distinction needs to be made, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
+        % The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also be arrived at by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
       % Studies using this approach have sometimes obtained much more in depth network information (e.g., Gal 1979; Stoessel 2002)
       % Gal (1979) examined language choice in an Austrian village in part through social network analysis
         % She obtained alters by visiting once a week and asking who they interacted with that day
@@ -63,8 +80,12 @@
       % Stoessel (2002) found that immigrants to the US were more likely to maintain their mothertongue if their US networks had more speakers of the language and if those speakers were in close proximity (106)
 
     % Race and ethnicity have been examined in terms of homophily and other measures, as well
-      % Not Blacks and Whites in the US
+      % Not Blacks and Whites and/or not in the US
         % Language choice
+          % Within Dyirbal-English speaking communities, the amount of Dyirbal used in casual conversation was relative to the usage of the least monolingual Dyirbal speaker in the group (Schmidt 1985, as cited in L. Milroy 1980/1987:176)
+            % Doesnèt seem to be related to race or ethnicity, though
+          % W. Li et al. (1992/2000) found that the language choice of Chinese-English bilinguals in Tyneside, England was most accurately predicted by the ethnic index of their personal networks (184)
+            % While this might seem obvious, those with high ethnic indices were more likely to choose Chinese with interlocutors that those with low indices would use a mix of Chinese and English or just English with (W. Li et al. 1992/2000:184)
           % Reynolds (2002) found that Punjabi/Urdu was more likely to be used in Sheffield, UK for participants who had more Punjabi friends (but there was no statistically significant association for kin alters)
             % Effect sizes weren't given, so it is not clear if the ethnic composition of networks or age were more impactful
             % Calculated the "ethnic tie percentage" of participants' personal networks as the percentage of alters who spoke Punjabi or Urdu
@@ -94,6 +115,12 @@
           % Schleef et al. (2011) looked at the acquisition of local-like variation of (ing) by Polish adolescents in Edinburgh and Scotland and found higher proportions of Polish alters led to more [ɪŋ] in the former city but not the latter.
             % Their network data collection was underexplained but seemed to consist of simply asking participants if they mostly interacted with Polish or British adolescents
               % In fact, it was not even clear if they asked about the language of alters (Polish vs English) or the nationality (Polish vs British) since their descriptions changed throughout the article
+          % Sharma (2017)
+            % Network diversity and accent repertoire range were associated for British Asian English in London (Sharma 2017, as cited in Sharma & Dodsworth 2020:355)
+            % British South Asians in London used more Punjabi as the Indianness of their personal networks increased (Sharma 2017:406)
+              % If we conceptualize style shifting as code-switching, accent repertoire ranges also increasd as the diversity of networks increased (i.e., speakers who were members of more communities had more variety in their styles) (406)
+            % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
+              % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
       % Blacks and Whites in the US
         % Labov & Harris (1986) essentially enumerated one Black individual's, Eddie's, personal network slightly beyond the first-order zone and found that the speech patterns of his alters were better explained by their social histories than their place in the resulting network
           % Because they did not obtain the personal networks of the alters, this conclusion was likely premature, especially when social network analysis has proven predictive in all other cases
@@ -107,6 +134,7 @@
           % Homophily was an index from 1 to 5 with 1 being equivalent to no different ethnicities from ego and 5 being 80% different ethnicities (6)
             % No one scored 1 or 2, so all had at least 40% non-ethnically homophilous alters
           % Their results suggest that having ethnically non-homophilous networks can make one a bridge for the diffusion of vowel features from minority ethnic groups, although their results for consonants were much more nuanced
+        % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
     
     % Dodsworth & Benton (2017) found some evidence that being structurally closer to the core of Raleigh, North Carolina's network led to greater maintenance of southern vowels
       % Their methodology was unique for sociolinguistics as they used a bipartite network to get closer to a total network analysis and used cohesive blocking to uncover participants' position in the network
@@ -123,78 +151,8 @@
 
     % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
 
-  % \section{Comparison with non-social network approaches}
-    % Comparison to speech communities
-      % This approach is in fact present in the current study
-      % Definitions
-        % By 1999, there was still no agreed upon definition for speech communities (Holmes & Meyerhoff 1999:178, citing Santa Ana & Parodi 1998)
-        % A group of people who speak the same language or the same variety of a language (Bloomfield 1933, as cited in Hymes 1967/1972:54)
-        % A group of people sharing rules for the conduct and interpretation of speech (rules of speaking), as well as for the interpretation of at least one linguistic variety (Hymes 1967/1972:54)
-        % "'[A]ny human aggregate characterized by regular and frequent interaction by means of a shared body of verbal signs and set off from similar aggregates by significant differences'" (Gumperz 1968, as cited in G. Sankoff 2015:24)
-        % A community "where speakers acknowledge the quantitative limits to style shift as set by the extent of interspeaker differences within the community," as well as sharing "the qualitative norms and direction of style shift" and "evaluative reactions to variables" (Bell 1984:154)
-        % A community whose linguistic repertoires are continuous, not requiring translators for communication (J. Fishman 1967/2000:77)
-        % Generalizability
-          % Eckert (2000) suggested that speech communities are not descriptions of objective reality but of the limits of what a researcher's findings are applicable to, following Rickford (1986) (30-34)
-          % Eckert (2000) stated that speech communities "delimit the social locus of [sociolinguists'] account of language use," in a sense, providing organization to what is heterogenous (30)
-      % Examples and continuing importance
-        % Holmes & Meyerhoff (1999), while introducing a special issue on communities of practice, characterized speech communities as still "productive and useful" (173)
-        % G. Sankoff (2015) described the speech community concept as "crucial to the sociolinguistic entreprise" (24)
-        % The whole of New York City was treated as a speech community, evidenced by the difference in speech of natives vs visitors, the consistency in how natives adapt their systems in different styles, and the uniformity of subjective evaluations when looking at natives vs natives+others (Labov 1966/2006:6)
-        % Montreal was argued to be a speech community because even non-native speakers of French were united with the native speakers "through the systematic acquisition of variability in the dominant language" (G. Sankoff 2015:38)
-        % G. Sankoff (2015) argued that Buang speakers in Papua New Guinea constituted a single speech community despite also claiming that Buang has two dialects and one distinct language (i.e., socially considered Buang but structurally unrelated) because the speakers shared an identity, "a common usage norm" (in this case they speak to each other in their own varieties of Buang instead of the lingua franca Tok Pisin), and they shared mutual intelligibility to a greater or lesser degree (33-34)
-      % Weaknesses
-        % Excludes people who are present but considered peripheral to the community in one way or another
-          % Labov (1966/2006) excluded non-native English speakers (45/98) and two African-Americans who had lived in NYC since the ages of 10 (118)
-          % Eckert (2000) excluded anyone who arrived at Belten High after the age of 8 following Chamber's (1995) and Payne's (1980) evidence that there's a marked cutoff in one's ability to adopt fully a new dialect after that point (82)
-          % G. Sankoff (2015) excluded recent immigrants to Montreal claiming that they "are not yet fully integrated into the community" (45)
-          % Bucholtz (1999) criticized the exclusion of "recent immigrants" and "transplants" when using the speech communities framework (208)
-          % Horvath & D. Sankoff (1987) argued that excluding speakers means that "important varieties may be left undescribed and possible sources of language change in progress may go undetected" (201)
-        % Lack of agency
-          % Bucholtz (1999) argued that the role of individuals in speech communities perspectives is "merely to instantiate the practices of the group" (209)
-          % Even individuals' identities have been argued to be static when using the speech community framework due to the reliance on social class variables (Bucholtz 1999:209)
-        % Since speech communities don't come from social theory as used in other social sciences, using this framework makes it more difficult to align sociolinguistic findings with other fields to ultimately "illuminate the social world" (204)
-    % Comparison to communities of practice
-      % Definitons
-        % Developed by Lave & Wenger (1991) who defined it as a group that comes together to carry out certain activities that they have a shared interest in
-        % This framework is perhaps more flexible than the speech communities framework
-          % Fans of radio announcer Mike Francesa were suggested to constitute a community of practice that self-identifies as the Mongo Nation (Tatman 2016:162)
-          % Bucholtz (1999) reported that the nerd girl club that she studied was not centered around any activity (214)
-      % Characteristics
-        % Schenkel et al. (2002 "Theorizing") aimed "to conceptualize the structural properties of communities of practice" by applying "network concepts and measures" used in social network analysis (1)
-          % Schenkel (2001) had previous argued that that every CoP consists of one (or many) social network(s), but not every social network forms a CoP (as cited in Assimakopoulos & Yan 2006:3)
-        % Communities of practice could be described as "nodes of 'strong ties' in an interpersonal network" (Wenger 1998, as cited in Schenkel et al. 2002 "Theorizing":6)
-          % Holmes & Meyerhoff (1999) also pointed out that social network analysis allows for weak ties whereas communities of practice demand "regular and mutually defining interaction" (179-180)
-          % The three factors that tie a community of practice together are mutual engagement, a joint enterprise, and a shared repertoire (i.e., way of doing) (Wenger 1998, as cited in Davies 2005:560)
-            % This effectively limits communities of practice to specific a specific type, whereas SNA is agnostic on what a tie can be based on
-        % Clusters (of all types) in social networks have been characterized as communities of practice (Eckert & Labov 2017:476)
-          % Eckert (2000) (I think?) characterized jock and burnout clusters as communities of practice
-            % Jocks and burnouts were indeed correlated with vowel variants (Eckert 2000:112-113/115-119)
-            % But Eckert (2000) also measured the number of extracurricular activities students partook in (156), which may be more indicative of the original use of the framework
-              % Extracurricular activity participation was correlated with negative concord use (Eckert 2000:164-165)
-          % This may be an overly strong characterization that effectively erases the concept of SNA
-        % Centrality
-          % CoPs have 4 levels of individual membership: 1) full participation (insider), 2) peripheral participation (partial knowledge, static or inbound trajectory), 3) marginal participation (partial knowledge, static or outbound trajectory), and 4) full non-participation (outsider) (Wenger 1998, cited in Davies 2005:565 and Schenkel et al. 2002 "Theorizing":5)
-          % Carrie was a peripheral nerd club member and as a result attempted to adjust her vocabulary to be more formal when interacting with the others (Bucholtz 1999:219)
-            % Though she might thus be viewed as unimportant or even insecure relative to the group, Bucholtz (1999) argued that she was "a cultural and linguistic broker" for the club who introduced words to the group that she picked up from other groups, referred to as "Carrie words" (219)
-        % Diffusion of features is part of the communities of practice framework, as well, with brokering, defined as a mechanism through which new practices are imported into the community of practice by those whose membership is legitimate enough to be listened to and distant enough to maintain a different perspective (Wenger 1998, cited in Davies 2005:566)
-          % Eckert's (2000) view was that those with more peripheral participation acted as the bridges for the diffusion of features from one community of practice to another (38-39)
-          % This isn't as formalized or quantifiable as in SNA
-      % Eckert & McConnell (1992) sum up the sort of features that emerge from communities of practice as shared ways of doing things, ways of talking, beliefs, values, and power relations (464)
-      % Use in sociolinguistics
-
   \section{Racial homophily in Louisiana}
     \label{sec:homophily_louisiana}
-    % What is homophily in more detail?
-    More specifically, the aim of the present study was to identify whether the ethnic make-up of participants' networks was more or less homophilous relative to their own self-identifications as Creole or Cajun.
-    \textcite{lazarsfeld_friendship_1954} defined homophily as ``a tendency for friendships to form between those who are alike in some designated respect'' (p.~23).
-    While homophily often does often pertain to friendships, it is perhaps better to think of it as a tendency to form like-ties in general as one can form ties that represent friendships but also romantic relationships, work relationships, family relationships, and so on.
-    Referring to homophily as a tendency also implies that it is a mechanism that engenders ties, but the term is often used to describe ties after the fact, as well.
-    When a distinction needs to be made, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
-    The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also be arrived at by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
-    For the current study, however, this was not an important consideration, particularly because while ethnicity/race is not immutable, it is also not as regularly modifiable as, for instance, political affiliation.
-    % This is a dyadic mechanism that is one of the three micro-level mechanisms that influence total network structure, the other two being a individual mechanism (sociality, where only one's personal traits lead to the creation of ties) and a triadic mechanism (triadic closure, where a shared alter leads influences the creation of a tie) (Goodreau et al. 2009:104)
-    % Status-homophily and value-homophily (Lazarsfeld & Merton 1954:37)
-
     % What is the connection between homophily and racialization?
       % Having the wrong network can be detrimental to one's life outcomes
       % One way in which a group's disadvantages are perpetuated then is to be cut off from ties with a more privileged group
@@ -205,194 +163,40 @@
         % In other words, if one begins life from a disadvantaged position, one's disadvantages can be amplified if one forms networks of other like-individuals, and perhaps more importantly, those who begin from a privileged position gain even more advantages by forming networks with other like-individuals
         % This can be seen, for instance, in how social capital resources are obtained in the labor market
           % Having White men in one's occupational network gives one more access to social capital at least in terms of jobs leads and higher social status alters, but racial minorities do not generally have White men in their occupational networks (McDonald 2011)
-      % Essentially, networks
-
-    % Where have we seen racial homophily?
-    % Beyond the logical argument, however, there is empirical evidence that homophily and segregation go hand in hand.
-    Data for US high schools in the 1990s, for example, showed widespread racial homophily in friendship personal networks \parencite[pp.~118-119]{goodreau_birds_2009}, a time when US schools were also shown to be racially segregated \parencite{orfield_racial_2006}.
-    Likewise, \textcite{dixon_contact_2003}, in analyzing informal segregation on a South African beach, found spatial racial segregation while also observing over 99.9\% racial homogeneity within the small groups that were spending time on the beach together (p.~12), effectively documenting racial homophily simultaneously with racial segregation.
-    Perhaps the most directly relevant evidence, however, was \citeauthor{zhao_networks_2023}'s (\citeyear{zhao_networks_2023}) longitudinal study of how friendship networks develop in Sweden where she found that less ethnic segregation in early life environments led to less ethnically homophilous friendship personal networks later on in those same environments.
-    % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
-    Race/ethnicity was the strongest factor in network homophily in the results of the 1985 General Social Survey (GSS) \parencite{marsden_homogeneity_1988}.
-    Segregation could also be seen in marriages with almost all Blacks and Whites on the 1990 census entering into racially homophilous partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks with generally all young people in 1994-1995 forming by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
-    Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.
-
+    
     % What do we already know about its existence in Louisiana?
     One study from the early 2000s even touched on the racial make-up of friendship personal networks of Creoles of color.
     Those who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole had mostly White friends, and those who identified protean (\foreign{i.e.}, racially fluid) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
     This result highlighted that there was still a meaningful distinction between Black identity and Creole identity for some and that this distinction was related in some way to the racial composition of Creoles' networks.
-    
-    % The relationship between homophily and segregation, while reasonable as an assumption, can and should be more clearly established in order to use homophily as a proxy for segregation.
-    A logical argument for this comes from the argument that homophily is effectively a test of whether social features are salient \parencite[p.~29]{blau_crosscutting_1984}.
+
+    Homophily is effectively a test of whether social features are salient \parencite[p.~29]{blau_crosscutting_1984}.
     One can imagine that, in order to socially organize around a feature, that feature most be recognizable on some level for individuals in that organization.
     In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are not only salient in the community but more salient than other shared statuses or values along which Creoles and Cajuns could form homophilous ties.
     Indeed, as was mentioned in Section \ref{sec:creole_history}, many distinctive cultural practices are shared by Creoles and Cajuns, such as religion, cuisine, and music (\citeauthor{esman_henderson_1985}, \citeyear[p.~7]{esman_henderson_1985}; \citeauthor{spitzer_cajuns_1977}, \citeyear{spitzer_cajuns_1977}, \citeauthor{trepanier_french_1988}, \citeyear{trepanier_french_1988}).
-    In other words, if Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks, a remaining explanation would be a situation of broad racial segregation that breeds homophily.
+    In other words, Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks because racialization has rendered these categories highly salient.
 
-    Perhaps something about homophily of strong versus weak ties...
-    % Kretschmer et al. (2025) reviews this a bit
-
-    % -------------------------------------------------------------- %
-
-    % The approach for identifying ethnic segregation in the present study is to directly measure ethnic homophily in personal networks.
-    % What is meant by these terms thus needs to be clarified, particularly for segregation as there are many ways to conceptualize segregation.
-    % Much of the early work done on segregation was during the Jim Crow era in the United States so that what was often meant was racial segregation institutionalized in law \parencite[\foreign{e.g.},][]{duncan_methodological_1955, park_racial_1914}.
-    % As discussed by \textcite{wu_segregation_2025}, segregation studies have often been centered on places rather than people.
-    % Much of the literature, as a result, analyzes residential segregation, which is ``the degree to which two or more groups live separately from one another'' \parencite[p.~282]{massey_dimensions_1988}.
-    % Notably, residential segregation does not have to be based on race, but neither does segregation have to be based on locations of domiciles.
-    % Even though \citeauthor{massey_dimensions_1988}'s definition is for residential segregation, one can imagine various ways in which two groups of people ``live separately'' that do not require them to be physically distant.
-    % Segregation can be defined more generally though as ``the differences in the distribution of social groups, such as black and whites, among units of social organization such as schools'' \parencite[p.~4]{james_measures_1985}.
-    % A definition such as this would allow, for instance, social groups to be men and women and the unit of social organization to be factories.
-    % Social organizations do not have to be such formally defined entities as bureaucracies, though.
-    % Segregation can in fact be informal \parencite{dixon_contact_2003}, voluntarily (re)producing segregation where no authority is explicitly enforcing it.
-    % In such cases, it is often useful to talk about social network segregation where, for instance, clusters are formed in friendship networks based on some salient feature \parencite{moody_race_2001, zhao_networks_2023}.
-
-    % There is also a long history of debate on how to best measure segregation.
-    % Numerous indices of segregation have been developed and cross-examined many times over right up to the present \parencite{duncan_methodological_1955, james_measures_1985, massey_dimensions_1988, wu_segregation_2025}.
-    % What these measures all generally have in common is the intuition that an absence of segregation would mean that subunits in some social organization have the same distribution of individuals along some social variable as the supraunit in that social organization \parencite[p.~3]{james_measures_1985}.
-    % In other words, if all of the neighborhoods in some town have the same balance of socioeconomic classes as the town does as a whole, this would suggest that there is no socioeconomic segregation in that town.
-    % The implication is that, to measure segregation, it is vital to identify the social organization one is analyzing, the subunits of that social organization, and for what social feature segregation is being analyzed.
-    % In the present study, for instance, the social organization is the intimate and F\&C language-use relationship network of Lafayette and the surrounding parishes, and the social feature is Creole and Cajun ethnicity.
-    % However, as personal network ethnic homophily was used as a proxy for segregation, the subunits of that social organization cannot be defined.
-    
-    % The connection between homophily and segregation, then, is well-supported, but as the objective of this study is to analyze racialization in the Creole and Cajun population, prudence demands connecting the informal segregation being considered here to racialization, as well.
-    % Again, the logic of such a connection makes sense on its face.
-    % Segregation is necessary in order to carry out the internal colonization of a people, which is a component of racialization (see Section \ref{sec:race_ethnicity}).
-    % Indeed, \citeauthor{clark_dark_1965}'s (\citeyear{clark_dark_1965}) description of ``dark ghettos'' as ``social, political, eduational, and--above all--economic colonies'' (p.~11) speaks directly to the connection between segregation and internal colonization.
-    % There is also empirical evidence, however, the most convincing of which is perhaps contact theory.
-    % Contact theory posits that inter-group contact reduces prejudice \parencite[p.~130]{lee_race_1943}, especially when that contact is high in quality \parencite{allport_nature_1954}.
-    % A meta-analysis covering decades of work on the theory concluded that it is born out and generalizable beyond contact between racialized groups to contact between all types of groups (\foreign{e.g.}, grouped by sexual orientation, disabilities, etc.) \parencite{pettigrew_meta-analytic_2006}.
-    % This suggests two things.
-    % The first is that, at the very least, segregation facilitates racialization by removing a means of developing understanding and empathy of the Other.
-    % The second is that, where non-homophilous alters exist, those alters would not constitute one's most intimate ties if segregation is simultaneously present.
-    % Non-homophilous, intimate ties would represent the sort of quality contacts that reduce prejudice according to contact theory, so their existence would be a positive sign that segregation is not as complete as it might otherwise be.
-    % In the present study, this distinction was encoded in the two types of ties elicited.
-
-  % \section{Racial homophily in Louisiana}
-    % \label{sec:homophily_louisiana}
-    % There is something of a dearth of work on segregation specifically between Creoles and Cajuns in Louisiana.
-    % Where the subject has been broached, the broader American social categories of Black and White have been used as proxies given the associations between Black and Creole and reciprocally White and Cajun \parencite[\foreign{e.g.},][]{mayeux_racial_2024} rather than establishing more directly whether Creoles and Cajuns are segregated from each other.
-    % This association does in fact exist, however, as has been reaffirmed in this very study, so it will be instructive to contextualize the Creole-Cajun segregation analyzed here with a sketch of Black-White segregation in Louisiana and the United States generally.
-
-    % General observations
+    % General observations about network qualities
       % It has been predicted that rural networks are more homogenous in education, race-ethnicity, and religion, but more heterogenous in age and gender, the latter due to ties being more with kin than friends (Beggs et al. 1996:312)
         % Gold (1976) claims that the sharecropper networks around Mamou in the early to mid 20th century were close knit out of necessity (272)
         % In Louisiana, less difference in density between urban and rural networks than found elsewhere in the US (Beggs et al. 1996:315)
         % Louisiana ties were less multiplex than elswhere in the US (Beggs et al. 1996:315), likely due to more kin ties (Beggs et al. 1996:319)
         % Louisiana ties tend to be longer lasting than elsewhere in the US (Beggs et al. 1996:315)
           % So not only more homogenous, but less likely to change, as well
+
+    % Racial homophily in the US
       % Race is one of the "widely recognized bases of adolescent friendship clustering" (Goodreau et al. 2009:108)
-      % Wright et al. (2014) argue that racial segregation is "a barometer of race relations" (174)
-
-    % It is perhaps most appropriate to begin such a sketch with the Jim Crow era rather than slavery as the latter did not allow for even the theoretical free movement of enslaved Blacks.
-    % The beginning of Jim Crow is somewhat fluid as there was no singular event that instituted it.
-    % Rather, its legal implementation occurred gradually after the Civil War with some notable moments such as the so-called Compromimse of 1877 where the federal government generally removed itself from the affairs of southern states and in effect made way for the passage of formal segregation laws \parencite{woodward_strange_1966}.
-    % Other important moments included the Supreme Court in 1883 rejecting the idea that housing discrimination was an expression of slavery that otherwise the 13th Amendment would disallow \parencite[pp.~viii-ix]{rothstein_color_2017}, and in Louisiana, the case of \court{Plessy v. Ferguson} that upheld that seating on public transportation could be racially segregated \parencite{groves_separate_1951}.
+      % Data for US high schools in the 1990s, for example, showed widespread racial homophily in friendship personal networks \parencite[pp.~118-119]{goodreau_birds_2009}.
+      % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
+      % Race/ethnicity was the strongest factor in network homophily in the results of the 1985 General Social Survey (GSS) \parencite{marsden_homogeneity_1988}.
+      % In marriages, almost all Blacks and Whites on the 1990 census entering into racially homophilous partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks, generally all young people in 1994-1995 formed by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
+      % Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.
     
-    % Each state individually passed laws that codified such segregation, with the result that Jim Crow spread across the country rather than started.
-    % The segregation that existed at this early point, then, was not uniform in character from state to state, and in fact was not particularly pronounced anywhere before the first few decades of the 20th century.
-    % In the north, segregation was not yet severe because there simply were not large concentrations of Blacks outside of the south.
-    % The proportion of the population in Chicago that was Black, for example, was 2.0\% in 1910 and only jumped during the Great Migration, reaching the much more significant proportion of 32.7\% in 1970 \parencite[pp.~220-221]{tolnay_african_2003}.
-    % In the south, on the other hand, segregation was not yet severe because the nature of slavery and later sharecropping, conceptually just a remodeled form of slavery, made it impractical to implement segregation.
-    % As \textcite{woodward_strange_1966} put it:
-    % \begin{quote}
-    %   In most aspects of slavery as practiced in the ante-bellum South, however, segregation would have been an inconvenience and an obstruction to the functioning of the system.
-    %   The very nature of the institution made separation of the races for the most part impracticable.
-    %   The mere policing of slaves required that they be kept under more or less constant scrutiny, and so did the exaction of involuntary labor.  (p.~12)
-    % \end{quote}
-    % Up through 1900, most Blacks in the south were agricultural laborers or sharecroppers, whereas Whites were primarily sharecroppers during that time, an socio-economic situation that held true in Louisiana specifically at least up to 1930 (\citeauthor{de_jong_aid_2000}, \citeyear[p.~106]{de_jong_aid_2000}; \citeauthor{irwin_where_1998}, \citeyear[p.~282]{irwin_where_1998}), although it is hardly plausible that this would counteract the effects of \foreign{de jure} segregation up to that time.
-    % Indeed, indices of dissimilary comparing segregation between free people of color to Whites in 1860 yielding a mean of 41.7 for northern cities and 30.4 for southern, neither being very high \parencite[pp.~257-258]{berlin_slaves_1974}, but by 1940, segregation was much more severe and much more uniform across the country, with a mean of 86.0 for northern cities and 84.9 for southern \parencite[pp.~39-41]{taeurber_negroes_1965}, this last value including the Louisiana cities of New Orleans and Shreveport. % Both added to intro lit review
+    % Contact theory suggests implications for homophilous networks
+      % Contact theory posits that inter-group contact reduces prejudice \parencite[p.~130]{lee_race_1943}, especially when that contact is high in quality \parencite{allport_nature_1954}.
+      % A meta-analysis covering decades of work on the theory concluded that it is born out and generalizable beyond contact between racialized groups to contact between all types of groups (\foreign{e.g.}, grouped by sexual orientation, disabilities, etc.) \parencite{pettigrew_meta-analytic_2006}.
+      % Non-homophilous, intimate ties would represent the sort of quality contacts that reduce prejudice according to contact theory, so a lack of such ties is expected in when identities are racialized
 
-    % Jim Crow, in the legal sense, ended after the Civil Rights Act in 1964 and \court{Jones v. Mayer} and the Fair Housing Act in 1968 \parencite[pp.~viii-ix]{rothstein_color_2017}, but in the sense of the existence of segregation, it is ongoing. % Added to intro lit review
-    % Despite this, it has been argued that the subject was absent from American discourse in the 1970s and 1980s, as if the problem had been fixed and any signs of racial segregation simply needed time to naturally unravel \parencite[pp.~1-4]{massey_american_1993}.
-    % The ongoing nature of segregation was evident right through the 1990s.
-    % While racial occupational desegregation had progressed after 1966, it had seemingly ceased to change after 1980 \parencite{tomaskovic-devey_documenting_2006}. % Added to intro lit review
-    % Segregation could also be seen in marriages with almost all Blacks and Whites on the 1990 census entering into racially homophily partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks with generally all young people in 1994-1995 forming by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
-    % In education, segregation was still acknowledged as a reality by the Supreme Court in 1992 that, nevertheless, did not allow them to protect desegregation programs, a ruling that was repeated in 2007 \parencite[pp.~xiii-xiv]{rothstein_color_2017}. % Added to intro lit review
-
-    % These signs of segregation did not disappear in the 21st century.
-    % Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.
-    % Between 1990 and 2010, there was an decrease in low-diversity majority White neighborhoods nationwide (66.0\% > 42.5\%) as well as low-diversity majority Black neighborhoods.
-    % However, in Louisiana, there was actually an increase in low-diversity majority Black neighborhoods \parencite[pp.~176-177]{wright_patterns_2014}. % Added to intro lit review
-    % One study from the early 2000s even touched on the racial make-up of friendship personal networks of Creoles of color.
-    % Those who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole had mostly White friends, and those who identified protean (\foreign{i.e.}, racially fluid) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
-    % This result highlighted that there was still a meaningful distinction between Black identity and Creole identity for some and that this distinction was related in some way to the racial composition of Creoles' networks.
-
-    % Most recently, racial segregation in Louisiana has implication for environmental issues, health issue, and education issues, much of it related to residential segregation.
-    % There exists an area between Baton Rouge and New Orleans known as Cancer Alley due to a preponderance of chemical plants that have greatly impacted those closest to the plants who are predominately Black.
-    % These areas are also unincorporated, giving residents little control over zoning or other remedies \parencite{mizutani_backyard_2019}. % Added to intro lit review
-    % A study of COVID-19 also showed that those in heavily Black areas of the state were more likely to contract the disease \parencite{scott_place_2023}. % Added to intro lit review
-    % In education, schools are still segregated to such an extent that debate on how to go about desegregate them is ongoing \parencite[\foreign{e.g.},][]{egalite_impact_2016}. % Added to intro lit review
-
-    % The evidence for Louisiana and the United States as racially segregated between Blacks and Whites in many areas of life is significant enough to go without saying, and indeed that is likely why \textcite{massey_american_1993} even long ago were able to argue that the subject was simply not discussed.
-    % It does, however, need to be said as long as it persists.
-    % What does not go without saying is that this same sort of segregation can be found between Creoles and Cajuns.
-    % Surely, the implication is that it is more or less identical to what is found between Blacks and Whites, but analyses of the situation are lacking, hence the goal of this study to examine what is happening in the social worlds of Creole and Cajun F\&C speakers.
-
-    % ------- Older notes -----------
-    % According to the GGS, mean age and education homophily in personal networks has not changed between 1985 and 2004 (J. A. Smith et al. 2014:439)
-    % Marital homogamy according to age and education has increased (Schwartz 2010, as cited in J. A. Smith et al. 2014:434)
-    % Occupational gender segregation has decreased steadily in the US between 1980 and 2003 (Tomaskovic-Devey et al. 2006, as cited in J. A. Smith et al. 2014:435)
-    % According to the GGS, mean education homophily in personal networks has not changed between 1985 and 2004 (J. A. Smith et al. 2014:439)
-    % According to the GGS, mean religious homophily in personal networks has decreased (0.76 > 0.71) between 1985 and 2004 (J. A. Smith et al. 2014:439)
-      % Marital homogamy according to religion has decreased (Fischer & Hout 2006, as cited in J. A. Smith et al. 2014:434)
-    % Differences between personal networks in rural vs urban areas
-      % Rural networks tend towards density and multiplexity, whereas urban networks tend towards spareness and uniplexity, although old working-class areas tend to function as "urban villages," essentially rural areas within urban areas (Turner 1967 [I think], as cited in L. Milroy 1980/1987:137)
-
-    % Race and ethnicity in the US
-      % White-Asian ties have increased between 1985 and 2004 (J. A. Smith et al. 2014:446-447)
-      % Taylor (1992) found that Black national leaders in the US formed a "considerably more closely knit" network, even though the White network had a longer history (as cited in Andersen & Taylor 2013:128)
-
-    % Social networks in South Louisiana
-      % Louisiana networks were more religiously homogenous than elsewhere in the US (Beggs et al. 1996:315)
-
-    % \subsection{Language choice constrained by personal networks}
-      % How am I conceptualizing "language" in this section?
-        % Including choice between styles
-      % In Oberwart, Austria, older people with more "peasantness" represented in their personal networks were much more likely to use Hungarian, but younger WOMEN with high peasantness networks chose German (Gal 1978, as cited in Sharma & Dodsworth 2020:353)
-      % Network diversity and accent repertoire range were associated for British Asian English in London (Sharm 2017, as cited in Sharma & Dodsworth 2020:355)
-      % Newcomers to two online beer communities generally adopt the linguistic features (they built LMs to draw comparisons) that are extant upon arrival but reject features that are brought in later on (Danescu-Niculescu-Mizil et al. 2013, as cited in I. Stewart et al. 2017:2)
-      % Central users of the IRC EFNet channel #india mostly chose to send messages in Hindi (Paolillo 1999:8)
-      % British South Asians in London used more Punjabi as the Indianness of their personal networks increased (Sharma 2017:406)
-        % If we conceptualize style shifting as code-switching, accent repertoire ranges also increasd as the diversity of networks increased (i.e., speakers who were members of more communities had more variety in their styles) (406)
-      % The language choice of Chinese-English bilinguals in Tyneside, England was most accurately predicted by the ethnic index of their personal networks (W. Li et al. 1992/2000:184)
-        % While this might seem obvious, those with high ethnic indices were more likely to choose Chinese with interlocutors that those with low indices would use a mix of Chinese and English or just English with (W. Li et al. 1992/2000:184)
-      % Within Dyirbal-English speaking communities, the amount of Dyirbal used in casual conversation was relative to the usage of the least monolingual Dyirbal speaker in the group (Schmidt 1985, as cited in L. Milroy 1980/1987:176)
-
-    % \subsection{Linguistic variation constrained by network characteristics}
-      % Rural migrants to the urban area of Brazlândia, Brazil decreased their usage of rural variants in Portuguese as their integration into the urban community increased (specifically /l/ vocalization and subject-verb agreement patterns) (Bortoni-Ricardo 1985, as cited in Sharma & Dodsworth 2020:348)
-      % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
-      % Benor & Cohen (forthcoming) and Benor (forthcoming) found that Jewish Americans who are more orthodox, go to synagogue more, and have more Jewish friends use Hebrew and Yiddish loanwords and constructions more than other Jewish Americans (as cited in Benor 2010:163-164)
-      % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
-        % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
-
-    % \subsection{Diffusion of linguistic features within and between networks}
-      % Diffusion outside of linguistics
-        % Early work in sociology already showed the usefulness of SNA for examining diffusion
-          % Britain (2010) suggested that humans view distance either as physical, social, or psychological (as cited in Bell 2014:234)
-            % SNA provides a way to look at social distance
-          % Milgram (1967), in his famous small world problem study, showed that physical distance can be much greater than social distance in that a message could be delivered across the US through a median of 5 intermediaries
-        % Granovetter (1970) looked at the diffusion of job information (as cited in Granovetter 1973:1371-1372)
-        % It has been found that those who are innovators (i.e., those who move the innovation from one group to another) are generally not the early adopters of the innovations, apparently because they hold somewhat of a marginal status in the target group (Rogers & Shoemaker 1971, as cited in L. Milroy 1980/1987:202)
-      % Interaction has been acknowledged as important in language change since at least Bloomfield (1933, as cited in Sharma & Dodsworth 2020:342)
-        % Downes (1984) and Labov (1980) viewed strong ties as the ones that act as bridges for the diffusion of linguistic features (both cited in L. Milroy 1980/1987:200)
-        % In CMC
-          % It has been argued that, while virtual communities are real, the patterns of "'patterns of communication and interaction'" are not the same as in physical communities (Castells 2000, as cited in Androutsopoulos 2008 "Style":283)
-          % Paolillo (1999), in an early implementation of SNA into language variation, argued that people who are frequently in contact "tend to share more linguistic features, and tend to borrow more features of each others' language varieties, even in situation where those varieties are different languages" (1)
-            % Indeed, he studied language on IRC in part because he could mesure frequency of interactions exactly (Paolillo 1999:1)
-        % It's been argued that joint negotiation rather than simple individual-to-individual contact is what leads to the uptake of linguistic features in a network (Eckert 2019, as cited in Sharma & Dodsworth 2020:353-354)
-        % It has been argued that the density of a community may facilitate knowledge transfer in small communities but not as much in large communities where more time is spent maintaining ties (Schenkel et al. 2002:23-24)
-      % Gender
-        % In Philadelphia, the early adopters of language change were women with many on-block and off-block ties, highlighting the importance both of centrality in a community and interactions outside of the community (Labov 2001, as cited in Sharma & Dodsworth 2020:348/351)
-          % Women commonly have these diffuse, open networks in urban Western contexts (Sharma & Dodsworth 2020:350)
-          % Labov (2001) found Celeste S. in Philadelphia to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
-          % This is hard to tell in my study as I only looked at personal networks, but I can at least say whether women's networks are more ethnically diverse than men's
-      % Race
-        % In English in the US, diffusion of linguistic features was asymmetric so that African-Americans picked up White features but Whites didn't pick up African-American features (Ahs & Myhill 1986, as cited in Sharma & Dodsworth 2020:354)
-        % On the other hand, Delilah, a White study participant in Cincinnati, had a network that was heavily African-American and as such was completely fluent in AAVE (Sweetland 2002, as cited in Fought 2013:391)
-
-    % \subsection{Previous work on relationships between personal networks and language in Louisiana}
-  
+    % It is often useful to talk about social network segregation where, for instance, clusters are formed in friendship networks based on some salient feature \parencite{moody_race_2001, zhao_networks_2023}.
 
   \section{Methods}
     \label{sec:network_methods}
