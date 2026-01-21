@@ -1,28 +1,25 @@
 \chapter{Creole and Cajun Personal Networks}
   \label{chap:networks}
-  Having established that subject pronoun realizations can mark speakers as Creole or Cajun (or Black or White), a natural next step is examining the social structures related to this language variation.
-  Specifically, this chapter presents an examination of the ethnic make-up of participants' personal social networks.
-  Personal networks can be either ethnically homophilous, meaning those with whom a person associates are ethnicially similar to the person, or non-homophilous.
-  Ethnic homophily is a common feature of personal networks, but this is even more expected with racialized social categories given the histories of segregation (see Section \ref{sec:united_states}) and the propensity of homophilous networks to aid in consolidating advantages for privileged classes by limiting access to social capital.
-  Similarly, ethnically homophilous personal networks are also congruent with linguistic variables that break down along ethnic lines as they also limit paths of diffusion.
-  Indeed, prestigious language features can be treated as a form of social capital themselves.
+  So far, the associations between realizations of subject pronouns and ethnicity have made it clear that subject pronouns can be used to identify a speaker's racialized ethnicity.
+  Despite the regularity of these associations, however, some speakers showed exceptions to the pattern.
+  Elizabeth Naquin, for instance, identified as a White Cajun but produced exclusively the Creole-marked \lexi{li} for 3sg.F.
+  Likewise, James Corporon identified as a Black Creole but produced exclusively the Cajun-marked \lexi{ils} for 3pl.
+  To get a more fine-grained understanding of such situations, social network analysis has proven effective in previous studies.
 
-  % While predictable patterns of subject pronoun use relative to Creole and Cajun identity already suggest some amount of salience, homophily with respect to these social categories would be a greater indication of their salience \parencite[p.~29]{blau_crosscutting_1984}.
-  % When two individuals share a trait, an association between them can be described as homophilous \parencite[p.~23]{lazarsfeld_friendship_1954}.
+  Prototypically, social network analysis involves elaborating who is connected to whom, although it can also involve elaborating who is connected to what or what is connected to what.\footnote{
+    Social network analysis is in fact an area of the more general network analysis, which is itself simply the applied version of the branch of mathematics called graph theory \parencite{barnes_graph_1983}.
+  }
+  In doing so, one obtains a direct view of quantifiable social structure.
+  Social positions become observable rather than inferred.
+  In the case of those whose identities have been racialized, certain social structures are expected that social network analysis can test.
+  For Creoles and Cajuns, the objective was to determine if Creoles were connected primarily to Creoles and Cajuns to Cajuns, or in other words, whether personal networks were ethnically homophilous, as this would have explanatory power for the subject pronoun patterns uncovered in the previous chapter.
   
-  % When dealing with ethnic and racial language variation, there is evidence that linguistic behavior is related to social segregation between the groups involved \parencite{duncan_residential_2018, kohn_segregation_2018}.
-  % Segregation on some level is perhaps also an inherent aspect of racialization \parencite{andersson_racialization_2003, smith_residential_1993}.
-  % Besides \foreign{de jure} segregation that is often laid out explicitly and relatively plainly in legislation, there are many quantitative means of establishing the existence of segregation between two groups \parencite{fossett_new_2017}.
-
-  % L. Milroy (1980/1987) famously found that social network positions can explain why two speakers from the same community with the same characteristics in terms of social variables might still speak differently (131-134)
-  % But language isn't always at play when forming groups
-    % In Cape Keerweer, Australia, Aboriginal peoples see language as a property inherited from one's father and therefore don't expect to have to give up their "property" despite regular exogamy, leading to significant multilingualism (Rigsby & Sutton 1982, as cited in Le Page & Tabouret-Keller 1985:240-241)
-  % Sociological definitions of community
-    % A local unit, characterised for its members by common locality and primary interaction (Gumperz 1962, cited as according to Hymes 1972 in L. Milroy 1980/1987:15, but Hymes cites Gumperz)
-    % A small-scale, local, concrete social unit which is important to a person's definition of their social identity (L. Milroy 1980/1987:14)
+  % There is evidence that language variation is related to social segregation between the groups involved \parencite{duncan_residential_2018, kohn_segregation_2018}.
 
   \section{Social network analysis in sociolinguistics}
     \label{sec:sna_sociolinguistics}
+    % L. Milroy (1980/1987) famously found that social network positions can explain why two speakers from the same community with the same characteristics in terms of social variables might still speak differently (131-134)
+
     % The idea of SNA, at least in terms of the importance of understanding with whom speakers interact, has been present in linguistics for a long time
       % Bloomfield (1933) argued that individuals who interact frequently will likely come to speak similarly (46-47)
         % This has been found time and time again, including when it comes to interracial interactions
