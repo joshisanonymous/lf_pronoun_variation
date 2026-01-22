@@ -22,7 +22,6 @@
     The fundamental focus on interaction in social network analysis has been understood as important in linguistics as a predictor of how one will speak long before the methodology was implemented into the field \parencite[pp.~46-47]{bloomfield_language_1933}.
     This idea has been brought up again and again as an explanation for individuals' linguistic behavior, including when racial barriers are crossed \parencite{sweetland_unexpected_2002}.
     The social network approach to analyzing social structure is appealing enough that it has even been invoked when no network measures are actually implemented \parencite{hoffman_ethnolects_2010, sneller_gritty_2024}.
-
     % L. Milroy (1980/1987) famously found that social network positions can explain why two speakers from the same community with the same characteristics in terms of social variables might still speak differently (131-134)
     % Gal (1979) argued that not all interactions are the same (15)
 
@@ -30,53 +29,34 @@
     In particular, it is useful for examining the spread (\foreign{i.e.}, diffusion) of linguistic features \parencite[pp.~262-263]{dodsworth_speech_2014}.
     Diffusion was in fact a central focus early on in sociology, where social network analysis was developed, especially when considering how the closeness of connections (\foreign{i.e.}, the strength of ties) impacts the spread of information \parencite{granovetter_strength_1973, milgram_small-world_1967}.
     The role of race in this diffusion was also regularly present \parencite{korte_acquaintence_1970}.
+    Early studies of language change posited that diffusion between groups occurs across strong ties or specifically when individuals have many ties both in and out of a group (\citeauthor{downes_language_1984}, \citeyear[p.~155]{downes_language_1984}; \citeauthor{labov_social_1980}, \citeyear[p.~261]{labov_social_1980}), contrary to arguments for the mechanics of diffusion that had been made in sociology.
+    The network data that is needed to examine diffusion directly is quite difficult to collect, however, making linguistics studies that would resolve the diffusion question few and far between.
+    % It's been argued that joint negotiation rather than simple individual-to-individual contact is what leads to the uptake of linguistic features in a network (Eckert 2019, as cited in Sharma & Dodsworth 2020:353-354)
+    % Women commonly have these diffuse, open networks in urban Western contexts (Sharma & Dodsworth 2020:350)
+    % In Philadelphia, the early adopters of language change were women with many on-block and off-block ties, highlighting the importance both of centrality in a community and interactions outside of the community (Labov 2001, as cited in Sharma & Dodsworth 2020:348/351)
+      % Labov (2001) found Celeste S. in Philadelphia to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
+      % This is hard to tell in my study as I only looked at personal networks, but I can at least say whether women's networks are more ethnically diverse than men's
+
+    While \textcite{milroy_language_1987} was not the first sociolinguist to actively attempt to bring social network analysis into the field from sociology -- that honor arguably goes to \textcite{gal_language_1979} -- her work has clearly been the most influential in terms of methodology.
+    The major theoretical contribution that her study had was the finding that a speaker's lack of integration into a community (\foreign{i.e.}, their centrality) can explain their linguistic difference from that community when broad demographic categories would otherwise predict that they would adhere to that community's norms.
+    \textcite{milroy_language_1987} measured centrality with a 5-point index where points were tabulated for facts such as working with two people in the community or spending leisure time with those people (pp.~139/141-142).
+    Numerous such indices have been used since then in sociolinguistics with similar results \parencite{cheshire_present_1978, lippi-green_social_1989}.
+    Some of this work has focused on race \parencite{ash_linguistic_1986, edwards_sociolinguistic_1992}.
+    In the case of \textcite{edwards_sociolinguistic_1992}, one of the index questions asked of his Black participants was whether they often interacted with Whites or not.
+    The results of his analysis thus suggest that a lack of interaction between races leads to differences in speech patterns.
     
+    Importantly, though, these indices are not generalizable in the sense of being equally applicable to all datasets.
+    When \textcite{feagin_competing_1986} tried to apply Milroy's index as-is, the results were quite difficult to interpret.
+    As \textcite{lippi-green_social_1989} argued, these indices are idiosyncratic and therefore need to be adapted to each community (p.~218).
+    The sort of broad structural data that is required to employ generalizable centrality measures from sociology is rare in sociolinguistics outside of studies of online networks \parencite{kim_sociolinguistic_2014, mcneill_lol_2018, paolillo_virtual_1999}, making indices a necessary compromise.
 
-    % As well as in language diffusion
-      % Downes (1984) and Labov (1980) viewed strong ties as the ones that act as bridges for the diffusion of linguistic features (both cited in L. Milroy 1980/1987:200)
-      % It's been argued that joint negotiation rather than simple individual-to-individual contact is what leads to the uptake of linguistic features in a network (Eckert 2019, as cited in Sharma & Dodsworth 2020:353-354)
-      % Women commonly have these diffuse, open networks in urban Western contexts (Sharma & Dodsworth 2020:350)
-      % In Philadelphia, the early adopters of language change were women with many on-block and off-block ties, highlighting the importance both of centrality in a community and interactions outside of the community (Labov 2001, as cited in Sharma & Dodsworth 2020:348/351)
-        % Labov (2001) found Celeste S. in Philadelphia to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
-        % This is hard to tell in my study as I only looked at personal networks, but I can at least say whether women's networks are more ethnically diverse than men's
-
-    % SNA really took off in sociolinguistics during the second wave, which produced important findings but also produced methods that have stayed relatively stagnant ever since
-      % The main finding was that how integrated a speaker is in a community can explain their linguistic behavior where their the broad demographic categories to which they belong may not, which has generally been done by measuring centrality
-      % The most used method: integration indices
-        % L. Milroy's (1980/1987) network strength scale, a simply index from 0 to 5 based on responses to several questions (139/141-142)
-        % Cheshire (1978) developed a sort of measure of centrality that she called "peer-group status" to analyze the use of non-standard -s verb inflections among adolescents in Reading, UK
-          % Centrality ranged from 0 to 2 and was determined impressionistically
-        % "Contact" was an index based on the reported demographics of their neighborhoods, schools, and how many other race friends and spouses/lovers they had (Ash & Myhill 1986)
-        % Lippi-Green (1989) examined vocalic language change in Austria and found that one's centrality in the local economy was associated with maintaining the conservative variant
-          % Lippi-Green (1989) developed an index similar to how Milroy did (218-220)
-        % W. Edwards (1992) created a vernacular culture index (VCI), inspired by the indices of Milroy (1980) and Cheshire (1978)
-          % The questions targetted both physical/geographic integration into the Detroit neighborhood as well as psychological/attitudinal orientations towards the neighborhood
-            % The attitudinal questions are probably not measuring centrality but rather something more akin to Carmichael's (2017) place orientation index
-          % The higher values for the index correlated with higher use of Black variants of half of the phonological variables examined
-          % Although White speakers were not included in the study, these results still lent some support to the idea that a lack of interaction between Blacks and Whites leads to differences in their speech patterns as one of the questions asked for the index targeted whether participants often interacted with Whites or not, which a strong geographic integration into this almost entirely Black neighborhood also effectively captured
-            % Previous work indicated that Whites in Detroit had different behavior for the chosen linguistic variables, as well (Edwards 1988; Wolfram 1969:169)
-        % Importantly, these indices are not generalizable in the sense of being equally applicable to all datasets
-          % Feagin (1986) offered some qualitative discussion of her participants' networks but, since she did not collect her data with networks in mind, she was unable to implement Milroy's (1980) network strength scale for quantitative analysis
-            % In fact, when she did attempt to do this for some of the teenagers in her data, the results were quite difficult to interpret
-              % This was likely due to such indices necessarily needing to developed for each community individually, as Lippi-Green (1989) argued (218)
-          % This is at least in part due to such centrality measures requiring total network analyses, for which the impracticality of carrying out these analyses has limited their use in sociolinguistic research primarily to online networks (e.g. Kim et al. 2014; McNeill 2018; Paolillo 1999)
-            % The results have been similar when more generalizable centrality measures have been used, though
-              % Central users, judged by frequency of interaction, of the IRC EFNet channel #india mostly chose to send messages in Hindi (Paolillo 1999)
-
-    % The other approach that has proven fruitful has been identifying characteristics of speakers' personal networks to understand how integrated they are into a community as a whole but how those with whom they interact directly relate to them
-      % Typically, this means analyzing the homophily of personal networks
-        % \textcite{lazarsfeld_friendship_1954} defined homophily as ``a tendency for friendships to form between those who are alike in some designated respect'' (p.~23).
-        % While homophily often does often pertain to friendships, it is perhaps better to think of it as a tendency to form like-ties in general as one can form ties that represent friendships but also romantic relationships, work relationships, family relationships, and so on.
-        % Referring to homophily as a tendency also implies that it is a mechanism that engenders ties, but the term is often used to describe ties after the fact, as well.
-        % When a distinction needs to be made, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
-        % The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also be arrived at by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
-      % Studies using this approach have sometimes obtained much more in depth network information (e.g., Gal 1979; Stoessel 2002)
-      % Gal (1979) examined language choice in an Austrian village in part through social network analysis
-        % She obtained alters by visiting once a week and asking who they interacted with that day
-          % She asked several name interpreters to determine if alters were peasants
-        % Her participants' personal networks were homophilous for peasantness
-        % The peasantness of personal network alters was more predictive of the choice of Hungarian over German than the peasantness of the participants themselves
-      % Stoessel (2002) found that immigrants to the US were more likely to maintain their mothertongue if their US networks had more speakers of the language and if those speakers were in close proximity (106)
+    Another social network analysis that is more easily carried out and has more often dealt with ethnicity and race is personal network analysis, which centers on particular individuals (\foreign{i.e.}, egos) and elaborates only the ties to other individuals who are connected to these egos at some defined distance (\foreign{i.e.}, alters) without worrying about their position in the overall community.
+    Such analyses involve examining the characteristics of alters, sometimes relative to the characteristics of egos.
+    Perhaps the most common way this is done is by looking at homophily, that is the likeness between egos and their alters on some characteristic \parencite[p.~23]{lazarsfeld_friendship_1954}.
+    In sociolinguistics, some of the most robust network analyses have taken this approach.
+    For example, \textcite{gal_language_1979} found that the composite peasantness of participants' personal network alters was more predictive of their language choices than their own peasantness, while \textcite{stoessel_investigating_2002} found that immigrants were more likely to maintain their heritage language if they had more speakers of that language in their personal network and if those speakers were in physically close proximity.
+    % When a distinction needs to be made between homophily as a mechanism and as a result, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
+      % The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also be arrived at by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
 
     % Race and ethnicity have been examined in terms of homophily and other measures, as well
       % Not Blacks and Whites and/or not in the US
