@@ -28,7 +28,7 @@
     What makes social network analysis so appealing in sociolinguistics is that its quantificational nature fits neatly into traditional variationist methods.
     In particular, it is useful for examining the spread (\foreign{i.e.}, diffusion) of linguistic features \parencite[pp.~262-263]{dodsworth_speech_2014}.
     Diffusion was in fact a central focus early on in sociology, where social network analysis was developed, especially when considering how the closeness of connections (\foreign{i.e.}, the strength of ties) impacts the spread of information \parencite{granovetter_strength_1973, milgram_small-world_1967}.
-    The role of race in this diffusion was also regularly present \parencite{korte_acquaintence_1970}.
+    The role of race in this diffusion was also regularly present \parencite{korte_acquaintance_1970}.
     Early studies of language change posited that diffusion between groups occurs across strong ties or specifically when individuals have many ties both in and out of a group (\citeauthor{downes_language_1984}, \citeyear[p.~155]{downes_language_1984}; \citeauthor{labov_social_1980}, \citeyear[p.~261]{labov_social_1980}), contrary to arguments for the mechanics of diffusion that had been made in sociology.
     The network data that is needed to examine diffusion directly is quite difficult to collect, however, making linguistics studies that would resolve the diffusion question few and far between.
     % It's been argued that joint negotiation rather than simple individual-to-individual contact is what leads to the uptake of linguistic features in a network (Eckert 2019, as cited in Sharma & Dodsworth 2020:353-354)
@@ -87,23 +87,27 @@
       % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
         % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
 
-    A social context that is perhaps more congruent with that of Creoles and Cajuns in Louisiana is that of Blacks and Whites.
-  
+    A social context that is perhaps more congruent with that of Creoles and Cajuns in Louisiana is that of Blacks and Whites in the US as this implicates racialization, which while not absent from the previously discussed studies -- \textcite{sharma_cognitive_2011} did describe early Punjabi immigrants as facing racial issues rather than ethnic (pp.~405-406) -- the groups that were examined were generally conceptualized as ethnic groups only, but like those ethnic studies, the results for studies of race in the US have not shown consistent effects for personal network racial homophily.
+    \textcite{labov_facto_1986}, for instance, looked at a slightly extended personal network for Eddie, a Black man in North Philadelphia, and concluded that the morphological patterns of those in his network were better explained by their social histories rather than by the network.
+    However, they did not employ any network measures but rather directly interpreted the sociograms (\foreign{i.e.}, network diagrams) that they drew.
+    In fact, their data collection methods were not shared, making it difficult to understand what may be missing or present from those sociograms in the first place.
+    Their conclusion was supported, though, by a longitudinal study of African-American youths in Chapel Hill, North Carolina where the number of African-American social contacts of participants did not have a significant effect on the rate of usage of African-American English features.
+    This result, again, was unfortunately rather opaque as no descriptive statistics were provided for the proportion of African-Americans that participants actually had in their networks as it would not be unusual for all participants to have rather high racially homophilous networks.
+    Instead, only the regression model was provided.
+    This does not mean that these results, that young African-Americans in Chapel Hill and Black speakers in North Philadelphia are not sensitive to the racial make-up of their networks, but they should perhaps be considered with care.
 
-    % Blacks and Whites in the US
-      % Labov & Harris (1986) essentially enumerated one Black individual's, Eddie's, personal network slightly beyond the first-order zone and found that the speech patterns of his alters were better explained by their social histories than their place in the resulting network
-        % Because they did not obtain the personal networks of the alters, this conclusion was likely premature, especially when social network analysis has proven predictive in all other cases
-        % Notable is that they only carried out some pseudo-quantitative analyses on the network, meaning they literally drew the network, highlighted how much each alter used a feature, and gave their interpretations of the image
-      % Ash & Myhill (1986) found that the amount of cross-racial contact between Blacks and Whites in Philadelphia had an impact on the percentage of Black features used by speakers
-        % Those with little contact were at the far ends whereas those with considerable contact met each other in the middle
-      % Fridland's (2003) small sample in Memphis suggested that African-Americans with greater homophily in their social networks take greater part in the southern vowel shift
-        % Pretty small number of participants at 10, 5 under 25 and 5 over 40, and so there were no statistical analyses
-        % Alters were not collected but rather a questionnaire was used that asked participants to self-report the racial mix of their close ties
-      % Cheshire et al. (2008) looked at the effect of the ethnic (includes Black) homophily of personal networks on English features of London speakers
-        % Homophily was an index from 1 to 5 with 1 being equivalent to no different ethnicities from ego and 5 being 80% different ethnicities (6)
-          % No one scored 1 or 2, so all had at least 40% non-ethnically homophilous alters
-        % Their results suggest that having ethnically non-homophilous networks can make one a bridge for the diffusion of vowel features from minority ethnic groups, although their results for consonants were much more nuanced
-      % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
+    Other studies of race in the US, in contrast, have shown effects for racial homophily.
+    African-Americans in Memphis who had higher rates of racial homophily in their networks were found to be more involved in the southern vowel shift than those with more racially diverse networks \parencite{fridland_network_2003}.
+    Unfortunately, this sample was limited to 10 participants, so not statistical analyses were used to establish this pattern.
+    A larger study, however, was conducted in Philadelphia, just as in \citeauthor{labov_facto_1986}'s (\citeyear{labov_facto_1986}) work, and found that Black speakers with less racially homophilous networks use more linguistic features associated with Black speakers then others.
+    Likewise, White speakers in the data with little contact with Black speakers used fewer Black linguistic features, although White participants constituted a minority of the sample \parencite{ash_linguistic_1986}.
+    This has perhaps been the most transparent and robust study of the impact of homophily on racially-marked language use as the sample included 28 speakers for whom homophily was calculated rather than inferred and whose homophily rates ranged from very high to very low.
+    Where racialized social systems are in place, in fact, one should probably not expect to find low racial homophily in the first place.
+    If participants who have low racial homophily in their personal networks are outliers, it is not surprising that studies of language variation are sometimes unable to show significant effects for the \emph{amount} of racial homophily, but this does not necessarily mean that racial homophily is not an important factor.
+    % Cheshire et al. (2008) looked at the effect of the ethnic (includes Black) homophily of personal networks on English features of London speakers
+      % Homophily was an index from 1 to 5 with 1 being equivalent to no different ethnicities from ego and 5 being 80% different ethnicities (6)
+        % No one scored 1 or 2, so all had at least 40% non-ethnically homophilous alters
+      % Their results suggest that having ethnically non-homophilous networks can make one a bridge for the diffusion of vowel features from minority ethnic groups, although their results for consonants were much more nuanced
     
     % Dodsworth & Benton (2017) found some evidence that being structurally closer to the core of Raleigh, North Carolina's network led to greater maintenance of southern vowels
       % Their methodology was unique for sociolinguistics as they used a bipartite network to get closer to a total network analysis and used cohesive blocking to uncover participants' position in the network
