@@ -50,7 +50,7 @@
     As \textcite{lippi-green_social_1989} argued, these indices are idiosyncratic and therefore need to be adapted to each community (p.~218).
     The sort of broad structural data that is required to employ generalizable centrality measures from sociology is rare in sociolinguistics outside of studies of online networks \parencite{kim_sociolinguistic_2014, mcneill_lol_2018, paolillo_virtual_1999}, making indices a necessary compromise.
 
-    Another social network analysis that is more easily carried out and has more often dealt with ethnicity and race is personal network analysis, which centers on particular individuals (\foreign{i.e.}, egos) and elaborates only the ties to other individuals who are connected to these egos at some defined distance (\foreign{i.e.}, alters) without worrying about their position in the overall community.
+    Another social network analysis that is more easily carried out and has more often dealt with ethnicity and race is personal network analysis, which centers on particular individuals (\foreign{i.e.}, egos) and elaborates only the ties to other individuals who are connected to these egos at some defined distance (\foreign{i.e.}, alters) without worrying about their position in the overall community (\citeauthor{bott_family_1971}, \citeyear[p.~250]{bott_family_1971}; \citeauthor{perry_egocentric_2018}, \citeyear[p.~6]{perry_egocentric_2018}).
     Such analyses involve examining the characteristics of alters, sometimes relative to the characteristics of egos.
     Perhaps the most common way this is done is by looking at homophily, that is the likeness between egos and their alters on some characteristic \parencite[p.~23]{lazarsfeld_friendship_1954}.
     In sociolinguistics, some of the most robust network analyses have taken this approach.
@@ -58,62 +58,51 @@
     % When a distinction needs to be made between homophily as a mechanism and as a result, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
       % The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also be arrived at by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
 
-    % Race and ethnicity have been examined in terms of homophily and other measures, as well
-      % Not Blacks and Whites and/or not in the US
-        % Language choice
-          % Within Dyirbal-English speaking communities, the amount of Dyirbal used in casual conversation was relative to the usage of the least monolingual Dyirbal speaker in the group (Schmidt 1985, as cited in L. Milroy 1980/1987:176)
-            % Doesnèt seem to be related to race or ethnicity, though
-          % W. Li et al. (1992/2000) found that the language choice of Chinese-English bilinguals in Tyneside, England was most accurately predicted by the ethnic index of their personal networks (184)
-            % While this might seem obvious, those with high ethnic indices were more likely to choose Chinese with interlocutors that those with low indices would use a mix of Chinese and English or just English with (W. Li et al. 1992/2000:184)
-          % Reynolds (2002) found that Punjabi/Urdu was more likely to be used in Sheffield, UK for participants who had more Punjabi friends (but there was no statistically significant association for kin alters)
-            % Effect sizes weren't given, so it is not clear if the ethnic composition of networks or age were more impactful
-            % Calculated the "ethnic tie percentage" of participants' personal networks as the percentage of alters who spoke Punjabi or Urdu
-              % He seemed to do this only for exchange ties, which accounted for most of his participants' networks
-              % The percentage was high across the board with a mean of ~80% Punjabi and median of ~82%
-          % Lanza & Svendsen (2007) looked at language choice among Filipinos in Norway and found that the higher the ethnic homophily in their networks, the more likely they were to use Filipino languages with their kids
-            % Like many, they split networks into exchange networks and interactive networks
-              % Interactive networks were generally less ethnically homophilous than exchange networks
-          % Matsumoto (2010) looked at langauge maintenance of Japanese, the language of their colonizers, in the post-colonial setting of Palau
-            % Name generators were not provided
-            % Tie strength was determined by Matsumoto's perception of alters' participation in certain cultural activities
-            % She didn't even really discuss how she measured language use despite analyzing it as a continuous variable in the results
-            % She showed that the more Japanese ties one had, the more one used Japanese, although this effect was constrained by family type and network type (in terms of tie strength)
-        % Language variation
-          % Kirke (2005) looked at a small sample of Irish immigrants in New York City (N = 4) and found that the one participant who effectively maintained the Irish variant also had by far the more Irish network
-            % While this was something of a measure of homophily, she also calculated the tie strengths for alters and factored that into the Irishness measure
-          % M. Hoffman & J. Walker (2010) asked participants if they have partners, friends, neighbors, and co-workers were the same ethnicity as themselves as part of measuring their ethnic orientation
-            % This was only nominally social network analysis or at least was social network analysis that was not directly implemented into analyses which rather used the ethnic orientation as a social variable
-          % M. Newman (2010) looked at the ethnic make-up of personal networks for Latinos in New York
-            % These were almost all entirely ethnically homophilous, making it difficult to draw any conclusions about how differences in personal networks related to their English speech patterns.
-            % This is perhaps why his use of personal networks was limited to some qualitative comments in the discussion of his results
-          % A. Wong (2010) looked at a small sample of Chinese-Americans in New York City (N = 4) and found that those with more ethnic homophily in their networks did not use the New York variant of /ɔ/ whereas the others did.
-            % For the other vocalic variables, her speakers had the same behavior and it was only partially in line with the local pattern
-            % She measured homophily in the same way as was done here.
-            % Ties were divided into affective (instead of interactive or passive) and exchange, but this information was not used in the analysis
-          % Sharma & Sankaran (2011) examined the Asianness of the networks of different generations of Punjabis in the UK and only found this factor to be significant for one of the three generations
-          % Schleef et al. (2011) looked at the acquisition of local-like variation of (ing) by Polish adolescents in Edinburgh and Scotland and found higher proportions of Polish alters led to more [ɪŋ] in the former city but not the latter.
-            % Their network data collection was underexplained but seemed to consist of simply asking participants if they mostly interacted with Polish or British adolescents
-              % In fact, it was not even clear if they asked about the language of alters (Polish vs English) or the nationality (Polish vs British) since their descriptions changed throughout the article
-          % Sharma (2017)
-            % Network diversity and accent repertoire range were associated for British Asian English in London (Sharma 2017, as cited in Sharma & Dodsworth 2020:355)
-            % British South Asians in London used more Punjabi as the Indianness of their personal networks increased (Sharma 2017:406)
-              % If we conceptualize style shifting as code-switching, accent repertoire ranges also increasd as the diversity of networks increased (i.e., speakers who were members of more communities had more variety in their styles) (406)
-            % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
-              % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
-      % Blacks and Whites in the US
-        % Labov & Harris (1986) essentially enumerated one Black individual's, Eddie's, personal network slightly beyond the first-order zone and found that the speech patterns of his alters were better explained by their social histories than their place in the resulting network
-          % Because they did not obtain the personal networks of the alters, this conclusion was likely premature, especially when social network analysis has proven predictive in all other cases
-          % Notable is that they only carried out some pseudo-quantitative analyses on the network, meaning they literally drew the network, highlighted how much each alter used a feature, and gave their interpretations of the image
-        % Ash & Myhill (1986) found that the amount of cross-racial contact between Blacks and Whites in Philadelphia had an impact on the percentage of Black features that speakers used
-          % Those with little contact were at the far ends whereas those with considerable contact met each other in the middle
-        % Fridland's (2003) small sample in Memphis suggested that African-Americans with greater homophily in their social networks take greater part in the southern vowel shift
-          % Pretty small number of participants at 10, 5 under 25 and 5 over 40, and so there were no statistical analyses
-          % Alters were not collected but rather a questionnaire was used that asked participants to self-report the racial mix of their close ties
-        % Cheshire et al. (2008) looked at the effect of the ethnic (includes Black) homophily of personal networks on English features of London speakers
-          % Homophily was an index from 1 to 5 with 1 being equivalent to no different ethnicities from ego and 5 being 80% different ethnicities (6)
-            % No one scored 1 or 2, so all had at least 40% non-ethnically homophilous alters
-          % Their results suggest that having ethnically non-homophilous networks can make one a bridge for the diffusion of vowel features from minority ethnic groups, although their results for consonants were much more nuanced
-        % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
+    The ethnic homophily of one's network has been found to influence their language in several ways, one of which is in language choice.
+    This has especially been a focus of studies of immigrant groups and their offspring.
+    In England, members of Chinese families were found to choose Chinese with interlocutors when their personal networks were more Chinese \parencite{li_two-step_2000}, and members of Punjabi families were also more likely to use Punjabi or Urdu when their personal networks included more Punjabis (\citeauthor{reynolds_punjabiurdu_2002}, \citeyear{reynolds_punjabiurdu_2002}; \citeauthor{sharma_scalar_2017}, \citeyear[p.~406]{sharma_scalar_2017}).
+    Similar results were found in Norway where Filipino immigrants with higher the ethnic homophily in their personal networks were more likely to use Filipino languages with their children \parencite{lanza_tell_2007}.
+    This pattern not has also held when looking at colonial rather than immigrant contexts.
+    For example, in the small Pacific country of Palau, participants with more Japanese alters were found to be more likely to use Japanese, a former colonial language \parencite{matsumoto_role_2010}.
+    This colonial context especially is suggestive of Louisiana and racialization in general, although the context is not identical.
+    In Palau, the break with Japan occurred more recently, during World War II, and so some of the intermarried families had a parent who returned to Japan at that time and only came back later.
+    Migratory patterns like those in Palau could have occurred shortly after the Louisiana Purchase in Louisiana, but it is unlikely for many families in the state to still hold such close ties with France or any other French-speaking nation outside of Louisiana today.
+    % Within Dyirbal-English speaking communities, the amount of Dyirbal used in casual conversation was relative to the usage of the least monolingual Dyirbal speaker in the group (Schmidt 1985, as cited in L. Milroy 1980/1987:176)
+      % Doesn't seem to be related to race or ethnicity, though
+
+    Ethnic homophily has also been seen as important for variation within language, several studies of which have examined groups in New York City.
+    Although these two samples were small, the Irish immigrants who maintained the Irish variant of English /t/ were those who had more Irish alters in their network \parencite{kirke_when_2005}, and Chinese-Americans with more ethnic homophily in their networks did not use the local New York variant of English /ɔ/ that those with low ethnic homophily did use \parencite{wong_new_2010}.
+    However, in the UK, Polish immigrants to Edinburgh had the proportion of Polish alters in their networks as a significant effect on their realization of English (ing) but not Polish immigrants in London \parencite{schleef_teenagers_2011}.
+    It would seem that while ethnic homophily in one's network tends to be a meaningful predictor of language variation, other circumstances can override the effect.
+    This is further supported by the finding that higher ``Asianness'' in the personal networks of Punjabis west of London led to great use of [ʈ] for English /t/ only in the middle generation of those who were examined \parencite[pp.~418-419]{sharma_cognitive_2011}.
+    In comparing each of these cases to the situation in Louisiana, caution needs to be taken, though.
+    Much like the different stages of post-colonialism in which Palau and Louisiana find themselves, the studies mentioned here all involve relatively recent immigration and the navigation of identity around that fact, whereas speakers of F\&C in Louisiana have no need to find a balance between local norms and their heritage as their heritage represents the local norm already.
+    % M. Hoffman & J. Walker (2010) asked participants if they have partners, friends, neighbors, and co-workers were the same ethnicity as themselves as part of measuring their ethnic orientation
+      % This was only nominally social network analysis or at least was social network analysis that was not directly implemented into analyses which rather used the ethnic orientation as a social variable
+    % M. Newman (2010) looked at the ethnic make-up of personal networks for Latinos in New York
+      % These were almost all entirely ethnically homophilous, making it difficult to draw any conclusions about how differences in personal networks related to their English speech patterns.
+      % This is perhaps why his use of personal networks was limited to some qualitative comments in the discussion of his results
+    % Sharma (2017)
+      % Network diversity and accent repertoire range were associated for British Asian English in London (Sharma 2017, as cited in Sharma & Dodsworth 2020:355)
+      % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
+        % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
+
+    
+
+    % Blacks and Whites in the US
+      % Labov & Harris (1986) essentially enumerated one Black individual's, Eddie's, personal network slightly beyond the first-order zone and found that the speech patterns of his alters were better explained by their social histories than their place in the resulting network
+        % Because they did not obtain the personal networks of the alters, this conclusion was likely premature, especially when social network analysis has proven predictive in all other cases
+        % Notable is that they only carried out some pseudo-quantitative analyses on the network, meaning they literally drew the network, highlighted how much each alter used a feature, and gave their interpretations of the image
+      % Ash & Myhill (1986) found that the amount of cross-racial contact between Blacks and Whites in Philadelphia had an impact on the percentage of Black features that speakers used
+        % Those with little contact were at the far ends whereas those with considerable contact met each other in the middle
+      % Fridland's (2003) small sample in Memphis suggested that African-Americans with greater homophily in their social networks take greater part in the southern vowel shift
+        % Pretty small number of participants at 10, 5 under 25 and 5 over 40, and so there were no statistical analyses
+        % Alters were not collected but rather a questionnaire was used that asked participants to self-report the racial mix of their close ties
+      % Cheshire et al. (2008) looked at the effect of the ethnic (includes Black) homophily of personal networks on English features of London speakers
+        % Homophily was an index from 1 to 5 with 1 being equivalent to no different ethnicities from ego and 5 being 80% different ethnicities (6)
+          % No one scored 1 or 2, so all had at least 40% non-ethnically homophilous alters
+        % Their results suggest that having ethnically non-homophilous networks can make one a bridge for the diffusion of vowel features from minority ethnic groups, although their results for consonants were much more nuanced
+      % In a longitudinal study of African-American youths in Chapel Hill, NC, neither the number of AA nor White social contacts had a statistically significant impact on the rate of usage of AAE features, though the coefficient in the model did have the rate going up for the former and down for the latter (Van Hofwegen & Wolfram 2010:447)
     
     % Dodsworth & Benton (2017) found some evidence that being structurally closer to the core of Raleigh, North Carolina's network led to greater maintenance of southern vowels
       % Their methodology was unique for sociolinguistics as they used a bipartite network to get closer to a total network analysis and used cohesive blocking to uncover participants' position in the network
@@ -185,93 +174,93 @@
     The quantitative analyses carried out consisted of relatively straightforward descriptive statistics, but there were important decisions made about how to prepare the data for calculating those statistics which will be discussed in section \ref{sec:network_analyses}.
 
     \subsection{Social network analysis methods}
-    \label{sec:sna}
-    Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she studied in Belfast, Ireland.
-    While this approach has found notable uses in the field since then, these will be discussed in more detail in Section \ref{sec:sna_sociolinguistics}
-    Here, a brief overview of the basic of the social network analysis framework as related to the present study will be covered.
+      \label{sec:sna}
+      Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she studied in Belfast, Ireland.
+      While this approach has found notable uses in the field since then, these will be discussed in more detail in Section \ref{sec:sna_sociolinguistics}
+      Here, a brief overview of the basic of the social network analysis framework as related to the present study will be covered.
 
-    A network was originally defined as a social field of a given individual made up of their friends and kin where links to the individual represented interaction of some sort \parencite[p.~43]{barnes_class_1954}, which today we would more specifically call a personal network.
-    Visually, this can be represented as points (\foreign{e.g.}, friends and kin) and lines (\foreign{e.g.}, interactions).
-    These points are typically referred to as nodes or vertices and these lines as ties or edges.
-    Nodes often represent individuals, as they do in the present study, but can also represent organizations or other social entities, and in the broader field of network theory, they can be almost anything, from web pages to terminals in an electrical circuit.
-    % A liaison person is a point in a network which links two network sectors and whose ties to one or both of those sectors are all weak, often being a point at one end of a bridge (Granovetter 1973:1367-1368)
+      A network was originally defined as a social field of a given individual made up of their friends and kin where links to the individual represented interaction of some sort \parencite[p.~43]{barnes_class_1954}, which today we would more specifically call a personal network.
+      Visually, this can be represented as points (\foreign{e.g.}, friends and kin) and lines (\foreign{e.g.}, interactions).
+      These points are typically referred to as nodes or vertices and these lines as ties or edges.
+      Nodes often represent individuals, as they do in the present study, but can also represent organizations or other social entities, and in the broader field of network theory, they can be almost anything, from web pages to terminals in an electrical circuit.
+      % A liaison person is a point in a network which links two network sectors and whose ties to one or both of those sectors are all weak, often being a point at one end of a bridge (Granovetter 1973:1367-1368)
 
-    Ties are perhaps more complex in what they may represent as they are generally more abstract.
-    While originally conceptualized as representing interactions, which is still inherently an aspect of ties, there are various types of interactions -- those one has with close friends or with a bank teller or with a boss -- which can be further specified by measuring the frequency of those interactions, placing a value on each type of interaction, and identifying whether interactions are unidirectional or bi-directional.
-    In essence, one is measuring not only interactions but also the strength of those interactions or, as it has been famously called, the strength of ties \parencite{granovetter_strength_1973}.
-    In practice, much of this is difficult to measure, and so tie strength has historically been captured as a function of the different questions used to elicit contacts from study participants, such as asking for a participant's closest friends which would then be qualified as strong ties \parencite[p.~483]{marsden_measuring_1984}.
-    Likewise, the methodology used in the current study only allowed for qualifying tie strength as strong versus less strong.
-    Such quantifications in social network analysis are both numerous and represent the primary advantage of this approach.
-    % Ties perhaps have their beginnings in Simmel's work on social geometry (Hollstein 2021)
-      % A dyad is a micro level social relationship consisting of two individuals and one tie and a triad three individuals and three ties (Simmel 1902, as cited in Andersen & Taylor 2013:123)
-    % A transaction is a social exchange theory concept that is a message passed along a network line, be it goods, services, information, etc., which provides value to the sender greater than the cost (L. Milroy 1980/1987:47-48)
-      % An exchange is when transactions flow in both directions along a tie (L. Milroy 1980/1987:48)
-    % A measure of the variety of bases for a tie is the tie's multiplexity (Milroy, L. 1980/1987:21)
-      % This can be calculated for a single tie or aggregated up to the whole network
-    % Weak ties are generally not used in studies
-      % They're "perceived as unimportant" by participants and so difficult to elicit (Milroy, L. 1980/1987:201)
-        % Gurevitch once estimated, by having people record their interactions over 100 days, that the average person has about 500 acquaintances (as cited in Milgram 1967:63)
-      % This is probably more about HOW weak the ties are, as it's not difficult to include weakER ties, but it would be to include ties as weak as, say, the grocery store cashier that one encounters once a month
-        % Granovetter (1973) proposed using four different measures to determine tie strength: the amount of time of the existence of the tie, the emotional intensity of the relationship, the intimacy (mutual confiding) of the relationship, and reciprocal services rendered across the tie (1361)
+      Ties are perhaps more complex in what they may represent as they are generally more abstract.
+      While originally conceptualized as representing interactions, which is still inherently an aspect of ties, there are various types of interactions -- those one has with close friends or with a bank teller or with a boss -- which can be further specified by measuring the frequency of those interactions, placing a value on each type of interaction, and identifying whether interactions are unidirectional or bi-directional.
+      In essence, one is measuring not only interactions but also the strength of those interactions or, as it has been famously called, the strength of ties \parencite{granovetter_strength_1973}.
+      In practice, much of this is difficult to measure, and so tie strength has historically been captured as a function of the different questions used to elicit contacts from study participants, such as asking for a participant's closest friends which would then be qualified as strong ties \parencite[p.~483]{marsden_measuring_1984}.
+      Likewise, the methodology used in the current study only allowed for qualifying tie strength as strong versus less strong.
+      Such quantifications in social network analysis are both numerous and represent the primary advantage of this approach.
+      % Ties perhaps have their beginnings in Simmel's work on social geometry (Hollstein 2021)
+        % A dyad is a micro level social relationship consisting of two individuals and one tie and a triad three individuals and three ties (Simmel 1902, as cited in Andersen & Taylor 2013:123)
+      % A transaction is a social exchange theory concept that is a message passed along a network line, be it goods, services, information, etc., which provides value to the sender greater than the cost (L. Milroy 1980/1987:47-48)
+        % An exchange is when transactions flow in both directions along a tie (L. Milroy 1980/1987:48)
+      % A measure of the variety of bases for a tie is the tie's multiplexity (Milroy, L. 1980/1987:21)
+        % This can be calculated for a single tie or aggregated up to the whole network
+      % Weak ties are generally not used in studies
+        % They're "perceived as unimportant" by participants and so difficult to elicit (Milroy, L. 1980/1987:201)
+          % Gurevitch once estimated, by having people record their interactions over 100 days, that the average person has about 500 acquaintances (as cited in Milgram 1967:63)
+        % This is probably more about HOW weak the ties are, as it's not difficult to include weakER ties, but it would be to include ties as weak as, say, the grocery store cashier that one encounters once a month
+          % Granovetter (1973) proposed using four different measures to determine tie strength: the amount of time of the existence of the tie, the emotional intensity of the relationship, the intimacy (mutual confiding) of the relationship, and reciprocal services rendered across the tie (1361)
 
-    % Another quantification example would be quantifying social distance as the shortest path between two nodes \parencite[p.~1366]{granovetter_strength_1973}.
-    
-    % social network analysis has been noted for being particularly useful for analyzing communities where macro-social variables such as social class are not relevant \parencite[pp.~172-173]{milroy_language_1987}
-    % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
-
-    Social network analysis can be divided into two types of analyses: personal (or egocentric) network analysis and total (or whole) network analysis \parencite[p.~250]{bott_family_1971}.
-    This division is based partially on the perspective one takes when looking at a network, either examining the ties that extend from an individual (personal network) or examining a network as a whole (total network), but in practice, the difference is constrained more by the limits of data collection.
-    Total network analysis cannot be carried out if any portion of the network is unaccounted for, making it quite rare to apply to any community that is not small, discrete, and well-defined \parencite[\foreign{e.g.},][]{watts_networks_1999, zachary_information_1977}.
-
-    % This type of analysis (total network) can highlight useful information, however.
-    % Some classic examples include calculating the density of a network, meaning the ratio of actual ties to possible ties that represents whether a network is close-knit or loose-knit (\citeauthor{barnes_networks_1968}, \citeyear[p.~118]{barnes_networks_1968}; \citeauthor{bott_family_1971}, \citeyear[p.~59]{bott_family_1971}), or calculating the dispersion of the network as the sum of all of its internal distances \parencite[p.~727]{bavelas_communication_1950}.
-    % There are always various community detection algorithms that act on the structural properties of the network \parencite[\foreign{e.g.},][]{aslak_constrained_2017, newman_finding_2004, waltman_smart_2013}.
-    % Some centrality measures identify important ties in the network \parencite[\foreign{e.g.},][]{freeman_set_1977}, while most identify important nodes \parencite[\foreign{e.g.},][]{brin_anatomy_1998, katz_new_1953, kleinberg_hubs_1999, kleinberg_authoritative_1999, rochat_closeness_2009}.
-    % Community detection
-      % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
-        % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
-        % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
-    % Centrality
-      % Many such measures exist
-        % Some are for identifying important ties
-          % A bridge is a tie in a network which provides the only path between two points (Harary et al. 1965, as cited in Granovetter 1973:1364)
-          % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
-        % Others are for identifying important nodes
-          % Relative centrality (Bavelas 1950:727)
-          % Point centrality (Bavelas 1948, as cited in Freeman 1977:35)
+      % Another quantification example would be quantifying social distance as the shortest path between two nodes \parencite[p.~1366]{granovetter_strength_1973}.
       
-    % Network communities in sociolinguistics
-      % Communities act as norm enforcement mechanisms (or maybe more specifically folkway (Sumner 1906, as cited in Andersen & Taylor 2013:31) enforcement mechanisms)
-        % This has been shown in general (e.g., Boissevain 1974; Bott 1957/1971; Cubitt 1973; Kapferer 1969; Mayer 1963, all as cited in L. Milroy 1980/1987:50/52/135-136)
-        % It's not surprising that SNA communities have been predictive of linguistic behavior
-          % L. Milroy (1980/1987) suggested that vernacular forms persist regardless of the influence of standard varieties because, as she found in Belfast, the social network structure can provide the requisite norm enforcement to resist the influence of standard varieties (162-163)
-          % King (2000) found that the most standard French speaker in her data was a janitor at the only French-language school in Prince Edward Island, which she explained as the result of regular French interactions with those in prestigious positions (55)
-        % It has been suggested that networks enforce norms based on one's perception of the network rather than its objective reality (Boissevain 1974, as cited in L. Milroy 1980/1987:61)
-          % I'm not so sure it's necessary to consciously perceive the existence of a network as people are not likely to give a great many names in response to name generator questions
-            % For instance, J. Milroy & L. Milroy (1985/2012) conceptualized the maintence that stems from the pressure social networks impose as "covert" (49)
-      % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
-      % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
-      % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
-      % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
-      % Eckert (2000) sketched the total network at Belten High but not as a central part of her analysis (177)
-        % Eckert (2000) did not speak to everyone -- rather she took a random sample of people and started from those various points -- and did a more thorough sketch for girls than boys due to time constraints (173-175)
-        % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
-      % Racially homogenous communities lead to more essentialist views of race among children (Deeb et al. 2011; Pauker et al. 2016, both as cited in Roth et al. 2023:49)
+      % social network analysis has been noted for being particularly useful for analyzing communities where macro-social variables such as social class are not relevant \parencite[pp.~172-173]{milroy_language_1987}
+      % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
 
-    The other approach to social network analysis, that of personal (or egocentric) network analysis, is far less demanding of resources to carry out than total network analysis.
-    While still rare in sociolinguistics, personal network analyses have been carried out in more traditional-looking variationist studies \parencite[\foreign{e.g.},][]{sharma_style_2011, sharma_scalar_2017} and have the advantage of not attempting to adapt network measures to non-network data as when calculating centrality in a speech community.
-    Ego, in this case, refers to the node whose perspective is taken in the analysis, leaving all other nodes connected to ego either directly or indirectly to be referred to as alters \parencite[p.~6]{perry_egocentric_2018}.
-    In practice, the alters who are collected for ego in such analyses are only those who are directly connected, making up what is called a primary or first-order star network, named as such because a resulting graph of the network would form a star with ego at the center.
-    Alternatively, one may include the whole primary or first-order zone, which would add any existing ties between ego's direct alters, or even second-order or $n$th-order zones, which bring these analyses to a point of looking more like total network analyses \parencite[pp.~113-114]{barnes_networks_1968}.
-    Calculating statistics for personal networks is essentially about quantifying aspects of an individuals social world.
-    Data collected might include the mix of ethnicities, nationalities, or genders of ego's network \parencite{botha_social_2018, li_two-step_2000, sharma_scalar_2017}, as just a few examples.
-    The present study represents an addition to the literature of another personal network analysis where what is quantified for each participant's network is the ethnic make-up of their alters.
+      Social network analysis can be divided into two types of analyses: personal (or egocentric) network analysis and total (or whole) network analysis \parencite[p.~250]{bott_family_1971}.
+      This division is based partially on the perspective one takes when looking at a network, either examining the ties that extend from an individual (personal network) or examining a network as a whole (total network), but in practice, the difference is constrained more by the limits of data collection.
+      Total network analysis cannot be carried out if any portion of the network is unaccounted for, making it quite rare to apply to any community that is not small, discrete, and well-defined \parencite[\foreign{e.g.},][]{watts_networks_1999, zachary_information_1977}.
 
-    % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
-    % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
-    % Weaknesses
-      % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
-        % This is more about how one conceptualizes of community
+      % This type of analysis (total network) can highlight useful information, however.
+      % Some classic examples include calculating the density of a network, meaning the ratio of actual ties to possible ties that represents whether a network is close-knit or loose-knit (\citeauthor{barnes_networks_1968}, \citeyear[p.~118]{barnes_networks_1968}; \citeauthor{bott_family_1971}, \citeyear[p.~59]{bott_family_1971}), or calculating the dispersion of the network as the sum of all of its internal distances \parencite[p.~727]{bavelas_communication_1950}.
+      % There are always various community detection algorithms that act on the structural properties of the network \parencite[\foreign{e.g.},][]{aslak_constrained_2017, newman_finding_2004, waltman_smart_2013}.
+      % Some centrality measures identify important ties in the network \parencite[\foreign{e.g.},][]{freeman_set_1977}, while most identify important nodes \parencite[\foreign{e.g.},][]{brin_anatomy_1998, katz_new_1953, kleinberg_hubs_1999, kleinberg_authoritative_1999, rochat_closeness_2009}.
+      % Community detection
+        % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
+          % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
+          % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
+      % Centrality
+        % Many such measures exist
+          % Some are for identifying important ties
+            % A bridge is a tie in a network which provides the only path between two points (Harary et al. 1965, as cited in Granovetter 1973:1364)
+            % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
+          % Others are for identifying important nodes
+            % Relative centrality (Bavelas 1950:727)
+            % Point centrality (Bavelas 1948, as cited in Freeman 1977:35)
+        
+      % Network communities in sociolinguistics
+        % Communities act as norm enforcement mechanisms (or maybe more specifically folkway (Sumner 1906, as cited in Andersen & Taylor 2013:31) enforcement mechanisms)
+          % This has been shown in general (e.g., Boissevain 1974; Bott 1957/1971; Cubitt 1973; Kapferer 1969; Mayer 1963, all as cited in L. Milroy 1980/1987:50/52/135-136)
+          % It's not surprising that SNA communities have been predictive of linguistic behavior
+            % L. Milroy (1980/1987) suggested that vernacular forms persist regardless of the influence of standard varieties because, as she found in Belfast, the social network structure can provide the requisite norm enforcement to resist the influence of standard varieties (162-163)
+            % King (2000) found that the most standard French speaker in her data was a janitor at the only French-language school in Prince Edward Island, which she explained as the result of regular French interactions with those in prestigious positions (55)
+          % It has been suggested that networks enforce norms based on one's perception of the network rather than its objective reality (Boissevain 1974, as cited in L. Milroy 1980/1987:61)
+            % I'm not so sure it's necessary to consciously perceive the existence of a network as people are not likely to give a great many names in response to name generator questions
+              % For instance, J. Milroy & L. Milroy (1985/2012) conceptualized the maintence that stems from the pressure social networks impose as "covert" (49)
+        % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
+        % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
+        % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
+        % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
+        % Eckert (2000) sketched the total network at Belten High but not as a central part of her analysis (177)
+          % Eckert (2000) did not speak to everyone -- rather she took a random sample of people and started from those various points -- and did a more thorough sketch for girls than boys due to time constraints (173-175)
+          % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
+        % Racially homogenous communities lead to more essentialist views of race among children (Deeb et al. 2011; Pauker et al. 2016, both as cited in Roth et al. 2023:49)
+
+      The other approach to social network analysis, that of personal (or egocentric) network analysis, is far less demanding of resources to carry out than total network analysis.
+      While still rare in sociolinguistics, personal network analyses have been carried out in more traditional-looking variationist studies \parencite[\foreign{e.g.},][]{sharma_style_2011, sharma_scalar_2017} and have the advantage of not attempting to adapt network measures to non-network data as when calculating centrality in a speech community.
+      Ego, in this case, refers to the node whose perspective is taken in the analysis, leaving all other nodes connected to ego either directly or indirectly to be referred to as alters \parencite[p.~6]{perry_egocentric_2018}.
+      In practice, the alters who are collected for ego in such analyses are only those who are directly connected, making up what is called a primary or first-order star network, named as such because a resulting graph of the network would form a star with ego at the center.
+      Alternatively, one may include the whole primary or first-order zone, which would add any existing ties between ego's direct alters, or even second-order or $n$th-order zones, which bring these analyses to a point of looking more like total network analyses \parencite[pp.~113-114]{barnes_networks_1968}.
+      Calculating statistics for personal networks is essentially about quantifying aspects of an individuals social world.
+      Data collected might include the mix of ethnicities, nationalities, or genders of ego's network \parencite{botha_social_2018, li_two-step_2000, sharma_scalar_2017}, as just a few examples.
+      The present study represents an addition to the literature of another personal network analysis where what is quantified for each participant's network is the ethnic make-up of their alters.
+
+      % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
+      % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
+      % Weaknesses
+        % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
+          % This 'is more about how one conceptualizes of community
 
     \subsection{Data collection}
       \label{sec:network_collection}
@@ -364,6 +353,8 @@
       The external component is the count of all out-group alters, whereas the internal component is all in-group alters.
       In the present context, an in-group alter would be one who has the same ethnicity as ego (\foreign{i.e.}, the participant), and an out-group alter is any other alter.
       The statistic produces values from -1 to 1 where -1 represents perfect homophily and 1 the complete absence of homophily.
+      % Reynolds (2002) Calculated the "ethnic tie percentage" of participants' personal networks as the percentage of alters who spoke Punjabi or Urdu
+      % A. Wong (2010) measured homophily in the same way as was done here.
 
       \begin{enumerate}[label=\roman*., ref=\roman*, resume=equations]
         \item EI homophily $= \frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ \label{eq:ei_homophily}
