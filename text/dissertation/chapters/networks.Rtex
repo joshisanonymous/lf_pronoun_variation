@@ -162,94 +162,94 @@
     This raised a few challenges related to how to ask for alters and how to gather information on those alters, all of which will be discussed in section \ref{sec:network_collection}.
     The quantitative analyses carried out consisted of relatively straightforward descriptive statistics, but there were important decisions made about how to prepare the data for calculating those statistics which will be discussed in section \ref{sec:network_analyses}.
 
-    \subsection{Social network analysis methods}
-      \label{sec:sna}
-      Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she studied in Belfast, Ireland.
-      While this approach has found notable uses in the field since then, these will be discussed in more detail in Section \ref{sec:sna_sociolinguistics}
-      Here, a brief overview of the basic of the social network analysis framework as related to the present study will be covered.
+    % \subsection{Social network analysis methods}
+    %   \label{sec:sna}
+    %   Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she studied in Belfast, Ireland.
+    %   While this approach has found notable uses in the field since then, these will be discussed in more detail in Section \ref{sec:sna_sociolinguistics}
+    %   Here, a brief overview of the basic of the social network analysis framework as related to the present study will be covered.
 
-      A network was originally defined as a social field of a given individual made up of their friends and kin where links to the individual represented interaction of some sort \parencite[p.~43]{barnes_class_1954}, which today we would more specifically call a personal network.
-      Visually, this can be represented as points (\foreign{e.g.}, friends and kin) and lines (\foreign{e.g.}, interactions).
-      These points are typically referred to as nodes or vertices and these lines as ties or edges.
-      Nodes often represent individuals, as they do in the present study, but can also represent organizations or other social entities, and in the broader field of network theory, they can be almost anything, from web pages to terminals in an electrical circuit.
-      % A liaison person is a point in a network which links two network sectors and whose ties to one or both of those sectors are all weak, often being a point at one end of a bridge (Granovetter 1973:1367-1368)
+    %   A network was originally defined as a social field of a given individual made up of their friends and kin where links to the individual represented interaction of some sort \parencite[p.~43]{barnes_class_1954}, which today we would more specifically call a personal network.
+    %   Visually, this can be represented as points (\foreign{e.g.}, friends and kin) and lines (\foreign{e.g.}, interactions).
+    %   These points are typically referred to as nodes or vertices and these lines as ties or edges.
+    %   Nodes often represent individuals, as they do in the present study, but can also represent organizations or other social entities, and in the broader field of network theory, they can be almost anything, from web pages to terminals in an electrical circuit.
+    %   % A liaison person is a point in a network which links two network sectors and whose ties to one or both of those sectors are all weak, often being a point at one end of a bridge (Granovetter 1973:1367-1368)
 
-      Ties are perhaps more complex in what they may represent as they are generally more abstract.
-      While originally conceptualized as representing interactions, which is still inherently an aspect of ties, there are various types of interactions -- those one has with close friends or with a bank teller or with a boss -- which can be further specified by measuring the frequency of those interactions, placing a value on each type of interaction, and identifying whether interactions are unidirectional or bi-directional.
-      In essence, one is measuring not only interactions but also the strength of those interactions or, as it has been famously called, the strength of ties \parencite{granovetter_strength_1973}.
-      In practice, much of this is difficult to measure, and so tie strength has historically been captured as a function of the different questions used to elicit contacts from study participants, such as asking for a participant's closest friends which would then be qualified as strong ties \parencite[p.~483]{marsden_measuring_1984}.
-      Likewise, the methodology used in the current study only allowed for qualifying tie strength as strong versus less strong.
-      Such quantifications in social network analysis are both numerous and represent the primary advantage of this approach.
-      % Ties perhaps have their beginnings in Simmel's work on social geometry (Hollstein 2021)
-        % A dyad is a micro level social relationship consisting of two individuals and one tie and a triad three individuals and three ties (Simmel 1902, as cited in Andersen & Taylor 2013:123)
-      % A transaction is a social exchange theory concept that is a message passed along a network line, be it goods, services, information, etc., which provides value to the sender greater than the cost (L. Milroy 1980/1987:47-48)
-        % An exchange is when transactions flow in both directions along a tie (L. Milroy 1980/1987:48)
-      % A measure of the variety of bases for a tie is the tie's multiplexity (Milroy, L. 1980/1987:21)
-        % This can be calculated for a single tie or aggregated up to the whole network
-      % Weak ties are generally not used in studies
-        % They're "perceived as unimportant" by participants and so difficult to elicit (Milroy, L. 1980/1987:201)
-          % Gurevitch once estimated, by having people record their interactions over 100 days, that the average person has about 500 acquaintances (as cited in Milgram 1967:63)
-        % This is probably more about HOW weak the ties are, as it's not difficult to include weakER ties, but it would be to include ties as weak as, say, the grocery store cashier that one encounters once a month
-          % Granovetter (1973) proposed using four different measures to determine tie strength: the amount of time of the existence of the tie, the emotional intensity of the relationship, the intimacy (mutual confiding) of the relationship, and reciprocal services rendered across the tie (1361)
+    %   Ties are perhaps more complex in what they may represent as they are generally more abstract.
+    %   While originally conceptualized as representing interactions, which is still inherently an aspect of ties, there are various types of interactions -- those one has with close friends or with a bank teller or with a boss -- which can be further specified by measuring the frequency of those interactions, placing a value on each type of interaction, and identifying whether interactions are unidirectional or bi-directional.
+    %   In essence, one is measuring not only interactions but also the strength of those interactions or, as it has been famously called, the strength of ties \parencite{granovetter_strength_1973}.
+    %   In practice, much of this is difficult to measure, and so tie strength has historically been captured as a function of the different questions used to elicit contacts from study participants, such as asking for a participant's closest friends which would then be qualified as strong ties \parencite[p.~483]{marsden_measuring_1984}.
+    %   Likewise, the methodology used in the current study only allowed for qualifying tie strength as strong versus less strong.
+    %   Such quantifications in social network analysis are both numerous and represent the primary advantage of this approach.
+    %   % Ties perhaps have their beginnings in Simmel's work on social geometry (Hollstein 2021)
+    %     % A dyad is a micro level social relationship consisting of two individuals and one tie and a triad three individuals and three ties (Simmel 1902, as cited in Andersen & Taylor 2013:123)
+    %   % A transaction is a social exchange theory concept that is a message passed along a network line, be it goods, services, information, etc., which provides value to the sender greater than the cost (L. Milroy 1980/1987:47-48)
+    %     % An exchange is when transactions flow in both directions along a tie (L. Milroy 1980/1987:48)
+    %   % A measure of the variety of bases for a tie is the tie's multiplexity (Milroy, L. 1980/1987:21)
+    %     % This can be calculated for a single tie or aggregated up to the whole network
+    %   % Weak ties are generally not used in studies
+    %     % They're "perceived as unimportant" by participants and so difficult to elicit (Milroy, L. 1980/1987:201)
+    %       % Gurevitch once estimated, by having people record their interactions over 100 days, that the average person has about 500 acquaintances (as cited in Milgram 1967:63)
+    %     % This is probably more about HOW weak the ties are, as it's not difficult to include weakER ties, but it would be to include ties as weak as, say, the grocery store cashier that one encounters once a month
+    %       % Granovetter (1973) proposed using four different measures to determine tie strength: the amount of time of the existence of the tie, the emotional intensity of the relationship, the intimacy (mutual confiding) of the relationship, and reciprocal services rendered across the tie (1361)
 
-      % Another quantification example would be quantifying social distance as the shortest path between two nodes \parencite[p.~1366]{granovetter_strength_1973}.
+    %   % Another quantification example would be quantifying social distance as the shortest path between two nodes \parencite[p.~1366]{granovetter_strength_1973}.
       
-      % social network analysis has been noted for being particularly useful for analyzing communities where macro-social variables such as social class are not relevant \parencite[pp.~172-173]{milroy_language_1987}
-      % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
+    %   % social network analysis has been noted for being particularly useful for analyzing communities where macro-social variables such as social class are not relevant \parencite[pp.~172-173]{milroy_language_1987}
+    %   % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
 
-      Social network analysis can be divided into two types of analyses: personal (or egocentric) network analysis and total (or whole) network analysis \parencite[p.~250]{bott_family_1971}.
-      This division is based partially on the perspective one takes when looking at a network, either examining the ties that extend from an individual (personal network) or examining a network as a whole (total network), but in practice, the difference is constrained more by the limits of data collection.
-      Total network analysis cannot be carried out if any portion of the network is unaccounted for, making it quite rare to apply to any community that is not small, discrete, and well-defined \parencite[\foreign{e.g.},][]{watts_networks_1999, zachary_information_1977}.
+    %   Social network analysis can be divided into two types of analyses: personal (or egocentric) network analysis and total (or whole) network analysis \parencite[p.~250]{bott_family_1971}.
+    %   This division is based partially on the perspective one takes when looking at a network, either examining the ties that extend from an individual (personal network) or examining a network as a whole (total network), but in practice, the difference is constrained more by the limits of data collection.
+    %   Total network analysis cannot be carried out if any portion of the network is unaccounted for, making it quite rare to apply to any community that is not small, discrete, and well-defined \parencite[\foreign{e.g.},][]{watts_networks_1999, zachary_information_1977}.
 
-      % This type of analysis (total network) can highlight useful information, however.
-      % Some classic examples include calculating the density of a network, meaning the ratio of actual ties to possible ties that represents whether a network is close-knit or loose-knit (\citeauthor{barnes_networks_1968}, \citeyear[p.~118]{barnes_networks_1968}; \citeauthor{bott_family_1971}, \citeyear[p.~59]{bott_family_1971}), or calculating the dispersion of the network as the sum of all of its internal distances \parencite[p.~727]{bavelas_communication_1950}.
-      % There are always various community detection algorithms that act on the structural properties of the network \parencite[\foreign{e.g.},][]{aslak_constrained_2017, newman_finding_2004, waltman_smart_2013}.
-      % Some centrality measures identify important ties in the network \parencite[\foreign{e.g.},][]{freeman_set_1977}, while most identify important nodes \parencite[\foreign{e.g.},][]{brin_anatomy_1998, katz_new_1953, kleinberg_hubs_1999, kleinberg_authoritative_1999, rochat_closeness_2009}.
-      % Community detection
-        % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
-          % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
-          % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
-      % Centrality
-        % Many such measures exist
-          % Some are for identifying important ties
-            % A bridge is a tie in a network which provides the only path between two points (Harary et al. 1965, as cited in Granovetter 1973:1364)
-            % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
-          % Others are for identifying important nodes
-            % Relative centrality (Bavelas 1950:727)
-            % Point centrality (Bavelas 1948, as cited in Freeman 1977:35)
+    %   % This type of analysis (total network) can highlight useful information, however.
+    %   % Some classic examples include calculating the density of a network, meaning the ratio of actual ties to possible ties that represents whether a network is close-knit or loose-knit (\citeauthor{barnes_networks_1968}, \citeyear[p.~118]{barnes_networks_1968}; \citeauthor{bott_family_1971}, \citeyear[p.~59]{bott_family_1971}), or calculating the dispersion of the network as the sum of all of its internal distances \parencite[p.~727]{bavelas_communication_1950}.
+    %   % There are always various community detection algorithms that act on the structural properties of the network \parencite[\foreign{e.g.},][]{aslak_constrained_2017, newman_finding_2004, waltman_smart_2013}.
+    %   % Some centrality measures identify important ties in the network \parencite[\foreign{e.g.},][]{freeman_set_1977}, while most identify important nodes \parencite[\foreign{e.g.},][]{brin_anatomy_1998, katz_new_1953, kleinberg_hubs_1999, kleinberg_authoritative_1999, rochat_closeness_2009}.
+    %   % Community detection
+    %     % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
+    %       % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
+    %       % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
+    %   % Centrality
+    %     % Many such measures exist
+    %       % Some are for identifying important ties
+    %         % A bridge is a tie in a network which provides the only path between two points (Harary et al. 1965, as cited in Granovetter 1973:1364)
+    %         % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
+    %       % Others are for identifying important nodes
+    %         % Relative centrality (Bavelas 1950:727)
+    %         % Point centrality (Bavelas 1948, as cited in Freeman 1977:35)
         
-      % Network communities in sociolinguistics
-        % Communities act as norm enforcement mechanisms (or maybe more specifically folkway (Sumner 1906, as cited in Andersen & Taylor 2013:31) enforcement mechanisms)
-          % This has been shown in general (e.g., Boissevain 1974; Bott 1957/1971; Cubitt 1973; Kapferer 1969; Mayer 1963, all as cited in L. Milroy 1980/1987:50/52/135-136)
-          % It's not surprising that SNA communities have been predictive of linguistic behavior
-            % L. Milroy (1980/1987) suggested that vernacular forms persist regardless of the influence of standard varieties because, as she found in Belfast, the social network structure can provide the requisite norm enforcement to resist the influence of standard varieties (162-163)
-            % King (2000) found that the most standard French speaker in her data was a janitor at the only French-language school in Prince Edward Island, which she explained as the result of regular French interactions with those in prestigious positions (55)
-          % It has been suggested that networks enforce norms based on one's perception of the network rather than its objective reality (Boissevain 1974, as cited in L. Milroy 1980/1987:61)
-            % I'm not so sure it's necessary to consciously perceive the existence of a network as people are not likely to give a great many names in response to name generator questions
-              % For instance, J. Milroy & L. Milroy (1985/2012) conceptualized the maintence that stems from the pressure social networks impose as "covert" (49)
-        % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
-        % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
-        % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
-        % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
-        % Eckert (2000) sketched the total network at Belten High but not as a central part of her analysis (177)
-          % Eckert (2000) did not speak to everyone -- rather she took a random sample of people and started from those various points -- and did a more thorough sketch for girls than boys due to time constraints (173-175)
-          % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
-        % Racially homogenous communities lead to more essentialist views of race among children (Deeb et al. 2011; Pauker et al. 2016, both as cited in Roth et al. 2023:49)
+    %   % Network communities in sociolinguistics
+    %     % Communities act as norm enforcement mechanisms (or maybe more specifically folkway (Sumner 1906, as cited in Andersen & Taylor 2013:31) enforcement mechanisms)
+    %       % This has been shown in general (e.g., Boissevain 1974; Bott 1957/1971; Cubitt 1973; Kapferer 1969; Mayer 1963, all as cited in L. Milroy 1980/1987:50/52/135-136)
+    %       % It's not surprising that SNA communities have been predictive of linguistic behavior
+    %         % L. Milroy (1980/1987) suggested that vernacular forms persist regardless of the influence of standard varieties because, as she found in Belfast, the social network structure can provide the requisite norm enforcement to resist the influence of standard varieties (162-163)
+    %         % King (2000) found that the most standard French speaker in her data was a janitor at the only French-language school in Prince Edward Island, which she explained as the result of regular French interactions with those in prestigious positions (55)
+    %       % It has been suggested that networks enforce norms based on one's perception of the network rather than its objective reality (Boissevain 1974, as cited in L. Milroy 1980/1987:61)
+    %         % I'm not so sure it's necessary to consciously perceive the existence of a network as people are not likely to give a great many names in response to name generator questions
+    %           % For instance, J. Milroy & L. Milroy (1985/2012) conceptualized the maintence that stems from the pressure social networks impose as "covert" (49)
+    %     % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
+    %     % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
+    %     % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
+    %     % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
+    %     % Eckert (2000) sketched the total network at Belten High but not as a central part of her analysis (177)
+    %       % Eckert (2000) did not speak to everyone -- rather she took a random sample of people and started from those various points -- and did a more thorough sketch for girls than boys due to time constraints (173-175)
+    %       % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
+    %     % Racially homogenous communities lead to more essentialist views of race among children (Deeb et al. 2011; Pauker et al. 2016, both as cited in Roth et al. 2023:49)
 
-      The other approach to social network analysis, that of personal (or egocentric) network analysis, is far less demanding of resources to carry out than total network analysis.
-      While still rare in sociolinguistics, personal network analyses have been carried out in more traditional-looking variationist studies \parencite[\foreign{e.g.},][]{sharma_style_2011, sharma_scalar_2017} and have the advantage of not attempting to adapt network measures to non-network data as when calculating centrality in a speech community.
-      Ego, in this case, refers to the node whose perspective is taken in the analysis, leaving all other nodes connected to ego either directly or indirectly to be referred to as alters \parencite[p.~6]{perry_egocentric_2018}.
-      In practice, the alters who are collected for ego in such analyses are only those who are directly connected, making up what is called a primary or first-order star network, named as such because a resulting graph of the network would form a star with ego at the center.
-      Alternatively, one may include the whole primary or first-order zone, which would add any existing ties between ego's direct alters, or even second-order or $n$th-order zones, which bring these analyses to a point of looking more like total network analyses \parencite[pp.~113-114]{barnes_networks_1968}.
-      Calculating statistics for personal networks is essentially about quantifying aspects of an individuals social world.
-      Data collected might include the mix of ethnicities, nationalities, or genders of ego's network \parencite{botha_social_2018, li_two-step_2000, sharma_scalar_2017}, as just a few examples.
-      The present study represents an addition to the literature of another personal network analysis where what is quantified for each participant's network is the ethnic make-up of their alters.
+    %   The other approach to social network analysis, that of personal (or egocentric) network analysis, is far less demanding of resources to carry out than total network analysis.
+    %   While still rare in sociolinguistics, personal network analyses have been carried out in more traditional-looking variationist studies \parencite[\foreign{e.g.},][]{sharma_style_2011, sharma_scalar_2017} and have the advantage of not attempting to adapt network measures to non-network data as when calculating centrality in a speech community.
+    %   Ego, in this case, refers to the node whose perspective is taken in the analysis, leaving all other nodes connected to ego either directly or indirectly to be referred to as alters \parencite[p.~6]{perry_egocentric_2018}.
+    %   In practice, the alters who are collected for ego in such analyses are only those who are directly connected, making up what is called a primary or first-order star network, named as such because a resulting graph of the network would form a star with ego at the center.
+    %   Alternatively, one may include the whole primary or first-order zone, which would add any existing ties between ego's direct alters, or even second-order or $n$th-order zones, which bring these analyses to a point of looking more like total network analyses \parencite[pp.~113-114]{barnes_networks_1968}.
+    %   Calculating statistics for personal networks is essentially about quantifying aspects of an individuals social world.
+    %   Data collected might include the mix of ethnicities, nationalities, or genders of ego's network \parencite{botha_social_2018, li_two-step_2000, sharma_scalar_2017}, as just a few examples.
+    %   The present study represents an addition to the literature of another personal network analysis where what is quantified for each participant's network is the ethnic make-up of their alters.
 
-      % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
-      % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
-      % Weaknesses
-        % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
-          % This 'is more about how one conceptualizes of community
+    %   % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
+    %   % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
+    %   % Weaknesses
+    %     % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
+    %       % This 'is more about how one conceptualizes of community
 
     \subsection{Data collection}
       \label{sec:network_collection}
