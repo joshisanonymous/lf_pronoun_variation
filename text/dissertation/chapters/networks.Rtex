@@ -124,30 +124,21 @@
 
     % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
 
-  \section{Racial homophily in Louisiana}
-    \label{sec:homophily_louisiana}
-    % What is the connection between homophily and racialization?
-      % Having the wrong network can be detrimental to one's life outcomes
-      % One way in which a group's disadvantages are perpetuated then is to be cut off from ties with a more privileged group
-        % This could be exemplified as having homophilous personal networks
-      % That homophily around a social characteristic is possible suggests that that characteristic is salient
-        % Logically, salience is needed for racialization to take place as one needs to know what group one is exploiting in order to exploit that group
-      % Network effects can also exasperate inequalities (DiMaggio & Garip 2012)
-        % In other words, if one begins life from a disadvantaged position, one's disadvantages can be amplified if one forms networks of other like-individuals, and perhaps more importantly, those who begin from a privileged position gain even more advantages by forming networks with other like-individuals
-        % This can be seen, for instance, in how social capital resources are obtained in the labor market
-          % Having White men in one's occupational network gives one more access to social capital at least in terms of jobs leads and higher social status alters, but racial minorities do not generally have White men in their occupational networks (McDonald 2011)
-    
-    % What do we already know about its existence in Louisiana?
-    One study from the early 2000s even touched on the racial make-up of friendship personal networks of Creoles of color.
-    Those who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole had mostly White friends, and those who identified protean (\foreign{i.e.}, racially fluid) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
-    This result highlighted that there was still a meaningful distinction between Black identity and Creole identity for some and that this distinction was related in some way to the racial composition of Creoles' networks.
+    In Louisiana specifically, while there is a long and continuing history of racial segregation that has been examined at the community level (see Section \ref{sec:united_states}), there is a dearth of examinations on what personal networks look like racially in Louisiana.
+    This is true whether dealing with Creole racialization or the broader categories of Black and White, and it is especially true in sociolinguistics.
+    While sociolinguistic ethnographic work on Creoles has taken place in Louisiana \parencite{wendte_tale_2020}, quantitative network analyses have been absent.
+    Only one study, outside of sociolinguistics, has addressed how the racial make-up of personal networks relate to Creoles, in this case in terms of how they view their Creole identities.
+    It was found that those Creoles of color who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole (\foreign{i.e.}, a stable mixed identity) had mostly White friends, and those who identified as protean (\foreign{i.e.}, racially shifting) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
 
-    Homophily is effectively a test of whether social features are salient \parencite[p.~29]{blau_crosscutting_1984}.
-    One can imagine that, in order to socially organize around a feature, that feature most be recognizable on some level for individuals in that organization.
-    In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are not only salient in the community but more salient than other shared statuses or values along which Creoles and Cajuns could form homophilous ties.
-    Indeed, as was mentioned in Section \ref{sec:creole_history}, many distinctive cultural practices are shared by Creoles and Cajuns, such as religion, cuisine, and music (\citeauthor{esman_henderson_1985}, \citeyear[p.~7]{esman_henderson_1985}; \citeauthor{spitzer_cajuns_1977}, \citeyear{spitzer_cajuns_1977}, \citeauthor{trepanier_french_1988}, \citeyear{trepanier_french_1988}).
-    In other words, Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks because racialization has rendered these categories highly salient.
+    The current study aims to add to this picture by looking not at the Black and White composition of personal network but the Creole and Cajun composition relative to individuals who self-identify as Creole or Cajun themselves and how this impacts language use.
+    Specifically, the primary research question is the following:
+    \begin{itemize}
+      \item[RQ:] How does the homophily or lack thereof in the ethnic make-up of personal networks among F\&C speakers in South Louisiana relate to variation in subject pronoun usage?
+    \end{itemize}
+    Along the way, useful descriptive details about the social structures surrounding Creoles and Cajuns will be presented.
 
+  % \section{Racial homophily in Louisiana}
+  %   \label{sec:homophily_louisiana}
     % General observations about network qualities
       % It has been predicted that rural networks are more homogenous in education, race-ethnicity, and religion, but more heterogenous in age and gender, the latter due to ties being more with kin than friends (Beggs et al. 1996:312)
         % Gold (1976) claims that the sharecropper networks around Mamou in the early to mid 20th century were close knit out of necessity (272)
@@ -162,14 +153,7 @@
       % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
       % Race/ethnicity was the strongest factor in network homophily in the results of the 1985 General Social Survey (GSS) \parencite{marsden_homogeneity_1988}.
       % In marriages, almost all Blacks and Whites on the 1990 census entering into racially homophilous partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks, generally all young people in 1994-1995 formed by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
-      % Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.
-    
-    % Contact theory suggests implications for homophilous networks
-      % Contact theory posits that inter-group contact reduces prejudice \parencite[p.~130]{lee_race_1943}, especially when that contact is high in quality \parencite{allport_nature_1954}.
-      % A meta-analysis covering decades of work on the theory concluded that it is born out and generalizable beyond contact between racialized groups to contact between all types of groups (\foreign{e.g.}, grouped by sexual orientation, disabilities, etc.) \parencite{pettigrew_meta-analytic_2006}.
-      % Non-homophilous, intimate ties would represent the sort of quality contacts that reduce prejudice according to contact theory, so a lack of such ties is expected in when identities are racialized
-
-    % It is often useful to talk about social network segregation where, for instance, clusters are formed in friendship networks based on some salient feature \parencite{moody_race_2001, zhao_networks_2023}.
+      % Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.    
 
   \section{Methods}
     \label{sec:network_methods}
@@ -621,7 +605,30 @@
       For Cajuns who have less homophilous networks, that lack of homophily is not a result of having Creoles in the networks and \foreign{vice versa}.
       In other words, the requisite contact that would be needed between Creoles and Cajuns for their linguistic features to come to be shared is simply not there even for those who have diverse networks.
 
-  \section{Conclusion}
+  \section{Discussion}
+
+    % Homophily is effectively a test of whether social features are salient \parencite[p.~29]{blau_crosscutting_1984}.
+    % One can imagine that, in order to socially organize around a feature, that feature most be recognizable on some level for individuals in that organization.
+    % In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are not only salient in the community but more salient than other shared statuses or values along which Creoles and Cajuns could form homophilous ties.
+    % Indeed, as was mentioned in Section \ref{sec:creole_history}, many distinctive cultural practices are shared by Creoles and Cajuns, such as religion, cuisine, and music (\citeauthor{esman_henderson_1985}, \citeyear[p.~7]{esman_henderson_1985}; \citeauthor{spitzer_cajuns_1977}, \citeyear{spitzer_cajuns_1977}, \citeauthor{trepanier_french_1988}, \citeyear{trepanier_french_1988}).
+    % In other words, Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks because racialization has rendered these categories highly salient.
+    % % It is often useful to talk about social network segregation where, for instance, clusters are formed in friendship networks based on some salient feature \parencite{moody_race_2001, zhao_networks_2023}.
+
+    % Contact theory suggests implications for homophilous networks
+      % Contact theory posits that inter-group contact reduces prejudice \parencite[p.~130]{lee_race_1943}, especially when that contact is high in quality \parencite{allport_nature_1954}.
+      % A meta-analysis covering decades of work on the theory concluded that it is born out and generalizable beyond contact between racialized groups to contact between all types of groups (\foreign{e.g.}, grouped by sexual orientation, disabilities, etc.) \parencite{pettigrew_meta-analytic_2006}.
+      % Non-homophilous, intimate ties would represent the sort of quality contacts that reduce prejudice according to contact theory, so a lack of such ties is expected in when identities are racialized
+
+    % What is the connection between homophily and racialization?
+      % Having the wrong network can be detrimental to one's life outcomes
+      % One way in which a group's disadvantages are perpetuated then is to be cut off from ties with a more privileged group
+        % This could be exemplified as having homophilous personal networks
+      % That homophily around a social characteristic is possible suggests that that characteristic is salient
+        % Logically, salience is needed for racialization to take place as one needs to know what group one is exploiting in order to exploit that group
+      % Network effects can also exasperate inequalities (DiMaggio & Garip 2012)
+        % In other words, if one begins life from a disadvantaged position, one's disadvantages can be amplified if one forms networks of other like-individuals, and perhaps more importantly, those who begin from a privileged position gain even more advantages by forming networks with other like-individuals
+        % This can be seen, for instance, in how social capital resources are obtained in the labor market
+          % Having White men in one's occupational network gives one more access to social capital at least in terms of jobs leads and higher social status alters, but racial minorities do not generally have White men in their occupational networks (McDonald 2011)
 
     % Neumann (1985) looked at Blacks in her study of Breaux Bridge Creole because she claimed that their language was «moins affectés par la "décréolisation"» (2)
 
