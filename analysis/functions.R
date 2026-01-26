@@ -138,8 +138,12 @@ getAlterEthCount <- function(df, name, participantEthnicity, sameEthnicity = TRU
   }
 }
 
-getEIHomophily <- function(df, name) {
-  parEthnicity <- as.character(participants[participants$Name == name, "Ethnicity"])
+getEIHomophily <- function(df, name, gss_data = FALSE) {
+  if(gss_data == TRUE) {
+    parEthnicity <- as.character(gss[gss$Name == name, "Ethnicity"])[1]
+  } else {
+    parEthnicity <- as.character(participants[participants$Name == name, "Ethnicity"])
+  }
   sameEth <- getAlterEthCount(df, name, parEthnicity)
   diffEth <- getAlterEthCount(df, name, parEthnicity, sameEthnicity = FALSE)
   homophIndex <- (diffEth - sameEth) / (diffEth + sameEth)

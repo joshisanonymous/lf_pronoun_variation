@@ -281,5 +281,6 @@ tablesEthnicityProps <- lapply(tablesEthnicity, prop.table, margin = 1)
 tablesSubsetRaceProps <- lapply(tablesSubsetRace, prop.table, margin = 1)
 
 source("maps.R")
+source("gss_homophily.R")
 source("sna.R")
 source("plots-final.R")
