@@ -22,6 +22,11 @@ library(car)
 library(plyr)
 library(dplyr)
 library(lubridate)
+library(osmdata)
+library(sf)
+library(igraph)
+library(gssr)
+library(haven)
 source("functions.R")
 
 ######################

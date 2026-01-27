@@ -1,6 +1,3 @@
-library(gssr)
-library(haven)
-
 ## Data ----------------
 gss <- gss_get_yr(2004)
 

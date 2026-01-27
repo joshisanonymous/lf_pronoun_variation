@@ -1,7 +1,3 @@
-# Packages -------------------------------------------------------------------
-library(osmdata)
-library(sf)
-
 # Map variables --------------------------------------------------------------
 louisiana <- opq(getbb("Louisiana"), timeout = 60 * 20) |>
   add_osm_feature(key = "boundary", value = "administrative") |>

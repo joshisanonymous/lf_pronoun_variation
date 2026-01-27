@@ -1,5 +1,3 @@
-library(igraph)
-
 # Data -------------------------------------------------------------------------
 # Create data frame with attributes for all network nodes including alters
 networkWholeNodeAttrs <- data.frame(
