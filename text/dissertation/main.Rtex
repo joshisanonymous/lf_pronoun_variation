@@ -111,7 +111,7 @@
     @
     <<child = "./chapters/networks.Rtex">>=
     @
-    <<child = "./chapters/ethnic_race_meaning.Rtex">>=
+    <<child = "./chapters/discourse.Rtex">>=
     @
     <<child = "./chapters/conclusion.Rtex">>=
     @
