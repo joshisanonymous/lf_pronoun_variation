@@ -582,6 +582,10 @@
         % Notably, -ez is not used
       % Eux-autres and eux take bare verbs except when the verb is être which "frequently" yields sont (Papen & Rottet 1997:97)
 
+    \begin{itemize}
+      \item[RQ1:] Do subject pronouns vary in Louisiana French between Cajun and Creole speakers?
+    \end{itemize}
+
   \section{Methods}
     \label{sec:pronoun_methods}
     In the case of Creoles and Cajuns having become racialized categories, a natural question is what traits are used to mark individuals as fitting into these categories.
@@ -1213,7 +1217,7 @@
         These were quite common in the speech of all participants as they are in varieties of French around the world and so were treated as auxiliary uses of \lexi{aller}.
         % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
 
-        \begin{enumerate}[label=\arabic*, series=sentences]
+        \begin{enumerate}[label=\arabic*, resume=sentences]
           \item Li sa pas content. (Owen Webre, 65:25) \label{sent:owen_sa}
           \item[] Elle sera pas contente. (Standard French)
           \item[] \gloss{She won't be happy.}
