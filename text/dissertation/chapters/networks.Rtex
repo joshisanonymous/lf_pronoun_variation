@@ -580,7 +580,7 @@
       In other words, are those Creoles with less homophilous networks more likely to use non-Creole pronouns and are those Cajuns with less homophilous networks more likely to use Creole pronouns?
       For each pronoun type, Model \ref{eq:regression_model_homophily} was therefore fit.
 
-      \begin{enumerate}[label=\roman*., ref=\roman*, series=equations]
+      \begin{enumerate}[resume=equations]
         \item Pronoun Type $\sim$ Network Ethnic Homophily * Ethnicity + (1|Speaker) + (1|Predicate) \label{eq:regression_model_homophily}
       \end{enumerate}
       
