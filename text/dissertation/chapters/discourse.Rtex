@@ -46,7 +46,17 @@
 
     % Recognition of differences between Creole and Cajun speech ------------------------------
 
-    
+    When speaking about language, both Creoles and Cajuns were able to speak of differences between each other.
+    In some cases, these differences are downplayed.
+
+    \begin{enumerate}[resume=sentences]
+      \item FK: C'est pas un gros différence. To vois, ici dans la Louisiane, les Créoles et puis les Cadiens restent ensemble, ça fait les Cadiens et puis les Créoles, yé parlent pas la français comme les Français parlent le france. (52:36) \label{sent:different_speech_floyd}
+      \item[] {}\gloss{FK: It's not a big difference. You see, here in Louisiana, Creoles and Cajuns live together, so Cajuns and Creoles, they don't speak French like the French speak French.}
+      \item INT: J'ai rencontré un homme, un Cadien. À mon oreille, il parlait créole en fait, mais il me disait, "Je parle français."
+      \item[] AR: Ouais, c'est un mélange de français et créole. ... C'est un dialecte. (52:43)
+      \item[] {}\gloss{INT: I met a man, a Cajun. To my ear, he spoke Creole in fact, but he was telling me, "I speak French."}
+      \item[] {}\gloss{AR: Yeah, it's a mix of French and Creole. ... It's a dialect.}
+    \end{enumerate}
       
       % General characterizations of the difference
         % Floyd Kerry
