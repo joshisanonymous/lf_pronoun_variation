@@ -133,7 +133,7 @@
     % St Martin contains Breaux Bridge, noted by Klingler (2003 "Language") as being a town where French and Creole are in great contact
     % Baronian (2005) wasn't clear on how he distinguished between French and Creole, but did give examples, and those examples were identical save for the use of mo and gain in Creole speech (135), much like what Klingler (2003 "Language", 2005) did
     
-    \begin{enumerate}[resume=sentences]
+    \begin{enumerate}[series=sentences]
       \item s'il a pu rencontrer \emph{elle} \label{sent:postverbal_object_pro} \parencite[p.~146]{conwell_louisiana_1963}
     \end{enumerate}
 
@@ -1217,7 +1217,7 @@
         These were quite common in the speech of all participants as they are in varieties of French around the world and so were treated as auxiliary uses of \lexi{aller}.
         % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
 
-        \begin{enumerate}[label=\arabic*, resume=sentences]
+        \begin{enumerate}[resume=sentences]
           \item Li sa pas content. (Owen Webre, 65:25) \label{sent:owen_sa}
           \item[] Elle sera pas contente. (Standard French)
           \item[] \gloss{She won't be happy.}
