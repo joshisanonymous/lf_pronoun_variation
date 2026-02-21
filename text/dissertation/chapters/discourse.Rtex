@@ -58,9 +58,9 @@
       % Arthur Rousseau
         % (52:43) [some Cajuns mix French and Creole]
         % INT: J'ai rencontré un homme, un Cadien. À mon oreille, il parlait créole en fait, mais il me disait, "Je parle français."
-        % AR: Ouais, c'est un mélange de français et créole.
+        % ArthurR: Ouais, c'est un mélange de français et créole.
         % (53:21) [Creole is a dialect of French]
-        % AR: C'est un dialecte.
+        % ArthurR: C'est un dialecte.
       
       More often, though, participants were regularly able to distinguish.
       Oliver Lesage, a Cajun, offered two examples of Creole-marked speech in Sentences \ref{sent:different_speech_lesage1} and \ref{sent:different_speech_lesage2}.
@@ -111,8 +111,8 @@
       Indeed, I had encountered White speaker during my research who did not want to speak F\&C because his speech is what he would call N-word French, a term that he was unwilling to say out loud but rather hinted at until he was sure that we both understood to what he was referring.
 
       \begin{enumerate}[resume=sentences]
-        \item AR: Elle vient de Henderson, et puis to ca' dis li parle un petit brin créole là. (81:02) \label{sent:different_speech_austin}
-        \item[] \longtrans{AR: She's from Hender, and so you can say that she speaks a bit of Creole there.}
+        \item AustinR: Elle vient de Henderson, et puis to ca' dis li parle un petit brin créole là. (81:02) \label{sent:different_speech_austin}
+        \item[] \longtrans{AustinR: She's from Hender, and so you can say that she speaks a bit of Creole there.}
         \item BW: Et eux, ils ont venu de autour de Catahoula, et ça parlait un peu de le créole aussi, eh? ``Mo gain li, to gain li,'' et c'est la seule fois moi j'avais entendu ça. (46:21) \label{sent:different_speech_bruce2}
         \item[] \longtrans{BW: And them, they came from around Catahoula, and they spoke a bit of Creole aussi, eh? I have it, you have it, and that's the only time that I had heard that.}
         \item CRS: Les Créoles, mais ouais, ça parle différent que nous. ``Mo mo'tais couru.'' \gloss{I went.} ``Mo'tais couru. No'tait gain.'' ... Il y a des Noirs qui parlent le français comme nous-autres, mais il y a des Blancs qui parlent le créole comme les Noirs, et Cecilia qui est sept miles d'ici, pour la plupart, les Blancs, ils parlent créole, et on disait ils se parlent nègre. Ça disait pas ils se parlent créole. (45:13) \label{sent:different_speech_cynthia}
@@ -129,7 +129,7 @@
         % MB: Les gens de Carencro, les Blancs parlaient français cadien. Les Noirs parlaient français créole.
       % Arthur Rousseau
         % (52:22) [Cecilia and Breaux Bridge]
-        % AR: Y a beaucoup des Blancs qui parlent créole dans Cecilia et Breaux Bridge.
+        % ArthurR: Y a beaucoup des Blancs qui parlent créole dans Cecilia et Breaux Bridge.
       % Bruce Wiltz
         % (67:46) [Cecilia, Coteau Holmes, Catahoula]
         % INT: Je suppose que c'était pas aussi fréquent [speaking Creole] à Lafayette que d'autres villages autour de Lafayette peut-être ou?
@@ -151,7 +151,7 @@
       Both participants hedged these statements by explaining that they may be wrong, acknowledging their ignorance on Creole matters which likely stems from having little contact with Creoles, which is a natural result when a group has been racialized.
 
       \begin{enumerate}[resume=sentences]
-        \item AR: A lot of the Blacks that settled these regions [Lafayette] were from the islands [Caribbean], somewhere from the islands, and the islands were French. (50:46) \label{sent:different_speech_arthur}
+        \item ArthurR: A lot of the Blacks that settled these regions [Lafayette] were from the islands [Caribbean], somewhere from the islands, and the islands were French. (50:46) \label{sent:different_speech_arthur}
         \item BR: Le monde qui viensait de les îles en-dedans le Caribbean a ramené le français, le créole, la langue créole, en-dedans pour qu'on peut travailler dans les clos de canne, sugarcane, ça fait moi je trouve, d'après moi, le, enfin, ils ont une table créole en Arnaudville. C'est proche tous les Noirs. (60:44) \label{sent:different_speech_brian}
         \item[] \longtrans{BR: The people that came from the islands in the Caribbean brought back French, Creole, the Creole language, so they can work in the cane field, sugarcane, so I find, in my opinion, the, anyway, there's a Creole table in Arnaudville. It's almost all Blacks.}
       \end{enumerate}
@@ -189,198 +189,237 @@
     
     \subsection{What is a Cajun?}
       Racialization could also be seen in the ways that participants discussed their definitions of Cajuns and Creoles.
-      
+      Most notably, while ancestry is in fact a major aspect of Cajun identity, it was not treated in terms of broad racialized social categories as was done for Creoles.
+      Cajun identity has the privilege of being conceptaulized as racially neutral, focused on Acadian ancestry and cultural practices rather than essentialist characteristics and discrimination.
 
-      % Acadians
-        % Arthur Rousseau
-          % (41:09)
-          % INT: Quoi c'est un Cadien? C'est quelqu'un avec des ancêtres de l'Acadie ou c'est plus compliqué que ça?
-          % AR: Oui, c'est joliment ça. C'est des personnes que le histoire le généologie vient de le Nouvelle-Écosse. Et y a beaucoup des gens qu'a arrivé à une autre manière, peut-être à la port de Nouvelle-Orléans, le France Nouvelle-Orléans, mais les gens qu'étaient dans le diaspora, qu'étaient put everywhere dans le thirteen colonies -- some went back to France, some were in jail in England, some went into the Caribbean -- we all came back over here. Those are the ones, in my estimation, are called Cajuns.
-        % Deborah Tauzin
-          % (5:53) [identifying an ancestor as Acadian but self-identifying as Creole anyway]
-          % DT: Mon arrière-grand-père, oui, Tauzin, oui, il vient de là [Nova Scotia]. Ouais, il était cadien.
-            % Her self-identification as Creole was perhaps the catch-all-ness of the term combined with her general rejection of Cajun.
-        % Brian Roger
-          % (48:14) [from Canada]
-          % BR: Moi, je dis un Cadien, c'est du monde qui a venu de Canada.
-        % Floyd Kerry
-          % (51:48) [what he read]
-          % FK: Comme mo mo'tais lire, les Cadiens'taient sorti dans Canada. C'est là yé sorti, et puis yé vini ici dans la Louisiane.
-        % Jack Munson
-          % (37:10) [it's simple, especially in comparison to defining Creole]
-          % JM: Un Cadien, c'est bien simple. C'est quelqu'un qui vient, le lignage, ça vient de l'Acadie.
+      Acadians were French-speaking colonists of the Maritime provinces in Canada whose descendants reside largely in the Maritimes and Louisiana today.
+      When asked what a Cajun is, participants, especially Cajuns, were largely quick and succinct in their response that Cajuns are descendants of Acadians as in Sentences \ref{sent:cajun_brian} through \ref{sent:cajun_floyd}.
+      This could mean highlighting Canada, Acadia, or Nova Scotia as the starting place.
+      It was also expressed in this matter of fact way by Jerry Pierre Quintero, a White Creole, in Sentence \ref{sent:cajun_jerry} and Floyd Kerry, a Black Creole, in Sentence \ref{sent:cajun_floyd}.
+
+      \begin{enumerate}[resume=sentences]
+        \item BR: Moi, je dis un Cadien, c'est du monde qui a venu de Canada. (48:14) \label{sent:cajun_brian}
+        \item[] \longtrans{BR: Me, I say a Cajun, that's people who came from Canada.}
+        \item OL: Cadien, c'est surtout quelqu'un qui est venu avec le groupe des Acadiens après la dispersion des Acadiens du Canada. (65:44) \label{sent:cajun_lesage}
+        \item[] \longtrans{Cajun, that's especially someone who came with the group of Acadians after the dispersion of the Acadians from Canada.}
+        \item ArthurR: C'est des personnes que le histoire, le généologie vient de le Nouvelle-Écosse. (41:09) \label{sent:cajun_arthur}
+        \item[] \longtrans{It's people whose history, the geneology come from Nova Scotia.}
+        \item JPQ: Un Cadien? Well, le monde vient de Acadie. (31:56) \label{sent:cajun_jerry}
+        \item[] \longtrans{A Cajun? Well, the people who came from Acadia.}
+        \item FK: Comme mo mo'tais lire, les Cadiens'taient sorti dans Canada. (51:48) \label{sent:cajun_floyd}
+        \item[] \longtrans{As I was reading, Cajuns had come out of Canada.}
+      \end{enumerate}
+      % Brian Roger
+        % (48:14) [from Canada]
+        % BR: Moi, je dis un Cadien, c'est du monde qui a venu de Canada.
+      % Oliver Lesage
+        % (65:44) [when asked, then implies that it's not necessary for all ancestors to be Acadian]
+        % OL: Cadien, c'est surtout quelqu'un qui est venu avec le groupe des Acadiens après la dispersion des Acadiens du Canada. Ça c'est un Cadien. Là, dans ma famille, on a quelques Cadiens.
+          % He later went on to explain that his geneological research showed that his family included people from France, Ireland, Germany, American Indians, and Mali (who he described noir).
+      % Arthur Rousseau
+        % (41:09)
+        % INT: Quoi c'est un Cadien? C'est quelqu'un avec des ancêtres de l'Acadie ou c'est plus compliqué que ça?
+        % ArthurR: Oui, c'est joliment ça. C'est des personnes que le histoire le généologie vient de le Nouvelle-Écosse. Et y a beaucoup des gens qu'a arrivé à une autre manière, peut-être à la port de Nouvelle-Orléans, le France Nouvelle-Orléans, mais les gens qu'étaient dans le diaspora, qu'étaient put everywhere dans le thirteen colonies -- some went back to France, some were in jail in England, some went into the Caribbean -- we all came back over here. Those are the ones, in my estimation, are called Cajuns.
+      % Jerry Pierre Quintero
+        % (31:56)
+        % JPQ: Un Cadien? Well, le monde vient de Acadie.
+      % Floyd Kerry
+        % (51:48) [what he read]
+        % FK: Comme mo mo'tais lire, les Cadiens'taient sorti dans Canada. C'est là yé sorti, et puis yé vini ici dans la Louisiane.
+      % Jack Munson
+        % (37:10) [it's simple, especially in comparison to defining Creole]
+        % JM: Un Cadien, c'est bien simple. C'est quelqu'un qui vient, le lignage, ça vient de l'Acadie.
+      % Deborah Tauzin
+        % (5:53) [identifying an ancestor as Acadian but self-identifying as Creole anyway]
+        % DT: Mon arrière-grand-père, oui, Tauzin, oui, il vient de là [Nova Scotia]. Ouais, il était cadien.
+          % Her self-identification as Creole was perhaps the catch-all-ness of the term combined with her general rejection of Cajun.
+      % Bruce Wiltz
+        % (34:24) [gives his definition of Cajun but explains he didn't know the story when he was growing up]
+        % BW: Well, je sais que, au début, les Acadiens, c'était tous les gens qu'étaient foutus dehors de Canada, ça fait c'est tous les descendants de ça, mais moi, je savais pas ça quand j'ai grandi, eh?
+      % Dennis Oubre
+        % (24:09)
+        % DO: Le définition, y a à peu près cinq millions descendants de les premiers Acadiens qu'a établi le colonie Acadie qui s'appelle aujourd'hui la Nouvelle-Écosse, mais les seuls groupes que ç'appelle les Cadiens, c'est eux qu'étaient ici en Louisiane.
+
+      One Cajun, Judy Soileau Courtade, explicitly described Cajun, and Acadian, as a race in Sentence \ref{sent:cajun_judy}
+      She based this on the hardships that Acadians endured when they were expelled from Canada.
+      This made it something of a necessity to have Acadian ancestry is one wishes to claim a Cajun identity, presumably because to do otherwise would be to dishonor those hardships.
+      The idea that Acadian/Cajun is racialized is perhaps ot far off historically in the sense that Acadians may have been racialized in order to their expulsion in order to take their land, after which they faced discrimination wherever they tried to go because of that racialization.
+      However, historical racialization of Acadians in the Maritimes does not necessarily entail a modern day racialization of Cajuns in Louisiana.
+
+      \begin{enumerate}[resume=sentences]
+        \item JSC: Well, moi je crois, tu connais, we're a race. (61:37) \label{sent:cajun_judy}
+      \end{enumerate}
+      % Randal Chenevert
+        % (50:55) [when asked, highlights Acadian ancestry but doesn't say what to do with others]
+        % RandalC: Un Cadien, c'est quelqu'un, je peux pas dire que faut tu d'être acadien pour d'être acadien, c'est pas nécessaire, mais un tas de Cadiens, ils étaient des Acadiens.
+
+      % The story of how the word Cajun was derived is often shared
+        % Dennis Oubre
+          % (24:30)
+          % DO: Et quand ils sont arrivés, ils ont présenté comme, "Nous sommes des Acadiens," et les Espagnols et le monde à Nouvelle-Orléans avaient du tracas à dire Acadien, ça fait ça disait Cadien.
         % Jerry Pierre Quintero
-          % (31:56)
-          % JPQ: Un Cadien? Well, le monde vient de Acadie.
-        % Judy Soileau Courtade
-          % (59:56)
-          % JSC: Well, pour moi, c'est que mes ancêtres a venu de Nova Scotia.
-          % (61:37) [calls Acadians a race because of the hardships they endured when expelled from Canada, and therefore it's quite necessary to have those roots to call oneself Cajun]
-          % JSC: Well, moi je crois, tu connais, we're a race.
-            % This isn't far off in the sense that Acadians may have been racialized in order to justify expelling them from Canada to take their land, after which they faced discrimination wherever they tried to go because of that racialization, but their racial identity today is much different.
-        % Oliver Lesage
-          % (65:44) [when asked, then implies that it's not necessary for all ancestors to be Acadian]
-          % OL: Cadien, c'est surtout quelqu'un qui est venu avec le groupe des Acadiens après la dispersion des Acadiens du Canada. Ça c'est un Cadien. Là, dans ma famille, on a quelques Cadiens.
-            % He later went on to explain that his geneological research showed that his family included people from France, Ireland, Germany, American Indians, and Mali (who he described noir).
-        % Randal Chenevert
-          % (50:55) [when asked, highlights Acadian ancestry but doesn't say what to do with others]
-          % RandalC: Un Cadien, c'est quelqu'un, je peux pas dire que faut tu d'être acadien pour d'être acadien, c'est pas nécessaire, mais un tas de Cadiens, ils étaient des Acadiens.
-        % Dennis Oubre
-          % (24:09)
-          % DO: Le définition, y a à peu près cinq millions descendants de les premiers Acadiens qu'a établi le colonie Acadie qui s'appelle aujourd'hui la Nouvelle-Écosse, mais les seuls groupes que ç'appelle les Cadiens, c'est eux qu'étaient ici en Louisiane.
-
-        % The story of how the word Cajun was derived is often shared
-          % Dennis Oubre
-            % (24:30)
-            % DO: Et quand ils sont arrivés, ils ont présenté comme, "Nous sommes des Acadiens," et les Espagnols et le monde à Nouvelle-Orléans avaient du tracas à dire Acadien, ça fait ça disait Cadien.
-          % Jerry Pierre Quintero
-            % (32:07) [immediately after giving an Acadian definition of Cajuns]
-            % JPQ: Et là, c'est durant ici quand ils estiont devenus acadiens, le mot a devenu cadien.
-          % Laura Laviolette
-            % (56:10) [while giving alter ethnicities]
-            % LL: On est tous cadiens, mais c'est acadienne. Oui, ça a juste coupé ça.
-          % Arthur Rousseau
-            % (42:30)
-            % AR: Le nom de les personnes, c'était cadien, like Acadian, cadien, Cajun. It's a corruption of the word. C'est pas épelé correctement -- c'est C A J I N suppose être -- mais les personnes d'autres places savaient ainsi, "Vouz-aut est un, vouz êt- vouz est un Cajun?" "Non, ch'sus pas un Cajun. Ch'sus un Cadien."
-
-        % This origin myth wasn't always so widespread in the 20th century, even among people who identify as Cajun
-          % Bruce Wiltz
-            % (34:24) [gives his definition of Cajun but explains he didn't know the story when he was growing up]
-            % BW: Well, je sais que, au début, les Acadiens, c'était tous les gens qu'étaient foutus dehors de Canada, ça fait c'est tous les descendants de ça, mais moi, je savais pas ça quand j'ai grandi, eh?
-
-        % Is this consistent with identifying alters' ethnicities?
-
-          % In many cases, it was consistent in the sense that participants would use family names as indications that alters' ancestors were from Acadia.
-            % Austin Roy
-              % (71:55)
-              % AR: Moi, je dirais que c'est un Cadien. C'est un Chretien d'Arnaudville.
-            % Bruce Wiltz
-              % (45:58)
-              % BW: Ça s'appelle tous des Cadiens, et je connais Poursine, c'est acadien.
-            % Cynthia Robichaux Savoie
-              % (60:11) [talking about the husband of one of her alters]
-              % CRS: Et puis son mari, Sonny,
-              % INT: Il est cadien, aussi?
-              % CRS: Oh ouais ouais. Son nom de famille, c'est Thibodeaux. C'est beaucoup cadien, ça.
-            % Randal Chenevert
-              % (48:17)
-              % RandalC: Oh, Huey est cadien, oh, haha, yeah. Il est un Mabile.
-            % Jack Munson
-              % (54:17) [some family names are strongly Cajun]
-              % JM: Wilton, il est cadien. Il est Chenevert. Chenevert, c'est un mot très très cadien.
-                % What makes this particularly notable is that one participant, Rachel Chenevert, identified as a Black Creole and most certainly would never be able to pass even if she wanted to.
-            % Elizabeth Naquin
-              % (50:14) [not just an Italian family name but doesn't speak French]
-              % EN: Geraldine, pas cadienne. Marks. Li'tait élevée à Crowley. Ses parents c'était pas, c'était Italian. Okay. Marks is her maiden name. Mo crois pas li parle français.
-
-            % There would sometimes be some hesitancy that usually resolved in explaining that the alter would certainly call themselves Cajun
-              % Bruce Wiltz
-                % (46:03)
-                % BW: Travis Periou though, c'est pas acadien. Je crois pas, mais le nom de famille de sa mère, c'était Prince, ça fait sais pas c'était ... Mais oui, il a été élevé avec nous ici. C'était, ouais ouais, ils ont dit il est cadien, eh, et lui, il disait il était cadien.
-              % Lillian Himel
-                % (39:13) [referring to her husband]
-                % LH: Il est allemand, mais il est blanc, mais il parle cadien. Il dit, je crois lui il dit il est cadien, mais il connaît son ancêtres sont allemands.
-
-      % Non-Acadians accepted
-        % Terry Guillot
-          % (45:12) [after talking about Creoles being mixed and Indians being included in that mix]
-          % TG: Ina un tas de ces Cadiens-là qui va pas dire ils ont du sang sauvage, mais ina z-en qui est mêlé.
-            % This may be accurate for mixes that include Indians or those who can't pass as White, but Cajuns regularly acknowledge that being pure Acadian isn't necessary
+          % (32:07) [immediately after giving an Acadian definition of Cajuns]
+          % JPQ: Et là, c'est durant ici quand ils estiont devenus acadiens, le mot a devenu cadien.
+        % Laura Laviolette
+          % (56:10) [while giving alter ethnicities]
+          % LL: On est tous cadiens, mais c'est acadienne. Oui, ça a juste coupé ça.
         % Arthur Rousseau
-          % (42:05) [these days, it's not just ancestry]
-          % AR: Mais, dans ce temps-ici, Cajun est populai[ʁ]e, et y a beaucoup des gens avec, comme Oliver. Oliver, il est Gomez, mais son nom est espagnol, mais ch'pense i dit il est cadien.
+          % (42:30)
+          % ArthurR: Le nom de les personnes, c'était cadien, like Acadian, cadien, Cajun. It's a corruption of the word. C'est pas épelé correctement -- c'est C A J I N suppose être -- mais les personnes d'autres places savaient ainsi, "Vouz-aut est un, vouz êt- vouz est un Cajun?" "Non, ch'sus pas un Cajun. Ch'sus un Cadien."
+
+      Nuances in this definition were often brought out when eliciting the ethnicities of participants' alters.
+      The real world application of their definition of Cajuns naturally ran into contradictions.
+      That is not to say that no alters were classified as Cajun according to ancestry.
+      Family names were a common tool used for choosing alter ethnicities, as in Sentences \ref{sent:cajun_cynthia} through \ref{sent:cajun_jack}.
+      These three examples were particularly emphatic about just how Cajun these last names were.
+      In this case, Chenevert is notable.
+      This is the family name of two participants in this study: Randal, a White Cajun, and Rachel, a Black Creole.
+      Despite how strongly linked Jack considered Chenevert to be to Cajun ancestry, it is highly unlikely that Rachel could pass as Cajun because she would certainly not be able to pass as White.
+      The Whiteness of being Cajun is very rarely discussed, though.
+
+      \begin{enumerate}[resume=sentences]
+        \item CRS: Oh ouais ouais. Son nom de famille, c'est Thibodeaux. C'est beaucoup cadien, ça. (60:11) \label{sent:cajun_cynthia}
+        \item[] \longtrans{Oh yeah yeah. His family name, that's Thibodeaux. That's very Cajun, that.}
+        \item RandalC: Oh, Huey est cadien, oh, haha, yeah. Il est un Mabile. (48:17) \label{sent:cajun_randal1}
+        \item[] \longtrans{Oh, Huey is Cajun, oh, haha, yeah. He's a Mabile.}
+        \item JM: Wilton, il est cadien. Il est Chenevert. Chenevert, c'est un mot très très cadien. (54:17) \label{sent:cajun_jack}
+        \item[] \longtrans{Wilton, he's Cajun. He's a Chenevert. Chenevert, that's a very very Cajun word.}
+      \end{enumerate}
+      % Austin Roy
+        % (71:55)
+        % AustinR: Moi, je dirais que c'est un Cadien. C'est un Chretien d'Arnaudville.
+      % Bruce Wiltz
+        % (45:58)
+        % BW: Ça s'appelle tous des Cadiens, et je connais Poursine, c'est acadien.
+      % Elizabeth Naquin
+        % (50:14) [not just an Italian family name but doesn't speak French]
+        % EN: Geraldine, pas cadienne. Marks. Li'tait élevée à Crowley. Ses parents c'était pas, c'était Italian. Okay. Marks is her maiden name. Mo crois pas li parle français.
+        
+      % There would sometimes be some hesitancy that usually resolved in explaining that the alter would certainly call themselves Cajun
+        % Bruce Wiltz
+          % (46:03)
+          % BW: Travis Periou though, c'est pas acadien. Je crois pas, mais le nom de famille de sa mère, c'était Prince, ça fait sais pas c'était ... Mais oui, il a été élevé avec nous ici. C'était, ouais ouais, ils ont dit il est cadien, eh, et lui, il disait il était cadien.
+
+      The contradiction made by having an Acadian family name and not being able to pass as White did not come up otherwise.
+      What did come up, however, was that many Cajuns do not in fact have Acadian family names.
+      In Sentence \ref{sent:cajun_randal2}, Randal Chenevert acknowledges this while trying to decide the ethnicity of his wife.
+      Importantly, the national origins he gives for family names of Cajuns are all European, and Europeanness is what White stands for in the racialized US social system.
+      Lillian Himel was more explicit about this in Sentence \ref{sent:cajun_lillian} where she acknowledges that her husband is White, which helps his case for saying that he is Cajun despite his German family name.
+      Dennis Oubre also focused on Cajuns with German family names in Sentence \ref{sent:cajun_dennis}.
+      Like Lillian, he also brought up the ability to speak French, or ``Cajun'' in Lillian's case, drawing the association between Cajuns and a way of speaking.
+      What is not brought up by Cajuns in this discussion is what Terry Guillot brings up in Sentence \ref{sent:cajun_terry}.
+      Terry, a Creole, had spoken at length about Creoles mixing with Indians, explained that Cajuns also mixed with Indians despite Cajuns not wanting to say so.
+      The reluctance to do so would of course be natural in this racialized social system.
+      Indians are not European and so not White and so cannot be Cajun.
+        
+      \begin{enumerate}[resume=sentences]
+        \item RandalC: Son nom de famille, c'est Saint Amant. Ça c'est espagnol, mais comme un tas des noms, y a des Allemands, y a des Espagnols ici qui parlent français qui considéraient des Cadiens, ça fait elle a, tu peux dire espagnole, mais elle est cadien. (47:15) \label{sent:cajun_randal2}
+        \item[] \longtrans{RandalC: Her family name, that's Saint Amant. That's Spanish, but like a lot of names, there are Germans, there are Spanish ici who speak French who would consider themselves Cajun, so she, you can say Spanish, but she's Cajun.}
+        \item LH: Il est allemand, mais il est blanc, mais il parle cadien. Il dit, je crois lui il dit il est cadien, mais il connaît son ancêtres sont allemands. (39:13) \label{sent:cajun_lillian}
+        \item[] \longtrans{He's German, but he's White, but he speaks Cajun. He says, I belief that he says that he's Cajun, but he knows that his ancestors are German.}
+        \item DO: Ça fait, y a toujours des vieilles familles de l'Allemand -- Comardelle, D'Entremont, Lachaussee, Bogard -- mais ils ont tous appris français. Ils ont marié les Acadiens. Aujourd'hui, ça croit c'est tous des Acadiens. (23:28) \label{sent:cajun_dennis}
+        \item[] \longtrans{So, there are still old families from Germany -- Comardelle, D'Entremont, Lachaussee, Bogard -- but they have all learned French. They married Acadians. Today, they believe that they're all Acadians.}
+        \item TG: Ina un tas de ces Cadiens-là qui va pas dire ils ont du sang sauvage, mais ina z-en qui est mêlé. (45:12) \label{sent:cajun_terry}
+        \item[] \longtrans{There are a lot of these Cajuns who won't say that they have some savage [Indian] blood, but there are some who are mixed.}
+      \end{enumerate}
+      % Arthur Rousseau
+        % (42:05) [these days, it's not just ancestry]
+        % ArthurR: Mais, dans ce temps-ici, Cajun est populai[ʁ]e, et y a beaucoup des gens avec, comme Oliver. Oliver, il est Gomez, mais son nom est espagnol, mais ch'pense i dit il est cadien.
+      % Brian Roger
+        % (82:54) [giving the ethnicities of his alters]
+        % BR: D'après moi, ils sont proche tous cadiens, mais ina un tas de Arnaudville, ina plusieurs des Allemands, de familles allemands qui a venu. Par exemple, Martha, son dernier nom avant elle s'a marié c'était Abribat. C'est allemand, un nom allemand.
+        % (90:00) [remarking on Cajun geneologies]
+        % BR: Ça fait, c'est dur à être un Cadien pur.
+      % Dennis Oubre
+        % (24:14)
+        % DO: Y a personne en vie personne qu'a tous les ancêtres de là-bas [Acadia].
+      % Elizabeth Naquin
+        % (51:10) [acknowledging a non-French ancestry]
+        % EN: Brian cadien. Cadien, mais avec un nom espagnol.
+      % Lucille Royer
+        % (31:23)
+        % LR: Je me considère cadienne, parce que mes parents parlaient pas anglais, mais mon nom de famille, Royer, c'est pas un nom acadien.
+          % She went on to say her mother's family name was possibly Irish, and her father's family was directly from France.
+      % Oliver Gomez
+        % (3:00)
+        % OG: Mon nom est Oliver Gomez. Ça c'est un bon nom cadien, parce que les Espagnols a venu à Nouvelle-Ibérie.
+      % Lillian Himel
+        % (1:02) [talking about her maiden name in contrast to her German-origin married name]
+        % LH: Miller.
+        % INT: Miller, okay. Ça c'est plutôt français, ouais.
+        % LH: Ouais ouais, c'est français, et mes grands-parents, c'était deux Pinel, un Mabile, et Miller, ça fait je dis que je suis cent pour cent cadien.
+        % (43:58) [talking about how there are Cajuns with German, Spanish, Italian ancestors]
+        % LH: Ça fait, pour moi, cadien, c'est quelqu'un qu'était élevé ici, et si ça parle cadien, c'est plus cadien.
+          % On its face, this is all inclusive, but it is unlikely that she was including anyone who can't pass for White.
+          % She went on to discuss how everyone was intermarried.
+
+      % Especially if they marry in
         % Brian Roger
-          % (82:54) [giving the ethnicities of his alters]
-          % BR: D'après moi, ils sont proche tous cadiens, mais ina un tas de Arnaudville, ina plusieurs des Allemands, de familles allemands qui a venu. Par exemple, Martha, son dernier nom avant elle s'a marié c'était Abribat. C'est allemand, un nom allemand.
-          % (90:00) [remarking on Cajun geneologies]
-          % BR: Ça fait, c'est dur à être un Cadien pur.
-        % Randal Chenevert
-          % (47:15) [deciding the ethnicity of his wife]
-          % RandalC: Son nom de famille, c'est Saint Amant. Ça c'est espagnol, mais comme un tas des noms, y a des Allemands, y a des Espagnols ici qui parlent français qui considéraient des Cadiens, ça fait elle a, tu peux dire espagnole, mais elle est cadien.
+          % (2:15) [acknowledging that his family isn't purely from Acadia but rather married in]
+          % BR: Le premier Roger venait de une île en-dedans le Mediterranean, Menorca. Ça fait, lui, il a joint sa femme en-dedans Maryland. Elle, elle viensait de Canada.
+            % He later highlighted that the wife was a Chenevert (3:37), which was described as a very Acadian name by Jack, which all again shows the importance of family names.
+        % Bruce Wiltz
+          % (32:35) [his Wiltz ancestor came directly from France]
+          % BW: Le premier Wiltz, il est pas acadien, eh. Lui, il est devenu directement de la France quand il avait, je crois, quinze ans, ... directement vers la Nouvelle-Orléans, ... mais la mère à mon père, c'était un Pinel. C'est acadien. [went on to describe how all the others in that line were Acadian]
+        % Cynthia Robichaux Savoie
+          % (38:16) [asked what a Cajun is]
+          % CRS: Moi, je suis cadienne, parce que ma famille est cadienne, mais il y a du monde d'ailleurs, comme on dit 'les Américains', quelqu'un qui n'est pas cadien qu'a marié un Cadien, et il commence à s'appeler cadien.
+
+      As Lillian and Dennis made clear above, speaking F\&C can help one claim a Cajun identity.
+      This was brought up again and again when working through the ethnicities of alters.
+      For Bruce Wiltz, the first thing he considered when thinking about the ethnicity of his alter in Sentence \ref{sent:cajun_bruce} was how this alter learned F\&C.
+      For Rose Louvière in Sentence \ref{sent:cajun_rose}, even being anglophone but sending one's children to French immersion schooling showed enough appreciation for F\&C for her daughter to be able to qualify as Cajun.
+      Sentence \ref{sent:cajun_austin} then shows Austin Roy making a language exception so that he could classify his anglophone brothers as Cajun, albeit ``américanisé'' \gloss{Americanized}, despite his own explicit definition being White speakers of F\&C.
+      What he did not address, however, was that this exception would allow almost all White South Louisianians to identify as Cajun, the majority of whom are anglophone only.
+
+      \begin{enumerate}[resume=sentences]
+        \item BW: Dubois, Gilroy Dubois. Oui, je crois il a appris, je suis pas sûr à quel âge il allait, et c'était comme ça avec Jack. Il dit, lui, il a appris le français avec ses grands-parents. (47:15) \label{sent:cajun_bruce}
+        \item[] \longtrans{Dubois, Gilroy Dubois. Yes, I believe that he learned, I'm not sure at what age he was going, and it was like that with Jack. He says that he learned French with his grandparents.}
+        \item RL: Out of the three, she, yeah, she's my strongest one, yeah because she sends her kids to French immersion. That says it all. (100:54) \label{sent:cajun_rose}
+        \item AustinR: L'affaire c'est que, si tout quelqu'un que je connais aurait été nés cent années passées, le monde qui s'intéresse pas au langage et tout ça, ça parlerait le français. \label{sent:cajun_austin}
+        \item[] \longtrans{The thing is that, if everyone that I know would have been born one hundred years ago, the people who aren't interested in language and all that, they would speak French.}
+      \end{enumerate}
+
+      % Speaking F&C was often invoked, particularly when thinking out loud about the ethnicities of alters
+        % Jack Munson
+          % (37:21) [added immediately after his Acadian definition of Cajuns]
+          % JM: Y a beaucoup du monde qu'était pas cadien. ... They became acculturated to the Cajun language, et they were Spanish ici, en espagnol, ça fait y a beaucoup des Espagnols. ... Et ça parle le cadien.
+        % Deborah Tauzin
+          % (72:15) [her son is American because he doesn't speak French]
+          % INT: Par exemple, pour Travis, est-ce qu'il est cadien, créole, américain?
+          % DT: Non, américain, américain. Il parle pas français.
+            % It is not clear whether she was saying that he could not be Cajun because of language or could not be Creole, but notably she was a White Creole. Language is perhaps a qualifier only for those who identify as White given that no non-White Creoles brought it up and no Cajuns were non-White.
+        
+      Cultural definitions of Cajuns often run into this problem that Austin encountered.
+      While cultural practices 
+
+      % Specifically if they practice the culture
         % Dennis Oubre
-          % (24:14)
-          % DO: Y a personne en vie personne qu'a tous les ancêtres de là-bas [Acadia].
-        % Elizabeth Naquin
-          % (51:10) [acknowledging a non-French ancestry]
-          % EN: Brian cadien. Cadien, mais avec un nom espagnol.
+          % (26:31) [practicing the culture doesn't make one Cajun, but the culture is intimately entwined with being Cajun]
+          % DO: Tu peux dire c'est un culture. C'est acceptance de une manière de vivre, de regarder la vie, regarder les hommes, regarder le bon Dieu.
+        % Bruce Wiltz
+          % (34:50) [explaining how the emphasis on Acadian origins diminished]
+          % BW: Ça a devenu que c'était peut-être la joie de vivre ici, ...  si t'as t'as été élevé ici. Ça s'appelle les Cadiens, eh?
+        % Cynthia Robichaux Savoie
+          % (23:25) She related a story of how her husband, a Cajun, introduced a French national who was staying with them to a French stranger while they were out and how he was confused that they didn't really talk, because for him, Cajuns in the same situation would end up getting so chummy that they have dinner together.
+          % (24:48)
+          % CRS: Si ç'aurait été deux Cadiens à Paris, je te promets, ils auraient trouvé un cousin en commun, et puis ils auraient soupé ensemble.
+        % Steven Marcel
+          % (23:05) [talking about hunting woodcocks, exemplifying that Cajuns specifically are hunters]
+          % SM: Ina pas trop qui restent parce que les Cadiens a tué tout.
+        % Errol Stoufle
+          % (30:11) [when asked what a Cajun is, equates it to nothing more than "a culture"]
+          % ES: Mo mo'tais crois c'est juste un slang pour, you know, une culture, tu connais? Le monde qui parle français, yé parlent un certain langage, tu connais?
+        % Randal Chenevert
+          % (51:13) [talking about how one can be Cajun via cultural practices]
+          % RandalC: C'est leur manière de vivre, culture, langage, la manière on cuit. Moi, je cuis juste pareil comme mes parents et mes grands-parents. ... Le manière de penser pour leur job, et puis pas peur de se saler à travailler, aider à tout le monde que tu peux.
+        % Judy Soileau Courtade
+          % (51:17) [equating Creole and Black while talking about where brown cotton was used]
+          % INT: Si c'est une tradition acadienne, ça veut dire que, par exemple, dans les paroisses Saint Landry et Saint Martin, ina beaucoup de Créoles, aussi.
+          % JSC: J'ai jamais jamais trouvé une couverte que quelqu'un de la couleur noire a fait, et je peux pas comprendre pourquoi. Ils étaient après vivre avec nous-autres. We were friendly with the Blacks.
         % Lucille Royer
-          % (31:23)
-          % LR: Je me considère cadienne, parce que mes parents parlaient pas anglais, mais mon nom de famille, Royer, c'est pas un nom acadien.
-            % She went on to say her mother's family name was possibly Irish, and her father's family was directly from France.
-        % Oliver Gomez
-          % (3:00)
-          % OG: Mon nom est Oliver Gomez. Ça c'est un bon nom cadien, parce que les Espagnols a venu à Nouvelle-Ibérie.
-        % Lillian Himel
-          % (1:02) [talking about her maiden name in contrast to her German-origin married name]
-          % LH: Miller.
-          % INT: Miller, okay. Ça c'est plutôt français, ouais.
-          % LH: Ouais ouais, c'est français, et mes grands-parents, c'était deux Pinel, un Mabile, et Miller, ça fait je dis que je suis cent pour cent cadien.
-          % (43:58) [talking about how there are Cajuns with German, Spanish, Italian ancestors]
-          % LH: Ça fait, pour moi, cadien, c'est quelqu'un qu'était élevé ici, et si ça parle cadien, c'est plus cadien.
-            % On its face, this is all inclusive, but it is unlikely that she was including anyone who can't pass for White.
-            % She went on to discuss how everyone was intermarried.
-
-        % Especially if they marry in
-          % Brian Roger
-            % (2:15) [acknowledging that his family isn't purely from Acadia but rather married in]
-            % BR: Le premier Roger venait de une île en-dedans le Mediterranean, Menorca. Ça fait, lui, il a joint sa femme en-dedans Maryland. Elle, elle viensait de Canada.
-              % He later highlighted that the wife was a Chenevert (3:37), which was described as a very Acadian name by others (or one other?), which all again shows the importance of family names.
-          % Bruce Wiltz
-            % (32:35) [his Wiltz ancestor came directly from France]
-            % BW: Le premier Wiltz, il est pas acadien, eh. Lui, il est devenu directement de la France quand il avait, je crois, quinze ans, ... directement vers la Nouvelle-Orléans, ... mais la mère à mon père, c'était un Pinel. C'est acadien. [went on to describe how all the others in that line were Acadian]
-          % Cynthia Robichaux Savoie
-            % (38:16) [asked what a Cajun is]
-            % CRS: Moi, je suis cadienne, parce que ma famille est cadienne, mais il y a du monde d'ailleurs, comme on dit 'les Américains', quelqu'un qui n'est pas cadien qu'a marié un Cadien, et il commence à s'appeler cadien.
-          % Dennis Oubre
-            % (23:28) [Germans and others who learned French and married in]
-            % DO: Ça fait, y a toujours des vieilles familles de l'Allemand -- Comardelle, D'Entremont, Lachaussee, Bogard -- mais ils ont tous appris français. Ils ont marié les Acadiens. Aujourd'hui, ça croit c'est tous des Acadiens.
-
-        % Specifically if they practice the culture
-          % Dennis Oubre
-            % (26:31) [practicing the culture doesn't make one Cajun, but the culture is intimately entwined with being Cajun]
-            % DO: Tu peux dire c'est un culture. C'est acceptance de une manière de vivre, de regarder la vie, regarder les hommes, regarder le bon Dieu.
-          % Bruce Wiltz
-            % (34:50) [explaining how the emphasis on Acadian origins diminished]
-            % BW: Ça a devenu que c'était peut-être la joie de vivre ici, ...  si t'as t'as été élevé ici. Ça s'appelle les Cadiens, eh?
-          % Cynthia Robichaux Savoie
-            % (23:25) She related a story of how her husband, a Cajun, introduced a French national who was staying with them to a French stranger while they were out and how he was confused that they didn't really talk, because for him, Cajuns in the same situation would end up getting so chummy that they have dinner together.
-            % (24:48)
-            % CRS: Si ç'aurait été deux Cadiens à Paris, je te promets, ils auraient trouvé un cousin en commun, et puis ils auraient soupé ensemble.
-          % Steven Marcel
-            % (23:05) [talking about hunting woodcocks, exemplifying that Cajuns specifically are hunters]
-            % SM: Ina pas trop qui restent parce que les Cadiens a tué tout.
-          % Errol Stoufle
-            % (30:11) [when asked what a Cajun is, equates it to nothing more than "a culture"]
-            % ES: Mo mo'tais crois c'est juste un slang pour, you know, une culture, tu connais? Le monde qui parle français, yé parlent un certain langage, tu connais?
-          % Randal Chenevert
-            % (51:13) [talking about how one can be Cajun via cultural practices]
-            % RandalC: C'est leur manière de vivre, culture, langage, la manière on cuit. Moi, je cuis juste pareil comme mes parents et mes grands-parents. ... Le manière de penser pour leur job, et puis pas peur de se saler à travailler, aider à tout le monde que tu peux.
-          % Judy Soileau Courtade
-            % (51:17) [equating Creole and Black while talking about where brown cotton was used]
-            % INT: Si c'est une tradition acadienne, ça veut dire que, par exemple, dans les paroisses Saint Landry et Saint Martin, ina beaucoup de Créoles, aussi.
-            % JSC: J'ai jamais jamais trouvé une couverte que quelqu'un de la couleur noire a fait, et je peux pas comprendre pourquoi. Ils étaient après vivre avec nous-autres. We were friendly with the Blacks.
-          % Lucille Royer
-            % (33:07) [highlighting just how important French is for identifying as Cajun for her]
-            % LR: Tu peux te dire cadien autant que tu veux, mais si tu possèdes pas la langue, t'es pas vraiment cadien.
-
-          % Speaking F&C was often invoked, particularly when thinking out loud about the ethnicities of alters
-            % Austin Roy
-              % (70:09) [speaking French was the defining trait, but had an explanation for why his monolingual anglophone brothers were Americanized Cajuns that would include basically everyone whose family has been in Louisiana for at least 100 years]
-              % AR: L'affaire c'est que, si tout quelqu'un que je connais aurait été nés cent années passées, le monde qui s'intéresse pas au langage et tout ça, ça parlerait le français.
-            % Bruce Wiltz
-              % (47:15) [first thing he considered for an alter was their language]
-              % BW: Dubois, Gilroy Dubois. Oui, je crois il a appris, je suis pas sûr à quel âge il allait, et c'était comme ça avec Jack. Il dit, lui, il a appris le français avec ses grands-parents.
-            % Jack Munson
-              % (37:21) [added immediately after his Acadian definition of Cajuns]
-              % JM: Y a beaucoup du monde qu'était pas cadien. ... They became acculturated to the Cajun language, et they were Spanish ici, en espagnol, ça fait y a beaucoup des Espagnols. ... Et ça parle le cadien.
-            % Rose Louvière
-              % (100:54) [when explaining that her daughter is Cajun]
-              % RL: Out of the three, she, yeah, she's my strongest one, yeah because she sends her kids to French immersion. That says it all.
-            % Deborah Tauzin
-              % (72:15) [her son is American because he doesn't speak French]
-              % INT: Par exemple, pour Travis, est-ce qu'il est cadien, créole, américain?
-              % DT: Non, américain, américain. Il parle pas français.
-                % It is not clear whether she was saying that he could not be Cajun because of language or could not be Creole, but notably she was a White Creole. Language is perhaps a qualifier only for those who identify as White given that no non-White Creoles brought it up and no Cajuns were non-White.
+          % (33:07) [highlighting just how important French is for identifying as Cajun for her]
+          % LR: Tu peux te dire cadien autant que tu veux, mais si tu possèdes pas la langue, t'es pas vraiment cadien.
 
       % Everyone, basically, because it's a profitable symbol
         % Cynthia Robichaux Savoie
@@ -388,7 +427,7 @@
           % CRS: Oh non non non non. C'était les années soixante, et personne à Bâton-Rouge embrassaitle cadienisme, eh?
         % Arthur Rousseau
           % (43:49)
-          % AR: Course I'm a Ragin' Ca[dʒ]un over here. I graduated from USL. [emphasized S]
+          % ArthurR: Course I'm a Ragin' Ca[dʒ]un over here. I graduated from USL. [emphasized S]
         % Dennis Oubre
           % (23:59)
           % DO: Tu peux aller au université ici, va d'être un Raging Cajun.
@@ -422,7 +461,7 @@
       % White, though this is rarely mentioned
         % Austin Roy
           % (51:30) [Grew up understanding Creole and Cajun as differentiated by skin color]
-          % AR: C'est une différence raciale entre cadien et créole. Ça c'est la définition que j'étais élevé avec. C'était les Français noirs c'est des Créoles, et les Français blancs c'est des Cadiens.
+          % AustinR: C'est une différence raciale entre cadien et créole. Ça c'est la définition que j'étais élevé avec. C'était les Français noirs c'est des Créoles, et les Français blancs c'est des Cadiens.
         % Gene Delcambre
           % (43:56) [when asked what a Cajun is]
           % GD: Un Cadien? That's a White man. But okay, you see, when you used to call them un Cadien, that would make them mad. That's just like if you would call a Black one, you call him a nigger. That makes him mad.
@@ -479,7 +518,7 @@
       % Black
         % Arthur Rousseau
           % (49:42) [changed to be about color just since his youth]
-          % AR: But now it's all morphed to Creole mean Black: Black culture, Black cooking, Creole cooking.
+          % ArthurR: But now it's all morphed to Creole mean Black: Black culture, Black cooking, Creole cooking.
         % Cynthia Robichaux Savoie
           % (38:02)
           % CRS: Moi, j'ai grandi, créole c'était noir.
@@ -517,11 +556,11 @@
         % Often specifically Europeans born in the colony
           % Arthur Rousseau
             % (49:21) [ancestry but not a color or ethnicity even just when he was a kid]
-            % AR: Quand j'étais jeune, le mot créole -- quand j'ai apprendre le mot -- le mot, c'était des offsprings of the people who came from the Old Country, settled here, and their offsprings were called Creoles. Didn't have anything to do with color or ethnicity.
+            % ArthurR: Quand j'étais jeune, le mot créole -- quand j'ai apprendre le mot -- le mot, c'était des offsprings of the people who came from the Old Country, settled here, and their offsprings were called Creoles. Didn't have anything to do with color or ethnicity.
               % Using "Old Country" leaves ambiguity, but suggests that a person had to be from a certain place rather than just born in Louisiana.
           % Austin Roy
             % (71:15) [Avoyelles families were from France directly]
-            % AR: Wayne, well lui il est pas cadien parce que, well son père à lui, c'est ça vient de Pérou, but le bord à sa mère, c'est des Villanueva de la paroisse des Avoyelles. Ça c'est des Créoles blancs là-bas, ça fait lui, c'est un Créole blanc.
+            % AustinR: Wayne, well lui il est pas cadien parce que, well son père à lui, c'est ça vient de Pérou, but le bord à sa mère, c'est des Villanueva de la paroisse des Avoyelles. Ça c'est des Créoles blancs là-bas, ça fait lui, c'est un Créole blanc.
           % Lucille Royer
             % (39:10) [Napoleons soldiers made Ville Platte Creole]
             % LR: La Ville Platte, la paroisse Évangéline, a été vraiment fondée par beaucoup de soldats de Napoléon, ... donc c'est vraiment, c'est créole dans le sens de créole, pas dans le sens de couleur de la peau. C'était, you know, les enfants des colons.
@@ -680,7 +719,7 @@
           % But Creoles were sometimes described as being treated as less in those occupations, having lower positions, or working for Cajuns
             % Arthur Rousseau
               % (50:14) [father and father's Black/Creole friend knew they weren't equals despite equal work]
-              % AR: J'rappelle monsieur Bee. Monsieur Bee était un ami de mon père. Monsieur Bee, il était noir, et i'tait un poseur de briques comme mon père, un maçon. Lui et mon père étaient des amis, mais comment tu dis, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then.
+              % ArthurR: J'rappelle monsieur Bee. Monsieur Bee était un ami de mon père. Monsieur Bee, il était noir, et i'tait un poseur de briques comme mon père, un maçon. Lui et mon père étaient des amis, mais comment tu dis, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then.
             % Alice Lemaire
               % (10:58) [Blacks coming to help with the boucherie]
               % AL: On était habitués avec des Noirs parce que, quand Pop faisait boucherie avec ses cochons, on avait des voisins, y avait une négresse qui venait aider à Mom.
@@ -815,7 +854,7 @@
     % Regional differences
       % Arthur Rousseau
         % (37:44) French in Lafourche isn't "formel" like Lafayette
-        % AR: À la paroisse Lafourche, c'est pas formel comme c'est ici. C'est formel parce qu'il y a l'université qu'est uh tu parles le langue français. Alfred Boulee, il a fait beaucoup des films. Et pas juste Alfred, Thibodeaux, Lawrence, il a fait beaucoup des chansons dans Canada. Quand Thibodeaux va à Canada, ça roule le tapis rouge pour lui.
+        % ArthurR: À la paroisse Lafourche, c'est pas formel comme c'est ici. C'est formel parce qu'il y a l'université qu'est uh tu parles le langue français. Alfred Boulee, il a fait beaucoup des films. Et pas juste Alfred, Thibodeaux, Lawrence, il a fait beaucoup des chansons dans Canada. Quand Thibodeaux va à Canada, ça roule le tapis rouge pour lui.
 
   \section{Discussion}
 
@@ -837,9 +876,9 @@
         % Outsiders highlighting the linguistic uniqueness of LA
           % Arthur Rousseau
             % (34:27) [talking about his wife from South Carolina]
-            % AR: Le premier fois j'ai apporté ma femme avec moi pour rencontrer mes parents dans Larose, alle a dit, "I feel like I'm in a foreign country."
+            % ArthurR: Le premier fois j'ai apporté ma femme avec moi pour rencontrer mes parents dans Larose, alle a dit, "I feel like I'm in a foreign country."
             % (66:31) [son spoke French in front of girlfriend to show off]
-            % AR: Je rappelle le premier fois il a parlé avec moi sur le téléphone, et sa belle était là. Il a parlé en français pour peut-être amuser elle ou pour démontrer elle il peut parler français.
+            % ArthurR: Je rappelle le premier fois il a parlé avec moi sur le téléphone, et sa belle était là. Il a parlé en français pour peut-être amuser elle ou pour démontrer elle il peut parler français.
               % Pride is perhaps more consistent among young people who learn the language.
 
       % Some do express a lack of pride or insecurity
@@ -859,7 +898,7 @@
         % Sometimes it simply triggers more pride
           % Arthur Rousseau
             % (36:54) [how he got really interesting in his linguistic heritage as well as local "French" music being Cajun and Creole]
-            % AR: J'ai commencé ça, le spark qui m'a commencé, ça c'était mon visite dans la France. Quand j'étais dans le Navy, après ça, quand j'ai arrivié ici, j'ai observé les personnes aiment beaucoup le musique français, cadien et créole. Ça parle le langue français à les tables françaises, et des fois, quand je peux entendre l'anglais avec un accent cadien, h'dis, "Hé, tu parles français, bougre?" Et, "Ouais, ch'parle français." "Mais, allons causer en français."
+            % ArthurR: J'ai commencé ça, le spark qui m'a commencé, ça c'était mon visite dans la France. Quand j'étais dans le Navy, après ça, quand j'ai arrivié ici, j'ai observé les personnes aiment beaucoup le musique français, cadien et créole. Ça parle le langue français à les tables françaises, et des fois, quand je peux entendre l'anglais avec un accent cadien, h'dis, "Hé, tu parles français, bougre?" Et, "Ouais, ch'parle français." "Mais, allons causer en français."
           % Brian Roger
             % (52:02) [could communicate fine when visiting France]
             % BR: Moi, quand moi j'ai été en la France, j'ai été à la France plusieurs fois, moi je peux parler avec tout quelqu'un de la France. Les mots est proche tout le même.
