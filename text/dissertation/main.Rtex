@@ -44,7 +44,7 @@
   \newcommand{\sent}[1]{\textit{#1}}
   \newcommand{\code}[1]{\texttt{#1}}
   \newcommand{\foreign}[1]{\textit{#1}}
-  \newcommand{\longtrans}[1]{[\textit{#1}]}
+  \newcommand{\longtrans}[1]{\textit{#1}}
   \newcommand{\abstract}[1]{
     \chapter*{\centering Abstract}
     #1
