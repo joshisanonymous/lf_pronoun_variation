@@ -47,42 +47,43 @@
     % Recognition of differences between Creole and Cajun speech ------------------------------
 
     When speaking about language, both Creoles and Cajuns were able to speak of differences between each other.
-    In some cases, these differences are downplayed.
+    At times, these differences are downplayed, as in the statement in Sentence \ref{sent:different_speech_floyd} where Floyd Kerry, a Black Creole, focuses on local varieties being relatively similar unlike how they are both much different from how the French in Europe speak.
+    Given the racialization of his identity, however, he has an incentive to promote closeness between the two groups rather than distance.
+    This theme of acceptance of others came up more with Creoles than with others.
 
     \begin{enumerate}[resume=sentences]
       \item FK: C'est pas un gros différence. To vois, ici dans la Louisiane, les Créoles et puis les Cadiens restent ensemble, ça fait les Cadiens et puis les Créoles, yé parlent pas la français comme les Français parlent le france. (52:36) \label{sent:different_speech_floyd}
-      \item[] {}\gloss{FK: It's not a big difference. You see, here in Louisiana, Creoles and Cajuns live together, so Cajuns and Creoles, they don't speak French like the French speak French.}
-      \item INT: J'ai rencontré un homme, un Cadien. À mon oreille, il parlait créole en fait, mais il me disait, "Je parle français."
-      \item[] AR: Ouais, c'est un mélange de français et créole. ... C'est un dialecte. (52:43)
-      \item[] {}\gloss{INT: I met a man, a Cajun. To my ear, he spoke Creole in fact, but he was telling me, "I speak French."}
-      \item[] {}\gloss{AR: Yeah, it's a mix of French and Creole. ... It's a dialect.}
+      \item[] \longtrans{FK: It's not a big difference. You see, here in Louisiana, Creoles and Cajuns live together, so Cajuns and Creoles, they don't speak French like the French speak French.}
     \end{enumerate}
       
-      % General characterizations of the difference
-        % Floyd Kerry
-          % (52:36) [downplays differences when asked, uplays the difference with France]
-          % FK: C'est pas trop un gros différence, to connais? C'est pas un gros différence. To vois, ici dans la Louisiane, les Créoles et puis les Cadiens restent ensemble, ça fait les Cadiens et puis les Créoles, yé parlent pas la français comme les Français parlent le france.
-        % Arthur Rousseau
-          % (52:43) [some Cajuns mix French and Creole]
-          % INT: J'ai rencontré un homme, un Cadien. À mon oreille, il parlait créole en fait, mais il me disait, "Je parle français."
-          % AR: Ouais, c'est un mélange de français et créole.
-          % (53:21) [Creole is a dialect of French]
-          % AR: C'est un dialecte.
+    % Arthur Rousseau
+      % (52:43) [some Cajuns mix French and Creole]
+      % INT: J'ai rencontré un homme, un Cadien. À mon oreille, il parlait créole en fait, mais il me disait, "Je parle français."
+      % AR: Ouais, c'est un mélange de français et créole.
+      % (53:21) [Creole is a dialect of French]
+      % AR: C'est un dialecte.
+    
+    More often, though, participants were regularly able to distinguish.
+    Oliver Lesage, a Cajun, offered two examples of Creole-marked speech in Sentences \ref{sent:different_speech_lesage1} and \ref{sent:different_speech_lesage2}.
+    In the latter example, the switch involves him going from using \lexi{elle} to using \lexi{li} to refer to Mildred, showing the salience of subject pronouns in the distinction between the varieties.
+    Also notable is that both of his demonstrations include the word \lexi{nègre}, whose translation in Louisiana is quite difficult.
+    It has long been used in a rather term of endearment among Cajuns, even appearing in the refrain of the popular Cajun music song \song{Lâche pas la patate} released by Jimmy C Newman in 1973.
+    It has also been used as a pejorative term.
+    In this case, the intent was clearly endearment, but that it was thought be appropriate for articulating Creole speech either exemplifies a latent association, reinforces an association, or both.
+    The term will be seen in a number of other examples, some that are more ambiguous and some that are less so.
 
-      % Demonstrations of the difference
-        % Gene Delcambre
-          % (42:15) [Creoles from different places speak differently]
-          % GD: Yé parlent différent. Là, comme à Lafayette, Carencro, Scott. ... Toi, tu vas dis 'let's go' uh, "Mais j'ai viens à la grocerie." ... Mo couru la grocerie.
-          % Lucille Royer
-            % (46:19) [supports Gene's statement]
-            % LR: Les Noirs à la Ville Platte parlaient français cadien d'après ce que moi je me rappelle.
-        % Oliver Lesage
-          % (1:07) [demonstrating that he also speaks Creole]
-          % OL: Si t'olé parler en nègre, en créole, couru-vini, mo mo capable faire ça, aussi.
-            % When then asked how he learned, he explained that his father and godmother would speak Creole, but otherwise they all spoke French
-          % (2:21) [further demonstrationg]
-          % OL: J'ai une amie qui reste pas tellement loin. Elle s'appelle Mildred, alors quand elle elle arrive, là no gain pour parler comme ça. Li dit, "Oliver comment to yé nègre?" Et, "M'apè fais okay aujourd'hui." "To pas gain de mal?" "Non, mo pas gain de mal." "Mo couru faire mon therapy. Mo bon."
-            % The word nègre is present in both examples.
+    \begin{enumerate}[resume=sentences]
+      \item OL: Si t'olé parler en nègre, en créole, couru-vini, mo mo capable faire ça, aussi. (1:07) \label{sent:different_speech_lesage1}
+      \item[] \longtrans{OL: If you want to speak in negro, in Creole, Couru-Vini, I'm capable of doing that, too.}
+      \item OL: Elle s'appelle Mildred, alors quand elle elle arrive, là no gain pour parler comme ça. Li dit, ``Oliver, comment to yé, nègre?'' Et, ``M'apè fais okay aujourd'hui.'' (2:21) \label{sent:different_speech_lesage2}
+      \item[] \longtrans{OL: Her name is Mildred, so when she arrives, then we have to talk like this. She says, ``Oliver, how are you, negro?'' And, ``I'm doing okay today.''}
+    \end{enumerate}
+    % Gene Delcambre
+      % (42:15) [Creoles from different places speak differently]
+      % GD: Yé parlent différent. Là, comme à Lafayette, Carencro, Scott. ... Toi, tu vas dis 'let's go' uh, "Mais j'ai viens à la grocerie." ... Mo couru la grocerie.
+      % Lucille Royer
+        % (46:19) [supports Gene's statement]
+        % LR: Les Noirs à la Ville Platte parlaient français cadien d'après ce que moi je me rappelle.
 
         % Sometimes stigma around the Creole way of speaking was explicitly brought up
           % Bruce Wiltz
