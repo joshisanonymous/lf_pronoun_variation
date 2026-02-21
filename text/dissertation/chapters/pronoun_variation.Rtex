@@ -463,7 +463,7 @@
 
     \begin{enumerate}[resume=sentences]
       \item Faut que \emph{vous-autres se} couche de bonne heure. \label{sent:reflexive_vous-autres} \parencite[p.~85]{papen_structural_1997}
-      \item[] \gloss{It's necessary that you all put yourselves to bed early.}
+      \item[] \longtrans{It's necessary that you all put yourselves to bed early.}
     \end{enumerate}
 
     Another verbal association for first person singular pronouns was found in St Landry Parish where \lexi{je} alone as well as \lexi{moi je} were found to be associated with verbs expressing beliefs and opinions, whereas \lexi{moi} by itself was associated with the verb \lexi{être} and ``verbes réguliers''\footnote{
@@ -478,9 +478,9 @@
 
     \begin{enumerate}[resume=sentences]
       \item \label{sent:moi_je} KR: Et t'as appris les prières en français ou anglais?
-      \item[] \gloss{And you learned your prayers in French or English?}
+      \item[] \longtrans{And you learned your prayers in French or English?}
       \item[] I28: \textbf{Mon s}'a 'pris les prières en anglais, mais s'connais le Salut Marie, le \codeEn{HAIL MARY}, en français. Là \textbf{mon s}'connais. Mémère m'a montré. ø veux apprendre les autes, mais c'est pour m'assir là, aller dire que mon ø vas lé apprendre, mais ça c'est le seul qui \textbf{mon s}'connais.
-      \item[] \gloss{I [back] learned the prayers in English, but I know the Hail Mary, the \codeEn{HAIL MARY}, in French. That, I [back] know. Grandma taught me. I want to learn the others, but I have to sit there, go say that I'm going to learn them, but that's the only one I [back] know.}
+      \item[] \longtrans{I [back] learned the prayers in English, but I know the Hail Mary, the \codeEn{HAIL MARY}, in French. That, I [back] know. Grandma taught me. I want to learn the others, but I have to sit there, go say that I'm going to learn them, but that's the only one I [back] know.}
     \end{enumerate}
 
     Finally, \textcite{gudmestad_variationist_2022} also found the following verb to constraint which phonetic variants of first person singular \lexi{je} were produced, [ʃ] being favored before verbs of the \lexi{-er} class, [ʒ] being disfavored, and [h] and ø forming the baseline (pp.~14-15).
@@ -692,13 +692,13 @@
 
         \begin{enumerate}[resume=sentences]
           \item {}[nu] apprend un tas. \label{sent:nu_tracy} (Tracy Roth, 17:33)
-          \item[] \gloss{We learn a lot.}
+          \item[] \longtrans{We learn a lot.}
           \item {}[no] apprenne comment pour laver. \label{sent:no_tracy} (Tracy Roth, 31:20)
-          \item[] \gloss{We learned how to wash.}
+          \item[] \longtrans{We learned how to wash.}
           \item {}[nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. \label{sent:nu1_owen} (Owen Webre, 3:32)
-          \item[] \gloss{We say someone that had some animals or rather some livestock like that.}
+          \item[] \longtrans{We say someone that had some animals or rather some livestock like that.}
           \item {}[nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. \label{sent:nu2_owen} (Owen Webre, 14:47)
-          \item[] \gloss{We're the people who should be of a certain level, something like that.}
+          \item[] \longtrans{We're the people who should be of a certain level, something like that.}
         \end{enumerate}
 
         The phonetic forms [vu] and [vuz]\footnote{
@@ -722,7 +722,7 @@
 
         \begin{enumerate}[resume=sentences]
           \item {}[vu] savez? Moi, je suis ici. (Deborah Tauzin, 3:30) \label{sent:vu_deborah}
-          \item[] \gloss{You know? Me, I'm here.}
+          \item[] \longtrans{You know? Me, I'm here.}
         \end{enumerate}
         
         \begin{table}[tbhp]
@@ -793,11 +793,11 @@
         
         \begin{enumerate}[resume=sentences]
           \item Mes grands-parents à moi, [i] sont beaucoup plus vieux que l'autre monde de mon âge. (Austin Roy, 15:01) \label{sent:i_plural_austin1}
-          \item[] \gloss{My grandparents, they're a lot older than other people my age.}
+          \item[] \longtrans{My grandparents, they're a lot older than other people my age.}
           \item Les vieilles mondes, [i] sont partis, to connais? (Floyd Kerry, 13:10) \label{sent:i_plural_floyd}
-          \item[] \gloss{The old people, they're gone, you know?}
+          \item[] \longtrans{The old people, they're gone, you know?}
           \item Mes grands-parents, [i] parliont tout le français. (Austin Roy, 14:52) \label{sent:i_plural_austin2}
-          \item[] \gloss{My grandparents, they all spoke French.}
+          \item[] \longtrans{My grandparents, they all spoke French.}
         \end{enumerate}
 
         In general, applying these steps was a straightforward process.
@@ -864,17 +864,17 @@
 
         \begin{enumerate}[resume=sentences]
           \item Tu devrais avoir une autre langue. (Owen Webre, 25:26) \label{sent:tu_owen}
-          \item[] \gloss{You should have another language.}
+          \item[] \longtrans{You should have another language.}
           \item To gain pour guetter les Américains. (Owen Webre, 17:44) \label{sent:to_owen}
-          \item[] \gloss{You have to watch Americans.}
+          \item[] \longtrans{You have to watch Americans.}
           \item Tu me peux fais ça. (Tracy Roth, 17:40) \label{sent:tu_tracy}
-          \item[] \gloss{You can do that for me.}
+          \item[] \longtrans{You can do that for me.}
           \item To trappé li encore. (Tracy Roth, 15:24) \label{sent:to_tracy}
-          \item[] \gloss{You caught him again.}
+          \item[] \longtrans{You caught him again.}
           \item To pouvais fais du sucre. (Tracy Roth, 8:40) \label{sent:to_tracy_exception}
-          \item[] \gloss{You could make some sugar.}
+          \item[] \longtrans{You could make some sugar.}
           \item To'tais peux couru là. (Tracy Roth, 4:44) \label{sent:to_tracy_past}
-          \item[] \gloss{You could go there.}
+          \item[] \longtrans{You could go there.}
         \end{enumerate}
 
         It is not difficult to conclude that [ty] and [to] are distinct for speakers, then, but [ty] and [ti] present a different scenario in that they appear in identical linguistic contexts for those speakers who produce both.
@@ -887,9 +887,9 @@
         
         \begin{enumerate}[resume=sentences]
           \item {}[ti] vas venir jouer pour moi à ce soir. (Gene Delcambre, 33:01) \label{sent:ti_gene}
-          \item[] \gloss{You're going to come play for me tonight.}
+          \item[] \longtrans{You're going to come play for me tonight.}
           \item {}[ty] vas aller à la grocerie. (Gene Delcambre, 19:13) \label{sent:tu_gene}
-          \item[] \gloss{You're going to go to the grocery store.}
+          \item[] \longtrans{You're going to go to the grocery store.}
         \end{enumerate}
 
         Finally, there are three other pronouns that have been described in the literature as having various phonetic realizations but all were realized with only one phonetic form in my data.
@@ -1013,9 +1013,9 @@
 
         \begin{enumerate}[resume=sentences]
           \item Ça peut tour asteur, tu vois? (Rose Louvière, 22:54) \label{sent:rose_TV1}
-          \item[] \gloss{They can tour now, you see?}
+          \item[] \longtrans{They can tour now, you see?}
           \item Il est plus gros que vous (Rose Louvière, 22:32) \label{sent:rose_TV2}
-          \item[] \gloss{He is bigger than you.}
+          \item[] \longtrans{He is bigger than you.}
         \end{enumerate}
 
         A final aid for determining T-V intentions for 2sg pronouns was the translation task that some participants completed.
@@ -1041,13 +1041,13 @@
 
         \begin{enumerate}[resume=sentences]
           \item *Le livre, il est un roman intéressant. \label{sent:it_vs_that_unaccept}
-          \item[] \gloss{The book, it's an interesting novel.}
+          \item[] \longtrans{The book, it's an interesting novel.}
           \item Le livre, c'est un roman intéressant. \label{sent:it_vs_that_accept}
-          \item[] \gloss{*The book, that's an interesting novel.}
+          \item[] \longtrans{*The book, that's an interesting novel.}
           \item Quoi c'est l'expression, love conquers all? (Brian Roger, 5:28) \label{sent:interrogative_cest}
-          \item[] \gloss{What's the expression, love conquers all?}
+          \item[] \longtrans{What's the expression, love conquers all?}
           \item C'est trop chaud. (Judy Soileau Courtade, 9:15) \label{sent:judy_cest}
-          \item[] \gloss{It's too hot. (the weather)}
+          \item[] \longtrans{It's too hot. (the weather)}
         \end{enumerate}
         
         A pronoun that can take up truly impersonal functions is \lexi{on}.
@@ -1059,7 +1059,7 @@
 
         \begin{enumerate}[resume=sentences]
           \item Si c'est on est après parler avec quelqu'un, on dit charrer. (Jerry Pierre Quintero, 0:32) \label{sent:ambiguous_on}
-          \item[] \gloss{If it's that \emph{one is/we are} speaking with someone, \emph{one/we} say charrer.}
+          \item[] \longtrans{If it's that \emph{one is/we are} speaking with someone, \emph{one/we} say charrer.}
         \end{enumerate}
 
         % Lagniappe -----------------------------------------
@@ -1156,7 +1156,7 @@
 
       \begin{enumerate}[resume=sentences]
         \item Mo besoin fais d'autre l'ouvrage dessus li. (Floyd Kerry, 4:58) \label{sent:floyd_besoin}
-        \item[] \gloss{I need to do other work on it.}
+        \item[] \longtrans{I need to do other work on it.}
       \end{enumerate}
 
       Other auxiliary verbs that are at times lexical and at other times auxiliary are those that express movement in their lexical forms.
@@ -1171,11 +1171,11 @@
 
       \begin{enumerate}[resume=sentences]
         \item Mo couru travailler pour des avocats. (Elizabeth Naquin, 9:32) \label{sent:elizabeth_serial}
-        \item[] \gloss{I went to work for some lawyers.}
+        \item[] \longtrans{I went to work for some lawyers.}
         \item Mo pas gone payer pour toi. (Tracy Roth, 33:13) \label{sent:tracy_gone}
-        \item[] \gloss{I'm not going to pay for you.}
+        \item[] \longtrans{I'm not going to pay for you.}
         \item Il a gone pour un mois. \parencite[p.~315]{valdman_dictionary_2010} \label{sent:verb_gone}
-        \item[] \gloss{He went for a month.}
+        \item[] \longtrans{He went for a month.}
       \end{enumerate}
 
       The copula itself can is not always obligatory in Louisiana \parencite[pp.~292/331]{klingler_if_2003}.
@@ -1220,9 +1220,9 @@
         \begin{enumerate}[resume=sentences]
           \item Li sa pas content. (Owen Webre, 65:25) \label{sent:owen_sa}
           \item[] Elle sera pas contente. (Standard French)
-          \item[] \gloss{She won't be happy.}
+          \item[] \longtrans{She won't be happy.}
           \item La langue sera devenir plus sophistiquée aujourd'hui. (Steven Marcel, 69:09) \label{sent:steven_sra}
-          \item[] \gloss{The language would have become more more sophisticated today.}
+          \item[] \longtrans{The language would have become more more sophisticated today.}
         \end{enumerate}
 
         Elements used to primarily express mood likewise can reasonably be interpreted as verbs, and in fact have been interpreted as auxiliaries albeit not distinct from other auxiliaries.
@@ -1248,10 +1248,10 @@
         \begin{enumerate}[resume=sentences]
           \item Se juch mon ki \emph{ka} parle sa. (LC) (p.~273) \label{sent:kapab1_klingler}
           \item[] C'est juste moi qui suis \emph{capable} de parler ça. (FR)
-          \item[] \gloss{It's just me who is capable of speaking that.}
+          \item[] \longtrans{It's just me who is capable of speaking that.}
           \item Mounn \emph{ka} apronn. (LC) (p.~274) \label{sent:kapab2_klingler}
           \item[] Le monde est \emph{capable} d'apprendre. (FR)
-          \item[] \gloss{People are capable of learning.}
+          \item[] \longtrans{People are capable of learning.}
         \end{enumerate}
   
         As for aspect, two markers have been discussed in the literature as being purely aspectual: [bɪn] and [ape] with its variants [ap] and [e] (\citeauthor{klingler_if_2003}, \citeyear[pp.~255/262-263]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[pp.~75/209/211]{neumann-holzschuh_creole_1985}).
