@@ -44,131 +44,152 @@
 
     %%% Language %%%
 
-    % Recognition of differences between Creole and Cajun speech ------------------------------
+    \subsection{Creole speech versus Cajun speech}
+      When speaking about language, both Creoles and Cajuns were able to speak of differences between each other.
+      At times, these differences are downplayed, as in the statement in Sentence \ref{sent:different_speech_floyd} where Floyd Kerry, a Black Creole, focuses on local varieties being relatively similar unlike how they are both much different from how the French in Europe speak.
+      Given the racialization of his identity, however, he has an incentive to promote closeness between the two groups rather than distance.
+      This theme of acceptance of others came up more with Creoles than with others.
 
-    When speaking about language, both Creoles and Cajuns were able to speak of differences between each other.
-    At times, these differences are downplayed, as in the statement in Sentence \ref{sent:different_speech_floyd} where Floyd Kerry, a Black Creole, focuses on local varieties being relatively similar unlike how they are both much different from how the French in Europe speak.
-    Given the racialization of his identity, however, he has an incentive to promote closeness between the two groups rather than distance.
-    This theme of acceptance of others came up more with Creoles than with others.
-
-    \begin{enumerate}[resume=sentences]
-      \item FK: C'est pas un gros différence. To vois, ici dans la Louisiane, les Créoles et puis les Cadiens restent ensemble, ça fait les Cadiens et puis les Créoles, yé parlent pas la français comme les Français parlent le france. (52:36) \label{sent:different_speech_floyd}
-      \item[] \longtrans{FK: It's not a big difference. You see, here in Louisiana, Creoles and Cajuns live together, so Cajuns and Creoles, they don't speak French like the French speak French.}
-    \end{enumerate}
+      \begin{enumerate}[resume=sentences]
+        \item FK: C'est pas un gros différence. To vois, ici dans la Louisiane, les Créoles et puis les Cadiens restent ensemble, ça fait les Cadiens et puis les Créoles, yé parlent pas la français comme les Français parlent le france. (52:36) \label{sent:different_speech_floyd}
+        \item[] \longtrans{FK: It's not a big difference. You see, here in Louisiana, Creoles and Cajuns live together, so Cajuns and Creoles, they don't speak French like the French speak French.}
+      \end{enumerate}
+        
+      % Arthur Rousseau
+        % (52:43) [some Cajuns mix French and Creole]
+        % INT: J'ai rencontré un homme, un Cadien. À mon oreille, il parlait créole en fait, mais il me disait, "Je parle français."
+        % AR: Ouais, c'est un mélange de français et créole.
+        % (53:21) [Creole is a dialect of French]
+        % AR: C'est un dialecte.
       
-    % Arthur Rousseau
-      % (52:43) [some Cajuns mix French and Creole]
-      % INT: J'ai rencontré un homme, un Cadien. À mon oreille, il parlait créole en fait, mais il me disait, "Je parle français."
-      % AR: Ouais, c'est un mélange de français et créole.
-      % (53:21) [Creole is a dialect of French]
-      % AR: C'est un dialecte.
+      More often, though, participants were regularly able to distinguish.
+      Oliver Lesage, a Cajun, offered two examples of Creole-marked speech in Sentences \ref{sent:different_speech_lesage1} and \ref{sent:different_speech_lesage2}.
+      In the latter example, the switch involves him going from using \lexi{elle} to using \lexi{li} to refer to Mildred, showing the salience of subject pronouns in the distinction between the varieties.
+      Also notable is that both of his demonstrations include the word \lexi{nègre}, whose translation in Louisiana is quite difficult.
+      It has long been used in a rather term of endearment among Cajuns, even appearing in the refrain of the popular Cajun music song \song{Lâche pas la patate} released by Jimmy C Newman in 1973.
+      It has also been used as a pejorative term.
+      In this case, the intent was clearly endearment, but that it was thought be appropriate for articulating Creole speech either exemplifies a latent association, reinforces an association, or both.
+      The term will be seen in a number of other examples, some that are more ambiguous and some that are less so.
+
+      \begin{enumerate}[resume=sentences]
+        \item OL: Si t'olé parler en nègre, en créole, couru-vini, mo mo capable faire ça, aussi. (1:07) \label{sent:different_speech_lesage1}
+        \item[] \longtrans{OL: If you want to speak in negro, in Creole, Couru-Vini, I'm capable of doing that, too.}
+        \item OL: \emph{Elle} s'appelle Mildred, alors quand elle elle arrive, là no gain pour parler comme ça. \emph{Li} dit, ``Oliver, comment to yé, nègre?'' Et, ``M'apè fais okay aujourd'hui.'' (2:21) \label{sent:different_speech_lesage2}
+        \item[] \longtrans{OL: Her name is Mildred, so when she arrives, then we have to talk like this. She says, ``Oliver, how are you, negro?'' And, ``I'm doing okay today.''}
+      \end{enumerate}
+      % Gene Delcambre
+        % (42:15) [Creoles from different places speak differently]
+        % GD: Yé parlent différent. Là, comme à Lafayette, Carencro, Scott. ... Toi, tu vas dis 'let's go' uh, "Mais j'ai viens à la grocerie." ... Mo couru la grocerie.
+        % Lucille Royer
+          % (46:19) [supports Gene's statement]
+          % LR: Les Noirs à la Ville Platte parlaient français cadien d'après ce que moi je me rappelle.
+
+      The term in fact came up within the same discourse theme but in a much more clearly derogatory form.
+      In Sentence \ref{sent:different_speech_bruce1}, Bruce Wiltz recalls hearing the speech of Creoles described as such.
+      A Cajun who did not grow up around people who called themselves Creoles, giving this information as reported speech distances him from any possible role in such disciminatory practices but also highlights the understanding that Creole speech is stigmatized.
+      Owen Weber, a Black Creole, confirms that this stigma existed in Sentence \ref{sent:different_speech_owen}.
+      When asked if people in Breaux Bridge used to say that they were Creole, he explained that this was not something they wanted to say publicly for fear of being looked down on.
+      Owen style shifted considerably during our interview, which is not being robustly analyzed here.
+      However, his shifts appeared to coincide with whether he was speaking about non-Creoles or academic matters, in which cases he would use Cajun-marked pronouns.
+      In this example, that meant using \lexi{no} for 1pl at first while speaking from his own viewpoint to using \lexi{on} when implying the presence of non-Creoles.
+      This suggests the existence of a certain amount of segregation between Creoles and Cajuns that makes it meaningful to style shift along those lines, confirming the social distance that the network analysis here suggested.
+
+      \begin{enumerate}[resume=sentences]
+        \item BW: J'ai entendu dire c'était le français nègre. (68:09) \label{sent:different_speech_bruce1}
+        \item[] \longtrans{BW: I've heard it said that it was negro French.}
+        \item OW: Nous-autres, \emph{no}'tait parler créole dans la maison ou à la maison et dans les voisinages. Si \emph{on} voyageait de le village comme ça, de le le territoire ou, \emph{on} disait que, ``Laisse pas les mondes connaît que to't'apè parler ça, parce que yé va dit que to pas éduqué ou quelque chose. Ina quelque chose pas bien avec toi.'' (15:55) \label{sent:different_speech_owen}
+        \item[] \longtrans{OW: Us, we would speak Creole in the house and in the neighborhood. If we were traveling around the town like that, around the region or, we would say, ``Don't let people know that you were speaking that, because they will say that you're not educated or something. There was something not right with you.''}
+      \end{enumerate}
+
+      Despite that distance, Cajuns were generally cognizant that it is not only Creoles who have Creole-marked speech patterns.
+      When making this observation, it was very common to highlight specific towns where this phenomenon exists.
+      In Sentences \ref{sent:different_speech_austin} and \ref{sent:different_speech_bruce2}, Henderson and Catahoula were highlighted while also giving examples of what the variety sounds like, each of which includes Creole-marked subject pronouns.
+      The phenomenon was most clearly put into racial terms in Sentence \ref{sent:different_speech_cynthia}.
+      Cynthia Robichaux Savoie was asked if Cajuns and Creoles speak differently, to which she responded that they did, gave some examples that included Creole-marked subject pronouns, and then explained further using the terms White and Black rather than Cajun and Creole, implicitly making the association between the local social categories and broader racialized social categories.
+      She also once again brought up the word \lexi{nègre} for characterizing Creole-marked speech in Cecilia, a town that was also brought up by Brian Roger, Mary Bonvillain and Arthur Rousseau to talk about Whites using Creole-marked speech, as well as Bruce Wiltz, Lillian Himel and Oliver Lesage to talk about Creole-marked speech being present in general.
+      In this case, this was said to be what White speakers with such speech patterns would call their own language, although this does not mean that the term was being used for endearment.
+      Indeed, I had encountered White speaker during my research who did not want to speak F\&C because his speech is what he would call N-word French, a term that he was unwilling to say out loud but rather hinted at until he was sure that we both understood to what he was referring.
+
+      \begin{enumerate}[resume=sentences]
+        \item AR: Elle vient de Henderson, et puis to ca' dis li parle un petit brin créole là. (81:02) \label{sent:different_speech_austin}
+        \item[] \longtrans{AR: She's from Hender, and so you can say that she speaks a bit of Creole there.}
+        \item BW: Et eux, ils ont venu de autour de Catahoula, et ça parlait un peu de le créole aussi, eh? ``Mo gain li, to gain li,'' et c'est la seule fois moi j'avais entendu ça. (46:21) \label{sent:different_speech_bruce2}
+        \item[] \longtrans{BW: And them, they came from around Catahoula, and they spoke a bit of Creole aussi, eh? I have it, you have it, and that's the only time that I had heard that.}
+        \item CRS: Les Créoles, mais ouais, ça parle différent que nous. ``Mo mo'tais couru.'' \gloss{I went.} ``Mo'tais couru. No'tait gain.'' ... Il y a des Noirs qui parlent le français comme nous-autres, mais il y a des Blancs qui parlent le créole comme les Noirs, et Cecilia qui est sept miles d'ici, pour la plupart, les Blancs, ils parlent créole, et on disait ils se parlent nègre. Ça disait pas ils se parlent créole. (45:13) \label{sent:different_speech_cynthia}
+        \item[] \longtrans{CRS: Creoles, well yeah, they speak differently than us. ``I would go.'' \gloss{I went.} ``I would go. We had.'' ... There are some Blacks who speak French like us, but there are some Whites who speak Creole like Blacks, and Cecilia which is seven miles from here, for the most part, Whites, they speak Creole, and we would say to each other that they speak negro. They wouldn't say that they speak Creole to each other.}
+      \end{enumerate}
+      % Brian Roger
+        % (59:34) [brings up Cecilia after being asked if people today think Creoles are Black and Cajuns are White]
+        % BR: Ina un tas du monde qui dit ça, parce que, tu vois, par exemple en Cecilia, la langue là-bas c'est plus créole, "mo gain, to gain," les mots comme ça, "couru, mo couru, to couru," et puis Arnaudville, c'est cadien ou bien français. ... Ça fait, le français à Arnaudville, ina un tas du monde va dire c'est un, j'aime pas user le mot, mais c'est un meilleur français.
+          % We returned to this later in the interivew (64:45), where he further explained that he knows Blacks ("Noirs") who speak "cadien" or "français" but older Whites ("blanc") in Cecilia speak Creole.
+      % Mary Bonvillain
+        % (40:48) [Cecilia and Arnaudville]
+        % MB: Beaucoup de monde croit que le français cadien, c'est pour les Blancs, et que le français créole, c'est parlé par les Noirs, mais il y a des gens blancs, comme autour de Cecilia et Arnaudville, qui parlent le français créole.
+        % (42:54) [she does go on later to say that in Carencro, where she once taught, the belief matches what she experienced]
+        % MB: Les gens de Carencro, les Blancs parlaient français cadien. Les Noirs parlaient français créole.
+      % Arthur Rousseau
+        % (52:22) [Cecilia and Breaux Bridge]
+        % AR: Y a beaucoup des Blancs qui parlent créole dans Cecilia et Breaux Bridge.
+      % Bruce Wiltz
+        % (67:46) [Cecilia, Coteau Holmes, Catahoula]
+        % INT: Je suppose que c'était pas aussi fréquent [speaking Creole] à Lafayette que d'autres villages autour de Lafayette peut-être ou?
+        % BW: Non, je crois pas. Je crois c'était comme autour de Cecilia, Coteau Holmes, Catahoula.
+      % Lillian Himel
+        % (45:40) [explaining that there were no Creoles where she grew up, then switches to talking about language]
+        % LH: Tu vois, j'étais élevée dans l'ouest, dans la paroisse, et le monde qui parle créole, dans mon idée, ç'habite un tas au ras Pont Breaux et Cecilia.
+          % So these towns weren't always invoked to highlight Cajuns who speak Creole but were also invoked simply to highlight where one hears Creole (and in this case would meet Creole people)
+      % Oliver Lesage
+        % (2:07) [saying something similar to Lillian]
+        % OL: Et c'est comme ici. À Cecilia, beaucoup de gens parlent couru-vini.
+        % (66:27) [general observation about Creole speakers]
+        % OL: Mais, y a beaucoup de gens ici qui parlent couru-vini mais qui ne sont pas noirs.
+
+      When not highlighting specific towns, the general concensus was indeed that Creoles use Creole-marked features.
+      Even when non-Creoles were discussed as using Creole-marked features, this was done as an addendum to what was considered the obvious connection of Creoles using Creole-marked features.
+      Cajuns also, at times, placed some distance between their speech and that of Creoles by suggesting a completely different origins for the two varieties.
+      In the case of Creole, the Caribbean is brought into the frame in Sentences \ref{sent:different_speech_arthur} and \ref{sent:different_speech_brian}.
+      Both participants hedged these statements by explaining that they may be wrong, acknowledging their ignorance on Creole matters which likely stems from having little contact with Creoles, which is a natural result when a group has been racialized.
+
+      \begin{enumerate}[resume=sentences]
+        \item AR: A lot of the Blacks that settled these regions [Lafayette] were from the islands [Caribbean], somewhere from the islands, and the islands were French. (50:46) \label{sent:different_speech_arthur}
+        \item BR: Le monde qui viensait de les îles en-dedans le Caribbean a ramené le français, le créole, la langue créole, en-dedans pour qu'on peut travailler dans les clos de canne, sugarcane, ça fait moi je trouve, d'après moi, le, enfin, ils ont une table créole en Arnaudville. C'est proche tous les Noirs. (60:44) \label{sent:different_speech_brian}
+        \item[] \longtrans{BR: The people that came from the islands in the Caribbean brought back French, Creole, the Creole language, so they can work in the cane field, sugarcane, so I find, in my opinion, the, anyway, there's a Creole table in Arnaudville. It's almost all Blacks.}
+      \end{enumerate}
+
+      Creoles were likewise aware that Cajuns generally speak differently than Creoles.
+      Unlike Cajuns, some Creoles spoke about this in terms of the effort they put forth to understand Cajuns' way of speaking.
+      This asymmetry, where the burden of making things work falls on the racialized group, is indicative of racialization.
+      In Sentence \ref{sent:different_speech_tracy}, Tracy Roth explained that it was incumbent on Creoles to learn how Cajuns speak if they wanted to get ahead.
+      Rachel Chenevert was not as committed to this idea in Sentence \ref{sent:different_speech_rachel}, but she did draw the connection once again between the broad category of White and the local category of Cajuns.
+
+      \begin{enumerate}[resume=sentences]
+        \item TR: To peux trapper la manière yé parlent, comme la manière yé parlent, ça yé a dit, to vois? Un Cadien, to gain pour apprendre comment li parle, then si to peux trapper ça, then to connais où to restes. (89:09) \label{sent:different_speech_tracy}
+        \item[] \longtrans{You can pick up the way they speak, like the way they speak, what they will say, you see? A Cajun, you have to learn how he speaks, then if you can pick that up, then you know where you stand.}
+        \item RachelC: Les mondes, yé vient. Y'apè causer. ... It's a lot of White people come and say, you know, they speaking Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know. I said, ``I don't speak Cajun. I'm a Creole.'' ... But sometime, ... na des fois n'a causer jusqu'à n'a comprendre un à l'autre, you know? (22:16) \label{sent:different_speech_rachel}
+        \item[] \longtrans{RachelC: People, they come. They're talking. ... It's a lot of White people come and say, you know, they speak Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know. I said, ``I don't speak Cajun. I'm Creole.'' ... But sometime, ... there are times we will talk until we will understand one another, you know?}
+      \end{enumerate}
+
+      % Sometimes those who use Creole-marked features do not talk about it as Creole
+        % Florence Gaspard
+          % (43:16) [how parents told them stories because they didn't have books]
+          % FG: Yé'taient fait le story pour toi yé'taient dit toi ça en français.
+        % Floyd Kerry
+          % (12:57) [family who spoke French have passed away]
+          % FK: Ina un tas des mondes asteur là, yé parlent pas français dans mon famille, to connais?
+          % (69:14)
+          % FK: Le français et le créole, c'est la même affaire. C'est juste un petit peu cassé.
+        % Errol Stoufle
+          % (9:27) [talking about how "French" was useful for his job]
+          % ES: Tu connais, yé'taient des vieux Cadiens, tu connais? Yé'taient connaît le monde. Yé'taient parler français. ... Une raison mo a eu le job parce que mo'tais connais un tas du vieux monde d'ici, puis mo'tais parler français.
+      
+      The way in which Creoles and Cajuns spoke about F\&C was consistent with what one would expect to find in a racialized social system.
+      Distinctions between the racialized group, in this case Creoles, and others are salient enough that their appearance in language variation is apparent to residents.
+      Broader racialized social categories are often associated with the local categories, and those associations are typically to the detriment of Creoles.
+      As would also be expected in a racialized social system, Cajuns were content to express or create distance with Creoles, whereas Creoles felt a need to reduce that distance as their lack of access to social resources means that social distance to those who have more access works against Creoles but not necessarily against Cajuns.
     
-    More often, though, participants were regularly able to distinguish.
-    Oliver Lesage, a Cajun, offered two examples of Creole-marked speech in Sentences \ref{sent:different_speech_lesage1} and \ref{sent:different_speech_lesage2}.
-    In the latter example, the switch involves him going from using \lexi{elle} to using \lexi{li} to refer to Mildred, showing the salience of subject pronouns in the distinction between the varieties.
-    Also notable is that both of his demonstrations include the word \lexi{nègre}, whose translation in Louisiana is quite difficult.
-    It has long been used in a rather term of endearment among Cajuns, even appearing in the refrain of the popular Cajun music song \song{Lâche pas la patate} released by Jimmy C Newman in 1973.
-    It has also been used as a pejorative term.
-    In this case, the intent was clearly endearment, but that it was thought be appropriate for articulating Creole speech either exemplifies a latent association, reinforces an association, or both.
-    The term will be seen in a number of other examples, some that are more ambiguous and some that are less so.
-
-    \begin{enumerate}[resume=sentences]
-      \item OL: Si t'olé parler en nègre, en créole, couru-vini, mo mo capable faire ça, aussi. (1:07) \label{sent:different_speech_lesage1}
-      \item[] \longtrans{OL: If you want to speak in negro, in Creole, Couru-Vini, I'm capable of doing that, too.}
-      \item OL: Elle s'appelle Mildred, alors quand elle elle arrive, là no gain pour parler comme ça. Li dit, ``Oliver, comment to yé, nègre?'' Et, ``M'apè fais okay aujourd'hui.'' (2:21) \label{sent:different_speech_lesage2}
-      \item[] \longtrans{OL: Her name is Mildred, so when she arrives, then we have to talk like this. She says, ``Oliver, how are you, negro?'' And, ``I'm doing okay today.''}
-    \end{enumerate}
-    % Gene Delcambre
-      % (42:15) [Creoles from different places speak differently]
-      % GD: Yé parlent différent. Là, comme à Lafayette, Carencro, Scott. ... Toi, tu vas dis 'let's go' uh, "Mais j'ai viens à la grocerie." ... Mo couru la grocerie.
-      % Lucille Royer
-        % (46:19) [supports Gene's statement]
-        % LR: Les Noirs à la Ville Platte parlaient français cadien d'après ce que moi je me rappelle.
-
-        % Sometimes stigma around the Creole way of speaking was explicitly brought up
-          % Bruce Wiltz
-            % (68:09) [derogatory name for Creole, brought up in a way that distanced the term from himself]
-            % BW: J'ai entendu dire c'était le français nègre.
-          % Owen Webre
-            % (15:55) [when asked if people in Breaux Bridge used to say they were Creole]
-            % OW: Pas vraiment. Non, parce que à ce moment-là, ... mais comme mo mo rappelle, nous-autres no'tait parler créole dans la maison ou à la maison et dans les voisinages. Si on voyageait de le village comme ça, de le le territoire ou, on disait que, "Laisse pas les mondes connaît que to't'apè parler ça, parce que yé va dit que to pas éduqué ou quelque chose. Ina quelque chose pas bien avec toi.
-
-        % Sometimes, especially when talking about Cajuns who speak Creole, particular towns are highlighted
-          % Austin Roy
-            % (81:02) [gives an example but contextualizes it as someone, in this case a Cajun, from Henderson is likely to speak some Creole]
-            % AR: Elle vient de Henderson, et puis to ca' dis li parle un petit brin créole là.
-          % Bruce Wiltz
-            % (46:21) [Cajun from Catahoula]
-            % BW: Et eux, ils ont venu de autour de Catahoula, et ça parlait un peu de le créole aussi, eh? Mo gain li, to gain li, et c'est la seule fois moi j'avais entendu ça.
-          % Cynthia Robichaux Savoie
-            % (45:13) [asked if Cajuns and Creoles speak differently]
-            % CRS: Les Créoles, mais ouais, ça parle différent que nous. "Mo mo'tais couru." 'I went.' "Mo'tais couru. No'tait gain." ... "Mo'tais couru au store." 'I went to the store.'
-            % [then Lucille Royer explains that Creoles in Ville Platte spoke "français cadien"]
-            % CRS: Il y a des Noirs qui parlent le français comme nous-autres, mais il y a des Blancs qui parlent le créole comme les Noirs, et Cecilia qui est sept miles d'ici, pour la plupart, les Blancs, ils parlent créole, et on disait ils se parlent nègre. Ça disait pas ils se parlent créole.
-          % Brian Roger
-            % (59:34) [brings up Cecilia after being asked if people today think Creoles are Black and Cajuns are White]
-            % BR: Ina un tas du monde qui dit ça, parce que, tu vois, par exemple en Cecilia, la langue là-bas c'est plus créole, "mo gain, to gain," les mots comme ça, "couru, mo couru, to couru," et puis Arnaudville, c'est cadien ou bien français. ... Ça fait, le français à Arnaudville, ina un tas du monde va dire c'est un, j'aime pas user le mot, mais c'est un meilleur français.
-              % We returned to this later in the interivew (64:45), where he further explained that he knows Blacks ("Noirs") who speak "cadien" or "français" but older Whites ("blanc") in Cecilia speak Creole.
-
-      % Who produces which variants?
-        % Oliver Lesage
-          % (66:27) [general observation about Creole speakers]
-          % OL: Mais, y a beaucoup de gens ici qui parlent couru-vini mais qui ne sont pas noirs.
-
-        % Creoles recognizing a difference in the speech of Cajuns
-          % Tracy Roth
-            % (89:09) [talking about the importance of learning how Cajuns speak]
-            % TR: To peux trapper la manière yé parlent, comme la manière yé parlent, ça yé a dit, to vois? Un Cadien, to gain pour apprendre comment li parle, then si to peux trapper ça, then to connais où to restes.
-          % Rachel Chenevert
-            % (22:16) [meeting strangers who don't speak F&C like her]
-            % RachelC: Les mondes, yé vient. Y'apè causer. Y'ap- you know. It's a lot of White people come and say, you know, they speaking Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know. I said, "I don't speak Cajun. I'm a Creole." ... But sometime, we'll, na des fois n'a causer jusqu'à n'a comprendre un à l'autre, you know?
-
-        % Sometimes those who use Creole-marked features do not talk about it as Creole
-          % Florence Gaspard
-            % (43:16) [how parents told them stories because they didn't have books]
-            % FG: Yé'taient fait le story pour toi yé'taient dit toi ça en français.
-          % Floyd Kerry
-            % (12:57) [family who spoke French have passed away]
-            % FK: Ina un tas des mondes asteur là, yé parlent pas français dans mon famille, to connais?
-            % (69:14)
-            % FK: Le français et le créole, c'est la même affaire. C'est juste un petit peu cassé.
-          % Errol Stoufle
-            % (9:27) [talking about how "French" was useful for his job]
-            % ES: Tu connais, yé'taient des vieux Cadiens, tu connais? Yé'taient connaît le monde. Yé'taient parler français. ... Une raison mo a eu le job parce que mo'tais connais un tas du vieux monde d'ici, puis mo'tais parler français.
-
-        % As in the examples above, people often highlighted particular towns when mentioning Cajuns who speak Creole
-          % Cynthia Robichaux Savoie
-            % (40:48) [Cecilia and Arnaudville]
-            % CRS: Beaucoup de monde croit que le français cadien, c'est pour les Blancs, et que le français créole, c'est parlé par les Noirs, mais il y a des gens blancs, comme autour de Cecilia et Arnaudville, qui parlent le français créole.
-            % (42:54) [she does go on later to say that in Carencro, where she once taught, the belief matches what she experienced]
-            % CRS: Les gens de Carencro, les Blancs parlaient français cadien. Les Noirs parlaient français créole.
-          % Arthur Rousseau
-            % (52:22) [Cecilia and Breaux Bridge]
-            % AR: Y a beaucoup des Blancs qui parlent créole dans Cecilia et Breaux Bridge.
-          % Bruce Wiltz
-            % (67:46) [Cecilia, Coteau Holmes, Catahoula]
-            % INT: Je suppose que c'était pas aussi fréquent [speaking Creole] à Lafayette que d'autres villages autour de Lafayette peut-être ou?
-            % BW: Non, je crois pas. Je crois c'était comme autour de Cecilia, Coteau Holmes, Catahoula.
-          % Lillian Himel
-            % (45:40) [explaining that there were no Creoles where she grew up, then switches to talking about language]
-            % LH: Tu vois, j'étais élevée dans l'ouest, dans la paroisse, et le monde qui parle créole, dans mon idée, ç'habite un tas au ras Pont Breaux et Cecilia.
-              % So these towns weren't always invoked to highlight Cajuns who speak Creole but were also invoked simply to highlight where one hears Creole (and in this case would meet Creole people)
-          % Oliver Lesage
-            % (2:07) [saying something similar to Lillian]
-            % OL: Et c'est comme ici. À Cecilia, beaucoup de gens parlent couru-vini.
-
-        % Otherwise, Creoles are described as speaking Creole.
-          % Arthur Rousseau
-            % (50:46) [Creoles in Lafourche vs Lafayette, incidentally equating Creole and Black]
-            % AR: And there was a community down the bayou where a lot of them settled that community, and yeah a few of them dispersed here and there, but no, it wasn't as openly Creole as it is over here. A lot of Blacks here were born speaking French. And I think, I may be wrong, the influences, a lot of the Blacks that settled these regions were from the islands [Caribbean], somewhere from the islands, and the islands were French.
-              % Sort of highlights a belief in distance between Cajuns and Creoles.
-          % Brian Roger
-            % (60:44) [highlighted the same Caribbean connection despite growing up much closer to Creoles/Creolophones]
-            % BR: Je connais pas si c'est, ina du monde qui disait, le monde qui viensait de les îles en-dedans le Caribbean a ramené le français, le créole, la langue créole, en-dedans pour qu'on peut travailler dans les clos de canne, sugarcane, ça fait, moi je trouve, d'après moi, le, enfin, ils ont une table créole en Arnaudville. C'est proche tous les Noirs.
-    
-    %%% Race %%% --------------------------------------------
-
-    % Definitions of Cajuns ---------------------------------
+    \subsection{What is a Cajun?}
+      Racialization could also be seen in the ways that participants discussed their definitions of Cajuns and Creoles.
+      
 
       % Acadians
         % Arthur Rousseau
