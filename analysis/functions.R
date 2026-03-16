@@ -261,7 +261,8 @@ plotLogitBarPredType <- function(pronoun) {
 }
 
 # Maps -------------------------------------------------------------------------
-getPolyCenter <- function(placeName){
+getPolyCenter <- function(placeName) {
+  Sys.sleep(90)
   placeCoordinates <- osmdata::getbb(placeName) %>% # Obtain the bounding box corners fro open street map
     t() %>% # Transpond the returned matrix so that you get x and y coordinates in different columns
     data.frame() %>% # The next function takes a data frame as input
