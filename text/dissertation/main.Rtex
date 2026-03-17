@@ -19,6 +19,7 @@
              detect-all}
   \usepackage{phonrule}
   \usepackage{enumitem}
+    \setlist{parsep=0pt}
   \usepackage{multirow}
   \usepackage{tabularx}
     \newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
