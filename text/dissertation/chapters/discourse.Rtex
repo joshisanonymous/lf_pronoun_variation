@@ -1,4 +1,4 @@
-\chapter{Discourse Around F\&C and Creoles and Cajuns}
+\chapter{Discourse Around Creoles, Cajun, and F\&C}
   \label{chap:discourse}
   The previous two chapters have suggested that Creoles and Cajuns are racialized through examining their linguistic and social structures.
   Linguistically, some subject pronouns are more associated with Creoles and others with Cajuns, allowing the two groups to be marked in their speech as one would expect in a racialized social system, albeit the associations are not categorically complete.
@@ -12,43 +12,56 @@
   In order to contextualize this discourse, a review will first be presented of discourse themes and phenomena that appear in studies of Blacks and African-Americans in the United States as they constitute a group that has unarguably been racialized.
   The presence of these themes and phenomena in the discourse of Creoles and Cajuns will then be presented.
 
-  \section{Racialized discourse}
-    %%%% Potential new outline
+  \section{Racializing discourse}
+    \label{sec:racial_discourse_review}
+    What it means for discourse to be racializing may not be immediately clear.
+    Racializing discourse has generally been defined as that which ``sorts some people, things, places, and pratices into social categories marked as inherently dangerous and Other'' \parencite[p.~E2]{dick_racializing_2011}.
+    Often used as a synonym for racializing discourse is the term \lexi{race talk}, which shares with the above definition that idea that such talk always aims to degrade \parencite{morrison_backs_1993}.
+    However, affirming or reaffirming racialized social categories does not necessarily have this goal or impact.
+    For example, when Black activists in Oklahoma highlighted the role of race in how their neighborhood was being neglected, they were necessarily engaging in racializing discourse, but it was being put into action to counteract the colorblind racism \parencite{bonilla-silva_racism_2022} of the larger community \parencite[p.~E79]{blanton_chronotopic_2011}.
+    Indeed, it has been suggested that marginalized racialized groups should variably choose to discursively transgress against racial logics when they are not beneficial to the group and reaffirm them when needed to draw attention to inequalities born of their racialization \parencite{alim_whos_2016}.
+    Naturally, this also means that those who produce or reproduce racial orders through discourse are not necessarily ideologically racist \parencite{hodges_ideologies_2015}.
+    When racializing discourse is the expression of ideological racism, latent or not, it is often covert so as to provide plausible deniability in order to avoid possible societal sanctions \parencite[p.~E2]{dick_racializing_2011}.
+    The working definition of racializing discourse for the present study is thus any discourse that signals race in some way, overtly or covertly, with positive or with negative intentions or effects.
+    In short, it is discourse that produces or reproduces the process of racialization.
 
-    % What is racialized discourse
+    One framework for racializing discourse is the concept of boundaries \parencite[\foreign{e.g.},]{myers_race_2001}.\footnote{
+      While boundary concepts such as social closure come from the Weberian tradition rather than the Marxist tradition associated with racialization, this does not render boundaries off-limits here.
+      Boundaries between racialized groups plainly exist, as Chapter \ref{chap:networks} demonstrated, and as this chapter will show, those boundaries can be enforced by individual actors.
+    }
+    Establishing boundaries effectively establishes racialized groups and characterizes them.
+    Those boundaries can then be policed or maintained.
+    \citeauthor{myers_race_2001} (\citeyear{myers_race_2001}) work is particularly relevant for the current study as they focused on racializing discourses in private conversations which more or less describes the sort of discourse that was collected here.
+    They found that boundaries were marked (\foreign{i.e.}, categories were created and characterized) for marginalized groups through racial slurs, caricatures of others, and the dehumanization of anything associated with those groups.
+    White people then policed those boundaries by rejecting the right of Black people to exist in White spaces, whereas Black people maintained boundaries instead (\foreign{i.e.}, self-policed).
+    The fact that the mechanisms available to the two groups to protect boundaries were indicative of their differing positions in a social hierarchy sets these sort of boundaries apart from those which may be established between groups in non-racializing situations where the marginalization of a people is not inherent to the social structure.
 
-      % Dick & Wirtz (2011) described racializing discourse as that which "sorts some people, things, places, and pratices into social categories marked as inherently dangerous and Other" (E2)
-        % Particularly important are covert racializing discourses "because they allow for racializing practices to continue decade after decade behind a mask of plausible deniability" (E2)
-
-      % Whether described as racialized discourse(s) or race talk, not all such discourse is negative
-        % The discourse of Black activists in Oklahoma was described as racializing in that it acknowledged the role of race in their plight (Blanton 2011:E79)
-
-        % Nor when it does produce and reproduce racialization does that entail that speakers are racist (Hodge 2015)
-
-    % How does it work (one possible framing: boundaries)
-      % Myers & Williamson (2001) - racist discourse in private conversations marks borders and ensures their persistence
-        % Base their analysis on boundaries (Barth 1969 maybe?) and a generalized version of T. Morrison's (1993) concept of race talk, defined as "'the explicit insertion into everyday life of racial signs and symbols that have no meaning other than pressing African Americans to the lowest level of the racial hierarchy'" by Morrison but used here to refer to "any talk that demeans on the basis of race or ethnicity" (4)
-          % Race talk is understood here as at the very least normalizing "racist attitudes and practices" (4).
-        % Their research topic was based on the idea that racism had become covert and private in the US and so public discourse was no longer best suited for analyzing racism
-        % Boundary marking involved 1) racial slurs to create categories, 2) caricatures to characterize others, and 3) dehumanization of anything associated with those others (10-12)
-        % Boundary policing by Whites came in the form of asking why Black organizations should exist in ostensibly White institutions or just directly being derogatory
-          % On the other hand, policing from Blacks was generally self-policing (i.e., performing maintenace) and Latinos were not really recorded policing towards Others
-        % Boundary maintenance was carried out by criticizing one's authenticity to their race or criticizing their integration into White networks and practices
-          % This was only carried out by Latinxs and Blacks because it was otherwise the same as boundary policing for Whites (19)
+    One group that can undoubtedly be qualified as racialized are Black people in the United States, which has led to English discourse analysis around this group in terms of race and racialization.
+    The Creoles of interest for this study being located in the same country as well as the fractal recursivity \parencite{irvine_language_2000} that has equated Creoles with Black people makes the latter a highly relevant comparison group.
+    It is thus informative to examine how racialized boundaries are marked for Black people and White people, how White people police these boundaries, and how Black people maintain them.
 
     % Boundary marking
 
       % Boundaries can coincide with literal physical boundaries that are clear enough for those in the community to comment on and fight over (Blanton 2011)
         % "[B]lack folk" are collocated both in space and discourse with polluted waterways not even fit for horses (Blanton 2011:E81)
+        % This theme of neglected, crime-ridden neighborhoods being associated with Black people is consistent (\foreign{e.g.}, \citeauthor{becker_linguistic_2014}, \citeyear[p.~46]{becker_linguistic_2014}; \citeauthor{rickford_addressee-_1994}, \citeyear[p.~243]{rickford_addressee-_1994})
 
       % Pronouns, literally \lexi{us} and \lexi{them}, get used to enact social differentiation (Blanton 2011:E80)
         % For those at the top of the hierarchy, this can be done when beneficial to their discourse whereas the us-them dynamic can be disregarded when not beneficial (Blanton 2011:E83/E86)
-        % Sometimes a "they" is used to refer to a group who dscriminates but without specifying who that group is, focusing instead on naming only who receives the discrimination (K. Perkins et al. 2019:1020)
+        % Sometimes a "they" is used to refer to a group who discriminates but without specifying who that group is, focusing instead on naming only who receives the discrimination (K. Perkins et al. 2019:1020)
+        % Distance may be expressed without referring to oneself directly in order to soften the racial ideology that is implied by such statements, such as a Lumbee Indian explaining that ``they [Indians] didn't fool with them [Blacks], they were scared of them'' \parencite[pp.~178-179]{schilling-estes_constructing_2004}.
+          % The speaker here was himself an Indian, providing the implicature that these were also his own feelings, but he was able to avoid acknowledging his own racial ideology by speaking through his group instead.
+          % If confronted about that ideology, one can then plausibly deny holding a racist ideology.
 
       % Characterizing people in racialized categories
 
         % Sometimes characterizations may be directly pejorative, dehumanizing others
           % Describing Jordan Neely as "trash" that needs to be taken out (Okeke 2025:329)
+
+        % Usually characterizations are more covertly dehumanizing
+          % This can manifest in a Black woman being described as ``irritated,'' having ``absolutely no respect,'' and being ``dumber than a box of rocks'' after giving a court testimony \parencite[p.~761]{baugh_swb_2015} to being described as physically imposing to the point of being ``scary'' \parencite[p.~453]{bucholtz_you_1999}, both of which were the sort of characterizations that Black undergraduate students have also reported \parencite[pp.~425-427]{holliday_sociolinguistic_2021}.
+          % What these characterizations have in common is that they aim to focus on the physicality of Blacks and delegitimize their intelligence, rendering them more like strong animals than thoughtful humans.
+          % This need not even be with the conscious goal of harming these people as, indeed, the individual who used the ``scary'' descriptor exploited African-American Language to index his own strength, but the impact is the same nonetheless.
 
         % People racialized as inferior may reproduce stereotypes about themselves
           % Black people make poor decisions about how to spend their money (K. Perkins et al. 2019:1018)
@@ -56,7 +69,16 @@
           % And then they may downplay the importance of the discrimination they face as simply how the world is, not even distinguishing their own experience from that of other minority groups (K. Perkins et al. 2019:1020-1021)
             % This is essentially a coping mechanism
 
-    % Boundary policing/maintenance
+    % Boundary policing
+
+      % Black people aren't allow access to White spaces nor White resources
+        % One expression of this is Black people not being able to find institutional redress when falsely accused of wrong-doing \parencite[\foreign{e.g.},][p.~3]{labov_facto_1986}
+          % Likewise, when attempting to bring to light the wrongs that White people have done to them, Black people may find themselves facing sanctions rather than the wrong-doers \parencite[\foreign{e.g.},][pp.~281-282]{morgan_more_2022}
+          % In essence, the sort of public institutions that would deal with these issues are seen as the domains of White people
+
+        % The burden of learning new ways of speaking in academic and business contexts is placed more so on Black Americans than White Americans where a failure to do so can inhibit one's life chances \parencite[\foreign{e.g.},][p.~367]{williams_looking_2010}
+          % This burden has been argued to be a reproduction of the Jim Crow logic of separate but equal in that the language of Blacks is allowed to exist but must not do so in specific spaces \parencite{young_nah_2009}.
+          % \textcite{holliday_sociolinguistic_2021} called the ``physical, emotional, and psychological effort'' involved in balancing language varieties in this way sociolinguistic labor (p.~421).
 
       % Erasing the existence of race allows the status quo to remain in place
         % It has been argued that terms such as ethnicity, diversity, and multiculturalism are euphemisms used to avoid directly dealing with race (Dick & Wirtz 2011:E4)
@@ -66,6 +88,12 @@
         % Not having to think about race is a privilege afford to White people and not Black people who must always be vigilant even when forming friendships (S. Wilson et al. 2025:11)
         % Disregarding race by those at the top of the hierarchy is facilitated by folk theories of race where racism is only about personal ideologies and cannot be systemic (Hodges 2015)
         % Attempts to bring up race explicitly to seek redress can paradoxically being shunned as racist discourses by those at the top of the hierarachy (Blanton 2011:E83-E84/E88; Briscoe & Khalifa 2015:756)
+      
+    % Boundary maintenance
+
+      % White people have access to this mechanism in addition to policing, whereas Black people *only* have access to this mechanism
+        % White parents may allow exposure to non-Whites but enforce boundaries that limit that exposure
+          % White kids reported their parents allowing them to have Black friends at school but not to go to those friends' houses or allowing them to have Black friends but not date those same people (S. Carter et al. 2012)
 
       % Blacks linking behaviors to White culture and criticizing their peers who enact those behaviors
         % Achieving academic success can be seen as White behavior and so criticized (K. Brown & A. Brown 2012:16)
@@ -73,49 +101,39 @@
           % Relatedly, Whites who moved to predominantly Black schools in their early years have reported being readily accepted, whereas Blacks who moved to predominantly White schools were ostracized (S. Carter et al. 2012)
             % Essentially, there was no reason to ostracize the White students in the Black schools because there is not a sense built into society that school is the domain of Blacks, whereas Whites may feel like their space is being invaded when Black students arrive
 
-      % White parents may allow exposure to non-Whites but enforce boundaries that limit that exposure
-        % White kids reported their parents allowing them to have Black friends at school but not to go to those friends' houses or allowing them to have Black friends but not date those same people (S. Carter et al. 2012)
-
-    %%%%
-
-    One group that can undoubtedly be qualified as racialized is Blacks, including African-Americans, in the United States.
-    As such, English discourse from the group has been frequently analyzed in terms of race and racialization.
-    The Creoles of interest for this study being located in the same country as well as the fractal recursivity \parencite{irvine_language_2000} that has equated Creoles with Blacks makes the latter a highly relevant comparison group.
-    The racialization of discourse surrounding Blacks in the US presents itself both explicitly and implicitly.
-
     \paragraph{Hardships}
-      Discourse content that explicitly acknowledges racialization often takes the form of racialized people being able to discuss hardships that, among those in the community, only they have faced.
-      Living in neglected and crime-ridden neighborhoods is a regular expression of this (\foreign{e.g.}, \citeauthor{becker_linguistic_2014}, \citeyear[p.~46]{becker_linguistic_2014}; \citeauthor{rickford_addressee-_1994}, \citeyear[p.~243]{rickford_addressee-_1994}).
-      While it may be argued that living in such environs is not relegated only to racialized people, it is more common for them due to both \foreign{de jure} and \foreign{de facto} segregation.
-      Less arguable as being shared experiences for racialized and non-racialized people is how accusations of wrong-doing play out for the former.
-      While anyone can be accused of wrong-doing, there is little recourse for racialized people when an accusation is false as they may find it difficult to obtain trust in their side of the story \parencite[\foreign{e.g.},][p.~3]{labov_facto_1986}.
-      At the other end, when racialized people are the receivers of wrong-doing, speaking out may result in sanctions against them rather than justice \parencite[\foreign{e.g.},][pp.~281-282]{morgan_more_2022}.
-      The general principle is that, where a group has been racialized, that group will have hardships to relate that are not faced by others in their community or not faced in the same ways.
+      % Discourse content that explicitly acknowledges racialization often takes the form of racialized people being able to discuss hardships that, among those in the community, only they have faced.
+      % Living in neglected and crime-ridden neighborhoods is a regular expression of this (\foreign{e.g.}, \citeauthor{becker_linguistic_2014}, \citeyear[p.~46]{becker_linguistic_2014}; \citeauthor{rickford_addressee-_1994}, \citeyear[p.~243]{rickford_addressee-_1994}).
+      % While it may be argued that living in such environs is not relegated only to racialized people, it is more common for them due to both \foreign{de jure} and \foreign{de facto} segregation.
+      % Less arguable as being shared experiences for racialized and non-racialized people is how accusations of wrong-doing play out for the former.
+      % While anyone can be accused of wrong-doing, there is little recourse for racialized people when an accusation is false as they may find it difficult to obtain trust in their side of the story \parencite[\foreign{e.g.},][p.~3]{labov_facto_1986}.
+      % At the other end, when racialized people are the receivers of wrong-doing, speaking out may result in sanctions against them rather than justice \parencite[\foreign{e.g.},][pp.~281-282]{morgan_more_2022}.
+      % The general principle is that, where a group has been racialized, that group will have hardships to relate that are not faced by others in their community or not faced in the same ways.
 
     \paragraph{Distance from the racialized}
-      On the other hand, non-racialized groups can afford to establish distance between themselves and racialized groups.
-      Distance may be expressed without referring to oneself directly in order to soften the racial ideology that is implied by such statements, such as a Lumbee Indian explaining that ``they [Indians] didn't fool with them [Blacks], they were scared of them'' \parencite[pp.~178-179]{schilling-estes_constructing_2004}.
-      The speaker here was himself an Indian, providing the implicature that these were also his own feelings, but he was able to avoid acknowledging his own racial ideology by speaking through his group instead.
-      If confronted about that ideology, one can then plausibly deny holding a racist ideology.
+      % On the other hand, non-racialized groups can afford to establish distance between themselves and racialized groups.
+      % Distance may be expressed without referring to oneself directly in order to soften the racial ideology that is implied by such statements, such as a Lumbee Indian explaining that ``they [Indians] didn't fool with them [Blacks], they were scared of them'' \parencite[pp.~178-179]{schilling-estes_constructing_2004}.
+      % The speaker here was himself an Indian, providing the implicature that these were also his own feelings, but he was able to avoid acknowledging his own racial ideology by speaking through his group instead.
+      % If confronted about that ideology, one can then plausibly deny holding a racist ideology.
 
       % Racialized people are uneasy with labeling their identities
         % Becker's (2014) participant did not want to use the word African-American because it was reductive (i.e., African is a large continent with many cultures) (47)
 
     \paragraph{Traits of the racialized as a proxy for racial ideology}
-      Most discourse that exemplifies and reproduces racialization is less explicit, however.
-      One common form that this takes is discourse from non-racialized people that uncritically points to negative traits of racialized people without ever acknowledging that these traits are perceived because of the racial identities of the targets rather than any fair account of the character of those targets.
-      This can manifest in a Black woman being described as ``irritated,'' having ``absolutely no respect,'' and being ``dumber than a box of rocks'' after giving a court testimony \parencite[p.~761]{baugh_swb_2015} to being described as physically imposing to the point of being ``scary'' \parencite[p.~453]{bucholtz_you_1999}, both of which were the sort of characterizations that Black undergraduate students have also reported \parencite[pp.~425-427]{holliday_sociolinguistic_2021}.
-      What these characterizations have in common is that they aim to focus on the physicality of Blacks and delegitimize their intelligence, rendering them more like strong animals than thoughtful humans.
-      This need not even be with the conscious goal of harming these people as, indeed, the individual who used the ``scary'' descriptor exploited African-American Language to index his own strength, but the impact is the same nonetheless.
-      As with the plausible deniability permitted by referring to the racial views of one's group rather than oneself, this approach allows for the same.
-      If the speaker is then confronted about their racial ideology, they can simply reverse the accusation and accuse the racialized person of making supposedly non-racial remarks about race \parencite[\foreign{e.g.},][pp.~6-7]{eberhardt_colorblind_2020}.
+      % Most discourse that exemplifies and reproduces racialization is less explicit, however.
+      % One common form that this takes is discourse from non-racialized people that uncritically points to negative traits of racialized people without ever acknowledging that these traits are perceived because of the racial identities of the targets rather than any fair account of the character of those targets.
+      % This can manifest in a Black woman being described as ``irritated,'' having ``absolutely no respect,'' and being ``dumber than a box of rocks'' after giving a court testimony \parencite[p.~761]{baugh_swb_2015} to being described as physically imposing to the point of being ``scary'' \parencite[p.~453]{bucholtz_you_1999}, both of which were the sort of characterizations that Black undergraduate students have also reported \parencite[pp.~425-427]{holliday_sociolinguistic_2021}.
+      % What these characterizations have in common is that they aim to focus on the physicality of Blacks and delegitimize their intelligence, rendering them more like strong animals than thoughtful humans.
+      % This need not even be with the conscious goal of harming these people as, indeed, the individual who used the ``scary'' descriptor exploited African-American Language to index his own strength, but the impact is the same nonetheless.
+      % As with the plausible deniability permitted by referring to the racial views of one's group rather than oneself, this approach allows for the same.
+      % If the speaker is then confronted about their racial ideology, they can simply reverse the accusation and accuse the racialized person of making supposedly non-racial remarks about race \parencite[\foreign{e.g.},][pp.~6-7]{eberhardt_colorblind_2020}.
 
     \paragraph{The burden of learning a standard variety}
-      Language is of course another characteristic of Black Americans that is often treated as safe to criticize when their speech does not converge on standardized American English norms.
-      This can come with a price that inhibits life chances, such as losing work opportunities \parencite[\foreign{e.g.},][p.~367]{williams_looking_2010}.
-      Along with this devalorization of ways of speaking as a safe proxy for criticizing a racialized group comes also the burden of learning the prestigious way of speaking on that group and then performing that way of speaking in the correct social contexts.
-      This burden has been argued to be a reproduction of the Jim Crow logic of separate but equal in that the language of Blacks is allowed to exist but must not do so in specific spaces \parencite{young_nah_2009}.
-      \textcite{holliday_sociolinguistic_2021} called the ``physical, emotional, and psychological effort'' involved in balancing language varieties in this way sociolinguistic labor (p.~421).
+      % Language is of course another characteristic of Black Americans that is often treated as safe to criticize when their speech does not converge on standardized American English norms.
+      % This can come with a price that inhibits life chances, such as losing work opportunities \parencite[\foreign{e.g.},][p.~367]{williams_looking_2010}.
+      % Along with this devalorization of ways of speaking as a safe proxy for criticizing a racialized group comes also the burden of learning the prestigious way of speaking on that group and then performing that way of speaking in the correct social contexts.
+      % This burden has been argued to be a reproduction of the Jim Crow logic of separate but equal in that the language of Blacks is allowed to exist but must not do so in specific spaces \parencite{young_nah_2009}.
+      % \textcite{holliday_sociolinguistic_2021} called the ``physical, emotional, and psychological effort'' involved in balancing language varieties in this way sociolinguistic labor (p.~421).
       % As the daughter of Trinidadian and Venezuelan parents, Blake (2016) found that she was not considered African-American enough to be accepted as an authentic speaker of AAE (153).
       % Sociolinguistic labor can manifest through phenomena such as stereotype threat where stress is induced for individuals who must contend with whether their behaviors reinforce negative stereotypes of groups with which they are affiliated (C. M. Steele & Aronson 1995:797)
 
@@ -129,7 +147,7 @@
       The following research question for this chapter therefore aims to search for signs of this same logic in the discourse of Creoles and Cajuns.
 
     \begin{itemize}
-      \item[RQ3:] Is the discourse of Creoles and Cajuns in Louisiana indicative of Creoles being racialized?
+      \item[RQ3:] Is the discourse of Creoles and Cajuns in Louisiana indicative of the racialization of these groups in that it creates, polices, and maintains inequal boundaries?
     \end{itemize}
 
     \subsection{Previous research in Louisiana}
@@ -203,7 +221,7 @@
         Instead, she looked to the other two for permission to identify as Creole and denied that she could be Cajun, as well, like her friends (pp.~293-294).
         This is reminiscent of the communicative rules of \foreign{de jure} segregation that \textcite{morgan_more_2022} discussed where permission to speak is required for racialized people and where they were expected to say only what those of higher racial status wanted them to say, in this case even to the extent where the individual in the group who much more clearly could lay claim to being Creole did not feel comfortable doing so in front of Whites who were allowed to freely claim whatever identity they wanted.
 
-      The literature on racialized discourse suggests several themes which include hardship, drawing distance between racialized and non-racialized people, indirect negative characterizations of racialized people, and the burden that racialized people face of having to learn a standardized language variety.
+      The literature on racializing discourse suggests several themes which include hardship, drawing distance between racialized and non-racialized people, indirect negative characterizations of racialized people, and the burden that racialized people face of having to learn a standardized language variety.
       The limited literature on Louisiana Creoles and Cajuns suggests that these same themes are present among those who speak F\&C, and so I hypothesized that the data for the current study would show the same, answering the research question in the affirmative.
       The next section will show that this hypothesis was well founded.
 
