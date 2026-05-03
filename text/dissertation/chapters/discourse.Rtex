@@ -143,14 +143,6 @@
       One way in which boundary policing can take place in a racialized social system is by placing the burden of learning a standard language variety on those who have been marginalized.
       This complicated when considering F\&C as this is now something of a heritage language, but \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) data did still demonstrate similar language ideology at play, expressed in terms of the belief that Cajun speak F\&C better than Creoles (p.~176).
       This sentiment was even repeated by a Creole women who herself used all Cajun-marked subject pronouns (p.~255).
-        
-      % Learning standard variety
-        % The burdern of racialized people being tasked with learning a standard language variety is complicated for F\&C speakers as this is now something of a heritage language.
-        % \textcite{wendte_tale_2020} quoted a number of Creoles both in Texas and Louisiana highlighting that being able to speak Creole is important for being Creole (pp.~146-147/153-155/202/224-225/230-232/289).
-        % What they did not highlight was a need to learn a prestigious variety of F\&C, although it is also important to note that many of the participants used Cajun-marked subject pronouns and still called their language Creole, so these participants could be said to already be speaking the prestigious local variety.
-        % That said, many still expressed the belief that Cajuns/Whites speak better than Creoles (p.~176).
-        % One striking example of how this played out was when a women from Saint Landry Parish who considered herself to be Black and used all Cajun-marked subject pronouns still expressed the belief that Cajuns spoke better than people like herself (p.~255).
-        % Racialization was such a strong factor in her mind that she believed that she spoke worse than others whose speech patterns she actually shared simply because she was lower in the racial hierarchy.
 
       Clearer examples of boundary policing came under the form of differing levels of restrictions on who could claim Cajun identity versus who could claim Creole identity.
       The former plainly required one to be able to say that they are also White (pp.~296-297).
@@ -396,6 +388,14 @@
           \item[] \longtrans{Austin (Cajun): The thing is that, if everyone that I know would have been born one hundred years ago, the people who aren't interested in language and all that, they would speak French.}
         \end{enumerate}
         What he did not address, however, was that this exception would allow almost all White-passing South Louisianians to identify as Cajun, the majority of whom are anglophone only.
+        % Wendte
+          % Learning standard variety
+            % The burdern of racialized people being tasked with learning a standard language variety is complicated for F\&C speakers as this is now something of a heritage language.
+            % \textcite{wendte_tale_2020} quoted a number of Creoles both in Texas and Louisiana highlighting that being able to speak Creole is important for being Creole (pp.~146-147/153-155/202/224-225/230-232/289).
+            % What they did not highlight was a need to learn a prestigious variety of F\&C, although it is also important to note that many of the participants used Cajun-marked subject pronouns and still called their language Creole, so these participants could be said to already be speaking the prestigious local variety.
+            % That said, many still expressed the belief that Cajuns/Whites speak better than Creoles (p.~176).
+            % One striking example of how this played out was when a women from Saint Landry Parish who considered herself to be Black and used all Cajun-marked subject pronouns still expressed the belief that Cajuns spoke better than people like herself (p.~255).
+            % Racialization was such a strong factor in her mind that she believed that she spoke worse than others whose speech patterns she actually shared simply because she was lower in the racial hierarchy.
 
         % Speaking F&C was often invoked, particularly when thinking out loud about the ethnicities of alters
           % Jack Munson
@@ -520,8 +520,8 @@
           \item[] \longtrans{James (Creole): Cajuns okay, those are Whites. The have a heritage from Nova Scotia.}
         \end{enumerate}
         Gene went on to speak about the label in clearly racial terms, explaining that Cajun can be used as a derogatory word for a White person just as the N-word can be for a Black person.
-        The former is certainly not the case today, as the above discussion shows, but the past association must have been strong for Gene.
-        % In Wendte's (2020) data, J6 also explained that calling someone a Cajun would be like calling someone else an N-word or nègre
+        This expectation that Cajun can be a derogatory term was also expressed by one of the Texan Creoles in \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) data (p.~190), so the idea was not unique to Gene even though the above discussion shows that Cajun is certainly not derogatory in the views of Cajuns themselves even for those Cajuns who understood the Cajuns had been stigmatized in the past.
+        Gene himself was one of the older participants, having been born in \Sexpr{participants[participants$Name == "Gene Delcambre", "Birth Year"]}, which is an equally plausible explanation for why he saw Cajun as derogatory as the explanation that Creoles see the term this way.
 
         % Laura Laviolette
           % (57:03) [somewhat supports that "cadien" is not quite as nice (or as correct?) to say as "acadien"]
