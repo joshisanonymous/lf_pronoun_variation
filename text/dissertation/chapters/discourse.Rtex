@@ -437,7 +437,7 @@
         In Sentence \ref{sent:cajun_steven}, Steven was discussing hunting woodcocks, and in doing so, implied that Cajuns are avid hunters.
         \begin{enumerate}[resume=sentences]
           \item Steven (Cajun): Ina pas trop qui restent parce que les Cadiens a tué tout. (23:05) \label{sent:cajun_steven}
-          \item[] \longtrans{Steven (Cajun) There aren't too many that remain because the Cajuns killed everything.}
+          \item[] \longtrans{Steven (Cajun): There aren't too many that remain because the Cajuns killed everything.}
         \end{enumerate}
         None of these are cultural traits or activities that are particularly unique to Cajuns.
         Creoles as well highlighted positive traits like being hardworking and accepting of others.
@@ -447,7 +447,7 @@
         Judy was speaking about where brown cotton has been used in South Louisiana for blankets and two of the parishes she named were Saint Landry and Saint Martin where many Creoles live, so I had inquired about whether Creoles had taken up what she was describing as an Acadian practice.
         \begin{enumerate}[resume=sentences]
           \item[] Judy (Cajun): J'ai jamais jamais trouvé une couverte que quelqu'un de la couleur noire a fait, et je peux pas comprendre pourquoi. Ils étaient après vivre avec nous-autres. We were friendly with the Blacks. (51:17) \label{sent:cajun_judy2}
-          \item[] \longtrans{Judy (Cajun): I never never found a blanket that a someone Black made, and I can't understand why. They were living with us. We were friendly with the Blacks.}
+          \item[] \longtrans{Judy (Cajun): I never never found a blanket that someone Black made, and I can't understand why. They were living with us. We were friendly with the Blacks.}
         \end{enumerate}
         First, she made the connection between Creoles and being Black once again as I asked explicitly about ``Créoles'' whereas she responded by referring to Black people.
         Second, she expressed confusion over Creoles not taking up the practice due to how closely Cajuns and Creoles lived together, as if the boundaries between the two groups were rather porous.
@@ -550,6 +550,7 @@
       These are all undoubtedly fair characterizations, but what they do not say is just as indicative of where Cajuns fit in the racialized social system of South Louisiana.
       The presumed neutrality of Cajun identity is an outcome of the group's privileged racial position as the default group.
       Effectively, discourse around Cajun identity marks it as a local form of White, and any local product or practice that one can be proud of is Cajun.
+      % add something about Creoles having little to say about cajun boundaries
 
     \subsection{Marking the boundaries of Creoleness}
       \label{sec:what_creole}
