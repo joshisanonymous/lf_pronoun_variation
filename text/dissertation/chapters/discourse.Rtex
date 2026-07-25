@@ -561,294 +561,305 @@
       \label{sec:what_creole}
       Examining how the community understands Creoles helps to understand how they understand Cajuns.
       There were in fact two Creoles who suggested that they have or might have Acadians in their ancestry, Deborah Tauzin and Samantha Primeaux, but only the former would have the option of identifying as Cajun, because only the former could pass as White.
-      There was also one Creole with what had been described as a very Cajun name, Rachel Chenevert.
+      There was also one Creole who had a family name that had been described as very Cajun: Rachel Chenevert.
       It is possible that she also had Acadian ancestors, but it is just as possible that her ancestors received the name by being enslaved by Acadians.
       Either way, she would not be able to identify as Cajun today because she could not pass as White.
       There are also many Creoles who partake in what were described as Cajun cultural practices in Section \ref{sec:what_cajun}, but unless they can pass as White, they cannot identify as Cajun.
       One can say that Cajun and Creole are not mutually exclusive categories, but in practice, they are effectively mutually exclusive as the understanding of modern Creoles among the participants here almost always implicated being Black, a trait one must not have in order to be Cajun.
 
-      Many participants indeed had an understanding that Creole has meant many different things over time.
-      Jack Munson, a Cajun, gave a particularly detailed and mostly accurate picture of the whole gamut of definitions in Sentence \ref{sent:creole_jack}.
-      \begin{enumerate}[resume=sentences]
-        \item Jack (Cajun): Dans le vieux temps, un Créole, c'était la première génération de le monde qui est venu de l'Europe qui était né en Louisiane. First generation, your Creoles, whether Spanish or French or German or anything else. Un Créole. Mais, plus tard, le monde qui est venu de Haïti à la Nouvelle-Orléans. C'était les Blancs qui est venus. Leurs esclaves, je pense, y en a qui est venus avec leurs esclaves. ... Ils s'appelaient des Créoles, et un Créole dans un temps, c'était quelqu'un un peu plus haut qu'un Cadien, mais après plusieurs années, créole, c'était quelqu'un qui était pas cadien, et souvent ils estiont, on dit, les nègres, les Noirs. Eux-autres, ça s'appelait des Créoles. Pourquoi pas? Mais plus que ça, je connais pas, un Créole c'est un mélangement de sang aussi, blanc ou espagnol ou noir. (38:54) \label{sent:creole_jack}
-        \item[] \longtrans{Jack (Cajun): In the old days, a Creole, that was the first generation of people who came from Europe who were born in Louisiana. First generation, your Creoles, whether Spanish or French or German or anything else. A Creole. But, later, the people who came from Haiti to New Orleans. That was Whites who came. Their slaves, I think, there were some who came with their slaves. ... They called themselves Creoles, and a Creole at one time, that was someone a bit higher than a Cajun, but after several years, Creole, that was someone who wasn't Cajun, and often they were, we say, negros, Blacks. Them, they call themselves Creoles. Why not? But more than that, I don't know, a Creole is a mix of blood also, White or Spanish or Black.}
-      \end{enumerate}
-      Jack's understanding of Creole only loses accuracy in that the post-Civil War Creole myth discussed in Section \ref{sec:creole_history} is sewn into his descriptions.
-      For instance, anything and anyone from the colony that is now Louisiana was Creole, not only those whose ancestors were European.
-      Also notable is that being Black or having Black ancestors, along with the essentialism of contextualizing this through blood, was brought into the picture.
-      This was regularly the case when speaking about Creoles even though it almost never happened when participants spoke about Cajuns.
-      % Wendte
-        % The other exception was a Texan Creole speaking about his encounter with the word \lexi{nègre} when speaking to a Louisianian.
+      \subsubsection{Creole adaptability}
+        Many participants indeed had an understanding that Creole has meant many different things over time.
+        Jack gave a particularly detailed and mostly accurate picture of the whole gamut of definitions in Sentence \ref{sent:creole_jack}.
+        \begin{enumerate}[resume=sentences]
+          \item Jack (Cajun): Dans le vieux temps, un Créole, c'était la première génération de le monde qui est venu de l'Europe qui était né en Louisiane. First generation, your Creoles, whether Spanish or French or German or anything else. Un Créole. Mais, plus tard, le monde qui est venu de Haïti à la Nouvelle-Orléans. C'était les Blancs qui est venus. Leurs esclaves, je pense, y en a qui est venus avec leurs esclaves. ... Ils s'appelaient des Créoles, et un Créole dans un temps, c'était quelqu'un un peu plus haut qu'un Cadien, mais après plusieurs années, créole, c'était quelqu'un qui était pas cadien, et souvent ils estiont, on dit, les nègres, les Noirs. Eux-autres, ça s'appelait des Créoles. Pourquoi pas? Mais plus que ça, je connais pas, un Créole c'est un mélangement de sang aussi, blanc ou espagnol ou noir. (38:54) \label{sent:creole_jack}
+          \item[] \longtrans{Jack (Cajun): In the old days, a Creole, that was the first generation of people who came from Europe who were born in Louisiana. First generation, your Creoles, whether Spanish or French or German or anything else. A Creole. But, later, the people who came from Haiti to New Orleans. That was Whites who came. Their slaves, I think, there were some who came with their slaves. ... They called themselves Creoles, and a Creole at one time, that was someone a bit higher than a Cajun, but after several years, Creole, that was someone who wasn't Cajun, and often they were, we say, negros, Blacks. Them, they call themselves Creoles. Why not? But more than that, I don't know, a Creole is a mix of blood also, White or Spanish or Black.}
+        \end{enumerate}
+        Jack's understanding of Creole only loses accuracy in that the post-Civil War Creole myth discussed in Section \ref{sec:creole_history} is sewn into his descriptions.
+        For instance, anything and anyone from the colony that is now Louisiana was Creole, not only those whose ancestors were European.
+        Also notable is that being Black or having Black ancestors, along with the essentialism of contextualizing this through blood, was brought into the picture.
+        This was regularly the case when speaking about Creoles even though it almost never happened when participants spoke about Cajuns.
+        % Wendte
+          % The other exception was a Texan Creole speaking about his encounter with the word \lexi{nègre} when speaking to a Louisianian.
             % The former only understood the term as a racial slur, whereas the latter claimed to be using it as a term of endearment (pp.~190-191).
-        % In Wendte's (2020) data, 3 pseudo-participants who were White Cajuns commented on the word nègre (305)
-          % SM1 and VM1 showed "ambivalence" towards them
-          % EV1 only admitted with reservation that nègre was what they primarily called Blacks in Mamou when he was young
+          % In Wendte's (2020) data, 3 pseudo-participants who were White Cajuns commented on the word nègre (305)
+            % SM1 and VM1 showed "ambivalence" towards them
+            % EV1 only admitted with reservation that nègre was what they primarily called Blacks in Mamou when he was young
 
-      % Deborah Tauzin
-        % (49:19)
-        % Deborah (White Creole): Avant, c'était pas juste les Noirs. C'était les Français qu'a donné uh, les Espagnols ou comment, et là y avait des Noirs, mais après ça, les Blancs a commencé à fréquenter avec les Noirs, et ça fait y a deux races maintenant, mais avant, c'était tous les gens qu'étaient nés ici dans le Nouveau Monde, mais c'est plus comme ça, non.
-      % Oliver Lesage
-        % (67:20) [when asked what a Creole is, focuses on his hometown]
-        % Oliver L. (Cajun): Là, ça dépend. Si tu es à Saint-Martinville, les Créoles sont les gens qui est de la première génération comme les Borne, les Renaud, qui sont venus de France. ... Là, il y a les Créoles qui sont des gens soit noirs ou mixtes qui parlent le français ou le couru-vini.
-          % He went on to highlight that there's a sort of public debate playing out between using the first definition, the second definition, or both.
-
-      Jack offered a particularly detailed and erudite description of Creoles, but it was not unusual for participants to recount some of what he said, especially the idea of being born in the colony.
-      In Sentences \ref{sent:creole_lucille} and \ref{sent:creole_brian1}, Lucille Royer and Brian Roger, both Cajuns, related this sense of Creole, and in both cases they highlighted the children of French nationals being Creole rather than the children of anyone at all.
-      \begin{enumerate}[resume=sentences]
-        \item Lucille (Cajun): La Ville Platte, la paroisse Évangéline, a été vraiment fondée par beaucoup de soldats de Napoléon, ... donc c'est vraiment, c'est créole dans le sens de créole, pas dans le sens de couleur de la peau. C'était, you know, les enfants des colons. (39:10) \label{sent:creole_lucille}
-        \item[] \longtrans{Lucille (Cajun): Ville Platte, Evangeline Parish, was really founded by a lot of Napoleon's soldiers, ... so it's really, it's Creole in the sense of Creole, not in the sense of skin color. That was, you know, the children of colonists.}
-        \item Brian (Cajun): Quoi moi j'ai entendu de un Créole, c'est quelqu'un qui est né en-dedans l'État-Uni-, ina du monde qui a dit, quoi moi j'ai appris, si tu viens de la France, et puis tu maries quelqu'un, une autre Française, ta femme qui vient de la France, ça, eux-autres vient de la Louisiane. Eux-autres a un petit. Le petit-ça, c'est un Créole. (56:52) \label{sent:creole_brian1}
-        \item[] \longtrans{Brian (Cajun): What I heard about a Creole, that's someone who was born in the United Sta-, there are people who said, what I learned, if you come from France, and then you marry someone, another French woman, your wife who's from France, that, they come from Louisiana. They have a little one. That little one, that's a Creole.}
-      \end{enumerate}
-      Lucille, in doing so, acknowledged that this understanding could be confusing by immediately bringing up the skin color definition, a confusion that could only come about in the context of Creoles being primarily understood as Black today.
-
-      % Often specifically Europeans born in the colony
-        % Arthur Rousseau
-          % (49:21) [ancestry but not a color or ethnicity even just when he was a kid]
-          % Arthur (Cajun): Quand j'étais jeune, le mot créole -- quand j'ai apprendre le mot -- le mot, c'était des offsprings of the people who came from the Old Country, settled here, and their offsprings were called Creoles. Didn't have anything to do with color or ethnicity.
-            % Using "Old Country" leaves ambiguity, but suggests that a person had to be from a certain place rather than just born in Louisiana.
-        % Austin Roy
-          % (71:15) [Avoyelles families were from France directly]
-          % Austin (Cajun): Wayne, well lui il est pas cadien parce que, well son père à lui, c'est ça vient de Pérou, but le bord à sa mère, c'est des Villanueva de la paroisse des Avoyelles. Ça c'est des Créoles blancs là-bas, ça fait lui, c'est un Créole blanc.
-        % Lucille Royer
-          % (39:10) [Napoleons soldiers made Ville Platte Creole]
-          % Lucille (Cajun): La Ville Platte, la paroisse Évangéline, a été vraiment fondée par beaucoup de soldats de Napoléon, ... donc c'est vraiment, c'est créole dans le sens de créole, pas dans le sens de couleur de la peau. C'était, you know, les enfants des colons.
-        % Brian Roger
-          % (56:52)
-          % Brian (Cajun): Quoi moi j'ai entendu de un Créole, c'est quelqu'un qui est né en-dedans l'État-Uni-, ina du monde qui a dit, quoi moi j'ai appris, si tu viens de la France, et puis tu maries quelqu'un, une autre Française, ta femme qui vient de la France, ça, eux-autres vient de la Louisiane. Eux-autres a un petit. Le petit-ça, c'est un Créole.
-
-      % Some were roughly aware of when Creoles (in the original sense) began being racialized
-        % Brian Roger
-          % (57:51) [Civil War]
-          % Brian (Cajun): Dans la guerre civile, avant la guerre civile, ça voulait pas, les Blancs voulaient pas être mêlés avec les Noirs, ça fait ils ont commencé dire si tu parles créole, ou bien si tu es créole, tu es noir, et puis si tu es blanc, tu es cadien ou bien américain.
-
-      % New Orleans was mentioned a lot but was rarely the primary feature participants went with
-        % Laura Laviolette
-          % (57:26) [when asked what a Creole is]
-          % Laura (Cajun): They came from, like, by New Orlean- Nouvelle-Orléans, but they, the islands, the, you know, like, you know. Ça c'est un Créole.
-            % This reference to the Caribbean was brought up by several participants and feels like an expression of distance
-        % Randal Chenevert
-          % (59:11) [one of a number of different definitions he offered, leading into the European one]
-          % Randal (Cajun): Y avait des histoires dans Nouvelle-Orléans: Creole aristocracy. C'était peut-être pas seulement noir, mais comme j'ai comprendre le vrai définition, la génération de Europeans qu'étaient nés ici dans le Nouveau Monde. C'est ça. Moi je comprends ça, et puis pour moi, les deux sont Creole.
-          % (60:27) [he also went on to say this would make Acadians Creoles, as well]
-          % Randal (Cajun): Dans le vieille Acadie, pour moi, strictly by definition, les enfants de ces premiers colons, c'est des Creole.
-
-      The only participant to give the more accurate, broader original sense of Creole as anyone born in the colonies at all was Bruce Wiltz in Sentence \ref{sent:creole_bruce}.
-      \begin{enumerate}[resume=sentences]
-        \item Bruce (Cajun): Moi, j'ai jamais entendu les gens qui s'identifiaient comme créoles avant peut-être dix ans passés, dix ans ou vingt ans peut-être. (37:18) \label{sent:creole_bruce}
-        \item[] \longtrans{Bruce (Cajun): Me, I never heard people who identified as Creoles before maybe ten years ago, ten years or twenty years maybe.}
-      \end{enumerate}
-      He, however, went on to say that this would make him both Cajun and Creole, as well as making everyone in the US Creole, and so he rejected the idea.
-      While his reasoning was not driven by any sort of ideological racism, it nevertheless upholds the racialized social system that places Cajuns as the default, White race and Creoles as the Others who cannot be Cajun.
-      His statement also exemplifies that, for some participants, their ability to discuss earlier, non-racialized definitions of Creoles is unlikely to have come from an understanding they developed in their younger days.
-      Indeed, two other Cajuns explained that they never heard the word \lexi{Creole} in their youth.
-      \begin{enumerate}[resume=sentences]
-        \item Judy (Cajun): Tu connais, j'ai réellement jamais connu ce mot, créole. Juste dernièrement, c'est comme si tout quelqu'un est créole. (63:18) \label{sent:creole_judy}
-        \item[] \longtrans{Judy (Cajun): You know, I really never knew this word, Creole. Just recently, it's as if everyone is Creole.}
-        \item Dennis (Cajun): Well, on usait pas ce mot \lexi{créole} dans ce temps-là. Non, c'était des uhm, on juste disait du monde noir ou des nègres, mais le propre nom, c'était des Créoles noirs. (38:06) \label{sent:creole_dennis}
-        \item[] \longtrans{Dennis (Cajun): Well, we didn't use this word \lexi{Creole} at that time. No, that was uhm, we would just say Black people or negros, but the proper name, that's Black Creoles.}
-      \end{enumerate}
-      Dennis Oubre's explanation in Sentence \ref{sent:creole_dennis} is particularly striking as it transposed the common modern day understanding of Creole being Black to those people in his childhood who could have identified or been identified as Creole, suggesting a strong link between Blackness and Creoles for him.
-      
-      % Elizabeth Naquin
-        % (18:53) [Creole wasn't a word used in Henderson when she was young]
-        % Joshua (Interviewer): Quand vous étiez jeune, dans la communauté, inavait du monde qui disait, "Je parle créole," ou c'était tout quelqu'un disait, "Je parle français"?
-        % EN: Mo étais pas connais le mot créole jusqu'à mo mo étais plus vieille. Mo étais pas entendre le mot créole. C'est juste no était parler français. Papa, li [i] parlait son cadien.
-        % Joshua (Interviewer): Inavait pas ces distinctions entre cadien et créole et, pour le langage, pour les personnes?
-        % EN: Non, mo rappelle le mari à ma sœur, mon beau-frère, li était élevé à Arnaudville, puis li était dit nous-autres, "No parle le bon français à Arnaudville," parce que li était parler cadien.
-        
-      % Although something of the opposite could be true, also, where Creole was what everyone said
-        % Jerry Pierre Quintero
-          % (32:18) [it was only Creole where he grew up]
-          % JPQ: Où moi j'ai été né, c'est comme ça. On était appelés créole, parce que c'est une drôle de chose ça. On a appelé créole, surtout quand moi j'ai été élevé naturellement, les Noirs, tu connais? Y a trois ou quatre différents Créoles. Ina les Créoles, le monde vient des Espagnols, et inavait ça là, des Haïti, ... les Noirs et les Blancs dans ce temps-là, tu connais, mais c'est une drôle de chose. Ça s'appelait, uh nous-autres, les Blancs, s'appelaient créoles.
-          % (38:24) [and more on that]
-          % JPQ: Dans les Avoyelles, on parlait pour les Cadiens, mais on connaissait pas qu'un Cadien c'est.
-
-      The link between Blackness and Creoles was in fact as common in definitions of Creoles as Acadian ancestry was in definitions of Cajuns.
-      Sentences \ref{sent:creole_cynthia} and \ref{sent:creole_randal1} are just some of the statements expressing this idea.
-      \begin{enumerate}[resume=sentences]
-        \item Cynthia (Cajun): Moi, j'ai grandi, créole c'était noir. (38:02) \label{sent:creole_cynthia}
-        \item[] \longtrans{Cynthia (Cajun): Me, I grew up, Creole was Black.}
-        \item Randal (Cajun): Alentour ici, je connais pas si t'as perçu ça ou tu connais ça, asteur ça a venu, it evolved into un Creole c'est quelqu'un noir. (58:46) \label{sent:creole_randal1}
-        \item[] \longtrans{Randal (Cajun): Around here, I don't know if you noticed this or you know this, now that became, it evolved into a Creole is someone Black.}
-      \end{enumerate}
-      For Rose Louvière, she included the option that a Creole could be a wealthy, educated person but specifically in New Orleans, far from where she grew up in Church Point.
-      \begin{enumerate}[resume=sentences]
-        \item Rose (Cajun): Les Créoles, pour moi, les Créoles étaient le monde de couleur ou bien instruit. ... Les mondes de créole de Nouvelle-Orléans est bien instruits. Wealthy, you know? (62:33) \label{sent:creole_rose}
-        \item[] \longtrans{Rose (Cajun): Creoles, for me, Creoles are colored people or well educated. ... Creole people from New Orleans are well educated. Wealthy, you know?}
-      \end{enumerate}
-      New Orleans was not an uncommon theme when speaking about Creoles and is almost definitely a remnant of the Creole myth.
-      Oliver Lesage in Sentence \ref{sent:creole_lesage} was not offering his definition of Creoles but rather attempting to determine the ethnicity of an alter whom he named but whom he did not know terribly well.
-      \begin{enumerate}[resume=sentences]
-        \item Oliver L. (Cajun): Uh, un homme noir, mais uh, uh créole, on dirait. Ouais, il est créole. (63:34) \label{sent:creole_lesage}
-        \item[] \longtrans{Oliver L. (Cajun): Uh, a Black man, but uh, uh Creole, we would say. Yeah, he's Creole.}
-      \end{enumerate}
-      Olver expresses his thought process connecting Blackness with Creoles out loud, but that same thought process seemed to be at play when, for instance, Lillian Himel initially stated that she did not know any Creoles, paused, then considered a recently encountered acquaintence who was Black and named him as Creole.
-      % Wendte
-        % Wendte's participants often used ancestry as a qualifier for being Creole and often put this in terms of color, especially by qualifying Creoles as some sort of mix of peoples (pp.~179/181/183-184/188/218/279/298).
-        % Creoles could thus be a mix of Black and White (p.~168) or some variation of a mix of European (\foreign{i.e.}, White), Black, and Indian (p.~200/218-219) or simply Black (pp.~182-183/191/201/219/277/284), whereas Cajuns were White (pp.~182-183/189/284-285/297-298).
-        % There were exceptions, as well as in the data that will be presented here, where some Creoles insisted that they were neither Black nor White (pp.~275-276) or were not ``noir noir'' \gloss{black Black} (p.~278).
-        % These more nuanced approaches seem to be efforts to navigate a label that has clearly come to mean Black so as to avoid the stigma -- which itself acknowledges that there is a stigma -- without completely disregarding their connections to Blacks through ancestry.
-        % For Cajuns, however, the only exceptions made were among Texan Creoles (pp.~182/190), suggesting that their relative distance from Louisiana has somewhat weakened the White association.
-
-      % Black
-        % Arthur Rousseau
-          % (49:42) [changed to be about color just since his youth]
-          % Arthur (Cajun): But now it's all morphed to Creole mean Black: Black culture, Black cooking, Creole cooking.
+        % Deborah Tauzin
+          % (49:19)
+          % Deborah (White Creole): Avant, c'était pas juste les Noirs. C'était les Français qu'a donné uh, les Espagnols ou comment, et là y avait des Noirs, mais après ça, les Blancs a commencé à fréquenter avec les Noirs, et ça fait y a deux races maintenant, mais avant, c'était tous les gens qu'étaient nés ici dans le Nouveau Monde, mais c'est plus comme ça, non.
         % Oliver Lesage
-          % (63:34) [uses appearance to classify alter who he doesn't know well on a personal level]
-          % Oliver L. (Cajun): Uh, un homme noir, mais uh, uh créole, on dirait. Ouais, il est créole.
-        % Bruce Wiltz
-          % (36:45) [acknowledges a historical version that highlights New Orleans and Europeans, but explains how Creole settled on Africans albeit mixed with Whites]
-          % Brian (Cajun): Pour des années, quand moi j'ai grandi, d'après moi, moi je savais que le mot créole, au début, à la Nouvelle-Orléans, c'était un mélange de Français et les Espagnols, et puis là, c'est des années après ça, c'était les Africains, eh, qui s'appelaient des Créoles, eh, parce que je crois c'était un mélange de les Africains et les Blancs ou quelque chose comme ça. C'était des Créoles.
+          % (67:20) [when asked what a Creole is, focuses on his hometown]
+          % Oliver L. (Cajun): Là, ça dépend. Si tu es à Saint-Martinville, les Créoles sont les gens qui est de la première génération comme les Borne, les Renaud, qui sont venus de France. ... Là, il y a les Créoles qui sont des gens soit noirs ou mixtes qui parlent le français ou le couru-vini.
+            % He went on to highlight that there's a sort of public debate playing out between using the first definition, the second definition, or both.
 
-      The above participants who equated Creole with Black were all Cajuns.
-      This does not mean that Creoles did not see Blackness in their understanding of Creoles, but they instead highlighted the idea that Creoles are racially mixed.
-      Terry Guillot, who both ethnically and racially identified simply as Creole, was quite plain in stating that Creole is a mixed race in Sentence \ref{sent:creole_terry}, while Florence Gaspard even had a humorous anecdote that characterized Creoles as mixed in Sentence \ref{sent:creole_florence}.
-      \begin{enumerate}[resume=senteces]
-        \item Terry (Creole): C'est une race de monde mêlé. (41:49) \label{sent:creole_terry}
-        \item[] \longtrans{Terry (Creole): It's a race of mixed people.}
-        \item Florence (Creole): Comme mon maman était dit nous-autres, ``Li était un mixed paint.'' (91:03) \label{sent:creole_florence}
-        \item[] \longtrans{Florence (Creole): Like my mama would tell us, ``He as a mixed paint.'}
-      \end{enumerate}
-      For James Cameron in Sentence \ref{sent:creole_james}, he provided examples of what sort of mixtures of people would lead to Creoles, and in every case, it was someone of African ancestry and of European ancestry.
-      \begin{enumerate}[resume=sentences]
-        \item James (Creole): Un Créole, ça doit être une personne dans l'héritage mixte, mais ça doit avoir africaine, et français-African, espagnol-African, allemand-African, African, et ... beaucoup de Créoles à Nouvelle-Orléans étaient les gens libres. (40:10) \label{sent:creole_james}
-        \item[] \longtrans{James (Creole): A Creole, that has to be a person with a mixed heritage, but that has to have African, and French-African, Spanish-African, German-African, African, and ... a lot of Creoles in New Orleans were free people.}
-      \end{enumerate}
-      Florence had also contextualized her anecdote in this way, although her examples included someone mixing with Spanish people, Indians, or Whites, that someone presumably being Black.
-      In Sentence \ref{sent:creole_floyd}, Floyd Kerry only gave ``Colored'' people mixing with Whites as an example, but importantly he emphasized both that this was a painful thing for the former group and was really about enslaved women being violated rather than enslaved men.
-      \begin{enumerate}[resume=sentences]
-        \item Floyd (Creole): Dans les temps, les vieux, c'était quand les Blancs et puis la Couleur étaient vini ensemble et fait un petit, okay? C'était pas un bonne affaire pour les Couleurs. Dans ces temps-ça-là, yé étaient travailler dans le clos, et puis yé étaient prendre les femmes, les Couleurs, et puis, to connais, fait yé't'oler fait avec yé. (45:55) \label{sent:creole_floyd}
-        \item[] \longtrans{Floyd (Creole): In the past, the old people, that was when Whites and the Colored were coming together and making a little one, okay? That wasn't a good thing for the Coloreds. At that time, they would work in the field, and then they would take the women, the Coloreds, and then, you know, do what they wanted to do with them.}
-      \end{enumerate}
-      This idea of pain and hardship in one's identity is not all that different from what Judy Soileau Courtade described for Acadians/Cajuns in Section \ref{sec:what_cajun}.
+        Jack offered a particularly detailed and erudite description of Creoles, but it was not unusual for participants to recount some of what he said, especially the idea of being born in the colony.
+        In Sentences \ref{sent:creole_lucille} and \ref{sent:creole_brian1}, Lucille and Brian related this sense of Creole, and in both cases they highlighted the children of French nationals being Creole rather than the children of anyone at all.
+        \begin{enumerate}[resume=sentences]
+          \item Lucille (Cajun): La Ville Platte, la paroisse Évangéline, a été vraiment fondée par beaucoup de soldats de Napoléon, ... donc c'est vraiment, c'est créole dans le sens de créole, pas dans le sens de couleur de la peau. C'était, you know, les enfants des colons. (39:10) \label{sent:creole_lucille}
+          \item[] \longtrans{Lucille (Cajun): Ville Platte, Evangeline Parish, was really founded by a lot of Napoleon's soldiers, ... so it's really, it's Creole in the sense of Creole, not in the sense of skin color. That was, you know, the children of colonists.}
+          \item Brian (Cajun): Quoi moi j'ai entendu de un Créole, c'est quelqu'un qui est né en-dedans l'État-Uni-, ina du monde qui a dit, quoi moi j'ai appris, si tu viens de la France, et puis tu maries quelqu'un, une autre Française, ta femme qui vient de la France, ça, eux-autres vient de la Louisiane. Eux-autres a un petit. Le petit-ça, c'est un Créole. (56:52) \label{sent:creole_brian1}
+          \item[] \longtrans{Brian (Cajun): What I heard about a Creole, that's someone who was born in the United Sta-, there are people who said, what I learned, if you come from France, and then you marry someone, another French woman, your wife who's from France, that, they come from Louisiana. They have a little one. That little one, that's a Creole.}
+        \end{enumerate}
+        Lucille, in doing so, acknowledged that this understanding could be confusing by immediately bringing up the skin color definition, a confusion that could only come about in the context of Creoles being primarily understood as Black today.
 
-      % Racially mixed people
-        % Samantha Primeaux
-          % (31:58) [when asked if she identifies as Creole, after explaining that her ancestors were enslaved, she says]
-          % SP: Il y a des Européens dans ma famille. Ils ont mélangé avec les personnes noires, alors ça veut dire que, je pense vraiment que je suis créole. Ça c'est pourquoi nous parlons français. C'était à cause d'esclavage.
-        % Deborah Tauzin
-          % (56:37) [talking about how Creoles need not be White]
-          % Deborah (White Creole): Mais en Louisiane, il faut faire attention parce que y en a beaucoup qui a peu de sang de noir, eh?
-        % Judy Soileau Courtade
-          % (63:34) [Black man, White woman rather than the inverse]
-          % Judy (Cajun): Je suis pas créole, parce que je connaissais personne de couleur, et c'est ça moi je crois c'était. Moi, je croyais c'était quelqu'un qu'avait venu ici, et peut-être un homme noir avait marié une femme blanche, et là ils étaient des Créoles, les bébés.
-        % Gene Delcambre
-          % (49:05) [most clearly of all draws the connection between gender and race in this system]
-          % Gene (Creole): The two people that was always free: a White man and a Black woman. Them two that was always free, because they could always be together. They didn't have no Black man with a White woman. They kill you.
+        % Often specifically Europeans born in the colony
+          % Arthur Rousseau
+            % (49:21) [ancestry but not a color or ethnicity even just when he was a kid]
+            % Arthur (Cajun): Quand j'étais jeune, le mot créole -- quand j'ai apprendre le mot -- le mot, c'était des offsprings of the people who came from the Old Country, settled here, and their offsprings were called Creoles. Didn't have anything to do with color or ethnicity.
+              % Using "Old Country" leaves ambiguity, but suggests that a person had to be from a certain place rather than just born in Louisiana.
+          % Austin Roy
+            % (71:15) [Avoyelles families were from France directly]
+            % Austin (Cajun): Wayne, well lui il est pas cadien parce que, well son père à lui, c'est ça vient de Pérou, but le bord à sa mère, c'est des Villanueva de la paroisse des Avoyelles. Ça c'est des Créoles blancs là-bas, ça fait lui, c'est un Créole blanc.
+          % Lucille Royer
+            % (39:10) [Napoleons soldiers made Ville Platte Creole]
+            % Lucille (Cajun): La Ville Platte, la paroisse Évangéline, a été vraiment fondée par beaucoup de soldats de Napoléon, ... donc c'est vraiment, c'est créole dans le sens de créole, pas dans le sens de couleur de la peau. C'était, you know, les enfants des colons.
+          % Brian Roger
+            % (56:52)
+            % Brian (Cajun): Quoi moi j'ai entendu de un Créole, c'est quelqu'un qui est né en-dedans l'État-Uni-, ina du monde qui a dit, quoi moi j'ai appris, si tu viens de la France, et puis tu maries quelqu'un, une autre Française, ta femme qui vient de la France, ça, eux-autres vient de la Louisiane. Eux-autres a un petit. Le petit-ça, c'est un Créole.
 
-      Those who equated Creole with Black were all Cajuns, whereas those who equated Creole with mixed were all Creoles.
-      On the one hand, this may be a case of having more nuance to one's one self-identification than to the identification of others, but there is also the possibility that this is a result of a racial ordering of things.
-      In the broader US, being Black assigns one a very low social status.
-      While the Creoles in Louisiana in this study appeared to see themselves as part of that broader group, the addition of a racially mixed background can be a way to dull the stigma that comes along with being Black.
-      In effect, they can, and did, show solidarity with Blacks nationwide, but the door is also open to argue that they are not quite the same either.
-      It is a sort of compromise, not entirely different from passing as White for those who can, as will be discussed in Section \ref{sec:life_experiences}.
-      On the other hand, for Cajuns, there is no need to add this nuance to Creoles.
-      The lot of this latter group is of no particular concern for the default race in the hierarchy, so a simple equation of Creole with Black is perfectly suitable.
-      None of the participants here showed any sort of ideological racism leading them to do this, but they are influenced by the racialized social system within which they exist.
+        % Some were roughly aware of when Creoles (in the original sense) began being racialized
+          % Brian Roger
+            % (57:51) [Civil War]
+            % Brian (Cajun): Dans la guerre civile, avant la guerre civile, ça voulait pas, les Blancs voulaient pas être mêlés avec les Noirs, ça fait ils ont commencé dire si tu parles créole, ou bien si tu es créole, tu es noir, et puis si tu es blanc, tu es cadien ou bien américain.
 
-      Terry Guillot, above, described Creole as a race, but this view was not shared by all Creole participants.
-      Florence Gaspard and Tracy Roth, for example, both rejected that view.
-      Owen Webre, in Sentence \ref{sent:creole_owen} was even more forthright with this rejection when I asked him about it, saying that I had met a Creole with that view.
-      \begin{enumerate}[resume=sentences]
-        \item Owen (Creole): Mo crois, je crois quand même, les gens de Natchitoches, on a parlé avec un groupe des gens qui dit qu'ils sont les descendants des Français, qui disent qu'ils sont créoles, et on a demandé, ``Mais, qu'est-ce que ça veut dire, ça?'' Parce que c'est vraiment, ce n'est pas une race. C'est plutôt une culture. (51:42) \label{sent:creole_owen}
-        \item[] \longtrans{Owen (Creole): I believe, I believe even, the people of Natchitoches, we spoke with a group of people who say that they're descendants of the French, who say that they're Creole, and we asked, ``Well, what does that mean?'' Because it's really, it's not a race. Rather, it's a culture.}
-      \end{enumerate}
-      Owen saw Creole as a culture rather than a race, and as with Cajuns, Creole cultural traits and practices were the first things several participants discussed when asked what a Creole is.
-      Florence's explanation of Creole qualities in Sentence \ref{sent:creole_florence} is similar to the qualities previously given for Cajuns, particularly being hardworking and the importance of getting along with others which she went on to explain at lenght.
-      \begin{enumerate}[resume=sentences]
-        \item Florence (Creole): C'est quelqu'un qui travaillé dur, et la vie qui était dure, mais li était bon. No apprendre un tas, et no peux apprécier ça no gain. (67:19) \label{sent:creole_florence}
-        \item[] \longtrans{Florence (Creole): That's someone who worked hard, and life was hard, but he was good. We learned a lot, and we can appreciate what we have.}
-      \end{enumerate}
-      While these then are very likely accurate descriptions for a large number of Creoles, they are not necessarily what distinguishes Creoles.
-      % Wendte
-        % Characterizing one's own group in positive terms
-          % Another aspect of discourse that relates to using group traits as a proxy of racialization is the attempt of racialized people to downplay the importance of racial markers by focusing on positive traits when describing themselves.
-          % In one case, a Texan Creole defined being Creole as being ``where your heart lies'' (p.~136), whereas a Louisianian Creole explained that being a Creole means that one is able to adapt and live off of anything (p.~205).
-          % This approach to counteracting negative characterizations of Creoles occurred in the present study, as well.
+        % New Orleans was mentioned a lot but was rarely the primary feature participants went with
+          % Laura Laviolette
+            % (57:26) [when asked what a Creole is]
+            % Laura (Cajun): They came from, like, by New Orlean- Nouvelle-Orléans, but they, the islands, the, you know, like, you know. Ça c'est un Créole.
+              % This reference to the Caribbean was brought up by several participants and feels like an expression of distance
+          % Randal Chenevert
+            % (59:11) [one of a number of different definitions he offered, leading into the European one]
+            % Randal (Cajun): Y avait des histoires dans Nouvelle-Orléans: Creole aristocracy. C'était peut-être pas seulement noir, mais comme j'ai comprendre le vrai définition, la génération de Europeans qu'étaient nés ici dans le Nouveau Monde. C'est ça. Moi je comprends ça, et puis pour moi, les deux sont Creole.
+            % (60:27) [he also went on to say this would make Acadians Creoles, as well]
+            % Randal (Cajun): Dans le vieille Acadie, pour moi, strictly by definition, les enfants de ces premiers colons, c'est des Creole.
 
-      % People with cultural practices
-        % Florence Gaspard
-          % (94:37) [after desegregation of schools]
-          % Florence (Creole): Si to étais pas l'aimer les Blancs, well to étais dans tracas, parce que yé saient battre.
-        % Owen Webre
-          % (43:15) [when asked, was somewhat reluctant to give a direct answer about what a Creole is, instead talked about the difficulties enslaved Africans had to work through]
-          % Owen (Creole): Mo gain penser de ça, parce que c'est pas vraiment un individu. C'est plutôt le concept.
-            % Part of what he highlighted was that "il faut accepter tout le monde" (46:21).
-        % Terry Guillot
-          % (22:22) [religion of Creoles, not a necessary condition but a state of affairs]
-          % Terry (Creole): Tout notre monde, tous les Créoles, autour d'ici, ils estiont tous catholiques.
-
-      One specific cultural practice that was referenced by several participants as being Creole was the playing of Zydeco music.
-      As Lucille Royer explained in Sentence \ref{sent:cajun_lucille}, the local accordion music of South Louisiana was at one time simply called French music but is now called Cajun music.
-      In truth, this is only half of the picture, as another genre grew out of the same tradition and is today called Zydeco.
-      Just as Cajun music is associated with Cajuns, Zydeco is associated with Creoles, as is evident in Sentences \ref{sent:creole_brian2} and \ref{sent:creole_randal2}, both produced by Cajuns.
-      \begin{enumerate}[resume=sentences]
-        \item Brian (Cajun): Quand tu penses de zaricot, c'est musique noire, mais le monde blanc asteur l'aime, moi, moi j'aime zaricot. (61:48) \label{sent:creole_brian2}
-        \item[] \longtrans{Brian (Cajun): When you think about Zydeco, that's Black music, but White people now like, me, I like Zydeco.}
-        \item Randal (Cajun): Les musiques zaricot, ça c'est les Creoles qui jouent ça. (59:03) \label{sent:creole_randal2}
-        \item[] \longtrans{Randal (Cajun): Zydeco music, it's Creoles who play that.}
-      \end{enumerate}
-      Another Cajun, Errol Stoufle, gave an interesting account of a Zydeco musician, Troy, sometimes playing Cajun music, as well, in Sentence \ref{sent:creole_errol1}.
-      \begin{enumerate}[resume=sentences]
-        \item Errol (Cajun): Troy va jouer un tas de la musique cadienne, mais li joue ça d'une différente manière, tu connais? Avec une différente accordéon, avec une différente clé, tu connais? (5:05) \label{sent:creole_errol1}
-        \item[] \longtrans{Errol (Cajun): Troy will play a lot of Cajun music, but he plays that in a different way, you know? With a different accordion, with a different key, you know?}
-      \end{enumerate}
-      When Troy plays Cajun music, Errol explained that he does so with a different instrumentation.
-      Indeed, a common different between the two genres is that Zydeco is typically played on a full piano keyboard accordion and Cajun music on a much smaller single row diatonic accordion \parencite[pp.~28-29]{kuhlken_geography_1991}.
-      Troy does, however, regularly play the latter type of accordion, and as this instrument limits the musical key that can be played, it seems unlikely that Troy plays Cajun songs in different keys from what are normally expected.
-      What is perhaps more likely is that the distinction between Cajuns and Creoles is so strong that Errol perceives Cajun music as being somehow inherently different if a Creole is playing it even if he does not consciously recognize that the only difference is the musician's identity.
-      % Wendte
-        % Both Texan and Louisianian Creoles used closely related musical genres as representations of Creoles and Cajuns as one way to accomplish to set the boundaries of the two groups (pp.~139/207-208/211).
-        % For example, one participant seemed to suggest that Creoles and Cajuns or Whites were segregated or segregated themselves in terms of the sort of music shows each would go to, zydeco shows for the former and Cajun music shows for the latter (pp.~207-208).
-        % In these discussions, the association of broad US racialized categories were used relatively interchangeably with Creole and Cajun so that one might also refer to Blacks playing and listening to zydeco and Whites to Cajun music.
-        % What makes these examples stand out further is that, despite the many similarities between these two forms of accordion music, one of the participants, himself a zydeco musician, suggested that the difference between the genres is that bass notes are not played in Cajun music (p.~140) when in fact they are.
-
-      % Zydeco is Creole
-        % Deborah Tauzin
-          % (50:22)
-          % Deborah (White Creole): The Creole, autour de Opelousas et des places comme ça, le zarico, la musique zarico, ouais.
-        % Errol Stoufle
-          % (4:13)
-          % Errol (Cajun): Mais là, comme samedi, tu viens, no gain la musique créole avec Troy Sandoz. Ça c'est samedi qui vient¨. No fait cinq fois par mois la musique zarico.
-          % (32:56) [defined Cajuns culturally and does the same for Creoles, but their culture is different]
-          % Errol (Cajun): Un Créole, c'est manière comme un Cadien, tu connais, mais yé yé parlent différence, tu connais? C'est le culture est un petit peu différente, la manière yé cuit, la manière yé yé fait leurs vies, tu connais?
+        The only participant to give the more accurate, broader original sense of Creole as anyone born in the colonies at all was Bruce in Sentence \ref{sent:creole_bruce}.
+        \begin{enumerate}[resume=sentences]
+          \item Bruce (Cajun): Ça parlait de, bien, si t'étais né dans les colony, t'es créole, eh? (37:53) \label{sennt:creole_bruce}
+          \item[] \longtrans{Bruce (Cajun): They were talking about, well, if you had were bron in the colonies, you're creole, eh?}
+        \end{enumerate}
+        This was a way to mark Creole boundaries about which Bruce claimed to have heard for the first time no more than 10 to 20 years prior to our interview.
+        He went on to say that this would make him both Cajun and Creole, as well as making everyone in the US Creole, and so he rejected the idea.
+        This rejection had two implications.
+        The first is that the term Creole needed to be specific.
+        Having it function as such a broad category was not acceptable, which is congruent with racialization in the sense that groups need to be neatly and discreetly delineated in order to racialize them.
+        The second implication is that Cajun is given a default, White status into which Creole cannot enter.
+        In other words, one cannot be a Cajun and a Creole at the same time because Creoles are marginalized and Cajuns are not.
+        None of this suggests any sort of ideological racism on Bruce's part, but it upholds the racialized social system nevertheless.
+        
+        Bruce's statement also exemplifies that, for some participants, their ability to discuss earlier, non-racialized definitions of Creoles is unlikely to have come from an understanding they developed in their younger days.
+        Indeed, two other Cajuns explained that they had never heard the word Creole in their youth.
+        \begin{enumerate}[resume=sentences]
+          \item Judy (Cajun): Tu connais, j'ai réellement jamais connu ce mot, créole. Juste dernièrement, c'est comme si tout quelqu'un est créole. (63:18) \label{sent:creole_judy}
+          \item[] \longtrans{Judy (Cajun): You know, I really never knew this word, Creole. Just recently, it's as if everyone is Creole.}
+          \item Dennis (Cajun): Well, on usait pas ce mot \lexi{créole} dans ce temps-là. Non, c'était des uhm, on juste disait du monde noir ou des nègres, mais le propre nom, c'était des Créoles noirs. (38:06) \label{sent:creole_dennis}
+          \item[] \longtrans{Dennis (Cajun): Well, we didn't use this word \lexi{Creole} at that time. No, that was uhm, we would just say Black people or negros, but the proper name, that's Black Creoles.}
+        \end{enumerate}
+        Dennis's explanation in Sentence \ref{sent:creole_dennis} is particularly striking as it transposed the common modern day understanding of Creole being Black to those people in his childhood who could have identified or been identified as Creole.
+        This immediate focus on how one refers to Black people when the question posed was about how ``Creoles'' are defined suggests that the link between Blackness and Creoles for him was strong enough that he did not even consider other possible definitions for Creoles.
+        
+        % Elizabeth Naquin
+          % (18:53) [Creole wasn't a word used in Henderson when she was young]
+          % Joshua (Interviewer): Quand vous étiez jeune, dans la communauté, inavait du monde qui disait, "Je parle créole," ou c'était tout quelqu'un disait, "Je parle français"?
+          % EN: Mo étais pas connais le mot créole jusqu'à mo mo étais plus vieille. Mo étais pas entendre le mot créole. C'est juste no était parler français. Papa, li [i] parlait son cadien.
+          % Joshua (Interviewer): Inavait pas ces distinctions entre cadien et créole et, pour le langage, pour les personnes?
+          % EN: Non, mo rappelle le mari à ma sœur, mon beau-frère, li était élevé à Arnaudville, puis li était dit nous-autres, "No parle le bon français à Arnaudville," parce que li était parler cadien.
           
-      Both Randal Chenevert and Errol Stoufle also singled out another cultural practice that they associated with Creoles, and that was the use of tomatoes in cooking, as exemplified in Sentences \ref{sent:creole_randal3} and \ref{sent:creole_errol2}.
-      \begin{enumerate}[resume=sentences]
-        \item Randal (Cajun): Quand tu vas à Nouvelle-Orléans, les gombos sont pas ça. C'est rouge. Ça met du tomate dans, et des okras, et des gombos, ça fait un tas du monde d'ici dit ça c'est pas gombo là-bas, mais c'est gombo. C'est juste le Creole. (61:58) \label{sent:creole_randal3}
-        \item[] \longtrans{Randal (Cajun): When you go to New Orleans, the gumbos there are not that. They're red. They put tomato in, and okra, and okra, so a lot of people from here say that that's not gumbo over there, but it's gumbo. It's just Creole.}
-        \item Errol (Cajun): Mo mo l'aime le manger créole. ...
-        \item[] Joshua (Interviewer): Vous avez un plat préféré qui est créole?
-        \item[] Errol: To peux faire gombo. To peux fais étouffé, mais uh
-        \item[] Joshua: Ça c'est créole?
-        \item[] Errol: Un gombo, ouais. Yé cuit ça différent, tu connais? Cadiens fait gombo itou, mais les Créoles fait un différent gombo.
-        \item[] Joshua: Quoi c'est la différence?
-        \item[] Errol: Well, ça yé met dans le gombo. Mais, peut-être un Cadien va cuit un gombo avec du roux puis la viande. Un Créole va peut-être fait un gombo avec des tomates dans le roux. ...
-        \item[] Joshua: C'est bon comme ça?
-        \item[] Errol: Mo pas connais. Mo mo je l'aime pas ça. \label{sent:creole_errol2}
-        \item[] \longtrans{Errol (Cajun): I like Creole food. ...}
-        \item[] \longtrans{Joshua (Interviewer): Do you have a favorite dish that's Creole?}
-        \item[] \longtrans{Errol: You can make gumbo. You can make étouffé, but uh}
-        \item[] \longtrans{Joshua: That's Creole?}
-        \item[] \longtrans{Errol: A gumbo, yeah. They cook that differently, you know? Cajuns make gumbo, too, but Creoles make a different gumbo.}
-        \item[] \longtrans{Joshua: What's the difference?}
-        \item[] \longtrans{Errol: Well, what they put in the gumbo. Well, maybe a Cajun will cook a gumbo with some roux and meat. A Creole will maybe make a gumbo with tomatoes in the roux. ...}
-        \item[] \longtrans{Joshua: Is it good like that?}
-        \item[] \longtrans{Errol: I don't know. I don't like that.}
-      \end{enumerate}
-      Errol's discussion is particularly interesting.
-      He begins by saying that he likes Creole food.
-      When asked to be more specific about a dish that he likes, he names gumbo, a dish that Cajuns make as well, but explains that Creoles put tomatoes in their gumbo.
-      However, when asked if gumbo with tomatoes in it tastes good, he immediately responded that he does not know because he does not like gumbo like that.
-      What had begun as Errol expressing an openness to Creoleness became the exact opposite when the discussion became less abstract, so much so that Errol's final utterance in this exchange includes one of only \Sexpr{tablesParticipant$firstSg$`Errol Stoufle`["je"]} tokens of \lexi{je} for 1sg rather than his usual Creole-marked \lexi{mo}, as if to signal greater distance from the dish.
-      This quick shift in stances resembles at least in part the phenomenon of White individuals attempting to name Black individuals whom they know, when in fact they do not really know any, to signal that they are not closed off to racial Others, a phenomenon that also occurred when Cajuns named alters for this study.
-      % Wendte
-        % Such exaggerations of the difference between Creole and Cajun musics, and by extension Creoles and Cajuns, also showed up when \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) participants spoke about cooking.
-        % Texan and Louisianian Creoles suggested that Cajuns either make gumbo differently (p.~215) or simply use less seasoning (p.~143).
-        % Not only did the former explanation acknowledge that Creoles and Cajuns make the same dish, but the latter explanation was given as a vague matter of degree of seasoning.
-        % The implication is that Creoles and Cajuns do not have signficantly different culinary practices if any despite their attempts to distinguish these things as being indicative of distance between Creoles and Cajuns.
+        % Although something of the opposite could be true, also, where Creole was what everyone said
+          % Jerry Pierre Quintero
+            % (32:18) [it was only Creole where he grew up]
+            % JPQ: Où moi j'ai été né, c'est comme ça. On était appelés créole, parce que c'est une drôle de chose ça. On a appelé créole, surtout quand moi j'ai été élevé naturellement, les Noirs, tu connais? Y a trois ou quatre différents Créoles. Ina les Créoles, le monde vient des Espagnols, et inavait ça là, des Haïti, ... les Noirs et les Blancs dans ce temps-là, tu connais, mais c'est une drôle de chose. Ça s'appelait, uh nous-autres, les Blancs, s'appelaient créoles.
+            % (38:24) [and more on that]
+            % JPQ: Dans les Avoyelles, on parlait pour les Cadiens, mais on connaissait pas qu'un Cadien c'est.
+
+      \subsubsection{Creole race}
+        The link between Blackness and Creoles was in fact as common in definitions of Creoles as Acadian ancestry was in definitions of Cajuns.
+        Sentences \ref{sent:creole_cynthia} and \ref{sent:creole_randal1} are just some of the statements expressing this idea.
+        \begin{enumerate}[resume=sentences]
+          \item Cynthia (Cajun): Moi, j'ai grandi, créole c'était noir. (38:02) \label{sent:creole_cynthia}
+          \item[] \longtrans{Cynthia (Cajun): Me, I grew up, Creole was Black.}
+          \item Randal (Cajun): Alentour ici, je connais pas si t'as perçu ça ou tu connais ça, asteur ça a venu, it evolved into un Creole c'est quelqu'un noir. (58:46) \label{sent:creole_randal1}
+          \item[] \longtrans{Randal (Cajun): Around here, I don't know if you noticed this or you know this, now that became, it evolved into a Creole is someone Black.}
+        \end{enumerate}
+        For Rose Louvière, she included the option that a Creole could be a wealthy, educated person but specifically in New Orleans, far from where she grew up in Church Point.
+        \begin{enumerate}[resume=sentences]
+          \item Rose (Cajun): Les Créoles, pour moi, les Créoles étaient le monde de couleur ou bien instruit. ... Les mondes de créole de Nouvelle-Orléans est bien instruits. Wealthy, you know? (62:33) \label{sent:creole_rose}
+          \item[] \longtrans{Rose (Cajun): Creoles, for me, Creoles are colored people or well educated. ... Creole people from New Orleans are well educated. Wealthy, you know?}
+        \end{enumerate}
+        New Orleans was not an uncommon theme when speaking about Creoles and is almost definitely a remnant of the Creole myth.
+        Oliver Lesage in Sentence \ref{sent:creole_lesage} was not offering his definition of Creoles but rather attempting to determine the ethnicity of an alter whom he named but whom he did not know terribly well.
+        \begin{enumerate}[resume=sentences]
+          \item Oliver L. (Cajun): Uh, un homme noir, mais uh, uh créole, on dirait. Ouais, il est créole. (63:34) \label{sent:creole_lesage}
+          \item[] \longtrans{Oliver L. (Cajun): Uh, a Black man, but uh, uh Creole, we would say. Yeah, he's Creole.}
+        \end{enumerate}
+        Olver expresses his thought process connecting Blackness with Creoles out loud, but that same thought process seemed to be at play when, for instance, Lillian Himel initially stated that she did not know any Creoles, paused, then considered a recently encountered acquaintence who was Black and named him as Creole.
+        % Wendte
+          % Wendte's participants often used ancestry as a qualifier for being Creole and often put this in terms of color, especially by qualifying Creoles as some sort of mix of peoples (pp.~179/181/183-184/188/218/279/298).
+          % Creoles could thus be a mix of Black and White (p.~168) or some variation of a mix of European (\foreign{i.e.}, White), Black, and Indian (p.~200/218-219) or simply Black (pp.~182-183/191/201/219/277/284), whereas Cajuns were White (pp.~182-183/189/284-285/297-298).
+          % There were exceptions, as well as in the data that will be presented here, where some Creoles insisted that they were neither Black nor White (pp.~275-276) or were not ``noir noir'' \gloss{black Black} (p.~278).
+          % These more nuanced approaches seem to be efforts to navigate a label that has clearly come to mean Black so as to avoid the stigma -- which itself acknowledges that there is a stigma -- without completely disregarding their connections to Blacks through ancestry.
+          % For Cajuns, however, the only exceptions made were among Texan Creoles (pp.~182/190), suggesting that their relative distance from Louisiana has somewhat weakened the White association.
+
+        % Black
+          % Arthur Rousseau
+            % (49:42) [changed to be about color just since his youth]
+            % Arthur (Cajun): But now it's all morphed to Creole mean Black: Black culture, Black cooking, Creole cooking.
+          % Oliver Lesage
+            % (63:34) [uses appearance to classify alter who he doesn't know well on a personal level]
+            % Oliver L. (Cajun): Uh, un homme noir, mais uh, uh créole, on dirait. Ouais, il est créole.
+          % Bruce Wiltz
+            % (36:45) [acknowledges a historical version that highlights New Orleans and Europeans, but explains how Creole settled on Africans albeit mixed with Whites]
+            % Brian (Cajun): Pour des années, quand moi j'ai grandi, d'après moi, moi je savais que le mot créole, au début, à la Nouvelle-Orléans, c'était un mélange de Français et les Espagnols, et puis là, c'est des années après ça, c'était les Africains, eh, qui s'appelaient des Créoles, eh, parce que je crois c'était un mélange de les Africains et les Blancs ou quelque chose comme ça. C'était des Créoles.
+
+        The above participants who equated Creole with Black were all Cajuns.
+        This does not mean that Creoles did not see Blackness in their understanding of Creoles, but they instead highlighted the idea that Creoles are racially mixed.
+        Terry Guillot, who both ethnically and racially identified simply as Creole, was quite plain in stating that Creole is a mixed race in Sentence \ref{sent:creole_terry}, while Florence Gaspard even had a humorous anecdote that characterized Creoles as mixed in Sentence \ref{sent:creole_florence}.
+        \begin{enumerate}[resume=senteces]
+          \item Terry (Creole): C'est une race de monde mêlé. (41:49) \label{sent:creole_terry}
+          \item[] \longtrans{Terry (Creole): It's a race of mixed people.}
+          \item Florence (Creole): Comme mon maman était dit nous-autres, ``Li était un mixed paint.'' (91:03) \label{sent:creole_florence}
+          \item[] \longtrans{Florence (Creole): Like my mama would tell us, ``He as a mixed paint.'}
+        \end{enumerate}
+        For James Cameron in Sentence \ref{sent:creole_james}, he provided examples of what sort of mixtures of people would lead to Creoles, and in every case, it was someone of African ancestry and of European ancestry.
+        \begin{enumerate}[resume=sentences]
+          \item James (Creole): Un Créole, ça doit être une personne dans l'héritage mixte, mais ça doit avoir africaine, et français-African, espagnol-African, allemand-African, African, et ... beaucoup de Créoles à Nouvelle-Orléans étaient les gens libres. (40:10) \label{sent:creole_james}
+          \item[] \longtrans{James (Creole): A Creole, that has to be a person with a mixed heritage, but that has to have African, and French-African, Spanish-African, German-African, African, and ... a lot of Creoles in New Orleans were free people.}
+        \end{enumerate}
+        Florence had also contextualized her anecdote in this way, although her examples included someone mixing with Spanish people, Indians, or Whites, that someone presumably being Black.
+        In Sentence \ref{sent:creole_floyd}, Floyd Kerry only gave ``Colored'' people mixing with Whites as an example, but importantly he emphasized both that this was a painful thing for the former group and was really about enslaved women being violated rather than enslaved men.
+        \begin{enumerate}[resume=sentences]
+          \item Floyd (Creole): Dans les temps, les vieux, c'était quand les Blancs et puis la Couleur étaient vini ensemble et fait un petit, okay? C'était pas un bonne affaire pour les Couleurs. Dans ces temps-ça-là, yé étaient travailler dans le clos, et puis yé étaient prendre les femmes, les Couleurs, et puis, to connais, fait yé't'oler fait avec yé. (45:55) \label{sent:creole_floyd}
+          \item[] \longtrans{Floyd (Creole): In the past, the old people, that was when Whites and the Colored were coming together and making a little one, okay? That wasn't a good thing for the Coloreds. At that time, they would work in the field, and then they would take the women, the Coloreds, and then, you know, do what they wanted to do with them.}
+        \end{enumerate}
+        This idea of pain and hardship in one's identity is not all that different from what Judy Soileau Courtade described for Acadians/Cajuns in Section \ref{sec:what_cajun}.
+
+        % Racially mixed people
+          % Samantha Primeaux
+            % (31:58) [when asked if she identifies as Creole, after explaining that her ancestors were enslaved, she says]
+            % SP: Il y a des Européens dans ma famille. Ils ont mélangé avec les personnes noires, alors ça veut dire que, je pense vraiment que je suis créole. Ça c'est pourquoi nous parlons français. C'était à cause d'esclavage.
+          % Deborah Tauzin
+            % (56:37) [talking about how Creoles need not be White]
+            % Deborah (White Creole): Mais en Louisiane, il faut faire attention parce que y en a beaucoup qui a peu de sang de noir, eh?
+          % Judy Soileau Courtade
+            % (63:34) [Black man, White woman rather than the inverse]
+            % Judy (Cajun): Je suis pas créole, parce que je connaissais personne de couleur, et c'est ça moi je crois c'était. Moi, je croyais c'était quelqu'un qu'avait venu ici, et peut-être un homme noir avait marié une femme blanche, et là ils étaient des Créoles, les bébés.
+          % Gene Delcambre
+            % (49:05) [most clearly of all draws the connection between gender and race in this system]
+            % Gene (Creole): The two people that was always free: a White man and a Black woman. Them two that was always free, because they could always be together. They didn't have no Black man with a White woman. They kill you.
+
+        Those who equated Creole with Black were all Cajuns, whereas those who equated Creole with mixed were all Creoles.
+        On the one hand, this may be a case of having more nuance to one's one self-identification than to the identification of others, but there is also the possibility that this is a result of a racial ordering of things.
+        In the broader US, being Black assigns one a very low social status.
+        While the Creoles in Louisiana in this study appeared to see themselves as part of that broader group, the addition of a racially mixed background can be a way to dull the stigma that comes along with being Black.
+        In effect, they can, and did, show solidarity with Blacks nationwide, but the door is also open to argue that they are not quite the same either.
+        It is a sort of compromise, not entirely different from passing as White for those who can, as will be discussed in Section \ref{sec:life_experiences}.
+        On the other hand, for Cajuns, there is no need to add this nuance to Creoles.
+        The lot of this latter group is of no particular concern for the default race in the hierarchy, so a simple equation of Creole with Black is perfectly suitable.
+        None of the participants here showed any sort of ideological racism leading them to do this, but they are influenced by the racialized social system within which they exist.
+
+      \subsubsection{Creole culture}
+        Terry Guillot, above, described Creole as a race, but this view was not shared by all Creole participants.
+        Florence Gaspard and Tracy Roth, for example, both rejected that view.
+        Owen Webre, in Sentence \ref{sent:creole_owen} was even more forthright with this rejection when I asked him about it, saying that I had met a Creole with that view.
+        \begin{enumerate}[resume=sentences]
+          \item Owen (Creole): Mo crois, je crois quand même, les gens de Natchitoches, on a parlé avec un groupe des gens qui dit qu'ils sont les descendants des Français, qui disent qu'ils sont créoles, et on a demandé, ``Mais, qu'est-ce que ça veut dire, ça?'' Parce que c'est vraiment, ce n'est pas une race. C'est plutôt une culture. (51:42) \label{sent:creole_owen}
+          \item[] \longtrans{Owen (Creole): I believe, I believe even, the people of Natchitoches, we spoke with a group of people who say that they're descendants of the French, who say that they're Creole, and we asked, ``Well, what does that mean?'' Because it's really, it's not a race. Rather, it's a culture.}
+        \end{enumerate}
+        Owen saw Creole as a culture rather than a race, and as with Cajuns, Creole cultural traits and practices were the first things several participants discussed when asked what a Creole is.
+        Florence's explanation of Creole qualities in Sentence \ref{sent:creole_florence} is similar to the qualities previously given for Cajuns, particularly being hardworking and the importance of getting along with others which she went on to explain at lenght.
+        \begin{enumerate}[resume=sentences]
+          \item Florence (Creole): C'est quelqu'un qui travaillé dur, et la vie qui était dure, mais li était bon. No apprendre un tas, et no peux apprécier ça no gain. (67:19) \label{sent:creole_florence}
+          \item[] \longtrans{Florence (Creole): That's someone who worked hard, and life was hard, but he was good. We learned a lot, and we can appreciate what we have.}
+        \end{enumerate}
+        While these then are very likely accurate descriptions for a large number of Creoles, they are not necessarily what distinguishes Creoles.
+        % Wendte
+          % Characterizing one's own group in positive terms
+            % Another aspect of discourse that relates to using group traits as a proxy of racialization is the attempt of racialized people to downplay the importance of racial markers by focusing on positive traits when describing themselves.
+            % In one case, a Texan Creole defined being Creole as being ``where your heart lies'' (p.~136), whereas a Louisianian Creole explained that being a Creole means that one is able to adapt and live off of anything (p.~205).
+            % This approach to counteracting negative characterizations of Creoles occurred in the present study, as well.
+
+        % People with cultural practices
+          % Florence Gaspard
+            % (94:37) [after desegregation of schools]
+            % Florence (Creole): Si to étais pas l'aimer les Blancs, well to étais dans tracas, parce que yé saient battre.
+          % Owen Webre
+            % (43:15) [when asked, was somewhat reluctant to give a direct answer about what a Creole is, instead talked about the difficulties enslaved Africans had to work through]
+            % Owen (Creole): Mo gain penser de ça, parce que c'est pas vraiment un individu. C'est plutôt le concept.
+              % Part of what he highlighted was that "il faut accepter tout le monde" (46:21).
+          % Terry Guillot
+            % (22:22) [religion of Creoles, not a necessary condition but a state of affairs]
+            % Terry (Creole): Tout notre monde, tous les Créoles, autour d'ici, ils estiont tous catholiques.
+
+        One specific cultural practice that was referenced by several participants as being Creole was the playing of Zydeco music.
+        As Lucille Royer explained in Sentence \ref{sent:cajun_lucille}, the local accordion music of South Louisiana was at one time simply called French music but is now called Cajun music.
+        In truth, this is only half of the picture, as another genre grew out of the same tradition and is today called Zydeco.
+        Just as Cajun music is associated with Cajuns, Zydeco is associated with Creoles, as is evident in Sentences \ref{sent:creole_brian2} and \ref{sent:creole_randal2}, both produced by Cajuns.
+        \begin{enumerate}[resume=sentences]
+          \item Brian (Cajun): Quand tu penses de zaricot, c'est musique noire, mais le monde blanc asteur l'aime, moi, moi j'aime zaricot. (61:48) \label{sent:creole_brian2}
+          \item[] \longtrans{Brian (Cajun): When you think about Zydeco, that's Black music, but White people now like, me, I like Zydeco.}
+          \item Randal (Cajun): Les musiques zaricot, ça c'est les Creoles qui jouent ça. (59:03) \label{sent:creole_randal2}
+          \item[] \longtrans{Randal (Cajun): Zydeco music, it's Creoles who play that.}
+        \end{enumerate}
+        Another Cajun, Errol Stoufle, gave an interesting account of a Zydeco musician, Troy, sometimes playing Cajun music, as well, in Sentence \ref{sent:creole_errol1}.
+        \begin{enumerate}[resume=sentences]
+          \item Errol (Cajun): Troy va jouer un tas de la musique cadienne, mais li joue ça d'une différente manière, tu connais? Avec une différente accordéon, avec une différente clé, tu connais? (5:05) \label{sent:creole_errol1}
+          \item[] \longtrans{Errol (Cajun): Troy will play a lot of Cajun music, but he plays that in a different way, you know? With a different accordion, with a different key, you know?}
+        \end{enumerate}
+        When Troy plays Cajun music, Errol explained that he does so with a different instrumentation.
+        Indeed, a common different between the two genres is that Zydeco is typically played on a full piano keyboard accordion and Cajun music on a much smaller single row diatonic accordion \parencite[pp.~28-29]{kuhlken_geography_1991}.
+        Troy does, however, regularly play the latter type of accordion, and as this instrument limits the musical key that can be played, it seems unlikely that Troy plays Cajun songs in different keys from what are normally expected.
+        What is perhaps more likely is that the distinction between Cajuns and Creoles is so strong that Errol perceives Cajun music as being somehow inherently different if a Creole is playing it even if he does not consciously recognize that the only difference is the musician's identity.
+        % Wendte
+          % Both Texan and Louisianian Creoles used closely related musical genres as representations of Creoles and Cajuns as one way to accomplish to set the boundaries of the two groups (pp.~139/207-208/211).
+          % For example, one participant seemed to suggest that Creoles and Cajuns or Whites were segregated or segregated themselves in terms of the sort of music shows each would go to, zydeco shows for the former and Cajun music shows for the latter (pp.~207-208).
+          % In these discussions, the association of broad US racialized categories were used relatively interchangeably with Creole and Cajun so that one might also refer to Blacks playing and listening to zydeco and Whites to Cajun music.
+          % What makes these examples stand out further is that, despite the many similarities between these two forms of accordion music, one of the participants, himself a zydeco musician, suggested that the difference between the genres is that bass notes are not played in Cajun music (p.~140) when in fact they are.
+
+        % Zydeco is Creole
+          % Deborah Tauzin
+            % (50:22)
+            % Deborah (White Creole): The Creole, autour de Opelousas et des places comme ça, le zarico, la musique zarico, ouais.
+          % Errol Stoufle
+            % (4:13)
+            % Errol (Cajun): Mais là, comme samedi, tu viens, no gain la musique créole avec Troy Sandoz. Ça c'est samedi qui vient¨. No fait cinq fois par mois la musique zarico.
+            % (32:56) [defined Cajuns culturally and does the same for Creoles, but their culture is different]
+            % Errol (Cajun): Un Créole, c'est manière comme un Cadien, tu connais, mais yé yé parlent différence, tu connais? C'est le culture est un petit peu différente, la manière yé cuit, la manière yé yé fait leurs vies, tu connais?
+            
+        Both Randal Chenevert and Errol Stoufle also singled out another cultural practice that they associated with Creoles, and that was the use of tomatoes in cooking, as exemplified in Sentences \ref{sent:creole_randal3} and \ref{sent:creole_errol2}.
+        \begin{enumerate}[resume=sentences]
+          \item Randal (Cajun): Quand tu vas à Nouvelle-Orléans, les gombos sont pas ça. C'est rouge. Ça met du tomate dans, et des okras, et des gombos, ça fait un tas du monde d'ici dit ça c'est pas gombo là-bas, mais c'est gombo. C'est juste le Creole. (61:58) \label{sent:creole_randal3}
+          \item[] \longtrans{Randal (Cajun): When you go to New Orleans, the gumbos there are not that. They're red. They put tomato in, and okra, and okra, so a lot of people from here say that that's not gumbo over there, but it's gumbo. It's just Creole.}
+          \item Errol (Cajun): Mo mo l'aime le manger créole. ...
+          \item[] Joshua (Interviewer): Vous avez un plat préféré qui est créole?
+          \item[] Errol: To peux faire gombo. To peux fais étouffé, mais uh
+          \item[] Joshua: Ça c'est créole?
+          \item[] Errol: Un gombo, ouais. Yé cuit ça différent, tu connais? Cadiens fait gombo itou, mais les Créoles fait un différent gombo.
+          \item[] Joshua: Quoi c'est la différence?
+          \item[] Errol: Well, ça yé met dans le gombo. Mais, peut-être un Cadien va cuit un gombo avec du roux puis la viande. Un Créole va peut-être fait un gombo avec des tomates dans le roux. ...
+          \item[] Joshua: C'est bon comme ça?
+          \item[] Errol: Mo pas connais. Mo mo je l'aime pas ça. \label{sent:creole_errol2}
+          \item[] \longtrans{Errol (Cajun): I like Creole food. ...}
+          \item[] \longtrans{Joshua (Interviewer): Do you have a favorite dish that's Creole?}
+          \item[] \longtrans{Errol: You can make gumbo. You can make étouffé, but uh}
+          \item[] \longtrans{Joshua: That's Creole?}
+          \item[] \longtrans{Errol: A gumbo, yeah. They cook that differently, you know? Cajuns make gumbo, too, but Creoles make a different gumbo.}
+          \item[] \longtrans{Joshua: What's the difference?}
+          \item[] \longtrans{Errol: Well, what they put in the gumbo. Well, maybe a Cajun will cook a gumbo with some roux and meat. A Creole will maybe make a gumbo with tomatoes in the roux. ...}
+          \item[] \longtrans{Joshua: Is it good like that?}
+          \item[] \longtrans{Errol: I don't know. I don't like that.}
+        \end{enumerate}
+        Errol's discussion is particularly interesting.
+        He begins by saying that he likes Creole food.
+        When asked to be more specific about a dish that he likes, he names gumbo, a dish that Cajuns make as well, but explains that Creoles put tomatoes in their gumbo.
+        However, when asked if gumbo with tomatoes in it tastes good, he immediately responded that he does not know because he does not like gumbo like that.
+        What had begun as Errol expressing an openness to Creoleness became the exact opposite when the discussion became less abstract, so much so that Errol's final utterance in this exchange includes one of only \Sexpr{tablesParticipant$firstSg$`Errol Stoufle`["je"]} tokens of \lexi{je} for 1sg rather than his usual Creole-marked \lexi{mo}, as if to signal greater distance from the dish.
+        This quick shift in stances resembles at least in part the phenomenon of White individuals attempting to name Black individuals whom they know, when in fact they do not really know any, to signal that they are not closed off to racial Others, a phenomenon that also occurred when Cajuns named alters for this study.
+        % Wendte
+          % Such exaggerations of the difference between Creole and Cajun musics, and by extension Creoles and Cajuns, also showed up when \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) participants spoke about cooking.
+          % Texan and Louisianian Creoles suggested that Cajuns either make gumbo differently (p.~215) or simply use less seasoning (p.~143).
+          % Not only did the former explanation acknowledge that Creoles and Cajuns make the same dish, but the latter explanation was given as a vague matter of degree of seasoning.
+          % The implication is that Creoles and Cajuns do not have signficantly different culinary practices if any despite their attempts to distinguish these things as being indicative of distance between Creoles and Cajuns.
 
       % Town that one is from
         % Deborah Tauzin
@@ -1039,7 +1050,7 @@
         \begin{enumerate}[resume=sentences]
           \item Gene (Creole): C'est comme ça là. C'était les Blancs  étaient dit toi quoi faire. Les Blancs  étaient dit les mondes Couleur quoi faire. (2:59) \label{sent:life_gene1}
           \item[] \longtrans{Gene (Creole): It was like that then. It was that the Whites would tell you what to do. Whites told colored people what to do.}
-          \item Gene (Creole): No jouait contre un et l'autre. J'ai jamais joué contre les Blancs, because les Blancs  étaient pas voulaient mettre pas avec les nègres. (35:54) \label{sent:life_gene2}
+          \item Gene (Creole): No jouait contre un et l'autre. J'ai jamais joué contre les Blancs, because les Blancs étaient pas voulaient mettre pas avec les nègres. (35:54) \label{sent:life_gene2}
           \item[] \longtrans{Gene (Creole): We would play against one another. I never played against Whites, because Whites didn't want to be put with negroes.}
         \end{enumerate}
         The first was very early in the interview in response to a question about why he moved as a child, to which he responded very plainly that they simply had to do what Whites told them to do, and in that case it was for his family to stop farming and move.
