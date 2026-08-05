@@ -254,10 +254,34 @@
           The possibility that Cajuns are marginalized outside of South Louisiana is not a far-fetched possibility as southerners in general have long been negatively esteemed in the broader US, but establishing this possibility is well beyond the scope of the current study.
         }.
 
+        Cajuns also discussed facing stigma and discrimination, however.
+        In Sentence \ref{sent:life_bruce}, Bruce Wiltz recounted a discussion he witnessed where a mother from Marksville wanted to be called French rather than Cajun because the latter was stigmatized.
+        \begin{enumerate}[resume=sentences]
+          \item Bruce (Cajun): Mais, une fois, il habitait ici, il a dit ça à sa mère, un jour il dit, ``Mais Mom, on est tous des Cadiens.'' ``Oh non,'' elle dit, ``on est pas des Cadiens. Nous-autres, on était français.'' Eh? Parce que les Cadiens, c'était, it was a lower class, une basse classe, eh? (40:17) \label{sent:life_bruce}
+          \item[] \longtrans{Bruce (Cajun): But, one time, he lived here, he said that to his mother, one day he says, ``But Mom, we're all Cajuns.'' ``Oh no,'' she says, ``we aren't Cajuns. Us, we're French.'' Eh?}
+        \end{enumerate}
+        This was perhaps a rare phenomenon, though.
+        He went on to explain that this was the only time he had heard a family express the desire to be called French rather than Cajun.
+        A more commonly shared example of discrimination that Cajuns shared was linguistic in that F\&C speakers were said to be punished for speaking the language in school.
+        Oliver Gomez gave an example in Sentence \ref{sent:life_gomez}, but as with every other time the participants for this study mentioned this punishment, it was never firsthand experience but rather the experience of earlier generations of Cajuns, suggesting that their status has changed over the last 100 years or so.
+        \begin{enumerate}[resume=sentences]
+          \item Oliver G. (Cajun): Puis moi, j'étais jamais puni pour parler français, mais mes parents a été punis pour parler français. (15:59) \label{sent:life_gomez}
+          \item[] \longtrans{Oliver G. (Cajun): Then me, I was never punished for speaking French, but my parents were punished for speaking French.}
+        \end{enumerate}
+        This makes the school punishment theme not all that different from the admiration Judy Soileau Courtade was expressing back in Sentence \ref{sent:cajun_judy1} for the hardships the Acadians had faced despite not offering any sign that she herself had faced discrimination.
+
         Notable in Judy's statement is that she code-switched into English.
         It was not unusual for participants to do so for a number of possible reasons, such as reporting conversations that were held in English.
         Judy's exact motivation cannot be ascertained here, of course, but it may have been due to unease with the topic of race, a way to distance herself from the topic even while speaking the words, or simply not being accustomed to discussing race in F\&C.
         Whichever explanation applies, this sort of code-switching, not unique to Judy, suggests that race is a salient topic to Cajuns and Creoles when discussing Cajun and Creole identities.
+
+        The experience of poverty was recounted by Cajuns like Laura, who explained that she only first saw a twenty dollar bill when her husband started working in a shipyard in Sentence \ref{sent:life_laura}, and Judy, whose mother was worried that the fabrics they used made them look poor despite everyone actually being poor in Sentence \ref{sent:life_judy}.
+        \begin{enumerate}[resume=sentences]
+          \item Laura (Cajun): Le premier il a été, j'ai vu un twenty dollar bill pour le première fois. On était pauvres. (21:31) \label{sent:life_laura}
+          \item[] \longtrans{Laura (Cajun): The first time he went, I saw a twenty dollar bill for the first time. We were poor.}
+          \item Judy (Cajun): Ma mère, pour elle, c'est comme si c'était quelque chose qui disait t'étais pauvre, et elle voulait pas je fais rien avec ça, mais je connais mieux, tu connais? C'était on était tous la même. Tout quelqu'un était pauvre à ce temps-ça. Oh juste on connaissait pas on était pauvres. (24:50) \label{sent:life_judy}
+          \item[] \longtrans{Judy (Cajun): My mother, for her, it is as if that was something that said that you were poor, and she didn't want me to do anything with that, but I know better, you know? It was that we were all the same. Everyone was poor at that time. Oh just we didn't know that we were poor.}
+        \end{enumerate}
         
         % Randal Chenevert
           % (50:55) [when asked, highlights Acadian ancestry but doesn't say what to do with others]
@@ -457,6 +481,18 @@
         None of these are cultural traits or activities that are particularly unique to Cajuns.
         Creoles as well highlighted positive traits for themselves like being hardworking and accepting of others.
         Even when it comes to cooking, Creole dishes that Cajuns can name are generally the same as Cajun dishes with only vaguely identifiable differences.
+
+        Cajuns themselves were not ignorant of the discrimination that Creoles had suffered in the past.
+        Dennis Oubre talked about the existence of segregation when he was younger as in Sentences \ref{sent:life_dennis2} and \ref{sent:life_dennis3}.
+        \begin{enumerate}[resume=sentences]
+          \item Dennis (Cajun): C'était interdit pour aller à l'église ou à l'école. (33:35) \label{sent:life_dennis2}
+          \item[] \longtrans{Dennis (Cajun): It was prohibited to go to the church or to the school.}
+          \item Dennis (Cajun): Landon pourrait pas rentrer dans la maison. (35:24) \label{sent:life_dennis3}
+          \item[] \longtrans{Dennis (Cajun): Landon [a Creole] couldn't enter the house.}
+        \end{enumerate}
+        He also spoke proudly of his hometown being one of the first towns in Louisiana to begin desegregating.
+        Segregation was what Cajuns primarily discussed when speaking about the discrimination faced by Creoles, however.
+        As can often be expected in racialized social systems, it is often only the clearest cases of explicit institutional racism that stand out to those who are not the victims of racialization.
         
         A more notable statement about culture came from Judy in Sentence \ref{sent:cajun_judy2}.
         Judy was speaking about where brown cotton has been used in South Louisiana for blankets and two of the parishes she named were Saint Landry and Saint Martin where many Creoles live, so I had inquired about whether Creoles had taken up what she was describing as an Acadian practice.
@@ -589,7 +625,6 @@
       % However, regardless of whether she had Acadian ancestors or whether her ancestors received the name by being enslaved by Acadians, she would not be able to identify as Cajun today because she could not pass as White.
       % There are also many Creoles who partake in what were described as Cajun cultural practices in Section \ref{sec:what_cajun}, but unless they can pass as White, they cannot identify as Cajun.
       % In sum, Creoles could exhibit markers that placed them within the boundaries of Cajunness, and indeed they marked their own boundaries in similar ways at times, but without also passing as White, they could not identify as Cajun.
-      
 
       \subsubsection{Creole malleability}
         Many participants had an understanding that Creole has meant many different things over time, which suggests that the boundaries of Creoleness are relatively porous.
@@ -798,7 +833,7 @@
         In the broader US, being Black assigns one a very low social status.
         While the Creoles in Louisiana in this study appeared to see themselves as part of that broader group, the addition of a racially mixed background can be a way to dull the stigma that comes along with being Black.
         In effect, they can, and did, show solidarity with Blacks nationwide, but the door is also open to argue that they are not quite the same either.
-        It is a sort of compromise, not entirely different from passing as White for those who can, as will be discussed in Section \ref{sec:life_experiences}.
+        It is a sort of compromise, not entirely different from passing as White for those who can.
         On the other hand, for Cajuns, there is no need to add this nuance to Creoles.
         The lot of this latter group is of no particular concern for the default race in the hierarchy, so a simple equation of Creole with Black is perfectly suitable.
         None of the participants here showed any sort of ideological racism leading them to do this, but they are influenced by the racialized social system within which they exist.
@@ -830,6 +865,92 @@
             % Another aspect of discourse that relates to using group traits as a proxy of racialization is the attempt of racialized people to downplay the importance of racial markers by focusing on positive traits when describing themselves.
             % In one case, a Texan Creole defined being Creole as being ``where your heart lies'' (p.~136), whereas a Louisianian Creole explained that being a Creole means that one is able to adapt and live off of anything (p.~205).
             % This approach to counteracting negative characterizations of Creoles occurred in the present study, as well.
+
+        Black Creoles could speak about the discrimination that they faced in great detail, highlighting the need to engender acceptance among those in their communities.
+        Owen Webre, in Sentence \ref{sent:life_owen}, was treated as a token \parencite{kanter_effects_1977} in his professional capacities, being moved from one job location to another to fulfill a diversity quota.
+        \begin{enumerate}[resume=sentences]
+          \item Owen (Creole): J'ai été sélectionné pour un poste à [a high school] comme assistant principal, ça fait j'ai pris ça, mais j'ai commencé là, mais j'ai pas resté là trop longtemps. Non, on a décidé que je dois travailler à [a different high school]. Je crois que c'était à cause de ma race. À ce temps-là, il faut avoir quand même un Noir. (22:53) \label{sent:life_owen}
+          \item[] \longtrans{Owen (Creole): I was selected for a post at [a high school] as assistant principal, so I took that, but I started there, but I didn't stay there too long. No, someone decided that I have to work at [a different high school]. I believe that that was because of my race. At that time, it was necessary to have at least one Black.}
+        \end{enumerate}
+        Gene Declambre offered quite a few examples of discrimination in his life, two of which are reproduced in Sentences \ref{sent:life_gene1} and \ref{sent:life_gene2}.
+        \begin{enumerate}[resume=sentences]
+          \item Gene (Creole): C'est comme ça là. C'était les Blancs  étaient dit toi quoi faire. Les Blancs  étaient dit les mondes Couleur quoi faire. (2:59) \label{sent:life_gene1}
+          \item[] \longtrans{Gene (Creole): It was like that then. It was that the Whites would tell you what to do. Whites told colored people what to do.}
+          \item Gene (Creole): No jouait contre un et l'autre. J'ai jamais joué contre les Blancs, because les Blancs étaient pas voulaient mettre pas avec les nègres. (35:54) \label{sent:life_gene2}
+          \item[] \longtrans{Gene (Creole): We would play against one another. I never played against Whites, because Whites didn't want to be put with negroes.}
+        \end{enumerate}
+        The first was very early in the interview in response to a question about why he moved as a child, to which he responded very plainly that they simply had to do what Whites told them to do, and in that case it was for his family to stop farming and move.
+        The second sentence was later in his life when he was a baseball player who could not play again White baseball players.
+        Gene's language and Owen's are both particularly interesting in contrast to these statements.
+        Owen in fact preferred Creole-marked subject pronouns but spoke in a very standardized way when relating this story, as he did for any academic or professional topics.
+        Gene, on the other hand, used a mix of Creole-marked and Cajun-marked pronouns in his second sentence, which he in fact did throughou the interview where he generally preferred Cajun-marked pronouns other than for 3pl.
+        He had, however, demonstrated that he could use Creole-marked pronouns, and through the shifts in his syntax, it would not be surprising if he normally did use these pronouns but chose not to with me.
+        In this respect, the language of both speakers suggest that they felt they had to hide their Creoleness to some degree when not speaking to another Creole.
+
+        Acceptance of Creoles was also related in the discourse of Creoles themselves, showing that a racialized social system does not exclude instances of acceptance and mutual aid, but these acts do not constitute the overwhelming pattern, and each example below also acts as evidence of racialization.
+        Even Gene Delcambre was able to talk about an instance where White men helped him, albeit he did so in English.
+        His situation involved receiving a ticket while driving.
+        He went to court with his White boss and a White lawyer whom his mother luckily knew.
+        The judge attempted to fine him 250 dollars initially, a significant amount given  that he made 18 dollars per week at that time, but his boss vouched for him and his lawyer argued for him, resulting in a fine of 20 dollars instead.
+        While it was laudable that two White men were willing to help him, the fact that they needed to in the first place is suggestive of a racialized social system.
+
+        Florence Gaspard provided a story that involved taking her grandson to prayer events where they were the only ``Couleurs'' \gloss{Coloreds} there.
+        In Sentence \ref{sent:life_florence3}, she explained that her grandson was initially apprehensive, but she explained the importance of getting along with all types of people, and this resulted in him receiving help with school from one of the White women there.
+        \begin{enumerate}[resume=sentences]
+          \item Florence (Creole): To gain pour adonner avec tous les couleurs. C'est comme ça to la vie va d'être bon. Si to juste adonnes juste avec une, c'est pas assez. \label{sent:life_florence3}
+          \item[] [he agreed and attended the event repeatedly after that]
+          \item[] Florence (Creole): Et là li dit, ``Mais to connais maman, femme là, oh ça c'est une nice femme. C'est la plus nice femme mo jamais connais,'' et so elle aidé li quand li couru à l'école, to comprends? (69:46)
+          \item[] \longtrans{Florence (Creole): You have to get along with every color. That's how your life will be good. If you just get along just with one, that's not enough.}
+          \item[] \longtrans{[he agreed and attended the event repeatedly after that]}
+          \item[] \longtrans{Florence (Creole): And then he said, ``Well you know mama, that woman, oh that's a nice woman. That's the nicest woman I've ever met,'' and so she helped him when he went to school, you understand?}
+        \end{enumerate}
+        The fact that her grandson was aware enough of race to begin with shows that this was a positive occurrence set in the context of a racialized social system.
+        Tracy Roth presented another anecdote in Sentence \ref{sent:life_tracy2} that would only be possible in the context of a racialized social system despite representing positive intergroup actions.
+        \begin{enumerate}[resume=sentences]
+          \item Tracy (Creole): Mo joué un tas de la pelote, et no couru un tas les places, et mo étais seul Noir, et tous les Blancs, les autres Blancs, yé étaient coutume 'mander, ``Comment vous-autres peut gain nègre là pour jouer avec ça?'' Et yé saient tout le temps dit, ``L'a jouer avec nous-autres because li bon,'' et then, ``Oh, mo peux pas fais ça. Mo peux pas,'' et yé saient dit comme ça, ``C'est pas sa couleur qu'ap jouer la pelote. C'est li.'' C'est quoifaire mo l'aime li si tant. (95:31) \label{sent:life_tracy2}
+          \item[] \longtrans{Tracy (Creole): I played a lot of baseball, and we went to a lot of places, and I would be the only Black, and all the Whites, the other Whites, they had a habit of asking, ``How can you all have that negro you play with?'' And they would always say, ``He'll play with us because he's good,'' and then, ``Oh, I can't do that. I can't,'' and they would say like this, ``It's not his color that's playing ball. It's him.'' That's why I love him so much.}
+        \end{enumerate}
+        Unlike Gene Delcambre, Tracy was able to play baseball against White players, but this was only possible because his White teammates supported him.
+        He needed the aid of those at the top of the racial hierarchy to subvert that hierarchy that clearly existed.
+
+        This sentiment of not wanting to say that one was poor was shared by Tracy, a Black Creole, in Sentence \ref{sent:life_tracy1}.
+        \begin{enumerate}[resume=sentences]
+          \item Tracy (Creole): No dit nou était pauvres, but to étais pas dis étais pauvre. (29:46) \label{sent:life_tracy1}
+          \item[] \longtrans{Tracy (Creole): We say that we were poor, but you didn't say that you were poor.}
+        \end{enumerate}
+        Another Black Creole, Florence, shared an anecdote in Sentence \ref{sent:life_florence1} that is worth printing here with minimal abbreviations.
+        \begin{enumerate}[resume=sentences]
+          \item Florence (Creole): Quand mon mari mouru, femme là vini chez moi, et li't'apè crier parce que li dit mon mari, c était si tellement un bon monde. Li dit li 'mandé mon mari, ``Combien mo doit à toi pour fait mon la cour?'' Li dit mon mari dit li, ``Donne-no ça t'oler,'' et li dit, ``Na pas personne qui dit to, `Donne-moi t'oler.' Yé dit to comment yé'ler.'' ... C'était parce que no était devient de les récoltes, et no était connaît comment c'était dur, so un petit brin l'argent, c'était couru loin. (37:26) \label{sent:life_florence1}
+          \item[] \longtrans{Florence (Creole): When my husband died, that woman came to my place, and she was crying because she said that my husband, that was such a good person. She said that she asked my husband, ``How much do I owe you for doing my yard?'' She said that my husband told her, ``Give us what you want,'' and she said, ``There's no one who tells you, `Give me what you want.' They tell you how much they want.'' ... That was because we came from farming, and we knew how hard it was, so a little bit of money, that went far.}
+        \end{enumerate}
+        It shows that her husband, a man who took cleaning jobs for a living, was in a position in their community to help out a woman who was even less fortunate than himself.
+
+        In some way, the work that Creoles and Cajuns did was also similar, as in the case that Arthur Rousseau, a Cajun, related in Sentence \label{sent:life_arthur}.
+        \begin{enumerate}[resume=sentences]
+          \item Arthur (Cajun): Je rappelle monsieur Bee. Monsieur Bee était un ami de mon père. Monsieur Bee, il était noir, et il était un poseur de briques comme mon père, un maçon. Lui et mon père étaient des amis, mais comment tu dis, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then. (50:14) \label{sent:life_arthur}
+          \item[] \longtrans{Arthur (Cajun): I remember Mr Bee. Mr Bee was a friend of my father. Mr Bee, he was Black, and he was a bricklayer like my father, a mason. He and my father were friends, but how do you say, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then.}
+        \end{enumerate}
+        I had been asking Arthur about Creoles, and in response, what Arthur was expressing about his father and his father's Black friend was that, even though they performed the same work, they were not given the same social status due to the friend being Black.
+        The experience was thus filtered through a racialized social system that made the lives of the two men quite different.
+
+        In other cases, Creoles were described as working for Cajuns, instead.
+        It is quite possible that the Cajuns shared in the work that they hired Creoles to do, but the fact that it was the Cajuns who owned the products of that labor makes their work inherently different.
+        In the examples of this in Sentences \ref{sent:life_dennis1} and \ref{sent:life_deborah}, I was asking Dennis Oubre, a Cajun, and Deborah Tauzin, a White Creole, if there were Creoles in their hometowns, respectively.
+        \begin{enumerate}[resume=sentences]
+          \item Dennis (Cajun): Pas de trop. Chaque grande ferme engageait un ou deux, mais ça restait sur la ferme, et mon grand-père avait un, et moi et lui, ... c'était le seul je connaissais. (32:53) \label{sent:life_dennis1}
+          \item[] \longtrans{Dennis (Cajun): Not too many. Each big farm hire one or two, but they stayed on the farm, and my grandfather had one, and he and I, ... that was the only one that I knew.}
+          \item Deborah (White Creole): Mon grand-père avait les escalves à la maison. J'ai grandi avec les Noirs. On avait beaucoup, ouais.
+          \item[] Joshua (Interviewer): Oh, ouais? Y a beaucoup de Noirs à Créole?
+          \item[] Deborah: Non, ils travaillaient pour mon grand-père, mais oui, mais c'était la même famille de tous les Noirs. C'était les esclaves, et oh, mon grand-père a amené un bateau de femmes pour marier avec les gens. Non non, y a pas beaucoup de Noirs à Cameron, non. (58:55) \label{sent:life_deborah}
+          \item[] \longtrans{Deborah (White Creole): My grandfather had slaves at the house. I grew up with Blacks. We had a lot, yeah.}
+          \item[] \longtrans{Joshua (Interviewer): Oh, yeah? There are a lot of Blacks in Creole?}
+          \item[] \longtrans{Deborah: No, they worked for my grandfather, but yes, well that was the same family for all the Blacks. They were slaves, and oh, my grandfather brought a boat of women to marry the people. No no, there aren't a lot of Blacks in Cameron, no.}
+        \end{enumerate}
+        Dennis explained that Creoles would only come to work on the farms there, included his grandfather's.
+        Although Dennis gave no indication of harboring any racial ideology -- in fact, he went on to say that knowing this man gave him a ``meilleur cœur'' \gloss{better heart} for Creoles -- his instinct was to describe his grandfather as ``having one'' as if Creoles were possessions for these farms.
+        This may have simply been a poorly worded phrase, but Deborah's statements were much less ambiguous.
+        She was a wordly woman, but was still able to relate that her grandfather had enslaved people and brought women, presumably enslaved women, to her hometown to marry the men who were enslaved there, whose descendants were still close enough to the family that she went on to explain that one of them took care of her as a child.
+        The this woman was known by a derogatory, racist nickname, as well, suggesting that the history of ideological racism in her own family was still present at least until when she was young.
 
         % People with cultural practices
           % Florence Gaspard
@@ -931,37 +1052,17 @@
       Most prominently, however, Creoles were consistently described as Black, whereas Cajuns, who are more necessarily White, were almost never described as White.
       This sets the social position of Creoles to be equivalent to that of Black Americans in general and below the Cajun default, which is permitted to be more racially invisible.
 
-    \subsection{Comparison of life experiences}
-      \label{sec:life_experiences}
-      While the more general questions of what Cajuns and Creoles are for my participants shed light on racialization in South Louisiana, the above analysis has only hinted at their life experiences.
-      In a racialized social system, though, one would expect the lower status group to go through experiences that the higher status group does not.
-      In this case, Creoles should expect to have faced hardships that Cajuns have not.
-      This is not to say that Cajuns do not have their own difficulties in life, but rather that those difficulties are not unique to them in the way that Creoles' would be.
+    % \subsection{Comparison of life experiences}
+    %   \label{sec:life_experiences}
+    %   While the more general questions of what Cajuns and Creoles are for my participants shed light on racialization in South Louisiana, the above analysis has only hinted at their life experiences.
+    %   In a racialized social system, though, one would expect the lower status group to go through experiences that the higher status group does not.
+    %   In this case, Creoles should expect to have faced hardships that Cajuns have not.
+    %   This is not to say that Cajuns do not have their own difficulties in life, but rather that those difficulties are not unique to them in the way that Creoles' would be.
       
       % Terry Guillot
         % (71:19) [when the topic of people speaking differently from town to town]
         % Terry (Creole): Tu vois, quoi qui arrive là là, ça vient d'être une race tout le tour. Monde parle pareil. Ça mange pareil. Un tas des affaires, ça va faire pareil.
 
-      One of those shared life experiences is poverty.
-      This was recounted by Cajuns like Laura Laviolette, who explained that she only first saw a twenty dollar bill when her husband started working in a shipyard in Sentence \ref{sent:life_laura}, and Judy Soileau Courtade, whose mother was worried that the fabrics they used made them look poor despite everyone actually being poor in Sentence \ref{sent:life_judy}.
-      \begin{enumerate}[resume=sentences]
-        \item Laura (Cajun): Le premier il a été, j'ai vu un twenty dollar bill pour le première fois. On était pauvres. (21:31) \label{sent:life_laura}
-        \item[] \longtrans{Laura (Cajun): The first time he went, I saw a twenty dollar bill for the first time. We were poor.}
-        \item Judy (Cajun): Ma mère, pour elle, c'est comme si c'était quelque chose qui disait t'étais pauvre, et elle voulait pas je fais rien avec ça, mais je connais mieux, tu connais? C'était on était tous la même. Tout quelqu'un était pauvre à ce temps-ça. Oh juste on connaissait pas on était pauvres. (24:50) \label{sent:life_judy}
-        \item[] \longtrans{Judy (Cajun): My mother, for her, it is as if that was something that said that you were poor, and she didn't want me to do anything with that, but I know better, you know? It was that we were all the same. Everyone was poor at that time. Oh just we didn't know that we were poor.}
-      \end{enumerate}
-      This sentiment of not wanting to say that one was poor was shared by Tracy Roth, a Black Creole, in Sentence \ref{sent:life_tracy1}.
-      \begin{enumerate}[resume=sentences]
-        \item Tracy (Creole): No dit nou était pauvres, but to étais pas dis étais pauvre. (29:46) \label{sent:life_tracy1}
-        \item[] \longtrans{Tracy (Creole): We say that we were poor, but you didn't say that you were poor.}
-      \end{enumerate}
-      Another Black Creole, Florence Gaspard, shared an anecdote in Sentence \ref{sent:life_florence1} that is worth printing here with minimal abbreviations.
-      \begin{enumerate}[resume=sentences]
-        \item Florence (Creole): Quand mon mari mouru, femme là vini chez moi, et li't'apè crier parce que li dit mon mari, c était si tellement un bon monde. Li dit li 'mandé mon mari, ``Combien mo doit à toi pour fait mon la cour?'' Li dit mon mari dit li, ``Donne-no ça t'oler,'' et li dit, ``Na pas personne qui dit to, `Donne-moi t'oler.' Yé dit to comment yé'ler.'' ... C'était parce que no était devient de les récoltes, et no était connaît comment c'était dur, so un petit brin l'argent, c'était couru loin. (37:26) \label{sent:life_florence1}
-        \item[] \longtrans{Florence (Creole): When my husband died, that woman came to my place, and she was crying because she said that my husband, that was such a good person. She said that she asked my husband, ``How much do I owe you for doing my yard?'' She said that my husband told her, ``Give us what you want,'' and she said, ``There's no one who tells you, `Give me what you want.' They tell you how much they want.'' ... That was because we came from farming, and we knew how hard it was, so a little bit of money, that went far.}
-      \end{enumerate}
-      It shows that her husband, a man who took cleaning jobs for a living, was in a position in their community to help out a woman who was even less fortunate than himself.
-      
       % Poverty was a common theme for both
         % Cynthia Robichaux Savoie
           % (81:19) [talking about a man who was doing a baking program in the poorest school in the area]
@@ -987,33 +1088,6 @@
           % Floyd (Creole): Mon gros-mère et père, yé étaient profit sharing. C'est ça yé't'ap fait. Ça fait, quand to profit sharing, tout quoi to élevais dans le clos, to gain pour donnes soixante percent pour homme qui gain property.
             % As he continues to say, the youngest kids in the family, then, would be able to go to school, but only because the older kids were helping out on the farm.
 
-      In some way, the work that Creoles and Cajuns did was also similar, as in the case that Arthur Rousseau, a Cajun, related in Sentence \label{sent:life_arthur}.
-      \begin{enumerate}[resume=sentences]
-        \item Arthur (Cajun): Je rappelle monsieur Bee. Monsieur Bee était un ami de mon père. Monsieur Bee, il était noir, et il était un poseur de briques comme mon père, un maçon. Lui et mon père étaient des amis, mais comment tu dis, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then. (50:14) \label{sent:life_arthur}
-        \item[] \longtrans{Arthur (Cajun): I remember Mr Bee. Mr Bee was a friend of my father. Mr Bee, he was Black, and he was a bricklayer like my father, a mason. He and my father were friends, but how do you say, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then.}
-      \end{enumerate}
-      I had been asking Arthur about Creoles, and in response, what Arthur was expressing about his father and his father's Black friend was that, even though they performed the same work, they were not given the same social status due to the friend being Black.
-      The experience was thus filtered through a racialized social system that made the lives of the two men quite different.
-
-      In other cases, Creoles were described as working for Cajuns, instead.
-      It is quite possible that the Cajuns shared in the work that they hired Creoles to do, but the fact that it was the Cajuns who owned the products of that labor makes their work inherently different.
-      In the examples of this in Sentences \ref{sent:life_dennis1} and \ref{sent:life_deborah}, I was asking Dennis Oubre, a Cajun, and Deborah Tauzin, a White Creole, if there were Creoles in their hometowns, respectively.
-      \begin{enumerate}[resume=sentences]
-        \item Dennis (Cajun): Pas de trop. Chaque grande ferme engageait un ou deux, mais ça restait sur la ferme, et mon grand-père avait un, et moi et lui, ... c'était le seul je connaissais. (32:53) \label{sent:life_dennis1}
-        \item[] \longtrans{Dennis (Cajun): Not too many. Each big farm hire one or two, but they stayed on the farm, and my grandfather had one, and he and I, ... that was the only one that I knew.}
-        \item Deborah (White Creole): Mon grand-père avait les escalves à la maison. J'ai grandi avec les Noirs. On avait beaucoup, ouais.
-        \item[] Joshua (Interviewer): Oh, ouais? Y a beaucoup de Noirs à Créole?
-        \item[] Deborah: Non, ils travaillaient pour mon grand-père, mais oui, mais c'était la même famille de tous les Noirs. C'était les esclaves, et oh, mon grand-père a amené un bateau de femmes pour marier avec les gens. Non non, y a pas beaucoup de Noirs à Cameron, non. (58:55) \label{sent:life_deborah}
-        \item[] \longtrans{Deborah (White Creole): My grandfather had slaves at the house. I grew up with Blacks. We had a lot, yeah.}
-        \item[] \longtrans{Joshua (Interviewer): Oh, yeah? There are a lot of Blacks in Creole?}
-        \item[] \longtrans{Deborah: No, they worked for my grandfather, but yes, well that was the same family for all the Blacks. They were slaves, and oh, my grandfather brought a boat of women to marry the people. No no, there aren't a lot of Blacks in Cameron, no.}
-      \end{enumerate}
-      Dennis explained that Creoles would only come to work on the farms there, included his grandfather's.
-      Although Dennis gave no indication of harboring any racial ideology -- in fact, he went on to say that knowing this man gave him a ``meilleur cœur'' \gloss{better heart} for Creoles -- his instinct was to describe his grandfather as ``having one'' as if Creoles were possessions for these farms.
-      This may have simply been a poorly worded phrase, but Deborah's statements were much less ambiguous.
-      She was a wordly woman, but was still able to relate that her grandfather had enslaved people and brought women, presumably enslaved women, to her hometown to marry the men who were enslaved there, whose descendants were still close enough to the family that she went on to explain that one of them took care of her as a child.
-      The this woman was known by a derogatory, racist nickname, as well, suggesting that the history of ideological racism in her own family was still present at least until when she was young.
-
       % Alice Lemaire
         % (43:22) [referring to her in-home nursing job that a Black woman also did]
         % AL: Y avait moi le jour and a little Black lady at night.
@@ -1024,22 +1098,6 @@
         % (51:59) [making the point that Cajuns and Creoles were friendly with each other]
         % Judy (Cajun): In fact, la femme que t'as vue à Maurice, ... elle disait, tu connais elle les appelait des Nègres. C'est ça. On a tous dit ça quand on était petits, et elle dit il était comme quelqu'un dans la famille. Il travaillait pour eux, et elle dit, quand son enfant était né, son mari était son godfather, ... et quand son mari est mort, elle dit il a venu voir son mari, et à ce temps-ça, le monde blanc voulait pas que le monde noir vient à la maison. Leur corps était dans la maison, mais elle dit il a venu. Il a passé dans la chambre, la porte en arrière, et il a venu, et il a parti, et elle dit, la semaine après, quand il a venu, il a venu dans la maison dans la porte en avant.
       
-      Cajuns also discussed facing stigma and discrimination, however.
-      In Sentence \ref{sent:life_bruce}, Bruce Wiltz recounted a discussion he witnessed where a mother from Marksville wanted to be called French rather than Cajun because the latter was stigmatized.
-      \begin{enumerate}[resume=sentences]
-        \item Bruce (Cajun): Mais, une fois, il habitait ici, il a dit ça à sa mère, un jour il dit, ``Mais Mom, on est tous des Cadiens.'' ``Oh non,'' elle dit, ``on est pas des Cadiens. Nous-autres, on était français.'' Eh? Parce que les Cadiens, c'était, it was a lower class, une basse classe, eh? (40:17) \label{sent:life_bruce}
-        \item[] \longtrans{Bruce (Cajun): But, one time, he lived here, he said that to his mother, one day he says, ``But Mom, we're all Cajuns.'' ``Oh no,'' she says, ``we aren't Cajuns. Us, we're French.'' Eh?}
-      \end{enumerate}
-      This was perhaps a rare phenomenon, though.
-      He went on to explain that this was the only time he had heard a family express the desire to be called French rather than Cajun.
-      A more commonly shared example of discrimination that Cajuns shared was linguistic in that F\&C speakers were said to be punished for speaking the language in school.
-      Oliver Gomez gave an example in Sentence \ref{sent:life_gomez}, but as with every other time the participants for this study mentioned this punishment, it was never firsthand experience but rather the experience of earlier generations of Cajuns, suggesting that their status has changed over the last 100 years or so.
-      \begin{enumerate}[resume=sentences]
-        \item Oliver G. (Cajun): Puis moi, j'étais jamais puni pour parler français, mais mes parents a été punis pour parler français. (15:59) \label{sent:life_gomez}
-        \item[] \longtrans{Oliver G. (Cajun): Then me, I was never punished for speaking French, but my parents were punished for speaking French.}
-      \end{enumerate}
-      This makes the school punishment theme not all that different from the admiration Judy Soileau Courtade was expressing back in Sentence \ref{sent:cajun_judy1} for the hardships the Acadians had faced despite not offering any sign that she herself had faced discrimination.
-
       % Brian Roger
         % (49:05) [not a personal experience, but Cajun stigma was a thing in the 20s and 30s]
         % Brian (Cajun): Je crois, pour plusieurs années, inavait un tas du monde qui était embarrassé être nommé des Cadien.
@@ -1061,19 +1119,6 @@
           % Dennis (Cajun): J'ai vu un mauvais changement les derniers vingt ans. J'ai des amis de Canada et de la France qui dit cinquante ans, les Cadiens étaient différents que les Cadiens on trouve aujourd'hui. Rednecks, Trumpers, c'est des Cadiens qu'a perdu leur vision d'être acceptance de tout le monde. Ça, on était pas comme ça en avant, au commencement. On a accepté les Indiens. On a accepté les Espagnols. Tous les autres, on dit tout acceptance. On l'aime tout le monde d'être ensemble et d'être soutenu. ... Ça c'est, j'ai été élevé comme ça.
             % This sentiment was rare among Cajuns, however
 
-      For Creoles, discrimination was very much personal.
-      Cajuns themselves were aware of this.
-      Dennis Oubre talked about the existence of segregation when he was younger as in Sentences \ref{sent:life_dennis2} and \ref{sent:life_dennis3}.
-      \begin{enumerate}[resume=sentences]
-        \item Dennis (Cajun): C'était interdit pour aller à l'église ou à l'école. (33:35) \label{sent:life_dennis2}
-        \item[] \longtrans{Dennis (Cajun): It was prohibited to go to the church or to the school.}
-        \item Dennis (Cajun): Landon pourrait pas rentrer dans la maison. (35:24) \label{sent:life_dennis3}
-        \item[] \longtrans{Dennis (Cajun): Landon [a Creole] couldn't enter the house.}
-      \end{enumerate}
-      He also spoke proudly of his hometown being one of the first towns in Louisiana to begin desegregating.
-      Segregation was what Cajuns primarily discussed when speaking about the discrimination faced by Creoles, however.
-      As can often be expected in racialized social systems, it is often only the clearest cases of explicit institutional racism that stand out to those who are not the victims of racialization.
-
       % Alice Lemaire
         % (10:26) [separate Black and White schools, irrational fear of Blacks]
         % AL: Et juste avant mon école, y avait une école de Noirs. Tu connais, c'était pas mêlé dans ce temps-là. Ça se fait, moi et mes deux petits frères, on passait loin dans le fossé parce qu'on avait peur des petits nègres. Pourquoi on avait peur? Moi, je connais pas.
@@ -1094,27 +1139,6 @@
           % (43:58) [speaking about seeing a group of Blacks in costume performing a call and response and walking from one side of her town to another]
           % Lucille (Cajun): C'était des Noirs, et j'avais peur. Je regardais par la fenêtre, les gros yeux, et j'étais une petite fille, et mes parents ont pas expliqué. Je pense ça disait, "Oh, ça c'est les nègres qui passent."
             % This wasn't segregation, but it was that same sort of irrational fear that racialized social systems engender. She was otherwise in awe of the scene.
-
-        Black Creoles spoke about the discrimination that they faced in much more detail.
-        Owen Webre, in Sentence \ref{sent:life_owen}, was treated as a token \parencite{kanter_effects_1977} in his professional capacities, being moved from one job location to another to fulfill a diversity quota.
-        \begin{enumerate}[resume=sentences]
-          \item Owen (Creole): J'ai été sélectionné pour un poste à [a high school] comme assistant principal, ça fait j'ai pris ça, mais j'ai commencé là, mais j'ai pas resté là trop longtemps. Non, on a décidé que je dois travailler à [a different high school]. Je crois que c'était à cause de ma race. À ce temps-là, il faut avoir quand même un Noir. (22:53) \label{sent:life_owen}
-          \item[] \longtrans{Owen (Creole): I was selected for a post at [a high school] as assistant principal, so I took that, but I started there, but I didn't stay there too long. No, someone decided that I have to work at [a different high school]. I believe that that was because of my race. At that time, it was necessary to have at least one Black.}
-        \end{enumerate}
-        Gene Declambre offered quite a few examples of discrimination in his life, two of which are reproduced in Sentences \ref{sent:life_gene1} and \ref{sent:life_gene2}.
-        \begin{enumerate}[resume=sentences]
-          \item Gene (Creole): C'est comme ça là. C'était les Blancs  étaient dit toi quoi faire. Les Blancs  étaient dit les mondes Couleur quoi faire. (2:59) \label{sent:life_gene1}
-          \item[] \longtrans{Gene (Creole): It was like that then. It was that the Whites would tell you what to do. Whites told colored people what to do.}
-          \item Gene (Creole): No jouait contre un et l'autre. J'ai jamais joué contre les Blancs, because les Blancs étaient pas voulaient mettre pas avec les nègres. (35:54) \label{sent:life_gene2}
-          \item[] \longtrans{Gene (Creole): We would play against one another. I never played against Whites, because Whites didn't want to be put with negroes.}
-        \end{enumerate}
-        The first was very early in the interview in response to a question about why he moved as a child, to which he responded very plainly that they simply had to do what Whites told them to do, and in that case it was for his family to stop farming and move.
-        The second sentence was later in his life when he was a baseball player who could not play again White baseball players.
-        Gene's language and Owen's are both particularly interesting in contrast to these statements.
-        Owen in fact preferred Creole-marked subject pronouns but spoke in a very standardized way when relating this story, as he did for any academic or professional topics.
-        Gene, on the other hand, used a mix of Creole-marked and Cajun-marked pronouns in his second sentence, which he in fact did throughou the interview where he generally preferred Cajun-marked pronouns other than for 3pl.
-        He had, however, demonstrated that he could use Creole-marked pronouns, and through the shifts in his syntax, it would not be surprising if he normally did use these pronouns but chose not to with me.
-        In this respect, the language of both speakers suggest that they felt they had to hide their Creoleness to some degree when not speaking to another Creole.
 
         % Florence Gaspard gave a less specific but highly revealing account of discrimination in Sentence \ref{sent:life_florence2}.
         % She described a hierarchical system with three levels where Whites were at the tops, Cajuns in the middle, and Creoles at the bottom.
@@ -1151,37 +1175,11 @@
           % (40:30) [when he was younger, Black policemen couldn't do anything to Whites and was better off not wearing his uniform if he went into Lafayette]
           % Gene (Creole): Un nègre était un policeman, mais il peut refuser rien à un Blanc. Tu peux voir Blanc là apè battre là là, mais tu fais rien. ... T'es gone à Lafayette, change-toi. Mets-toi quelque chose d'autre.
 
-      Acceptance of Creoles was also related in the discourse of Creoles themselves, showing that a racialized social system does not exclude instances of acceptance and mutual aid, but these acts do not constitute the overwhelming pattern, and each example below also acts as evidence of racialization.
-      Even Gene Delcambre was able to talk about an instance where White men helped him, albeit he did so in English.
-      His situation involved receiving a ticket while driving.
-      He went to court with his White boss and a White lawyer whom his mother luckily knew.
-      The judge attempted to fine him 250 dollars initially, a significant amount given  that he made 18 dollars per week at that time, but his boss vouched for him and his lawyer argued for him, resulting in a fine of 20 dollars instead.
-      While it was laudable that two White men were willing to help him, the fact that they needed to in the first place is suggestive of a racialized social system.
-
-      Florence Gaspard provided a story that involved taking her grandson to prayer events where they were the only ``Couleurs'' \gloss{Coloreds} there.
-      In Sentence \ref{sent:life_florence3}, she explained that her grandson was initially apprehensive, but she explained the importance of getting along with all types of people, and this resulted in him receiving help with school from one of the White women there.
-      \begin{enumerate}[resume=sentences]
-        \item Florence (Creole): To gain pour adonner avec tous les couleurs. C'est comme ça to la vie va d'être bon. Si to juste adonnes juste avec une, c'est pas assez. \label{sent:life_florence3}
-        \item[] [he agreed and attended the event repeatedly after that]
-        \item[] Florence (Creole): Et là li dit, ``Mais to connais maman, femme là, oh ça c'est une nice femme. C'est la plus nice femme mo jamais connais,'' et so elle aidé li quand li couru à l'école, to comprends? (69:46)
-        \item[] \longtrans{Florence (Creole): You have to get along with every color. That's how your life will be good. If you just get along just with one, that's not enough.}
-        \item[] \longtrans{[he agreed and attended the event repeatedly after that]}
-        \item[] \longtrans{Florence (Creole): And then he said, ``Well you know mama, that woman, oh that's a nice woman. That's the nicest woman I've ever met,'' and so she helped him when he went to school, you understand?}
-      \end{enumerate}
-      The fact that her grandson was aware enough of race to begin with shows that this was a positive occurrence set in the context of a racialized social system.
-      Tracy Roth presented another anecdote in Sentence \ref{sent:life_tracy2} that would only be possible in the context of a racialized social system despite representing positive intergroup actions.
-      \begin{enumerate}[resume=sentences]
-        \item Tracy (Creole): Mo joué un tas de la pelote, et no couru un tas les places, et mo étais seul Noir, et tous les Blancs, les autres Blancs, yé étaient coutume 'mander, ``Comment vous-autres peut gain nègre là pour jouer avec ça?'' Et yé saient tout le temps dit, ``L'a jouer avec nous-autres because li bon,'' et then, ``Oh, mo peux pas fais ça. Mo peux pas,'' et yé saient dit comme ça, ``C'est pas sa couleur qu'ap jouer la pelote. C'est li.'' C'est quoifaire mo l'aime li si tant. (95:31) \label{sent:life_tracy2}
-        \item[] \longtrans{Tracy (Creole): I played a lot of baseball, and we went to a lot of places, and I would be the only Black, and all the Whites, the other Whites, they had a habit of asking, ``How can you all have that negro you play with?'' And they would always say, ``He'll play with us because he's good,'' and then, ``Oh, I can't do that. I can't,'' and they would say like this, ``It's not his color that's playing ball. It's him.'' That's why I love him so much.}
-      \end{enumerate}
-      Unlike Gene Delcambre, Tracy was able to play baseball against White players, but this was only possible because his White teammates supported him.
-      He needed the aid of those at the top of the racial hierarchy to subvert that hierarchy that clearly existed.
-
-      At every level of life experience, the discourse of Creoles and Cajuns suggests that Creoles have been racialized.
-      Cajuns are not immune to hardship, but much of it that is salient for them has not been experienced firsthand other than poverty.
-      That poverty was also not experienced in the same way for Cajuns as it was for Creoles as the latter could not shake their low status even when doing the same work as Cajuns.
-      Creoles, on the other hand, showed themselves to be quite personally familiar with discrimination.
-      This does not mean that they did not have positive life experiences with non-Creoles, but those positive experiences generally represented non-Creoles helping them subvert a racialized social system that is ever-present.
+      % At every level of life experience, the discourse of Creoles and Cajuns suggests that Creoles have been racialized.
+      % Cajuns are not immune to hardship, but much of it that is salient for them has not been experienced firsthand other than poverty.
+      % That poverty was also not experienced in the same way for Cajuns as it was for Creoles as the latter could not shake their low status even when doing the same work as Cajuns.
+      % Creoles, on the other hand, showed themselves to be quite personally familiar with discrimination.
+      % This does not mean that they did not have positive life experiences with non-Creoles, but those positive experiences generally represented non-Creoles helping them subvert a racialized social system that is ever-present.
 
     \subsection{Creole speech versus Cajun speech}
       When speaking about language, both Creoles and Cajuns were able to speak of differences between each other.
