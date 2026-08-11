@@ -3,6 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[oneside]{book}
+  \setcounter{secnumdepth}{3}
   % Packages and settings
   \usepackage{amsmath}
   \usepackage{fontspec}
