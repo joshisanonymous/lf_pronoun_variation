@@ -199,7 +199,11 @@
         \begin{enumerate}[resume=sentences]
           % \item Brian (Cajun): Moi, je dis un Cadien, c'est du monde qui a venu de Canada. (48:14)\label{sent:cajun_brian}
           % \item[] \longtrans{Brian (Cajun): Me, I say a Cajun, that's people who came from Canada.}
-          \item Oliver L. (Cajun): Cadien, c'est surtout quelqu'un qui est venu avec le groupe des Acadiens après la dispersion des Acadiens du Canada. (65:44)\label{sent:cajun_lesage}
+          \item Oliver L.\footnote{
+            All participant names as well as all mentioned names have been anonymized.
+          } (Cajun): Cadien, c'est surtout quelqu'un qui est venu avec le groupe des Acadiens après la dispersion des Acadiens du Canada.\footnote{
+            Vocal noises, hesitations, and repetitions are not reproduced here except when they provide meaningful nuance to a participant's statement.
+          } (65:44)\label{sent:cajun_lesage}
           \item[] \longtrans{Oliver L. (Cajun): Cajun, that's above all someone who came with the group of Acadians after the dispersion of the Acadians from Canada.}
           \item Arthur (Cajun): C'est des personnes que le histoire, le généologie vient de le Nouvelle-Écosse. (41:09)\label{sent:cajun_arthur}
           \item[] \longtrans{Arthur (Cajun): It's people whose history, geneology come from Nova Scotia.}
@@ -560,8 +564,8 @@
         Setting the boundaries for Cajun identity using culture, when put into practice, runs into the problem of contending with the fact that Cajuns and Creoles share a large number of cultural products and practices.
         However, many participants did in fact define Cajuns by describing their culture and did so without requiring a strict adherence to that culture in order to be Cajun.
 
-        Culture in this case could be specific practices but also the character of a person.
-        Dennis implicated religion as helping to mark the boundaries of Cajunness in Sentence \ref{sent:cajun_dennis2}, but more so he stressed the idea that Cajuns are accepting of others.
+        Culture, considered very broadly in this case, could be specific products or practices but also the character of a person.
+        Dennis, for example, implicated religion as helping to mark the boundaries of Cajunness in Sentence \ref{sent:cajun_dennis2}, but more so he stressed the idea that Cajuns are accepting of others.
         \begin{enumerate}[resume=sentences]
           \item Dennis (Cajun): Tu peux dire c'est un culture. C'est acceptance de une manière de vivre, de regarder la vie, regarder les hommes, regarder le bon Dieu. (26:31)\label{sent:cajun_dennis2}
           \item[] \longtrans{Dennis (Cajun): You can say that it's a culture. It's being accepting of a way of living, of looking at life, regarding man, regarding the good Lord.}
@@ -571,7 +575,7 @@
           \item Randal (Cajun): C'est leur manière de vivre, culture, langage, la manière on cuit. Moi, je cuis juste pareil comme mes parents et mes grands-parents. ... Le manière de penser pour leur job, et puis pas peur de se saler à travailler, aider à tout le monde que tu peux. (51:13)\label{sent:cajun_randal3}
           \item[] \longtrans{Randal (Cajun): It's their way of living, culture, language, the way we cook. Me, I cook just like my parents and my grandparents. ... The way of thinking about their job, and then not fearing getting dirty at work, helping everyone that you can.}
         \end{enumerate}
-        Cooking seemed to be a particularly salient point of distinction between Cajuns and Creoles, but when pressed to be more specific about the differences, Cajuns struggled to be more specific, as will be discussed a bit more in detail in Section \ref{sec:what_creole}.
+        Cooking seemed to be a particularly salient point of distinction between Cajuns and Creoles, but when pressed to be more specific about the differences, Cajuns struggled to be more specific, as will be discussed a bit more in detail in Section \ref{sec:creole_culture}.
         In Sentence \ref{sent:cajun_steven}, Steven was discussing hunting woodcocks, and in doing so, implied that Cajuns are avid hunters.
         \begin{enumerate}[resume=sentences]
           \item Steven (Cajun): Ina pas trop qui restent parce que les Cadiens a tué tout. (23:05)\label{sent:cajun_steven}
@@ -579,9 +583,9 @@
         \end{enumerate}
         None of these are cultural traits or activities that are particularly unique to Cajuns.
         Creoles as well highlighted positive traits for themselves like being hardworking and accepting of others.
-        It would indeed be difficult to imagine personal qualities that one could use to mark the boundaries of their group that are unique to that group.
+        It would indeed be difficult to imagine personal qualities that one could use to mark the boundaries of one's group that are unique to that group, not because of the diffusion of traits but because of human nature and wanting to view one's group in a positive light.
         
-        A notable statement about cultural diffusion came from Judy in Sentence \ref{sent:cajun_judy2}.
+        A notable statement about cultural diffusion did come from Judy in Sentence \ref{sent:cajun_judy2}, however.
         Judy was speaking about where brown cotton has been used in South Louisiana for blankets and two of the parishes she named were Saint Landry and Saint Martin where many Creoles live, so I had inquired about whether Creoles had taken up what she was describing as an Acadian practice.
         \begin{enumerate}[resume=sentences]
           \item[] Judy (Cajun): J'ai jamais jamais trouvé une couverte que quelqu'un de la couleur noire a fait, et je peux pas comprendre pourquoi. Ils étaient après vivre avec nous-autres. We were friendly with the Blacks. (51:17)\label{sent:cajun_judy2}
@@ -595,7 +599,7 @@
         In racialized social systems, physical closeness and regularity of interaction do not necessarily entail the sort of social closeness needed for certain forms of cultural diffusion.
         On the other hand, as seen in Chapter \ref{chap:pronoun_variation}, somewhere along the line, there was in fact some amount of linguistic diffusion as it is not only Black Creoles who use Creole-marked pronouns even though they are more likely to speak in that fashion.
 
-        Cajuns were generally not ignorant of the discrimination that Creoles had suffered in the past, particularly in terms of segregation.
+        Cajuns were generally not ignorant of the discrimination that Creoles had suffered in the past, though, particularly in terms of segregation.
         As can often be expected in racialized social systems, it is often only the clearest cases of explicit institutional racism that stand out to those who are not the victims of the system.
         Dennis talked about the existence of segregation when he was younger as in Sentences \ref{sent:life_dennis2} and \ref{sent:life_dennis3}.
         \begin{enumerate}[resume=sentences]
@@ -621,7 +625,7 @@
           % (33:07) [highlighting just how important French is for identifying as Cajun for her]
           % Lucille (Cajun): Tu peux te dire cadien autant que tu veux, mais si tu possèdes pas la langue, t'es pas vraiment cadien.
 
-        Further complicating the use of cultural products and practices for marking Cajun boundaries is that Cajun has become something of a catch-all term in South Louisiana for all local cultural products or practices.
+        Further complicating the use of cultural products and practices for marking Cajun boundaries is that \lexi{Cajun} has become something of a catch-all term in South Louisiana for all local cultural products or practices.
         This had perhaps not happened yet by the 1960s as Mary explained in Sentence \ref{sent:cajun_mary} that Cajun music was not what her and her fellow LSU students used for dancing at that time.
         They instead danced to rock and roll.
         \begin{enumerate}[resume=sentences]
@@ -650,7 +654,7 @@
           \item[] \longtrans{Deborah (White Creole): I prefere Creole to Cajun. ... No, I don't much like Cajun. It's okay. It's okay, but it's, it's, we will say in English a catch word. Cajun, Cajun food, Cajun dances, Cajun music, you know?}
         \end{enumerate}
         It is important to remember in all of this that the social category that has historically been more inclusive has been Creole, and in fact much of what is described as culturally Cajun is just as much culturally Creole, yet the racialization of the term \lexi{Creole} as lesser makes it a poorer candidate for marketing than Cajun.
-        Cajun being the default racial category of South Louisiana, the local form of White, makes it safe to use for all purposes and marks the public sphere as the domain of Cajuns much as the public sphere in the broader US is treated as the domain of White people.
+        Cajun being the default racial category of South Louisiana, the local form of White, makes it safe to use for all purposes and marks the public sphere as the domain of Cajuns -- a sort of pre-emptive boundary policing -- much as the public sphere in the broader US is treated as the domain of White people.
           
         % Errol Stoufle
           % (3:40) [local accordeon music is specifically Cajun, not "French music" or anything else]
@@ -682,6 +686,7 @@
         \end{enumerate}
         For him the primary aspect of being Cajun or Creole was speaking F\&C, but after that, the distinction came down to whether one passed as White or Black, making one either Cajun or Creole, respectively.
         Notably, Austin, having been born in \Sexpr{participants[participants$Name == "Austin Roy", "Birth Year"]}, was far younger than all but one other participant, meaning the association of Creole with Black may have been stronger by the time he was being raised than it had been for other participants.
+        
         The other two participants who explicitly made this Whiteness connection for Cajuns were both Creoles.
         In the case of Gene in Sentence \ref{sent:cajun_gene}, his response was particularly matter of fact.
         \begin{enumerate}[resume=sentences]
@@ -690,8 +695,8 @@
           \item James (Creole): Les Cadiens, okay, c'est les Blancs. Ils ont d'héritage de Nova Scotia. (41:27)\label{sent:cajun_james}
           \item[] \longtrans{James (Creole): Cajuns okay, those are Whites. The have a heritage from Nova Scotia.}
         \end{enumerate}
-        Gene went on to speak about the label in clearly racial terms, explaining that Cajun can be used as a derogatory word for a White person just as the N-word can be for a Black person.
-        This expectation that Cajun can be a derogatory term was also expressed by one of the Texan Creoles in \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) data (p.~190), so the idea was not unique to Gene even though the above discussion shows that Cajun is certainly not derogatory in the views of Cajuns themselves even for those Cajuns who understood that Cajuns had been stigmatized in the past.
+        Gene went on to speak about the label in clearly racial terms, explaining that Cajun can be used as a derogatory word for a White person just as the N-word, in English, is for a Black person.
+        This expectation that \lexi{Cajun} can be a derogatory term was also expressed by one of the Texan Creoles in \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) data (p.~190), so the idea was not unique to Gene even though the above discussion shows that \lexi{Cajun} is certainly not derogatory in the views of Cajuns themselves even for those Cajuns who understood that Cajuns had been stigmatized in the past.
         Gene himself was one of the older participants, having been born in \Sexpr{participants[participants$Name == "Gene Delcambre", "Birth Year"]}, which is an equally plausible explanation for why he saw Cajun as derogatory as the explanation that Creoles simply see the term this way generally.
 
         % Laura Laviolette
@@ -702,7 +707,7 @@
 
         On the whole, the boundaries of Cajunness were marked in neutral terms.
         Cajuns are considered to be at least partially the descendants of Acadians who ended up in Louisiana, or they are the accepting, hardworking people of South Louisiana with a rich culture of language, music, food, and so forth.
-        These are all undoubtedly fair characterizations, but what they do not say is just as indicative of where Cajuns fit in the racialized social system of South Louisiana.
+        These are all undoubtedly fair characterizations, but what they do not have to say is just as indicative of where Cajuns fit in the racialized social system of South Louisiana.
         The presumed neutrality of Cajun identity is an outcome of the group's privileged racial position as the default group.
         Effectively, discourse around Cajun identity marks it as a local form of White, and any local product or practice of which one can be proud is branded as Cajun.
 
@@ -847,7 +852,7 @@
           \item Randal (Cajun): Alentour ici, je connais pas si t'as perçu ça ou tu connais ça, asteur ça a venu, it evolved into un Creole c'est quelqu'un noir. (58:46)\label{sent:creole_randal1}
           \item[] \longtrans{Randal (Cajun): Around here, I don't know if you noticed this or you know this, now that became, it evolved into a Creole is someone Black.}
         \end{enumerate}
-        Cynthia and Randal's statements put together here imply that the marking Creoles as Black developed and was completed by the mid-20th century.
+        Cynthia and Randal's statements put together here imply that marking Creoles as Black developed and was completed by the mid-20th century at least.
         
         For Rose, she included the option that a Creole could be a wealthy, educated person but specifically for Creoles in New Orleans, far from where she grew up in Church Point.
         \begin{enumerate}[resume=sentences]
@@ -885,9 +890,9 @@
             % Brian (Cajun): Pour des années, quand moi j'ai grandi, d'après moi, moi je savais que le mot créole, au début, à la Nouvelle-Orléans, c'était un mélange de Français et les Espagnols, et puis là, c'est des années après ça, c'était les Africains, eh, qui s'appelaient des Créoles, eh, parce que je crois c'était un mélange de les Africains et les Blancs ou quelque chose comme ça. C'était des Créoles.
 
         The above participants who equated Creole with Black were all Cajuns.
-        This does not mean that Creoles did not see Blackness in their understanding of Creoles, but they instead highlighted the idea that Creoles are racially mixed.
+        This does not mean that Creoles did not see Blackness in their understanding of Creoles, but they instead highlighted the idea that Creoles are racially mixed, a nuance that was generally absent from the discourse of Cajuns.
         Terry, who both ethnically and racially identified simply as Creole, was quite plain in stating that Creole is a mixed race in Sentence \ref{sent:creole_terry}, while Florence even had a humorous anecdote that characterized Creoles as mixed in Sentence \ref{sent:creole_florence}.
-        \begin{enumerate}[resume=senteces]
+        \begin{enumerate}[resume=sentences]
           \item Terry (Creole): C'est une race de monde mêlé. Inaura plus qu'une qualité de Créole, parce que, tu vois, le monde qui parle créole, ils ont du monde qui deviennent les West Indies, Haiti. (41:49)\label{sent:creole_terry}
           \item[] \longtrans{Terry (Creole): It's a race of mixed people. There will be more than one type of Creole, because, you see, the people who speak Creole, they have people who come from the West Indies, Haiti.}
           \item Florence (Creole): Comme mon maman tait dit nous-autres, ``Li tait un mixed paint.'' (91:03)\label{sent:creole_florence}
@@ -895,7 +900,7 @@
         \end{enumerate}
         Notably, Creoles who used Cajun-marked subject pronouns, like Terry, and those who used Creole-marked pronouns, like Florence, would both speak about racial mixtures when brought into the way Creole boundaries were marked.
         
-        James, who also used Cajun-marked pronouns, provided examples of what sort of mixtures of people would lead to Creoles in Sentence \ref{sent:creole_james}, and in every case, it was someone of African ancestry and of European ancestry.
+        James, who also used Cajun-marked pronouns, provided examples of what sort of mixtures of people would lead to Creoles in Sentence \ref{sent:creole_james}, and in every case, it was someone of African and European ancestry.
         \begin{enumerate}[resume=sentences]
           \item James (Creole): Un Créole, ça doit être une personne dans l'héritage mixte, mais ça doit avoir africaine, et français-African, espagnol-African, allemand-African, African, et ... beaucoup de Créoles à Nouvelle-Orléans étaient les gens libres. (40:10)\label{sent:creole_james}
           \item[] \longtrans{James (Creole): A Creole, that has to be a person with a mixed heritage, but that has to have African, and French-African, Spanish-African, German-African, African, and ... a lot of Creoles in New Orleans were free people.}
@@ -925,18 +930,19 @@
             % (49:05) [most clearly of all draws the connection between gender and race in this system]
             % Gene (Creole): The two people that was always free: a White man and a Black woman. Them two that was always free, because they could always be together. They didn't have no Black man with a White woman. They kill you.
 
-        The above statements were typical of how Black Creoles would highlight mixing when referring the Blackness in marking Creoles rather than reduce Creoles to nothing more than Black.
+        The above statements were typical of how Black Creoles would highlight mixing when referring to Blackness for marking Creoles in contrast to reducing Creoles to nothing more than Black.
         Those who did equate Creole with simply being Black were all Cajuns.
         On the one hand, this may be a case of having more nuance to one's one self-identification than to the identification of others, but there is also the possibility that this is a result of a racial ordering of things.
         In the broader US, being Black assigns one a very low social status.
         While the Creoles in Louisiana in this study appeared to see themselves as part of that broader group, the addition of a racially mixed background can be a way to dull the stigma that comes along with being Black.
-        In effect, they can, and did, show solidarity with Blacks nationwide, but the door is also open to argue that they are not quite the same either.
+        In effect, they can, and did, show solidarity with Blacks nationwide, but the door is also open for them to argue that they are not quite the same either.
         It is a sort of compromise, not entirely different from passing as White for those who can.
-        On the other hand, for Cajuns, there is no need to add this nuance to Creoles.
+        On the other hand, for Cajuns, there was no need to add this nuance to Creoles.
         The lot of this latter group is of no particular concern for the default race in the hierarchy, so a simple equation of Creole with Black is perfectly suitable.
         None of the participants here showed any sort of ideological racism leading them to do this, but they are influenced by the racialized social system within which they exist.
 
       \subsubsection{Creole culture}
+        \label{sec:creole_culture}
         Terry described Creole as a race in Sentence \ref{sent:creole_terry}, but this view was not shared by all Creole participants.
         Florence and Tracy, for example, both rejected that view.
         Owen, in Sentence \ref{sent:creole_owen} was even more forthright with this rejection when Terry's view was presented to him.
@@ -950,13 +956,13 @@
         His goal may have been to flaunt academic speech rather than Cajun-marked speech, but the effect is similar given that Cajun-marked pronouns more closely align with academic French.
 
         Rather than Blackness, Creole cultural traits and practices were the first things several participants used to mark the boundaries of Creoleness when asked what a Creole is, just as some Cajuns had done for their own group.
-        Using Creole-marked pronouns, Florence's explanation of Creole qualities in Sentence \ref{sent:creole_florence} is similar to the qualities previously given for Cajuns, particularly being hardworking and the importance of getting along with others, which she went on to explain at length.
+        Using Creole-marked pronouns, Florence's elaboration of Creole qualities in Sentence \ref{sent:creole_florence} is similar to the qualities previously given for Cajuns, particularly being hardworking and the importance of getting along with others, which she went on to explain at length.
         \begin{enumerate}[resume=sentences]
           \item Florence (Creole): C'est quelqu'un qui travaillé dur, et la vie qui était dure, mais li était bon. No apprendre un tas, et no peux apprécier ça no gain. (67:19)\label{sent:creole_florence}
           \item[] \longtrans{Florence (Creole): That's someone who worked hard, and life was hard, but he was good. We learned a lot, and we can appreciate what we have.}
         \end{enumerate}
-        While these then are very likely accurate descriptions for a large number of Creoles, they are not necessarily what distinguishes Creoles given that they are not unique to Creoles.
-        They are in fact not even unique in terms of what Cajuns and Creoles used to mark their own groups.
+        While these then are very likely accurate descriptions for a large number of Creoles, they are not necessarily what distinguish Creoles given that they are not absent in descriptions of Cajuns.
+        They are in fact not even unique in terms of distinguishing Cajuns and Creoles from other groups.
         Florence was thus not attempting to mark a particularly strong boundary, in line with the idea that Creole identity is more malleable than Cajun identity, the latter strictly requiring that one pass as White.
         % Wendte
           % Characterizing one's own group in positive terms
@@ -968,9 +974,15 @@
         Owen, in Sentence \ref{sent:life_owen}, was treated as a token \parencite{kanter_effects_1977} in his professional capacities, being moved from one job location to another to fulfill a diversity quota.
         \begin{enumerate}[resume=sentences]
           \item Owen (Creole): J'ai été sélectionné pour un poste à [a high school] comme assistant principal, ça fait j'ai pris ça, mais j'ai commencé là, mais j'ai pas resté là trop longtemps. Non, on a décidé que je dois travailler à [a different high school]. Je crois que c'était à cause de ma race. À ce temps-là, il faut avoir quand même un Noir. (22:53)\label{sent:life_owen}
-          \item[] \longtrans{Owen (Creole): I was selected for a post at [a high school] as assistant principal, so I took that, but I started there, but I didn't stay there too long. No, someone decided that I have to work at [a different high school]. I believe that that was because of my race. At that time, it was necessary to have at least one Black.}
+          \item[] \longtrans{Owen (Creole): I was selected for a post at [a high school] as assistant principal, so I took that, but I started there, but I didn't stay there too long. No, someone decided that I have to work at [a different high school]. I believe that that was because of my race. At that time, it was necessary to have at least one Black person.}
         \end{enumerate}
-        Gene offered quite a few examples of discrimination in his life, two of which are reproduced in Sentences \ref{sent:life_gene1} and \ref{sent:life_gene2}.
+        While code-switching to Cajun-marked speech to give this account, Owen chose to use the subject pronoun \lexi{on} when describing the actor or actors who decided that he could be a token for their institutions.
+        This is a flexible pronoun in varieties of French around the world, functioning variably as 1pl, as an impersonal pronoun, or even as an indefinite pronoun akin to \gloss{someone} or \gloss{anyone}.
+        The impersonal use is practically absent in Louisiana, as Chapter \ref{chap:pronoun_variation} demonstrated, and while the indefinite use was not considered in the quantitative analysis here, it is at least exceedingly rare, judged impressionistically, perhaps limited to only those who have acquired it in educational settings.
+        Owen was therefore not giving a faithful imitation of Cajun speech in this code-switch but rather implying the general high status of those who would treat him as a token.
+        The other implication of using an indefinite pronoun, though, is that it also shows Owen being unwilling to specifically name those who have wronged him, which is a rational way to proceed for one who is positioned at the lower end of a racial hierarchy and so must be careful about what they say about whom.
+
+        Gene offered quite a few examples of discrimination in his life, himself, two of which are reproduced in Sentences \ref{sent:life_gene1} and \ref{sent:life_gene2}.
         \begin{enumerate}[resume=sentences]
           \item Gene (Creole): C'est comme ça là. C'était les Blancs étaient dit toi quoi faire. Les Blancs étaient dit les mondes Couleur quoi faire. (2:59)\label{sent:life_gene1}
           \item[] \longtrans{Gene (Creole): It was like that then. It was that the Whites would tell you what to do. Whites told colored people what to do.}
@@ -979,15 +991,14 @@
         \end{enumerate}
         The first was very early in the interview in response to a question about why he moved as a child, to which he responded very plainly that they simply had to do what White people told them to do, and in that case it was for his family to stop farming and move.
         The second sentence was later in his life when he was a baseball player who was not permitted to play against White baseball players.
-        All of the examples Black Creoles gave could have been easily given by any Black person in the US and perhaps explain why acceptance of others was held up as an important mark of a Creole.
+        All of the examples Black Creoles gave could have been easily given by any Black person in the US and perhaps explain why acceptance of others was held up as an important mark of a Creole as the hope would be to engender acceptance of themselves by out-group members.
         
-        Gene's language and Owen's are both particularly interesting in contrast to these statements, as well.
-        Owen in fact preferred Creole-marked subject pronouns but spoke in a very standardized way when relating this story, as he did for any academic or professional topics.
-        Gene, on the other hand, used a mix of Creole-marked and Cajun-marked pronouns in his second sentence, which he in fact did throughout the interview where he generally preferred Cajun-marked pronouns other than for 3pl.
+        Gene's language was particularly interesting in contrast to these statements, as well.
+        Gene used a mix of Creole-marked and Cajun-marked pronouns in his second sentence, which he in fact did throughout the interview where he generally preferred Cajun-marked pronouns other than for 3pl.
         He had, however, demonstrated that he could use Creole-marked pronouns, and through the shifts in his syntax, it would not be surprising if he normally did use these pronouns but chose not to with me.
-        In this respect, the language of both speakers suggest that they felt they had to hide their Creoleness to some degree when not speaking to another Creole.
+        In this respect, Gene's language suggests that he felt that he had to hide his Creoleness to some degree when not speaking to another Creole.
 
-        Racialized social system does not exclude instances of acceptance by dominant groups nor mutual aid.
+        A racialized social system does not exclude instances of acceptance by dominant groups nor mutual aid, however.
         Both were recounted by Black Creoles but did not constitute the overwhelming pattern, and rather than contradict the idea that Creoles and Cajuns are racialized, examples of acceptance and mutual aid generally provided further evidence of racialization.
         Even Gene was able to talk about an instance where White men helped him, albeit he did so in English.
         His situation involved receiving a ticket while driving.
@@ -1006,10 +1017,11 @@
           \item[] \longtrans{Florence (Creole): And then he said, ``Well you know mama, that woman, oh that's a nice woman. That's the nicest woman I've ever met,'' and so she helped him when he went to school, you understand?}
         \end{enumerate}
         The fact that her grandson was aware enough of race to begin with shows that this was a positive occurrence set in the context of a racialized social system.
+        
         Tracy presented another anecdote in Sentence \ref{sent:life_tracy2} that would only be possible in the context of a racialized social system despite representing positive intergroup actions.
         \begin{enumerate}[resume=sentences]
           \item Tracy (Creole): Mo joué un tas de la pelote, et no couru un tas les places, et mo étais seul Noir, et tous les Blancs, les autres Blancs, yé étaient coutume 'mander, ``Comment vous-autres peut gain nègre là pour jouer avec ça?'' Et yé saient tout le temps dit, ``L'a jouer avec nous-autres because li bon,'' et then, ``Oh, mo peux pas fais ça. Mo peux pas,'' et yé saient dit comme ça, ``C'est pas sa couleur qu'ap jouer la pelote. C'est li.'' C'est quoifaire mo l'aime li si tant. (95:31)\label{sent:life_tracy2}
-          \item[] \longtrans{Tracy (Creole): I played a lot of baseball, and we went to a lot of places, and I would be the only Black, and all the Whites, the other Whites, they had a habit of asking, ``How can you all have that negro you play with?'' And they would always say, ``He'll play with us because he's good,'' and then, ``Oh, I can't do that. I can't,'' and they would say like this, ``It's not his color that's playing ball. It's him.'' That's why I love him so much.}
+          \item[] \longtrans{Tracy (Creole): I played a lot of baseball, and we went to a lot of places, and I would be the only Black person, and all the White people, the other White people, they had a habit of asking, ``How can you all have that negro you play with?'' And they would always say, ``He'll play with us because he's good,'' and then, ``Oh, I can't do that. I can't,'' and they would say like this, ``It's not his color that's playing ball. It's him.'' That's why I love him so much.}
         \end{enumerate}
         Unlike Gene, Tracy was able to play baseball against White players, but this was only possible because his White teammates supported him.
         He needed the aid of those at the top of the racial hierarchy to subvert that hierarchy that clearly existed.
@@ -1021,15 +1033,17 @@
           \item Tracy (Creole): No dit nou était pauvres, but to étais pas dis étais pauvre. (29:46)\label{sent:life_tracy1}
           \item[] \longtrans{Tracy (Creole): We say that we were poor, but you didn't say that you were poor.}
         \end{enumerate}
-        Florence, shared an anecdote in Sentence \ref{sent:life_florence1} that is worth printing here with minimal abbreviations.
+        While Tracy was willing at the time of the interview to tell me that Creoles were poor, he explained that a Creole would not say that in general in the past.
+        
+        Florence, shared an anecdote relevant to poverty in Sentence \ref{sent:life_florence1} that is worth printing here with minimal abbreviations.
         \begin{enumerate}[resume=sentences]
-          \item Florence (Creole): Quand mon mari mouru, femme là vini chez moi, et li't'apè crier parce que li dit mon mari, c était si tellement un bon monde. Li dit li 'mandé mon mari, ``Combien mo doit à toi pour fait mon la cour?'' Li dit mon mari dit li, ``Donne-no ça t'oler,'' et li dit, ``Na pas personne qui dit to, `Donne-moi t'oler.' Yé dit to comment yé'ler.'' ... C'était parce que no était devient de les récoltes, et no était connaît comment c'était dur, so un petit brin l'argent, c'était couru loin. (37:26)\label{sent:life_florence1}
+          \item Florence (Creole): Quand mon mari mouru, femme là vini chez moi, et li t'apè crier parce que li dit mon mari, c'était si tellement un bon monde. Li dit li 'mandé mon mari, ``Combien mo doit à toi pour fait mon la cour?'' Li dit mon mari dit li, ``Donne-no ça t'oler,'' et li dit, ``Na pas personne qui dit to, `Donne-moi t'oler.' Yé dit to comment yé'ler.'' ... C'était parce que no tait devient de les récoltes, et no tait connaît comment c'était dur, so un petit brin l'argent, c'était couru loin. (37:26)\label{sent:life_florence1}
           \item[] \longtrans{Florence (Creole): When my husband died, that woman came to my place, and she was crying because she said that my husband, that was such a good person. She said that she asked my husband, ``How much do I owe you for doing my yard?'' She said that my husband told her, ``Give us what you want,'' and she said, ``There's no one who tells you, `Give me what you want.' They tell you how much they want.'' ... That was because we came from farming, and we knew how hard it was, so a little bit of money, that went far.}
         \end{enumerate}
         Florence's husband, a man who took cleaning jobs for a living, was in a position in their community to help out a woman who was even less fortunate than himself.
-        This story is particularly enlightening for demonstrating how Creoles react to poverty and the hard work that they have had to do by expressing solidarity and generosity.
+        This story is particularly enlightening for demonstrating how Creoles react to poverty and the hard work that they have had to do by expressing solidarity and generosity, which presumably helped solidify their position within the boundaries of Creoleness.
 
-        In some ways, Cajuns, who also saw hard work as being a mark of a Cajun, did work that was similar to that of Creoles, as in the case that Arthur related in Sentence \label{sent:life_arthur}.
+        In some ways, Cajuns did work that was similar to that of Creoles -- while also seeing hard work as being a mark of a Cajun -- as in the case that Arthur related in Sentence \label{sent:life_arthur}.
         \begin{enumerate}[resume=sentences]
           \item Arthur (Cajun): Je rappelle monsieur Bee. Monsieur Bee était un ami de mon père. Monsieur Bee, il était noir, et il était un poseur de briques comme mon père, un maçon. Lui et mon père étaient des amis, mais comment tu dis, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then. (50:14)\label{sent:life_arthur}
           \item[] \longtrans{Arthur (Cajun): I remember Mr Bee. Mr Bee was a friend of my father. Mr Bee, he was Black, and he was a bricklayer like my father, a mason. He and my father were friends, but how do you say, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then.}
@@ -1038,7 +1052,7 @@
         More specifically, what Arthur was expressing about his father and his father's friend was that, even though they performed the same work, they were not given the same social status due to the friend being Black and presumably Creole.
         The experience was thus filtered through a racialized social system that made the lives of the two men quite different with the additional implication that Black Creoles needed to work harder than their Cajun counterparts.
 
-        In other cases, Creoles were described as working for Cajuns, instead.
+        In other cases, Creoles were described as working for rather than with Cajuns.
         It is quite possible that the Cajuns shared in the work that they hired Creoles to do, but the fact that it was the Cajuns who owned the products of that labor makes their work inherently different.
         In the examples of this in Sentences \ref{sent:life_dennis1} and \ref{sent:life_deborah}, I was asking Dennis and Deborah, respectively, if there were Creoles in their hometowns.
         \begin{enumerate}[resume=sentences]
@@ -1048,10 +1062,10 @@
           \item[] Joshua (Interviewer): Oh, ouais? Y a beaucoup de Noirs à Créole?
           \item[] Deborah: Non, ils travaillaient pour mon grand-père, mais oui, mais c'était la même famille de tous les Noirs. C'était les esclaves, et oh, mon grand-père a amené un bateau de femmes pour marier avec les gens. Non non, y a pas beaucoup de Noirs à Cameron, non. (58:55)\label{sent:life_deborah}
           \item[] \longtrans{Deborah (White Creole): My grandfather had slaves at the house. I grew up with Blacks. We had a lot, yeah.}
-          \item[] \longtrans{Joshua (Interviewer): Oh, yeah? There are a lot of Blacks in Creole?}
+          \item[] \longtrans{Joshua (Interviewer): Oh, yeah? There are a lot of Black people in Creole?}
           \item[] \longtrans{Deborah: No, they worked for my grandfather, but yes, well that was the same family for all the Blacks. They were slaves, and oh, my grandfather brought a boat of women to marry the people. No no, there aren't a lot of Blacks in Cameron, no.}
         \end{enumerate}
-        Dennis explained that Creoles would only come to work on the farms there, included his grandfather's.
+        Dennis explained that Creoles would only come to work on the farms there, including his grandfather's.
         Although Dennis gave no indication of harboring any racial ideology -- in fact, he went on to say that knowing this man gave him a ``meilleur cœur'' \gloss{better heart} for Creoles -- his instinct was to describe his grandfather as ``having one'' as if Creoles were possessions for these farms.
         This may have simply been a poorly worded phrase, but Deborah's statements were much less ambiguous.
         She was a wordly woman but was still able to relate that her grandfather had enslaved people and brought women, presumably enslaved women, to her hometown to marry the men who were enslaved there.
@@ -1073,7 +1087,7 @@
         When not looking at culture in the very broad sense of personality traits shared by a group, a more specific cultural practice that was referenced by several participants as marking the boundaries of Creoleness was the playing of zydeco music.
         As Lucille explained in Sentence \ref{sent:cajun_lucille}, the local accordion music of South Louisiana was at one time simply called French music but is now called Cajun music.
         In truth, this is only half of the picture, as another genre grew out of the same tradition and is today called zydeco.
-        Just as Cajun music is associated with Cajuns, zydeco is associated with Creoles, as is evident in Sentences \ref{sent:creole_brian2} and \ref{sent:creole_randal2}.
+        Just as Cajun music is associated with Cajuns, zydeco is associated with Creoles, as is evident in Sentences \ref{sent:creole_brian2} and \ref{sent:creole_randal2}, and so marks the boundaries of Creoleness.
         \begin{enumerate}[resume=sentences]
           \item Brian (Cajun): Quand tu penses de zaricot, c'est musique noire, mais le monde blanc asteur l'aime, moi, moi j'aime zaricot. (61:48)\label{sent:creole_brian2}
           \item[] \longtrans{Brian (Cajun): When you think about zydeco, that's Black music, but White people now like, me, I like zydeco.}
@@ -1091,7 +1105,7 @@
         Indeed, a common difference between the two genres is that zydeco is typically played on a full piano keyboard accordion and Cajun music on a much smaller single row diatonic accordion \parencite[pp.~28-29]{kuhlken_geography_1991}.
         Troy does, however, regularly play the latter type of accordion, and as this instrument limits the musical key that can be played, it seems unlikely that Troy plays Cajun songs in different keys from what are normally expected.
         What is perhaps more likely is that the distinction between Cajuns and Creoles is so strong that Errol perceives Cajun music as being somehow inherently different if a Creole is playing it even if he does not consciously recognize that the only difference is the musician's identity.
-        In effect, Errol was policing Cajun boundaries by denying Creoles the ability to play the same music as Cajuns and instead relegating them to zydeco or a Creole-tained version of Cajun music.
+        In effect, Errol was policing Cajun boundaries by denying Creoles the ability to play the same music as Cajuns and instead relegating them to zydeco or a Creole-tainted version of Cajun music.
         % Wendte
           % Both Texan and Louisianian Creoles used closely related musical genres as representations of Creoles and Cajuns as one way to accomplish to set the boundaries of the two groups (pp.~139/207-208/211).
           % For example, one participant seemed to suggest that Creoles and Cajuns or Whites were segregated or segregated themselves in terms of the sort of music shows each would go to, zydeco shows for the former and Cajun music shows for the latter (pp.~207-208).
@@ -1101,14 +1115,14 @@
         % Zydeco is Creole
           % Deborah Tauzin
             % (50:22)
-            % Deborah (White Creole): The Creole, autour de Opelousas et des places comme ça, le zarico, la musique zarico, ouais.
+            % Deborah (White Creole): The Creole, autour de Opelousas et des places comme ça, le zaricot, la musique zaricot, ouais.
           % Errol Stoufle
             % (4:13)
-            % Errol (Cajun): Mais là, comme samedi, tu viens, no gain la musique créole avec Troy Sandoz. Ça c'est samedi qui vient¨. No fait cinq fois par mois la musique zarico.
+            % Errol (Cajun): Mais là, comme samedi, tu viens, no gain la musique créole avec Troy Sandoz. Ça c'est samedi qui vient¨. No fait cinq fois par mois la musique zaricot.
             % (32:56) [defined Cajuns culturally and does the same for Creoles, but their culture is different]
             % Errol (Cajun): Un Créole, c'est manière comme un Cadien, tu connais, mais yé yé parlent différence, tu connais? C'est le culture est un petit peu différente, la manière yé cuit, la manière yé yé fait leurs vies, tu connais?
             
-        Both Randal and Errol also singled out another cultural practice that they associated with Creoles, and that was the use of tomatoes in cooking, as exemplified in Sentences \ref{sent:creole_randal3} and \ref{sent:creole_errol2}.
+        Both Randal and Errol singled out another cultural practice that they associated with Creoles, and that was the use of tomatoes in cooking, as exemplified in Sentences \ref{sent:creole_randal3} and \ref{sent:creole_errol2}.
         \begin{enumerate}[resume=sentences]
           \item Randal (Cajun): Quand tu vas à Nouvelle-Orléans, les gombos sont pas ça. C'est rouge. Ça met du tomate dans, et des okras, et des gombos, ça fait un tas du monde d'ici dit ça c'est pas gombo là-bas, mais c'est gombo. C'est juste le Creole. (61:58)\label{sent:creole_randal3}
           \item[] \longtrans{Randal (Cajun): When you go to New Orleans, the gumbos there are not that. They're red. They put tomato in, and okra, and okra, so a lot of people from here say that that's not gumbo over there, but it's gumbo. It's just Creole.}
@@ -1134,8 +1148,8 @@
         Errol's discussion has been reproduced at greater length here because it is is particularly enlightening.
         He began by saying that he likes Creole food.
         When asked to be more specific about a dish that he likes, he named gumbo, a dish that Cajuns make, as well, but explained that Creoles put tomatoes in their gumbo.
-        However, when asked if gumbo with tomatoes in it tastes good, he immediately responded that he did not know because he does not like gumbo like that.
-        What had begun as Errol expressing an openness to Creoleness became the exact opposite when the discussion became less abstract, so much so that Errol's final utterance in this exchange includes one of only \Sexpr{tablesParticipant$firstSg$`Errol Stoufle`["je"]} tokens of \lexi{je} for 1sg rather than his usual Creole-marked \lexi{mo}, as if to signal greater distance from the dish.
+        However, when asked if gumbo with tomatoes included tastes good, he immediately responded that he did not know because he does not like gumbo like that.
+        What had begun as Errol expressing an openness to Creoleness became the exact opposite when the discussion became less abstract, so much so that Errol's final utterance in this exchange includes one of only \Sexpr{tablesParticipant$firstSg$`Errol Stoufle`["je"]} tokens of his use of \lexi{je} for 1sg rather than his usual Creole-marked \lexi{mo}, as if to signal greater distance from the dish.
         This quick shift in stances resembles at least in part the phenomenon of White individuals attempting to name Black individuals whom they know, when in fact they do not really know any, to signal that they are not closed off to racial others, a phenomenon that also occurred when Cajuns named alters for this study.
         This once again points to the fact that Cajun boundaries, constituting the dominant racial group, are much more strictly defined even though the major marker, Whiteness, is rarely acknowledged in comparison to the frequency that Blackness is acknowledged as a marker of Creoleness.
         % Wendte
@@ -1355,17 +1369,29 @@
 
   \section{Discussion}
     % Did Cajuns police boundaries and Creoles maintain them, as was suggested in the lit review (Myers & Williamson 2001)?
-    % Was there a pattern of us vs they pronouns in the discourse as Blanton (2011) found for White and Black Americans?
+        % There was not much policing and maintaining in general
+        % One suggestive result was that Cajuns had plenty to say about Creoles but Creoles provided very little about how they viewed Cajuns.
+    % Was there a pattern of we vs they pronouns in the discourse as Blanton (2011) found for White and Black Americans?
         % Not much
         % Bruce provided in an example in Sentence \ref{ent:different_speech_bruce1} when he explained that someone somewhere uses the term ``français nègre'' for Creole speech.
+          % Owen also referred to "on" 'someone' having decided he needed to be a token during his career as an educator rather than naming the person or people involved in that decision
+        % Otherwise, we and they were used together to reference Cajuns and and Creoles without any notable additional pragmatic functions
+          % Judy talking about Cajuns and Creoles being friendly with each other but weaving practices not being shared
+          % Cynthia explaining who speaks like a Cajun and who speaks like a Creole
     % Did Creoles buy into their own negatively markings to the extent that they reproduced them themselves, as discussed in Perkins et al. (2019)?
     % Did Creoles have access to institutional forms of redress for wrongs suffered? (Labov & Harris (1986) and M. Morgan (1998/2022) had examples of this.)
+        % Gene needed White men to vouch for him in order to avoid a disproportionately large ticket
+        % Tracy needed his White baseball teammates to stand up for him in order to play baseball
     % Were Creoles burdened with learning Cajun ways of speaking in addition to their own ways of speaking (Holliday & Squires 2021, Williams & Connell 2010, Young 2009)?
         % There were participants from both groups who were able to use both Cajun-marked and Creole-marked speech, but the reasons were different
           % For instance Oliver L. had grown up with a nanny who used Creole-marked speech, whereas Tracy emphasized that he wanted to learn to understand Cajun-marked speech so that he could understand how they judged his status when interacting.
     % Did Cajuns have the privilege of being able to ignore or even deny the existence of race?
         % Yes.
         % Whiteness was clearly a requirement for Cajunness, but this was only acknowledged explicitly by one younger participant, Austin. Instead, Whiteness was described via proxies such as Acadian or European ancestry.
+        % There was also a sort of obliviousness that sometimes occurred where relatively clear examples of differential treatment were described but unacknowledged as being problematic.
+          % Judy didn't understand why Black Creoles didn't use brown cotton, describing relationships with Cajuns as friendly while simultaneously giving a clear example of racial segregation.
+          % Cajuns were cognizant of the most extreme and explicit forms of racial discrimination, however, mainly institutional segregation.
+            % Of course de jure segregation no longer exists, technically, so this was a safe form of discrimination to acknowledge without implicating persistent race-based problems in the community
 
 %% ------------------------------------------------------------------------------------------------------------------------------------------
 
