@@ -134,7 +134,7 @@
     % Baronian (2005) wasn't clear on how he distinguished between French and Creole, but did give examples, and those examples were identical save for the use of mo and gain in Creole speech (135), much like what Klingler (2003 "Language", 2005) did
     
     \begin{enumerate}[series=sentences]
-      \item s'il a pu rencontrer \emph{elle} \label{sent:postverbal_object_pro} \parencite[p.~146]{conwell_louisiana_1963}
+      \item s'il a pu rencontrer \emph{elle} \parencite[p.~146]{conwell_louisiana_1963}\label{sent:postverbal_object_pro}
     \end{enumerate}
 
     A notoriously common structural feature of creoles is the presence of what have been called preverbal markers that express tense, mood, and aspect (TMA) \parencite{winford_creole_2018}, and Louisiana Creole is no exception.
@@ -346,10 +346,11 @@
 
     \begin{enumerate}[resume=sentences]
       \item vous-autres, \textbf{ça} va à l'école\footnote{
-        Other examples provided by \textcite{conwell_louisiana_1963} are less convincing. For instance, ``vous-autres, ça donnent bien'' \gloss{y'all, you give well} was likely the homophonous \sent{vous-autres s'adonne bien} \gloss{y'all get along well}.
-      } \parencite[p.~143]{conwell_louisiana_1963} \label{sent:vous-autres_ca}
+        Other examples provided by \textcite{conwell_louisiana_1963} are less convincing.
+        For instance, ``vous-autres, ça donnent bien'' \gloss{y'all, you give well} was likely the homophonous \sent{vous-autres s'adonne bien} \gloss{y'all get along well}.
+      } \parencite[p.~143]{conwell_louisiana_1963}\label{sent:vous-autres_ca}
       \item[] y'all, \textbf{you} go to school
-      \item eux-autres, \textbf{ça} connaissait pas \parencite[p.~60]{smith_morphosyntactic_1994} \label{sent:eux-autres_ca}
+      \item eux-autres, \textbf{ça} connaissait pas \parencite[p.~60]{smith_morphosyntactic_1994}\label{sent:eux-autres_ca}
       \item[] them, \textbf{they} didn't know
     \end{enumerate}
 
@@ -462,7 +463,7 @@
     Howevever, for first person singular, only \lexi{me} is possible -- or \lexi{mo-même} in the speech of those with post-verbal object pronouns \parencite[p.~212]{klingler_if_2003} -- therefore removing the need for an explicit subject pronoun to make the subject clear.
 
     \begin{enumerate}[resume=sentences]
-      \item Faut que \emph{vous-autres se} couche de bonne heure. \label{sent:reflexive_vous-autres} \parencite[p.~85]{papen_structural_1997}
+      \item Faut que \emph{vous-autres se} couche de bonne heure. \parencite[p.~85]{papen_structural_1997}\label{sent:reflexive_vous-autres}
       \item[] \longtrans{It's necessary that you all put yourselves to bed early.}
     \end{enumerate}
 
@@ -477,10 +478,14 @@
     Rather, disjunctive pronouns function as discursive tools when coordinated with clitic pronouns, discourse being a subject that will be briefly reviewed in the next section.
 
     \begin{enumerate}[resume=sentences]
-      \item \label{sent:moi_je} KR: Et t'as appris les prières en français ou anglais?
+      \item KR: Et t'as appris les prières en français ou anglais?\label{sent:moi_je}
       \item[] \longtrans{And you learned your prayers in French or English?}
-      \item[] I28: \textbf{Mon s}'a 'pris les prières en anglais, mais s'connais le Salut Marie, le \codeEn{HAIL MARY}, en français. Là \textbf{mon s}'connais. Mémère m'a montré. ø veux apprendre les autes, mais c'est pour m'assir là, aller dire que mon ø vas lé apprendre, mais ça c'est le seul qui \textbf{mon s}'connais.
-      \item[] \longtrans{I [back] learned the prayers in English, but I know the Hail Mary, the \codeEn{HAIL MARY}, in French. That, I [back] know. Grandma taught me. I want to learn the others, but I have to sit there, go say that I'm going to learn them, but that's the only one I [back] know.}
+      \item[] I28: \textbf{Mon s}'a 'pris les prières en anglais, mais s'connais le Salut Marie, le \codeEn{HAIL MARY}, en français.
+              Là \textbf{mon s}'connais. Mémère m'a montré.
+              ø veux apprendre les autes, mais c'est pour m'assir là, aller dire que mon ø vas lé apprendre, mais ça c'est le seul qui \textbf{mon s}'connais.
+      \item[] \longtrans{I [back] learned the prayers in English, but I know the Hail Mary, the \codeEn{HAIL MARY}, in French.
+              That, I [back] know. Grandma taught me.
+              I want to learn the others, but I have to sit there, go say that I'm going to learn them, but that's the only one I [back] know.}
     \end{enumerate}
 
     Finally, \textcite{gudmestad_variationist_2022} also found the following verb to constraint which phonetic variants of first person singular \lexi{je} were produced, [ʃ] being favored before verbs of the \lexi{-er} class, [ʒ] being disfavored, and [h] and ø forming the baseline (pp.~14-15).
@@ -691,14 +696,14 @@
         % Other non-liaison examples: Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
 
         \begin{enumerate}[resume=sentences]
-          \item {}[nu] apprend un tas. \label{sent:nu_tracy} (Tracy Roth, 17:33)
-          \item[] \longtrans{We learn a lot.}
-          \item {}[no] apprenne comment pour laver. \label{sent:no_tracy} (Tracy Roth, 31:20)
-          \item[] \longtrans{We learned how to wash.}
-          \item {}[nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. \label{sent:nu1_owen} (Owen Webre, 3:32)
-          \item[] \longtrans{We say someone that had some animals or rather some livestock like that.}
-          \item {}[nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. \label{sent:nu2_owen} (Owen Webre, 14:47)
-          \item[] \longtrans{We're the people who should be of a certain level, something like that.}
+          \item Tracy: [nu] apprend un tas. (17:33)\label{sent:nu_tracy}
+          \item[] \longtrans{Tracy: We learn a lot.}
+          \item Tracy: [no] apprenne comment pour laver. (31:20)\label{sent:no_tracy}
+          \item[] \longtrans{Tracy: We learned how to wash.}
+          \item Owen: [nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. (3:32)\label{sent:nu1_owen}
+          \item[] \longtrans{Owen: We say someone that had some animals or rather some livestock like that.}
+          \item Owen: [nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. (14:47)\label{sent:nu2_owen}
+          \item[] \longtrans{Owen: We're the people who should be of a certain level, something like that.}
         \end{enumerate}
 
         The phonetic forms [vu] and [vuz]\footnote{
@@ -721,8 +726,8 @@
         % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
 
         \begin{enumerate}[resume=sentences]
-          \item {}[vu] savez? Moi, je suis ici. (Deborah Tauzin, 3:30)\label{sent:vu_deborah}
-          \item[] \longtrans{You know? Me, I'm here.}
+          \item Deborah: [vu] savez? Moi, je suis ici. (3:30)\label{sent:vu_deborah}
+          \item[] \longtrans{Deborah: You know? Me, I'm here.}
         \end{enumerate}
         
         \begin{table}[tbhp]
@@ -792,12 +797,12 @@
         For all other cases, the general process of coding tokens as \lexi{il}, \lexi{ils}, or \lexi{li} followed three steps: 1) determine if the referent is third person plural or not through either verbal morphology or co-referring expressions, treating third person plural and non-third person plural as two separate categories, 2) find the most complete phonetic realization of the pronoun and assume that all others are abbreviated versions of that token, and finally 3) verify that there are no other complete phonetic realizations that represent an alternative, contradicting pronoun.
         
         \begin{enumerate}[resume=sentences]
-          \item Mes grands-parents à moi, [i] sont beaucoup plus vieux que l'autre monde de mon âge. (Austin Roy, 15:01)\label{sent:i_plural_austin1}
-          \item[] \longtrans{My grandparents, they're a lot older than other people my age.}
-          \item Les vieilles mondes, [i] sont partis, to connais? (Floyd Kerry, 13:10)\label{sent:i_plural_floyd}
-          \item[] \longtrans{The old people, they're gone, you know?}
-          \item Mes grands-parents, [i] parliont tout le français. (Austin Roy, 14:52)\label{sent:i_plural_austin2}
-          \item[] \longtrans{My grandparents, they all spoke French.}
+          \item Austin: Mes grands-parents à moi, [i] sont beaucoup plus vieux que l'autre monde de mon âge. (15:01)\label{sent:i_plural_austin1}
+          \item[] \longtrans{Austin: My grandparents, they're a lot older than other people my age.}
+          \item Floyd: Les vieilles mondes, [i] sont partis, to connais? (13:10)\label{sent:i_plural_floyd}
+          \item[] \longtrans{Floyd: The old people, they're gone, you know?}
+          \item Austin: Mes grands-parents, [i] parliont tout le français. (14:52)\label{sent:i_plural_austin2}
+          \item[] \longtrans{Austin: My grandparents, they all spoke French.}
         \end{enumerate}
 
         In general, applying these steps was a straightforward process.
@@ -831,7 +836,7 @@
           % Ça with fait is coded as expletive both when meaning "it's been" or as the conjunction and discourse marker meaning "so"
 
         \begin{enumerate}[label=\Roman*., ref=\Roman*, series=rules]
-          \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}} \label{rule:pro_devoicing}
+          \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}\label{rule:pro_devoicing}
         \end{enumerate}
 
         Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme, allowing for the conclusion that [h] is a variant form of \lexi{je}.
@@ -863,18 +868,18 @@
         For Errol, however, every token of [ty] was the tag question \lexi{tu connais} \gloss{you know}, which he produced frequently.
 
         \begin{enumerate}[resume=sentences]
-          \item Tu devrais avoir une autre langue. (Owen Webre, 25:26)\label{sent:tu_owen}
-          \item[] \longtrans{You should have another language.}
-          \item To gain pour guetter les Américains. (Owen Webre, 17:44)\label{sent:to_owen}
-          \item[] \longtrans{You have to watch Americans.}
-          \item Tu me peux fais ça. (Tracy Roth, 17:40)\label{sent:tu_tracy}
-          \item[] \longtrans{You can do that for me.}
-          \item To trappé li encore. (Tracy Roth, 15:24)\label{sent:to_tracy}
-          \item[] \longtrans{You caught him again.}
-          \item To pouvais fais du sucre. (Tracy Roth, 8:40)\label{sent:to_tracy_exception}
-          \item[] \longtrans{You could make some sugar.}
-          \item To'tais peux couru là. (Tracy Roth, 4:44)\label{sent:to_tracy_past}
-          \item[] \longtrans{You could go there.}
+          \item Owen: Tu devrais avoir une autre langue. (25:26)\label{sent:tu_owen}
+          \item[] \longtrans{Owen: You should have another language.}
+          \item Owen: To gain pour guetter les Américains. (17:44)\label{sent:to_owen}
+          \item[] \longtrans{Owen: You have to watch Americans.}
+          \item Tracy: Tu me peux fais ça. (17:40)\label{sent:tu_tracy}
+          \item[] \longtrans{Tracy: You can do that for me.}
+          \item Tracy: To trappé li encore. (15:24)\label{sent:to_tracy}
+          \item[] \longtrans{Tracy: You caught him again.}
+          \item Tracy: To pouvais fais du sucre. (8:40)\label{sent:to_tracy_exception}
+          \item[] \longtrans{Tracy: You could make some sugar.}
+          \item Tracy: To'tais peux couru là. (4:44)\label{sent:to_tracy_past}
+          \item[] \longtrans{Tracy: You could go there.}
         \end{enumerate}
 
         It is not difficult to conclude that [ty] and [to] are distinct for speakers, then, but [ty] and [ti] present a different scenario in that they appear in identical linguistic contexts for those speakers who produce both.
@@ -886,10 +891,10 @@
         These factors therefore suggest that two target pronouns are at play in this case: \lexi{tu} and \lexi{to}.
         
         \begin{enumerate}[resume=sentences]
-          \item {}[ti] vas venir jouer pour moi à ce soir. (Gene Delcambre, 33:01)\label{sent:ti_gene}
-          \item[] \longtrans{You're going to come play for me tonight.}
-          \item {}[ty] vas aller à la grocerie. (Gene Delcambre, 19:13)\label{sent:tu_gene}
-          \item[] \longtrans{You're going to go to the grocery store.}
+          \item Gene: [ti] vas venir jouer pour moi à ce soir. (33:01)\label{sent:ti_gene}
+          \item[] \longtrans{Gene: You're going to come play for me tonight.}
+          \item Gene: [ty] vas aller à la grocerie. (19:13)\label{sent:tu_gene}
+          \item[] \longtrans{Gene: You're going to go to the grocery store.}
         \end{enumerate}
 
         Finally, there are three other pronouns that have been described in the literature as having various phonetic realizations but all were realized with only one phonetic form in my data.
@@ -1012,10 +1017,10 @@
         Again, while such patterns were instructive, they were not completely sufficient.
 
         \begin{enumerate}[resume=sentences]
-          \item Ça peut tour asteur, tu vois? (Rose Louvière, 22:54)\label{sent:rose_TV1}
-          \item[] \longtrans{They can tour now, you see?}
-          \item Il est plus gros que vous (Rose Louvière, 22:32)\label{sent:rose_TV2}
-          \item[] \longtrans{He is bigger than you.}
+          \item Rose: Ça peut tour asteur, tu vois? (22:54)\label{sent:rose_TV1}
+          \item[] \longtrans{Rose: They can tour now, you see?}
+          \item Rose: Il est plus gros que vous (22:32)\label{sent:rose_TV2}
+          \item[] \longtrans{Rose: He is bigger than you.}
         \end{enumerate}
 
         A final aid for determining T-V intentions for 2sg pronouns was the translation task that some participants completed.
@@ -1040,14 +1045,14 @@
         Otherwiuse, tokens that were clearly expletive such as sentence \ref{sent:judy_cest} were coded as such and \Sexpr{nrow(tokens[tokens$SubjPred == "c'est" & tokens$ProType == "3pl",])} tokens that strongly suggested 3pl reference were also coded as such.
 
         \begin{enumerate}[resume=sentences]
-          \item *Le livre, il est un roman intéressant. \label{sent:it_vs_that_unaccept}
+          \item *Le livre, il est un roman intéressant.\label{sent:it_vs_that_unaccept}
           \item[] \longtrans{The book, it's an interesting novel.}
-          \item Le livre, c'est un roman intéressant. \label{sent:it_vs_that_accept}
+          \item Le livre, c'est un roman intéressant.\label{sent:it_vs_that_accept}
           \item[] \longtrans{*The book, that's an interesting novel.}
-          \item Quoi c'est l'expression, love conquers all? (Brian Roger, 5:28)\label{sent:interrogative_cest}
-          \item[] \longtrans{What's the expression, love conquers all?}
-          \item C'est trop chaud. (Judy Soileau Courtade, 9:15)\label{sent:judy_cest}
-          \item[] \longtrans{It's too hot. (the weather)}
+          \item Brian: Quoi c'est l'expression, love conquers all? (5:28)\label{sent:interrogative_cest}
+          \item[] \longtrans{Brian: What's the expression, love conquers all?}
+          \item Judy: C'est trop chaud. (9:15)\label{sent:judy_cest}
+          \item[] \longtrans{Judy: It's too hot. (the weather)}
         \end{enumerate}
         
         A pronoun that can take up truly impersonal functions is \lexi{on}.
@@ -1058,8 +1063,8 @@
         As it was expected and in fact came to be, clearly impersonal \lexi{on} would be rare (\Sexpr{nrow(tokens[tokens$ProType == "imp" & tokens$ProUnder == "on",])} tokens) whereas clearly 1pl \lexi{on} would be very frequent (\Sexpr{nrow(tokens[tokens$ProType == "1pl" & tokens$ProUnder == "on",])} tokens), coding ambiguous tokens as 1pl would be the more conservative choice and thus what was done here.
 
         \begin{enumerate}[resume=sentences]
-          \item Si c'est on est après parler avec quelqu'un, on dit charrer. (Jerry Pierre Quintero, 0:32)\label{sent:ambiguous_on}
-          \item[] \longtrans{If it's that \emph{one is/we are} speaking with someone, \emph{one/we} say charrer.}
+          \item Jerry: Si c'est on est après parler avec quelqu'un, on dit charrer. (0:32)\label{sent:ambiguous_on}
+          \item[] \longtrans{Jerry: If it's that \emph{one is/we are} speaking with someone, \emph{one/we} say charrer.}
         \end{enumerate}
 
         % Lagniappe -----------------------------------------
@@ -1155,8 +1160,8 @@
       As this differs from \lexi{avoir besoin} in that it is not interpretable from its components and cannot be followed by a noun, it was treated as a modal verb.
 
       \begin{enumerate}[resume=sentences]
-        \item Mo besoin fais d'autre l'ouvrage dessus li. (Floyd Kerry, 4:58)\label{sent:floyd_besoin}
-        \item[] \longtrans{I need to do other work on it.}
+        \item Floyed: Mo besoin fais d'autre l'ouvrage dessus li. (4:58)\label{sent:floyd_besoin}
+        \item[] \longtrans{Floyd: I need to do other work on it.}
       \end{enumerate}
 
       Other auxiliary verbs that are at times lexical and at other times auxiliary are those that express movement in their lexical forms.
@@ -1170,11 +1175,11 @@
       Ultimately, tokens of \lexi{gone} were all coded as verbs because \lexi{gone} can appear in contexts where only a verbal element is possible, such as after the auxiliary verb \lexi{avoir} in sentence \ref{sent:verb_gone}, and because the low number of tokens of predicate adjectives would give potentially incorrect codings of \lexi{gone} as an adjective an outsized impact on statistical results, making coding it as a verb the more conservative approach.
 
       \begin{enumerate}[resume=sentences]
-        \item Mo couru travailler pour des avocats. (Elizabeth Naquin, 9:32)\label{sent:elizabeth_serial}
-        \item[] \longtrans{I went to work for some lawyers.}
-        \item Mo pas gone payer pour toi. (Tracy Roth, 33:13)\label{sent:tracy_gone}
-        \item[] \longtrans{I'm not going to pay for you.}
-        \item Il a gone pour un mois. \parencite[p.~315]{valdman_dictionary_2010} \label{sent:verb_gone}
+        \item Elizabeth: Mo couru travailler pour des avocats. (9:32)\label{sent:elizabeth_serial}
+        \item[] \longtrans{Elizabeth: I went to work for some lawyers.}
+        \item Tracy: Mo pas gone payer pour toi. (33:13)\label{sent:tracy_gone}
+        \item[] \longtrans{Tracy: I'm not going to pay for you.}
+        \item Il a gone pour un mois. \parencite[p.~315]{valdman_dictionary_2010}\label{sent:verb_gone}
         \item[] \longtrans{He went for a month.}
       \end{enumerate}
 
@@ -1218,11 +1223,11 @@
         % Ale is common in St Tammany Creole (Klingler 2003 "Turn":260)
 
         \begin{enumerate}[resume=sentences]
-          \item Li sa pas content. (Owen Webre, 65:25)\label{sent:owen_sa}
-          \item[] Elle sera pas contente. (Standard French)
+          \item Owen: Li sa pas content. (65:25)\label{sent:owen_sa}
+          \item[] Standard French: Elle sera pas contente.
           \item[] \longtrans{She won't be happy.}
-          \item La langue sera devenir plus sophistiquée aujourd'hui. (Steven Marcel, 69:09)\label{sent:steven_sra}
-          \item[] \longtrans{The language would have become more more sophisticated today.}
+          \item Steven: La langue sera devenir plus sophistiquée aujourd'hui. (69:09)\label{sent:steven_sra}
+          \item[] \longtrans{Steven: The language would have become more more sophisticated today.}
         \end{enumerate}
 
         Elements used to primarily express mood likewise can reasonably be interpreted as verbs, and in fact have been interpreted as auxiliaries albeit not distinct from other auxiliaries.
@@ -1246,11 +1251,11 @@
         % Putting aside that this is not a particularly clear definition -- is the first criteria necessary or optional when the latter criteria are met, and what counts as a related verb? -- these criteria do not match any of the many definitional criteria in the literature summarized by \textcite[pp.~22-24]{heine_auxiliaries_1993} and in fact the criteria of not being followed by an NP is contradicted by several syntacticians.
   
         \begin{enumerate}[resume=sentences]
-          \item Se juch mon ki \emph{ka} parle sa. (LC) (p.~273)\label{sent:kapab1_klingler}
-          \item[] C'est juste moi qui suis \emph{capable} de parler ça. (FR)
+          \item Louisiana Creole: Se juch mon ki \emph{ka} parle sa. (p.~273)\label{sent:kapab1_klingler}
+          \item[] Louisiana(??) French: C'est juste moi qui suis \emph{capable} de parler ça.
           \item[] \longtrans{It's just me who is capable of speaking that.}
-          \item Mounn \emph{ka} apronn. (LC) (p.~274)\label{sent:kapab2_klingler}
-          \item[] Le monde est \emph{capable} d'apprendre. (FR)
+          \item Louisiana Creole: Mounn \emph{ka} apronn. (p.~274)\label{sent:kapab2_klingler}
+          \item[] Louisiana(??) French: Le monde est \emph{capable} d'apprendre.
           \item[] \longtrans{People are capable of learning.}
         \end{enumerate}
   
@@ -1613,16 +1618,20 @@
     Gene Delcambre fits the second description in that all of his subject pronouns matched those traditionally described as French except for 3pl where he consistently used \lexi{yé}.
     Both this inconsistency between Creole and Cajun identity and speech patterns as well as the consistency uncovered by the models here are apparent enough to the community that metalinguistic commentary identifies both truths, as the discussion between Cynthia Robichaux Savoie and Lucille Royer below makes clear.
 
-    \begin{itemize}
-      \item[JM:] Est-ce que les Créoles parlent différemment des Cadiens? ...
-      \item[CRS:] I went to the store. Mo'tais couru au store.
-      \item[LR:] Et toi t'as été plus élevée autour du créole. À la Ville Platte, les Noirs à la Ville Platte parlaient français cadien d'après ce que moi je me rappelle.
-      \item[CRS:] Oui, il y a des Noirs qui parlent français comme nous-autres, mais il y a des Blancs qui parlent créole comme les Noirs.
-      \item[JM:] {}[\textit{Do Creoles speak different from Cajuns? ...}
-      \item[CRS:] \textit{I went to the store. I went to the store.}
-      \item[LR:] \textit{And you were more raised around Creole. In Ville Platte, Blacks in Ville Platte spoke Cajun French from what I remember.}
-      \item[CRS:] \textit{Yes, there are Black who speak French like us, but there are Whites who speak Creole like Blacks.}]
-    \end{itemize}
+    \begin{enumerate}
+      \item Joshua (Interviewer): Est-ce que les Créoles parlent différemment des Cadiens? ... (45:03)
+      \item Cynthia: I went to the store.
+            Mo'tais couru au store.
+      \item Lucille: Et toi t'as été plus élevée autour du créole.
+            À la Ville Platte, les Noirs à la Ville Platte parlaient français cadien d'après ce que moi je me rappelle.
+      \item Cynthia: Oui, il y a des Noirs qui parlent français comme nous-autres, mais il y a des Blancs qui parlent créole comme les Noirs.
+      \item[] \longtrans{Joshua: Do Creoles speak different from Cajuns? ...}
+      \item[] \longtrans{Cynthia: I went to the store.
+            I went to the store.}
+      \item[] \longtrans{Lucille: And you were more raised around Creole.
+            In Ville Platte, Blacks in Ville Platte spoke Cajun French from what I remember.}
+      \item[] \longtrans{Cynthia: Yes, there are Black who speak French like us, but there are Whites who speak Creole like Blacks.}]
+    \end{enumerate}
 
     \begin{table}[tbhp]
       \caption{Ethnicity for each pronoun type model}

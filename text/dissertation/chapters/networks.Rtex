@@ -276,8 +276,10 @@
       Another confusion, however, was whether the question was about discussing important matters specifically in F\&C rather than in any language, the latter being the intent.
 
       \begin{enumerate}[resume=sentences]
-        \item \label{sent:name_generator_GSS} From time to time, most people discuss important matters with other people. Looking back over the last six months -- that would be back to last August -- who are the people with whom you discussed an important personal matter? \parencite[p.~331]{burt_network_1984}
-        \item[] \longtrans{Tous les temps en temps, le monde parle pour les affaires importantes avec d’autre monde. Si tu peux jongler pour les six derniers mois, qui sont les individus avec qui toi tu parles pour les affaires qui te sont importantes?}
+        \item From time to time, most people discuss important matters with other people.
+              Looking back over the last six months -- that would be back to last August -- who are the people with whom you discussed an important personal matter? \parencite[p.~331]{burt_network_1984}\label{sent:name_generator_GSS}
+        \item[] \longtrans{Tous les temps en temps, le monde parle pour les affaires importantes avec d’autre monde.
+              Si tu peux jongler pour les six derniers mois, qui sont les individus avec qui toi tu parles pour les affaires qui te sont importantes?}
       \end{enumerate}
 
       This name generator was originally found to yield of mean of 3.01 alters with a $SD$ of 1.77 \parencite[p.~125]{marsden_core_1987}, which is in line with those generated in the current study (mean $\approx$ \Sexpr{round(mean(table(networks[networks$`Alter Type` == "Core", "Name"])), 2)}, $SD \approx$ \Sexpr{round(sd(table(networks[networks$`Alter Type` == "Core", "Name"])), 2)}).
@@ -293,7 +295,7 @@
       As has been noted, while doing so may help for comparability between networks, it can also lead to overlooking important ties or including unimportant ties \parencite[p.~345]{sharma_language_2020}.
 
       \begin{enumerate}[resume=sentences]
-        \item \label{sent:name_generator_french} Qui sont les personnes avec qui tu parles souvent français?
+        \item Qui sont les personnes avec qui tu parles souvent français?\label{sent:name_generator_french}
         \item[] \longtrans{Who are the people with whom you often speak French?}
       \end{enumerate}
         
@@ -317,9 +319,9 @@
       Essentially, if a Cajun describes an alter as Cajun, that alter most likely can pass as a Cajun, and indeed, as will be discussed in section \ref{sec:network_analyses}, agreement was high between participants when they were describing the ethnicities of shared alters.
 
       \begin{enumerate}[resume=sentences]
-        \item Pour chaque personne sur cette liste, quoi c’est son éthnicité, c’est-à-dire son \foreign{ethnicity}? \label{sent:interpret_ethnicity}
+        \item Pour chaque personne sur cette liste, quoi c’est son éthnicité, c’est-à-dire son \foreign{ethnicity}?\label{sent:interpret_ethnicity}
         \item[] \longtrans{For each person on this list, what is their ethnicity, that is to say their ethnicity?}
-        \item Pour chaque personne sur cette liste, combien souvent tu parles français avec? \label{sent:interpret_french}
+        \item Pour chaque personne sur cette liste, combien souvent tu parles français avec?\label{sent:interpret_french}
         \item[] \longtrans{For each person on this list, how often do you speak French with them?}
       \end{enumerate}
 
@@ -346,7 +348,7 @@
       % A. Wong (2010) measured homophily in the same way as was done here.
 
       \begin{enumerate}[label=\roman*., ref=\roman*, resume=equations]
-        \item EI homophily $= \frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$ \label{eq:ei_homophily}
+        \item EI homophily $= \frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$\label{eq:ei_homophily}
       \end{enumerate}
 
       The more important discussion in terms of analyses, however, is the way in which the ethnicities of alters were coded both from the perspective of personal networks and from the perspective of the whole network.

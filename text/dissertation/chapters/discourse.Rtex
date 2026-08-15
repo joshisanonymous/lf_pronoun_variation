@@ -207,8 +207,10 @@
           \item[] \longtrans{Oliver L. (Cajun): Cajun, that's above all someone who came with the group of Acadians after the dispersion of the Acadians from Canada.}
           \item Arthur (Cajun): C'est des personnes que le histoire, le généologie vient de le Nouvelle-Écosse. (41:09)\label{sent:cajun_arthur}
           \item[] \longtrans{Arthur (Cajun): It's people whose history, geneology come from Nova Scotia.}
-          \item Jerry (White Creole): Un Cadien? Well, le monde vient de Acadie. (31:56)\label{sent:cajun_jerry}
-          \item[] \longtrans{Jerry (White Creole): A Cajun? Well, the people who came from Acadia.}
+          \item Jerry (White Creole): Un Cadien?
+                Well, le monde vient de Acadie. (31:56)\label{sent:cajun_jerry}
+          \item[] \longtrans{Jerry (White Creole): A Cajun?
+                Well, the people who came from Acadia.}
           \item Floyd (Creole): Comme mo mo tais lire, les Cadiens taient sortis dans Canada. (51:48)\label{sent:cajun_floyd}
           \item[] \longtrans{Floyd (Creole): As I would read, Cajuns had come out of Canada.}
         \end{enumerate}
@@ -274,8 +276,12 @@
         This lack of recent examples and even the rarety of older examples was explicitly expressed by Bruce.
         In Sentence \ref{sent:life_bruce}, he recounted a discussion he witnessed where a mother from Marksville wanted to be called French rather than Cajun because the latter was stigmatized.
         \begin{enumerate}[resume=sentences]
-          \item Bruce (Cajun): Mais, une fois, il habitait ici, il a dit ça à sa mère, un jour il dit, ``Mais Mom, on est tous des Cadiens.'' ``Oh non,'' elle dit, ``on est pas des Cadiens. Nous-autres, on était français.'' Eh? Parce que les Cadiens, c'était, it was a lower class, une basse classe, eh? (40:17)\label{sent:life_bruce}
-          \item[] \longtrans{Bruce (Cajun): But, one time, he lived here, he said that to his mother, one day he says, ``But Mom, we're all Cajuns.'' ``Oh no,'' she says, ``we aren't Cajuns. Us, we're French.'' Eh?}
+          \item Bruce (Cajun): Mais, une fois, il habitait ici, il a dit ça à sa mère, un jour il dit, ``Mais Mom, on est tous des Cadiens.''
+                ``Oh non,'' elle dit, ``on est pas des Cadiens. Nous-autres, on était français.'' Eh?
+                Parce que les Cadiens, c'était, it was a lower class, une basse classe, eh? (40:17)\label{sent:life_bruce}
+          \item[] \longtrans{Bruce (Cajun): But, one time, he lived here, he said that to his mother, one day he says, ``But Mom, we're all Cajuns.''
+                ``Oh no,'' she says, ``we aren't Cajuns. Us, we're French.'' Eh?
+                Because Cajuns, that was, it was a lower class, a lower class, eh?}
         \end{enumerate}
         He went on to explain that this was the only time he had heard a family express the desire to be called French rather than Cajun.
         The time period of this example itself was not entirely clear, but Bruce, born in \Sexpr{participants[participants$Name == "Bruce Wiltz", "Birth Year"]}, was describing a friend of his when this friend previously lived near Bruce and when his mother was around to speak with, suggesting it was not only a rare event but also a non-recent event.
@@ -303,12 +309,22 @@
         That is not to say that no alters were classified as Cajun according to ancestry, though.
         Family names, employed as proxies for ancestry, were a common tool used for choosing alter ethnicities, as in Sentences \ref{sent:cajun_cynthia1} through \ref{sent:cajun_jack}.
         \begin{enumerate}[resume=sentences]
-          \item Cynthia (Cajun): Oh ouais ouais. Son nom de famille, c'est Thibodeaux. C'est beaucoup cadien, ça. (60:11)\label{sent:cajun_cynthia1}
-          \item[] \longtrans{Cynthia (Cajun): Oh yeah yeah. His family name, that's Thibodeaux. That's very Cajun, that.}
-          \item Randal (Cajun): Oh, Huey est cadien, oh, haha, yeah. Il est un Mabile. (48:17)\label{sent:cajun_randal1}
-          \item[] \longtrans{Randal (Cajun): Oh, Huey is Cajun, oh, haha, yeah. He's a Mabile.}
-          \item Jack (Cajun): Wilton, il est cadien. Il est Chenevert. Chenevert, c'est un mot très très cadien. (54:17)\label{sent:cajun_jack}
-          \item[] \longtrans{Jack (Cajun): Wilton, he's Cajun. He's a Chenevert. Chenevert, that's a very very Cajun word.}
+          \item Cynthia (Cajun): Oh ouais ouais.
+                Son nom de famille, c'est Thibodeaux.
+                C'est beaucoup cadien, ça. (60:11)\label{sent:cajun_cynthia1}
+          \item[] \longtrans{Cynthia (Cajun): Oh yeah yeah.
+                His family name, that's Thibodeaux.
+                That's very Cajun, that.}
+          \item Randal (Cajun): Oh, Huey est cadien, oh, haha, yeah.
+                Il est un Mabile. (48:17)\label{sent:cajun_randal1}
+          \item[] \longtrans{Randal (Cajun): Oh, Huey is Cajun, oh, haha, yeah.
+                He's a Mabile.}
+          \item Jack (Cajun): Wilton, il est cadien.
+                Il est Chenevert.
+                Chenevert, c'est un mot très très cadien. (54:17)\label{sent:cajun_jack}
+          \item[] \longtrans{Jack (Cajun): Wilton, he's Cajun.
+                He's a Chenevert.
+                Chenevert, that's a very very Cajun word.}
         \end{enumerate}
         These three examples were particularly emphatic about just how Cajun these last names were.
         In this case, Chenevert is notable.
@@ -334,8 +350,10 @@
         What did come up, however, was that many Cajuns do not in fact have Acadian family names.
         In Sentence \ref{sent:cajun_randal2}, Randal acknowledged this while trying to decide the ethnicity of his wife.
         \begin{enumerate}[resume=sentences]
-          \item Randal (Cajun): Son nom de famille, c'est Saint Amant. Ça c'est espagnol, mais comme un tas des noms, y a des Allemands, y a des Espagnols ici qui parlent français qui considéraient des Cadiens, ça fait elle a, tu peux dire espagnole, mais elle est cadien. (47:15)\label{sent:cajun_randal2}
-          \item[] \longtrans{Randal (Cajun): Her family name, that's Saint Amant. That's Spanish, but like a lot of names, there are Germans, there are Spanish people here who speak French who would consider themselves Cajun, so she, you can say Spanish, but she's Cajun.}
+          \item Randal (Cajun): Son nom de famille, c'est Saint Amant.
+                Ça c'est espagnol, mais comme un tas des noms, y a des Allemands, y a des Espagnols ici qui parlent français qui considéraient des Cadiens, ça fait elle a, tu peux dire espagnole, mais elle est cadien. (47:15)\label{sent:cajun_randal2}
+          \item[] \longtrans{Randal (Cajun): Her family name, that's Saint Amant.
+                That's Spanish, but like a lot of names, there are Germans, there are Spanish people here who speak French who would consider themselves Cajun, so she, you can say Spanish, but she's Cajun.}
         \end{enumerate}
         Importantly, the national origins he gave for family names of Cajuns were all European, and Europeanness is what White stands for in the racialized social system of the broader US.
         Taking Cajun to be a local form of White, it was thus not important to deny those with non-Acadian European ancestors from crossing the Cajun boundary.
@@ -343,14 +361,20 @@
         
         Lillian was more explicit about Cajun being Europe-centric in Sentence \ref{sent:cajun_lillian1} where she acknowledged that her husband was White, which helped his case for saying that he was Cajun despite his German family name.
         \begin{enumerate}[resume=sentences]
-          \item Lillian (Cajun): Il est allemand, mais il est blanc, mais il parle cadien. Il dit, je crois lui il dit il est cadien, mais il connaît son ancêtres sont allemands. (39:13)\label{sent:cajun_lillian1}
-          \item[] \longtrans{Lillian (Cajun): He's German, but he's White, but he speaks Cajun. He says, I believe that he says that he's Cajun, but he knows that his ancestors are German.}
+          \item Lillian (Cajun): Il est allemand, mais il est blanc, mais il parle cadien.
+                Il dit, je crois lui il dit il est cadien, mais il connaît son ancêtres sont allemands. (39:13)\label{sent:cajun_lillian1}
+          \item[] \longtrans{Lillian (Cajun): He's German, but he's White, but he speaks Cajun.
+                He says, I believe that he says that he's Cajun, but he knows that his ancestors are German.}
         \end{enumerate}
         Dennis focused on Cajuns with German family names, as well, in Sentence \ref{sent:cajun_dennis1}.
         In his case, however, the boundaries of Cajun identity did not extend to just any European descendents in Louisiana but more specifically to those whose ancestors had integrated with Acadians in some way.
         \begin{enumerate}[resume=sentences]
-          \item Dennis (Cajun): Ça fait, y a toujours des vieilles familles de l'Allemand -- Comardelle, D'Entremont, Lachaussee, Bogard -- mais ils ont tous appris français. Ils ont marié les Acadiens. Aujourd'hui, ça croit c'est tous des Acadiens. (23:28)\label{sent:cajun_dennis1}
-          \item[] \longtrans{Dennis (Cajun): So, there are still old families from Germany -- Comardelle, D'Entremont, Lachaussee, Bogard -- but they have all learned French. They married Acadians. Today, they believe that they're all Acadians.}
+          \item Dennis (Cajun): Ça fait, y a toujours des vieilles familles de l'Allemand -- Comardelle, D'Entremont, Lachaussee, Bogard -- mais ils ont tous appris français.
+                Ils ont marié les Acadiens.
+                Aujourd'hui, ça croit c'est tous des Acadiens. (23:28)\label{sent:cajun_dennis1}
+          \item[] \longtrans{Dennis (Cajun): So, there are still old families from Germany -- Comardelle, D'Entremont, Lachaussee, Bogard -- but they have all learned French.
+                They married Acadians.
+                Today, they believe that they're all Acadians.}
         \end{enumerate}
         Like Lillian, he also brought up the ability to speak French, or ``Cajun'' in Lillian's case, drawing the association between Cajuns and a way of speaking.
         In the case of Lillian's husband, speaking Cajun most likely meant using the same Cajun-marked pronouns as herself given that he was also from southwest of Lafayette where Creole-marked pronouns are not attested.
@@ -427,14 +451,19 @@
         
         As a result, for someone like Bruce, the first thing he considered when thinking about the ethnicity of his alter in Sentence \ref{sent:cajun_bruce} was how this alter learned F\&C.
         \begin{enumerate}[resume=sentences]
-          \item Bruce (Cajun): Dubois, Gilroy Dubois. Oui, je crois il a appris, je suis pas sûr à quel âge il allait, et c'était comme ça avec Jack. Il dit, lui, il a appris le français avec ses grands-parents. (47:15)\label{sent:cajun_bruce}
-          \item[] \longtrans{Bruce (Cajun): Dubois, Gilroy Dubois. Yes, I believe that he learned, I'm not sure at what age he was going, and it was like that with Jack. He says that he learned French with his grandparents.}
+          \item Bruce (Cajun): Dubois, Gilroy Dubois.
+                Oui, je crois il a appris, je suis pas sûr à quel âge il allait, et c'était comme ça avec Jack.
+                Il dit, lui, il a appris le français avec ses grands-parents. (47:15)\label{sent:cajun_bruce}
+          \item[] \longtrans{Bruce (Cajun): Dubois, Gilroy Dubois.
+                Yes, I believe that he learned, I'm not sure at what age he was going, and it was like that with Jack.
+                He says that he learned French with his grandparents.}
         \end{enumerate}
         Bruce was not asked how his alter learned F\&C but rather what his friend's ethnicity was, and these were the thoughts that questioned triggered.
 
         For Rose in Sentence \ref{sent:cajun_rose}, even being anglophone but sending one's children to French immersion schooling showed enough appreciation for F\&C for her daughter to be able to qualify as Cajun.
         \begin{enumerate}[resume=sentences]
-          \item Rose (Cajun): Out of the three, she, yeah, she's my strongest one, yeah because she sends her kids to French immersion. That says it all. (100:54)\label{sent:cajun_rose}
+          \item Rose (Cajun): Out of the three, she, yeah, she's my strongest one, yeah because she sends her kids to French immersion.
+                That says it all. (100:54)\label{sent:cajun_rose}
         \end{enumerate}
         Rose was thinking out loud at this point about which of her children were the most Cajun, hence describing this particular daughter as the ``strongest one''.
         Her daughter was in fact present during the interview and could mostly understand F\&C but did not produce it.\footnote{
@@ -476,8 +505,12 @@
         \begin{enumerate}[resume=sentences]
           \item Oliver L. (Cajun): Si t'olé parler en nègre, en créole, couru-vini, mo mo capable faire ça, aussi. (1:07)\label{sent:different_speech_lesage1}
           \item[] \longtrans{Oliver L. (Cajun): If you want to speak in negro, in Creole, Couru-Vini, I'm capable of doing that, too.}
-          \item Oliver L. (Cajun): Elle s'appelle Mildred, alors quand elle elle arrive, là no gain pour parler comme ça. Li dit, ``Oliver, comment to yé, nègre?'' Et, ``M'apè fais okay aujourd'hui.'' (2:21)\label{sent:different_speech_lesage2}
-          \item[] \longtrans{Oliver L. (Cajun): Her name is Mildred, so when she arrives, then we have to talk like this. She says, ``Oliver, how are you, negro?'' And, ``I'm doing okay today.''}
+          \item Oliver L. (Cajun): Elle s'appelle Mildred, alors quand elle elle arrive, là no gain pour parler comme ça.
+                Li dit, ``Oliver, comment to yé, nègre?''
+                Et, ``M'apè fais okay aujourd'hui.'' (2:21)\label{sent:different_speech_lesage2}
+          \item[] \longtrans{Oliver L. (Cajun): Her name is Mildred, so when she arrives, then we have to talk like this.
+                She says, ``Oliver, how are you, negro?''
+                And, ``I'm doing okay today.''}
         \end{enumerate}
         In the latter example, the switch involved him going from using \lexi{elle} to using \lexi{li} to refer to Mildred, showing the salience of subject pronouns in the distinction between the varieties.
         Also notable is that both of his demonstrations included the word \lexi{nègre}, whose translation in Louisiana is quite complicated, ranging from \gloss{buddy} to the N-word.
@@ -495,8 +528,10 @@
         
         Owen confirmed that this stigma existed in Sentence \ref{sent:different_speech_owen}.
         \begin{enumerate}[resume=sentences]
-          \item Owen (Creole): Nous-autres, no tait parler créole dans la maison ou à la maison et dans les voisinages. Si on voyageait de le village comme ça, de le territoire ou, on disait que, ``Laisse pas les mondes connaît que to t'apè parler ça, parce que yé va dit que to pas éduqué ou quelque chose. Ina quelque chose pas bien avec toi.'' (15:55)\label{sent:different_speech_owen}
-          \item[] \longtrans{Owen (Creole): Us, we would speak Creole in the house and in the neighborhood. If we were traveling around the town like that, around the region or, we would say, ``Don't let people know that you were speaking that, because they will say that you're not educated or something. There was something not right with you.''}
+          \item Owen (Creole): Nous-autres, no tait parler créole dans la maison ou à la maison et dans les voisinages.
+                Si on voyageait de le village comme ça, de le territoire ou, on disait que, ``Laisse pas les mondes connaît que to t'apè parler ça, parce que yé va dit que to pas éduqué ou quelque chose. Ina quelque chose pas bien avec toi.'' (15:55)\label{sent:different_speech_owen}
+          \item[] \longtrans{Owen (Creole): Us, we would speak Creole in the house and in the neighborhood.
+                If we were traveling around the town like that, around the region or, we would say, ``Don't let people know that you were speaking that, because they will say that you're not educated or something. There was something not right with you.''}
         \end{enumerate}
         Here, Owen had been askedif people in Breaux Bridge used to say that they were Creole, to which he explained that speaking in a Creole-marked way was not something they wanted to say publicly for fear of being looked down on.
         For him, it appeared that language was likewise highly associated with Creoles, as well, given that he immediately thought of Creole speech when asked about Creole identity.
@@ -511,13 +546,25 @@
         \begin{enumerate}[resume=sentences]
           \item Austin (Cajun): Elle vient de Henderson, et puis to ca' dis li parle un petit brin créole là. (81:02)\label{sent:different_speech_austin}
           \item[] \longtrans{Austin (Cajun): She's from Henderson, and so you can say that she speaks a bit of Creole there.}
-          \item Bruce (Cajun): Et eux, ils ont venu de autour de Catahoula, et ça parlait un peu de le créole aussi, eh? ``Mo gain li, to gain li,'' et c'est la seule fois moi j'avais entendu ça. (46:21)\label{sent:different_speech_bruce2}
-          \item[] \longtrans{Bruce (Cajun): And them, they came from around Catahoula, and they spoke a bit of Creole also, eh? I have it, you have it, and that's the only time that I had heard that.}
+          \item Bruce (Cajun): Et eux, ils ont venu de autour de Catahoula, et ça parlait un peu de le créole aussi, eh?
+                ``Mo gain li, to gain li,'' et c'est la seule fois moi j'avais entendu ça. (46:21)\label{sent:different_speech_bruce2}
+          \item[] \longtrans{Bruce (Cajun): And them, they came from around Catahoula, and they spoke a bit of Creole also, eh?
+                ``I have it, you have it,'' and that's the only time that I had heard that.}
         \end{enumerate}
         The phenomenon was most clearly put into racial terms in Sentence \ref{sent:different_speech_cynthia}.
         \begin{enumerate}[resume=sentences]
-          \item Cynthia (Cajun): Les Créoles, mais ouais, ça parle différent que nous. ``Mo mo tais couru.'' \gloss{I went.} ``Mo tais couru. No tait gain.'' ... Il y a des Noirs qui parlent le français comme nous-autres, mais il y a des Blancs qui parlent le créole comme les Noirs, et Cecilia qui est sept miles d'ici, pour la plupart, les Blancs, ils parlent créole, et on disait ils se parlent nègre. Ça disait pas ils se parlent créole. (45:13)\label{sent:different_speech_cynthia}
-          \item[] \longtrans{Cynthia (Cajun): Creoles, well yeah, they speak differently than us. ``I would go.'' \gloss{I went.} ``I would go. We had.'' ... There are some Blacks who speak French like us, but there are some Whites who speak Creole like Blacks, and Cecilia which is seven miles from here, for the most part, Whites, they speak Creole, and we would say to each other that they speak negro. They wouldn't say that they speak Creole to each other.}
+          \item Cynthia (Cajun): Les Créoles, mais ouais, ça parle différent que nous.
+                ``Mo mo tais couru.''
+                \gloss{I went.}
+                ``Mo tais couru. No tait gain.'' ...
+                Il y a des Noirs qui parlent le français comme nous-autres, mais il y a des Blancs qui parlent le créole comme les Noirs, et Cecilia qui est sept miles d'ici, pour la plupart, les Blancs, ils parlent créole, et on disait ils se parlent nègre.
+                Ça disait pas ils se parlent créole. (45:13)\label{sent:different_speech_cynthia}
+          \item[] \longtrans{Cynthia (Cajun): Creoles, well yeah, they speak differently than us.
+                ``I would go.''
+                \gloss{I went.}
+                ``I would go. We had.'' ...
+                There are some Blacks who speak French like us, but there are some Whites who speak Creole like Blacks, and Cecilia which is seven miles from here, for the most part, Whites, they speak Creole, and we would say to each other that they speak negro.
+                They wouldn't say that they speak Creole to each other.}
         \end{enumerate}
         Cynthia was asked if Cajuns and Creoles speak differently, to which she responded that they did, gave some examples that included Creole-marked subject pronouns, and then explained further using the terms White and Black rather than Cajun and Creole, implicitly making the association between the local social categories and broader racialized social categories.
         Like Oliver L. (Sentences \ref{sent:different_speech_lesage1} and \ref{sent:different_speech_lesage2}), she also brought up the word \lexi{nègre} for characterizing Creole-marked speech in Cecilia, a town that was also brought up by Brian, Mary and Arthur to talk about White people using Creole-marked speech, as well as Bruce, Lillian and Oliver L. to talk about Creole-marked speech being present in general.
@@ -529,16 +576,20 @@
         In the case of Creole, the Caribbean is brought into the frame in Sentences \ref{sent:different_speech_arthur} and \ref{sent:different_speech_brian}.
         \begin{enumerate}[resume=sentences]
           \item Arthur (Cajun): A lot of the Blacks that settled these regions [Lafayette] were from the islands [Caribbean], somewhere from the islands, and the islands were French. (50:46)\label{sent:different_speech_arthur}
-          \item Brian (Cajun): Le monde qui viensait de les îles en-dedans le Caribbean a ramené le français, le créole, la langue créole, en-dedans pour qu'on peut travailler dans les clos de canne, sugarcane, ça fait moi je trouve, d'après moi, le, enfin, ils ont une table créole en Arnaudville. C'est proche tous les Noirs. (60:44)\label{sent:different_speech_brian}
-          \item[] \longtrans{Brian (Cajun): The people that came from the islands in the Caribbean brought back French, Creole, the Creole language, so they can work in the cane field, sugarcane, so I find, in my opinion, the, anyway, there's a Creole table in Arnaudville. It's almost all Blacks.}
+          \item Brian (Cajun): Le monde qui viensait de les îles en-dedans le Caribbean a ramené le français, le créole, la langue créole, en-dedans pour qu'on peut travailler dans les clos de canne, sugarcane, ça fait moi je trouve, d'après moi, le, enfin, ils ont une table créole en Arnaudville.
+                C'est proche tous les Noirs. (60:44)\label{sent:different_speech_brian}
+          \item[] \longtrans{Brian (Cajun): The people that came from the islands in the Caribbean brought back French, Creole, the Creole language, so they can work in the cane field, sugarcane, so I find, in my opinion, the, anyway, there's a Creole table in Arnaudville.
+                It's almost all Black people.}
         \end{enumerate}
         Both participants hedged these statements by explaining that they may be wrong, acknowledging their ignorance on Creole matters which likely stems from having little contact with Creoles, which is a natural result when groups have been racialized.
         They also both equated Creole with Black in their statements, although Brian did so only reluctantly.
 
         At other times, differences between Cajun and Creole linguistic patterns were downplayed, as in the statement in Sentence \ref{sent:different_speech_floyd} where Floyd focused on local varieties being relatively similar unlike how they are both much different from how the French in Europe is spoken.
         \begin{enumerate}[resume=sentences]
-          \item Floyd (Creole): C'est pas un gros différence. To vois, ici dans la Louisiane, les Créoles et puis les Cadiens restent ensemble, ça fait les Cadiens et puis les Créoles, yé parlent pas la français comme les Français parlent le france. (52:36)\label{sent:different_speech_floyd}
-          \item[] \longtrans{Floyd (Creole): It's not a big difference. You see, here in Louisiana, Creoles and Cajuns live together, so Cajuns and Creoles, they don't speak French like the French speak French.}
+          \item Floyd (Creole): C'est pas un gros différence.
+                To vois, ici dans la Louisiane, les Créoles et puis les Cadiens restent ensemble, ça fait les Cadiens et puis les Créoles, yé parlent pas la français comme les Français parlent le france. (52:36)\label{sent:different_speech_floyd}
+          \item[] \longtrans{Floyd (Creole): It's not a big difference.
+                You see, here in Louisiana, Creoles and Cajuns live together, so Cajuns and Creoles, they don't speak French like the French speak French.}
         \end{enumerate}
         As a Black Creole using Creole-marked speech, however, he had an incentive to promote closeness between the two groups rather than distance as that distance can facilitate marginalization for the low status racialized group.
 
@@ -547,13 +598,23 @@
         This asymmetry, where the burden of making things work falls on the marginalized group, is indicative of racialization.
         In Sentence \ref{sent:different_speech_tracy}, Tracy explained that it was incumbent on Creoles to learn how Cajuns speak if they wanted to get ahead.
         \begin{enumerate}[resume=sentences]
-          \item Tracy (Creole): To peux trapper la manière yé parlent, comme la manière yé parlent, ça yé a dit, to vois? Un Cadien, to gain pour apprendre comment li parle, then si to peux trapper ça, then to connais où to restes. (89:09)\label{sent:different_speech_tracy}
-          \item[] \longtrans{Tracy (Creole): You can pick up the way they speak, like the way they speak, what they will say, you see? A Cajun, you have to learn how he speaks, then if you can pick that up, then you know where you stand.}
+          \item Tracy (Creole): To peux trapper la manière yé parlent, comme la manière yé parlent, ça yé a dit, to vois?
+                Un Cadien, to gain pour apprendre comment li parle, then si to peux trapper ça, then to connais où to restes. (89:09)\label{sent:different_speech_tracy}
+          \item[] \longtrans{Tracy (Creole): You can pick up the way they speak, like the way they speak, what they will say, you see?
+                A Cajun, you have to learn how he speaks, then if you can pick that up, then you know where you stand.}
         \end{enumerate}
         Rachel was not as committed to this idea in Sentence \ref{sent:different_speech_rachel}, but she did draw the connection once again between the broad category of White and the local category of Cajuns.
         \begin{enumerate}[resume=sentences]
-          \item Rachel (Creole): Les mondes, yé vient. Y'apè causer. ... It's a lot of White people come and say, you know, they speaking Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know. I said, ``I don't speak Cajun. I'm a Creole.'' ... But sometime, ... na des fois n'a causer jusqu'à n'a comprendre un à l'autre, you know? (22:16)\label{sent:different_speech_rachel}
-          \item[] \longtrans{Rachel (Creole): People, they come. They're talking. ... It's a lot of White people come and say, you know, they speak Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know. I said, ``I don't speak Cajun. I'm Creole.'' ... But sometime, ... there are times we will talk until we will understand one another, you know?}
+          \item Rachel (Creole): Les mondes, yé vient.
+                Y'apè causer. ...
+                It's a lot of White people come and say, you know, they speaking Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know.
+                I said, ``I don't speak Cajun. I'm a Creole.'' ...
+                But sometime, ... na des fois n'a causer jusqu'à n'a comprendre un à l'autre, you know? (22:16)\label{sent:different_speech_rachel}
+          \item[] \longtrans{Rachel (Creole): People, they come.
+                They're talking. ...
+                It's a lot of White people come and say, you know, they speak Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know.
+                I said, ``I don't speak Cajun. I'm Creole.'' ...
+                But sometime, ... there are times we will talk until we will understand one another, you know?}
         \end{enumerate}
         No amount of using Cajun-marked speech, and certainly no amount of understanding it, would allow Tracy or Rachel to cross the boundaries into Cajunness, however, because neither could pass as White.
         In sum, F\&C proficiency, regardless of what it sounds like, can gain a White Louisianian entry across the Cajun boundaries.
@@ -567,13 +628,19 @@
         Culture, considered very broadly in this case, could be specific products or practices but also the character of a person.
         Dennis, for example, implicated religion as helping to mark the boundaries of Cajunness in Sentence \ref{sent:cajun_dennis2}, but more so he stressed the idea that Cajuns are accepting of others.
         \begin{enumerate}[resume=sentences]
-          \item Dennis (Cajun): Tu peux dire c'est un culture. C'est acceptance de une manière de vivre, de regarder la vie, regarder les hommes, regarder le bon Dieu. (26:31)\label{sent:cajun_dennis2}
-          \item[] \longtrans{Dennis (Cajun): You can say that it's a culture. It's being accepting of a way of living, of looking at life, regarding man, regarding the good Lord.}
+          \item Dennis (Cajun): Tu peux dire c'est un culture.
+                C'est acceptance de une manière de vivre, de regarder la vie, regarder les hommes, regarder le bon Dieu. (26:31)\label{sent:cajun_dennis2}
+          \item[] \longtrans{Dennis (Cajun): You can say that it's a culture.
+                It's being accepting of a way of living, of looking at life, regarding man, regarding the good Lord.}
         \end{enumerate}
         Randal spoke in similarly general terms in Sentence \ref{sent:cajun_randal3} with the addition of suggesting the hardworking nature of Cajuns as well as differences in cooking.
         \begin{enumerate}[resume=sentences]
-          \item Randal (Cajun): C'est leur manière de vivre, culture, langage, la manière on cuit. Moi, je cuis juste pareil comme mes parents et mes grands-parents. ... Le manière de penser pour leur job, et puis pas peur de se saler à travailler, aider à tout le monde que tu peux. (51:13)\label{sent:cajun_randal3}
-          \item[] \longtrans{Randal (Cajun): It's their way of living, culture, language, the way we cook. Me, I cook just like my parents and my grandparents. ... The way of thinking about their job, and then not fearing getting dirty at work, helping everyone that you can.}
+          \item Randal (Cajun): C'est leur manière de vivre, culture, langage, la manière on cuit.
+                Moi, je cuis juste pareil comme mes parents et mes grands-parents. ...
+                Le manière de penser pour leur job, et puis pas peur de se saler à travailler, aider à tout le monde que tu peux. (51:13)\label{sent:cajun_randal3}
+          \item[] \longtrans{Randal (Cajun): It's their way of living, culture, language, the way we cook.
+                Me, I cook just like my parents and my grandparents. ...
+                The way of thinking about their job, and then not fearing getting dirty at work, helping everyone that you can.}
         \end{enumerate}
         Cooking seemed to be a particularly salient point of distinction between Cajuns and Creoles, but when pressed to be more specific about the differences, Cajuns struggled to be more specific, as will be discussed a bit more in detail in Section \ref{sec:creole_culture}.
         In Sentence \ref{sent:cajun_steven}, Steven was discussing hunting woodcocks, and in doing so, implied that Cajuns are avid hunters.
@@ -588,8 +655,10 @@
         A notable statement about cultural diffusion did come from Judy in Sentence \ref{sent:cajun_judy2}, however.
         Judy was speaking about where brown cotton has been used in South Louisiana for blankets and two of the parishes she named were Saint Landry and Saint Martin where many Creoles live, so I had inquired about whether Creoles had taken up what she was describing as an Acadian practice.
         \begin{enumerate}[resume=sentences]
-          \item[] Judy (Cajun): J'ai jamais jamais trouvé une couverte que quelqu'un de la couleur noire a fait, et je peux pas comprendre pourquoi. Ils étaient après vivre avec nous-autres. We were friendly with the Blacks. (51:17)\label{sent:cajun_judy2}
-          \item[] \longtrans{Judy (Cajun): I never never found a blanket that someone Black made, and I can't understand why. They were living with us. We were friendly with the Blacks.}
+          \item[] Judy (Cajun): J'ai jamais jamais trouvé une couverte que quelqu'un de la couleur noire a fait, et je peux pas comprendre pourquoi.
+                Ils étaient après vivre avec nous-autres. We were friendly with the Blacks. (51:17)\label{sent:cajun_judy2}
+          \item[] \longtrans{Judy (Cajun): I never never found a blanket that someone Black made, and I can't understand why.
+                They were living with us. We were friendly with the Blacks.}
         \end{enumerate}
         First, as in Sentence \ref{sent:cajun_judy1}, Judy once again code-switched to English when explicitly discussing race.
         Second, she made the connection between Creoles and being Black again as I had asked explicitly about ``Créoles'' whereas she responded by referring to Black people.
@@ -629,14 +698,22 @@
         This had perhaps not happened yet by the 1960s as Mary explained in Sentence \ref{sent:cajun_mary} that Cajun music was not what her and her fellow LSU students used for dancing at that time.
         They instead danced to rock and roll.
         \begin{enumerate}[resume=sentences]
-          \item Mary (Cajun): Oh non non non non. C'était les années soixante, et personne à Bâton-Rouge embrassait le cadienisme, eh? (23:08)\label{sent:cajun_mary}
-          \item[] \longtrans{Mary (Cajun): Oh no no no no. That was the sixties, and no one in Baton Rouge was embracing Cajunism, eh?}
+          \item Mary (Cajun): Oh non non non non.
+                C'était les années soixante, et personne à Bâton-Rouge embrassait le cadienisme, eh? (23:08)\label{sent:cajun_mary}
+          \item[] \longtrans{Mary (Cajun): Oh no no no no.
+                That was the sixties, and no one in Baton Rouge was embracing Cajunism, eh?}
         \end{enumerate}
         Mary discussed the music in terms of Cajunism, but this was perhaps only because I had broached the subject using the term \foreign{musique cadienne} \gloss{Cajun music}.
         Describing local music as Cajun -- or language as Cajun -- was in fact not done during the youths of some participants, as Lucille explained in Sentence \ref{sent:cajun_lucille}.
         \begin{enumerate}[resume=sentences]
-          \item Lucille (Cajun): Y avait pas de français cadien ou créole. Y avait le français. C'était la musique en français. C'était pas la musique cadienne, you know? (40:16)\label{sent:cajun_lucille}
-          \item[] \longtrans{Lucille (Cajun): There was no Cajun or Creole French. There was French. It was music in French. It wasn't Cajun music, you know?}
+          \item Lucille (Cajun): Y avait pas de français cadien ou créole.
+                Y avait le français.
+                C'était la musique en français.
+                C'était pas la musique cadienne, you know? (40:16)\label{sent:cajun_lucille}
+          \item[] \longtrans{Lucille (Cajun): There was no Cajun or Creole French.
+                There was French.
+                It was music in French.
+                It wasn't Cajun music, you know?}
         \end{enumerate}
         Instead of using Cajun as a general descriptor, the term French was used.
         However, as Sentences \ref{sent:cajun_dennis3} and \ref{sent:cajun_lillian2} show, anything from college football teams to beach resorts to the local accordeon music that was previously called French music has come to be labeled Cajun today.
@@ -645,13 +722,23 @@
           \item[] \longtrans{Dennis (Cajun): You can go to the university here, go be a Raging Cajun\footnote{
             Raging Cajuns is the name of the university's football team.
           }.}
-          \item Lillian (Cajun): Tu connais où Holly Beach? C'est le Cajun Riviera. \label{sent:cajun_lillian2}
-          \item[] \longtrans{Lillian (Cajun): You know where Holly Beach is? That's the Cajun Riviera.}
+          \item Lillian (Cajun): Tu connais où Holly Beach?
+                C'est le Cajun Riviera. \label{sent:cajun_lillian2}
+          \item[] \longtrans{Lillian (Cajun): You know where Holly Beach is?
+                That's the Cajun Riviera.}
         \end{enumerate}
         Using Cajun as a sort of branding has been so pervasive that Deborah expressed a distaste for the term in Sentence \ref{sent:cajun_deborah} at least in part because of its omnipresence.
         \begin{enumerate}[resume=sentences]
-          \item Deborah (White Creole): Je préfère créole que cadien. ... Non, j'aime pas beaucoup de Cajun. C'est bon. C'est okay, mais it's, c'est, on va dire en anglais a catch word. Cajun, Cajun food, Cajun dances, Cajun music, you know? \label{sent:cajun_deborah}
-          \item[] \longtrans{Deborah (White Creole): I prefere Creole to Cajun. ... No, I don't much like Cajun. It's okay. It's okay, but it's, it's, we will say in English a catch word. Cajun, Cajun food, Cajun dances, Cajun music, you know?}
+          \item Deborah (White Creole): Je préfère créole que cadien. ...
+                Non, j'aime pas beaucoup de Cajun.
+                C'est bon.
+                C'est okay, mais it's, c'est, on va dire en anglais a catch word.
+                Cajun, Cajun food, Cajun dances, Cajun music, you know? \label{sent:cajun_deborah}
+          \item[] \longtrans{Deborah (White Creole): I prefere Creole to Cajun. ...
+                No, I don't much like Cajun.
+                It's okay.
+                It's okay, but it's, it's, we will say in English a catch word.
+                Cajun, Cajun food, Cajun dances, Cajun music, you know?}
         \end{enumerate}
         It is important to remember in all of this that the social category that has historically been more inclusive has been Creole, and in fact much of what is described as culturally Cajun is just as much culturally Creole, yet the racialization of the term \lexi{Creole} as lesser makes it a poorer candidate for marketing than Cajun.
         Cajun being the default racial category of South Louisiana, the local form of White, makes it safe to use for all purposes and marks the public sphere as the domain of Cajuns -- a sort of pre-emptive boundary policing -- much as the public sphere in the broader US is treated as the domain of White people.
@@ -681,8 +768,12 @@
         While participants had much to say about what is Cajun and what a Cajun is, they rarely marked its boundaries by appealing to Whiteness.
         This was especially true for Cajuns themselves, among whom only Austin made that connection in Sentence \ref{sent:cajun_austin2}.
         \begin{enumerate}[resume=sentences]
-          \item Austin (Cajun): C'est une différence raciale entre cadien et créole. Ça c'est la définition que j'étais élevé avec. C'était les Français noirs c'est des Créoles, et les Français blancs c'est des Cadiens. (51:30)\label{sent:cajun_austin2}
-          \item[] \longtrans{Austin (Cajun): It's a racial different between Cajun and Creole. That's the definition I was raised with. It was that Black French people are Creoles, and White French people are Cajuns.}
+          \item Austin (Cajun): C'est une différence raciale entre cadien et créole.
+                Ça c'est la définition que j'étais élevé avec.
+                C'était les Français noirs c'est des Créoles, et les Français blancs c'est des Cadiens. (51:30)\label{sent:cajun_austin2}
+          \item[] \longtrans{Austin (Cajun): It's a racial different between Cajun and Creole.
+                That's the definition I was raised with.
+                It was that Black French people are Creoles, and White French people are Cajuns.}
         \end{enumerate}
         For him the primary aspect of being Cajun or Creole was speaking F\&C, but after that, the distinction came down to whether one passed as White or Black, making one either Cajun or Creole, respectively.
         Notably, Austin, having been born in \Sexpr{participants[participants$Name == "Austin Roy", "Birth Year"]}, was far younger than all but one other participant, meaning the association of Creole with Black may have been stronger by the time he was being raised than it had been for other participants.
@@ -690,10 +781,14 @@
         The other two participants who explicitly made this Whiteness connection for Cajuns were both Creoles.
         In the case of Gene in Sentence \ref{sent:cajun_gene}, his response was particularly matter of fact.
         \begin{enumerate}[resume=sentences]
-          \item Gene (Creole): Un Cadien? That's a White man. (43:56)\label{sent:cajun_gene}
-          \item[] \longtrans{Gene (Creole): A Cajun? That's a White man.}
-          \item James (Creole): Les Cadiens, okay, c'est les Blancs. Ils ont d'héritage de Nova Scotia. (41:27)\label{sent:cajun_james}
-          \item[] \longtrans{James (Creole): Cajuns okay, those are Whites. The have a heritage from Nova Scotia.}
+          \item Gene (Creole): Un Cadien?
+                That's a White man. (43:56)\label{sent:cajun_gene}
+          \item[] \longtrans{Gene (Creole): A Cajun?
+                That's a White man.}
+          \item James (Creole): Les Cadiens, okay, c'est les Blancs.
+                Ils ont d'héritage de Nova Scotia. (41:27)\label{sent:cajun_james}
+          \item[] \longtrans{James (Creole): Cajuns okay, those are Whites.
+                The have a heritage from Nova Scotia.}
         \end{enumerate}
         Gene went on to speak about the label in clearly racial terms, explaining that Cajun can be used as a derogatory word for a White person just as the N-word, in English, is for a Black person.
         This expectation that \lexi{Cajun} can be a derogatory term was also expressed by one of the Texan Creoles in \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) data (p.~190), so the idea was not unique to Gene even though the above discussion shows that \lexi{Cajun} is certainly not derogatory in the views of Cajuns themselves even for those Cajuns who understood that Cajuns had been stigmatized in the past.
@@ -733,8 +828,26 @@
         Many participants had an understanding that Creole has meant many different things over time, which suggests that the boundaries of Creoleness are relatively porous.
         Jack gave a particularly detailed and mostly accurate picture of the whole gamut of definitions in Sentence \ref{sent:creole_jack}, hence the length of this quote.
         \begin{enumerate}[resume=sentences]
-          \item Jack (Cajun): Dans le vieux temps, un Créole, c'était la première génération de le monde qui est venu de l'Europe qui était né en Louisiane. First generation, your Creoles, whether Spanish or French or German or anything else. Un Créole. Mais, plus tard, le monde qui est venu de Haïti à la Nouvelle-Orléans. C'était les Blancs qui est venus. Leurs esclaves, je pense, y en a qui est venus avec leurs esclaves. ... Ils s'appelaient des Créoles, et un Créole dans un temps, c'était quelqu'un un peu plus haut qu'un Cadien, mais après plusieurs années, créole, c'était quelqu'un qui était pas cadien, et souvent ils estiont, on dit, les nègres, les Noirs. Eux-autres, ça s'appelait des Créoles. Pourquoi pas? Mais plus que ça, je connais pas, un Créole c'est un mélangement de sang aussi, blanc ou espagnol ou noir. (38:54)\label{sent:creole_jack}
-          \item[] \longtrans{Jack (Cajun): In the old days, a Creole, that was the first generation of people who came from Europe who were born in Louisiana. First generation, your Creoles, whether Spanish or French or German or anything else. A Creole. But, later, the people who came from Haiti to New Orleans. That was Whites who came. Their slaves, I think, there were some who came with their slaves. ... They called themselves Creoles, and a Creole at one time, that was someone a bit higher than a Cajun, but after several years, Creole, that was someone who wasn't Cajun, and often they were, we say, negros, Blacks. Them, they call themselves Creoles. Why not? But more than that, I don't know, a Creole is a mix of blood also, White or Spanish or Black.}
+          \item Jack (Cajun): Dans le vieux temps, un Créole, c'était la première génération de le monde qui est venu de l'Europe qui était né en Louisiane.
+                First generation, your Creoles, whether Spanish or French or German or anything else.
+                Un Créole.
+                Mais, plus tard, le monde qui est venu de Haïti à la Nouvelle-Orléans.
+                C'était les Blancs qui est venus.
+                Leurs esclaves, je pense, y en a qui est venus avec leurs esclaves. ...
+                Ils s'appelaient des Créoles, et un Créole dans un temps, c'était quelqu'un un peu plus haut qu'un Cadien, mais après plusieurs années, créole, c'était quelqu'un qui était pas cadien, et souvent ils estiont, on dit, les nègres, les Noirs.
+                Eux-autres, ça s'appelait des Créoles.
+                Pourquoi pas?
+                Mais plus que ça, je connais pas, un Créole c'est un mélangement de sang aussi, blanc ou espagnol ou noir. (38:54)\label{sent:creole_jack}
+          \item[] \longtrans{Jack (Cajun): In the old days, a Creole, that was the first generation of people who came from Europe who were born in Louisiana.
+                First generation, your Creoles, whether Spanish or French or German or anything else.
+                A Creole.
+                But, later, the people who came from Haiti to New Orleans.
+                That was Whites who came.
+                Their slaves, I think, there were some who came with their slaves. ...
+                They called themselves Creoles, and a Creole at one time, that was someone a bit higher than a Cajun, but after several years, Creole, that was someone who wasn't Cajun, and often they were, we say, negros, Blacks.
+                Them, they call themselves Creoles.
+                Why not?
+                But more than that, I don't know, a Creole is a mix of blood also, White or Spanish or Black.}
         \end{enumerate}
         Jack's understanding of Creole only loses accuracy in that the post-Civil War Creole myth discussed in Section \ref{sec:creole_history} is sewn into his descriptions.
         For instance, anything and anyone from the colony that is now Louisiana was Creole, not only those whose ancestors were European.
@@ -759,10 +872,16 @@
         Jack offered a particularly detailed and erudite description of Creoles, but it was not unusual for participants to recount some of what he said, especially the idea of being born in the colony.
         In Sentences \ref{sent:creole_lucille} and \ref{sent:creole_brian1}, Lucille and Brian related this sense of Creole, and in both cases they highlighted the children of French nationals being Creole rather than the children of simply anyone at all.
         \begin{enumerate}[resume=sentences]
-          \item Lucille (Cajun): La Ville Platte, la paroisse Évangéline, a été vraiment fondée par beaucoup de soldats de Napoléon, ... donc c'est vraiment, c'est créole dans le sens de créole, pas dans le sens de couleur de la peau. C'était, you know, les enfants des colons. (39:10)\label{sent:creole_lucille}
-          \item[] \longtrans{Lucille (Cajun): Ville Platte, Evangeline Parish, was really founded by a lot of Napoleon's soldiers, ... so it's really, it's Creole in the sense of Creole, not in the sense of skin color. That was, you know, the children of colonists.}
-          \item Brian (Cajun): Quoi moi j'ai entendu de un Créole, c'est quelqu'un qui est né en-dedans l'État-Uni-, ina du monde qui a dit, quoi moi j'ai appris, si tu viens de la France, et puis tu maries quelqu'un, une autre Française, ta femme qui vient de la France, ça, eux-autres vient de la Louisiane. Eux-autres a un petit. Le petit-ça, c'est un Créole. (56:52)\label{sent:creole_brian1}
-          \item[] \longtrans{Brian (Cajun): What I heard about a Creole, that's someone who was born in the United Sta-, there are people who said, what I learned, if you come from France, and then you marry someone, another French woman, your wife who's from France, that, they come from Louisiana. They have a little one. That little one, that's a Creole.}
+          \item Lucille (Cajun): La Ville Platte, la paroisse Évangéline, a été vraiment fondée par beaucoup de soldats de Napoléon, ... donc c'est vraiment, c'est créole dans le sens de créole, pas dans le sens de couleur de la peau.
+                C'était, you know, les enfants des colons. (39:10)\label{sent:creole_lucille}
+          \item[] \longtrans{Lucille (Cajun): Ville Platte, Evangeline Parish, was really founded by a lot of Napoleon's soldiers, ... so it's really, it's Creole in the sense of Creole, not in the sense of skin color.
+                That was, you know, the children of colonists.}
+          \item Brian (Cajun): Quoi moi j'ai entendu de un Créole, c'est quelqu'un qui est né en-dedans l'État-Uni-, ina du monde qui a dit, quoi moi j'ai appris, si tu viens de la France, et puis tu maries quelqu'un, une autre Française, ta femme qui vient de la France, ça, eux-autres vient de la Louisiane.
+                Eux-autres a un petit.
+                Le petit-ça, c'est un Créole. (56:52)\label{sent:creole_brian1}
+          \item[] \longtrans{Brian (Cajun): What I heard about a Creole, that's someone who was born in the United Sta-, there are people who said, what I learned, if you come from France, and then you marry someone, another French woman, your wife who's from France, that, they come from Louisiana.
+                They have a little one.
+                That little one, that's a Creole.}
         \end{enumerate}
         Lucille, in bringing up the idea of Creoles being those born in the Louisiana colony, acknowledged that this definition could be confusing by immediately bringing up the skin color definition, a confusion that could only come about in the context of Creoles being primarily understood as Black today.
 
@@ -813,10 +932,14 @@
         Bruce's statement also exemplifies that, for some participants, their ability to discuss earlier, non-racialized definitions of Creoles is unlikely to have come from an understanding they developed in their younger days.
         Indeed, two other Cajuns explained that they had never heard the word \lexi{Creole} in their youth.
         \begin{enumerate}[resume=sentences]
-          \item Judy (Cajun): Tu connais, j'ai réellement jamais connu ce mot, créole. Juste dernièrement, c'est comme si tout quelqu'un est créole. (63:18)\label{sent:creole_judy}
-          \item[] \longtrans{Judy (Cajun): You know, I really never knew this word, Creole. Just recently, it's as if everyone is Creole.}
-          \item Dennis (Cajun): Well, on usait pas ce mot \lexi{créole} dans ce temps-là. Non, c'était des uhm, on juste disait du monde noir ou des nègres, mais le propre nom, c'était des Créoles noirs. (38:06)\label{sent:creole_dennis}
-          \item[] \longtrans{Dennis (Cajun): Well, we didn't use this word \lexi{Creole} at that time. No, that was uhm, we would just say Black people or negros, but the proper name, that's Black Creoles.}
+          \item Judy (Cajun): Tu connais, j'ai réellement jamais connu ce mot, créole.
+                Juste dernièrement, c'est comme si tout quelqu'un est créole. (63:18)\label{sent:creole_judy}
+          \item[] \longtrans{Judy (Cajun): You know, I really never knew this word, Creole.
+                Just recently, it's as if everyone is Creole.}
+          \item Dennis (Cajun): Well, on usait pas ce mot \lexi{créole} dans ce temps-là.
+                Non, c'était des uhm, on juste disait du monde noir ou des nègres, mais le propre nom, c'était des Créoles noirs. (38:06)\label{sent:creole_dennis}
+          \item[] \longtrans{Dennis (Cajun): Well, we didn't use this word \lexi{Creole} at that time.
+                No, that was uhm, we would just say Black people or negros, but the proper name, that's Black Creoles.}
         \end{enumerate}
         Dennis's explanation in Sentence \ref{sent:creole_dennis} is particularly striking as it transposed the common modern day understanding of Creole being Black to those people in his childhood who could have identified or been identified as Creole.
         This immediate focus on how one refers to Black people when the question posed was about how ``Creoles'' are defined suggests that the link between Blackness and Creoles -- marking Creole boundaries with blackness -- for him was strong enough that he did not even consider a non-Black definition for Creoles.
@@ -856,8 +979,12 @@
         
         For Rose, she included the option that a Creole could be a wealthy, educated person but specifically for Creoles in New Orleans, far from where she grew up in Church Point.
         \begin{enumerate}[resume=sentences]
-          \item Rose (Cajun): Les Créoles, pour moi, les Créoles étaient le monde de couleur ou bien instruit. ... Les mondes de créole de Nouvelle-Orléans est bien instruits. Wealthy, you know? (62:33)\label{sent:creole_rose}
-          \item[] \longtrans{Rose (Cajun): Creoles, for me, Creoles are colored people or well educated. ... Creole people from New Orleans are well educated. Wealthy, you know?}
+          \item Rose (Cajun): Les Créoles, pour moi, les Créoles étaient le monde de couleur ou bien instruit. ...
+                Les mondes de créole de Nouvelle-Orléans est bien instruits.
+                Wealthy, you know? (62:33)\label{sent:creole_rose}
+          \item[] \longtrans{Rose (Cajun): Creoles, for me, Creoles are colored people or well educated. ...
+                Creole people from New Orleans are well educated.
+                Wealthy, you know?}
         \end{enumerate}
         New Orleans was not an uncommon theme when speaking about Creoles and is almost definitely a remnant of the Creole myth that posits Creoles as a sort of aristocracy.
         The linking to skin color once again injected itself into Rose's dialogue, though, even when focusing on this aristocracy.
@@ -865,8 +992,10 @@
         Oliver L. in Sentence \ref{sent:creole_lesage} likewise focused on Creoles being Black.
         He was not offering his definition of Creoles but rather attempting to determine the ethnicity of an alter whom he named but whom he did not know terribly well.
         \begin{enumerate}[resume=sentences]
-          \item Oliver L. (Cajun): Uh, un homme noir, mais uh, uh créole, on dirait. Ouais, il est créole. (63:34)\label{sent:creole_lesage}
-          \item[] \longtrans{Oliver L. (Cajun): Uh, a Black man, but uh, uh Creole, we would say. Yeah, he's Creole.}
+          \item Oliver L. (Cajun): Uh, un homme noir, mais uh, uh créole, on dirait.
+                Ouais, il est créole. (63:34)\label{sent:creole_lesage}
+          \item[] \longtrans{Oliver L. (Cajun): Uh, a Black man, but uh, uh Creole, we would say.
+                Yeah, he's Creole.}
         \end{enumerate}
         Oliver L. expressed his thought process connecting Blackness with Creoles out loud, and in so doing, showed the importance of color in that process.
         Similar out loud thought processes occurred elsewhere, as well, such as when Lillian initially stated that she did not know any Creoles, paused, then considered a recently encountered acquaintence who was Black and named him as Creole.
@@ -893,8 +1022,10 @@
         This does not mean that Creoles did not see Blackness in their understanding of Creoles, but they instead highlighted the idea that Creoles are racially mixed, a nuance that was generally absent from the discourse of Cajuns.
         Terry, who both ethnically and racially identified simply as Creole, was quite plain in stating that Creole is a mixed race in Sentence \ref{sent:creole_terry}, while Florence even had a humorous anecdote that characterized Creoles as mixed in Sentence \ref{sent:creole_florence}.
         \begin{enumerate}[resume=sentences]
-          \item Terry (Creole): C'est une race de monde mêlé. Inaura plus qu'une qualité de Créole, parce que, tu vois, le monde qui parle créole, ils ont du monde qui deviennent les West Indies, Haiti. (41:49)\label{sent:creole_terry}
-          \item[] \longtrans{Terry (Creole): It's a race of mixed people. There will be more than one type of Creole, because, you see, the people who speak Creole, they have people who come from the West Indies, Haiti.}
+          \item Terry (Creole): C'est une race de monde mêlé.
+                Inaura plus qu'une qualité de Créole, parce que, tu vois, le monde qui parle créole, ils ont du monde qui deviennent les West Indies, Haiti. (41:49)\label{sent:creole_terry}
+          \item[] \longtrans{Terry (Creole): It's a race of mixed people.
+                There will be more than one type of Creole, because, you see, the people who speak Creole, they have people who come from the West Indies, Haiti.}
           \item Florence (Creole): Comme mon maman tait dit nous-autres, ``Li tait un mixed paint.'' (91:03)\label{sent:creole_florence}
           \item[] \longtrans{Florence (Creole): Like my mama would tell us, ``He as a mixed paint.'}
         \end{enumerate}
@@ -911,8 +1042,12 @@
         
         In Sentence \ref{sent:creole_floyd}, Floyd only gave ``Colored'' people mixing with Whites as an example, but importantly he emphasized both that this was a painful thing for the former group and was really about enslaved women being violated rather than enslaved men.
         \begin{enumerate}[resume=sentences]
-          \item Floyd (Creole): Dans les temps, les vieux, c'était quand les Blancs et puis la Couleur étaient vini ensemble et fait un petit, okay? C'était pas un bonne affaire pour les Couleurs. Dans ces temps-ça-là, yé étaient travailler dans le clos, et puis yé étaient prendre les femmes, les Couleurs, et puis, to connais, fait yé't'oler fait avec yé. (45:55)\label{sent:creole_floyd}
-          \item[] \longtrans{Floyd (Creole): In the past, the old people, that was when Whites and the Colored were coming together and making a little one, okay? That wasn't a good thing for the Coloreds. At that time, they would work in the field, and then they would take the women, the Coloreds, and then, you know, do what they wanted to do with them.}
+          \item Floyd (Creole): Dans les temps, les vieux, c'était quand les Blancs et puis la Couleur étaient vini ensemble et fait un petit, okay?
+                C'était pas un bonne affaire pour les Couleurs.
+                Dans ces temps-ça-là, yé étaient travailler dans le clos, et puis yé étaient prendre les femmes, les Couleurs, et puis, to connais, fait yé't'oler fait avec yé. (45:55)\label{sent:creole_floyd}
+          \item[] \longtrans{Floyd (Creole): In the past, the old people, that was when Whites and the Colored were coming together and making a little one, okay?
+                That wasn't a good thing for the Coloreds.
+                At that time, they would work in the field, and then they would take the women, the Coloreds, and then, you know, do what they wanted to do with them.}
         \end{enumerate}
         This idea of pain and hardship in one's identity is not all that different from what Judy described for Acadians/Cajuns in Section \ref{sec:what_cajun} and is congruent with racialization as racialization is born out of conflict.
 
@@ -947,8 +1082,12 @@
         Florence and Tracy, for example, both rejected that view.
         Owen, in Sentence \ref{sent:creole_owen} was even more forthright with this rejection when Terry's view was presented to him.
         \begin{enumerate}[resume=sentences]
-          \item Owen (Creole): Mo crois, je crois quand même, les gens de Natchitoches, on a parlé avec un groupe des gens qui dit qu'ils sont les descendants des Français, qui disent qu'ils sont créoles, et on a demandé, ``Mais, qu'est-ce que ça veut dire, ça?'' Parce que c'est vraiment, ce n'est pas une race. C'est plutôt une culture. (51:42)\label{sent:creole_owen}
-          \item[] \longtrans{Owen (Creole): I believe, I believe even, the people of Natchitoches, we spoke with a group of people who say that they're descendants of the French, who say that they're Creole, and we asked, ``Well, what does that mean?'' Because it's really, it's not a race. Rather, it's a culture.}
+          \item Owen (Creole): Mo crois, je crois quand même, les gens de Natchitoches, on a parlé avec un groupe des gens qui dit qu'ils sont les descendants des Français, qui disent qu'ils sont créoles, et on a demandé, ``Mais, qu'est-ce que ça veut dire, ça?''
+                Parce que c'est vraiment, ce n'est pas une race.
+                C'est plutôt une culture. (51:42)\label{sent:creole_owen}
+          \item[] \longtrans{Owen (Creole): I believe, I believe even, the people of Natchitoches, we spoke with a group of people who say that they're descendants of the French, who say that they're Creole, and we asked, ``Well, what does that mean?''
+                Because it's really, it's not a race.
+                Rather, it's a culture.}
         \end{enumerate}
         Owen saw Creole as a culture rather than a race, and code-switched to using Cajun-marked subject pronouns to argue this point, whereas he generally used Creole-marked pronouns.
         He made such switches at other points when reporting the statements of others, generally in order to slightly mock those who see themselves in a superior light.
@@ -958,8 +1097,10 @@
         Rather than Blackness, Creole cultural traits and practices were the first things several participants used to mark the boundaries of Creoleness when asked what a Creole is, just as some Cajuns had done for their own group.
         Using Creole-marked pronouns, Florence's elaboration of Creole qualities in Sentence \ref{sent:creole_florence} is similar to the qualities previously given for Cajuns, particularly being hardworking and the importance of getting along with others, which she went on to explain at length.
         \begin{enumerate}[resume=sentences]
-          \item Florence (Creole): C'est quelqu'un qui travaillé dur, et la vie qui était dure, mais li était bon. No apprendre un tas, et no peux apprécier ça no gain. (67:19)\label{sent:creole_florence}
-          \item[] \longtrans{Florence (Creole): That's someone who worked hard, and life was hard, but he was good. We learned a lot, and we can appreciate what we have.}
+          \item Florence (Creole): C'est quelqu'un qui travaillé dur, et la vie qui était dure, mais li était bon.
+                No apprendre un tas, et no peux apprécier ça no gain. (67:19)\label{sent:creole_florence}
+          \item[] \longtrans{Florence (Creole): That's someone who worked hard, and life was hard, but he was good.
+                We learned a lot, and we can appreciate what we have.}
         \end{enumerate}
         While these then are very likely accurate descriptions for a large number of Creoles, they are not necessarily what distinguish Creoles given that they are not absent in descriptions of Cajuns.
         They are in fact not even unique in terms of distinguishing Cajuns and Creoles from other groups.
@@ -973,8 +1114,14 @@
         Black Creoles could speak about the discrimination that they faced in great detail, highlighting the need to engender acceptance among those in their communities that Florence discussed as essential to being Creole.
         Owen, in Sentence \ref{sent:life_owen}, was treated as a token \parencite{kanter_effects_1977} in his professional capacities, being moved from one job location to another to fulfill a diversity quota.
         \begin{enumerate}[resume=sentences]
-          \item Owen (Creole): J'ai été sélectionné pour un poste à [a high school] comme assistant principal, ça fait j'ai pris ça, mais j'ai commencé là, mais j'ai pas resté là trop longtemps. Non, on a décidé que je dois travailler à [a different high school]. Je crois que c'était à cause de ma race. À ce temps-là, il faut avoir quand même un Noir. (22:53)\label{sent:life_owen}
-          \item[] \longtrans{Owen (Creole): I was selected for a post at [a high school] as assistant principal, so I took that, but I started there, but I didn't stay there too long. No, someone decided that I have to work at [a different high school]. I believe that that was because of my race. At that time, it was necessary to have at least one Black person.}
+          \item Owen (Creole): J'ai été sélectionné pour un poste à [a high school] comme assistant principal, ça fait j'ai pris ça, mais j'ai commencé là, mais j'ai pas resté là trop longtemps.
+                Non, on a décidé que je dois travailler à [a different high school].
+                Je crois que c'était à cause de ma race.
+                À ce temps-là, il faut avoir quand même un Noir. (22:53)\label{sent:life_owen}
+          \item[] \longtrans{Owen (Creole): I was selected for a post at [a high school] as assistant principal, so I took that, but I started there, but I didn't stay there too long.
+                No, someone decided that I have to work at [a different high school].
+                I believe that that was because of my race.
+                At that time, it was necessary to have at least one Black person.}
         \end{enumerate}
         While code-switching to Cajun-marked speech to give this account, Owen chose to use the subject pronoun \lexi{on} when describing the actor or actors who decided that he could be a token for their institutions.
         This is a flexible pronoun in varieties of French around the world, functioning variably as 1pl, as an impersonal pronoun, or even as an indefinite pronoun akin to \gloss{someone} or \gloss{anyone}.
@@ -984,10 +1131,16 @@
 
         Gene offered quite a few examples of discrimination in his life, himself, two of which are reproduced in Sentences \ref{sent:life_gene1} and \ref{sent:life_gene2}.
         \begin{enumerate}[resume=sentences]
-          \item Gene (Creole): C'est comme ça là. C'était les Blancs étaient dit toi quoi faire. Les Blancs étaient dit les mondes Couleur quoi faire. (2:59)\label{sent:life_gene1}
-          \item[] \longtrans{Gene (Creole): It was like that then. It was that the Whites would tell you what to do. Whites told colored people what to do.}
-          \item Gene (Creole): No jouait contre un et l'autre. J'ai jamais joué contre les Blancs, because les Blancs étaient pas voulaient mettre pas avec les nègres. (35:54)\label{sent:life_gene2}
-          \item[] \longtrans{Gene (Creole): We would play against one another. I never played against Whites, because Whites didn't want to be put with negroes.}
+          \item Gene (Creole): C'est comme ça là.
+                C'était les Blancs étaient dit toi quoi faire.
+                Les Blancs étaient dit les mondes Couleur quoi faire. (2:59)\label{sent:life_gene1}
+          \item[] \longtrans{Gene (Creole): It was like that then.
+                It was that the Whites would tell you what to do.
+                Whites told colored people what to do.}
+          \item Gene (Creole): No jouait contre un et l'autre.
+                J'ai jamais joué contre les Blancs, because les Blancs étaient pas voulaient mettre pas avec les nègres. (35:54)\label{sent:life_gene2}
+          \item[] \longtrans{Gene (Creole): We would play against one another.
+                I never played against Whites, because Whites didn't want to be put with negroes.}
         \end{enumerate}
         The first was very early in the interview in response to a question about why he moved as a child, to which he responded very plainly that they simply had to do what White people told them to do, and in that case it was for his family to stop farming and move.
         The second sentence was later in his life when he was a baseball player who was not permitted to play against White baseball players.
@@ -1009,10 +1162,14 @@
         Florence provided a story that involved taking her grandson to prayer events where they were the only ``Couleurs'' \gloss{Coloreds} there.
         In Sentence \ref{sent:life_florence3}, she explained that her grandson was initially apprehensive, but she explained the importance of getting along with all types of people, and this resulted in him receiving help with school from one of the White women there.
         \begin{enumerate}[resume=sentences]
-          \item Florence (Creole): To gain pour adonner avec tous les couleurs. C'est comme ça to la vie va d'être bon. Si to juste adonnes juste avec une, c'est pas assez. \label{sent:life_florence3}
+          \item Florence (Creole): To gain pour adonner avec tous les couleurs.
+                C'est comme ça to la vie va d'être bon.
+                Si to juste adonnes juste avec une, c'est pas assez. \label{sent:life_florence3}
           \item[] [he agreed and attended the event repeatedly after that]
           \item[] Florence (Creole): Et là li dit, ``Mais to connais maman, femme là, oh ça c'est une nice femme. C'est la plus nice femme mo jamais connais,'' et so elle aidé li quand li couru à l'école, to comprends? (69:46)
-          \item[] \longtrans{Florence (Creole): You have to get along with every color. That's how your life will be good. If you just get along just with one, that's not enough.}
+          \item[] \longtrans{Florence (Creole): You have to get along with every color.
+                That's how your life will be good.
+                If you just get along just with one, that's not enough.}
           \item[] \longtrans{[he agreed and attended the event repeatedly after that]}
           \item[] \longtrans{Florence (Creole): And then he said, ``Well you know mama, that woman, oh that's a nice woman. That's the nicest woman I've ever met,'' and so she helped him when he went to school, you understand?}
         \end{enumerate}
@@ -1020,8 +1177,12 @@
         
         Tracy presented another anecdote in Sentence \ref{sent:life_tracy2} that would only be possible in the context of a racialized social system despite representing positive intergroup actions.
         \begin{enumerate}[resume=sentences]
-          \item Tracy (Creole): Mo joué un tas de la pelote, et no couru un tas les places, et mo étais seul Noir, et tous les Blancs, les autres Blancs, yé étaient coutume 'mander, ``Comment vous-autres peut gain nègre là pour jouer avec ça?'' Et yé saient tout le temps dit, ``L'a jouer avec nous-autres because li bon,'' et then, ``Oh, mo peux pas fais ça. Mo peux pas,'' et yé saient dit comme ça, ``C'est pas sa couleur qu'ap jouer la pelote. C'est li.'' C'est quoifaire mo l'aime li si tant. (95:31)\label{sent:life_tracy2}
-          \item[] \longtrans{Tracy (Creole): I played a lot of baseball, and we went to a lot of places, and I would be the only Black person, and all the White people, the other White people, they had a habit of asking, ``How can you all have that negro you play with?'' And they would always say, ``He'll play with us because he's good,'' and then, ``Oh, I can't do that. I can't,'' and they would say like this, ``It's not his color that's playing ball. It's him.'' That's why I love him so much.}
+          \item Tracy (Creole): Mo joué un tas de la pelote, et no couru un tas les places, et mo étais seul Noir, et tous les Blancs, les autres Blancs, yé étaient coutume 'mander, ``Comment vous-autres peut gain nègre là pour jouer avec ça?''
+                Et yé saient tout le temps dit, ``L'a jouer avec nous-autres because li bon,'' et then, ``Oh, mo peux pas fais ça. Mo peux pas,'' et yé saient dit comme ça, ``C'est pas sa couleur qu'ap jouer la pelote. C'est li.''
+                C'est quoifaire mo l'aime li si tant. (95:31)\label{sent:life_tracy2}
+          \item[] \longtrans{Tracy (Creole): I played a lot of baseball, and we went to a lot of places, and I would be the only Black person, and all the White people, the other White people, they had a habit of asking, ``How can you all have that negro you play with?''
+                And they would always say, ``He'll play with us because he's good,'' and then, ``Oh, I can't do that. I can't,'' and they would say like this, ``It's not his color that's playing ball. It's him.''
+                That's why I love him so much.}
         \end{enumerate}
         Unlike Gene, Tracy was able to play baseball against White players, but this was only possible because his White teammates supported him.
         He needed the aid of those at the top of the racial hierarchy to subvert that hierarchy that clearly existed.
@@ -1037,16 +1198,30 @@
         
         Florence, shared an anecdote relevant to poverty in Sentence \ref{sent:life_florence1} that is worth printing here with minimal abbreviations.
         \begin{enumerate}[resume=sentences]
-          \item Florence (Creole): Quand mon mari mouru, femme là vini chez moi, et li t'apè crier parce que li dit mon mari, c'était si tellement un bon monde. Li dit li 'mandé mon mari, ``Combien mo doit à toi pour fait mon la cour?'' Li dit mon mari dit li, ``Donne-no ça t'oler,'' et li dit, ``Na pas personne qui dit to, `Donne-moi t'oler.' Yé dit to comment yé'ler.'' ... C'était parce que no tait devient de les récoltes, et no tait connaît comment c'était dur, so un petit brin l'argent, c'était couru loin. (37:26)\label{sent:life_florence1}
-          \item[] \longtrans{Florence (Creole): When my husband died, that woman came to my place, and she was crying because she said that my husband, that was such a good person. She said that she asked my husband, ``How much do I owe you for doing my yard?'' She said that my husband told her, ``Give us what you want,'' and she said, ``There's no one who tells you, `Give me what you want.' They tell you how much they want.'' ... That was because we came from farming, and we knew how hard it was, so a little bit of money, that went far.}
+          \item Florence (Creole): Quand mon mari mouru, femme là vini chez moi, et li t'apè crier parce que li dit mon mari, c'était si tellement un bon monde.
+                Li dit li 'mandé mon mari, ``Combien mo doit à toi pour fait mon la cour?''
+                Li dit mon mari dit li, ``Donne-no ça t'oler,'' et li dit, ``Na pas personne qui dit to, `Donne-moi t'oler.' Yé dit to comment yé'ler.'' ...
+                C'était parce que no tait devient de les récoltes, et no tait connaît comment c'était dur, so un petit brin l'argent, c'était couru loin. (37:26)\label{sent:life_florence1}
+          \item[] \longtrans{Florence (Creole): When my husband died, that woman came to my place, and she was crying because she said that my husband, that was such a good person.
+                She said that she asked my husband, ``How much do I owe you for doing my yard?''
+                She said that my husband told her, ``Give us what you want,'' and she said, ``There's no one who tells you, `Give me what you want.' They tell you how much they want.'' ...
+                That was because we came from farming, and we knew how hard it was, so a little bit of money, that went far.}
         \end{enumerate}
         Florence's husband, a man who took cleaning jobs for a living, was in a position in their community to help out a woman who was even less fortunate than himself.
         This story is particularly enlightening for demonstrating how Creoles react to poverty and the hard work that they have had to do by expressing solidarity and generosity, which presumably helped solidify their position within the boundaries of Creoleness.
 
         In some ways, Cajuns did work that was similar to that of Creoles -- while also seeing hard work as being a mark of a Cajun -- as in the case that Arthur related in Sentence \label{sent:life_arthur}.
         \begin{enumerate}[resume=sentences]
-          \item Arthur (Cajun): Je rappelle monsieur Bee. Monsieur Bee était un ami de mon père. Monsieur Bee, il était noir, et il était un poseur de briques comme mon père, un maçon. Lui et mon père étaient des amis, mais comment tu dis, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then. (50:14)\label{sent:life_arthur}
-          \item[] \longtrans{Arthur (Cajun): I remember Mr Bee. Mr Bee was a friend of my father. Mr Bee, he was Black, and he was a bricklayer like my father, a mason. He and my father were friends, but how do you say, they knew the difference now. Then, it still wasn't, you know, like it's better today than it was then.}
+          \item Arthur (Cajun): Je rappelle monsieur Bee.
+                Monsieur Bee était un ami de mon père.
+                Monsieur Bee, il était noir, et il était un poseur de briques comme mon père, un maçon.
+                Lui et mon père étaient des amis, mais comment tu dis, they knew the difference now.
+                Then, it still wasn't, you know, like it's better today than it was then. (50:14)\label{sent:life_arthur}
+          \item[] \longtrans{Arthur (Cajun): I remember Mr Bee.
+                Mr Bee was a friend of my father.
+                Mr Bee, he was Black, and he was a bricklayer like my father, a mason.
+                He and my father were friends, but how do you say, they knew the difference now.
+                Then, it still wasn't, you know, like it's better today than it was then.}
         \end{enumerate}
         I had been asking Arthur about Creoles, and in response, Arthur highlighted his father's Black friend, reproducing the association between Creoles and Blackness.
         More specifically, what Arthur was expressing about his father and his father's friend was that, even though they performed the same work, they were not given the same social status due to the friend being Black and presumably Creole.
@@ -1056,14 +1231,26 @@
         It is quite possible that the Cajuns shared in the work that they hired Creoles to do, but the fact that it was the Cajuns who owned the products of that labor makes their work inherently different.
         In the examples of this in Sentences \ref{sent:life_dennis1} and \ref{sent:life_deborah}, I was asking Dennis and Deborah, respectively, if there were Creoles in their hometowns.
         \begin{enumerate}[resume=sentences]
-          \item Dennis (Cajun): Pas de trop. Chaque grande ferme engageait un ou deux, mais ça restait sur la ferme, et mon grand-père avait un, et moi et lui, ... c'était le seul je connaissais. (32:53)\label{sent:life_dennis1}
-          \item[] \longtrans{Dennis (Cajun): Not too many. Each big farm hire one or two, but they stayed on the farm, and my grandfather had one, and he and I, ... that was the only one that I knew.}
-          \item Deborah (White Creole): Mon grand-père avait les escalves à la maison. J'ai grandi avec les Noirs. On avait beaucoup, ouais.
-          \item[] Joshua (Interviewer): Oh, ouais? Y a beaucoup de Noirs à Créole?
-          \item[] Deborah: Non, ils travaillaient pour mon grand-père, mais oui, mais c'était la même famille de tous les Noirs. C'était les esclaves, et oh, mon grand-père a amené un bateau de femmes pour marier avec les gens. Non non, y a pas beaucoup de Noirs à Cameron, non. (58:55)\label{sent:life_deborah}
-          \item[] \longtrans{Deborah (White Creole): My grandfather had slaves at the house. I grew up with Blacks. We had a lot, yeah.}
-          \item[] \longtrans{Joshua (Interviewer): Oh, yeah? There are a lot of Black people in Creole?}
-          \item[] \longtrans{Deborah: No, they worked for my grandfather, but yes, well that was the same family for all the Blacks. They were slaves, and oh, my grandfather brought a boat of women to marry the people. No no, there aren't a lot of Blacks in Cameron, no.}
+          \item Dennis (Cajun): Pas de trop.
+                Chaque grande ferme engageait un ou deux, mais ça restait sur la ferme, et mon grand-père avait un, et moi et lui, ... c'était le seul je connaissais. (32:53)\label{sent:life_dennis1}
+          \item[] \longtrans{Dennis (Cajun): Not too many.
+                Each big farm hire one or two, but they stayed on the farm, and my grandfather had one, and he and I, ... that was the only one that I knew.}
+          \item Deborah (White Creole): Mon grand-père avait les escalves à la maison.
+                J'ai grandi avec les Noirs.
+                On avait beaucoup, ouais.
+          \item[] Joshua (Interviewer): Oh, ouais?
+                Y a beaucoup de Noirs à Créole?
+          \item[] Deborah: Non, ils travaillaient pour mon grand-père, mais oui, mais c'était la même famille de tous les Noirs.
+                C'était les esclaves, et oh, mon grand-père a amené un bateau de femmes pour marier avec les gens.
+                Non non, y a pas beaucoup de Noirs à Cameron, non. (58:55)\label{sent:life_deborah}
+          \item[] \longtrans{Deborah (White Creole): My grandfather had slaves at the house.
+                I grew up with Blacks.
+                We had a lot, yeah.}
+          \item[] \longtrans{Joshua (Interviewer): Oh, yeah?
+                There are a lot of Black people in Creole?}
+          \item[] \longtrans{Deborah: No, they worked for my grandfather, but yes, well that was the same family for all the Black people.
+                They were slaves, and oh, my grandfather brought a boat of women to marry the people.
+                No no, there aren't a lot of Black people in Cameron, no.}
         \end{enumerate}
         Dennis explained that Creoles would only come to work on the farms there, including his grandfather's.
         Although Dennis gave no indication of harboring any racial ideology -- in fact, he went on to say that knowing this man gave him a ``meilleur cœur'' \gloss{better heart} for Creoles -- his instinct was to describe his grandfather as ``having one'' as if Creoles were possessions for these farms.
@@ -1098,8 +1285,10 @@
         
         Another Cajun, Errol, gave an interesting account in Sentence \ref{sent:creole_errol1} of a zydeco musician named Troy who sometimes played Cajun music, as well.
         \begin{enumerate}[resume=sentences]
-          \item Errol (Cajun): Troy va jouer un tas de la musique cadienne, mais li joue ça d'une différente manière, tu connais? Avec une différente accordéon, avec une différente clé, tu connais? (5:05)\label{sent:creole_errol1}
-          \item[] \longtrans{Errol (Cajun): Troy will play a lot of Cajun music, but he plays that in a different way, you know? With a different accordion, with a different key, you know?}
+          \item Errol (Cajun): Troy va jouer un tas de la musique cadienne, mais li joue ça d'une différente manière, tu connais?
+                Avec une différente accordéon, avec une différente clé, tu connais? (5:05)\label{sent:creole_errol1}
+          \item[] \longtrans{Errol (Cajun): Troy will play a lot of Cajun music, but he plays that in a different way, you know?
+                With a different accordion, with a different key, you know?}
         \end{enumerate}
         When Troy plays Cajun music, Errol explained that he does so with a different instrumentation.
         Indeed, a common difference between the two genres is that zydeco is typically played on a full piano keyboard accordion and Cajun music on a much smaller single row diatonic accordion \parencite[pp.~28-29]{kuhlken_geography_1991}.
@@ -1124,26 +1313,44 @@
             
         Both Randal and Errol singled out another cultural practice that they associated with Creoles, and that was the use of tomatoes in cooking, as exemplified in Sentences \ref{sent:creole_randal3} and \ref{sent:creole_errol2}.
         \begin{enumerate}[resume=sentences]
-          \item Randal (Cajun): Quand tu vas à Nouvelle-Orléans, les gombos sont pas ça. C'est rouge. Ça met du tomate dans, et des okras, et des gombos, ça fait un tas du monde d'ici dit ça c'est pas gombo là-bas, mais c'est gombo. C'est juste le Creole. (61:58)\label{sent:creole_randal3}
-          \item[] \longtrans{Randal (Cajun): When you go to New Orleans, the gumbos there are not that. They're red. They put tomato in, and okra, and okra, so a lot of people from here say that that's not gumbo over there, but it's gumbo. It's just Creole.}
-          \item Errol (Cajun): Mo mo l'aime le manger créole. ...
+          \item Randal (Cajun): Quand tu vas à Nouvelle-Orléans, les gombos sont pas ça.
+                C'est rouge.
+                Ça met du tomate dans, et des okras, et des gombos, ça fait un tas du monde d'ici dit ça c'est pas gombo là-bas, mais c'est gombo.
+                C'est juste le Creole. (61:58)\label{sent:creole_randal3}
+          \item[] \longtrans{Randal (Cajun): When you go to New Orleans, the gumbos there are not that.
+                They're red.
+                They put tomato in, and okra, and okra, so a lot of people from here say that that's not gumbo over there, but it's gumbo.
+                It's just Creole.}
+          \item Errol (Cajun): Mo mo l'aime le manger créole. ...\label{sent:creole_errol2}
           \item[] Joshua (Interviewer): Vous avez un plat préféré qui est créole?
-          \item[] Errol: To peux faire gombo. To peux fais étouffé, mais uh
+          \item[] Errol: To peux faire gombo.
+                To peux fais étouffé, mais uh
           \item[] Joshua: Ça c'est créole?
-          \item[] Errol: Un gombo, ouais. Yé cuit ça différent, tu connais? Cadiens fait gombo itou, mais les Créoles fait un différent gombo.
+          \item[] Errol: Un gombo, ouais.
+                Yé cuit ça différent, tu connais?
+                Cadiens fait gombo itou, mais les Créoles fait un différent gombo.
           \item[] Joshua: Quoi c'est la différence?
-          \item[] Errol: Well, ça yé met dans le gombo. Mais, peut-être un Cadien va cuit un gombo avec du roux puis la viande. Un Créole va peut-être fait un gombo avec des tomates dans le roux. ...
+          \item[] Errol: Well, ça yé met dans le gombo.
+                Mais, peut-être un Cadien va cuit un gombo avec du roux puis la viande.
+                Un Créole va peut-être fait un gombo avec des tomates dans le roux. ...
           \item[] Joshua: C'est bon comme ça?
-          \item[] Errol: Mo pas connais. Mo mo je l'aime pas ça. \label{sent:creole_errol2}
+          \item[] Errol: Mo pas connais.
+                Mo mo je l'aime pas ça.
           \item[] \longtrans{Errol (Cajun): I like Creole food. ...}
           \item[] \longtrans{Joshua (Interviewer): Do you have a favorite dish that's Creole?}
-          \item[] \longtrans{Errol: You can make gumbo. You can make étouffé, but uh}
+          \item[] \longtrans{Errol: You can make gumbo.
+                You can make étouffé, but uh}
           \item[] \longtrans{Joshua: That's Creole?}
-          \item[] \longtrans{Errol: A gumbo, yeah. They cook that differently, you know? Cajuns make gumbo, too, but Creoles make a different gumbo.}
+          \item[] \longtrans{Errol: A gumbo, yeah.
+                They cook that differently, you know?
+                Cajuns make gumbo, too, but Creoles make a different gumbo.}
           \item[] \longtrans{Joshua: What's the difference?}
-          \item[] \longtrans{Errol: Well, what they put in the gumbo. Well, maybe a Cajun will cook a gumbo with some roux and meat. A Creole will maybe make a gumbo with tomatoes in the roux. ...}
+          \item[] \longtrans{Errol: Well, what they put in the gumbo.
+                Well, maybe a Cajun will cook a gumbo with some roux and meat.
+                A Creole will maybe make a gumbo with tomatoes in the roux. ...}
           \item[] \longtrans{Joshua: Is it good like that?}
-          \item[] \longtrans{Errol: I don't know. I don't like that.}
+          \item[] \longtrans{Errol: I don't know.
+                I don't like that.}
         \end{enumerate}
         Errol's discussion has been reproduced at greater length here because it is is particularly enlightening.
         He began by saying that he likes Creole food.
