@@ -109,7 +109,7 @@ plotHomophily <- ggplot(data = participants,
   coord_flip() +
   theme_bw()
 
-Round(mean(gssNames[gssNames$Ethnicity == "White", "Network Ethnic Homophily"]))
+# Round(mean(gssNames[gssNames$Ethnicity == "White", "Network Ethnic Homophily"]))
 
 # # French usage by alter type (i.e., coreness)
 # coreByFrBar <- ggplot(
