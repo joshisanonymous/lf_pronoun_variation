@@ -21,7 +21,7 @@
   \section{Social network analysis in sociolinguistics}
     \label{sec:sna_sociolinguistics}
     The fundamental focus on interaction in social network analysis has been understood as important in linguistics as a predictor of how one will speak long before the methodology was implemented into the field \parencite[pp.~46-47]{bloomfield_language_1933}.
-    This idea has been brought up again and again as an explanation for individuals' linguistic behavior, including when racial barriers are crossed \parencite{sweetland_unexpected_2002}.
+    This idea has been brought up repeatedly as an explanation for individuals' linguistic behavior, including when racial barriers are crossed \parencite{sweetland_unexpected_2002}.
     The social network approach to analyzing social structure is appealing enough that it has even been invoked when no network measures are actually implemented \parencite{hoffman_ethnolects_2010, sneller_gritty_2024}.
     % L. Milroy (1980/1987) famously found that social network positions can explain why two speakers from the same community with the same characteristics in terms of social variables might still speak differently (131-134)
     % Gal (1979) argued that not all interactions are the same (15)
@@ -31,7 +31,7 @@
     Diffusion was in fact a central focus early on in sociology, where social network analysis was developed, especially when considering how the closeness of connections (\foreign{i.e.}, the strength of ties) impacts the spread of information \parencite{granovetter_strength_1973, milgram_small-world_1967}.
     The role of race in this diffusion was also regularly present \parencite{korte_acquaintance_1970}.
     Early studies of language change posited that diffusion between groups occurs across strong ties or specifically when individuals have many ties both in and out of a group (\citeauthor{downes_language_1984}, \citeyear[p.~155]{downes_language_1984}; \citeauthor{labov_social_1980}, \citeyear[p.~261]{labov_social_1980}), contrary to arguments for the mechanics of diffusion that had been made in sociology.
-    The network data that is needed to examine diffusion directly is quite difficult to collect, however, making linguistics studies that would resolve the diffusion question few and far between.
+    The network data that is needed to examine diffusion directly is quite difficult to collect, however, making linguistics studies that would resolve the diffusion question few and far between, although race would likely play a role in the spread of ways of speaking, as well.
     % It's been argued that joint negotiation rather than simple individual-to-individual contact is what leads to the uptake of linguistic features in a network (Eckert 2019, as cited in Sharma & Dodsworth 2020:353-354)
     % Women commonly have these diffuse, open networks in urban Western contexts (Sharma & Dodsworth 2020:350)
     % In Philadelphia, the early adopters of language change were women with many on-block and off-block ties, highlighting the importance both of centrality in a community and interactions outside of the community (Labov 2001, as cited in Sharma & Dodsworth 2020:348/351)
@@ -42,8 +42,8 @@
     The major theoretical contribution that her study had was the finding that a speaker's lack of integration into a community (\foreign{i.e.}, their centrality) can explain their linguistic difference from that community when broad demographic categories would otherwise predict that they would adhere to that community's norms.
     \textcite{milroy_language_1987} measured centrality with a 5-point index where points were tabulated for facts such as working with two people in the community or spending leisure time with those people (pp.~139/141-142).
     Numerous such indices have been used since then in sociolinguistics with similar results \parencite{cheshire_present_1978, lippi-green_social_1989}.
-    Some of this work has focused on race \parencite{ash_linguistic_1986, edwards_sociolinguistic_1992}.
-    In the case of \textcite{edwards_sociolinguistic_1992}, one of the index questions asked of his Black participants was whether they often interacted with Whites or not.
+    Some of this work has even focused on race \parencite{ash_linguistic_1986, edwards_sociolinguistic_1992}.
+    In the case of \textcite{edwards_sociolinguistic_1992}, one of the index questions posed to his Black participants was whether they often interacted with White people or not.
     The results of his analysis thus suggest that a lack of interaction between races leads to differences in speech patterns.
     
     Importantly, though, these indices are not generalizable in the sense of being equally applicable to all datasets.
@@ -51,7 +51,7 @@
     As \textcite{lippi-green_social_1989} argued, these indices are idiosyncratic and therefore need to be adapted to each community (p.~218).
     The sort of broad structural data that is required to employ generalizable centrality measures from sociology is rare in sociolinguistics outside of studies of online networks \parencite{kim_sociolinguistic_2014, mcneill_lol_2018, paolillo_virtual_1999}, making indices a necessary compromise.
 
-    Another social network analysis that is more easily carried out and has more often dealt with ethnicity and race is personal network analysis, which centers on particular individuals (\foreign{i.e.}, egos) and elaborates only the ties to other individuals who are connected to these egos at some defined distance (\foreign{i.e.}, alters) without worrying about their position in the overall community (\citeauthor{bott_family_1971}, \citeyear[p.~250]{bott_family_1971}; \citeauthor{perry_egocentric_2018}, \citeyear[p.~6]{perry_egocentric_2018}).
+    Another social network analysis that is more easily carried out and has more often dealt with ethnicity and race is personal network analysis, which centers on particular individuals (\foreign{i.e.}, egos) and elaborates only the ties to other individuals who are connected to these egos at some defined distance (\foreign{i.e.}, alters) without worrying about the egos' positions in the overall community (\citeauthor{bott_family_1971}, \citeyear[p.~250]{bott_family_1971}; \citeauthor{perry_egocentric_2018}, \citeyear[p.~6]{perry_egocentric_2018}).
     Such analyses involve examining the characteristics of alters, sometimes relative to the characteristics of egos.
     Perhaps the most common way this is done is by looking at homophily, that is the likeness between egos and their alters on some characteristic \parencite[p.~23]{lazarsfeld_friendship_1954}.
     In sociolinguistics, some of the most robust network analyses have taken this approach.
@@ -63,11 +63,11 @@
     This has especially been a focus of studies of immigrant groups and their offspring.
     In England, members of Chinese families were found to choose Chinese with interlocutors when their personal networks were more Chinese \parencite{li_two-step_2000}, and members of Punjabi families were also more likely to use Punjabi or Urdu when their personal networks included more Punjabis (\citeauthor{reynolds_punjabiurdu_2002}, \citeyear{reynolds_punjabiurdu_2002}; \citeauthor{sharma_scalar_2017}, \citeyear[p.~406]{sharma_scalar_2017}).
     Similar results were found in Norway where Filipino immigrants with higher the ethnic homophily in their personal networks were more likely to use Filipino languages with their children \parencite{lanza_tell_2007}.
-    This pattern not has also held when looking at colonial rather than immigrant contexts.
+    This pattern has also held when looking at colonial rather than immigrant contexts.
     For example, in the small Pacific country of Palau, participants with more Japanese alters were found to be more likely to use Japanese, a former colonial language \parencite{matsumoto_role_2010}.
-    This colonial context especially is suggestive of Louisiana and racialization in general, although the context is not identical.
-    In Palau, the break with Japan occurred more recently, during World War II, and so some of the intermarried families had a parent who returned to Japan at that time and only came back later.
-    Migratory patterns like those in Palau could have occurred shortly after the Louisiana Purchase in Louisiana, but it is unlikely for many families in the state to still hold such close ties with France or any other French-speaking nation outside of Louisiana today.
+    This colonial context, although not identical, is especially suggestive for the situation in Louisiana and racialization in general.
+    In Palau, the break with Japan occurred more recently, during World War II than Louisiana's break with France, and so some of the intermarried families had a parent who returned to Japan at that time and only came back later.
+    Migratory patterns like those in Palau could have occurred in Louisiana shortly after the Louisiana Purchase, but it is unlikely for many families in the state to still hold such close ties with France or any other French-speaking nation outside of Louisiana today.
     % Within Dyirbal-English speaking communities, the amount of Dyirbal used in casual conversation was relative to the usage of the least monolingual Dyirbal speaker in the group (Schmidt 1985, as cited in L. Milroy 1980/1987:176)
       % Doesn't seem to be related to race or ethnicity, though
 
@@ -88,23 +88,24 @@
       % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
         % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
 
-    A social context that is perhaps more congruent with that of Creoles and Cajuns in Louisiana is that of Blacks and Whites in the US as this implicates racialization, which while not absent from the previously discussed studies -- \textcite{sharma_cognitive_2011} did describe early Punjabi immigrants as facing racial issues rather than ethnic (pp.~405-406) -- the groups that were examined were generally conceptualized as ethnic groups only, but like those ethnic studies, the results for studies of race in the US have not shown consistent effects for personal network racial homophily.
+    A social context that is perhaps more congruent with that of Creoles and Cajuns in Louisiana is that of Black and White Americans as this implicates racialization, which while not absent from the previously discussed studies -- \textcite{sharma_cognitive_2011} did describe early Punjabi immigrants as facing racial issues rather than ethnic (pp.~405-406) -- the groups that were examined were generally conceptualized as ethnic groups only without highlighting possible racialization.
+    Like those ethnic studies, however, the results for studies of race in the US have not shown consistent effects for personal network racial homophily.
     \textcite{labov_facto_1986}, for instance, looked at a slightly extended personal network for Eddie, a Black man in North Philadelphia, and concluded that the morphological patterns of those in his network were better explained by their social histories rather than by the network.
     However, they did not employ any network measures but rather directly interpreted the sociograms (\foreign{i.e.}, network diagrams) that they drew.
     In fact, their data collection methods were not shared, making it difficult to understand what may be missing or present from those sociograms in the first place.
-    Their conclusion was supported, though, by a longitudinal study of African-American youths in Chapel Hill, North Carolina where the number of African-American social contacts of participants did not have a significant effect on the rate of usage of African-American English features.
+    Their conclusion was supported, though, by a longitudinal study of African-American youths in Chapel Hill, North Carolina where the number of African-American social contacts of participants did not have a significant effect on the rate of usage of African-American English features \parencite{van_hofwegen_coming_2010}.
     This result, again, was unfortunately rather opaque as no descriptive statistics were provided for the proportion of African-Americans that participants actually had in their networks as it would not be unusual for all participants to have rather high racially homophilous networks.
     Instead, only the regression model was provided.
-    This does not mean that these results, that young African-Americans in Chapel Hill and Black speakers in North Philadelphia are not sensitive to the racial make-up of their networks, but they should perhaps be considered with care.
+    This does not mean that these results, that young African-Americans in Chapel Hill and Black speakers in North Philadelphia are not sensitive to the racial make-up of their networks, are invalid, but they should perhaps be considered with care.
 
     Other studies of race in the US, in contrast, have shown effects for racial homophily.
     African-Americans in Memphis who had higher rates of racial homophily in their networks were found to be more involved in the southern vowel shift than those with more racially diverse networks \parencite{fridland_network_2003}.
-    Unfortunately, this sample was limited to 10 participants, so not statistical analyses were used to establish this pattern.
-    A larger study, however, was conducted in Philadelphia, just as in \citeauthor{labov_facto_1986}'s (\citeyear{labov_facto_1986}) work, and found that Black speakers with less racially homophilous networks use more linguistic features associated with Black speakers then others.
+    Unfortunately, this sample was limited to 10 participants, so no statistical analyses were used to establish this pattern.
+    A larger study, however, was conducted in Philadelphia, just as \citeauthor{labov_facto_1986}'s (\citeyear{labov_facto_1986}) work was, and found that Black speakers with more racially homophilous networks used more linguistic features associated with Black speakers than others.
     Likewise, White speakers in the data with little contact with Black speakers used fewer Black linguistic features, although White participants constituted a minority of the sample \parencite{ash_linguistic_1986}.
     This has perhaps been the most transparent and robust study of the impact of homophily on racially-marked language use as the sample included 28 speakers for whom homophily was calculated rather than inferred and whose homophily rates ranged from very high to very low.
     Where racialized social systems are in place, in fact, one should probably not expect to find low racial homophily in the first place.
-    If participants who have low racial homophily in their personal networks are outliers, it is not surprising that studies of language variation are sometimes unable to show significant effects for the \emph{amount} of racial homophily, but this does not necessarily mean that racial homophily is not an important factor.
+    If participants who have low racial homophily in their personal networks are outliers, it is not surprising that studies of language variation are sometimes unable to show significant effects for the amount of racial homophily given the very small range in that amount, but this does not necessarily mean that racial homophily is not an important factor.
     % Cheshire et al. (2008) looked at the effect of the ethnic (includes Black) homophily of personal networks on English features of London speakers
       % Homophily was an index from 1 to 5 with 1 being equivalent to no different ethnicities from ego and 5 being 80% different ethnicities (6)
         % No one scored 1 or 2, so all had at least 40% non-ethnically homophilous alters
@@ -125,13 +126,13 @@
 
     % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
 
-    In Louisiana specifically, while there is a long and continuing history of racial segregation that has been examined at the community level (see Section \ref{sec:united_states}), there is a dearth of examinations on what personal networks look like racially in Louisiana.
+    In Louisiana specifically, while there is a long and continuing history of racial segregation that has been examined at the community level (see Section \ref{sec:united_states}), there is a dearth of examinations on what personal networks look like racially.
     This is true whether dealing with Creole racialization or the broader categories of Black and White, and it is especially true in sociolinguistics.
     While sociolinguistic ethnographic work on Creoles has taken place in Louisiana \parencite{wendte_tale_2020}, quantitative network analyses have been absent.
     Only one study, outside of sociolinguistics, has addressed how the racial make-up of personal networks relate to Creoles, in this case in terms of how they view their Creole identities.
     It was found that those Creoles of color who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole (\foreign{i.e.}, a stable mixed identity) had mostly White friends, and those who identified as protean (\foreign{i.e.}, racially shifting) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
 
-    The current study aims to add to this picture by looking not at the Black and White composition of personal network but the Creole and Cajun composition relative to individuals who self-identify as Creole or Cajun themselves and how this impacts language use.
+    The current study aims to add to this picture by looking not at the Black and White composition of personal networks but the Creole and Cajun composition of the personal networks of individuals who self-identify as Creole or Cajun themselves and how this impacts language use.
     Specifically, the primary research question is the following:
     \begin{itemize}
       \item[RQ2:] How does the homophily or lack thereof in the ethnic make-up of personal networks among F\&C speakers in South Louisiana relate to variation in subject pronoun usage?
