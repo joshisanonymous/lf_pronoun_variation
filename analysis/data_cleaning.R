@@ -63,6 +63,7 @@ participants <- droplevels(subset(participants, Ethnicity != "French" &
                                                 Name != "Latoya Pomier"))
 
 # Convert times to something calculable
+participants$`Total Length Time` <- participants$`Total Length`
 participants$`Total Length` <-  period_to_seconds(hms(participants$`Total Length`))/60/60
 
 # Clean up race levels to aggregate or abbreviate
