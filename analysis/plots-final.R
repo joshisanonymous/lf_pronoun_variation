@@ -96,7 +96,7 @@ parishBar <- ggplot(
 plotAlterEthnicity <- plotBar(networks, "Alter Ethnicity")
 
 plotHomophilyGss <- ggplot(data = gssNames,
-                        aes(x = Ethnicity, y = `Network Ethnic Homophily`)) +
+                        aes(x = Race, y = `Network Race Homophily`)) +
   geom_boxplot() +
   geom_jitter(aes(group = Ethnicity), color = "red", size = 2, width = 0.05) +
   coord_flip() +
