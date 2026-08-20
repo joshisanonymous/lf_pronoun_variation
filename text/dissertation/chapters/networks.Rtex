@@ -436,7 +436,7 @@
       Table \ref{tab:homophily_participants} shows the EI homophily statistic for each participant, arranged by ethnicity.
       The mean homophily and median homophily for the study overall were \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} and \Sexpr{Round(median(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, respectively, with a standard deviation of \Sexpr{Round(sd(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}.
       These values being below zero indicate that, on average, these personal networks show more ethnic homophily than not.
-      However, when grouping by ethnicity, Creoles have a mean slightly above zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}) whereas the mean for Cajuns remains below zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}).
+      However, when grouping by ethnicity, Creoles have a mean slightly above zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, SD $\approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}) whereas the mean for Cajuns remains below zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}, $SD \approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}).
       The this difference is not statistically significant ($t$-test for difference in means: $P <$ \Sexpr{Ceiling(homophByEthnicGroupTtest$p.value)}), though it nearly is.
       It might be tempting to conclude that this characteristic of the networks of Creoles and Cajuns differs between them, but a deeper look at the individuals who contradict the overall trend helps to explain why that is not the case.
       
@@ -576,12 +576,13 @@
 
     \subsection{Personal networks' impact on subject pronoun use}
       \label{sec:network_results_pronouns}
-      The personal social network data for the participants in this study presents evidence that Louisianians have generally ethnically homophilous networks between Creoles and Cajuns which itself is evidence of segregation between Creoles and Cajuns.
-      Where personal networks were not ethnically homophilous, the explanation was always something other than participants having a mix of Creole and Cajun alters.
-      This is expected when groups are racialized and also presents a possible explanation for the mechanism that led to the variation in subject pronoun use in Chapter \ref{chap:pronoun_variation} that was highly predictable along ethnic lines.
+      The personal social network data for the participants in this study presents evidence that Louisianians have generally ethnically homophilous networks between Creoles and Cajuns.
+      Personal networks that were not ethnically homophilous did not reach that state due to a mix of Creole and Cajun alters, meaning no indications of a shortening of social distance between the groups was found.
+      This is expected when groups are racialized and also provides a possible explanation for the mechanism that led to the variation in subject pronoun use in Chapter \ref{chap:pronoun_variation} that was highly predictable along ethnic lines.
+      In other words, Creoles and Cajuns may use different subject pronouns because they have not had the sort of close interaction or relationships that would lead to broad diffusion of these particularly salient linguistic features, although the fact that at least some Cajuns use Creole-marked pronouns and some Creoles Cajun-marked pronouns suggests that the conditions were right for diffusion at some point in time.
       What was not examined in the subject pronoun models, however, was whether the degree of ethnic homophily in personal networks is predictive of pronoun use.
-      In other words, are those Creoles with less homophilous networks more likely to use non-Creole pronouns and are those Cajuns with less homophilous networks more likely to use Creole pronouns?
-      For each pronoun type, Model \ref{eq:regression_model_homophily} was therefore fit.
+      In other words, the question still remains as to whether those Creoles with less homophilous networks more likely to use non-Creole pronouns than Creoles with more homophilous networks and \foreign{vice versa} for Cajuns.
+      For each pronoun type, Model \ref{eq:regression_model_homophily} was therefore fit to answer the primary research question of this chapter.
 
       \begin{enumerate}[resume=equations]
         \item Pronoun Type $\sim$ Network Ethnic Homophily * Ethnicity + (1|Speaker) + (1|Predicate)\label{eq:regression_model_homophily}
@@ -604,9 +605,24 @@
       \end{figure}
 
       The amount of data points, one for each participant, is rather small to draw any strong conclusions from this part of the analysis, but the evidence so far suggests that it is not how homophilous one's network is that impacts subject pronoun use but rather just the fact that one is Creole or Cajun.
-      This is perhaps expected given the amount of segregation between the two groups.
-      For Cajuns who have less homophilous networks, that lack of homophily is not a result of having Creoles in the networks and \foreign{vice versa}.
-      In other words, the requisite contact that would be needed between Creoles and Cajuns for their linguistic features to come to be shared is simply not there even for those who have diverse networks.
+      The more readily interpretable Cajun EI homophily scores are instructive for this point.
+      In line with the racialization of these groups, if one is Cajun, one's network is Cajun.
+      In effect, there simply is no significant gradient in how homophilous personal networks are with respect to ethnicity, and so attempting to find a gradient from Cajun-marked pronouns for high homophily networks, a mix of Cajun- and Creole-marked pronouns for diverse networks, and Creole-marked pronouns for low homophily networks is not possible.
+
+      This fairly categorical result in homophily is more true for the Cajun participants here than even the White population of the region.
+      Figure \ref{fig:homophily_gss_boxplots} shows analogous plots using social network data from the GSS for White and Black respondents from the last year that social network questions were asked, 2004.
+      Data from the GSS cannot be constrained more narrowly to the parishes examined here nor even to just Louisiana, so this data includes Louisiana, Arkansas, Texas, and Oklahoma.
+      White respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "White"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "White"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "White"]}), and Black respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "Black"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "Black"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "Black"]}).
+      With such polarized ethnic homophily results in the present study even compared to the unquestionably racialized Americans of the region, it is not surprising that no meaningful variation in subject pronoun usage relative to ethnic homophily could be found.
+
+      \begin{figure}[tbhp]
+        \caption{Distributions of network ethnic homophily by ethnicity from GSS data for Louisiana, Arkansas, Texas, and Oklahoma}
+        \label{fig:homophily_gss_boxplots}
+        \centering
+        <<fig.height = 0.3 * textheight>>=
+        plotHomophilyGss
+        @
+      \end{figure}
 
   \section{Discussion}
 
