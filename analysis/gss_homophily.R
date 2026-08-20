@@ -28,3 +28,9 @@ colnames(gss) <- c("Name", "Ethnicity", "Alter", "Alter Ethnicity")
 
 ## Get EI homophily -----------------------
 gssNames$`Network Ethnic Homophily` <- sapply(gssNames$Name, getEIHomophily, df = gss, gss_data = TRUE)
+gssHomophilyByRace <- rbind(
+  tapply(gssNames$`Network Ethnic Homophily`, gssNames$Ethnicity, mean),
+  tapply(gssNames$`Network Ethnic Homophily`, gssNames$Ethnicity, sd),
+  tapply(gssNames$`Network Ethnic Homophily`, gssNames$Ethnicity, length)
+)
+rownames(gssHomophilyByRace) <- c("Mean", "SD", "N")
