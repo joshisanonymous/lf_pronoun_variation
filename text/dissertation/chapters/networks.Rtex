@@ -90,10 +90,9 @@
 
     A social context that is perhaps more congruent with that of Creoles and Cajuns in Louisiana is that of Black and White Americans as this implicates racialization, which while not absent from the previously discussed studies -- \textcite{sharma_cognitive_2011} did describe early Punjabi immigrants as facing racial issues rather than ethnic (pp.~405-406) -- the groups that were examined were generally conceptualized as ethnic groups only without highlighting possible racialization.
     Like those ethnic studies, however, the results for studies of race in the US have not shown consistent effects for personal network racial homophily.
-    \textcite{labov_facto_1986}, for instance, looked at a slightly extended personal network for Eddie, a Black man in North Philadelphia, and concluded that the morphological patterns of those in his network were better explained by their social histories rather than by the network.
-    However, they did not employ any network measures but rather directly interpreted the sociograms (\foreign{i.e.}, network diagrams) that they drew.
-    In fact, their data collection methods were not shared, making it difficult to understand what may be missing or present from those sociograms in the first place.
-    Their conclusion was supported, though, by a longitudinal study of African-American youths in Chapel Hill, North Carolina where the number of African-American social contacts of participants did not have a significant effect on the rate of usage of African-American English features \parencite{van_hofwegen_coming_2010}.
+    \textcite{labov_facto_1986}, for instance, looked at a slightly extended personal network for Eddie, a Black man in North Philadelphia, and concluded that the morphological patterns of those in his network were better not entirely explanable by the racial make-up of the network because the life histories of racial in-group members were not all the same.
+    They unfortunately, though, did not share their network data collection methods, making it difficult to understand what may be missing or present from their sociograms.
+    A longitudinal study of African-American youths in Chapel Hill, North Carolina, though, went even further by simply showing that the number of African-American social contacts of participants did not have a significant effect on the rate of usage of African-American English features \parencite{van_hofwegen_coming_2010}.
     This result, again, was unfortunately rather opaque as no descriptive statistics were provided for the proportion of African-Americans that participants actually had in their networks as it would not be unusual for all participants to have rather high racially homophilous networks.
     Instead, only the regression model was provided.
     This does not mean that these results, that young African-Americans in Chapel Hill and Black speakers in North Philadelphia are not sensitive to the racial make-up of their networks, are invalid, but they should perhaps be considered with care.
@@ -627,12 +626,36 @@
 
   \section{Discussion}
     % Did these results help explain why Creoles and Cajuns speak differently
+
       % Sure, because they are not connected enough to speak the same
-      % Does this support Granovetter or Downes (1984) and Labov (1980)?
-      % Edwards (1992) found a lack of interracial interaction leading to differences in speech patterns
+      % This is consistent with what Korte & Milgram (1970) long ago found when they showed that message chains failed to reach their targets more often when sent from a White American to Black American compared to being sent from a White American to a White American.
+        % The implication was that diffusion through a network is constrained by racial boundaries
+        % This could thus be applied to explain the lack of diffusion of linguistic features across racialized boundaries 
+
+      % Edwards (1992), although looking at interaction between White and Black residents of Detroit to build a centrality index for Black study participants, nonetheless presented results that indicated that Black speakers who did not have White friends used more Black linguistic features in their English.
+        % This reiterates the way racial boundaries mitigate diffusion, only this time applied to language, an important difference given that the diffusion of different types of messages or aspects of culture need not be governed by the same factors.
+        % Likewise, racial homophily in personal networks was found to be important in Fridland's (2003) and Ash & Myhill's (1986) studies
+        % While none of these studies directly examined linguistic diffusion across the network, they are all in line with Korte & Milgram's (1970) results, as are the results from the present study.
+
+      % Some past linguistic studies that have look at the effects of the racial make-up of networks on language variation have shown that there are caveats to the effects of race in networks in that personal histories of racial in-group members are also important (labov_facto_1986)
+        % The current study did not examine the life histories of alters to test whether those played a role here, as well, but if so, alters' life histories must have been similar enough to make this a rather unimportant consideration.
+        % Simply put, personal networks were almost entirely homophilous, so the only factor left would be whether ethnically similar alters were nonetheless different on other important levels.
+          % If they were different on other important levels, those differences did not counteract the effects of identifying as Creole or Cajun in predicting subject pronoun usage.
+          % Indeed, Chapter \ref{chap:discourse} will suggest both similarities and differences in the life histories of Creoles with each other and Cajuns with each other.
+          % One of these, exposure to institutional French, was even part of the regression models in Chapter \ref{chap:pronoun_variation}, and can be somewhat safely considered a proxy for socioeconomic class.
+            % However, there was only one pronoun type,(expletive, il vs ø) for which institutional French was a significant factor and ethnicity was not, whereas there were two (3sg.F, li vs elle, 2sg.T, to vs tu) for which ethnicity was signficant but institutional French was not, which hardly suggests an overriding of the importance of ethnic homophily of personal networks.
+
+      % Occasionally, linguistic studies have even shown a lack of any effect for racial homophily on language varation (van_hofwegen_coming_2010).
+        % In this case, just how homophilous or not participants' networks were was not shared.
+        % What the results of the current study suggest are that personal networks in racialized social systems are likely to be completely homophilous, hence any test of the degree of homophily on language variation is rendered meaningless.
+        % Rather than leading to the conclusion that racial homophily is not important for predicting speech patterns, the opposite appears to be true.
 
     % What did these results say about racialization of Creoles and Cajuns
       % Homophily can occur for many reasons other than racialization, but the results are consistent with racialization nonetheless
+        % Ethnic homophily is very high across the board.
+        % Where ethnic homophily is not high, this was at times the result of participants assigning alters ethnicities that are instead homophilous with participants' racial identifications in the terms of the broader US (e.g., Black Creoles describing alters as Black).
+          % For other cases of low homophily, it was never the result of Creoles having Cajun alters or Cajuns having Creole alters but rather the implication of other ethnicities.
+      % In other words, Creoles and Cajuns do not appear to form core relationships with each other nor even linguistically-motivated relationships that could theoretically be performed to have more people to speak F\&C with, all of which is expected in a racialized social system.
 
   % ---------------------------------------------------------------------------
 
