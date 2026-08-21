@@ -611,9 +611,9 @@
 
       This fairly categorical result in homophily is more true for the Cajun participants here than even the White population of the region.
       Figure \ref{fig:homophily_gss_boxplots} shows analogous plots using social network data from the GSS for White and Black respondents from the last year that social network questions were asked, 2004.
-      Data from the GSS cannot be constrained more narrowly to the parishes examined here nor even to just Louisiana, so this data includes Louisiana, Arkansas, Texas, and Oklahoma.
+      Public data from the GSS cannot be constrained more narrowly to the parishes examined here nor even to just Louisiana, so this data includes Louisiana, Arkansas, Texas, and Oklahoma.
       White respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "White"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "White"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "White"]}), and Black respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "Black"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "Black"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "Black"]}).
-      With such polarized ethnic homophily results in the present study even compared to the unquestionably racialized Americans of the region, it is not surprising that no meaningful variation in subject pronoun usage relative to ethnic homophily could be found.
+      With such polarized ethnic homophily results in the present study even compared to the unquestionably racialized Americans of the region, it is not surprising that no meaningful variation in subject pronoun usage relative to the degree of ethnic homophily could be found.
 
       \begin{figure}[tbhp]
         \caption{Distributions of network ethnic homophily by ethnicity from GSS data for Louisiana, Arkansas, Texas, and Oklahoma}
@@ -625,37 +625,37 @@
       \end{figure}
 
   \section{Discussion}
-    % Did these results help explain why Creoles and Cajuns speak differently
+    The results produced here are not only consistent with racialization but offer insights into why subject pronoun usage varies significantly between Creoles and Cajuns.
+    In short, Creoles and Cajuns are not connected to each other well enough to end up speaking similarly.
+    This is consistent with what \textcite{korte_acquaintance_1970} long ago found when they showed that sending messages from a White American to either another White American or a Black American via a chain of alters failed more often for the latter.
+    Diffusion across the network was constrained by racial boundaries, and thus one could presume that the diffusion of linguistic features would similarly be constrained by racialized boundaries.
 
-      % Sure, because they are not connected enough to speak the same
-      % This is consistent with what Korte & Milgram (1970) long ago found when they showed that message chains failed to reach their targets more often when sent from a White American to Black American compared to being sent from a White American to a White American.
-        % The implication was that diffusion through a network is constrained by racial boundaries
-        % This could thus be applied to explain the lack of diffusion of linguistic features across racialized boundaries 
+    Evidence in linguistic studies has mostly pointed to race being an obstacle to diffusion as being true.
+    \textcite{edwards_sociolinguistic_1992}, although looking at interaction between White and Black residents of Detroit to build a centrality index for Black study participants, nonetheless presented results that indicated that Black speakers who did not have White friends used more Black linguistic features in their English.
+    This reiteration of the mitigating effect of racial boundaries for language rather than for literal messages is important given that the diffusion of different types of messages or aspects of culture need not be governed by the same factors.
+    Likewise, racial homophily in personal networks was found to be significant in \citeauthor{fridland_network_2003}'s (\citeyear{fridland_network_2003}) and \citeauthor{ash_linguistic_1986}'s (\citeyear{ash_linguistic_1986}) studies.
+    While none of these studies directly examined linguistic diffusion across networks, they are all in line with \citeauthor{korte_acquaintance_1970}'s (\citeyear{korte_acquaintance_1970}) results, as are those of the present study.
 
-      % Edwards (1992), although looking at interaction between White and Black residents of Detroit to build a centrality index for Black study participants, nonetheless presented results that indicated that Black speakers who did not have White friends used more Black linguistic features in their English.
-        % This reiterates the way racial boundaries mitigate diffusion, only this time applied to language, an important difference given that the diffusion of different types of messages or aspects of culture need not be governed by the same factors.
-        % Likewise, racial homophily in personal networks was found to be important in Fridland's (2003) and Ash & Myhill's (1986) studies
-        % While none of these studies directly examined linguistic diffusion across the network, they are all in line with Korte & Milgram's (1970) results, as are the results from the present study.
+    At least one past linguistic study that looked at the effects of the racial make-up of networks on language variation showed that there are caveats to the effects of race in networks in that the personal histories of racial in-group members are also important \parencite{labov_facto_1986}.
+    Essentially, the implication was that not all members of a racialized group are the same in terms of experiences that may shape linguistic behavior.
+    The current study did not examine the life histories of alters to test whether they played a role here, as well, but if so, alters' life histories must have been similar enough to make this a rather unimportant factor.
+    Simply put, personal networks were almost entirely homophilous, so the only factors left would be those that would differentiate ethnically similar alters on other levels.
+    To the extent that there were other important levels of difference between participants and their alters, those differences did not counteract the effects of identifying as Creole or Cajun in predicting subject pronoun usage.
+    Indeed, Chapter \ref{chap:discourse} will suggest both similarities and differences in the life histories of Creole participants with each other and Cajun participants with each other.
+    One of these, exposure to institutional French, was even part of the regression models in Chapter \ref{chap:pronoun_variation} and can be somewhat safely considered a proxy for socioeconomic class.
+    However, there was only one pronoun type, expletive (\lexi{il} vs ø) for which institutional French was a significant factor and ethnicity was not, whereas there were two, 3sg.F (\lexi{li} vs \lexi{elle}) and 2sg.T (\lexi{to} vs \lexi{tu}) for which ethnicity was signficant but institutional French was not, which hardly suggests an overriding of the importance of ethnic homophily of personal networks.
 
-      % Some past linguistic studies that have look at the effects of the racial make-up of networks on language variation have shown that there are caveats to the effects of race in networks in that personal histories of racial in-group members are also important (labov_facto_1986)
-        % The current study did not examine the life histories of alters to test whether those played a role here, as well, but if so, alters' life histories must have been similar enough to make this a rather unimportant consideration.
-        % Simply put, personal networks were almost entirely homophilous, so the only factor left would be whether ethnically similar alters were nonetheless different on other important levels.
-          % If they were different on other important levels, those differences did not counteract the effects of identifying as Creole or Cajun in predicting subject pronoun usage.
-          % Indeed, Chapter \ref{chap:discourse} will suggest both similarities and differences in the life histories of Creoles with each other and Cajuns with each other.
-          % One of these, exposure to institutional French, was even part of the regression models in Chapter \ref{chap:pronoun_variation}, and can be somewhat safely considered a proxy for socioeconomic class.
-            % However, there was only one pronoun type,(expletive, il vs ø) for which institutional French was a significant factor and ethnicity was not, whereas there were two (3sg.F, li vs elle, 2sg.T, to vs tu) for which ethnicity was signficant but institutional French was not, which hardly suggests an overriding of the importance of ethnic homophily of personal networks.
+    Occasionally, linguistic studies have even shown a lack of any effect for racial homophily on language varation \parencite[\foreign{e.g.},}[]{van_hofwegen_coming_2010}.
+    In this case, just how homophilous or not participants' networks were was not shared, meaning it is not clear whether there was an actual observabble gradient of racial homophily or whether homophily was complete or nearly complete.
+    What the results of the current study suggest are that personal networks in racialized social systems are likely to be completely homophilous, hence any test of the degree of homophily on language variation is rendered meaningless.
+    Rather than leading to the conclusion that racial homophily is not important for predicting speech patterns, the opposite appears to be true despite a lack of results for a continuum of variation relative to a continuum of homophily.
 
-      % Occasionally, linguistic studies have even shown a lack of any effect for racial homophily on language varation (van_hofwegen_coming_2010).
-        % In this case, just how homophilous or not participants' networks were was not shared.
-        % What the results of the current study suggest are that personal networks in racialized social systems are likely to be completely homophilous, hence any test of the degree of homophily on language variation is rendered meaningless.
-        % Rather than leading to the conclusion that racial homophily is not important for predicting speech patterns, the opposite appears to be true.
-
-    % What did these results say about racialization of Creoles and Cajuns
-      % Homophily can occur for many reasons other than racialization, but the results are consistent with racialization nonetheless
-        % Ethnic homophily is very high across the board.
-        % Where ethnic homophily is not high, this was at times the result of participants assigning alters ethnicities that are instead homophilous with participants' racial identifications in the terms of the broader US (e.g., Black Creoles describing alters as Black).
-          % For other cases of low homophily, it was never the result of Creoles having Cajun alters or Cajuns having Creole alters but rather the implication of other ethnicities.
-      % In other words, Creoles and Cajuns do not appear to form core relationships with each other nor even linguistically-motivated relationships that could theoretically be performed to have more people to speak F\&C with, all of which is expected in a racialized social system.
+    The results obtained from examining personal networks help to explain why subject pronoun variation is divided along ethnic lines: Creoles and Cajuns are racialized.
+    This chapter's analysis also support this conclusion on its face given that high levels of homophily are what one would expect when racialization has occurred.
+    That is not to say that there are not many other reasons that homophily can occur, but the results are consistent with racialization.
+    In the few cases where ethnic homophily was not high in the present data, this was at times the result of participants assigning alters ethnicities that are instead homophilous with participants' racial identifications in the terms of the broader US (\foreign{e.g.}, Black Creoles describing alters as Black).
+    For other cases of low homophily, it was never the result of Creoles having Cajun alters or Cajuns having Creole alters but rather the implication of other ethnicities.
+    In other words, Creoles and Cajuns do not appear to form core relationships with each other nor even linguistically-motivated relationships that could theoretically be sought out in order to have more people with whom to speak F\&C, all of which is expected in a racialized social system.
 
   % ---------------------------------------------------------------------------
 
