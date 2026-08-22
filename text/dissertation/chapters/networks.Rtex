@@ -404,8 +404,9 @@
 
   \section{Results}
     \label{sec:network_results}
-    The primary question being asked in this chapter is if Creoles and Cajuns have ethnically homophilous personal networks as that would be expected for racialized groups.
-    A broad overview of the whole network to the extent that personal networks are interconnected, as seen in Figure \ref{fig:network_whole}, intuitively suggests that a racialized social system is in place in South Louisiana.
+    The primary question being asked in this chapter is if Creoles and Cajuns have ethnically homophilous personal networks that predict subject pronoun variation.
+    The first half of that question requires examining the ethnic make-up of participants' networks.
+    A broad overview of the whole network as seen in Figure \ref{fig:network_whole}, to the extent that personal networks are interconnected, intuitively suggests that a racialized social system is in place in South Louisiana that has led to ethnic homophily.
     The figure is made up of a number of star graphs where the center node of each, ego, is a participant and all others are alters of participants.
     Almost all of these star graphs are made up of alters who are all of the same ethnicity as ego.
     Where alters are not primarily of the same ethnicity, they are generally of ethnicities other than Cajun for Creoles or Creole for Cajuns.
@@ -424,19 +425,18 @@
 
     These are good first indications that Creoles and Cajuns not only have ethnically homophilous personal networks but are also ethnically segregated, but as no attempt was made here to elaborate the whole community network, no whole network quantitative measures can be used with reliability to further establish that these indications are accurate.
     Participants were always told that they could provide just first names or initials of alters, meaning only those named alters for whom participants voluntarily gave lasts names could be connected between personal networks in the first place.
-    The fact then that the network shows connections between personal star networks at all is completely accidental.
+    The fact then that the network shows connections between personal star networks at all is therefore completely accidental.
     Snowball sampling would naturally lead to connections between participants, and while snowball sampling was not avoided, very few participants were obtained this way, those being Brian, Randal, and Arthur.
-    Notably, neither Randal nor Arthur named Oliver G., the participant who suggested their participation in the first place, nor vice versa.
-    In fact, not all of the bridges in the network were participants in the study.
-    Additionally, some other participants were linked because they were either interviewed together -- Lucille and Cynthia as well as Tracy and Florence -- or because they frequented locations where participants were recruited.
-    Thus, while whole network analyses are inappropriate here due to the only incidental nature of the network having bridges at all, personal network analyses can help provide some quantitative answers to the research question.
+    Notably, neither Randal nor Arthur named Oliver G., the participant who suggested their participation in the first place, nor \foreign{vice versa}.
+    Additionally, some other participants were linked because they were either interviewed together -- Lucille and Cynthia as well as Tracy and Florence -- or because they frequented locations where participants were recruited, meaning that not all of the bridges in the network were participants in the study.
+    Thus, while whole network analyses are inappropriate here due to the only incidental nature of the network having bridges at all, personal network analyses can help provide some quantitative answers to the characteristics of participants' social worlds and ultimately how those impact subject pronoun variation.
 
     \subsection{Personal networks}
       \label{sec:network_results_personal}
       Looking more quantitatively at personal networks, there is a relatively clear pattern of networks being ethnically homophilous with a few caveats.
       Table \ref{tab:homophily_participants} shows the EI homophily statistic for each participant, arranged by ethnicity.
       The mean homophily and median homophily for the study overall were \Sexpr{Round(mean(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))} and \Sexpr{Round(median(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, respectively, with a standard deviation of \Sexpr{Round(sd(participants[participants$Name != "Errol Stoufle" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}.
-      These values being below zero indicate that, on average, these personal networks show more ethnic homophily than not.
+      These values being below zero indicates that, on average, these personal networks show more ethnic homophily than not.
       However, when grouping by ethnicity, Creoles have a mean slightly above zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}, $SD \approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Creole" & participants$Name != "Rachel Chenevert", "Network Ethnic Homophily"]))}) whereas the mean for Cajuns remains below zero (mean $\approx$ \Sexpr{Round(mean(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}, $SD \approx$ \Sexpr{Round(sd(participants[participants$Ethnicity == "Cajun" & participants$Name != "Errol Stoufle", "Network Ethnic Homophily"]))}).
       This difference is not statistically significant ($t$-test for difference in means: $P <$ \Sexpr{Ceiling(homophByEthnicGroupTtest$p.value)}), though it nearly is.
       It might be tempting to conclude that this characteristic of the networks of Creoles and Cajuns differs between them, but a deeper look at the individuals who contradict the overall trend helps to explain why that is not the case.
@@ -516,7 +516,7 @@
       For Jack, whose personal network was quite small, Cajuns made up half of his alters, the others being Chinese and Spanish, while for Lillian, Americans were as frequently named as Cajuns and even made up slightly more of her core network.
       Similarly for James and Jerry, Creoles constituted the largest group in their personal networks.
       The latter also gave ethnicities such as Italian and Redneck and the former also gave Carmerounian, Canadian, and White.
-      The last, a non-core alter, is one of the few potential instances of a Creole naming a Cajun or a Cajun naming a Creole depending on since, as will be seen in Section \ref{sec:cajun_race}, James emphasized Whiteness in defining Cajuns.
+      The last, a non-core alter, is one of the few potential instances of a Creole naming a Cajun since, as will be seen in Section \ref{sec:cajun_race}, James emphasized Whiteness in defining Cajuns.
       Indeed, the most important aspect of these ethnically diverse personal networks is that Creoles did not name Cajuns in their networks and Cajuns did not name Creoles, which was also generally true for all other participants.
       Thus, even when little ethnic homophily is found, it is not the result of Creoles and Cajuns interacting but rather the result of non-Creoles and non-Cajuns being added to the mix.
 
@@ -557,12 +557,12 @@
       Gene presented an even more radical picture.
       He self-identified as a Creole but could not choose a descriptor for his race, explaining that others kept changing what they would call his people over time.
       The changing terms that he used were all for broader American racialized categories such a \lexi{Black} or \lexi{Colored}.
-      He thus extended this indeterminacy to the alters whom he named, all of whom were core alters, giving no answer for their ethnicities save for one individual whom he described as Creole/French.
+      He therefore extended this indeterminacy to the alters whom he named, all of whom were core alters, giving no answer for their ethnicities save for one individual whom he described as Creole/French.
       While this technically leads to a complete lack of ethnic homophily mathematically, like Tracy and Owen above, it is relatively clear that Gene did in fact share a racialized identity with the core members of his personal network.
 
-      The segregation between Creoles and Cajuns is thus nearly complete.
+      The social distance between Creoles and Cajuns appears, then, to be nearly complete.
       Even the few instances where Cajuns named alters in their networks and explicitly described them as Creole do not constitute very good evidence of cracks in the social distance between the two groups, notably because it was only Cajuns who named Creoles and never Creoles who named Cajuns.
-      Those who did so include Elizabeth and Stevenl who both named two Creoles as well as Randal, Austin, and Oliver L. who each named one Creole.
+      Those who did so include Elizabeth and Steven who both named two Creoles as well as Randal, Austin, and Oliver L. who each named one Creole.
       None of the Creoles named by any participant were part of their set of core alters, meaning these were examples of people with whom these speakers suggested they might speak F\&C from day to day and nothing more.
       In some cases, it also seemed that participants were consciously striving to make their personal networks appear more diverse than they actually are, something that Creole participants did not seem to feel the need to do.
       For instance, Oliver L. gave an individual who would come to do work on his property who had to be listed simply as ``tractor driver'' because he could not remember the gentleman's name.
@@ -572,8 +572,8 @@
       That is not to say that all Creoles named by Cajuns appeared to be brought up to specifically diversify their networks rather than simply because they were the first individuals to come to mind.
       Some other Creoles who were more readily named, like those named by Elizabeth and Randal, were acquaintances they made through volunteer work, although again this highlights the non-core nature of these alters.
       For Austin, the Creole he named was even more immediately accessible in his thoughts as he was the first person named after asking Austin with whom he speaks F\&C from day to day.
-      The Creole, Wayne, was one of Austin's fellow graduate students who in fact did not meet Austin's own definition of Creole, those being Black Louisiana francophones, which he acknowledged was not congruent with who might self-identify as Creole in other parts of Louisiana.
-      Indeed, Austin described Wayne as a White Creole due to his mother's family name and their origin in Avoyelles Parish where that family would have been considered Creole.
+      The Creole, Wayne, was one of Austin's fellow graduate students who in fact did not meet Austin's own definition of Creole, those being Black Louisiana francophones, a definition which he acknowledged was not congruent with who might self-identify as Creole in other parts of Louisiana.
+      Indeed, Austin described Wayne as a White Creole due to his mother's family name and their origin in Avoyelles Parish where that family would have been considered Creole by the other locals.
       This scenario perhaps implies that the social distance between Cajuns and White Creoles is not necessarily the same as the social distance between Cajuns and Black Creoles.
 
     \subsection{Personal networks' impact on subject pronoun use}
@@ -581,9 +581,9 @@
       The personal social network data for the participants in this study presents evidence that Louisianians have generally ethnically homophilous networks between Creoles and Cajuns.
       Personal networks that were not ethnically homophilous did not reach that state due to a mix of Creole and Cajun alters, meaning no indications of a shortening of social distance between the groups was found.
       This is expected when groups are racialized and also provides a possible explanation for the mechanism that led to the variation in subject pronoun use in Chapter \ref{chap:pronoun_variation} that was highly predictable along ethnic lines.
-      In other words, Creoles and Cajuns may use different subject pronouns because they have not had the sort of close interaction or relationships that would lead to broad diffusion of these particularly salient linguistic features, although the fact that at least some Cajuns use Creole-marked pronouns and some Creoles Cajun-marked pronouns suggests that the conditions were right for diffusion at some point in time.
+      In other words, Creoles and Cajuns may use different subject pronouns because they have not had the sort of close interaction or relationships that would lead to broad diffusion of these particularly salient linguistic features, although the fact that at least some Cajuns use Creole-marked pronouns and some Creoles Cajun-marked pronouns suggests that the conditions were right for diffusion at some point in in the past before the times of the participants.
       What was not examined in the subject pronoun models, however, was whether the degree of ethnic homophily in personal networks is predictive of pronoun use.
-      In other words, the question still remains as to whether those Creoles with less homophilous networks more likely to use non-Creole pronouns than Creoles with more homophilous networks and \foreign{vice versa} for Cajuns.
+      In other words, the question still remains as to whether those Creoles with less homophilous networks were more likely to use non-Creole pronouns than Creoles with more homophilous networks and \foreign{vice versa} for Cajuns.
       For each pronoun type, Model \ref{eq:regression_model_homophily} was therefore fit to answer the primary research question of this chapter.
 
       \begin{enumerate}[resume=equations]
@@ -591,7 +591,7 @@
       \end{enumerate}
       
       The results indicate that the degree of ethnic homophily does not predict subject pronoun realization.
-      The raw output for all of the models can be seen in Appendix \ref{app:code}.
+      The raw output for all of the models can be seen in Appendix \ref{app:code_homophily}.
       No factors were significant for any pronoun type.
       While this may have been expected for Creoles given that their EI homophily values are sometimes misleading, Cajuns' networks generally had readily interpretable EI homophily scores.
       As Figure \ref{fig:homophily_boxplots} shows, Creoles had a number of individuals whose homophily was above zero that probably should not be interpreted as a lack of homophily, whereas Cajuns have a relatively tight distribution in the negative homophily range.
