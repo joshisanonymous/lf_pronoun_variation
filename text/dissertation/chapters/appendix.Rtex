@@ -6,6 +6,7 @@
 \chapter{Raw Code Output for Models}
   \label{app:code}
   \section{Main subject pronoun models}
+    \label{app:code_main}
     \begin{Verbatim}[fontsize=\small]
     <<>>=
     logitModelSummaries
@@ -13,6 +14,7 @@
     \end{Verbatim}
 
   \section{Subject pronouns predicted by ethnic homophily}
+    \label{app:code_homophily}
     \begin{Verbatim}[fontsize=\small]
     <<>>=
     logitModelHomophilySummaries

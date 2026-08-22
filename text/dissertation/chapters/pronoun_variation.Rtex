@@ -1381,7 +1381,7 @@
     In terms of racialization, such a result would suggest that speech can serve as a identifier with the potential to lead to acts of discrimination.
     Given that the analysis here treats all of the subject pronouns, it can also address the question of whether these pronouns covary, which would suggest that they form a whole system that distinguishes Creoles and Cajuns.
     The results do in fact lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities, but there are some other results worth noting in this section beforehand.
-    The full summary read-outs for each model are given in Appendix \ref{app:code}.
+    The full summary read-outs for each model are given in Appendix \ref{app:code_main}.
 
     Only one pronoun type did not yield any statistically significant results when modeled, that being 3sg.M.
     This variable consisted of \lexi{li} compared to the reference level \lexi{il}.
