@@ -2,13 +2,14 @@
   \label{chap:methods}
   \section{The location}
     \label{sec:location}
-    Acadiana, despite being named in honor of the Acadians, is more generally the portion of South Louisiana where F\&C are spoken.
-    Officially, 22 parishes have been included since 1971 with the passage of HCR 496 \parencite[pp.~5-6]{trepanier_french_1988}.
-    Of those, I looked at Lafayette Parish and the adjacent parishes focusing mostly on St Landry Parish and St Martin Parish which cover the areas north, northeast, and east of the city of Lafayette. % Add a figure for this
+    In the previous chapter, Figure \ref{fig:mapacadiana} aimed to highlight the area of Louisiana that is perhaps most prominent in the imaginations of the general US.
+    Despite this region being officially named Acadian in honor of the Acadians, it is more generally the portion of South Louisiana where F\&C are spoken that is and has been home to many groups who have contributed to its unique character.
+    Officially, 22 parishes have been included in Acadiana since 1971 with the passage of HCR 496 \parencite[pp.~5-6]{trepanier_french_1988}.
+    Of those, this study looks at Lafayette Parish and the adjacent parishes, focusing mostly on St Landry Parish and St Martin Parish, which cover the areas north, northeast, and east of the city of Lafayette, as shown in Figure \ref{fig:mapfocus}.
     This location was chosen as it is where both French and Creole are said to be spoken, as will be discussed, and as it is where both Cajuns and Creoles can be found both historically as well as today.
-    The Attakapas, the historical region that correlates with the modern region analyzed here, was one of the first places that Acadians settled \parencite[pp.~74-78/91-100]{brasseaux_foundings_1987}.
-    Anyone who was born in the Attakapas, including succeeding generation of Acadians, would have been considered Creoles in the original sense of local or native.
-    The presence of self-identified Creoles today is such that Lafayette Parish and St Martin Parish together have been described as a ``Creole hearth'' \parencite[p.~11]{landry_creole_2016}.
+    The Attakapas, the historical region named after the Attakapas Indians \parencite[p.~38]{de_villiers_du_terrageterrage_dernieres_1903} that correlates with the modern region analyzed here, was one of the first places that Acadians settled \parencite[pp.~74-78/91-100]{brasseaux_foundings_1987}.
+    Anyone who was born in the Attakapas, including succeeding generation of Acadians, would have been considered Creoles in the original sense of local or native, but modern-day self-identified Creoles also still reside in the area.
+    Their presence today is such that Lafayette Parish and St Martin Parish together have been described as a ``Creole hearth'' \parencite[p.~11]{landry_creole_2016}.
     To have a better understanding of the people who reside in the target area, it will be important to understand its cultural and economic development.
 
     \begin{figure}[tbhp]
@@ -19,9 +20,9 @@
       @
     \end{figure}
 
-    European settlement of the Attakapas began in the mid-18th century.
-    Covering the modern-day parishes of Lafayette, St Martin, Iberia, St Mary, and Vermilion, the Attakapas Post was established by the French in 1756 \parencite[p.~12]{landry_creole_2016}.
-    The division of the region into these parishes started around the time that Spain took over in 1768 when was then the New Orleans district, which included the Attakapas, was divided into 21 parishes for religious administration.
+    European settlement of the Attakapas began in the mid 18th century.
+    The Attakapas Post was established by the French in 1756, covering the modern-day parishes of Lafayette, St Martin, Iberia, St Mary, and Vermilion \parencite[p.~12]{landry_creole_2016}.
+    The division of the region into these parishes started around the time that Spain took over in 1768 when what was then the New Orleans district, which included the Attakapas, was divided into 21 parishes for religious administration.
     During Spanish rule, the city of St Martinville in St Martin Parish also became a permanent military post \parencite[pp.~21-22]{griffin_attakapas_1959}.
     After the Louisiana Purchase in 1803, Americans who arrived during the 19th century mostly came from Virginia, Kentucky, and the Carolinas \parencite[pp.~43-44]{landry_creole_2016}. % He may have cited Conrad 1986 for this
     While the existing residents were primarily Catholic, these newcomers brought with them Protestantism, although their religious practices were still viewed by some Creoles in St Martinville with ridicule by the late 19th century \parencite[pp.~47-48]{landry_creole_2016}.
@@ -33,29 +34,35 @@
     This led to rapid growth, ``especially after 1900'' \parencite[pp.~23/27/30/58]{griffin_attakapas_1959}.
 
     Supporting the region economically in the 19th century was an agricultural industry \parencite[pp.~39-45]{griffin_attakapas_1959}.
-    Sugarcane was an important crop in St Martin Parish for Creoles (\foreign{i.e.}, locals) to the extent that even by 1910, 97\% of laborers and sugar farmers in the parish were local \parencite[p.~32]{landry_creole_2016}, suggesting that few people moved to the area for such work.
+    Sugarcane was an important crop in St Martin Parish for Creoles (\foreign{i.e.}, native-born Louisianians) to the extent that even by 1910, 97\% of laborers and sugar farmers in the parish were locals \parencite[p.~32]{landry_creole_2016}, suggesting that few people moved to the area for such work.
     However, the sugarcane industry became far smaller and less profitable soon after with the exception of a short boon during World War I.
     In light of the discovery of oil and the difficulties faced in agriculture, oil became an important part of the economy in place of agriculture not just in St Martin Parish but across the Bayou Teche region that extends from St Mary Parish in the southeast to St Landry Parish north of Lafayette \parencite[pp.~61-75]{landry_creole_2016}.
     This picture was similar along the Louisiana coast south of Lafayette where, instead of agriculture and oil being the major industries, fishing and oil played that role through at least the first half of the 20th century \parencite{padgett_physical_1969}.
     Unlike the sugarcane industry, the petroleum industry did attract outsiders to the region as did more highways.
     Due to the construction of tourist highways through the area after 1919, tourism became more common in Bayou Teche.
-    Thus through economic changes and more effective transportation, locals in the area came into more and more contact with \foreign{les Américains} \parencite[pp.~75/79-82]{landry_creole_2016}.
+    Thus through economic changes and more effective transportation, locals in the area came into more and more contact with the \foreign{Américains} of the broader US \parencite[pp.~75/79-82]{landry_creole_2016}.
     None of this, however, brought financial prosperity to the population as a whole.
-    While some certainly gained wealth, Social Security Administration reports showed that 30.0\% lived in poverty compared to 10.7\% nationally even by the 1970s \parencite[p.~27]{johnson_louisiana_1976}.
+    While some certainly gained wealth, Social Security Administration reports showed that 30.0\% lived in poverty compared to 10.7\% nationally even by the 1970s.
+    Likewise, for those over 25 years of age in rural South Louisiana, their median number of years of schooling completed was 8.6 compared to 12.2 nationally \parencite[pp.~27-28]{johnson_louisiana_1976}.
 
-    (Will insert demographics from current census reports here)
+    Today, some of these gaps in life outcomes have shrunk, but Louisianians remain less prosperous than the country as a whole.
+    The 2020 census shows that 87.3\% of Louisianians over 25 years old have completed high school compared to 89.6\% nationally.
+    The education gap is now more apparent in the proportion of those who have bachelor's degrees rather than high school diplomas, with 27.0\% of those in Louisiana achieving this level compared to 35.7\% nationally.
+    The poverty rate has also remained stubbornly high compared to the rest of the US, with 18.7\% of Louisianians living below poverty compared to 10.6\% Americans generally \parencite{us_census_bureau_us_2020}.
+    In particular for the participants in the present study, who trend older as will be seen in Section \ref{sec:participants}, it is not surprising that poverty was a common experience that they recounted during interviews.
 
-    % Demographics and economy of Acadiana (for cases where old census data was used, simply bring up new census data for the parishes I sampled from)
-      % In the 1970s, the median number of years of schooling completed by those over 25 years old was 8.6 for rural South Louisiana compared to 12.2 nationally (J. Johnson 1976:28)
-    % Languages in the area
-      % In 1970, in urban centers, French was the mothertongue of 48% of the population of Lafayette, 36% of Opelousas, 52% of Abbeville, 63% of Eunice, 63% of Rayne, 67% of St Martinville, and 83% of Ville Platte (Breton & Louder 1979:237)
-      % Louisiana Creole was said to be spoken in 4 parishes: 1) St Martin, 2) Pointe Coupee (primarily New Roads), 3) St James (primarily Vacherie), and 4) Cameron (primarily Lake Charles) (Rottet 1995:7)
-      % Lafayette, Breaux Bridge, and Vacherie are said to be towns where French and Creole are most difficult to disentangle (Klingler 2003 "Language":78)
-      % Neumann (1985) claimed that Breaux Bridge is the region where one «trouve le nombre le plus élevé de créolophones en Louisiane» (1)
-      % The main industries in Breaux Bridge in the 1980s were oil, sugarcane, and tourism (Neumann 1985:6-7)
-    \subsection{My ethnographic work on the area}
-      (This will be interspersed into the end of the last section where it helps provide cultural context for the region.)
-      % In some cases my participant observation was covert and in others covert
+    Linguistically, F\&C had a significant presence even in urban centers\footnote{
+      What counts as urban relative to rural South Louisiana is taken loosely here.
+      St Martinville, for instance, had a population of only 5,379 in 2020 \parencite{us_census_bureau_us_2020}.
+    } around the target area but has clearly declined.
+    In 1970, French was the mothertongue of 48\% of the population of Lafayette, 36\% of Opelousas, 52\% of Abbeville, 63\% of Eunice, 63\% of Rayne, 67\% of St Martinville, and 83\% of Ville Platte \parencite[p.~237]{breton_geographie_1979}.
+    Locations in the target area where Creole has been said to have a noticeable presence have included the parishes of St Martin and Pointe Coupee \parencite[p.~7]{rottet_language_1995} and the towns of Breaux Bridge (\citeauthor{klingler_language_2003}, \citeyear[p.~78]{klingler_language_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~1]{neumann-holzschuh_creole_1985}) and Lafayette \parencite[p.~78]{klingler_language_2003}, although as discussed in Section \ref{sec:acknowledging_creole}, robust statistics have been and are still lacking for Creole specifically.
+    Today, these relatively high proportions of F\&C are quite unlikely to have held steady given the relatively good recent estimate of 84,000 French speakers in Louisiana \parencite[p.~128]{marcoux_estimation_2022}.
+
+    The target region for this study of Lafayette and its surrounding area thus has a history of Acadians/Cajuns, Creoles, and even Indians living there.
+    These populations have certainly not been entirely impoverished, but they have and still do lag behind the life outcomes of the broader US.
+    The area began with a strong focus on agriculture for its economy, which continues today but has shrunk relative to the growth of oil and tourism industries.
+    Locals of the region have also been primarily speakers of F\&C up until quite recently where, like in the state in general, the language has shown a sharp decline.
 
   \section{Sampling approach}
     \label{sec:sampling}
