@@ -267,7 +267,7 @@
     \label{sec:participants}
     There were ultimately \Sexpr{nrow(participants)} interviewed for this study, totaling \Sexpr{round(sum(participants$`Total Length`), 1)} hours of speech data.
     This data constituted that which was used for Chapters \ref{chap:pronoun_variation}, \ref{chap:networks}, and \ref{chap:discourse}, analyzing subject pronoun variation, personal social networks, and discourse, respectively.
-    Life details about the participants themselves were therefore collected during these interviews and included race, childhood residence, current residence, birth year, F\&C background, occupation, and gender.
+    Life details about the participants themselves were therefore collected during these interviews and included childhood residence, current residence, birth year, F\&C background, occupation, gender, and race.
     Personal social network information that was gathered will be discussed in Section \ref{sec:network_collection}.
 
     Before discussing particulars about these life details, some notes about how participants were anonymized are warranted.
@@ -499,12 +499,21 @@
       % Nadasdi et al. (2004) found among French speakers in Estrie, Ontario in the 1970s that women preferred "auto" and dispreferred "char" whereas men showed the opposite pattern (98)
       % Women used more Standard English features in Gullah than men (Nichols 1976, as cited in Weldon 2003:49)
 
+      Finally, the variable of race represents one of the most immediately important for the current study.
+      While participants were coded as either Creole or Cajun, and while the evidence that will be shown here suggests that these are racialized categories, they are nevertheless placed agnostically under the variable of ethnicity rather than race.
+      Race, on the other hand, aimed to better understand how participants viewed themselves in the racialized social system of the broader US.
+      Participants were asked to self-identify racially, a question whose meaning generally needed no further elaboration or explanation.
+      Despite a history of isolation from the broader US, participants are now thoroughly faced with its racialized social system.
+      This does not mean that all participants gave categories familiar to any American such as White or Black as their races in all cases.
+      As can be seen in Figure \ref{fig:race_counts}, 
+
     \subsection{Coding for race}
-      Equally complex as gender but more immediately important for the current study is how race is coded.
+      More immediately important for the current study is how race was coded.
       While each participant was assigned a value for both race and ethnicity, these terms are used rather agnostically, particularly race.
-      Ethnicity, as discussed earlier \ref{sec:race_ethnicity}, is taken here simply as a neutral term for a culturally and historically connected group of people who may or may not be racialized.
+      Ethnicity is taken here simply as a neutral term for a culturally and historically connected group of people who may be racialized.
       This was used as a criteria for inclusion in the study (see section \ref{sec:sampling}), all participants being either Creole ($N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])}) or Cajun ($N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])}).
       Values assigned under the race variable do not represent my own conclusions about how or if participants have been racialized but rather participants' own understanding of what their race is.
+      Participants typically self-reported their races along the lines of racialized categories of the broader US.
 
       \begin{figure}[tbhp]
         \caption{Racial self-identifications of participants}
