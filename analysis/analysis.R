@@ -157,7 +157,9 @@ source("tables.R")
 
 # Factor independencies
 indOccEduc <- fisher.test(table(participants$Occupation, participants$Education))
-indOccGend <- fisher.test(table(participants$Occupation, participants$Ethnicity))
+indOccGend <- fisher.test(table(participants$Occupation, participants$Gender))
+indEducGend <- fisher.test(table(participants$Education, participants$Gender))
+indInstFrGend <- fisher.test(table(participants$`Institutional French`, participants$Gender))
 indEducInstFr <- fisher.test(tablesSocial$educationInst)
 
 # Pronoun Models #
