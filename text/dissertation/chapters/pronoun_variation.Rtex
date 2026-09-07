@@ -1327,6 +1327,27 @@
         The use of the term \lexi{ethnicity} in listing model factors is therefore not meant to represent a conclusion to this question.
         Relatedly, participants were also asked how they identify racially, but as this yielded a number of different responses with very low counts, self-identified race could not be included in models but did yield results worthy of discussion here.
 
+        % (Insert into bottom two paragraphs)
+        Of the towns named, only Lafayette was named by enough participants to potentially figure into statistical models.
+        This was also more or less the case when zooming out to parishes as Lafayette Parish was the only one named frequently for where participants resided.
+        For parishes where participants were raised, St Martin and Acadia were also mentioned frequently.
+        As a result of a relatively wide distribution of towns and parishes, location was only useful for some descriptive statistics and qualitative discussions.
+
+        However, any increases to the count for St Landry Parish from coding Eunice and Arnaudville as part of this parish were still not enough to permit location to be used in statistical modeling.
+
+        Birth years were converted to ages.
+
+        F\&C Background was recorded but couldn't be used directly in statistical analyses because almost all participants learned the language naturalistically or close to naturalistically.
+
+        For the sake of statistical modeling, Fisher's exact test of independence showed a clear association between education and occupation ($P <$ \Sexpr{round_any(indOccEduc$p.value, 0.001, ceiling)}) as well as a clear association between education and exposure to institutional French ($P <$ \Sexpr{round_any(indEducInstFr$p.value, 0.001, ceiling)}).
+        These associations were not surprising, but this did mean that including all three variables in statistical models led to the models failing to converge.
+        Occupational class and educational attainment were thus excluded from statistical models as exposure to institutional French was expected to be a more important factor for subject pronoun variation while still encoding something of participants' socioeconomic classes.
+
+        There was no such association between gender and exposure to institutional French\footnote{
+          For what it is worth, there was also no such association between gender and occupational class nor gender and educational attainment.
+        } ($P <$ \Sexpr{round_any(indInstFrGend$p.value, 0.001, ceiling)}) according to a Fisher's exact test for independence
+        % (^^^^^^^)
+
         All social factors were discussed in section \ref{sec:participants}, but some additional notes can be made here.
         First, several social factors are very likely correlated.
         Those with a high attained education, for instance, are likely to have white collar jobs and also likely to have some experience with institutional instruction of French.

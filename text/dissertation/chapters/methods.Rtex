@@ -1,11 +1,17 @@
 \chapter{Methods}
   \label{chap:methods}
+  % Topics covered in chapter
+    % Location of interest
+    % The data sample
+    % Interview schedule
+    % Participants
+
   \section{The location}
     \label{sec:location}
-    In the previous chapter, Figure \ref{fig:mapacadiana} aimed to highlight the area of Louisiana that is perhaps most prominent in the imaginations of the general US.
-    Despite this region being officially named Acadian in honor of the Acadians, it is more generally the portion of South Louisiana where F\&C are spoken that is and has been home to many groups who have contributed to its unique character.
+    In the previous chapter, Figure \ref{fig:mapacadiana} aimed to highlight the area of Louisiana that is perhaps most prominent in the imaginations of the broader US.
+    Despite this region being officially named Acadian in honor of the Acadians, it is more generally the portion of South Louisiana where F\&C is spoken that is and has been home to many groups who have contributed to its unique character.
     Officially, 22 parishes have been included in Acadiana since 1971 with the passage of HCR 496 \parencite[pp.~5-6]{trepanier_french_1988}.
-    Of those, this study looks at Lafayette Parish and the adjacent parishes, focusing mostly on St Landry Parish and St Martin Parish, which cover the areas north, northeast, and east of the city of Lafayette, as shown in Figure \ref{fig:mapfocus}.
+    Of those, this study looked at Lafayette Parish and the adjacent parishes, focusing mostly on St Landry Parish and St Martin Parish, which cover the areas north, northeast, and east of the city of Lafayette, as shown in Figure \ref{fig:mapfocus}.
     This location was chosen as it is where both French and Creole are said to be spoken, as will be discussed, and as it is where both Cajuns and Creoles can be found both historically as well as today.
     The Attakapas, the historical region named after the Attakapas Indians \parencite[p.~38]{de_villiers_du_terrageterrage_dernieres_1903} that correlates with the modern region analyzed here, was one of the first places that Acadians settled \parencite[pp.~74-78/91-100]{brasseaux_foundings_1987}.
     Anyone who was born in the Attakapas, including succeeding generation of Acadians, would have been considered Creoles in the original sense of local or native, but modern-day self-identified Creoles also still reside in the area.
@@ -24,6 +30,7 @@
     The Attakapas Post was established by the French in 1756, covering the modern-day parishes of Lafayette, St Martin, Iberia, St Mary, and Vermilion \parencite[p.~12]{landry_creole_2016}.
     The division of the region into these parishes started around the time that Spain took over in 1768 when what was then the New Orleans district, which included the Attakapas, was divided into 21 parishes for religious administration.
     During Spanish rule, the city of St Martinville in St Martin Parish also became a permanent military post \parencite[pp.~21-22]{griffin_attakapas_1959}.
+
     After the Louisiana Purchase in 1803, Americans who arrived during the 19th century mostly came from Virginia, Kentucky, and the Carolinas \parencite[pp.~43-44]{landry_creole_2016}. % He may have cited Conrad 1986 for this
     While the existing residents were primarily Catholic, these newcomers brought with them Protestantism, although their religious practices were still viewed by some Creoles in St Martinville with ridicule by the late 19th century \parencite[pp.~47-48]{landry_creole_2016}.
     In the early part of the century, St Martin Parish covered the region of what is currently Lafayette Parish, as well.
@@ -32,12 +39,14 @@
     Its location was chosen because it was situated at the end of the navigable portion of Bayou Vermilion, making it ideal as a trading hub.
     However, it grew slowly until it was eventually connected to other areas via railroads.
     This led to rapid growth, ``especially after 1900'' \parencite[pp.~23/27/30/58]{griffin_attakapas_1959}.
+    The idea of the historical Vermilionville is still physically visible in the landscape in the form of a set of preserved buildings made into an outdoor museum and event space near downtown Lafayette that is in fact named Vermilionville.
 
     Supporting the region economically in the 19th century was an agricultural industry \parencite[pp.~39-45]{griffin_attakapas_1959}.
     Sugarcane was an important crop in St Martin Parish for Creoles (\foreign{i.e.}, native-born Louisianians) to the extent that even by 1910, 97\% of laborers and sugar farmers in the parish were locals \parencite[p.~32]{landry_creole_2016}, suggesting that few people moved to the area for such work.
     However, the sugarcane industry became far smaller and less profitable soon after with the exception of a short boon during World War I.
     In light of the discovery of oil and the difficulties faced in agriculture, oil became an important part of the economy in place of agriculture not just in St Martin Parish but across the Bayou Teche region that extends from St Mary Parish in the southeast to St Landry Parish north of Lafayette \parencite[pp.~61-75]{landry_creole_2016}.
     This picture was similar along the Louisiana coast south of Lafayette where, instead of agriculture and oil being the major industries, fishing and oil played that role through at least the first half of the 20th century \parencite{padgett_physical_1969}.
+    
     Unlike the sugarcane industry, the petroleum industry did attract outsiders to the region as did more highways.
     Due to the construction of tourist highways through the area after 1919, tourism became more common in Bayou Teche.
     Thus through economic changes and more effective transportation, locals in the area came into more and more contact with the \foreign{Américains} of the broader US \parencite[pp.~75/79-82]{landry_creole_2016}.
@@ -48,31 +57,31 @@
     Today, some of these gaps in life outcomes have shrunk, but Louisianians remain less prosperous than the country as a whole.
     The 2020 census shows that 87.3\% of Louisianians over 25 years old have completed high school compared to 89.6\% nationally.
     The education gap is now more apparent in the proportion of those who have bachelor's degrees rather than high school diplomas, with 27.0\% of those in Louisiana achieving this level compared to 35.7\% nationally.
-    The poverty rate has also remained stubbornly high compared to the rest of the US, with 18.7\% of Louisianians living below poverty compared to 10.6\% Americans generally \parencite{us_census_bureau_us_2020}.
-    In particular for the participants in the present study, who trend older as will be seen in Section \ref{sec:participants}, it is not surprising that poverty was a common experience that they recounted during interviews.
+    The poverty rate has also remained stubbornly high compared to the rest of the US, with 18.7\% of Louisianians living below poverty compared to 10.6\% of Americans generally \parencite{us_census_bureau_us_2020}.
+    For the participants in the present study, who trend older as will be seen in Section \ref{sec:participants}, it is therefore not surprising that poverty was a common experience that they recounted during interviews.
 
     Linguistically, F\&C had a significant presence even in urban centers\footnote{
       What counts as urban relative to rural South Louisiana is taken loosely here.
       St Martinville, for instance, had a population of only 5,379 in 2020 \parencite{us_census_bureau_us_2020}.
     } around the target area but has clearly declined.
     In 1970, French was the mothertongue of 48\% of the population of Lafayette, 36\% of Opelousas, 52\% of Abbeville, 63\% of Eunice, 63\% of Rayne, 67\% of St Martinville, and 83\% of Ville Platte \parencite[p.~237]{breton_geographie_1979}.
-    Locations in the target area where Creole has been said to have a noticeable presence have included the parishes of St Martin and Pointe Coupee \parencite[p.~7]{rottet_language_1995} and the towns of Breaux Bridge (\citeauthor{klingler_language_2003}, \citeyear[p.~78]{klingler_language_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~1]{neumann-holzschuh_creole_1985}) and Lafayette \parencite[p.~78]{klingler_language_2003}, although as discussed in Section \ref{sec:acknowledging_creole}, robust statistics have been and are still lacking for Creole specifically.
-    Today, these relatively high proportions of F\&C are quite unlikely to have held steady given the relatively good recent estimate of 84,000 French speakers in Louisiana \parencite[p.~128]{marcoux_estimation_2022}.
+    Locations in the target area where Creole has been said to have a noticeable presence have included the parishes of St Martin and Pointe Coupee \parencite[p.~7]{rottet_language_1995} and the towns of Breaux Bridge (\citeauthor{klingler_language_2003}, \citeyear[p.~78]{klingler_language_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~1]{neumann-holzschuh_creole_1985}) and Lafayette \parencite[p.~78]{klingler_language_2003}, although as discussed in Section \ref{sec:acknowledging_creole}, robust statistics have been and still are lacking for Creole specifically.
+    Today, these relatively high proportions of F\&C are quite unlikely to have held steady given the reasonably estimated recent count of 84,000 French speakers in Louisiana \parencite[p.~128]{marcoux_estimation_2022}.
 
     The target region for this study of Lafayette and its surrounding area thus has a history of Acadians/Cajuns, Creoles, and even Indians living there.
     These populations have certainly not been entirely impoverished, but they have and still do lag behind the life outcomes of the broader US.
-    The area began with a strong focus on agriculture for its economy, which continues today but has shrunk relative to the growth of oil and tourism industries.
+    The area began with a strong focus on agriculture for its economy, which continues today but has shrunk relative to the growth of the oil and tourism industries.
     Locals of the region have also been primarily speakers of F\&C up until quite recently where, like in the state in general, the language has shown a sharp decline.
 
   \section{Sampling approach}
     \label{sec:sampling}
     The target population for this study was not simply those who reside in Lafayette Parish and those adjacent to it but more specifically Creoles and Cajuns who reside there as the objective was to examine racialization among Creoles and Cajuns.
-    This constituted a judgement sample \parencite[p.~31]{hoffman_sociolinguistic_2014} as only those matching the criteria of speaking F\&C and self-identifying as Creole or Cajun were included regardless of lines along which they made these self-identifications.
+    This constituted a judgement sample \parencite[p.~31]{hoffman_sociolinguistic_2014} as only those matching the criteria of self-identifying as Creole or Cajun -- and, of course, speaking F\&C -- were included regardless of lines along which they made these self-identifications.
     No other criteria were used for filtering despite studies of F\&C typically relying on non-mobile, old, rural, men (NORMs) \parencite[p.~29]{chambers_dialectology_1998}.
-    For example, \textcite{byers_defining_1988} exempted 11 participants due to either having experience with Standard French or having not lived in the same place all their life (p.~47).
+    For example, \textcite{byers_defining_1988} exempted 11 participants due to either having experience with Standard French or having not lived in the same place all their lives (p.~47).
     Similarly, \textcite{rottet_language_1995} did not include ``speakers with extensive exposure to SF [Standard French]'' (p.~80), nor did \textcite{dajko_ethnic_2009} accept speakers who had moved to her region of interest from other parts of Louisiana (p.~69).
     
-    For studies specifically focused on Creole, likewise, there has been a tendancy to avoid those who have more ``mesolectal'' features which are generally assumed to come from their exposure not only to Standard French but also to the local French (\citeauthor[\foreign{e.g.},][]{klingler_if_2003}, \citeyear[pp.~138-142]{klingler_if_2003}; \citeauthor{mayeux_rethinking_2019}, \citeyear[p.~93]{mayeux_rethinking_2019}), although some more recent researchers have been willing to include anyone who says they speak Creole even if their speech is not deemed ``basilectal'', especially when their goals are more anthropological in nature \parencite[\foreign{e.g.},][pp.~113-119]{wendte_tale_2020}.
+    For studies specifically focused on Creole, likewise, there has been a tendancy to avoid those who have more ``mesolectal'' features, which are generally assumed to come from their exposure not only to Standard French but also to the local French (\citeauthor[\foreign{e.g.},][]{klingler_if_2003}, \citeyear[pp.~138-142]{klingler_if_2003}; \citeauthor{mayeux_rethinking_2019}, \citeyear[p.~93]{mayeux_rethinking_2019}), although some more recent researchers have been willing to include anyone who says they speak Creole even if their speech is not deemed ``basilectal'', especially when their goals are more anthropological in nature \parencite[\foreign{e.g.},][pp.~113-119]{wendte_tale_2020}.
     None of these restrictions were felt to be suitable for the present study which instead aimed to incorporate anyone who considered themselves part of the community.
     Indeed, even participants who were non-native speakers of F\&C were included.
     As \textcite{gudmestad_variationist_2022} recently proposed, analyzing new speakers could be a beneficial avenue of research (p.~21), meaning analyzing those who have learned an endangered language through institutional or personal means \parencite[p.~1]{orourke_new_2015}, a description that matches the small number of non-native speakers in corpus here.
@@ -88,7 +97,7 @@
     Having lived in New Orleans for several years previously and participated in F\&C-centric cultural activities during that time, I had already become acquainted with several scholars, activists, teachers, and residents in the Lafayette area.
     Not all of these yielded participants, but some of my first participants were found in this way.
     Reaching out to community leaders such as language and identity activists as well as church officials was less successful.
-    While a small number were responsive, others either did not respond at all or, I suspect, were suspicious of me and so not willing to help me make connections.
+    While a small number were responsive, others either did not respond at all or, I suspect, were suspicious of me and so were not willing to help me make connections.
 
     Before the first fieldwork excursions to the region, online sources were also used to establish connections.
     I shared an online form on several social media platforms such as Reddit and Facebook, particularly with groups and pages whose interest was either South Louisiana or F\&C.
@@ -99,10 +108,10 @@
     Social media has in fact become a focal point for some language revitalization efforts \parencite{mayeux_language_2024}.
 
     One of the most successful approaches used during fieldwork was simply beginning every conversation in F\&C.
-    Upon visiting stores, restaurants, music halls, museums, visitor centers, or bars, whether speaking to employees or passers-by, it was relatively easy to encounter people who spoke F\&C by simply starting with: ``Bonjour, vous parlez français?''
-    At times, people would reply in the affirmative only to quickly find out that their language skills were limited.
+    Upon visiting stores, restaurants, music halls, museums, visitor centers, or bars, whether speaking to employees or passers-by, it was relatively easy to encounter people who spoke F\&C by simply starting by asking, ``Bonjour, vous parlez français?''
+    At times, people would reply in the affirmative only to quickly demonstrate that their language skills were limited.
     In the case of younger people, these were often those who had experience in language immersion programs but had not continued to speak French much since, whereas in the case of older people, these were often those who had spoken F\&C as children but found little use for the languages since.
-    There were also a number of instances where a person encountered this way did not speak F\&C, or not very well, but was enthusiastic about connecting me to someone who did, resulting in connections to family members, friends, and more public figures like activists and politicians.
+    There were also a number of instances where a person encountered this way did not speak F\&C, or not very well, but was enthusiastic about connecting me to someone who did, resulting in connections to family members, friends, and even more public figures like activists and politicians.
 
     Finally, French conversation tables constitute a very common cultural activity in South Louisiana these days, especially for older folks.
     These events vary from open discussions to French lessons to organized activities or lectures.
@@ -132,24 +141,9 @@
     The design of the questions and extraneous factors to consider, including the role my own identity may have played during interviews, will be discussed here.
 
     In terms of linguistic structure, the primary features analyzed in the present study were subject pronouns.
-    This necessitated interview questions that would elicit a sufficient number of tokens of various pronouns as not all pronouns can be expected to appear with the same frequency during a conversation.
+    This necessitated interview questions that would elicit a sufficient number of tokens of various pronouns as not all pronouns can be expected to appear with the same frequency during a conversation or in all contexts.
     For instance, 1st and 2nd person subject pronouns have been found to be much more frequent in speech than in writing (\citeauthor{fowler_critical_1979}, \citeyear[p.~201]{fowler_critical_1979}; \citeauthor{yates_oral_1996}, \citeyear[pp.~40-41]{yates_oral_1996}).
-    The frequency of various pronouns was already somewhat understood in this context as a previous pilot study consisting of 30 minute interviews with four Louisianians had suggested that, given consistent rates of pronoun production, extending the recordings to 30 hours would yield the number of tokens shown in Table \ref{tab:pilot_tokens}.
-    No special attention was given to designing questions to elicit 1st person singular subject pronouns as these were expected to occur regularly, but questions about family vacations and activities that participants like to do with friends were used to obtain 1st person plural pronouns.
-    
-    Perhaps the most difficult pronouns to elicit in such interviews are 2nd person.
-    This was especially true for 2nd person plural pronouns in this study as almost all interviews were one-on-one discussions.
-    Tokens of both T and V forms of 2nd person singular were likewise expected to be limited by the setting as participants were not likely to switch their linguistic means of addressing me during a single interview.
-    To the end of obtaining 2nd person subject pronouns of any sort, participants were encouraged to ask me questions during the interview, and translations tasks were also used in some interviews to capture how participants believed different people of different statuses might be addressed.
-
-    While 3rd person pronouns were not expected to be infrequent, several questions about friends, the work people do where participants live, and characteristics of family members were formulated specifically to elicit these pronouns.
-    Likewise, impersonal, expletive, and demonstrative pronouns were not expected to be particularly infrequent, although demonstrative pronouns did present their own interpretational difficulties to be discussed further in section \ref{sec:pronoun_coding}.
-    
-    Finally, in cases where two participants were interviewed simultaneously, the aim was still to obtain a similar number of pronoun tokens from each person.
-    Obtaining sufficient data from each person in a group setting is in fact a problem that has been discussed in the literature \parencite[p.~115]{labov_principles_1972}.
-    As such, interviews were extended when multiple people were involved from a target of one hour to a target of two hours.
-    In some ways, this required greater interview endurance from participants, but they also did not have to speak consistently.
-    Anecdotally, none of my paired participants appeared to grow weary of talking, and in fact at times were surprised at how quickly time had passed.
+    The frequency of various pronouns was already somewhat understood in the context of sociolinguistic interviews as a previous pilot study consisting of 30 minute interviews with four Louisianians had suggested that, given consistent rates of pronoun production, extending the recordings to 30 hours would yield the number of tokens shown in Table \ref{tab:pilot_tokens}.
 
     \begin{table}[tbhp]
       \caption{Pronoun token estimates for 30 hours of conversation derived from pilot study data}
@@ -170,6 +164,21 @@
       {\footnotesize INF $\to$ informal; AF $\to$ animate, feminine; AM $\to$ animate, masculine; \\
       I $\to$ inanimate; imp $\to$ impersonal}
     \end{table}
+
+    No special attention was given to designing questions to elicit 1st person singular subject pronouns as these were expected to occur regularly, but questions about family vacations and activities that participants like to do with friends were used to obtain 1st person plural pronouns.
+    Perhaps the most difficult pronouns to elicit in such interviews, though, are 2nd person.
+    This was especially true for 2nd person plural pronouns in this study as almost all interviews were one-on-one discussions.
+    Tokens of both T and V forms of 2nd person singular were likewise expected to be limited by the setting as participants were not likely to switch their linguistic means of addressing me during a single interview.
+    To the end of obtaining 2nd person subject pronouns of any sort, participants were encouraged to ask me questions during the interview, and a translation task was also used in some interviews to capture how participants believed different people of different statuses might be addressed.
+
+    While 3rd person pronouns were not expected to be infrequent, several questions about friends, the work people do where participants live, and characteristics of family members were formulated specifically to elicit these pronouns.
+    Likewise, impersonal, expletive, and demonstrative pronouns were not expected to be particularly infrequent, although demonstrative pronouns did present their own interpretational difficulties to be discussed further in section \ref{sec:pronoun_coding}.
+    
+    Finally, in cases where two participants were interviewed simultaneously, the aim was still to obtain a similar number of pronoun tokens from each person.
+    Obtaining sufficient data from each person in a group setting is in fact a problem that has been discussed in the literature \parencite[p.~115]{labov_principles_1972}.
+    As such, interviews were extended when multiple people were involved from a target of one hour to a target of two hours.
+    In some ways, this required greater interview endurance from participants, but they also did not have to speak consistently.
+    Anecdotally, none of my paired participants appeared to grow weary of talking and in fact at times were surprised at how quickly time had passed.
 
     The translation task, provided in Appendix \ref{app:schedule}, was meant to represent a hypothetical situation that was relatively believable.
     It involved conversation subjects that would be familiar to many Louisianians, and involved a wide variety of social relations through which participants would speak.
@@ -200,26 +209,26 @@
 
     As a participant in each interview, factors related to myself and my position relative to the interviewees may have impacted their speech and responses.
     Particularly relevant here is how perceptions of the race or ethnicity of one's interlocutor can impact language, which has been seen, for example, for code-switching, style shifting, phonetic variables, and morphosyntactic variables (\citeauthor{labov_social_2006}, \citeyear[pp.~67-68]{labov_social_2006}; \citeauthor{poplack_sometimes_2000}, \citeyear[p.~220]{poplack_sometimes_2000}; \citeauthor{rickford_addressee-_1994}, \citeyear[p.~236]{rickford_addressee-_1994}).
-    The intention when approaching interviews was not to attempt to change factors about myself, certainly not those that cannot be changed, but rather to maintain consistency between interviews in how I present myself both physically and verbally.
+    The intention when approaching interviews was not to attempt to change factors about myself, certainly not those that cannot be changed, but rather to maintain consistency between interviews in how I presented myself both physically and verbally.
     As opposed to \citeauthor{eckert_linguistic_2000}'s (\citeyear{eckert_linguistic_2000}) strategy of appearing youthful when working with high school students (pp.~71-73), I wore pants and semi-formal shirts during all encounters as I did not want to appear too formal nor too young as most of my participants were older than myself.
-    Indeed, the fact that I was speaking French but also under 60 was incongruent with the expectations of many people that I met in the area to the extent that they often assumed I was a tourist from France who in fact could not speak English when first encountering me.
+    Indeed, the fact that I was speaking French but also under 60 was incongruent with the expectations of many people that I met in the area to the extent that they often assumed I was a tourist from France who could not speak English when first encountering me.
     % Bell (1984) suggested that interlocutors might adapt their speech in response to "the personal characteristics of their addressees, the general style level of their addressees' speech, and/or their addressees' levels for specific linguistic variables" (167-168)
 
     For some researchers of F\&C, their goal of putting participants at ease during interviews meant adapting their interntional French to be more in line with the French of Louisiana (\citeauthor[\foreign{e.g.},][]{brown_pronominal_1988}, \citeyear[pp.~89-90]{brown_pronominal_1988}; \citeauthor{rottet_language_1995}, \citeyear[pp.~75-76]{rottet_language_1995}).
     This was not an issue in my case.
-    Although not a native speaker of French in general much less the French or Creole of Louisiana, the model I have targeted since beginning to learn has been what has been structurally described as French in Louisiana.
+    Although not a native speaker of French, whether international French or the French or Creole of Louisiana, the model I have targeted since beginning to learn has been what has been structurally described as French in Louisiana.
     This was inspired by a direct connection I have to Louisiana through my grandmother who was born and lived a large portion of her life in Louisiana with French as her first and primary language during that time, a connection that led to discussions of family names and regional origins with a number of participants.
-    This way of speaking French is what I feel most comfortable with as I use it more or less in all social contexts: conference presentations, teaching French, speaking with my son, and anywhere else where French may be used.
+    This way of speaking French is that which I feel most comfortable as I use it more or less in all social contexts: conference presentations, teaching French, speaking with my son, and anywhere else where French may be used.
     This means that my speech includes features such as relatively low vowels, mostly merged /ɑ/ and /ɔ/, lax high vowels in final closed syllables, \lexi{ina} for \lexi{il y a}, \lexi{quoifaire} for \lexi{pourquoi}, \lexi{ça} for \lexi{ce que}, progressive forms using variants of \lexi{après}, and so forth.
     
     Particularly relevant to the current study are the subject pronouns that I habitually use as enumerated in Table \ref{tab:researcher_pronouns}.
     For 3rd person plural pronouns, I produce \lexi{ça} with lexical and modal auxiliary verbs and \lexi{ils} with the auxiliary verbs \lexi{être} and \lexi{avoir}, while for expletive pronouns, I use \lexi{ça} with weather expressions, and either \lexi{il} or ø with all others.
     These speech patterns presumably helped make participants not feel a need to adjust their own F\&C in cases where their speech matched my own, but there were in fact a few signs that speakers were targeting more formal styles.
-    One participant, Steven, explicitly voiced concern about the quality of his French, while some standard features showed up sporadically such as the occasional use of \lexi{ne} with \lexi{savoir} to form negations by Lucille, or Cynthia producing \sent{on prendait}, a typical inflexion used in Louisiana, and then quickly correcting herself with the more standard \sent{on prenait} (22:37).
+    One participant, Steven, explicitly voiced concern about the quality of his French, while some standard features showed up sporadically such as the occasional use of \lexi{ne} with \lexi{savoir} to form negations by Lucille or Cynthia producing \sent{on prendait}, a typical inflexion used in Louisiana, and then quickly correcting herself with the more standard \sent{on prenait} (22:37).
     % B. Brown (1988), as a Blanchard, mentioned her Cajun relatives in order to put participants at ease (88-89)
 
     \begin{table}[tbhp]
-      \caption{Pronouns used habitually in the researcher's speech}
+      \caption{Pronouns used habitually in the interviewer's speech}
       \label{tab:researcher_pronouns}
       \centering
       \begin{tabular}{r | r | r}
@@ -253,11 +262,11 @@
 
     Some final contextaul factors that may have impacted the linguistic behavior of a speaker in general are the time and setting (\citeauthor{bell_language_1984}, \citeyear[p.~178]{bell_language_1984}; \citeauthor{blom_social_2000}, \citeyear[pp.~114-115]{blom_social_2000}).
     Interviews were held at the times and locations of the interviewees' choosing.
-    Besides the researcher and the interviewees, the only other consistent audience member was the recording device\footnote{
-      Zoom H4Next
-    } which consisted of lavalier microphones\footnote{
+    Besides the researcher and the interviewees, the only other consistent audience member was the recording device which consisted of lavalier microphones\footnote{
       ??
-    }, worn by the participants, and the handheld device itself, kept out of view.
+    }, worn by the participants, and the handheld device itself\footnote{
+      Zoom H4Next
+    }, kept out of view.
     As many of the interviews took place at participants' homes, there was often no audience, although on some occasions family or friends were present during portions or all of these interviews.
     In other cases, interviews took place in public places such as coffee shops, bookstores, public cultural spaces, libraries, and parks, during which strangers were sometimes present but never family nor friends and in some instances no one else at all.
     While this meant variability in the objective time and place, since these variables were at the discretion of the participants, it is assumed that they were choosing times and places where they were subjectively equally comfortable from interview to interview.
@@ -265,10 +274,10 @@
 
   \section{Participants}
     \label{sec:participants}
-    There were ultimately \Sexpr{nrow(participants)} interviewed for this study, totaling \Sexpr{round(sum(participants$`Total Length`), 1)} hours of speech data.
+    There were ultimately \Sexpr{nrow(participants)} participants interviewed for this study, totaling \Sexpr{round(sum(participants$`Total Length`), 1)} hours of speech data.
     This data constituted that which was used for Chapters \ref{chap:pronoun_variation}, \ref{chap:networks}, and \ref{chap:discourse}, analyzing subject pronoun variation, personal social networks, and discourse, respectively.
     Life details about the participants themselves were therefore collected during these interviews and included childhood residence, current residence, birth year, F\&C background, occupation, gender, and race.
-    Personal social network information that was gathered will be discussed in Section \ref{sec:network_collection}.
+    These will be discussed here save for personal social network information, which will be discussed in Section \ref{sec:network_collection}.
 
     Before discussing particulars about these life details, some notes about how participants were anonymized are warranted.
     Both participants' names and the names of non-participants were anonymized in the speech data and in the social network data to reduce the chances of either being identified directly or indirectly.
@@ -276,26 +285,21 @@
     Geneology was a consistent topic of discussion when bringing up race and ethnicity, as was the discussion of distant relatives in general.
     While there is a clear ethical obligation to keep participants anonymous, it was also important to not lose the ability to see these lineages.
     Family names mentioned in interviews were at times related to toponyms that were discussed, in which case the family names were anonymized but the toponyms were not.
-    While this connection says something notable about the background of these individuals and how they are intertwined with place, it was desirable to use real place names in order to allow the study to add to both the past and future literature that document F\&C given its tenuous status.
+    While this connection says something notable about the background of these individuals and how they are intertwined with place, it was desirable to use real place names in order to allow the study to add to both past and future work that documents F\&C given its tenuous status.
     Additionally, anonymizing either both or neither of the family-toponym pairs increased the risk of identification too much.
-    This general approach to anonymizing helped keep interpersonal connections transparent with little to no additional risk of de-identifying interviewees.
+    This general approach to anonymizing helped keep interpersonal connections transparent with little to no additional risk of identifying interviewees.
     % Ethical data collection can be an issue when collecting information about non-participants as these people are not providing consent (Stark 2018:244)
 
-    Each participant was asked for the name of the town in which they were raised as well as the town in which they currently reside.
+    Each participant was asked for the name of the town in which they were raised as well as the town in which they were residing at the time of the interviews.
     Previous studies in Louisiana typically looked at NORMs, meaning people who would answer the same way for both of these questions.
     The norm among my participants was that many no longer lived in their childhood towns but most resided no more than one parish away, although several participants had travelled considerably for pleasure, work, school, or through the military.
-    Of the towns named, only Lafayette was named by enough participants to potentially figure into statistical models.
-    This was also more or less the case when zooming out to parishes as Lafayette Parish was the only one named frequently for where participants resided.
-    For parishes where participants were raised, St Martin and Acadia were also mentioned frequently.
-    As a result of a relatively wide distribution of towns and parishes, location was only useful for some descriptive statistics and qualitative discussions.
 
     Two towns, Eunice and Arnaudville, are on the border of two parishes: St Landry and Acadia for the former and St Landry and St Martin for the latter.
-    Arnaudville in fact promotes itself as something of a border town, not through reference to the two parishes but rather through reference to the two bayous the meet there: Bayou Teche and Bayou Fusilier.
+    Arnaudville in fact promotes itself as something of a border town, not through reference to the two parishes but rather through reference to the two bayous that meet there: Bayou Teche and Bayou Fusilier.
     A rather large sign at a prominent intersection announces, ``Welcome / Deux Bayous / Arnaudville, LA.''
-    As for Eunice, one informant expressed to me that the residents did not want to be considered as part of Acadia Parish.
-    Both were thus coded as St Landry Parish as most of their denser neighborhoods are situated on the St Landry side of the border.
-    However, any increases to the count for St Landry Parish were still not enough to permit location to be used in statistical modeling.
+    Both were coded as part of St Landry Parish as most of their denser neighborhoods are situated on the St Landry side of the border, and in the case of Eunice, one informant expressed to me that the residents did not want to be considered part of Acadia Parish.
     A comparison between the parishes where participants were raised and where they lived at the time of the interviews can be seen in Figure \ref{fig:locations}.
+
     % Location
       % Payne (1980) found that "children do not freely restructure and/or reoganize their grammars up to the age of 14 but that they do have the ability to add lower level rules" in her analysis of the acquisition of the vowel system of King of Prussia (175)
         % The linguistic variables used here do not preclude changes after moving even according to Payne's statement
@@ -310,7 +314,7 @@
     % \end{figure}
 
     \begin{figure}[tbhp]
-      \caption{Parishes where participants were raised (left) and resided currently (right)}
+      \caption{Parishes where participants were raised (left) and resided at the time of the interviews (right)}
       \label{fig:locations}
       <<fig.asp = 0.75>>=
       parishBarMap
@@ -321,30 +325,30 @@
     Their birth years ranged from \Sexpr{min(participants$`Birth Year`)} to \Sexpr{max(participants$`Birth Year`)}.
     A common approach to incorporating age into statistical modeling in sociolinguistics has been to bin ages together into categories.
     However, those categories are ``likely to be culturally/historically specific categories, not universal'' \parencite[p.~183]{horvath_delimiting_1987}, and treating them in this way has been described as constituting ``at best dubious statistical practice'' \parencite[p.~362]{johnson_getting_2009}, although it can be useful in cases where significant historical events delineate a clear boundary representing cultural shifts relevant to the study \parencite[\foreign{e.g.},][pp.~466-467]{sharma_style_2011}.
-    In the present study, the Civil Rights Act of 1964 could function as just such a culturally relevant historical event save for the lack of balance between those born before and during or after the 1960s, \Sexpr{nrow(participants[participants$`Birth Year` < 1960,])} to \Sexpr{nrow(participants[participants$`Birth Year` >= 1960,])}, respectively.
-    As such, birth years were not binned but were rather treated as a continuous variable after being converted to ages.
+    In the present study, the Civil Rights Act of 1964 could function as just such a culturally relevant historical event.
+    However, this was not done due to the lack of balance between those born before and during or after the 1960s, \Sexpr{nrow(participants[participants$`Birth Year` < 1960,])} to \Sexpr{nrow(participants[participants$`Birth Year` >= 1960,])}, respectively.
+    As such, birth years were not binned but were rather kept as-is and as a result treated as a continuous variable when used in statistical analyses.
     
-    Linguistically, another culturally relevant historical event that could have demarcated different generations was the establishment of CODOFIL in 1968 as this marked the beginning of vigorous efforts to establish French-language classes and French immersion programs throughout South Louisiana.
+    Linguistically, another culturally relevant historical event that can demarcate different generations of F\&C speakers was the establishment of CODOFIL in 1968 as this marked the beginning of vigorous efforts to establish French-language classes and French immersion programs throughout South Louisiana.
     While, again, age could not be binned according to events of the 1960s, the process through which participants acquired or learned F\&C as well as what sort of institutional exposure they had was recorded as their F\&C background.
     As discussed in Section \ref{sec:sampling}, previous descriptive work on Louisiana has generally explicitly excluded speakers with significant experience with institutionalized varieties of French and implicitly non-native speakers, hence the question of participants' language acquisition processes was meaningless.
     These studies therefore either did not take language background into account \parencite[\foreign{e.g.},][]{baronian_influence_2005, brown_pronominal_1988, klingler_if_2003} or took it into account as language proficiency \parencite[\foreign{e.g.},][]{carmichael_gender_2007, rottet_language_1995}.
     These latter cases gave rise to some methodological issues, chief among them being how to measure proficiency, especially when dealing with heritage languages.
     \textcite{rottet_language_1995}, as an example, relied on the speaker's ability to speak about hypotheticals or whether other speakers considered their speech to be strange, neither criteria being applied rigorously (p.~72).
     Proficiency was therefore not measured here.
-    Speakers' F\&C background, on the other hand, consisted of how they first acquired F\&C, be it naturalistically, through personal independent study, or through educational institutions, and whether they had any formal instruction in F\&C or any other French-related language.
-    Only one participant, Samantha, acquired her language through school instruction, a product of immersion schooling in Lafayette in the early 2000s, and four acquired their language through personal efforts, Judy, Lillian, Arthur, and Austin.
+
+    Speakers' F\&C background consisted of how they first acquired F\&C, be it naturalistically, through personal independent study, or through educational institutions, and whether they had any formal instruction in F\&C or any other French-related language.
+    Only one participant, Samantha, acquired her language through school instruction, a product of immersion schooling in Lafayette in the early 2000s, and four acquired their language through personal efforts: Judy, Lillian, Arthur, and Austin.
     Judy, born in \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Birth Year"]} in \Sexpr{participants[participants$Name == "Judy Soileau Courtade", "Raised (parish)"]} Parish, had significant exposure to F\&C in her community but explained that she did not begin to really use the language until she was married as her husband spoke F\&C. % Reverify that this is in fact how she learned French
     This was similar for Lillian, born in \Sexpr{participants[participants$Name == "Lillian Himel", "Birth Year"]} in \Sexpr{participants[participants$Name == "Lillian Himel", "Raised (parish)"]} Parish, and Arthur, born in \Sexpr{participants[participants$Name == "Arthur Rousseau", "Birth Year"]} in \Sexpr{participants[participants$Name == "Arthur Rousseau", "Raised (parish)"]} Parish, in that they were all surrounded by F\&C in their childhoods and seemed to just have to decide at some point to actually start using it in order to learn it.
-    In other words, ``learning'' F\&C is probably not exactly accurate here as these three were most likely to be at least passive bilinguals already.
+    In other words, ``learning'' F\&C is probably not exactly accurate here as these three were most likely at least passive bilinguals already.
     Austin, on the other hand, was born in \Sexpr{participants[participants$Name == "Austin Roy", "Birth Year"]}, and so did not receive the same sort of exposure but had access to significantly better resources for learning that have been developed and made available over the last 50 years such as grammars, dictionaries, and even online recordings of speakers.
-    He was motivated by a strong interest in local culture and so targetted a local variety of F\&C.
-
-    The vast majority of participants therefore spoke F\&C as a result of being raised with it, making this aspect of their F\&C backgrounds inappropriate for statistical modeling.
-    Exposure to institutional French through high school or college courses, however, represented a much more balanced distribution, with \Sexpr{nrow(participants[participants$`Institutional French` == "Yes",])} having exposure and \Sexpr{nrow(participants[participants$`Institutional French` == "Yes",])} not having exposure.
-    This was ultimately the variable used for statistical analyses, but F\&C background still served as an important qualitative consideration on which to reflect.
+    He was motivated by a strong interest in local culture and so targeted a local variety of F\&C.
+    The vast majority of participants therefore spoke F\&C as a result of being raised with it.
+    Exposure to institutional French through high school or college courses, however, represented a much more balanced distribution among the participants, with \Sexpr{nrow(participants[participants$`Institutional French` == "Yes",])} having exposure and \Sexpr{nrow(participants[participants$`Institutional French` == "Yes",])} not having exposure.
 
     Finally for language, it should also be noted that one participant, Laura, seemed to have experienced some language attrition through lack of use of F\&C.
-    Others claimed to not speak F\&C often (Gene and Floyd) or expressed some uncertainty about their speech (Steven), but all were able to hold conversations perfectly well.
+    Gene and Floyd claimed to not speak F\&C often, and Steven expressed some uncertainty about his speech, but all were able to hold conversations perfectly well.
     In Laura's case, there were significant pauses for vocabulary and repeated model phrases along with her own admission that speaking F\&C took some effort on her part.
     % One's identity may be linked to how one learns a declining language
       % Native speakers of Breton were not found to find the language important for their identities whereas activists who learned in school very much did find it important (Jones 1998, as cited in Lindner 2008:26-27)
@@ -368,7 +372,7 @@
     Of the six teachers who were interviewed, at least four taught French.
     Additionally, Errol explained that his work as a parish assessor required him to speak F\&C to communicate with some members of the public.
     As occupation can function as a proxy for socioeconomic class, it would therefore not be unreasonable to expect it to be a meaningful factor in linguistic behavior, especially in light of the oil industry being commonly cited as a source of anglicization (see Sections \ref{sec:fc_status} and \ref{sec:location}).
-    Neither social class nor more specifically socioeconomic class were considered in previous work on Louisiana.
+    Neither social class nor more specifically socioeconomic class were considered in previous work on Louisiana, though.
     \textcite{brown_pronominal_1988} claimed that the people of Pierre Part (Assumption Parish) and Hessmer (Avoyelles Parish) were socioeconomically homogenous and so could not be analyzed through such a lens (pp.~81-82).
     In Terrebonne-Lafourche, \textcite{rottet_language_1995} explained that ``[i]t is clear that differences in SEC exist'' but that this was a recent development there and therefore not yet useful (p.~64).
     Based on the wide breadthe of occupations held by my participants and the variety of their educational experiences, these statements no longer apply, if they ever did, for those in the Lafayette area.
@@ -382,52 +386,6 @@
     In the current study, the two variables were not merged as accounting for both helps to fully contextualize the social worlds of participants.
     For occupational histories, these were further coded into blue, pink, and white collar, yielding \Sexpr{nrow(participants[participants$Occupation == "Blue Collar",])} blue collar workers, \Sexpr{nrow(participants[participants$Occupation == "Pink Collar",])} pink collar workers, and \Sexpr{nrow(participants[participants$Occupation == "White Collar",])} white collar workers.
     The choices of how to code each occupational class from occupational histories can be seen in Table \ref{tab:occupation_coding}.
-    Educational attainment was coded as either having not gone to college versus being a college graduate of any level, resulting in \Sexpr{nrow(participants[participants$Education == "No College",])} participants with no college education and \Sexpr{nrow(participants[participants$Education == "College Graduate",])} college graduates.
-    Two participants had some college education, meaning they had not completed college.
-    Both were ultimately collapsed in with college graduates.
-    For the sake of statistical modeling, however, Fisher's exact test of independence showed a clear association between education and occupation ($P <$ \Sexpr{round_any(indOccEduc$p.value, 0.001, ceiling)}) as well as a clear association between education and exposure to institutional French ($P <$ \Sexpr{round_any(indEducInstFr$p.value, 0.001, ceiling)}).
-    These associations were not surprising, but this did mean that including all three variables in statistical models led to the models failing to converge.
-    Occupational class and educational attainment were thus excluded from statistical models as exposure to institutional French was expected to be a more important factor for subject pronoun variation while still encoding something of participants' socioeconomic classes.
-    % Examples of socioeconomic class being important for language variation
-      % The classic example is Labov's (1966/2006) department store study that found differences in /r/ using stores as proxies for socioeconomic class (46-49)
-      % In Quebec City in the 1960s, children in blue-collar families used vous with parents, in professional families tu, and in white-collar families both variably (Lambert 1967:616)
-      % Use of [ʁ] in Montreal in 1971 was greater for those in higher social classes (G. Sankoff 2015:31)
-      % Lexical variants of 'automobile' in the French of Estrie, Quebec were constrained by type of occupation in the 1970s (Martel 1984, as cited in Nadasdi et al. 2004:92)
-      % Working class French speakers in Montreal were more likely to delete que (Cedergren & D. Sankoff 1974:349)
-    % One's speech patterns can impact their ability to get into certain occupational positions
-      % In the US, this has been true for Chinese, Indian, and Mexican accents (Timming 2017:416-422) as well as Japanese but not [probably standard] French accents (Hosoda & Stone-Romero 2010, as cited in Timming 2017:412)
-      % Jerry Pierre Quintero joked about a similar difficulty with his speech in English when he first looked for work
-    % Ways of conceptualizing and measuring socioeconomic class
-      % Wright (2015) argued that there are three approaches to social class: the individual attributes approach, the opportunity-hoarding approach, and the domination and exploitation approach (3)
-      % Some indicators of membership in the middle-class are income based (Massey & Fischer 1999; Adelman 2004; Haynes 2001; Lacy 2007) while others are occupation based (Landry 1987, all as cited in Britt & Weldon 2015:3)
-      % In sociolinguistics
-        % Eckert (2000) suggested that a middle class/working class distinction was recapitulated in the jock/burnout groups at Belten High (2/107-108)
-        % Education has the problem that educational attainment does not carry the same social implications across time and space (Horvath & D. Sankoff 1987:183)
-          % Some of my participants talked about school only going up to 11th grade when they were kids
-        % Often simply occupation
-          % Trudgill (1974) argued that occupation is the primary indicator for socioeconomic class because even affluent manual laborers would likely retain the culture of manual laborers (as cited in Dodsworth 2011:193)
-          % Based essentially on occupation type, dividing people in Estate Class (fieldworkers) and Non-Estate Class (foremen and those unassociated with the estates) was meaningful socially and in terms of language variation in Guyana (Rickford 1986:216-217)
-          % In Philadelphia, occupation was a better predictor of socioeconomic class than other indicators, but a combination of indicators was the best predictor (Labov 2001,as cited in Dodsworth 2011:193)
-          % Employment was the best indicator of presitge in Cusco, Peru (Van den Berghe & Primov 1977, as cited in Delforge 2012:321)
-          % As has long been noted, it's simply easier to obtain occupational information than other indicators of socioeconomic class Macaulay (1977, as cited in Dodsworth 2011:193)
-          % But occupation has several problems
-            % D. Sankoff & Laberge (1978 "Linguistic") pointed out that occupation is problematic because some individuals don't have occupations, occupation is static and so misses changes over time, ranking occupations against each other is subjective, and occupations aren't always useful for cross-cultural comparisons (240)
-              % Among my own participants, many were retired, several had changed occupations a number of times throughout their lives, and some occupations were hard to classify hierarchically
-            % Relatedly, traditional approaches to socioeconomic class in general tended to classify women and children according to their husbands' or fathers' socioeconomic classes (Horvath & D. Sankoff 1987:182-183)
-        % Linguistic marketplace
-          % D. Sankoff & Laberge (1978 "Linguistic") argued that a better measure was needed because "teachers, actors, and receptionists tend to speak a more standard variety than other people of similar social and economic position" (239)
-          % D. Sankoff & Laberge (1978 "Linguistic") instead measured socioeconomic class via speakers' use of a "legitimized language" (239)
-            % This was more predictive than other factors when looking at the variables avoir/être in passé composé, relative pronouns without antecedents, and on/ils in Montreal (246)
-          % The linguistic marketplace is not operationalized as Sankoff & Laberge proposed, however, rather it is referenced conceptually to discuss professions (e.g., Mechler & Buchstaller 2019; Regan 2020)
-            % Or they partially operationalize it without mentioning it, as Baranowski (2017) did when using occupational history rather than just occupation as an indicator of socioeconomic class (303)
-          % King (2000) used a linguistic marketplace approach as she explained that socioeconomic class in small non-urban communities typically "yields a small 'upper' class, perhaps a middle group and a very large, undifferentiated 'lower' class in such communities" (55)
-      % Regardless of how it's defined or measured, it's important to remember that socioeconomic class is not a meaningful social variable in all communities
-        % That is not to say that socioeconomic classes do not exist
-          % It has been found in some communities that links within a social class are generally much more multiplex than links that traverse social class (Bott 1971; Cubitt 1973; Frankenberg 1969, as cited in L. Milroy 1980/1987:52)
-            % This suggests a measurable reality for socioeconomic class, however...
-        % L. Milroy (1980/1987) argued that socioeconomic classes "reflect reality to a certain extent" but that the segmentations into classes such as working class "do not necessarily have any kind of objective, or even intersubjective, reality" (14)
-        % N. Coupland (2016) suggested that a breakdown in social class would impact language in that there would be dialect leveling between the middle class and working class, and values associatied with standard and vernacular would be less significant (420-421)
-      % One can also simply exist outside of the the industrial class structure, as in Lloyd's (1979) marginals (as cited in Milroy, L. 1980/1987:73)
 
     \begin{table}[tbhp]
       \caption{Coding used for each occupational history}
@@ -471,15 +429,57 @@
       \end{tabular}
     \end{table}
 
-    There was no such association between gender and exposure to institutional French\footnote{
-      For what it is worth, there was also no such association between gender and occupational class nor gender and educational attainment.
-    } ($P <$ \Sexpr{round_any(indInstFrGend$p.value, 0.001, ceiling)}) according to a Fisher's exact test for independence, but it was seen as important to be careful about coding participants with respect to gender.
-    Even more so than with socioeconomic class, the norm has been to code gender without explaining for how this was done (\citeauthor[\foreign{e.g.},][]{sharma_cognitive_2011}, \citeyear[p.~411]{sharma_cognitive_2011}; \citeauthor{tagliamonte_subject_2023}, \citeyear[p.~307]{tagliamonte_subject_2023}; \citeauthor{travis_sydney_2024}, \citeyear{travis_sydney_2024}), presumably because it is taken for granted that one can identity a participant's gender without asking, although there are certainly exceptions to such assumptions \parencite[\foreign{e.g.},][p.~14]{welker_syllable-final_2023}.
-    In fact, sex is sometimes conflated with gender \parencite[\foreign{e.g.},][p.~277]{roberts_what_2024}, whereas here I am specifically interested in the former rather than the latter.
+    Educational attainment was coded as either having not gone to college versus being a college graduate of any level, resulting in \Sexpr{nrow(participants[participants$Education == "No College",])} participants with no college education and \Sexpr{nrow(participants[participants$Education == "College Graduate",])} college graduates.
+    Two participants had some college education, meaning they had not completed college.
+    Both were ultimately collapsed in with college graduates.
+    % Examples of socioeconomic class being important for language variation
+      % The classic example is Labov's (1966/2006) department store study that found differences in /r/ using stores as proxies for socioeconomic class (46-49)
+      % In Quebec City in the 1960s, children in blue-collar families used vous with parents, in professional families tu, and in white-collar families both variably (Lambert 1967:616)
+      % Use of [ʁ] in Montreal in 1971 was greater for those in higher social classes (G. Sankoff 2015:31)
+      % Lexical variants of 'automobile' in the French of Estrie, Quebec were constrained by type of occupation in the 1970s (Martel 1984, as cited in Nadasdi et al. 2004:92)
+      % Working class French speakers in Montreal were more likely to delete que (Cedergren & D. Sankoff 1974:349)
+    % One's speech patterns can impact their ability to get into certain occupational positions
+      % In the US, this has been true for Chinese, Indian, and Mexican accents (Timming 2017:416-422) as well as Japanese but not [probably standard] French accents (Hosoda & Stone-Romero 2010, as cited in Timming 2017:412)
+      % Jerry Pierre Quintero joked about a similar difficulty with his speech in English when he first looked for work
+    % Ways of conceptualizing and measuring socioeconomic class
+      % Wright (2015) argued that there are three approaches to social class: the individual attributes approach, the opportunity-hoarding approach, and the domination and exploitation approach (3)
+      % Some indicators of membership in the middle-class are income based (Massey & Fischer 1999; Adelman 2004; Haynes 2001; Lacy 2007) while others are occupation based (Landry 1987, all as cited in Britt & Weldon 2015:3)
+      % In sociolinguistics
+        % Eckert (2000) suggested that a middle class/working class distinction was recapitulated in the jock/burnout groups at Belten High (2/107-108)
+        % Education has the problem that educational attainment does not carry the same social implications across time and space (Horvath & D. Sankoff 1987:183)
+          % Some of my participants talked about school only going up to 11th grade when they were kids
+        % Often simply occupation
+          % Trudgill (1974) argued that occupation is the primary indicator for socioeconomic class because even affluent manual laborers would likely retain the culture of manual laborers (as cited in Dodsworth 2011:193)
+          % Based essentially on occupation type, dividing people in Estate Class (fieldworkers) and Non-Estate Class (foremen and those unassociated with the estates) was meaningful socially and in terms of language variation in Guyana (Rickford 1986:216-217)
+          % In Philadelphia, occupation was a better predictor of socioeconomic class than other indicators, but a combination of indicators was the best predictor (Labov 2001,as cited in Dodsworth 2011:193)
+          % Employment was the best indicator of presitge in Cusco, Peru (Van den Berghe & Primov 1977, as cited in Delforge 2012:321)
+          % As has long been noted, it's simply easier to obtain occupational information than other indicators of socioeconomic class Macaulay (1977, as cited in Dodsworth 2011:193)
+          % But occupation has several problems
+            % D. Sankoff & Laberge (1978 "Linguistic") pointed out that occupation is problematic because some individuals don't have occupations, occupation is static and so misses changes over time, ranking occupations against each other is subjective, and occupations aren't always useful for cross-cultural comparisons (240)
+              % Among my own participants, many were retired, several had changed occupations a number of times throughout their lives, and some occupations were hard to classify hierarchically
+            % Relatedly, traditional approaches to socioeconomic class in general tended to classify women and children according to their husbands' or fathers' socioeconomic classes (Horvath & D. Sankoff 1987:182-183)
+        % Linguistic marketplace
+          % D. Sankoff & Laberge (1978 "Linguistic") argued that a better measure was needed because "teachers, actors, and receptionists tend to speak a more standard variety than other people of similar social and economic position" (239)
+          % D. Sankoff & Laberge (1978 "Linguistic") instead measured socioeconomic class via speakers' use of a "legitimized language" (239)
+            % This was more predictive than other factors when looking at the variables avoir/être in passé composé, relative pronouns without antecedents, and on/ils in Montreal (246)
+          % The linguistic marketplace is not operationalized as Sankoff & Laberge proposed, however, rather it is referenced conceptually to discuss professions (e.g., Mechler & Buchstaller 2019; Regan 2020)
+            % Or they partially operationalize it without mentioning it, as Baranowski (2017) did when using occupational history rather than just occupation as an indicator of socioeconomic class (303)
+          % King (2000) used a linguistic marketplace approach as she explained that socioeconomic class in small non-urban communities typically "yields a small 'upper' class, perhaps a middle group and a very large, undifferentiated 'lower' class in such communities" (55)
+      % Regardless of how it's defined or measured, it's important to remember that socioeconomic class is not a meaningful social variable in all communities
+        % That is not to say that socioeconomic classes do not exist
+          % It has been found in some communities that links within a social class are generally much more multiplex than links that traverse social class (Bott 1971; Cubitt 1973; Frankenberg 1969, as cited in L. Milroy 1980/1987:52)
+            % This suggests a measurable reality for socioeconomic class, however...
+        % L. Milroy (1980/1987) argued that socioeconomic classes "reflect reality to a certain extent" but that the segmentations into classes such as working class "do not necessarily have any kind of objective, or even intersubjective, reality" (14)
+        % N. Coupland (2016) suggested that a breakdown in social class would impact language in that there would be dialect leveling between the middle class and working class, and values associatied with standard and vernacular would be less significant (420-421)
+      % One can also simply exist outside of the the industrial class structure, as in Lloyd's (1979) marginals (as cited in Milroy, L. 1980/1987:73)
+
+    A nearly omnipresent variable in variationist sociolinguistics is gender.
+    Even more so than with socioeconomic class, the norm has been to code gender without explaining how this was done (\citeauthor[\foreign{e.g.},][]{sharma_cognitive_2011}, \citeyear[p.~411]{sharma_cognitive_2011}; \citeauthor{tagliamonte_subject_2023}, \citeyear[p.~307]{tagliamonte_subject_2023}; \citeauthor{travis_sydney_2024}, \citeyear{travis_sydney_2024}), presumably because it is taken for granted that one can identity a participant's gender without asking, although there are certainly exceptions to such assumptions \parencite[\foreign{e.g.},][p.~14]{welker_syllable-final_2023}.
+    In fact, sex is sometimes conflated with gender \parencite[\foreign{e.g.},][p.~277]{roberts_what_2024}, whereas here I was specifically interested in the former rather than the latter.
     Participants were not directly asked their genders for the present study, however, as I did not want to risk creating social distance between myself and the participants who were residents of a politically conservative region of the US during a time when gender identity was a politically charged topic.
     Fortunately, French has grammatical gender as do even ``basilectal'' forms of Creole to some extent \parencite[p.~170]{klingler_if_2003}.
-    Gender was thus coded based on how participants gendered themselves grammatically during interviews.
-    This is admittedly imperfect as gender neutral forms such as the pronoun \lexi{iel} are not attested in Louisiana, and those who are gender fluid would not be identified this way without multiple meetings that elicit shifting genders.
+    Gender was therefore coded based on how participants gendered themselves grammatically during interviews.
+    This is admittedly imperfect as gender neutral forms such as the pronoun \lexi{iel} are not attested in Louisiana, making non-binary genders opaque in speakers' grammars, and those who are gender fluid would not be identified this way without multiple meetings that could elicit shifting genders.
     However, discussions did center on speakers' lives and identities, and some speakers did feel comfortable bringing up non-heteronormative identities, so it would not have been completely out of the question for them to also express transgender, non-binary or non-fixed gender identities where relevant.
     The final tally for gender then was \Sexpr{nrow(participants[participants$Gender == "Woman",])} women and \Sexpr{nrow(participants[participants$Gender == "Man",])} men divided relatively evenly between Creoles (\Sexpr{nrow(participants[participants$Gender == "Woman" & participants$Ethnicity == "Creole",])} women out of \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])} Creoles) and Cajuns (\Sexpr{nrow(participants[participants$Gender == "Woman" & participants$Ethnicity == "Cajun",])} women out of \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])} Cajuns).
     % Gender has long been seen as an impactful social factor
@@ -505,8 +505,10 @@
       Participants were asked to self-identify racially, a question whose meaning generally needed no further elaboration or explanation.
       Despite a history of isolation from the broader US, participants are now thoroughly faced with its racialized social system.
       This does not mean that all participants gave categories familiar to any American such as White or Black as their races in all cases.
-      As can be seen in Figure \ref{fig:race_counts}, a variety of choices were made from general American racialized categories (\foreign{e.g.}, White) to local categories (\foreign{e.g.}, Creole) to categories nuanced via combinations of categories (\foreign{e.g.}, Caucasian Cajun) to even the rejection of any race (\foreign{i.e.}, transcendent).
-      These were all of which were initially coded as-is.
+      As can be seen in Figure \ref{fig:race_counts}, a variety of choices were made from general American racialized categories (\foreign{e.g.}, White) to local categories (\foreign{e.g.}, Creole) to categories nuanced via combinations of categories (\foreign{e.g.}, Caucasian Cajun) to even the rejection of any race (\foreign{i.e.}, transcendent\footnote{
+        The value N/A represents the two participants for whom their race was not obtained, whereas the value transcendent came from a participant who explicitly rejected race.
+      }).
+      These were all initially coded as-is.
 
       \begin{figure}[tbhp]
         \caption{Racial self-identifications of participants}
