@@ -317,6 +317,8 @@
       Alternatively, \textcite{brown_pronominal_1988} claimed that \lexi{ça} was used for animate referents, but the examples she provided had questionable interpretations.
       Her quantitative results were more mixed, but she collapsed third personal plural and singular together for that analysis, making it a difficult result from which to draw conclusions.
     } although it is not unheard of for Creole-oriented speakers to use \lexi{li} for both animate and inanimate referents \parencite{klingler_if_2003}.
+    A related exception was limited to some young speakers in Terrebonne-Lafourche who retained \lexi{eux} in addition to \lexi{ça} for third person plural, using the former for animate referents and latter for inanimate \parencite[p.~219]{rottet_language_1995}.
+    \lexi{Eux} was nearly absent in the present study, however.
     \textcite{brown_pronominal_1988} had also examined whether the syntactic position of co-referents predicted third person subject pronoun realizations but found this variable to not be significant (p.~168).
 
     % Structural constraints
@@ -480,22 +482,34 @@
           His results suggested that \lexi{ça} was preferred before \lexi{être}, \lexi{avoir} \gloss{to have}, and \lexi{aller} \gloss{to go}, whereas \lexi{ils} was preferred with all other verbs (p.~49).
           The common thread between these three verbs is that they are all auxiliary verbs, but importantly they are distinct from other auxiliary verbs in not always being modal as is the case with auxiliaries such as \lexi{pouvoir} \gloss{to be able to} and \lexi{devoir} \gloss{to have to}.
 
-    % Social constraints that were modeled but not super important
+    % Social constraints that were modeled
+      Sociolinguistic analyses of F\&C have been relatively rare compared to documentary work.
+      For subject pronouns, \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009} provided the most robust sociolinguistic work in terms of subject pronoun choice, both examining Terrebonne-Lafourche, but \textcite{gudmestad_variationist_2022} also presented sociolinguistic analyses of phonetic variation in first person singular subject pronouns, again examining Terrebonne-Lafourche.
+      All such sociolinguistic analyses focused entirely on speech that was said to be French rather than Creole, hence pronouns that are included in the present study that are traditionally described as Creole pronouns do not really factor into previous studies, but their results are enlightening for showing the sort of work subject pronouns can do in any case.
 
+      No studies have considered exposure to institutional French as a factor, as was done in the present work, nor even factors that are likely to be associated with exposure to institutional French such as occupation or educational attainment.
+      Gender and age, however, have been examined in the literature.
+      Gender has mostly proved to be insignificant, although there have been some exceptions.
+      \textcite{rottet_language_1995} found that men and women both primarily used \lexi{je} for 1sg and \lexi{vous-autres} for 2pl, but men were more inclined to use null pronouns for the former and either \lexi{vous} or \lexi{tu} for the latter (pp.~178/193).
+      Likewise, gender was meaningful for phonetic variation in 1sg subject pronouns \parencite[pp.~14-15]{gudmestad_variationist_2022}.
+      Some results for age have also proven to be significant.
+      Those over 50 slightly dispreferred using \lexi{ça} compared to an aggregate of 3sg and 3pl pronouns (\foreign{i.e.}, \lexi{il} + \lexi{elle} + \lexi{ils}) in the parishes of Avoyelles and Assumption, whereas those under 50 slightly preferred \lexi{ça} \parencite[p.~178]{brown_pronominal_1988}.
+      This shift over time in favor of \lexi{ça} for 3pl was also present in Terrebonne-Lafourche, but there, the much larger shift was in favor of \lexi{eux} for 3pl.
+      Additionally in these latter parishes, younger speakers were more likely to use null pronouns for 1sg, although all speakers preferred \lexi{je}, and to use \lexi{tu} for 2sg.V.
+      Another rather unexpected result there included the middle age group (\foreign{i.e.}, 30-54) using \lexi{tu} almost as much as \lexi{vous-autres} for 2pl, whereas all age groups preferred the latter otherwise \parencite[pp.~178/193/197/207]{rottet_language_1995}.
+      It should be noted, however, that \textcite{rottet_language_1995} included speakers of different fluency levels, which appeared to be correlated with age (p.~163), making it difficult to untangle how much of this variation was related specifically to age.
       % Gender
         % Among Indians in Terrbonne-Lafourche, for 1sg, males disfavored [h] but were neutral between null, [ʃ], and [ʒ] (Gudmestad & Carmichael 2022:14-15)
+        % For 1sg, Dubbois (2001) found no significance for gender between je, moi je, and moi (160)
         % In Rottet 1995
           % 1sg: Both primarily used je but men were more inclined to use a null pronoun (178)
           % 2pl: Both primarily used vous-autres but men were inclined to use more vous and tu (193)
           % 2sg.V: Insignificant, almost identical (197)
           % 3pl: Insignificant, mostly identical (207)
             % He listed ils as significant but not the others. No idea what that means.
-
       % Age
+        % For 1sg, Dubbois (2001) found no significance for age between je, moi je, and moi (160)
         % Ça (vs ils+il+elle) was slighty dispreferred for those over 50 and slighty preferred by those under 50 in Avoyelles and Assumption (B. Brown 1988:178)
-        % Younger speakers who used only ça and eux in Terrebonne-Lafourche used the former for inanaminate referents and the latter for animate (Rottet 1995:219)
-          % Though the use of ça increased for all age groups from for inanimate objects from 15% to 50% (Rottet 1995:209-210)
-            % Recheck what he means by this since he didn't do a study of change in real time
         % In Rottet 1995
           % 1sg: <30 were much closer to being split between je and null, all others being almost exclusively je (178)
           % 2pl: All preferred vous-autres but 30-54 used tu almost as much as vous-autres (193)
@@ -507,27 +521,84 @@
           % Among Indians in Terrbonne-Lafourche, for 1sg, semispeakers disfavored [h] but were neutral between null, [ʃ], and [ʒ] (Gudmestad & Carmichael 2022:14-15)
           % In Terrebonne-Lafourche, Rottet (1995) suggested that imperfect speakers leaned towards disjunctive pronouns in place of clitic pronouns for two reasons: 1) disjunctive pronouns are more sallient and so easier to pick up with limited input, and 2) English doesn't have clitic pronouns so disjunctive pronouns in French are simpler to acquire when growing up bilingual (180)
 
-      % Institutional French exposure
+      Finally, and most importantly, ethnicity and race have been examined in the literature, although none of this work has been framed as examinations of racialization.
+      Race, in terms of the broader US categories of White and Black, has often been implicated in studies of what has been conceptualized as Creole.
+      These have not been variationist sociolinguistic studies, so the comments on race are generally more holistic and impressionistic.
+      In Breaux Bridge, for example, \textcite{neumann-holzschuh_creole_1985} described White speakers of Creole as using a more decreolized version of the language, which would include things like grammatical gender and a lack of postnominal definite articles (p.~41).
+      One could likewise assume that this would mean that they were more likely to use French-oriented subject pronouns, but this was not something \textcite{neumann-holzschuh_creole_1985} considered.
+      \textcite{klingler_if_2003} did consider pronouns in the Creole of Pointe Coupee in suggesting that gender was more likely to be marked in any type of pronoun for White speakers, giving the example of \lexi{avec elle} \gloss{with her} rather than \lexi{avec li} \gloss{with him/her} (p.~117).
+      \lexi{Elle}, in this case, would always have a feminine referent whereas \lexi{li} could have either a feminine or masculine referent.
 
-      % Ethnicity and/or race
-        % Variation in pronoun systems along racial or ethnic lines considered holistically
-            % In Pointe Coupee Creole, Whites use pronouns that are closer to French and that agree in gender and/or number (e.g. avèk èl vs avèk li (f.)) (Klingler 2003 "Turn":117)
-          % For 1sg, null was the most common for Indian speakers of all levels in Terrebonne-Lafourche, sometimes with moi (i.e., moi by itself was possible) (Gudmestad & Carmichael 2022:11)
-          % Indians sometimes depalatalize /ʒ/ so that it becomes [s] before voiceless consonants or vowels and [z] before voiced consonants (Papen & Rottet 1997:82; Rottet 1995:127/176)
-            % 1sg as [z] in Terrebonne-Lafourche may be indicative of Indian identity (Dajko 2009:121-122)
-        % In Dajko 2009
-          % 3pl: Indians greatly preferred eusse followed by ça, whereas Cajuns mostly used eusse but were quite a bit more split along it and eux-autres, ça, and ils (144)
-            % The only Cajuns who weren't so variable were Cajuns in Golden Meadow who greatly preferred eusse to all others (145)
-          % 1pl: Insignificant, all preferred on almost to the complete exclusion of other pronouns (149-152)
-          % 2pl: Insignificant, almost identical results, both greatly preferring vous-autres with some use of tu (154)
-          % 1sg: Both greatly preferred je (to ej or null), although there were some minor differences in je increasing and ej decreasing for Cajuns in casual speech that didn't occur for Indians (156-158)
-            % Compared to the present study, this was really like je+ej vs null, in which case there's only the minor difference of Indians using ~6% more null
-          % 3sg.F: Both greatly preferred elle, but Indians also used il a notable amount (15.2%) (162)
-        % In Rottet 1995
-          % 1sg: Both greatly preferred je, but Indians were much more likely to use a null pronoun (178)
-          % 2pl: Both preferred vous-autres, but Cajuns were much more split between it and vous and tu (193)
-          % 2sg.V: Listed as significant but the percentages are almost identical with a pretty solid preference for tu (197)
-          % 3pl: Cajuns preferred eusse and eux-autres pretty evenly but not a by a huge margin over ils and ça, whereas Indians very strongly preferred eusse (207)
+      More robusts analyses came once again from \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009}, although since these were dealing with ``French'' and Indians versus Cajuns, the factor was conceptualized as ethnicity rather than race.
+      Both researchers certainly provided hints that these two groups are racialized with Indians being given a lower status, but presumably, both categories and the language variety are White enough to not entail thinking about them in terms of race.
+      Rottet and Dajko worked in the same region of Louisiana, but they did not examine exactly the same subject pronouns.
+      Those that were shared included 2pl and 3pl, and with some caveats, 1sg.
+      For 2pl, \textcite{rottet_language_1995} found an overall preference for \lexi{vous-autres} for both groups, bubt Cajuns were otherwise much more split \lexi{vous-autres}, \lexi{vous}, and \lexi{tu} (p.~193).
+      By \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) time, ethnicity was no longer significant for 2pl with both groups greatly preferring \lexi{vous-autres} (p.~154).
+      For 3pl, both researchers found \lexi{eux} to be quite common across the board, but there were differences in how frequently other 3pl were used.
+      Earlier, Cajuns actually made slightly more use of \lexi{eux-autres} but also made ample use of \lexi{ils} and \lexi{ça}, no pronoun form accounting for more than 37\% of occurrences \parencite[p.~207]{rottet_language_1995}.
+      \textcite{dajko_ethnic_2009}, on the other hand, found \lexi{eux} to be preferred by both groups, but Cajuns still showed some non-negligible use of the other pronouns with the exception of those Cajuns who resided in the town of Golden Meadow who almost exclusively used \lexi{eux}.
+      For Indians, on the other, the only other 3pl that was used noticeably was \lexi{ça} (pp.~144-145).
+      There is a caveat for both researchers examining 1sg because they used different levels for this variable.
+      Rottet divided it into \lexi{je}, \lexi{moi je}, \lexi{moi}, and null, whereas Dajko divided it into \lexi{je}, \lexi{ej}, and null.
+      If one excludes disjunctive pronouns and phonetic variation, however, both become a comparison between \lexi{je} and null, in which case both Indians and Cajuns greatly preferred \lexi{je} in both studies with Indians in the earlier study simply using a null pronoun more often than Cajuns (16\%) (\citeauthor{dajko_ethnic_2009}, \citeyear[pp.~156-158]{dajko_ethnic_2009}; \citeauthor{rottet_language_1995}, \citeyear[p.~178]{rottet_language_1995}).
+      Their results for 1sg were in line with \citeauthor{gudmestad_variationist_2022}'s (\citeyear{gudmestad_variationist_2022}) much more recent study that likewise showed \lexi{je} to be heavily preferred to null for Indians alone.\footnote{
+        \textcite{gudmestad_variationist_2022} did not examine any other group of speakers, and their analysis was of phonetic variation in \lexi{je}, so as with \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) use of the two phonetic variants of \lexi{je} and \lexi{ej} in her study, the current discussion is based on collapsing \citeauthor{gudmestad_variationist_2022}'s phonetic variants all into \lexi{je} save for the null variant.
+      }
+
+      The remaining subject pronouns that were examined were 2sg.V, 3sg.F, and 1pl.
+      \textcite{rottet_language_1995} described the results for 2sg.V as significant for ethnicity.
+      However, the rates of usage for the variants were almost identical between Indians and Cajuns (38\% vs 34\% for \lexi{vous}, 59\% vs 62\% for \lexi{tu}, and 3\% vs 4\% for \lexi{vous-autres}, respectively) (p.~197).
+      If the statistical analysis was correctly carried out and did in fact result in a significant result, the effect size is likely to be inconsequential nonetheless.
+      For 3sg.F, while \textcite{dajko_ethnic_2009} found both groups to greatly prefer \lexi{elle}\footnote{
+        She in fact split \lexi{elle} into the phonetic variants [ɛl] and [al] while still including the lexical variants of \lexi{il} and null in the same analysis, but I am discussing \lexi{elle} as a lexical variant here (\foreign{i.e.}, I am combining its phonetic variants for the sake of this discussion).
+      } but Indians also used a notable amount of \lexi{il} (15.2\%) (p.~162), which other French speakers in Louisiana and elsewhere would relegate to masculine referents only.
+      She also considered 1pl, but came up with a result that was not significant for ethnicity with both groups greatly preferring \lexi{on} to almost the complete exclusion of other variants \parencite[pp.~149-152]{dajko_ethnic_2009}.
+
+      What may not be immediately apparent in these results is that Indians and Cajuns in Terrebonne-Lafourche almost entirely agreed on their preferred subject pronouns even if there was statistically significant variation in the frequency of the lesser used variants.
+      Table \ref{tab:preferred_pronouns_tl} summarizes this pattern.
+      As already mentioned, both \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009} discussed the social position of Indians in a way that is suggestive of them having a lower status than Cajuns, but if the situation reaches the level of these groups being racialized, Indians and Cajuns do not appear to be heavily marked by their subject pronoun usage in F\&C.
+      One may still identify them through their subject pronouns, but the contrast, being only in the rates of usage of dispreferred pronouns, is not particularly stark.
+
+      \begin{table}[tbhp]
+        \caption{The most frequent subject pronouns in Terrebonne-Lafourche by ethnicity}
+        \label{tab:preferred_pronouns_tl}
+        \centering
+        \begin{tabular}{l | l l | l l}
+          Subject Pronoun & \multicolumn{2}{c}{Indian} & \multicolumn{2}{c}{Cajun}\\
+                          & Rottet      & Dajko        & Rottet         & Dajko\\
+          \hline
+          1sg             & je          & je           & je             & je\\
+          2sg.V           & tu          &              & tu             & \\
+          3sg.F           &             & elle         &                & elle\\
+          1pl             &             & on           &                & on\\
+          2pl             & vous-autres & vous-autres  & vous-autres    & vous-autres\\
+          3pl             & eux         & eux          & eux-autres     & eux\\
+        \end{tabular}
+      \end{table}
+
+      Two final notes can be made about how subject pronouns have been shown to be related to ethnicity or race in the literature.
+      One is that 1sg subject pronouns have been given phonetic treatments several times, already discussed briefly above, or have otherwise been commented on in terms of phonetics in light of the considerable number of variants that are possible.
+      These have once again all been focused on Terrebonne-Lafourche, where the [s] realization and especially the [z] realization of \lexi{je} have been particularly linked to Indians, both of which represent depalatalized versions of the typical [ʃ] and [ʒ] realizations, respectively (\citeauthor{dajko_ethnic_2009}, \citeyear[pp.~121-122]{dajko_ethnic_2009}; \citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}).
+      While phonetic variation is not part of the present analysis, this does show that aspects of subject pronouns can reach a level of association with an ethnicity such that this association is apparent to anyone who spends considerable time with F\&C in Terrebonne-Lafourche.
+
+      The other final note is that examinations of the subject pronouns of Creoles have been entirely limited to Creole-oriented speech save for one exception.
+      \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) work was a discourse analysis of Creoles in Louisiana and Texas rather than a variationist analysis, so neither subject pronouns or any other more precise structural linguistic features were not part of his work, but he did not limit participation in the study to Creoles who spoke Creole as described by linguists structurally but who spoke whatever speech variety the participants referred to as Creole (pp.~113-119).
+      The result is that much of the speech that he presented from participants showed that Creoles very much do use subject pronouns that are traditionally described in the literature as French rather than only Creole pronouns.
+      This group of speakers consisted of 5 Texans and 14 Louisianians, the latter from the parishes of Acadia, Evangeline, Lafeyette, and St Landry, all of which are parishes where participants in the present study resided during the study except Evangeline which was only a parish where one participant was raised. 
+      Some other participants in \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) study even mixed French and Creole pronouns in their speech.
+      This group consisted of 4 Texans and 4 Louisianians, the latter from the parishes of Lafayette, St Landry, and St Martin, which are not only parishes relevant to the current study's participants' life histories but are in fact the primary parishes targeted here.
+      The data \textcite{wendte_tale_2020} presented therefore indicates that one should not expect all Creoles to use Creole subject pronouns, but it does not resolve whether the overall tendency is towards one set of pronouns or another.
+
+      In sum, there exist a very wide range of possibilities for subject pronouns in F\&C.
+      These have been described extensively in documentary studies of French and Creole as well as in sociolinguistic studies to an extent.
+      The type of verb following the subject pronoun is a common structural constraint that has been found for 3pl pronouns, while gender and age have had some significant results.
+      Exposure to institutional French has, on the other hand, not been examined at all, nor have the related social variables of occupation, education, and socioeconomic class, at least in part because they have not been seen as meaningful variables in rural Louisiana communities.
+      Race has been a common topic for commenting in studies of what is conceptualized as Louisiana Creole but not French where ethnicity has instead been the framework of choice.
+      Two of the most robust variationist studies in \citeauthor{rottet_language_1995}'s (\citeyear{rottet_language_1995}) and \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) work have in fact focused in on ethnicity.
+      However, their studies, as well as many others that have given treatments of subject pronouns, have been centered on Terrebonne-Lafourche, which is rather far to the southeast of the target area for the present study.
+      Nonetheless, previous work has established that subject pronouns can do the work of delineating speakers at various social levels even if there are some minor indications in \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) study that at least Creoles make use of a variety of subject pronouns.
+      Thus, the research question for this chapter is the following:
 
         % NOT PRONOUNS
           % Several features differ along racial lines in Pointe Coupee Creole
