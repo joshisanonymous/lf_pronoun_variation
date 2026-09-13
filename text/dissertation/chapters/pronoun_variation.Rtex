@@ -748,13 +748,11 @@
       For instance, when speakers hesitated or restarted the same clause, rather than counting each utterance of a subject pronoun throughout those restarts, only the final subject pronoun uttered was counted.
       More complicated is determining how to manage pronouns that may or may not be phonetic variants of a single target pronoun and determining which referent a given pronoun token is targetting.
 
-      \subsubsection{Phonetic variants}
-        \label{sec:phonetic_variants}
+      % Phonetics
         The analyses carried out here are lexical rather than phonetic, but ambiguities easily arise in which two distinct pronouns can have identical phonetic realizations or in which several phonetic forms may all be realizations of a single target pronoun.
-        Disentangling these ambiguities is essential for accurately counting pronoun tokens.
-        One such example, that of [mo], [mɔ̃], [mwa], and [mwɛ̃], was discussed in section \ref{sec:pronoun_structure}, but others exist, as well.
-        The pronouns under which these phonetic forms were grouped in the analysis are summarized in Table \ref{tab:phonetic_variants} where only those phonetic realizations that actually occurred in the data are provided, hence \lexi{mo} was coded as such due to only [mo] and [m] occurring.
-        Others will be discussed below.
+        The range of what was attested in this study's data is presented in Table \ref{tab:phonetic_variants}, including the lexical items that it was decided that they represent.
+        Disentangling ambiguities in this system is essential for accurately counting pronoun tokens, hence some explanation of the choices made here will be given.
+        However, establish without a doubt what the correct grammatical analyses of these tokens are is beyond the scope of this study, and so questions will necessarily linger, questions perhaps appropriate for future research.
 
         \begin{table}[tbhp]
           \caption{Phonetic variants with their corresponding pronoun morpheme}
@@ -783,17 +781,66 @@
           }
         \end{table}
 
-        A number of cases can easily be accounted for as they represent well-known liaisons in which a latent final consonant is produced only when the following word begins with a vowel.
+        ted for as they represent well-known liaisons in which a latent final consonant is produced only when the following word begins with a vowel.
         One of these is the [n] at the end of \lexi{on} (\citeauthor{oukada_louisiana_1977}, \citeyear[p.~192]{oukada_louisiana_1977}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~53]{smith_morphosyntactic_1994}).
-        Likewise, an [l] liaison often occurs at the end of \lexi{il} as well as \lexi{elle} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
+        Likewise, a [l] liaison often occurs at the end of \lexi{il} as well as \lexi{elle} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
         The latter additionally can be realized with the vowel [ɛ] or [a] (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
         Studies that attest to both forms consider them to be variants of the same pronoun, thus they were treated as such here.
-        The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, but there was an additional ambiguity created by their non-liaison forms, [nu] and [vu], that will be discussed later in this section.
         Similarly well attested through the world is a [z] liaison for \lexi{elles}.
         This pronoun is very rare in Louisiana and only appeared in liaison contexts in my data, making it unambiguous.
         Finally, \lexi{ils} is also widely known to generate a [z] liaison, but in Louisiana, it can also be realized with an [l] liaison (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
-        This case presents significant ambiguities with \lexi{il} and even \lexi{li} which will be discussed further down.
+        This case presents significant ambiguities with \lexi{il} and even \lexi{li}
+          which will be discussed further down.
         Documented liaisons therefore helped categorize a number of phonetic realizations with their appropriate pronoun morphemes.
+
+        The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, but there was an additional ambiguity created by their non-liaison forms [nu] and [vu] as these have been documented in studies of Creole as existing but without a liaison.
+        Instead, they often reduce to [n] and [v] before vowels and sometimes even before consonants (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}).
+        For the former, a third phonetic form, [no], is also attested in the Creole literature.
+        The choice of distinguishing two 1pl pronouns, \lexi{nous} and \lexi{no}, from these forms was based in part on Owen producing [nu] with very rare \parencite[p.~96]{papen_structural_1997} standard French inflections in the verbs and [no] without such inflections.
+        On the other hand, Tracy, who never produced standard French inflections for 1pl subjects, produced mostly [no] with a small number of tokens of [nu], an alternation that has already been attested in the Creole literature (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~166]{neumann-holzschuh_creole_1985}).
+        This infuenced the choice to collapse these two.
+        For him, both were produced before vowels and consonants without every yielding any liaisons.
+        The [no] form was in fact much more frequent than non-liaison [nu] across the corpus, which is why \lexi{no} was chosen as the representation for these rather than \lexi{nou}.
+        The same logic was applied to categorizing [vu]\footnote{
+          Although [vo] is also attested in the literature as alternating with [vu] in Creole-oriented speech (\citeauthor{klingler_if_2003}, \citeyear[pp.~206/213]{klingler_if_2003}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}), [vo] did not appear in my data.
+        } and [vuz] with the difference that only irregular French verbs would appear different than the typically attested Creole verb forms.
+        Fortunately, these pronouns were rare enough in the corpus that almost all tokens could be disambiguated using verb forms or the presence or absence of liaisons.
+        The few remaining tokens were produced by speakers who otherwise categorically used \lexi{vou} or \lexi{vous} in more transparent linguistic contexts and so the more ambiguous tokens were coded the same.
+        Unfortunately, the low count also meant that no participant used both \lexi{vou} and \lexi{vous} so their status as distinct pronouns for these speakers can only be assumed.
+
+        Vowel elisions in subject pronouns were also an issue for a number of other pronoun forms.
+        Most of these have been repeatedly documented in the literature, but that alone did not always lead to clarity in choosing their lexical items.
+        For instance, \lexi{yé} has been attested as [je] and [j] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}), neither of which are homophonous with other pronoun forms, and so one pronoun, \lexi{yé}, was chosen for these.
+        Likewise, [mo] and [m] were categorized as \lexi{mo} (\citeauthor{klingler_if_2003}, \citeyear[p.~210]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[pp.~95-96]{neumann-holzschuh_creole_1985}).
+        However, \lexi{je} and \lexi{ça}\footnote{
+          The evidence for \lexi{ça} reducing to these forms is in the treatment here of \lexi{c'}, as in \lexi{c'est} \gloss{it is}, being a variant of \lexi{ça}.
+        } can both be reduced to [ʃ] or [s], albeit after devoicing for \lexi{je} (\citeauthor{oukada_louisiana_1977}, \citeyear[p.~193]{oukada_louisiana_1977}; \citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
+        This ambiguity was disambiguated according to function in that only those with a first person plural reference were considered tokens of \lexi{je}.
+        Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme rather than just for subject pronouns, allowing for the conclusion that [h] is a variant form of \lexi{je}.
+        This wide distribution is not present, however, for [z], which is only in variation with [ʒ] in the subject pronoun \lexi{je} \parencite[p.~121]{dajko_ethnic_2009}.
+        While one could possibly argue that [z] and [ʒ] represent two distinct morphemes based on this, the fact that speakers in Terrebonne-Lafourche \parencite[p.~122]{dajko_ethnic_2009} and Arthur in this study used both forms was taken as evidence that these are variants of \lexi{je}.
+
+        \lexi{tu} and \lexi{to} can both be reduced to [t]
+
+      \subsubsection{Phonetic variants}
+        \label{sec:phonetic_variants}
+        % The analyses carried out here are lexical rather than phonetic, but ambiguities easily arise in which two distinct pronouns can have identical phonetic realizations or in which several phonetic forms may all be realizations of a single target pronoun.
+        % Disentangling these ambiguities is essential for accurately counting pronoun tokens.
+        % One such example, that of [mo], [mɔ̃], [mwa], and [mwɛ̃], was discussed in section \ref{sec:pronoun_structure}, but others exist, as well.
+        % The pronouns under which these phonetic forms were grouped in the analysis are summarized in Table \ref{tab:phonetic_variants} where only those phonetic realizations that actually occurred in the data are provided, hence \lexi{mo} was coded as such due to only [mo] and [m] occurring.
+        % Others will be discussed below.
+
+        % A number of cases can easily be accounted for as they represent well-known liaisons in which a latent final consonant is produced only when the following word begins with a vowel.
+        % One of these is the [n] at the end of \lexi{on} (\citeauthor{oukada_louisiana_1977}, \citeyear[p.~192]{oukada_louisiana_1977}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~53]{smith_morphosyntactic_1994}).
+        % Likewise, a [l] liaison often occurs at the end of \lexi{il} as well as \lexi{elle} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
+        % The latter additionally can be realized with the vowel [ɛ] or [a] (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
+        % Studies that attest to both forms consider them to be variants of the same pronoun, thus they were treated as such here.
+        % The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, but there was an additional ambiguity created by their non-liaison forms, [nu] and [vu], that will be discussed later in this section.
+        % Similarly well attested through the world is a [z] liaison for \lexi{elles}.
+        % This pronoun is very rare in Louisiana and only appeared in liaison contexts in my data, making it unambiguous.
+        % Finally, \lexi{ils} is also widely known to generate a [z] liaison, but in Louisiana, it can also be realized with an [l] liaison (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
+        % This case presents significant ambiguities with \lexi{il} and even \lexi{li} which will be discussed further down.
+        % Documented liaisons therefore helped categorize a number of phonetic realizations with their appropriate pronoun morphemes.
         % on
           % In Terrebonne-Lafourche, however, there's an example of "on" without a liaison: on ôte as [ɔ̃ ot] (Guilbeau 1950, as cited in Papen & Rottet 1997:78)
         % elle
@@ -805,133 +852,132 @@
               % Some have only attested [ɛl] as a disjunctive (Chaudoir 1938:33; Phillips 1936:43)
               % Girard Lomheim (2019) did no more than provide a table of the subject pronoun morphemes, but listed "alle" and not "elle" (5), suggesting the same lack of [ɛl] in Vermilion and St Landry
 
-        Some well-known vowel elisions in the same linguistic context (\foreign{i.e.}, before a word-initial vowel in the next word) also account for a number of phonetic forms attested in the present data.
-        A particularly straightforward case is that of \lexi{yé} (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}) as neither its full nor reduced forms can be confused with any other pronoun.
+        % Some well-known vowel elisions in the same linguistic context (\foreign{i.e.}, before a word-initial vowel in the next word) also account for a number of phonetic forms attested in the present data.
+        % A particularly straightforward case is that of \lexi{yé} (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}) as neither its full nor reduced forms can be confused with any other pronoun.
         This is not true of \lexi{tu} and \lexi{to} which have both been found to reduce to [t], which will be discussed in more detail later.
         The vowel of \lexi{je} is standardly elided in French varieties around the world, whereas in the Louisiana the vowel and consonant are typically metathesized (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{chaudoir_study_1938}, \citeyear[pp.~31-32]{chaudoir_study_1938}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}).
-        Distinguishing between metathesized and elided realizations in casual speech can be quite difficult, but the effect is essentially the same in that the consonant is what stands out.
-        The range of possible consonants is significant and will thus be discussed more later in this section as will the homophony of some of these with the elided versions of \lexi{ça}/\lexi{ce}.
-        For most elisions, their widespread treatments in the literature made it trivial to decide whether they were realizations of distinct pronouns or not just as with liaisons.
+        % Distinguishing between metathesized and elided realizations in casual speech can be quite difficult, but the effect is essentially the same in that the consonant is what stands out.
+        % The range of possible consonants is significant and will thus be discussed more later in this section as will the homophony of some of these with the elided versions of \lexi{ça}/\lexi{ce}.
+        % For most elisions, their widespread treatments in the literature made it trivial to decide whether they were realizations of distinct pronouns or not just as with liaisons.
         % yé
           % Can reduce to [j] even before consonants as long as not preceded by another consonant (Klingler 2003 "Turn":210)
         
-        % nous and vous phonologically distinct behavior from nou and vou
-        The phonetic forms [nuz], [nu], and [no] presented significant questions about whether speakers and listeners interpret these as one, two, or three distinct pronouns.
-        The form [nu] has been found in both French-oriented and Creole-oriented speech in Louisiana but with different behaviors.
-        In Terrebonne-Lafourche, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel \parencite[pp.~190-191]{oukada_louisiana_1977}, just as one finds in Hexagonal French.
-        The same was found in Lafayette \parencite[pp.~142-143]{conwell_louisiana_1963}, which contrasts with Terrebonne-Lafourche in being a region where creolophones are found.
-        In Creole-oriented speech, on the other hand, such a linguistic environment (\foreign{i.e.}, before a vowel) leads to a reduction of [nu] to [n] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
-        This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars, perhaps \lexi{nous} versus \lexi{nou}, or at least different morphophonemic rules.
-        What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently in the sense of functioning as markers of Creole or Cajun identity\footnote{
-          Of course, even if interpreted as a single pronoun with several phonetic variants, those phonetic variants can be socially interpreted differently, as well.
-          However, the goal of the present study was not to conduct a sociophonetic analysis.
-        }.
+        % % nous and vous phonologically distinct behavior from nou and vou
+        % The phonetic forms [nuz], [nu], and [no] presented significant questions about whether speakers and listeners interpret these as one, two, or three distinct pronouns.
+        % The form [nu] has been found in both French-oriented and Creole-oriented speech in Louisiana but with different behaviors.
+        % In Terrebonne-Lafourche, where Creole is not present, [nu] generates a [z] liaison when followed by a vowel \parencite[pp.~190-191]{oukada_louisiana_1977}, just as one finds in Hexagonal French.
+        % The same was found in Lafayette \parencite[pp.~142-143]{conwell_louisiana_1963}, which contrasts with Terrebonne-Lafourche in being a region where creolophones are found.
+        % In Creole-oriented speech, on the other hand, such a linguistic environment (\foreign{i.e.}, before a vowel) leads to a reduction of [nu] to [n] \parencite[p.~8]{broussard_louisiana_1972}, something which is even possible before consonants for some speakers \parencite[pp.~209-210]{klingler_if_2003}.
+        % This difference in behavior might suggest that speakers have different morpheme targets in their mental grammars, perhaps \lexi{nous} versus \lexi{nou}, or at least different morphophonemic rules.
+        % What is more important here, though, is whether speakers treat these as distinct pronouns as that would allow them to be socially interpreted differently in the sense of functioning as markers of Creole or Cajun identity\footnote{
+        %   Of course, even if interpreted as a single pronoun with several phonetic variants, those phonetic variants can be socially interpreted differently, as well.
+        %   However, the goal of the present study was not to conduct a sociophonetic analysis.
+        % }.
         
-        
-        Two factors support the idea that they are treated as distinct.
-        The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~166]{neumann-holzschuh_creole_1985}), whereas French-oriented speakers do not, which thus phonetically distinguishes \lexi{nous} - \lexi{nou} to a greater degree.
-        This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, but never with a [z] liaison, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
-        This is admittedly a weak argument for treating these as different pronouns, however.
-        The factor that provides a stronger argument for a distinction is the inflectional morphology used for verbs.
-        For instance, while Owen Webre produced many tokens of [no], the few tokens of [nu] that he produced were followed by Standard French verbal inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_owen}.
-        These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items exist in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
-        With these factors in mind, [nu] was grouped with [no] when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}, and as the [no] phonetic form was far more frequent than the [nu] form with which it was aggregated, the alternative pronoun will henceforth be denoted as \lexi{no}.
+        % Two factors support the idea that they are treated as distinct.
+        % The first is that Creole-oriented speakers may alternate between [nu] and [no] (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~166]{neumann-holzschuh_creole_1985}), whereas French-oriented speakers do not, which thus phonetically distinguishes \lexi{nous} - \lexi{nou} to a greater degree.
+        % This was in fact the case for one speaker in my own corpus, Tracy Roth, who produced both [nu] and [no] before consonants and vowels, as in sentences \ref{sent:nu_tracy} and \ref{sent:no_tracy}, but never with a [z] liaison, suggesting that there is a morpheme \lexi{nou} that varies in vowel quality that is distinct from another morpheme \lexi{nous} that forms liaisons.
+        % This is admittedly a weak argument for treating these as different pronouns, however.
+        % The factor that provides a stronger argument for a distinction is the inflectional morphology used for verbs.
+        % For instance, while Owen Webre produced many tokens of [no], the few tokens of [nu] that he produced were followed by Standard French verbal inflections as in sentences \ref{sent:nu1_owen} and \ref{sent:nu2_owen}.
+        % These verbal inflections are rare enough in Louisiana that they are sometimes described as not existing \parencite[p.~96]{papen_structural_1997}, and Owen in fact did not use such inflections when producing [no], suggesting that two separate lexical items exist in his mental grammar: \lexi{no}/\lexi{nou} and \lexi{nous}.
+        % With these factors in mind, [nu] was grouped with [no] when there were no inflectional nor phonological factors indicating that the target was \lexi{nous}, and as the [no] phonetic form was far more frequent than the [nu] form with which it was aggregated, the alternative pronoun will henceforth be denoted as \lexi{no}.
         % Other non-liaison examples: Rachel Chenevert produces only [no], never with [z] even before vowels (e.g., no apprenne 6:33 and 7:00)
 
-        \begin{enumerate}[resume=sentences]
-          \item Tracy: [nu] apprend un tas. (17:33)\label{sent:nu_tracy}
-          \item[] \longtrans{Tracy: We learn a lot.}
-          \item Tracy: [no] apprenne comment pour laver. (31:20)\label{sent:no_tracy}
-          \item[] \longtrans{Tracy: We learned how to wash.}
-          \item Owen: [nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. (3:32)\label{sent:nu1_owen}
-          \item[] \longtrans{Owen: We say someone that had some animals or rather some livestock like that.}
-          \item Owen: [nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. (14:47)\label{sent:nu2_owen}
-          \item[] \longtrans{Owen: We're the people who should be of a certain level, something like that.}
-        \end{enumerate}
+        % \begin{enumerate}[resume=sentences]
+        %   \item Tracy: [nu] apprend un tas. (17:33)\label{sent:nu_tracy}
+        %   \item[] \longtrans{Tracy: We learn a lot.}
+        %   \item Tracy: [no] apprenne comment pour laver. (31:20)\label{sent:no_tracy}
+        %   \item[] \longtrans{Tracy: We learned how to wash.}
+        %   \item Owen: [nu] disons quelqu'un qui'tait gain des animaux ou bien des bêtes comme ça. (3:32)\label{sent:nu1_owen}
+        %   \item[] \longtrans{Owen: We say someone that had some animals or rather some livestock like that.}
+        %   \item Owen: [nu] sommes les mondes qui devraient être d'un certain niveau, quelque chose comme cela. (14:47)\label{sent:nu2_owen}
+        %   \item[] \longtrans{Owen: We're the people who should be of a certain level, something like that.}
+        % \end{enumerate}
 
-        The phonetic forms [vu] and [vuz]\footnote{
-          Although [vo] is also attested in the literature as alternating with [vu] in Creole-oriented speech (\citeauthor{klingler_if_2003}, \citeyear[pp.~206/213]{klingler_if_2003}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}), [vo] did not appear in my data.
-        } received much the same treatment as the above.
-        Once again, in French-oriented speech, [vu] takes a [z] liaison, yielding [vuz], whereas in Creole-oriented speech, there is instead a reduction to simply [v] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[p.~209]{klingler_if_2003}).
-        One difference, however, is that verbal inflections are not paritcularly helpful for disambiguating tokens of [vu] when not followed by a vowel.
-        The Standard French inflectional pattern results in an /e/ at the end of a verb when the subject pronoun is \lexi{vous}.
-        For French-oriented speakers in Louisiana, this is true for some but not for others, the latter simply using the same bare verb for all inflections \parencite[p.~52]{byers_defining_1988}.\footnote{
-          \citeauthor{byers_defining_1988}'s (\citeyear{byers_defining_1988}) results suggest that this was a change in progress as those over 45 were more likely to produce a verb final /e/ with \lexi{vous} (pp.~71-74).
-        }
-        The resulting phonetic forms are identical to what have been called short and long forms of verbs in studies of Creole in Louisiana which for most verbs means without a final /e/ versus with a final /e/, respectively.\footnote{
-          While Creole as spoken in Pointe Coupee has been noted for sometimes using long verb forms for the present habitual \parencite[p.~237]{klingler_if_2003}, this was only expressed with short verb forms in my data.
-        }
-        These patterns are summarized in Tables \ref{tab:inflect_manger_sf} through \ref{tab:inflect_manger_lc}.
-        As a result, only irregularly inflected verbs could serve as diagnostics for the pronoun, such as in sentence \ref{sent:vu_deborah} which was coded as \lexi{vous} given its correspondance with the Standard French irregular inflection of \lexi{savoir} as \lexi{savez}.
-        Fortunately, with the relatively low count of [vu], almost all tokens could still be classified as \lexi{vou} or \lexi{vous} based on the presence or absence of a liaison and verbal morphology.
-        The few remaining tokens were produced by speakers who otherwise categorically used \lexi{vou} or \lexi{vous} in more transparent linguistic contexts and so were classified as being the same.
-        Unfortunately, the low count also meant that no participant used both \lexi{vou} and \lexi{vous} so their status as distinct pronouns for F\&C speakers can only be assumed.
+        % The phonetic forms [vu] and [vuz]\footnote{
+        %   Although [vo] is also attested in the literature as alternating with [vu] in Creole-oriented speech (\citeauthor{klingler_if_2003}, \citeyear[pp.~206/213]{klingler_if_2003}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}), [vo] did not appear in my data.
+        % } received much the same treatment as the above.
+        % Once again, in French-oriented speech, [vu] takes a [z] liaison, yielding [vuz], whereas in Creole-oriented speech, there is instead a reduction to simply [v] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[p.~209]{klingler_if_2003}).
+        % One difference, however, is that verbal inflections are not paritcularly helpful for disambiguating tokens of [vu] when not followed by a vowel.
+        % The Standard French inflectional pattern results in an /e/ at the end of a verb when the subject pronoun is \lexi{vous}.
+        % For French-oriented speakers in Louisiana, this is true for some but not for others, the latter simply using the same bare verb for all inflections \parencite[p.~52]{byers_defining_1988}.\footnote{
+        %   \citeauthor{byers_defining_1988}'s (\citeyear{byers_defining_1988}) results suggest that this was a change in progress as those over 45 were more likely to produce a verb final /e/ with \lexi{vous} (pp.~71-74).
+        % }
+        % The resulting phonetic forms are identical to what have been called short and long forms of verbs in studies of Creole in Louisiana which for most verbs means without a final /e/ versus with a final /e/, respectively.\footnote{
+        %   While Creole as spoken in Pointe Coupee has been noted for sometimes using long verb forms for the present habitual \parencite[p.~237]{klingler_if_2003}, this was only expressed with short verb forms in my data.
+        % }
+        % These patterns are summarized in Tables \ref{tab:inflect_manger_sf} through \ref{tab:inflect_manger_lc}.
+        % As a result, only irregularly inflected verbs could serve as diagnostics for the pronoun, such as in sentence \ref{sent:vu_deborah} which was coded as \lexi{vous} given its correspondance with the Standard French irregular inflection of \lexi{savoir} as \lexi{savez}.
+        % Fortunately, with the relatively low count of [vu], almost all tokens could still be classified as \lexi{vou} or \lexi{vous} based on the presence or absence of a liaison and verbal morphology.
+        % The few remaining tokens were produced by speakers who otherwise categorically used \lexi{vou} or \lexi{vous} in more transparent linguistic contexts and so were classified as being the same.
+        % Unfortunately, the low count also meant that no participant used both \lexi{vou} and \lexi{vous} so their status as distinct pronouns for F\&C speakers can only be assumed.
         % vou (mostly), vo, and ou in Pointe Coupee (Klingler 2003 "Turn":206/213), but I suspect ou is simply lenition of [v] in vou
 
-        \begin{enumerate}[resume=sentences]
-          \item Deborah: [vu] savez? Moi, je suis ici. (3:30)\label{sent:vu_deborah}
-          \item[] \longtrans{Deborah: You know? Me, I'm here.}
-        \end{enumerate}
+        % \begin{enumerate}[resume=sentences]
+        %   \item Deborah: [vu] savez? Moi, je suis ici. (3:30)\label{sent:vu_deborah}
+        %   \item[] \longtrans{Deborah: You know? Me, I'm here.}
+        % \end{enumerate}
         
-        \begin{table}[tbhp]
-          \captionsetup{font={footnotesize}}
-          \centering
-          Verbal inflections for \lexi{manger}
-          \label{tab:inflect_manger}
+        % \begin{table}[tbhp]
+        %   \captionsetup{font={footnotesize}}
+        %   \centering
+        %   Verbal inflections for \lexi{manger}
+        %   \label{tab:inflect_manger}
 
-          \begin{minipage}{0.1\textwidth}
-            \begin{flushright}
-              \begin{tabular}{r}
-                \\
-                \\
-                \\
-                vou(s) \\
-                other  \\
-                \\
-                \\
-              \end{tabular}
-            \end{flushright}
-          \end{minipage}
-          \begin{minipage}{0.25\textwidth}
-            \centering
-            \begin{tabular}{| l | c |}
-              \multicolumn{2}{c}{} \\
-              \multicolumn{1}{c}{present}        & \multicolumn{1}{c}{perfective} \\
-              \multicolumn{1}{c}{} & \multicolumn{1}{c}{past} \\
-              \hline
-              {}/mɑ̃ʒe/                    & \multirow{2}{*}{/mɑ̃ʒe/} \\
-              {}/mɑ̃ʒ/                     & \\
-              \hline
-            \end{tabular}
-            \caption{Standard French}\label{tab:inflect_manger_sf}
-          \end{minipage}
-          \begin{minipage}{0.25\textwidth}
-            \centering
-            \begin{tabular}{| l | c |}
-              \multicolumn{2}{c}{} \\
-              \multicolumn{1}{c}{present}        & \multicolumn{1}{c}{perfective} \\
-              \multicolumn{1}{c}{} & \multicolumn{1}{c}{past} \\
-              \hline
-              {}/mɑ̃ʒ(e)/                  & \multirow{2}{*}{/mɑ̃ʒe/} \\
-              {}/mɑ̃ʒ/                     & \\
-              \hline
-            \end{tabular}
-            \caption{Louisiana French}\label{tab:inflect_manger_lf}
-          \end{minipage}
-          \begin{minipage}{0.25\textwidth}
-            \centering
-            \begin{tabular}{| c | c |}
-              \multicolumn{2}{c}{} \\
-              \multicolumn{1}{c}{present} & \multicolumn{1}{c}{perfective} \\
-              \multicolumn{1}{c}{}        & \multicolumn{1}{c}{past} \\
-              \hline
-              \multirow{2}{*}{/mɑ̃ʒ/}      & \multirow{2}{*}{/mɑ̃ʒe/} \\
-                                          & \\
-              \hline
-            \end{tabular}
-            \caption{Louisiana Creole}\label{tab:inflect_manger_lc}
-          \end{minipage}
-        \end{table}
+        %   \begin{minipage}{0.1\textwidth}
+        %     \begin{flushright}
+        %       \begin{tabular}{r}
+        %         \\
+        %         \\
+        %         \\
+        %         vou(s) \\
+        %         other  \\
+        %         \\
+        %         \\
+        %       \end{tabular}
+        %     \end{flushright}
+        %   \end{minipage}
+        %   \begin{minipage}{0.25\textwidth}
+        %     \centering
+        %     \begin{tabular}{| l | c |}
+        %       \multicolumn{2}{c}{} \\
+        %       \multicolumn{1}{c}{present}        & \multicolumn{1}{c}{perfective} \\
+        %       \multicolumn{1}{c}{} & \multicolumn{1}{c}{past} \\
+        %       \hline
+        %       {}/mɑ̃ʒe/                    & \multirow{2}{*}{/mɑ̃ʒe/} \\
+        %       {}/mɑ̃ʒ/                     & \\
+        %       \hline
+        %     \end{tabular}
+        %     \caption{Standard French}\label{tab:inflect_manger_sf}
+        %   \end{minipage}
+        %   \begin{minipage}{0.25\textwidth}
+        %     \centering
+        %     \begin{tabular}{| l | c |}
+        %       \multicolumn{2}{c}{} \\
+        %       \multicolumn{1}{c}{present}        & \multicolumn{1}{c}{perfective} \\
+        %       \multicolumn{1}{c}{} & \multicolumn{1}{c}{past} \\
+        %       \hline
+        %       {}/mɑ̃ʒ(e)/                  & \multirow{2}{*}{/mɑ̃ʒe/} \\
+        %       {}/mɑ̃ʒ/                     & \\
+        %       \hline
+        %     \end{tabular}
+        %     \caption{Louisiana French}\label{tab:inflect_manger_lf}
+        %   \end{minipage}
+        %   \begin{minipage}{0.25\textwidth}
+        %     \centering
+        %     \begin{tabular}{| c | c |}
+        %       \multicolumn{2}{c}{} \\
+        %       \multicolumn{1}{c}{present} & \multicolumn{1}{c}{perfective} \\
+        %       \multicolumn{1}{c}{}        & \multicolumn{1}{c}{past} \\
+        %       \hline
+        %       \multirow{2}{*}{/mɑ̃ʒ/}      & \multirow{2}{*}{/mɑ̃ʒe/} \\
+        %                                   & \\
+        %       \hline
+        %     \end{tabular}
+        %     \caption{Louisiana Creole}\label{tab:inflect_manger_lc}
+        %   \end{minipage}
+        % \end{table}
 
         % Lots of possible confusion with [i] and [il] being non-liaison versions of singular or plural or even /li/
         The much more frequent phonetic form [i] was the most complicated phonetic realization of a subject pronoun to disentangle as it can represent an underlying \lexi{il}, \lexi{ils}, or \lexi{li} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~210-211]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~170]{neumann-holzschuh_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~47/58]{smith_morphosyntactic_1994}).
@@ -963,31 +1009,31 @@
         On the other hand, Dennis Oubre and Lucille Royer produced mostly [z] liaisons before vowels but Dennis also had two tokens of [il] and Lucille one token.
         These speakers' linguistic behaviors point to the idea that there is some phonetic variation in the liaison of a single underlying pronoun, \lexi{ils}, thus those speakers who only produced [l] liaisons had their tokens coded as \lexi{ils}.
   
-        Another phonetically complicated pronoun in Louisiana is \lexi{je} in that the consonant can be realized in many different ways, all of those that have been attested in the literature also showing up in the data here.
-        As already mentioned, the vowel [ə] in \lexi{je} has been found to elide not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
-        The appearance of the vowel has even been argued to be only produced for ``clarity or emphasis'' \parencite[p.~141]{conwell_louisiana_1963}.
-        Also, as with other short function words, metathesis is typical (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{chaudoir_study_1938}, \citeyear[pp.~31-32]{chaudoir_study_1938}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}).
-        The vowel thus appears to be the least significant part of the morpheme, leaving variations in the consonants [ʒ], [ʃ], [z], [s], and [h] left to be explained.
-        % This results in the consonant, which can be realized as  \parencite[p.~72]{carmichael_language_2019}, being adjacent to the initial segment of the following word.
-        A devoicing phonological rule that applies to this particular morpheme where [ʒ] and [z] are devoiced before voiceless segments, as in Rule \ref{rule:pro_devoicing}, has been proposed a number of times (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
-        When this devoicing results in [ʃ] or [s], the pronoun \lexi{je} suddenly becomes homophonous with realizations of \lexi{ça}, as well.
-        These were disambiguated according to function in that only those with a first person plural reference were considered tokens of \lexi{je}.
+        % Another phonetically complicated pronoun in Louisiana is \lexi{je} in that the consonant can be realized in many different ways, all of those that have been attested in the literature also showing up in the data here.
+        % As already mentioned, the vowel [ə] in \lexi{je} has been found to elide not only before vowels \parencite[p.~193]{oukada_louisiana_1977} but also before consonants (\citeauthor{phillips_spoken_1939}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
+        % The appearance of the vowel has even been argued to be only produced for ``clarity or emphasis'' \parencite[p.~141]{conwell_louisiana_1963}.
+        % Also, as with other short function words, metathesis is typical (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{chaudoir_study_1938}, \citeyear[pp.~31-32]{chaudoir_study_1938}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}).
+        % The vowel thus appears to be the least significant part of the morpheme, leaving variations in the consonants [ʒ], [ʃ], [z], [s], and [h] left to be explained.
+        % % This results in the consonant, which can be realized as  \parencite[p.~72]{carmichael_language_2019}, being adjacent to the initial segment of the following word.
+        % A devoicing phonological rule that applies to this particular morpheme where [ʒ] and [z] are devoiced before voiceless segments, as in Rule \ref{rule:pro_devoicing}, has been proposed a number of times (\citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
+        % When this devoicing results in [ʃ] or [s], the pronoun \lexi{je} suddenly becomes homophonous with realizations of \lexi{ça}, as well.
+        % These were disambiguated according to function in that only those with a first person plural reference were considered tokens of \lexi{je}.
         % C' treated as underlying ça
           % While you could perhaps argue that this should be underlying ce, none of my speakers produced a surface ce form (e.g., no ce sont nor ce n'est pas)
             % There are also cases like Florence Gaspard saying un petit brin l'argent c'était couru loin (38:13), whereas a more French oriented speaker would likely say un petit brin d'argent ça courait loin
               % And to be even clearer, my Creole oriented speakers did indeed by and large use ça for this/that just as the French oriented speakers did, so while one could say that an utterance from one speaker cannot be used as foolproof evidence of an underlying form for another speaker, there are multiple reasons to believe that these forms would be linked
           % Ça with fait is coded as expletive both when meaning "it's been" or as the conjunction and discourse marker meaning "so"
 
-        \begin{enumerate}[label=\Roman*., ref=\Roman*, series=rules]
-          \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}\label{rule:pro_devoicing}
-        \end{enumerate}
+        % \begin{enumerate}[label=\Roman*., ref=\Roman*, series=rules]
+        %   \item \phonr{\phonfeat{+pronoun \\ +1sg \\ +apical \\ +voiced}}{\phonfeat{-voiced}}{\phonfeat{-voiced}}\label{rule:pro_devoicing}
+        % \end{enumerate}
 
-        Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme, allowing for the conclusion that [h] is a variant form of \lexi{je}.
-        This wide distribution is not present, however, for [z], which is only in variation with [ʒ] in the pronoun \lexi{je} \parencite[p.~121]{dajko_ethnic_2009}.
-        While one could possibly argue that [z] and [ʒ] represent two distinct morphemes based on this, \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) data shows [z] in stylistic variation with [ʒ], suggesting individual speakers use both variants.
-        Likewise, the one participant in my data who used [z], Arthur Rousseau, primarily produced [ʒ] and [ʃ].
-        It is certainly not out of the question that such an individual could have two different subject pronouns in their mental grammar for the same referent, but this seems less likely when the sole difference is a slight change in place of articulation.
-        The evidence suggests then that all of these realizations are variants of one subject pronoun: \lexi{je}.
+        % Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme rather than just for subject pronouns, allowing for the conclusion that [h] is a variant form of \lexi{je}.
+        % This wide distribution is not present, however, for [z], which is only in variation with [ʒ] in the subject pronoun \lexi{je} \parencite[p.~121]{dajko_ethnic_2009}.
+        % While one could possibly argue that [z] and [ʒ] represent two distinct morphemes based on this, \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) data shows [z] in stylistic variation with [ʒ], suggesting individual speakers use both variants.
+        % Likewise, the one participant in my data who used [z], Arthur Rousseau, primarily produced [ʒ] and [ʃ].
+        % It is certainly not out of the question that such an individual could have two different subject pronouns in their mental grammar for the same referent, but this seems less likely when the sole difference is a slight change in place of articulation.
+        % The evidence suggests then that all of these realizations are variants of one subject pronoun: \lexi{je}.
 
         % Similar to [i] ambiguity, [t] ambiguity for [ty] or [to]
         Ambiguity is also caused by the frequent vowel elisions of \lexi{to} and \lexi {tu} as both can be realized as [t].
