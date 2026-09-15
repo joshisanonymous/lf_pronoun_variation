@@ -1,8 +1,27 @@
-# Map variables --------------------------------------------------------------
-louisiana <- opq(getbb("Louisiana"), timeout = 60 * 20) |>
-  add_osm_feature(key = "boundary", value = "administrative") |>
-  add_osm_feature(key = "admin_level", value = c("4", "6", "8")) |>
-  osmdata_sf()
+# Load osmdata from API calls if files already exist or otherwise make API calls
+if(file.exists("../data/maps/louisiana.rds")) {
+  louisiana <- readRDS(file = "../data/maps/louisiana.rds") 
+} else {
+  louisiana <- opq(getbb("Louisiana"), timeout = 60 * 20) |>
+    add_osm_feature(key = "boundary", value = "administrative") |>
+    add_osm_feature(key = "admin_level", value = c("4", "6", "8")) |>
+    osmdata_sf()
+  saveRDS(louisiana, file = "../data/maps/louisiana.rds")
+}
+if(file.exists("../data/maps/acadianaParishCenters.rds")) {
+  acadianaParishCenters <- readRDS(file = "../data/maps/acadianaParishCenters.rds")  
+} else {
+  acadianaParishCenters <- getPolyCentersFromPlaces(parishes) 
+  saveRDS(acadianaParishCenters, file = "../data/maps/acadianaParishCenters.rds")
+}
+if(file.exists("../data/maps/majorCitiesCenters.rds")) {
+  majorCitiesCenters <- readRDS(file = "../data/maps/majorCitiesCenters.rds") 
+} else {
+  majorCitiesCenters <- getPolyCentersFromPlaces(majorCities)  
+  saveRDS(majorCitiesCenters, file = "../data/maps/majorCitiesCenters.rds")
+}
+
+# Get relevant map data from osmdata objects ----------------------------------
 louisiana$osm_multipolygons <- st_make_valid(louisiana$osm_multipolygons)
 state <- subset(louisiana$osm_multipolygons,
                 admin_level == "4" & name == "Louisiana")
@@ -18,7 +37,6 @@ acadiana <- subset(parishPolygons,
   name == parishes[16] | name == parishes[17] | name == parishes[18] |
   name == parishes[19] | name == parishes[20] |
   name == parishes[21] | name == parishes[22])
-acadianaParishCenters <- getPolyCentersFromPlaces(parishes)
 acadianaParishCenters[acadianaParishCenters$place == "Calcasieu Parish", "latitude"] <- acadianaParishCenters[acadianaParishCenters$place == "Calcasieu Parish", "latitude"] - 0.05
 acadianaParishCenters[acadianaParishCenters$place == "Jefferson Davis Parish", "latitude"] <- acadianaParishCenters[acadianaParishCenters$place == "Jefferson Davis Parish", "latitude"] + 0.05
 acadianaParishCenters[acadianaParishCenters$place == "St. Landry Parish", "longitude"] <- acadianaParishCenters[acadianaParishCenters$place == "St. Landry Parish", "longitude"] + 0.085
@@ -28,7 +46,6 @@ acadianaParishCenters[acadianaParishCenters$place == "Saint Martin Parish", "lat
 acadianaParishCenters[acadianaParishCenters$place == "Saint Martin Parish", "longitude"] <- acadianaParishCenters[acadianaParishCenters$place == "Saint Martin Parish", "longitude"] - 0.1
 acadianaParishCenters[acadianaParishCenters$place == "Iberia Parish", "latitude"] <- acadianaParishCenters[acadianaParishCenters$place == "Iberia Parish", "latitude"] + 0.15
 acadianaParishCenters[acadianaParishCenters$place == "Iberia Parish", "longitude"] <- acadianaParishCenters[acadianaParishCenters$place == "Iberia Parish", "longitude"] - 0.1
-
 participant_raised <- subset(parishPolygons,
   name == "Calcasieu Parish" | name == "Cameron Parish" | name == "Vermilion Parish" |
   name == "Acadia Parish" | name == "Evangeline Parish" | name == "Avoyelles Parish" |
@@ -41,7 +58,6 @@ focus_area <- subset(parishPolygons,
   name == "St. Landry Parish" | name == "Lafayette Parish" | name == "Saint Martin Parish")
 majorCitiesPolygons <- subset(louisiana$osm_multipolygons, admin_level == "8" &
                               name == majorCities[1] | name == majorCities[2] | name == majorCities[3])
-majorCitiesCenters <- getPolyCentersFromPlaces(majorCities)
 
 # Maps ------------------------------------------------------------------------
 mapla <- ggplot() +

@@ -280,6 +280,7 @@ TSWLatexianTemp*
 *.Rproj
 *.Rhistory
 *.RData
+*.rds
 
 # created by virtualenv automatically
 Lib/
