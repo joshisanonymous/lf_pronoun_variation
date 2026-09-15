@@ -945,13 +945,13 @@
           \centering
           \begin{tabular}{r | r | r}
             \multicolumn{3}{c}{} \\
-                                   & Singular                                                    & Plural \\
+                                   & Singular                                                           & Plural \\
             \hline
-            1st person             & \Sexpr{toString(names(tablesProTypeFinal$firstSg))}         & \Sexpr{toString(names(tablesProTypeFinal$firstPl))} \\
-            2nd person (T)         & \Sexpr{toString(names(tablesProTypeFinal$secondSgT))}       & \textbf{\multirow{2}{*}{\Sexpr{toString(names(tablesProTypeFinal$secondPl))}}} \\
-            2nd person (V)         & \textbf{\Sexpr{toString(names(tablesProTypeFinal$secondSgV))}} & \\
-            3rd person (M)         & \Sexpr{toString(names(tablesProTypeFinal$thirdSgM))}        & \\
-            3rd person (F)         & \Sexpr{toString(names(tablesProTypeFinal$thirdSgF))}        & \\
+            1st person             & \Sexpr{toString(names(tablesProTypeFinal$firstSg))}                & \Sexpr{toString(names(tablesProTypeFinal$firstPl))} \\
+            2nd person (T)         & \Sexpr{toString(names(tablesProTypeFinal$secondSgT))}              & \textbf{\multirow{2}{*}{\Sexpr{toString(names(tablesProTypeFinal$secondPl))}}} \\
+            2nd person (V)         & \textbf{\Sexpr{toString(names(tablesProTypeFinal$secondSgV))}}     & \\
+            3rd person (M)         & \Sexpr{toString(names(tablesProTypeFinal$thirdSgM))}               & \\
+            3rd person (F)         & \Sexpr{toString(names(tablesProTypeFinal$thirdSgF))}               & \\
             demonstrative          & \textbf{\Sexpr{toString(names(tablesProTypeFinal$demonstrative))}} & \\
             \cline{2-3}
             expletive              & \multicolumn{2}{c}{\Sexpr{toString(names(tablesProTypeFinal$expletive))}} \\
