@@ -20,3 +20,32 @@
     logitModelHomophilySummaries
     @
     \end{Verbatim}
+
+\chapter{Additional Plots}
+    \label{app:plots}
+    \begin{figure}[tbhp]
+      \caption{Distribution of 1pl pronouns by gender}
+      \label{fig:1pl_gender}
+      \centering
+      <<fig.asp = 0.5>>=
+      plotsGGender$firstPl
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      \caption{Distribution of 3sg pronouns by gender and animacy-gender}
+      \label{fig:3sg_gender_animacy}
+      \centering
+      <<>>=
+      plotCombined3sgAnimateGender
+      @
+    \end{figure}
+
+    \begin{figure}[tbhp]
+      \caption{Distribution of 3pl pronouns by gender and animacy-gender}
+      \label{fig:3pl_gender_animacy}
+      \centering
+      <<>>=
+      plotCombined3plAnimateGender
+      @
+    \end{figure}

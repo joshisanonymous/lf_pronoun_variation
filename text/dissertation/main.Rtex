@@ -33,6 +33,7 @@
   \usepackage{pbox}
   \usepackage{xcolor}
   \usepackage{fancyvrb}
+  \usepackage{numname}
 
   % Document information
   \title{Racialization in the language of Creoles and Cajuns}
@@ -55,6 +56,13 @@
   \newcommand{\titlebook}[1]{\textit{#1}}
   \newcommand{\codeEn}[1]{\textsc{#1}}
   \newcommand{\song}[1]{``#1''}
+  \newcommand{\convertSmallNumber}[1]{
+    \ifnum#1<11\relax
+      \unskip\numtoname{#1}\unskip
+    \else
+      #1
+    \fi
+  }
 
   % Color palette
   \newcommand{\colorone}[1]{\textcolor[HTML]{332288}{\textbf{#1}}}
