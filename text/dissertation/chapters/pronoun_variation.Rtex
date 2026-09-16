@@ -249,7 +249,10 @@
       Alternatively, \textcite{brown_pronominal_1988} claimed that \lexi{ça} was used for animate referents, but the examples she provided had questionable interpretations.
       Her quantitative results were more mixed, but she collapsed 3pl and 3sg together for that analysis, making it a difficult result from which to draw conclusions.
     } although it is not unheard of for Creole-oriented speakers to use \lexi{li} for both animate and inanimate referents \parencite{klingler_if_2003}.
-    A related exception was limited to some young speakers in Terrebonne-Lafourche who retained \lexi{eux} in addition to \lexi{ça} for 3pl, using the former for animate referents and latter for inanimate \parencite[p.~219]{rottet_language_1995}.
+    A related exception was limited to some young speakers in Terrebonne-Lafourche who retained \lexi{eux}\footnote{
+      This pronoun is often written in the literature as \orth{eusse} when pronounced with a final [s] as this final [s] is not generally attested in varieties of French outside of Louisiana where the only pronunciation of \lexi{eux} is [ø].
+      This was not done here because because the process is regularized across derivative words (\foreign{e.g}, \lexi{ceux} as [søs]), and because there is historical evidence of the disjunctive pronoun \lexi{eux} being pronounced with a final [s] in Paris as recently as 1920 \parencite[p.~111]{bauche_langage_1928}.
+    } in addition to \lexi{ça} for 3pl, using the former for animate referents and latter for inanimate \parencite[p.~219]{rottet_language_1995}.
     \lexi{Eux} was nearly absent in the present study, however.
     \textcite{brown_pronominal_1988} had also examined whether the syntactic position of co-referents predicted third person subject pronoun realizations but found this variable to not be significant (p.~168).
 
@@ -487,9 +490,9 @@
 
   \section{Methods}
     \label{sec:pronoun_methods}
-    In the case of Creoles and Cajuns having become racialized categories, a natural question is what traits are used to mark individuals as fitting into these categories.
+    For the case of Creole and Cajun having become racialized categories, a natural question is what traits are used to mark individuals as fitting into these categories.
     The goal of this chapter is to address quantitatively whether subject pronouns constitute one of those traits.
-    The speech of the participants discussed in section \ref{sec:participants} make up the data used for the following analyses.
+    The speech of the participants discussed in Section \ref{sec:participants} make up the data used for the following analyses.
     As their social characteristics have already been summarized in Table \ref{tab:participants_background}, this section will primarily focus on how subject pronoun tokens and the predicates following them were coded and what statistical analyses were carried out.
 
     \subsection{Pronoun coding}
@@ -497,14 +500,14 @@
       Coding tokens of subject pronouns is essentially about deciding how and what to count in the data.
       Some of those decisions are relatively trivial.
       For instance, when speakers hesitated or restarted the same clause, rather than counting each utterance of a subject pronoun throughout those restarts, only the final subject pronoun uttered was counted.
-      More complicated is determining how to manage pronouns that may or may not be phonetic variants of a single target pronoun and determining which referent a given pronoun token is targetting.
+      More complicated is determining how to manage pronouns that may or may not be phonetic variants of a single target pronoun and determining which referent a given pronoun token is targeting.
 
       \subsubsection{Phonetic variants}
         \label{sec:phonetic_variants}
         The analyses carried out here are lexical rather than phonetic, but ambiguities easily arise in which two distinct pronouns can have identical phonetic realizations or in which several phonetic forms may all be realizations of a single target pronoun.
         The range of what was attested in this study's data is presented in Table \ref{tab:phonetic_variants}, including the lexical items that it was decided that they represent.
-        Disentangling ambiguities in this system is essential for accurately counting pronoun tokens, hence some explanation of the choices made here will be given.
-        However, establish without a doubt what the correct grammatical analyses of these tokens are is beyond the scope of this study, and so questions will necessarily linger, questions perhaps appropriate for future research.
+        Disentangling ambiguities in this system was essential for accurately counting pronoun tokens, hence some explanation of the choices made here will be given.
+        However, establishing without a doubt what the correct grammatical analyses of these tokens are is beyond the scope of this study, and so questions will necessarily linger, questions perhaps appropriate for future research.
 
         \begin{table}[tbhp]
           \caption{Phonetic variants with their corresponding pronoun morpheme}
@@ -533,35 +536,33 @@
           }
         \end{table}
 
-        ted for as they represent well-known liaisons in which a latent final consonant is produced only when the following word begins with a vowel.
+        A number of cases can easily be accounted for as they represent well-known liaisons in which a latent final consonant is produced only when the following word begins with a vowel.
         One of these is the [n] at the end of \lexi{on} (\citeauthor{oukada_louisiana_1977}, \citeyear[p.~192]{oukada_louisiana_1977}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~53]{smith_morphosyntactic_1994}).
         Likewise, a [l] liaison often occurs at the end of \lexi{il} as well as \lexi{elle} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
         The latter additionally can be realized with the vowel [ɛ] or [a] (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
         Studies that attest to both forms consider them to be variants of the same pronoun, thus they were treated as such here.
         Similarly well attested through the world is a [z] liaison for \lexi{elles}.
         This pronoun is very rare in Louisiana and only appeared in liaison contexts in my data, making it unambiguous.
-        Finally, \lexi{ils} is also widely known to generate a [z] liaison, but in Louisiana, it can also be realized with an [l] liaison (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
+        Finally, \lexi{ils} is also widely known to generate a [z] liaison, but in Louisiana, it can also be realized with a [l] liaison (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
         This case presents significant ambiguities with \lexi{il} and even \lexi{li}
           which will be discussed further down.
         Documented liaisons therefore helped categorize a number of phonetic realizations with their appropriate pronoun morphemes.
 
-        The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, but there was an additional ambiguity created by their non-liaison forms [nu] and [vu] as these have been documented in studies of Creole as existing but without a liaison.
-        Instead, they often reduce to [n] and [v] before vowels and sometimes even before consonants (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}).
+        The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, as well, but there was an additional ambiguity created by their non-liaison forms [nu] and [vu] as these have been documented in studies of Creole as existing but without a liaison.
+        Instead, they often reduce to [n] and [v], respectively, before vowels and sometimes even before consonants (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}).
         For the former, a third phonetic form, [no], is also attested in the Creole literature.
-        The choice of distinguishing two 1pl pronouns, \lexi{nous} and \lexi{no}, from these forms was based in part on Owen producing [nu] with very rare \parencite[p.~96]{papen_structural_1997} standard French inflections in the verbs and [no] without such inflections.
+        The choice of distinguishing two 1pl pronouns, \lexi{nous} and \lexi{no}, from these forms was based in part on one participant, Owen, producing [nu] with standard French verbal inflections that are very rare in Louisiana \parencite[p.~96]{papen_structural_1997} and [no] without such inflections.
         On the other hand, Tracy, who never produced standard French inflections for 1pl subjects, produced mostly [no] with a small number of tokens of [nu], an alternation that has already been attested in the Creole literature (\citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~166]{neumann-holzschuh_creole_1985}).
-        This infuenced the choice to collapse these two.
         For him, both were produced before vowels and consonants without every yielding any liaisons.
-        The [no] form was in fact much more frequent than non-liaison [nu] across the corpus, which is why \lexi{no} was chosen as the representation for these rather than \lexi{nou}.
+        This influenced the choice to collapse [no] and [nu] into \lexi{no} for speakers who produced no liaisons nor used any standard French verbal inflections.
+        The [no] form was in fact much more frequent than non-liaison [nu] across the corpus for these speakers, which is why \lexi{no} was chosen as the representation for these rather than \lexi{nou}.
         The same logic was applied to categorizing [vu]\footnote{
           Although [vo] is also attested in the literature as alternating with [vu] in Creole-oriented speech (\citeauthor{klingler_if_2003}, \citeyear[pp.~206/213]{klingler_if_2003}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}), [vo] did not appear in my data.
-        } and [vuz] with the difference that only irregular French verbs would appear different than the typically attested Creole verb forms.
-        Fortunately, these pronouns were rare enough in the corpus that almost all tokens could be disambiguated using verb forms or the presence or absence of liaisons.
-        The few remaining tokens were produced by speakers who otherwise categorically used \lexi{vou} or \lexi{vous} in more transparent linguistic contexts and so the more ambiguous tokens were coded the same.
-        Unfortunately, the low count also meant that no participant used both \lexi{vou} and \lexi{vous} so their status as distinct pronouns for these speakers can only be assumed.
+        } and [vuz] with the difference being that only irregular French verbs would appear different than the typically attested Creole verb forms.
+        Fortunately, these pronouns were rare enough in the corpus that almost all unclear tokens could be disambiguated using verbal inflections for irregular verbs or the presence or absence of liaisons.
 
         Vowel elisions in subject pronouns were also an issue for a number of other pronoun forms.
-        Most of these have been repeatedly documented in the literature, but that alone did not always lead to clarity in choosing their lexical items.
+        Most of these have been repeatedly documented in the literature, although that did not always lead to clarity in choosing their lexical items.
         For instance, \lexi{yé} has been attested as [je] and [j] (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}), neither of which are homophonous with other pronoun forms, and so one pronoun, \lexi{yé}, was chosen for these.
         Likewise, [mo] and [m] were categorized as \lexi{mo} (\citeauthor{klingler_if_2003}, \citeyear[p.~210]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[pp.~95-96]{neumann-holzschuh_creole_1985}).
         However, \lexi{je} and \lexi{ça}\footnote{
@@ -569,32 +570,28 @@
         } can both be reduced to [ʃ] or [s],\footnote{
           Alternatively, the vowel [ə] is metathasized (\citeauthor{brown_pronominal_1988}, \citeyear[p.~141]{brown_pronominal_1988}; \citeauthor{chaudoir_study_1938}, \citeyear[pp.~31-32]{chaudoir_study_1938}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}), which can happen with many short function words in Louisiana, so the homophony effect is the same in that the consonant is what is important.
         } albeit after devoicing for \lexi{je} (\citeauthor{oukada_louisiana_1977}, \citeyear[p.~193]{oukada_louisiana_1977}; \citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{phillips_etude_1936}, \citeyear[p.~42]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~43]{smith_morphosyntactic_1994}).
-        This ambiguity was disambiguated according to function in that only those with a first person plural reference were considered tokens of \lexi{je}.
-        Of the remaining forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme rather than just for subject pronouns, allowing for the conclusion that [h] is a variant form of \lexi{je}.
+        This ambiguity was disambiguated according to their functions in that only those with a 1sg reference were considered tokens of \lexi{je}.
+        Of the remaining potential \lexi{je} forms, there is a more general variation between [ʒ] and [h] where either can variably appear in the same position in any morpheme rather than just for subject pronouns, allowing for the conclusion that [h] is in fact a variant form of \lexi{je}.
         This wide distribution is not present, however, for [z], which is only in variation with [ʒ] in the subject pronoun \lexi{je} \parencite[p.~121]{dajko_ethnic_2009}.
         While one could possibly argue that [z] and [ʒ] represent two distinct morphemes based on this, the fact that speakers in Terrebonne-Lafourche \parencite[p.~122]{dajko_ethnic_2009} and Arthur in this study used both forms was taken as evidence that these are variants of \lexi{je}.
 
-        The much more frequent phonetic form [i] was the most complicated phonetic realization of a subject pronoun to disentangle as it can represent an underlying \lexi{il}, \lexi{ils}, or \lexi{li} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~210-211]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~170]{neumann-holzschuh_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~47/58]{smith_morphosyntactic_1994}).
-        The form [i] itself was excluded as a possible underlying form as only two speakers produced [i] but never [il] nor [iz] nor [ilz] for third person plural referents: Austin Roy and Floyd Kerry.
-        Their tokens of [i] were furthermore all accompanied by irregular verbs inflected as they would be in Standard French as in sentences \ref{sent:i_plural_austin1} and \ref{sent:i_plural_floyd}, suggesting that they could be treated as tokens of \lexi{ils}, or otherwise regular verbs that do not contradict such a treatment as in sentence \ref{sent:i_plural_austin2}.
-        For all other cases, the general process of coding tokens as \lexi{il}, \lexi{ils}, or \lexi{li} followed three steps: 1) determine if the referent is third person plural or not through either verbal morphology or co-referring expressions, treating third person plural and non-third person plural as two separate categories, 2) find the most complete phonetic realization of the pronoun and assume that all others are abbreviated versions of that token, and finally 3) verify that there are no other complete phonetic realizations that represent an alternative, contradicting pronoun.
+        The much more frequent form [i] was the most complicated phonetic realization of a subject pronoun to disentangle as it can represent an underlying \lexi{il}, \lexi{ils}, or \lexi{li} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~210-211]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~170]{neumann-holzschuh_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~47/58]{smith_morphosyntactic_1994}).
+        The form [i] itself was excluded as a possible underlying form as only two speakers, Austin and Floyd, exclusively produced [i] but never [il] nor [iz] nor [ilz], and they did so only for 3pl rather than for 3sg.
+        The general process of coding tokens as \lexi{il}, \lexi{ils}, or \lexi{li} therefore followed three steps: 1) determine if the referent is 3sg or 3pl through either verbal morphology or co-referring expressions, 2) find the most complete phonetic realization of the pronoun and assume that all others are abbreviated versions of that token, and finally 3) verify that there are no other complete phonetic realizations that represent an alternative, contradicting pronoun.
         Two speakers who provided complications for categorizing [i] tokens in this way were Oliver L. and Owen as they both produced both [il] and [li] for 3sg.
         Their tokens of [i] were thus excluded from counts.
-        Three other speakers on the other hand, Alice, Lillian, and Terry, produced only a [l] liaison for 3pl, identical to what they produced for 3sg (\foreign{i.e.}, [i] or [il]).
+        A related complication came from three other speakers, Alice, Lillian, and Terry, who produced only a [l] liaison for 3pl, identical to what they produced for 3sg (\foreign{i.e.}, [i] or [il]).
         Since producing \lexi{ils} with a [l] liaison rather than the standard [z] liaison has been widely attested in Louisiana (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}), and since all other participants variably produced [l] and [z] liaisons in this same 3pl contexts, Alice, Lillian, and Terry's tokens of 3pl [il] were taken as targeting and underlying \lexi{ils} pronoun.
         
         Some interpretation issues also occurred for [t], which can be a reduced form of either \lexi{tu} or \lexi{to} (\citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[pp.~95-96]{neumann-holzschuh_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}).
-        In fact, \lexi{tu} also varies in realization between [ty] and [ti] \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~45]{smith_morphosyntactic_1994}, meaning [t] could represent [ty], [ti], or [to].
+        In fact, \lexi{tu} also varies in realization between [ty] and [ti] (\citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~45]{smith_morphosyntactic_1994}), meaning [t] could represent [ty], [ti], or [to].
         Unlike the \lexi{je} and \lexi{ça} ambiguity, [t] cannot be cleared up by considering its function as \lexi{tu} and \lexi{to} are both used for 2sg.
         In general, steps (2) and (3) as used for tokens of [i] above were once again applied for tokens of [t].
         Where this process could not be applied because full forms of both \lexi{tu} and \lexi{to} were produced by the speaker, those tokens of [t] were excluded.
-        Tokens of [ty] and [ti] themselves were categorized as \lexi{tu} given that they only appear in the literature on French in Louisiana rather than Creole where [to] appears, and given that they differ only in lip-rounding rather than the difference of fronting between [ty] and [to] or fronting and lip-rounding between [ti] and [to].
+        Tokens of [ty] and [ti] themselves were categorized as \lexi{tu} given that they only appear in the literature on French in Louisiana rather than Creole where [to] appears, and given that they differ only in lip-rounding rather than in fronting as between [ty] and [to] or in fronting and lip-rounding as between [ti] and [to].
 
         Finally, there are three other pronouns that have been described in the literature as having various phonetic realizations but all were realized with only one phonetic form in my data.
-        Those include \lexi{vous-autres} as [vuzɔt], \lexi{eux}\footnote{
-          This pronoun is often written in the literature as \orth{eusse} when pronounced with a final [s] as this final [s] is not generally attested in varieties of French outside of Louisiana where the only pronunciation of \lexi{eux} is [ø].
-          This was not done here because because the process is regularized across derivative words (\foreign{e.g}, \lexi{ceux} as [søs]), and because there is historical evidence of \lexi{eux} once being pronounced with a final [s] elsewhere 
-        } as [ø], and \lexi{eux-autres} as [øzɔt].
+        Those include \lexi{vous-autres} as [vuzɔt], \lexi{eux} as [ø], and \lexi{eux-autres} as [øzɔt].
         Their counts were also extremely low.
 
       \subsubsection{Pronoun types}
