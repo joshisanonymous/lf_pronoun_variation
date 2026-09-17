@@ -728,36 +728,22 @@
     \subsection{Predicates following the pronoun}
       % Nouns, adjectives, and prepositions were removed for modeling due to low counts causing the models to not converge. Update this section with that in mind.
       As briefly discussed in Section \ref{sec:pronoun_structure}, the type of verb that follows a subject pronoun has previously been found to impact subject pronoun realizations, particularly for 3pl pronouns.
-      The data here was thus coded for not only the verb type but the predicate type as there is not always a finite verb in a finite clause, and here I am counting the copula as a verb.
+      The data here was thus coded for not only the verb type but the predicate type as there is not always a finite verb, including the copula as a verb, in a finite clause.
       It should also be noted that the \lexi{predicate} is used here as shorthand for the word following the subject pronoun.
       Auxiliary verbs are obviously not predicates, but their presence or absence does appear to be more important for subject pronoun realization than the actual predicates that follow them.
-      The levels used for predicate time here include \Sexpr{levels(tokensAll$PredType)[1]}, \Sexpr{levels(tokensAll$PredType)[2]}, \Sexpr{levels(tokensAll$PredType)[3]}, \Sexpr{levels(tokensAll$PredType)[4]}\footnote{
-        While a preposition itself would be difficult to categorize as a predicate, a prepositional phrase is not, so the term \lexi{preposition} here is more accurately shorthand for \lexi{prepositional phrase}.
+      The levels used for predicate types included \Sexpr{levels(tokensAll$PredType)[1]}, \Sexpr{levels(tokensAll$PredType)[2]}, \Sexpr{levels(tokensAll$PredType)[3]}, \Sexpr{levels(tokensAll$PredType)[4]}\footnote{
+        While a preposition itself would be difficult to categorize as a predicate, a prepositional phrase is not, so the term \lexi{preposition} here is meant to signal that a prepositional phrase was the predicate, albeit the preposition itself is what was coded.
       }, \Sexpr{levels(tokensAll$PredType)[5]}, and \Sexpr{levels(tokensAll$PredType)[6]}.
       The most important of these levels is auxiliary verbs which I limit primarily to the copula (\lexi{être}), verbs that can also means \gloss{to have} (\lexi{avoir} and \lexi{gain}), and verbs that can also mean \gloss{to go} (\lexi{aller} but also some very rare tokens of \lexi{courir}, \lexi{gone}, and \lexi{venir}).
       These latter two were only coded as auxiliary when they were not in fact the main lexical verb in the clause but rather played only an auxiliary role.
       Previous studies and my own pilot study suggested that these specific auxiliaries have an impact on subject pronoun realizations but not necessarily other auxiliaries, meaning those that always express capability or obligation.
       These latter auxiliaries were coded as modal rather than auxiliary.
 
-      While most predicates were rather trivial to categorize, some notes should be taken for several choices.
-      One such choice was how to deal with aggregating surface forms of predicates into underlying forms, which was relevant to the fact that the predicate itself was taken as a random effect as will be discussed further in section \ref{sec:analysis_methods}.
-      Positing an underlying form in most cases meant recognizing the infinitive form of the verb being used.
-      For example, [ɛ̃m], [ɛ̃mɛ], and [ɛ̃mɾɛ] were all treated as inflections of one underlying form: \lexi{aimer} \gloss{to like}.
-      However, some speakers produce forms such as [lɛ̃m] rather than [ɛ̃m] meaning prothesis has taken place.
-      Alternatively, some speakers produced forms such as [mɑ̃de] rather than [dəmɑ̃de] or [seje] rather than [aseje], demonstrating evidence of aphaeresis presumably for the verbs \lexi{demander} \gloss{to ask} and \lexi{essayer} \gloss{to try}, respectively.
-      These were indeed coded as representing the same target verb, though in some cases there remained ambiguity, such as when speakers produced [mene] as this could be targeting \lexi{mener}, \lexi{amener}, or \lexi{emmener},\footnote{
-        These are in fact fairly ambiguous even for speakers who produce a word-initial vowel as nasalization tendencies in Louisiana mean that the latter two would both likely be pronounced as [ɑ̃mne].
-      } all of which have closely related semantics.
-      In these cases, no process of aphaeresis was assumed to have taken place so that [mene] was coded as \lexi{mener}.
-      Finally, not only were verbs subject to but also the preposition used to create progressive constructions which will be discussed more in section \ref{sec:preverbal_markers}.
-      This could be realized as [ap], [pe], [ape], or [apre], all of which were coded as being forms of \lexi{après} due to their fairly transparent relationships to each other.
-
       For verbs that can, when used lexically, mean \gloss{to have} but which are otherwise auxiliaries, several factors had to be considered.
       One of those factors was deciding whether the auxiliary \lexi{avoir} was present at all in perfective past constructions where \lexi{avoir} is followed by a past participle that carries the lexical verbal information.
-      With the pronoun \lexi{ça}, pronounced [sa], the inflection of \lexi{avoir} is [a], resulting in [sa a] or simply [sa].
+      With the pronoun \lexi{ça}, pronounced [sa], the inflection of \lexi{avoir} is [a], resulting in [sa a] or simply [s a].
       This could be interpreted as \sent{ç'a + participle} or \sent{ça + inflected verb homophonous with the participle}.
-      The coding decision was thus based on the speaker's patterns elsewhere where such ambiguity is not present.
-      If a speaker expressed perfective past consistently with the auxiliary \lexi{avoir}, it was assumed to be present with \lexi{ça} as the subject, and if a speaker consistently expressed the same with an inflected verb and no auxiliary, it was assumed that \lexi{avoir} was absent.
+      The coding decision was thus based on the speaker's patterns elsewhere where such ambiguity is not present in that it was assumed that the speaker's use or lack of use of \lexi{avoir} for perfective past was still at play when elisions were present.
       Likewise, a construction such as \sent{il a appris} \gloss{he learned} could be pronounced along the lines of [il apɾi] where the presence of the auxiliary \lexi{a} is uncertain due to the participle \lexi{appris} beginning with the same sound.
       The presence or absence of \lexi{avoir} was also judged by the speaker's patterns elsewhere in these cases.
       
@@ -765,55 +751,58 @@
       Quite directly, this consists of the expletive subject pronoun \lexi{il}, the locative object pronoun \lexi{y}, and the verb \lexi{avoir} in some inflected form.
       In French outside of Louisiana as well as F\&C in Louisiana, the \lexi{il} can be elided so that [il i a] because [i a] or [ja].
       Unique to Louisiana, however, is the pronunciation [ina] or sometimes simply [na].
-      In all cases, the verb \lexi{avoir} in existential constructions was coded as lexical as there is no additional verb attached to suggest an auxiliary function, but it was also necessary to decide whether [i] represented \lexi{il}, which commonly become [i] before consonants, or \lexi{y} as this impacted the coding of the pronoun as \lexi{il} or null.
-      Whereas \textcite{smith_morphosyntactic_1994} assumed [i] to be \lexi{il} (p.~50), here it was treated as \lexi{y} as the former requires the additional assumption that either \lexi{y} becomes [n], a rather radical shift, or that a verb such as \lexi{navoir} exists, which an infinitive that has never to my knowledge been attested.
-      The interpretation chosen here assumes only that a false liaison exists between \lexi{y} and \lexi{a}, false liaisons being a phenomenon that is common in Louisiana to begin with \parencite[p.~78]{papen_structural_1997}.
-      Also supporting this interpretation is \citeauthor{klingler_if_2003}'s (\citeyear{klingler_if_2003}) attestation of the form \lexi{y ena} (pp.~307-308).
-      As no variety of F\&C has been said to place object pronouns before subject pronouns as would have to be the case for \lexi{y ena} if \citeauthor{smith_morphosyntactic_1994} (\citeyear{smith_morphosyntactic_1994}) interpretation were followed, this further suggests that the initial vowel of \lexi{ina} is not \lexi{il}.
-      This leads to the conclusion that tokens of \lexi{ina} have a null expletive pronoun.
+      In all cases, the verb \lexi{avoir} in existential constructions was coded as lexical as there is no additional verb attached to suggest an auxiliary function, but it was also necessary to decide whether [i] in [ina] represented \lexi{il}, which commonly becomes [i] before consonants, or \lexi{y} as this impacted the coding of the pronoun as \lexi{il} or null.
+      Whereas \textcite{smith_morphosyntactic_1994} assumed [i] to be \lexi{il} (p.~50), here it was treated as \lexi{y} as the former requires the additional assumption that either \lexi{y} becomes [n], a rather radical shift, or that a verb such as \lexi{navoir} exists, which is an infinitive that has never to my knowledge been attested.
+      The interpretation chosen here assumes only that a so-called false liaison exists between \lexi{y} and \lexi{a}, false liaisons being a phenomenon that is common in Louisiana to begin with \parencite[p.~78]{papen_structural_1997}. % Perhaps add a footnote about false liaison terminology if there's any work on this suggesting it mainly functions to uphold specific standards
+      Also supporting this interpretation is \citeauthor{klingler_if_2003}'s (\citeyear{klingler_if_2003}) attestation of the form \lexi{y ena} (pp.~307-308), where \lexi{y} could only be a short form of \lexi{il} or an object pronoun inexplicably coming before the subject pronoun \lexi{e-} if \citeauthor{smith_morphosyntactic_1994} (\citeyear{smith_morphosyntactic_1994}) interpretation were followed, the latter explanation being much less satisfying.
+      Tokens of \lexi{ina} were therefore coded as having a null expletive pronoun.
 
       There are also two constructions that express necessity using verbs with the lexical sense of \gloss{to have}.
       One of these is \lexi{avoir besoin} \gloss{to have need}.
       These are easily interpretable in a direct way as \lexi{besoin} \gloss{need} is something one can in fact have, hence the verb \lexi{avoir} was coded as lexical in these cases rather than modal despite the rather modal compositional sense.
       This is further supported by the fact that \lexi{besoin} is a noun rather than a verb for speakers who produce this phrase.
-      Others, however, use \lexi{besoin} without any \lexi{avoir} or \lexi{gain}, as in sentence \ref{sent:floyd_besoin}.
+      Others, however, use \lexi{besoin} with neither \lexi{avoir} nor \lexi{gain}.
       An elided verb was not assumed in these cases as only \lexi{être} has been documented as eliding.\footnote{
-        It could perhaps be argued that perfective past when expressed with the so called long form verbs (see Tables \ref{tab:inflect_manger_sf} through \ref{tab:inflect_manger_lc}) is an example of an elided \lexi{avoir} or \lexi{gain}, but to my knowledge, there are no attestations of these verbs being used in that structural context to establish that an auxiliary verb is possible there.
+        It could perhaps be argued that perfective past when expressed with the so called long form verbs is an example of an elided \lexi{avoir} or \lexi{gain}, but to my knowledge, there are no attestations of these verbs being used in that structural context to establish that an auxiliary verb is possible there.
       }
       Rather, these speakers seem to be have \lexi{besoin} in their mental grammars as a modal verb, which is how such tokens were coded.
       The other construction expressing necessity is \lexi{gain/avoir pour}, which is always followed by a non-finite verb.
       As this differs from \lexi{avoir besoin} in that it is not interpretable from its components and cannot be followed by a noun, it was treated as a modal verb.
 
-      \begin{enumerate}[resume=sentences]
-        \item Floyed: Mo besoin fais d'autre l'ouvrage dessus li. (4:58)\label{sent:floyd_besoin}
-        \item[] \longtrans{Floyd: I need to do other work on it.}
-      \end{enumerate}
+      % \begin{enumerate}[resume=sentences]
+      %   \item Floyed: Mo besoin fais d'autre l'ouvrage dessus li. (4:58)\label{sent:floyd_besoin}
+      %   \item[] \longtrans{Floyd: I need to do other work on it.}
+      % \end{enumerate}
 
       Other auxiliary verbs that are at times lexical and at other times auxiliary are those that express movement in their lexical forms.
       When followed by an non-finite verb in order to indicate future tense, \lexi{aller} \gloss{to go}, for instance, was coded as an auxiliary but otherwise as lexical.
-      Also used to mean \gloss{to go} \parencite[p.~246]{klingler_if_2003}, \lexi{couru} has not been attested as an auxiliary to express future tense as \lexi{aller} can and so was coded only as lexical.
-      It should be noted that F\&C speakers do produce constructions with \lexi{couru} that are similar to auxiliary functions expressing tense, such as in sentence \ref{sent:elizabeth_serial}, but these should be understood as serial-like constructions that simply express consecutive actions \parencite[pp.~311-312]{klingler_if_2003}.
-      This was the case for almost all such verbs in the data here save for rare occurrences like that found in sentence \ref{sent:tracy_gone} where a future tense is clearly intended.
-      The oddity of this phrase is highlighted, though, by the fact that such uses of \lexi{gone} are unattested in the literature.
-      This example may even be a token of English \lexi{gon} as derived from \lexi{going to} \parencite{winford_origins_1998} rather than English \lexi{gone}.
-      \lexi{Gone} also presents ambiguity in its uncertain status as an adjective preceded by an elided copula or as a verb in and of itself.
-      Ultimately, tokens of \lexi{gone} were all coded as verbs because \lexi{gone} can appear in contexts where only a verbal element is possible, such as after the auxiliary verb \lexi{avoir} in sentence \ref{sent:verb_gone}, and because the low number of tokens of predicate adjectives would give potentially incorrect codings of \lexi{gone} as an adjective an outsized impact on statistical results, making coding it as a verb the more conservative approach.
-
+      Also used to mean \gloss{to go} \parencite[p.~246]{klingler_if_2003}, \lexi{couru} has not been attested as an auxiliary to express future tense as \lexi{aller} can and so was coded only as lexical.\footnote{
+        It should be noted that F\&C speakers do produce constructions with \lexi{couru} that are similar to auxiliary functions expressing tense, such as in sentence \ref{sent:elizabeth_serial}, but these should be understood as serial-like constructions that simply express consecutive actions \parencite[pp.~311-312]{klingler_if_2003}.
+        \begin{enumerate}[resume=sentences]
+          \item Elizabeth: Mo couru travailler pour des avocats. (9:32)\label{sent:elizabeth_serial}
+          \item[] \longtrans{Elizabeth: I went to work for some lawyers.}
+        \end{enumerate}
+      }
+      This was the case for almost all such verbs in the data here save for rare occurrences like that found in Sentence \ref{sent:tracy_gone} where a future tense is clearly intended.
       \begin{enumerate}[resume=sentences]
-        \item Elizabeth: Mo couru travailler pour des avocats. (9:32)\label{sent:elizabeth_serial}
-        \item[] \longtrans{Elizabeth: I went to work for some lawyers.}
         \item Tracy: Mo pas gone payer pour toi. (33:13)\label{sent:tracy_gone}
         \item[] \longtrans{Tracy: I'm not going to pay for you.}
-        \item Il a gone pour un mois. \parencite[p.~315]{valdman_dictionary_2010}\label{sent:verb_gone}
-        \item[] \longtrans{He went for a month.}
       \end{enumerate}
+      The oddity of this phrase is highlighted, though, by the fact that such uses of \lexi{gone} are unattested in the literature.
+      This example of a borrowing may even be a token of English \lexi{gon} as derived from \lexi{going to} \parencite[p.~115]{winford_origins_1998} rather than English \lexi{gone} borrowing that is rather common in F\&C.
+      \lexi{Gone} also presents ambiguity in its uncertain status as an adjective preceded by an elided copula -- analogous to its English usage -- or as a verb in and of itself.
+      Ultimately, tokens of \lexi{gone} were all coded as verbs because \lexi{gone} can appear in contexts where only a verbal element is possible, such as after the auxiliary verb \lexi{avoir}, and because the low number of tokens of predicate adjectives would give potentially incorrect codings of \lexi{gone} as an adjective an outsized impact on statistical results, making coding it as a verb the more conservative approach.
+      % \begin{enumerate}[resume=sentences]
+      %   \item Il a gone pour un mois. \parencite[p.~315]{valdman_dictionary_2010}\label{sent:verb_gone}
+      %   \item[] \longtrans{He went for a month.}
+      % \end{enumerate}
 
       The copula itself can is not always obligatory in Louisiana \parencite[pp.~292/331]{klingler_if_2003}.
-      As it perhaps clear already, absent copulas were not coded as the predicate type but rather the word that was present was coded.
-      Coding predicate adjectives, predicate mnouns, or predicate prepositional phrases in these contexts was done because these provide more new information, given that some findings have already been made that implicate the copula's effect on subject pronouns, while still not undermining the ability to analyze auxiliaries again here as many manifest tokens of \lexi{être} and other auxiliaries still occurred.
+      As is perhaps clear already, absent copulas were not coded as the predicate type but rather the word that was present was coded.
+      Coding predicate adjectives, predicate nouns, or predicate prepositional phrases in these contexts was done because these provide more new information, given that some findings have already been made that implicate the copula's effect on subject pronouns, while still not undermining the ability to analyze auxiliaries again here as many manifest tokens of \lexi{être} and other auxiliaries still occurred.
 
       Some other verbs could arguably be treated as something other than lexical but were still coded as such here.
-      These includes \lexi{faire} in the construction \lexi{ça (se) fait}, used as a coordinating conjunction or as a discourse marker along the lines of English \lexi{so}, \lexi{savoir} \gloss{to know}, \lexi{connaître} \gloss{to know}, \lexi{penser} \gloss{to think}, \lexi{croire} \gloss{to believe}, and verbs of preference.
+      These include \lexi{savoir} \gloss{to know}, \lexi{connaître} \gloss{to know}, \lexi{penser} \gloss{to think}, \lexi{croire} \gloss{to believe}, verbs of preference, and \lexi{faire} in the construction \lexi{ça (se) fait}, used as a coordinating conjunction or as a discourse marker along the lines of English \lexi{so}.
       \lexi{Ça (se) fait} has somewhat of a direct reading that is possible, at least when used as a conjunction, in that it can be understand as \gloss{that makes it so (that)}, which supports coding it as lexical, as well as its lack of a following infinitive or participle.
       Verbs expressing concepts such as \gloss{to know} and \gloss{to think} are very often followed by subordinate clauses and sometimes even non-finite verbs, making them superficially resemble modal auxiliaries but were ultimately coded as lexical given that they are never semantically deficient, always expressing that which can be read from their direct glosses.
       This is likewise the case for verbs of preference which are regularly found followed by infinitives and suggest a quasi-modal meaning.
@@ -825,6 +814,9 @@
       Relatedly, reflexive verbs are sometimes glossed as having senses distinct from their non-reflexive versions, which implicates the coding for the underlying form as predicates were modeled as random effects.
       In other words, whether \lexi{rappeler} \gloss{to call back/to remind} and \lexi{se rappeler} \gloss{to remember} should be treated as one underlying form or two was considered.
       This difference in glosses is generally superficial -- \gloss{to remind oneself} is \gloss{to remember} -- but the rather arbitrary decision to code them as two underlying forms was nonetheless taken.
+      Related to the use of predicates being modeled as random effects is that there were sometimes aambiguitiess in whether two surface forms represented the same underlying form.
+      For instance, \lexi{aimer} \gloss{to like} is pronounced [lɛ̃me] by some speakers, \lexi{demander} \gloss{to ask} as [mɑ̃de] by some, and the preposition expressing progressive action \lexi{après} variably as [ap], [pe], [ape], or [apre].
+      These were coded as having the same underlying forms when the relationship was relatively transparent, and in any case, none of these cases were for words so frequent that they would cause issues with the statistical models.
 
       % Lagniappe
         % Two stems exist in Pointe Coupee Creole, but the systematicity of these is not clear for all speakers (Klingler 2003 "Turn":236-237)
