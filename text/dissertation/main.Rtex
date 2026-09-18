@@ -60,7 +60,7 @@
     \ifnum#1<11\relax
       \unskip\numtoname{#1}\unskip
     \else
-      #1
+      \unskip#1\unskip
     \fi
   }
 
