@@ -374,14 +374,10 @@
     In Terrebonne-Lafourche, \textcite{rottet_language_1995} explained that ``[i]t is clear that differences in SEC exist'' but that this was a recent development there and therefore not yet useful (p.~64).
     Based on the wide breadthe of occupations held by my participants and the variety of their educational experiences, these statements no longer apply, if they ever did, for those in the Lafayette area.
     
-    % Changed occupational to be blue, pink, and white based on the conventions Lips-Wiersma et al. (2016) followed (536). Update accordingly here.
-      % White: Supervisor roles, (semi-)professional roles, business owners
-      % Pink: Hospitality, care workers, retail, and administrative
-      % Blue: All others
     All participants were thus coded for occupational history and educational attainment.
     In many studies, these two factors have been combined to determine to which socioeconomic class a participant belongs (\citeauthor[\foreign{e.g.},][]{eckert_linguistic_2000}, \citeyear[pp.~104-105]{eckert_linguistic_2000}; \citeauthor{labov_social_2006}, \citeyear[pp.~134-135]{labov_social_2006}), or socioeconomic class is simply reported without any attempt to explain how it was established for each individual (\citeauthor[\foreign{e.g.},][]{blondeau_analyse_2019}, \citeyear[pp.~44-46]{blondeau_analyse_2019}; \citeauthor{feagin_variation_1979}, \citeyear[p.~23]{feagin_variation_1979}; \citeauthor{milroy_language_1987}, \citeyear[pp.~109-112]{milroy_language_1987}).
     In the current study, the two variables were not merged as accounting for both helps to fully contextualize the social worlds of participants.
-    For occupational histories, these were further coded into blue, pink, and white collar, yielding \Sexpr{nrow(participants[participants$Occupation == "Blue Collar",])} blue collar workers, \Sexpr{nrow(participants[participants$Occupation == "Pink Collar",])} pink collar workers, and \Sexpr{nrow(participants[participants$Occupation == "White Collar",])} white collar workers.
+    For occupational histories, these were further coded into blue, pink, and white collar based on the conventions followed in \textcite[p.~536]{lips-wiersma_meaningful_2016}, yielding \Sexpr{nrow(participants[participants$Occupation == "Blue Collar",])} blue collar workers, \Sexpr{nrow(participants[participants$Occupation == "Pink Collar",])} pink collar workers, and \Sexpr{nrow(participants[participants$Occupation == "White Collar",])} white collar workers.
     The choices of how to code each occupational class from occupational histories can be seen in Table \ref{tab:occupation_coding}.
 
     \begin{table}[tbhp]
