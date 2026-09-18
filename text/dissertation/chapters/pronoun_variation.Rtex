@@ -916,7 +916,7 @@
             \textbf{Ethnic Homophily}     & \emph{continuous} \\
             \textbf{F\&C Background}      & \Sexpr{toString(levels(tokens$`F&C Background`))} \\
             \textbf{Occupation Type}      & \Sexpr{toString(levels(tokens$Occupation))} \\
-            \textbf{Retired}              & \Sexpr{toString(levels(tokens$Retired))} \\
+            % \textbf{Retired}              & \Sexpr{toString(levels(tokens$Retired))} \\
             \textbf{Education Attained}   & \Sexpr{toString(levels(tokens$Education))} \\
             \textbf{Parish Raised}        & \Sexpr{toString(levels(tokens$`Raised (parish)`))} \\
             \textbf{Parish Residence}     & \Sexpr{toString(levels(tokens$`Residence (parish)`))} \\
