@@ -951,13 +951,14 @@
         This helps prevent having the results skewed by many tokens appearing in a single context.
         For speaker, the context would be a single speaker coincidentally providing most of the count for some specific token type.
         For predicate, the context would bbe frequently repeated fixed phrases such as \lexi{c'est} \gloss{it is} or the tag \lexi{tu vois} \gloss{you see}.
+        These and all the above factors combined and modeled produced the results below.
         
   \section{Results}
     \label{sec:pronoun_results}
     The question most central to the quantitative analyses carried out here is whether or not subject pronouns in F\&C act as markers for Creole and Cajun identities.
-    In terms of racialization, such a result would suggest that speech can serve as a identifier with the potential to lead to acts of discrimination.
-    Given that the analysis here treats all of the subject pronouns, it can also address the question of whether these pronouns covary, which would suggest that they form a whole system that distinguishes Creoles and Cajuns.
-    The results do in fact lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities, but there are some other results worth noting in this section beforehand.
+    In terms of racialization, such a result would suggest that speech can serve as a way to distinguish group membership with the potential to lead to acts of discrimination.
+    Given that the analysis here treats all of the subject pronouns, it can also address the question of whether these pronouns co-vary, which would suggest that they form a whole system that distinguishes Creoles and Cajuns.
+    The results do in fact lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities.
     The full summary read-outs for each model are given in Appendix \ref{app:code_main}.
 
     Only one pronoun type did not yield any statistically significant results when modeled, that being 3sg.M.
@@ -970,8 +971,8 @@
     
     Similarly to only one response variable having no significant factors, only one factor was not significant for any pronoun types: gender.
     This was clearly the case even just from examining the raw count distributions for each pronoun type.
-    Only for 3pl did it appear that women may have been behaving the differently than men.
-    As Figure \ref{fig:gender_3pl}, the use of \lexi{yé} relative to \lexi{ils} appears to be quite different for the two groups.
+    Only for 3pl did it appear that women may have been behaving differently than men.
+    As Figure \ref{fig:gender_3pl} shows, the use of \lexi{yé} relative to \lexi{ils} appears to be quite different for the two groups.
     However, the reference level was \lexi{ça}, from which both groups show an increase of counts for \lexi{yé}.
     Furthermore, 3pl \lexi{ça} and \lexi{ils} likely form a system, as will be seen, and when collapsing these two pronouns as in Figure \ref{fig:gender_3pl_collapsed}, both men and women seem to follow a very similar pattern.
     Indeed, no participants ever explicitly brought up differences in the speech of men versus women.
@@ -1003,7 +1004,7 @@
     What was expected was that the odds of producing \lexi{ils} for 3pl rather than \lexi{ça} would increase before auxiliary verbs, meaning \lexi{être}, \lexi{avoir}, and \lexi{aller},\footnote{
       The verbs \lexi{courir}, \lexi{venir}, \lexi{gone} and in some instances \lexi{gain} were also treated as auxiliaries but were so rare in this function that they did not appear after 3pl subject pronouns.
     } forming a system where there are \lexi{ils/ça} users and then \lexi{yé} users.
-    This effect had been seen in previous studies \parencite{brown_pronominal_1988, byers_defining_1988}.
+    Effects along these lines had been seen in previous studies \parencite{brown_pronominal_1988, byers_defining_1988}.
     As Figure \ref{fig:3pl_predtype} shows, before auxiliaries, \lexi{ça} is essentially unheard of.
     Of those tokens of \lexi{ça} that were produced before auxiliaries, most were produced before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ça" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ça",])}) in contrast to the rarity of \lexi{ils} before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ils" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "ils",])}) and even the rarity of \lexi{yé} before \lexi{aller} (\Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "yé" & tokens$PredUnder == "aller",])} out of \Sexpr{nrow(tokens[tokens$ProType == "3pl" & tokens$PredType == "auxiliary" & tokens$ProUnder == "yé",])}).
     The implication is that the truly important verbs are \lexi{être} and \lexi{avoir} but not \lexi{aller}.
@@ -1070,21 +1071,23 @@
       While they did also look at \lexi{mo}/\lexi{moi}, it was somewhat tangential as it is not a phonetic variant of \lexi{je}.
     }
     The present study thus adds to the overall picture for structural variation of 1sg subject pronouns in Louisiana and to null pronouns in general.
-    Indeed, a pattern found in studies of null pronouns in other languages -- generally fully pro-drop languages -- is that null pronouns are less likely in linguistic contexts where the verbal morphology does not completely disambiguate the subject on its own \parencite{hochberg_functional_1986}, but for the speakers in the present data, the verbal morphology is more fleshed out for auxiliary verbs than non-auxiliaries, yet it was these latter verbs that led to more null 1sg pronouns.
+    Indeed, a pattern found in studies of null pronouns in other languages -- generally fully pro-drop languages -- is that null pronouns are more likely in linguistic contexts where the verbal morphology already disambiguates the subject on its own \parencite{hochberg_functional_1986}, but for the speakers in the present data, the verbal morphology is more fleshed out for auxiliary verbs than non-auxiliaries, meaning it was before verbs that do not at all disambiguate the subject that null pronouns were preferred here, contrary to what has been found in other languages.
 
-    The remaining factors that were modeled were all social factors, two of which proved to be quite impactful on subject pronoun realization, institutional French exposure and ethnicity, and another, that impacted 2sg.T and 3pl pronouns, that being age.
+    The remaining factors that were modeled were all social factors, two of which proved to be quite impactful on subject pronoun realization, institutional French exposure and ethnicity, and another that impacted 2sg.T and 3pl pronouns, that being age.
     A major gap exists in birth years between the two youngest participants, both born in \Sexpr{max(participants$`Birth Year`)}, and the others in that the youngest of the remaining participants was born in \Sexpr{sort(participants$`Birth Year`)[length(participants$`Birth Year`) - 2]}, a difference of \Sexpr{max(participants$`Birth Year`) - sort(participants$`Birth Year`)[length(participants$`Birth Year`) - 2]} years.
-    In contrast, the other \Sexpr{nrow(participants) - 2} participants have birth years ranging from \Sexpr{max(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)])} to \Sexpr{max(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)])} with almost all gaps being 1 year and the maximum gap being \Sexpr{max(diff(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))} years.
+    In contrast, the other \Sexpr{nrow(participants) - 2} participants had birth years ranging from \Sexpr{max(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)])} to \Sexpr{max(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)])} with almost all gaps being one year and the maximum gap being \convertSmallNumber{\Sexpr{max(diff(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))}} years.
     While this caveat should be kept in mind, these outliers are not likely to distort the statistical results to a huge degree considering that, with and without the two youngest participants, the means are nearly identical (\Sexpr{round(mean(participants$`Birth Year`))} and \Sexpr{round(mean(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))}, respectively) the medians are identical (\Sexpr{median(participants$`Birth Year`)}) and the standard deviations are not exceptionally different (\Sexpr{round(sd(participants$`Birth Year`))} and \Sexpr{round(sd(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))}, respectively).
 
-    For age, then, there is some evidence of a shift from a predominance of \lexi{tu} for 2sg.T to \lexi{to} as well as from a predominance of \lexi{ils/ça} to \lexi{yé}, as can be seen in Figures \ref{fig:2sg_age} and \ref{fig:3pl_age}, respectively.
+    For age, then, as birth years were converted for modeling, there is some evidence of a shift from a predominance of \lexi{tu} for 2sg.T to \lexi{to} as well as from a predominance of \lexi{ils/ça} to \lexi{yé}, as can be seen in Figures \ref{fig:2sg_age} and \ref{fig:3pl_age}, respectively.
     What is also apparent from the figures is that there seems to be an interaction with ethnicity and age, as well.
-    Of those who produced \lexi{to}, almost all were Creoles, and almost all of those tokens produced by Cajuns came from Errol Stoufle of \Sexpr{participants[participants$Name == "Errol Stoufle", "Raised (town)"]} where Creole-oriented speech has long been documented.
-    Likewise, only two Cajuns were produced \lexi{yé} for 3pl: Errol Stoufle once again and Elizabeth Naquin.
-    The latter was born and still resided in the town of \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Raised (town)"]}, a place where it has been noted that ``Whites'' are known to speak Louisiana Creole \parencite[p.~40]{neumann-holzschuh_creole_1985}.
+    Of those who produced \lexi{to}, almost all were Creoles, and almost all of those tokens produced by Cajuns came from Errol of \Sexpr{participants[participants$Name == "Errol Stoufle", "Raised (town)"]} where Creole-oriented speech has long been documented.
+    Likewise, only two Cajuns produced \lexi{yé} for 3pl: Errol once again and Elizabeth.
+    The latter was born and still resided in the town of \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Raised (town)"]}, a place where it has been noted that ``Blancs''\footnote{
+      White people
+    } are known to speak Louisiana Creole \parencite[p.~40]{neumann-holzschuh_creole_1985}.
     Outside of these two exceptions, what the results for age more likely represent is evidence that Creoles are more likely to pass on F\&C than Cajuns.
     Among the participants in this study, Creoles had generally less education and tended towards blue collar occupations, suggesting a lower socioeconomic class, which is not very disimilar from the case of the Indians of Terrebonne-Lafourche, who were poorer and more isolated than the Cajuns there, and who were likewise documented as more readily passing on the language in the 1990s \parencite[pp.~64/310]{rottet_language_1995}.
-    This topic will be addressed more later in this section as well as in the next chapter.
+    This pattern of isolated, low status groups passing being more likely to pass on minority languages is perhaps a generalizable phenomenon.
 
     \begin{figure}[tbhp]
       \captionsetup{font={footnotesize}}
@@ -1116,12 +1119,13 @@
     \end{figure}
 
     Exposure to institutional French, or in other words having been in a French classroom, was much more consistently a statistically significant factor in the models.
-    The subject pronouns with higher better odds of being produced if one had institutional French exposure included \lexi{je} for 1sg, \lexi{on} for 1pl, and \lexi{tu} for impersonal.
-    For expletive pronouns, while there was not a signficant result when comparing \lexi{ça} to a null pronoun, \lexi{il} did have significant higher odds than a null pronoun.
+    The subject pronouns with higher odds of being produced if one had institutional French exposure included \lexi{je} for 1sg, \lexi{on} for 1pl, and \lexi{tu} for impersonal.
+    For expletive pronouns, while there was not a signficant result when comparing \lexi{ça} to a null pronoun, \lexi{il} did have significantly higher odds than a null pronoun.
     For 3pl, the odds of producing \lexi{ils} over \lexi{ça} also increased with exposure to institutional French.
     All of these subject pronouns -- \lexi{je}, \lexi{on}, \lexi{tu}, and \lexi{ils} -- are the the norm for what is taught in French classrooms, whereas their alternatives -- \lexi{mo}, \lexi{no}, \lexi{to}, and \lexi{ça}, respectively -- are not.
+    Even for expletive pronouns, \lexi{il} is what is taught in the classroom, but while null is found throughout the French-speaking world in expletive contexts, and hence possible to hear in a French classroom, \lexi{ça} appears to be unique to Louisiana.
     A rather straightforward explanation that can be drawn from this is that the formality of the setting has influenced speakers' F\&C.
-    This would align anecdotally with the apparent linguistic insecurity that I found when talking to people in the community both among Cajuns and Creoles, which will be discussed more in chapter \ref{chap:discourse}.
+    This would align anecdotally with the apparent linguistic insecurity that I found when talking to some people in the community both among Cajuns and Creoles.
 
     \begin{table}[tbhp]
       \caption{Institutional French exposure for each pronoun type model}
@@ -1168,10 +1172,11 @@
     \end{table}
 
     While a classroom can be an influencing factor in one's speech, making it a good candidate for explaining the results for institutional French exposure here, there is again a socioeconomic component.
-    In the case of 3pl pronouns, institutional French exposure not only increased the odds of producing \lexi{ils} relative to \lexi{ça} but also decreased the odds of producing \lexi{yé} relative to \lexi{ça}, neither of which are pronouns that would ever be heard in a French classroom to expression 3pl, although the latter would be heard as a demonstrative pronoun.
-    This means that the language used in the classroom cannot be directly influencing a preference for \lexi{ça} like it can for a preference for \lexi{ils}.
-    However, as Figure \ref{fig:education_by_institutionalFr} shows, there's a relatively clear relationship between have a college education and having been exposed to institutional French (Fisher's exact: $P <$ \Sexpr{Ceiling(indEducInstFr$p.value)}).
-    This does not mean that exposure to institutional French has no impact on speakers but rather that those who use \lexi{ça} are generally either from a higher socioeconomic class or are more likely to head towards a higher socioeconomic class than those who use \lexi{yé}.
+    In the case of 3pl pronouns, institutional French exposure not only increased the odds of producing \lexi{ils} relative to \lexi{ça} but also decreased the odds of producing \lexi{yé} relative to \lexi{ça}, neither \lexi{yé} nor \lexi{ça} being pronouns that would ever be heard in a French classroom to express 3pl, although the latter would still be heard as a demonstrative pronoun.
+    This means that the language used in the classroom cannot be directly influencing a preference for \lexi{ça} over \lexi{yé} like it can for a preference for \lexi{ils} over \lexi{ça}.
+    However, as Figure \ref{fig:education_by_institutionalFr} shows, there's a relatively clear relationship between having a college education and having been exposed to institutional French (Fisher's exact: $P <$ \Sexpr{Ceiling(indEducInstFr$p.value)}).
+    This does not mean that exposure to institutional French has no impact on speakers outside of the effects of socioeconomic class but rather that \lexi{ça} is more prevalent to begin with among those who are either from a higher socioeconomic class or are more likely to head towards a higher socioeconomic class than those who use \lexi{yé}.
+    As will be seen for the effects of ethnicity, this aligns well with the racialization of Cajuns, the primary users of \lexi{ça}, as a higher status group than Creoles, the primary users of \lexi{yé},
 
     \begin{figure}[tbhp]
       \caption{Participants' exposure to institutional French relative to their education levels}
@@ -1182,30 +1187,29 @@
       @
     \end{figure}
     
-    An even more consistent social factor, and the primary factor of interest in this analysis, is ethnicity, meaning being Creole or Cajun.
-    To reiterate, the term \lexi{ethnicity} is used here not as a conclusion about the racialization of these categories but rather as an agnostic term to stand in before any conclusions can be drawn.
+    The primary factor of interest in this analysis is ethnicity, meaning being Creole or Cajun, which was an even more consistently significant social factor than exposure to institutional French.
+    To reiterate, the term \lexi{ethnicity} is used here not as a conclusion about the racialization of these categories but rather as an agnostic stand-in term.
     The models, summarized for ethnicity in Table \ref{tab:ethnicity_results}, show statistical significance for almost all pronouns, thus being Cajun shifts the odds towards \lexi{je} over \lexi{mo} for 1sg, \lexi{tu} over \lexi{to} for 2sg.T, \lexi{elle} over \lexi{li} for 3sg.F, \lexi{il} over \lexi{li} for 3sg.M, \lexi{on} over \lexi{no} for 1pl, \lexi{ils/ça} over \lexi{yé} for 3pl, and \lexi{tu} over \lexi{to} for impersonal.
     In other words, Cajuns show a preference for subject pronouns that have traditionally been described as part of Louisiana French and Creoles for those that have traditionally been described as part of Louisiana Creole.
-    While on the surface this might seem like a result too obvious to be noteworthy, Creoles have been documented using the former variants \parencite{klingler_language_2003, klingler_probleme_2005} and Cajuns, often equated to Whites, have been documented using the latter variants \parencite{klingler_if_2003, neumann-holzschuh_creole_1985}.
+    While on the surface this might seem like a result too obvious to be noteworthy, Creoles have been documented using the former variants \parencite{klingler_language_2003, klingler_probleme_2005, wendte_tale_2020}, and Cajuns, often equated to White people, have been documented using the latter variants \parencite{klingler_if_2003, neumann-holzschuh_creole_1985}.
     This was also the case among the participants here.
-    For instance, both Terry Guillot and James Corporon self-identified as Creoles and used exclusively the former variants.
+    For instance, both Terry and James self-identified as Creoles and used exclusively the Cajun-marked variants.
     In fact, not only did James not use \lexi{yé} for 3pl, he did not even use \lexi{ça}, preferring at all times to use the very standard French \lexi{ils}.
-    On the other hand, as already mentioned, Errol Stoufle and Elizabeth Naquin, both self-identified Cajuns, used almost exclusively variants of the latter type.
-    There were additionally speakers who used a mix of the former and latter variants, sometimes as a demonstration of an ability to switch styles or code switch -- Elizabeth began her interview with two tokens of \lexi{je} for 1sg before settling in to exclusively using \lexi{mo} after the two minute mark, and Oliver Lesage explicitly talked about his ability to switch -- and sometimes as their typical speech patterns.
-    Gene Delcambre fits the second description in that all of his subject pronouns matched those traditionally described as French except for 3pl where he consistently used \lexi{yé}.
-    Both this inconsistency between Creole and Cajun identity and speech patterns as well as the consistency uncovered by the models here are apparent enough to the community that metalinguistic commentary identifies both truths, as the discussion between Cynthia Robichaux Savoie and Lucille Royer below makes clear.
-
-    \begin{enumerate}
-      \item Joshua (Interviewer): Est-ce que les Créoles parlent différemment des Cadiens? ... (45:03)
-      \item Cynthia: I went to the store.
+    On the other hand, as already mentioned, Errol and Elizabeth, both self-identified Cajuns, used almost exclusively Creole-marked variants.
+    There were additionally speakers who used a mix of both classes of variants, sometimes as a demonstration of an ability to switch styles or code switch -- Elizabeth began her interview with two tokens of \lexi{je} for 1sg before settling in to exclusively using \lexi{mo} after the two minute mark, and Oliver L. explicitly talked about his ability to switch -- and sometimes as their typical speech patterns.
+    Gene fits the second description in that all of his subject pronouns matched those traditionally described as French except for 3pl where he consistently used \lexi{yé}.
+    Both this inconsistency between Creole and Cajun identity and speech patterns as well as the consistency uncovered by the models here are apparent enough to the community that metalinguistic commentary identifies both truths, as the discussion between Cynthia and Lucille below makes clear.
+    \begin{enumerate}[resume=sentences]
+      \item Joshua (Interviewer): Est-ce que les Créoles parlent différemment des Cadiens? ... (45:03)\label{sent:creole_meta}
+      \item[] Cynthia (Cajun): I went to the store.
             Mo'tais couru au store.
-      \item Lucille: Et toi t'as été plus élevée autour du créole.
+      \item[] Lucille (Cajun): Et toi t'as été plus élevée autour du créole.
             À la Ville Platte, les Noirs à la Ville Platte parlaient français cadien d'après ce que moi je me rappelle.
-      \item Cynthia: Oui, il y a des Noirs qui parlent français comme nous-autres, mais il y a des Blancs qui parlent créole comme les Noirs.
-      \item[] \longtrans{Joshua: Do Creoles speak different from Cajuns? ...}
-      \item[] \longtrans{Cynthia: I went to the store.
+      \item[] Cynthia: Oui, il y a des Noirs qui parlent français comme nous-autres, mais il y a des Blancs qui parlent créole comme les Noirs.
+      \item[] \longtrans{Joshua (Interviewer): Do Creoles speak different from Cajuns? ...}
+      \item[] \longtrans{Cynthia (Cajun): I went to the store.
             I went to the store.}
-      \item[] \longtrans{Lucille: And you were more raised around Creole.
+      \item[] \longtrans{Lucille (Cajun): And you were more raised around Creole.
             In Ville Platte, Blacks in Ville Platte spoke Cajun French from what I remember.}
       \item[] \longtrans{Cynthia: Yes, there are Black who speak French like us, but there are Whites who speak Creole like Blacks.}]
     \end{enumerate}
@@ -1260,7 +1264,7 @@
     Participants did not always give exactly one of these two categories when asked to self-identify racially,\footnote{
       The range of racial self-identifications given was in fact the reason this factor was not modeled.
     } but what they did provide can be remapped to these two categories for exploration in a relatively uncontroversial manner.
-    If all those who used the words White or Caucasian in their racial self-identification are recoded as White, all those who used the words Black or African-American are recoded as Black, and all those who chose Creole, Cajun, or no race are excluded, the distribution of American races by Louisiana ethnicities look like Figure \ref{fig:ethnicity_by_race}.
+    If all those who used the words White or Caucasian in their racial self-identification are recoded as White, all those who used the words Black or African-American are recoded as Black, and all those who chose Creole, Cajun, or no race are excluded, the distribution of American races by Louisiana ethnicities looks like Figure \ref{fig:ethnicity_by_race}.
     What this suggests is that there exists a statistical association between these two categories (Fisher's exact: $P <$ \Sexpr{Ceiling(indEthnRace$p.value)}).
     In effect, one cannot claim to be Cajun and Black at the same time, and although one can do the inverse, it is not typical.
 
@@ -1273,10 +1277,10 @@
       @
     \end{figure}
 
-    For the two participants who did claim White Creole identities, Deborah Tauzin and Jerry Pierre Quintero, their subject pronouns were not those traditionally described as belonging to Louisiana Creole but rather those typical of descriptions of Louisiana French.
-    Indeed, there is perhaps an even stronger association between American racial categories and subject pronoun realizations than for their related categories of Creole and Cajun.
-    Figures \ref{fig:subset_race_1sg} through \ref{fig:subset_race_impersonal} show the same pronouns for which ethnicity had a statistically significant effect in the models but in this case with the subset of American racial categories.
-    They represent a clear pattern of Blacks using more Creole variants and Whites using more French variants.
+    For the two participants who did claim White Creole identities, Deborah and Jerry, their subject pronouns were not those traditionally described as belonging to Louisiana Creole but rather those typical of descriptions of Louisiana French.
+    Indeed, there is perhaps an even stronger association between American racial categories and subject pronoun realizations than for the related local categories of Creole and Cajun.
+    Figures \ref{fig:subset_race_1sg} through \ref{fig:subset_race_3pl} show each of the subject pronoun types again but in this case with the subset of those who racially self-identified with broad American categories.
+    They represent a clear pattern of Black people using more Creole variants and White people using more French variants.
     For a direct comparison, Table \ref{tab:percentage_ethn_race} shows that the percentage of French pronouns produced by those who identified as Cajun was nearly identical to the subset of those who identified as White, whereas the percentage of Creole pronouns for those who identified as Black was noticeably higher than for those who identified as Creole for every pronoun type.
     In essence, Creole pronouns do not just mark someone as Creole but mark them as Black and Creole.
 
@@ -1346,7 +1350,7 @@
 
     \begin{table}[tbhp]
         \centering
-        \caption{Percentage of primary Creole pronouns by ethnicity and race}
+        \caption{Percentage of Creole-marked pronouns by ethnicity and race}
         \label{tab:percentage_ethn_race}
         \begin{tabular}{r | r r | r r}
           Pronoun         & Creole                                                                             & Black                                                                                             & Cajun                                                                             & White \\
