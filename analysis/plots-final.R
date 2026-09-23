@@ -117,7 +117,8 @@ plotHomophilyExploratory <- ggplot(data = participants,
   geom_boxplot() +
   geom_jitter(aes(group = Ethnicity), color = "red", size = 2, width = 0.05) +
   coord_flip() +
-  theme_bw()
+  theme_bw() +
+  labs(y = "Network Ethnic Homophily")
 
 # Round(mean(gssNames[gssNames$Ethnicity == "White", "Network Ethnic Homophily"]))
 

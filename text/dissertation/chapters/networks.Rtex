@@ -604,8 +604,22 @@
         \caption{Distributions of network ethnic homophily by ethnicity}
         \label{fig:homophily_boxplots}
         \centering
-        <<fig.height = 0.3 * textheight>>=
+        <<fig.height = 0.25 * textheight>>=
         plotHomophily
+        @
+
+        \caption{Distributions of network ethnic homophily by ethnicity after recoding alters for Gene, Owen, and Tracy}
+        \label{fig:homophily_boxplots}
+        \centering
+        <<fig.height = 0.25 * textheight>>=
+        plotHomophilyExploratory
+        @
+
+        \caption{Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma}
+        \label{fig:homophily_gss_boxplots}
+        \centering
+        <<fig.height = 0.25 * textheight>>=
+        plotHomophilyGss
         @
       \end{figure}
 
@@ -619,15 +633,6 @@
       Public data from the GSS cannot be constrained more narrowly to the parishes examined here nor even to just Louisiana, so this data includes Louisiana, Arkansas, Texas, and Oklahoma.
       White respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "White"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "White"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "White"]}), and Black respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "Black"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "Black"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "Black"]}).
       With such polarized ethnic homophily results in the present study even compared to the unquestionably racialized Americans of the region, it is not surprising that no meaningful variation in subject pronoun usage relative to the degree of ethnic homophily could be found.
-
-      \begin{figure}[tbhp]
-        \caption{Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma}
-        \label{fig:homophily_gss_boxplots}
-        \centering
-        <<fig.height = 0.3 * textheight>>=
-        plotHomophilyGss
-        @
-      \end{figure}
 
   \section{Discussion}
     The results produced here are not only consistent with racialization but offer insights into why subject pronoun usage varies significantly between Creoles and Cajuns.
