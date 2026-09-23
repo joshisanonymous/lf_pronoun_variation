@@ -544,6 +544,9 @@
                                 &                                                                                                              &                                                                                                         &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][8]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][8]} \\
                                 &                                                                                                              &                                                                                                         &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][9]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][9]} \\
         \end{tabular}}
+        {\footnotesize
+        Alter ethnicities listed as originally given by participants.
+        }
       \end{table}
       
       The final two participants whose personal networks showed little ethnic homophily were Deborah and Gene.
@@ -618,7 +621,7 @@
       With such polarized ethnic homophily results in the present study even compared to the unquestionably racialized Americans of the region, it is not surprising that no meaningful variation in subject pronoun usage relative to the degree of ethnic homophily could be found.
 
       \begin{figure}[tbhp]
-        \caption{Distributions of network ethnic homophily by ethnicity from GSS data for Louisiana, Arkansas, Texas, and Oklahoma}
+        \caption{Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma}
         \label{fig:homophily_gss_boxplots}
         \centering
         <<fig.height = 0.3 * textheight>>=
