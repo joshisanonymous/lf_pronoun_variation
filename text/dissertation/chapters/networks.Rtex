@@ -516,9 +516,9 @@
       For Jack, whose personal network was quite small, Cajuns made up half of his alters, the others being Chinese and Spanish, while for Lillian, Americans were as frequently named as Cajuns and even made up slightly more of her core network.
       Similarly for James and Jerry, Creoles constituted the largest group in their personal networks.
       The latter also gave ethnicities such as Italian and Redneck and the former also gave Carmerounian, Canadian, and White.
-      The last, a non-core alter, is one of the few potential instances of a Creole naming a Cajun since, as will be seen in Section \ref{sec:cajun_race}, James emphasized Whiteness in defining Cajuns.
-      Indeed, the most important aspect of these ethnically diverse personal networks is that Creoles did not name Cajuns in their networks and Cajuns did not name Creoles, which was also generally true for all other participants.
-      Thus, even when little ethnic homophily is found, it is not the result of Creoles and Cajuns interacting but rather the result of non-Creoles and non-Cajuns being added to the mix.
+      The last, a non-core alter, was one of the few potential instances of a Creole naming a Cajun since, as will be seen in Section \ref{sec:cajun_race}, James emphasized Whiteness in defining Cajuns.
+      Indeed, the most important aspect of these ethnically diverse personal networks is that Creoles did not name Cajuns in their networks and Cajuns did not name Creoles, which was also generally true for all other participants, as well.
+      Thus, even when little ethnic homophily was found, it was not the result of Creoles and Cajuns interacting but rather the result of non-Creoles and non-Cajuns being added to the mix.
 
       \begin{table}[tbhp]
         \caption{Participants with ethnically diverse personal networks}
@@ -579,6 +579,46 @@
       Indeed, Austin described Wayne as a White Creole due to his mother's family name and their origin in Avoyelles Parish where that family would have been considered Creole by the other locals.
       This scenario perhaps implies that the social distance between Cajuns and White Creoles is not necessarily the same as the social distance between Cajuns and Black Creoles.
 
+      \begin{figure}[tbhp]
+        \caption{Distributions of network ethnic homophily by ethnicity}
+        \label{fig:homophily_boxplots}
+        \centering
+        <<fig.height = 0.25 * textheight>>=
+        plotHomophily
+        @
+
+        \caption{Distributions of network ethnic homophily by ethnicity after recoding alters for Gene, Owen, and Tracy}
+        \label{fig:homophily_exploratory_boxplots}
+        \centering
+        <<fig.height = 0.25 * textheight>>=
+        plotHomophilyExploratory
+        @
+
+        \caption{Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma in 2004}
+        \label{fig:homophily_gss_boxplots}
+        \centering
+        <<fig.height = 0.25 * textheight>>=
+        plotHomophilyGss
+        @
+      \end{figure}
+
+      To help provide greater context to the range of homophily indices, it is instructive to compare the primary values with the values derived from recoding Gene, Owen, and Tracy's alters as well as the values derived from the region in general.
+      In terms of recoding Gene, Owen, and Tracy, their alters who were described as having no race, as African-American, and as ``of color'' were respectively recoded as Creole given that these alters may have very well shared that identity with these participants.\footnote{
+        One could possibly make the argument that Deborah's alters could be recoded, as well, but there was little indication of whether the term \lexi{American} might be referring to only Cajuns or only Creoles, in contrast to the others' alters.
+      }
+      In terms of the region in general, data was taken from the GSS for White and Black respondents from the last year that social network questions were asked, 2004.
+      Public data from the GSS cannot be constrained more narrowly to the parishes examined here nor even to just Louisiana, so this data includes Louisiana, Arkansas, Texas, and Oklahoma.
+      The results are shown in the boxplots of Figures \ref{fig:homophily_boxplots}, \ref{fig:homophily_exploratory_boxplots}, and \ref{fig:homophily_gss_boxplots}.
+      
+      The recoding that produced Figure \ref{fig:homophily_exploratory_boxplots} not only greatly shifted the Creole homophily indices towards being more homophilous overall, but it also did so for the Cajun indices.
+      This is because one of the two participants who did not provide network data, Errol, identified as a Cajun.
+      The mean homophily index was assigned to those who had no network data for all the analyses here, and that mean had shifted to being more negative, shifting the Cajun boxplot in turn.
+      However, the greater impact is obviously in the range of homophily values for Creoles, who shift from seemingly being quite spread out to being, probably more accurately, as ethnically homophilous as Cajuns.
+
+      Additionally, whether looking at the initial or the adjusted boxplots for Cajuns and Creoles, it is evident that a fairly categorical result in homophily was more true for the Cajun participants here than even the White population of the region.
+      White respondents in the region had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "White"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "White"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "White"]}), and Black respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "Black"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "Black"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "Black"]}).
+      Such polarized ethnic homophily results in the present study even compared to the unquestionably racialized Americans of the region likely helps explain the results for how subject pronouns vary in relationship to one's ethnic homophily value, as will be seen in the next section.
+
     \subsection{Personal networks' impact on subject pronoun use}
       \label{sec:network_results_pronouns}
       The personal social network data for the participants in this study presents evidence that Louisianians have generally ethnically homophilous networks between Creoles and Cajuns.
@@ -597,42 +637,13 @@
       The raw output for all of the models can be seen in Appendix \ref{app:code_homophily}.
       No factors were significant for any pronoun type.
       While this may have been expected for Creoles given that their EI homophily values are sometimes misleading, Cajuns' networks generally had readily interpretable EI homophily scores.
-      As Figure \ref{fig:homophily_boxplots} shows, Creoles had a number of individuals whose homophily was above zero that probably should not be interpreted as a lack of homophily, whereas Cajuns have a relatively tight distribution in the negative homophily range.
+      As Figure \ref{fig:homophily_boxplots} shows, Creoles had a number of individuals whose homophily was above zero, but those probably should not be interpreted as a lack of homophily, whereas Cajuns have a relatively tight distribution in the negative homophily range.
       Despite this, the degree of homophily had no impact on pronoun realization for this latter group either.
-
-      \begin{figure}[tbhp]
-        \caption{Distributions of network ethnic homophily by ethnicity}
-        \label{fig:homophily_boxplots}
-        \centering
-        <<fig.height = 0.25 * textheight>>=
-        plotHomophily
-        @
-
-        \caption{Distributions of network ethnic homophily by ethnicity after recoding alters for Gene, Owen, and Tracy}
-        \label{fig:homophily_boxplots}
-        \centering
-        <<fig.height = 0.25 * textheight>>=
-        plotHomophilyExploratory
-        @
-
-        \caption{Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma}
-        \label{fig:homophily_gss_boxplots}
-        \centering
-        <<fig.height = 0.25 * textheight>>=
-        plotHomophilyGss
-        @
-      \end{figure}
 
       The amount of data points, one for each participant, is rather small to draw any strong conclusions from this part of the analysis, but the evidence so far suggests that it is not how homophilous one's network is that impacts subject pronoun use but rather just the fact that one is Creole or Cajun.
       The more readily interpretable Cajun EI homophily scores are instructive for this point.
       In line with the racialization of these groups, if one is Cajun, one's network is Cajun.
       In effect, there simply is no significant gradient in how homophilous personal networks are with respect to ethnicity, and so attempting to find a gradient from Cajun-marked pronouns for high homophily networks, a mix of Cajun- and Creole-marked pronouns for diverse networks, and Creole-marked pronouns for low homophily networks is not possible.
-
-      This fairly categorical result in homophily is more true for the Cajun participants here than even the White population of the region.
-      Figure \ref{fig:homophily_gss_boxplots} shows analogous plots using social network data from the GSS for White and Black respondents from the last year that social network questions were asked, 2004.
-      Public data from the GSS cannot be constrained more narrowly to the parishes examined here nor even to just Louisiana, so this data includes Louisiana, Arkansas, Texas, and Oklahoma.
-      White respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "White"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "White"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "White"]}), and Black respondents had a mean racial homophily of \Sexpr{Round(gssHomophilyByRace["Mean", "Black"])} ($SD \approx$ \Sexpr{Round(gssHomophilyByRace["SD", "Black"])}, $N$ = \Sexpr{gssHomophilyByRace["N", "Black"]}).
-      With such polarized ethnic homophily results in the present study even compared to the unquestionably racialized Americans of the region, it is not surprising that no meaningful variation in subject pronoun usage relative to the degree of ethnic homophily could be found.
 
   \section{Discussion}
     The results produced here are not only consistent with racialization but offer insights into why subject pronoun usage varies significantly between Creoles and Cajuns.
