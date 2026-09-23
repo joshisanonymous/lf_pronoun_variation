@@ -287,6 +287,31 @@ tablesSubsetRace <- list(
 tablesEthnicityProps <- lapply(tablesEthnicity, prop.table, margin = 1)
 tablesSubsetRaceProps <- lapply(tablesSubsetRace, prop.table, margin = 1)
 
+# Recoding some participants' alters' ethnicities for exploratory boxplot
+networksExploratory <- networks
+networksExploratory[networksExploratory$Name == "Tracy Roth" &
+                    networksExploratory$`Alter Ethnicity` == "Of Color",
+                    "Alter Ethnicity"] <- "Creole"
+networksExploratory[networksExploratory$Name == "Owen Webre" &
+                    networksExploratory$`Alter Ethnicity` == "African-American",
+                    "Alter Ethnicity"] <- "Creole"
+networksExploratory[networksExploratory$Name == "Gene Delcambre" &
+                    networksExploratory$`Alter Ethnicity` == "No Answer",
+                    "Alter Ethnicity"] <- "Creole"
+
+# Calculate EI homophily indices for each participant
+for(name in participants$Name) {
+  # For whole personal networks
+  homophIndex <- getEIHomophily(networksExploratory, name)
+  participants[participants$Name == name, "Network Ethnic Homophily (exploratory)"] <- homophIndex
+}
+# Clean-up for loop
+rm(list = c("homophIndex", "name"))
+# Dummy code those who gave no network data
+homophilyDummy <- mean(participants$`Network Ethnic Homophily (exploratory)`, na.rm = TRUE)
+participants[participants$Name == "Errol Stoufle", "Network Ethnic Homophily (exploratory)"] <- homophilyDummy
+participants[participants$Name == "Rachel Chenevert", "Network Ethnic Homophily (exploratory)"] <- homophilyDummy
+
 source("maps.R")
 source("gss_homophily.R")
 source("sna.R")

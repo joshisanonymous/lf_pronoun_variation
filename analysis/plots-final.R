@@ -110,6 +110,15 @@ plotHomophily <- ggplot(data = participants,
   coord_flip() +
   theme_bw()
 
+# Exploratory homophily boxplot with recoded alters for those who seemed to just
+# think of broad US categories before local categories when interpreting alters
+plotHomophilyExploratory <- ggplot(data = participants,
+                        aes(x = Ethnicity, y = `Network Ethnic Homophily (exploratory)`)) +
+  geom_boxplot() +
+  geom_jitter(aes(group = Ethnicity), color = "red", size = 2, width = 0.05) +
+  coord_flip() +
+  theme_bw()
+
 # Round(mean(gssNames[gssNames$Ethnicity == "White", "Network Ethnic Homophily"]))
 
 # # French usage by alter type (i.e., coreness)
