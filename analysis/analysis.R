@@ -9,6 +9,7 @@
 # Packages # -----------------------------------------------------------------
 ############
 
+library(showtext)
 library(ggplot2)
 library(ggtext)
 library(ggh4x)
@@ -56,6 +57,20 @@ source("data_cleaning.R")
 # Variables
 color_key <- c("#332288", "#88CCEE", "#44AA99", "#117733", "#999933", "#DDCC77",
                "#CC6677", "#882255", "#AA4499", "#DDDDDD")
+
+# Plot font
+font_add(
+  family = "charis",
+  regular = "CharisSIL-Regular.ttf",
+  italic = "CharisSIL-Italic.ttf",
+  bold = "CharisSIL-Bold.ttf",
+  bolditalic = "CharisSIL-BoldItalic.ttf"
+)
+showtext_auto()
+par(family = "charis")
+theme_set(theme_bw(base_family = "charis"))
+update_geom_defaults("text",  list(family = "charis"))
+update_geom_defaults("label", list(family = "charis"))
 
 # Some pre-analysis prep
 source("subsets.R")

@@ -22,7 +22,6 @@ plotParticipantsEthnRace <- ggplot(
        value.name = "Count"),
     aes(x = Ethnicity, y = Count, fill = Race)) +
   geom_bar(stat = "identity", position = "dodge") +
-  theme_bw() +
   scale_fill_manual(values = color_key) +
   labs(x = "Ethnicity", y = "Count")
 
@@ -89,7 +88,6 @@ parishBar <- ggplot(
   geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
   scale_fill_manual(values = c(color_key[3], color_key[1])) +
   labs(fill = NULL) +
-  theme_bw() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1.05))
 
 # Network graphs --------------------------------------------------------------
@@ -100,15 +98,13 @@ plotHomophilyGss <- ggplot(data = gssNames,
   geom_boxplot() +
   geom_jitter(aes(group = Ethnicity), color = "red", size = 2, width = 0.05) +
   coord_flip() +
-  labs(y = "Network Racial Homophily", x = "Race") +
-  theme_bw()
+  labs(y = "Network Racial Homophily", x = "Race")
 
 plotHomophily <- ggplot(data = participants,
        aes(x = Ethnicity, y = `Network Ethnic Homophily`)) +
   geom_boxplot() +
   geom_jitter(aes(group = Ethnicity), color = "red", size = 2, width = 0.05) +
-  coord_flip() +
-  theme_bw()
+  coord_flip()
 
 # Exploratory homophily boxplot with recoded alters for those who seemed to just
 # think of broad US categories before local categories when interpreting alters
@@ -117,7 +113,6 @@ plotHomophilyExploratory <- ggplot(data = participants,
   geom_boxplot() +
   geom_jitter(aes(group = Ethnicity), color = "red", size = 2, width = 0.05) +
   coord_flip() +
-  theme_bw() +
   labs(y = "Network Ethnic Homophily")
 
 # Round(mean(gssNames[gssNames$Ethnicity == "White", "Network Ethnic Homophily"]))
@@ -133,8 +128,7 @@ plotHomophilyExploratory <- ggplot(data = participants,
 #     fill = French.Frequency
 #   )
 # ) +
-#   geom_bar(stat = "identity", position = "dodge") +
-#   theme_bw()
+#   geom_bar(stat = "identity", position = "dodge")
 # 
 # # Comparison of homophily by French usage
 # homophByLanguage <- ggplot(
@@ -159,8 +153,7 @@ plotHomophilyExploratory <- ggplot(data = participants,
 #     x = Section.of.Network
 #   )
 # ) +
-#   geom_boxplot() +
-#   theme_bw()
+#   geom_boxplot()
 
 # Combined plots --------------------------------------------------------------
 parishBarMap <- ggpubr::ggarrange(

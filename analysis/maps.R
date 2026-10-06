@@ -69,7 +69,7 @@ cities <- geom_text(
   data = majorCitiesPolygons,
   aes(label = majorCities),
   y = majorCitiesCenters$latitude, x = majorCitiesCenters$longitude,
-  size = 4, fontface = "bold")
+  size = 4, fontface = "bold", family = "charis")
 
 mapacadiana <- mapla +
   geom_sf(data = acadiana,

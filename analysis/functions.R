@@ -178,7 +178,6 @@ multinomHomophily <- function(pronoun) {
 plotBar <- function(df, column) {
   ggplot(df, aes(x = !! sym(column))) +
   geom_bar() +
-  theme_bw() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1.05)) +
   labs(y = "Count")
 }
@@ -200,7 +199,6 @@ plotPronoun <- function(df, rotate_labels = FALSE) {
   plot <- ggplot(df, aes(x = ProUnder)) +
     geom_bar() +
     facet_wrap(. ~ ProType) +
-    theme_bw() +
     labs(x = "Pronoun", y = "Count")
   if(rotate_labels == TRUE) {
     plot <- plot + theme(axis.text.x = element_text(angle = 45, hjust = 1))
@@ -212,7 +210,6 @@ plotEthOcc <- function(df) {
   plot <- ggplot(df, aes(x = ProUnder)) +
     geom_bar() +
     facet_wrap(Ethnicity ~ Occupation) +
-    theme_bw() +
     labs(x = "Pronoun", y = "Count")
   return(plot)
 }
@@ -221,7 +218,6 @@ plotEduOcc <- function(df) {
   plot <- ggplot(df, aes(x = ProUnder)) +
     geom_bar() +
     facet_wrap(Education ~ Occupation) +
-    theme_bw() +
     labs(x = "Pronoun", y = "Count")
   return(plot)
 }
@@ -230,7 +226,6 @@ plotParticipant <- function(name, protype) {
   ggplot(data = tokens[tokens$Name == name & tokens$ProType == protype,],
          aes(x = ProUnder)) +
   geom_bar() +
-  theme_bw() +
   labs(x = "Pronoun", y = "Count", title = name)
 }
 
@@ -246,8 +241,7 @@ plotLogitNumAge <- function(pronoun, reference, contrast) {
               color = "#CC6677", linewidth = 1.5) +
     labs(x = "Age", y = paste("Probability of", contrast)) +
     scale_y_continuous(breaks = c(0, 1), labels = c(reference, contrast), limits = c(-0.1, 1.1)) +
-    scale_x_reverse() +
-    theme_bw()
+    scale_x_reverse()
 }
 
 plotLogitBarPredType <- function(pronoun) {
