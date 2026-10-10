@@ -1,4 +1,12 @@
-\abstract{
+\chapter*{
+  \doctitle\\
+  by\\
+  \docauthor\\
+  Under the Direction of Jon Forrest\\
+  ABSTRACT
+}
+  \thispagestyle{empty}
+  \pagestyle{empty}
   % What overall was done
     This study presents an examination of the racialization of Creoles and Cajuns in Louisiana through their use of French and Creole.
   % What prompts this being done
@@ -18,4 +26,7 @@
   % What are the implications
     As such, this study provides new documentation of French and Creole grammatical systems while also providing insights into how these systems interact with the social worlds of Creoles and Cajuns.
     The present work furthermore adds to the relatively recent sociolinguistic literature that aims to better incorporate work on race in sociology into the field.
-}
+
+  \noindent\begin{tabular}{p{0.17\textwidth} p{0.78\textwidth}}
+    INDEX WORDS: & sociolinguistics, Louisiana, French, Louisiana French, Louisiana Creole, race, racialization, Creoles, Cajuns, social networks, social network analysis, discourse analysis
+  \end{tabular}

@@ -7,18 +7,19 @@
   This has led to a situation where South Louisiana locals will even sometimes derisively refer to North Louisiana as ``South Arkansas'', a reference to the perceived indistinguishability of North Louisiana from the rest of the mostly Anglo, Protestant American South.
 
   \begin{figure}[tbhp]
-    \caption{Acadiana according to HCR 496 \parencite{trepanier_french_1988}}
-    \label{fig:mapacadiana}
+    \centering
     <<>>=
     mapacadianacities
     @
+    \caption{Acadiana according to HCR 496 \parencite{trepanier_french_1988}}
+    \label{fig:mapacadiana}
   \end{figure}
 
   For sociolinguists, the two major social categories of South Louisiana, Creole and Cajun, constitute a major point of interest.
   These will be referred to as ethnic categories throughout this study in a rather agnostic way as the goal here is to provide evidence that they have become racialized categories \parencite{omi_racial_2015}.
   The winding histories of the definitions of the two terms, which will be discussed in Sections \ref{sec:creole_history} and \ref{sec:cajun_history}, certainly hint at this racialization.
-  In general, the term \lexi{Creole} has referred to various groups based on geographical origin, status as free or enslaved, or skin color, ending up as a something of a synonym for Black for many people today, though the modern-day use of the term certainly maintains some variability.
-  The term \lexi{Cajun}, on the other hand, started as a term referring to the Acadian diaspora in Louisiana and has morphed into something that refers to people from various backgrounds with the notable restriction that Cajun and Black identities are mutually exclusive.
+  In general, the term \lexi{Creole} has referred to various groups based on geographical origin, status as free or enslaved, or skin color, ending up attested as a something of a synonym for Black for many people today, though the modern-day use of the term certainly maintains some variability.
+  The term \lexi{Cajun}, on the other hand, started as a term referring to the Acadian diaspora in Louisiana and has been attested as morphing into something that refers to people from various backgrounds with the notable restriction that Cajun and Black identities are mutually exclusive.
   These categories were initially born out of Louisiana's history as a French and Spanish colony before becoming part of the United States, and as such, maintain a regional uniqueness while also coming to be influenced by the racialized social system \parencite{bonilla-silva_rethinking_1997} of the broader US.
   
   Of more linguistic interest, language is a distinguishing feature of South Louisiana in that there is a history of Creoles and Cajuns speaking French and Creole (F\&C)\footnote{

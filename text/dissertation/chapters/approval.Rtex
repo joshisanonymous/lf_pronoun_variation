@@ -1,0 +1,46 @@
+\newgeometry{top=1.75in, bottom=1in, left=1in, right=1in}
+\doublespacing
+\afterpage{\restoregeometry}
+\thispagestyle{empty}
+
+\vfill
+
+\begin{center}
+  \doctitle
+\end{center}
+
+\vfill
+
+\begin{center}
+  by
+\end{center}
+
+\vfill
+
+\begin{center}
+  \docauthor
+\end{center}
+
+\vfill
+
+\begin{flushright}
+  \begin{tabular}{l l}
+    Major Professor: & Jon Forrest\\
+                      & \\
+    Committee:       & Diana Ranson\\
+                      & Joshua Bousquette\\
+  \end{tabular}
+\end{flushright}
+
+\vfill
+
+\begin{flushleft}
+  \begin{tabular}{l}
+    Electronic Version Approved:\\
+    \\
+    Ron Walcott\\
+    Vice Provost for Graduate Education and Dean of the Graduate School\\
+    The University of Georgia\\
+    ?? 2026\\
+  \end{tabular}
+\end{flushleft}

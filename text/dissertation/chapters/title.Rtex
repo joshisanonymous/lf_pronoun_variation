@@ -1,0 +1,43 @@
+\newgeometry{top=1.75in, bottom=1in, left=1in, right=1in}
+\doublespacing
+\afterpage{\restoregeometry}
+\thispagestyle{empty}
+
+\vfill
+
+\begin{center}
+  \doctitle
+\end{center}
+
+\vfill
+
+\begin{center}
+  by
+\end{center}
+
+\vfill
+
+\begin{center}
+  \docauthor\\
+  B.A., Tulane University, 2014\\
+  M.A., Université du Québec à Montréal, 2018
+\end{center}
+
+\vfill
+
+\begin{center}
+  A Dissertation Submitted to the Graduate Faculty of The University of Georgia in Partial Fulfillment of the Requirements for the Degree
+\end{center}
+
+\vfill
+
+\begin{center}
+  DOCTOR OF PHILOSOPHY
+\end{center}
+
+\vfill
+
+\begin{center}
+  ATHENS, GEORGIA\\
+  \docdate
+\end{center}

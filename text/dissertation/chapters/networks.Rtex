@@ -415,12 +415,12 @@
     Those who are more connected are almost all Cajuns with the exception of Creoles Owen and James.
 
     \begin{figure}[tbhp]
-      \caption{All participants and alters}
-      \label{fig:network_whole}
       \centering
       <<fig.height = 0.6 * textheight>>=
       networkWholePlot()
       @
+      \caption{All participants and alters}
+      \label{fig:network_whole}
     \end{figure}
 
     These are good first indications that Creoles and Cajuns not only have ethnically homophilous personal networks but are also ethnically segregated, but as no attempt was made here to elaborate the whole community network, no whole network quantitative measures can be used with reliability to further establish that these indications are accurate.
@@ -502,12 +502,12 @@
       There is thus good reason to doubt that Tracy and Owen lack ethnic homophily in their networks.
 
       \begin{figure}[tbhp]
-        \caption{Ethnicities assigned to alters by participants}
-        \label{fig:alter_ethnicities}
         \centering
         <<fig.height = 0.4 * textheight>>=
         plotAlterEthnicity
         @
+        \caption{Ethnicities assigned to alters by participants}
+        \label{fig:alter_ethnicities}
       \end{figure}
 
       Tracy and Owen's alters were all given the same ethnicities by them, but some participants whose networks showed little ethnic homophily in fact had quite diverse personal networks.
@@ -544,6 +544,7 @@
                                 &                                                                                                              &                                                                                                         &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][8]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][8]} \\
                                 &                                                                                                              &                                                                                                         &               & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Ethnicity"][9]} & \Sexpr{networksUncollapsedEth[networksUncollapsedEth$Name == "Lillian Himel", "Alter Type"][9]} \\
         \end{tabular}}
+
         {\footnotesize
         Alter ethnicities listed as originally given by participants.
         }
@@ -580,26 +581,26 @@
       This scenario perhaps implies that the social distance between Cajuns and White Creoles is not necessarily the same as the social distance between Cajuns and Black Creoles.
 
       \begin{figure}[tbhp]
-        \caption{Distributions of network ethnic homophily by ethnicity}
-        \label{fig:homophily_boxplots}
         \centering
         <<fig.height = 0.25 * textheight>>=
         plotHomophily
         @
+        \caption{Distributions of network ethnic homophily by ethnicity}
+        \label{fig:homophily_boxplots}
 
-        \caption{Distributions of network ethnic homophily by ethnicity after recoding alters for Gene, Owen, and Tracy}
-        \label{fig:homophily_exploratory_boxplots}
         \centering
         <<fig.height = 0.25 * textheight>>=
         plotHomophilyExploratory
         @
+        \caption{Distributions of network ethnic homophily by ethnicity after recoding alters for Gene, Owen, and Tracy}
+        \label{fig:homophily_exploratory_boxplots}
 
-        \caption{Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma in 2004}
-        \label{fig:homophily_gss_boxplots}
         \centering
         <<fig.height = 0.25 * textheight>>=
         plotHomophilyGss
         @
+        \caption{Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma in 2004}
+        \label{fig:homophily_gss_boxplots}
       \end{figure}
 
       To help provide greater context to the range of homophily indices, it is instructive to compare the primary values with the values derived from recoding Gene, Owen, and Tracy's alters as well as the values derived from the region in general.
@@ -627,9 +628,9 @@
       In other words, Creoles and Cajuns may use different subject pronouns because they have not had the sort of close interaction or relationships that would lead to broad diffusion of these particularly salient linguistic features, although the fact that at least some Cajuns use Creole-marked pronouns and some Creoles Cajun-marked pronouns suggests that the conditions were right for diffusion at some point in in the past before the times of the participants.
       What was not examined in the subject pronoun models, however, was whether the degree of ethnic homophily in personal networks is predictive of pronoun use.
       In other words, the question still remains as to whether those Creoles with less homophilous networks were more likely to use non-Creole pronouns than Creoles with more homophilous networks and \foreign{vice versa} for Cajuns.
-      For each pronoun type, Model \ref{eq:regression_model_homophily} was therefore fit to answer the primary research question of this chapter.
+      For each pronoun type, the model in Equation \ref{eq:regression_model_homophily} was therefore fit to answer the primary research question of this chapter.
 
-      \begin{enumerate}[resume=equations]
+      \begin{enumerate}[label=\roman*., ref=\roman*, resume=equations]
         \item Pronoun Type $\sim$ Network Ethnic Homophily * Ethnicity + (1|Speaker) + (1|Predicate)\label{eq:regression_model_homophily}
       \end{enumerate}
       

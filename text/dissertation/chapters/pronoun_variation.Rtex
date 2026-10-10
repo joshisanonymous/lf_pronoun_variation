@@ -927,17 +927,17 @@
 
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{3pl}\label{fig:gender_3pl}
         <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotsGender$thirdPl
         @
+        \caption{3pl}\label{fig:gender_3pl}
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{3pl (collapsed)}\label{fig:gender_3pl_collapsed}
         <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotThirdPlCollapsedGender
         @
+        \caption{3pl (collapsed)}\label{fig:gender_3pl_collapsed}
       \end{minipage}
     \end{figure}
 
@@ -999,11 +999,11 @@
     \begin{figure}[tbhp]
       % \captionsetup{font={footnotesize}}
       \centering
-      \caption{3pl pronouns by following verb type}
-      \label{fig:3pl_predtype}
       <<fig.height = 0.3 * textheight>>=
       plotsPredicate$thirdPl
       @
+      \caption{3pl pronouns by following verb type}
+      \label{fig:3pl_predtype}
     \end{figure}
 
     A somewhat unexpected structural result was that the odds of producing \lexi{je} for 1sg were higher before auxiliaries than \lexi{mo} (intercept $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}; coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Pr(>|z|)"])}) or a null pronoun (intercept $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}; coefficient $\approx$ \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Estimate"])}; $P <$ \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Pr(>|z|)"])}) as this is not a constraint that had been previously found.
@@ -1038,21 +1038,21 @@
       \label{fig:age_results}
 
       \begin{minipage}{0.9\linewidth}
-        \caption{Predicted and observed values for 2sg.T}
-        \label{fig:2sg_age}
         \centering
         <<fig.height = 0.35 * textheight>>=
         plotsModelAge$secondSgT
         @
+        \caption{Predicted and observed values for 2sg.T}
+        \label{fig:2sg_age}
       \end{minipage}
 
       \begin{minipage}{0.9\linewidth}
-        \caption{Predicted and observed values for 3pl}
-        \label{fig:3pl_age}
         \centering
         <<fig.height = 0.35 * textheight>>=
         plotsModelAge$thirdPl
         @
+        \caption{Predicted and observed values for 3pl}
+        \label{fig:3pl_age}
       \end{minipage}
 
       {\footnotesize
@@ -1124,12 +1124,12 @@
     As will be seen for the effects of ethnicity, this aligns well with the racialization of Cajuns, the primary users of \lexi{ça}, as a higher status group than Creoles, the primary users of \lexi{yé},
 
     \begin{figure}[tbhp]
-      \caption{Participants' exposure to institutional French relative to their education levels}
-      \label{fig:education_by_institutionalFr}
       \centering
       <<fig.height = 0.3 * textheight, fig.width = 0.75 * textwidth>>=
       plotEduInst
       @
+      \caption{Participants' exposure to institutional French relative to their education levels}
+      \label{fig:education_by_institutionalFr}
     \end{figure}
     
     The primary factor of interest in this analysis is ethnicity, meaning being Creole or Cajun, which was an even more consistently significant social factor than exposure to institutional French.
@@ -1156,7 +1156,7 @@
             I went to the store.}
       \item[] \longtrans{Lucille (Cajun): And you were more raised around Creole.
             In Ville Platte, Black people in Ville Platte spoke Cajun French from what I remember.}
-      \item[] \longtrans{Cynthia: Yes, there are Black people who speak French like us, but there are White people who speak Creole like Black people.}]
+      \item[] \longtrans{Cynthia: Yes, there are Black people who speak French like us, but there are White people who speak Creole like Black people.}
     \end{enumerate}
 
     \begin{table}[tbhp]
@@ -1214,12 +1214,12 @@
     In effect, one cannot claim to be Cajun and Black at the same time, and although one can do the inverse, it is not typical.
 
     \begin{figure}[tbhp]
-      \caption{Participants' race relative to their ethnicity}
-      \label{fig:ethnicity_by_race}
       \centering
       <<fig.height = 0.3 * textheight, fig.width = 0.75 * textwidth>>=
       plotParticipantsEthnRace
       @
+      \caption{Participants' race relative to their ethnicity}
+      \label{fig:ethnicity_by_race}
     \end{figure}
 
     For the two participants who did claim White Creole identities, Deborah and Jerry, their subject pronouns were not those traditionally described as belonging to Louisiana Creole but rather those typical of descriptions of Louisiana French.
@@ -1237,55 +1237,55 @@
 
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{1sg}\label{fig:subset_race_1sg}
-        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$firstSg
         @
+        \caption{1sg}\label{fig:subset_race_1sg}
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{1pl}\label{fig:subset_race_1pl}
-        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$firstPl
         @
+        \caption{1pl}\label{fig:subset_race_1pl}
       \end{minipage}
 
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{2sg.T}\label{fig:subset_race_2sgT}
-        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$secondSgT
         @
+        \caption{2sg.T}\label{fig:subset_race_2sgT}
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{impersonal}\label{fig:subset_race_impersonal}
-        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$impersonal
         @
+        \caption{impersonal}\label{fig:subset_race_impersonal}
       \end{minipage}
 
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{3sg.F}\label{fig:subset_race_3sgF}
-        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$thirdSgF
         @
+        \caption{3sg.F}\label{fig:subset_race_3sgF}
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{3sg.M}\label{fig:subset_race_3sgM}
-        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$thirdSgM
         @
+        \caption{3sg.M}\label{fig:subset_race_3sgM}
       \end{minipage}
 
       \begin{minipage}{0.45\linewidth}
         \centering
-        \caption{3pl}\label{fig:subset_race_3pl}
-        <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
+        <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$thirdPl
         @
+        \caption{3pl}\label{fig:subset_race_3pl}
       \end{minipage}
 
       {\footnotesize

@@ -2,17 +2,25 @@
 % Compile with XeLaTeX %
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[oneside]{book}
-  \setcounter{secnumdepth}{3}
+\documentclass[11pt, oneside]{book}
   % Packages and settings
+  \setcounter{secnumdepth}{3}
+  \setcounter{tocdepth}{1}
+  \usepackage{titlesec}
+    \titleformat{\chapter}{\normalfont\normalsize\bfseries\filcenter}{\chaptertitlename\ \thechapter}{1em}{}
+      \titlespacing{\chapter}{0pt}{*0}{20pt}
+    \titleformat{\section}{\normalfont\normalsize\selectfont\bfseries}{\thesection}{1em}{}
+    \titleformat{\subsection}{\normalfont\normalsize\selectfont\bfseries}{\thesubsection}{1em}{}
+    \titleformat{\subsubsection}{\normalfont\normalsize\selectfont\bfseries}{\thesubsubsection}{1em}{}
   \usepackage{amsmath}
   \usepackage{fontspec}
     \setmainfont{Charis SIL}
   \usepackage[style=apa, backend=biber]{biblatex}
     \addbibresource{../References.bib}
   \usepackage{hyperref}
-    \hypersetup{colorlinks=true, allcolors=blue}
-  \usepackage[margin=1in]{geometry}
+    \hypersetup{colorlinks=true, allcolors=black}
+  \usepackage[paper=letterpaper, top=1in, right=1in, bottom=1in, left=1in]{geometry}
+  \usepackage{afterpage}
   \usepackage{setspace}
   \usepackage{siunitx}
     \sisetup{group-minimum-digits=4,
@@ -36,9 +44,18 @@
   \usepackage{numname}
 
   % Document information
-  \title{Racialization in the language of Creoles and Cajuns}
-  \author{Joshua McNeill}
-  \date{\today}
+  \title{\doctitle}
+  \author{\docauthor}
+  \date{\docdate}
+
+  % Adjustments to existing commands
+  \let\oldchapter\chapter
+  \renewcommand{\chapter}{%
+    \newgeometry{top=1.75in, bottom=1in, left=1in, right=1in}%
+    \doublespacing%
+    \afterpage{\restoregeometry}%
+    \oldchapter%
+  }
 
   % New commands
   \newcommand{\orth}[1]{$\langle$#1$\rangle$}
@@ -48,10 +65,6 @@
   \newcommand{\code}[1]{\texttt{#1}}
   \newcommand{\foreign}[1]{\textit{#1}}
   \newcommand{\longtrans}[1]{\textit{#1}}
-  \newcommand{\abstract}[1]{
-    \chapter*{\centering Abstract}
-    #1
-  }
   \newcommand{\court}[1]{\textit{#1}}
   \newcommand{\titlebook}[1]{\textit{#1}}
   \newcommand{\codeEn}[1]{\textsc{#1}}
@@ -63,6 +76,9 @@
       \unskip#1\unskip
     \fi
   }
+  \newcommand{\docdate}{2026}
+  \newcommand{\docauthor}{JOSHUA A. MCNEILL}
+  \newcommand{\doctitle}{RACIALIZATION IN THE LANGUAGE OF CREOLES AND CAJUNS}
 
   % Color palette
   \newcommand{\colorone}[1]{\textcolor[HTML]{332288}{\textbf{#1}}}
@@ -105,13 +121,27 @@
   textwidth <- 6.5
   textheight <- 9
   @
-  \doublespacing
+
+  % Before front matter
+    <<child = "./chapters/abstract.Rtex">>=
+    @
+  
+    \doublespacing
+    <<child = "./chapters/title.Rtex">>=
+    @
 
   \frontmatter
-    \maketitle
-    <<child = "./chapters/front.Rtex">>=
+    \pagestyle{plain}
+    \setcounter{page}{2}
+    <<child = "./chapters/copyright.Rtex">>=
+    @
+    <<child = "./chapters/approval.Rtex">>=
+    @
+    <<child = "./chapters/acknowledgements.Rtex">>=
     @
     \tableofcontents
+    \listoftables
+    \listoffigures
 
   \mainmatter
     <<child = "./chapters/intro.Rtex">>=
