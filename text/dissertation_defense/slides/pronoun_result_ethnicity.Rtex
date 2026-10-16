@@ -1,0 +1,42 @@
+\begin{frame}{Ethnicity}
+  \begin{center}
+    \begin{tabular}{l c @{ $\to$ } c r r r l}
+                    & \multicolumn{4}{c}{Response Levels: Creole $\to$ Cajun} \\
+      Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
+      \hline
+      1sg          & je   & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}          &
+                                  \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~EthnicityCajun", "Estimate"])}       &
+                                  \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~EthnicityCajun", "Pr(>|z|)"])}     & \\
+                    & je   & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}         &
+                                  \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~EthnicityCajun", "Estimate"])}      &
+                                  \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~EthnicityCajun", "Pr(>|z|)"])}    &*\\
+      2sg.T        & tu   & to  & \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"])}       &
+                                  \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~EthnicityCajun", "Estimate"])}    &
+                                  \Sexpr{Ceiling(logitModelSummaries$secondSgT$coefficients["to~EthnicityCajun", "Pr(>|z|)"])}  &*\\
+      3sg.F        & elle & li  & \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~(Intercept)", "Estimate"])}        &
+                                  \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~EthnicityCajun", "Estimate"])}     &
+                                  \Sexpr{Ceiling(logitModelSummaries$thirdSgF$coefficients["li~EthnicityCajun", "Pr(>|z|)"])}   &*\\
+      3sg.M        & il   & li  & \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}        &
+                                  \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~EthnicityCajun", "Estimate"])}     &
+                                  \Sexpr{Ceiling(logitModelSummaries$thirdSgM$coefficients["li~EthnicityCajun", "Pr(>|z|)"])}   &*\\
+      1pl          & on   & no  & \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~(Intercept)", "Estimate"])}         &
+                                  \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~EthnicityCajun", "Estimate"])}      &
+                                  \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~EthnicityCajun", "Pr(>|z|)"])}    &*\\
+      3pl          & ça   & ils & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}        &
+                                  \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~EthnicityCajun", "Estimate"])}     &
+                                  \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~EthnicityCajun", "Pr(>|z|)"])}   & \\
+                    & ça   & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}         &
+                                  \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~EthnicityCajun", "Estimate"])}      &
+                                  \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~EthnicityCajun", "Pr(>|z|)"])}    &*\\
+      expletive    & ø    & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}       &
+                                  \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~EthnicityCajun", "Estimate"])}    &
+                                  \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~EthnicityCajun", "Pr(>|z|)"])}  & \\
+                    & ø    & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}       &
+                                  \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~EthnicityCajun", "Estimate"])}    &
+                                  \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~EthnicityCajun", "Pr(>|z|)"])}  & \\
+      impersonal   & tu   & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}      &
+                                  \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~EthnicityCajun", "Estimate"])}   &
+                                  \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~EthnicityCajun", "Pr(>|z|)"])} &*\\
+    \end{tabular}
+  \end{center}
+\end{frame}

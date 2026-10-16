@@ -1,0 +1,42 @@
+\begin{frame}{Following verb type}
+  \begin{center}
+    \begin{tabular}{l c @{ $\to$ } c r r r l}
+                   & \multicolumn{4}{c}{Response Levels: Lexical $\to$ Auxiliary} \\
+      Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
+      \hline
+      1sg          & je   & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}             &
+                                  \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Estimate"])}       &
+                                  \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Pr(>|z|)"])}     &*\\
+                   & je   & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}            &
+                                  \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Estimate"])}      &
+                                  \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["mo~PredTypeauxiliary", "Pr(>|z|)"])}    &*\\
+      2sg.T        & tu   & to  & \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~(Intercept)", "Estimate"])}          &
+                                  \Sexpr{Round(logitModelSummaries$secondSgT$coefficients["to~PredTypeauxiliary", "Estimate"])}    &
+                                  \Sexpr{Ceiling(logitModelSummaries$secondSgT$coefficients["to~PredTypeauxiliary", "Pr(>|z|)"])}  & \\
+      3sg.F        & elle & li  & \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~(Intercept)", "Estimate"])}           &
+                                  \Sexpr{Round(logitModelSummaries$thirdSgF$coefficients["li~PredTypeauxiliary", "Estimate"])}     &
+                                  \Sexpr{Ceiling(logitModelSummaries$thirdSgF$coefficients["li~PredTypeauxiliary", "Pr(>|z|)"])}   & \\
+      3sg.M        & il   & li  & \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~(Intercept)", "Estimate"])}           &
+                                  \Sexpr{Round(logitModelSummaries$thirdSgM$coefficients["li~PredTypeauxiliary", "Estimate"])}     &
+                                  \Sexpr{Ceiling(logitModelSummaries$thirdSgM$coefficients["li~PredTypeauxiliary", "Pr(>|z|)"])}   & \\
+      1pl          & on   & no  & \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~(Intercept)", "Estimate"])}            &
+                                  \Sexpr{Round(logitModelSummaries$firstPl$coefficients["no~PredTypeauxiliary", "Estimate"])}      &
+                                  \Sexpr{Ceiling(logitModelSummaries$firstPl$coefficients["no~PredTypeauxiliary", "Pr(>|z|)"])}    & \\
+      3pl          & ça   & ils & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~(Intercept)", "Estimate"])}           &
+                                  \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["ils~PredTypeauxiliary", "Estimate"])}     &
+                                  \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["ils~PredTypeauxiliary", "Pr(>|z|)"])}   &*\\
+                   & ça   & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}            &
+                                  \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~PredTypeauxiliary", "Estimate"])}      &
+                                  \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~PredTypeauxiliary", "Pr(>|z|)"])}    & \\
+      expletive    & ø    & ça  & N/A &
+                                  N/A &
+                                  N/A & \\
+                   & ø    & il  & N/A &
+                                  N/A &
+                                  N/A & \\
+      impersonal   & tu   & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}         &
+                                  \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~PredTypeauxiliary", "Estimate"])}   &
+                                  \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~PredTypeauxiliary", "Pr(>|z|)"])} & \\
+    \end{tabular}
+  \end{center}
+\end{frame}

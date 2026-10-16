@@ -37,6 +37,18 @@ plotEduInst <- ggplot(melt(tablesSocial$educationInst,
   scale_fill_manual(values = color_key) +
   labs(x = "Insitutional French Instruction", y = "Count")
 
+# Ethnicity by gender
+plotEthGend <- ggplot(melt(tablesSocial$ethnicityGend,
+                           varnames = c("Gender", "Ethnicity"),
+                           value.name = "Count"),
+                      aes(x = Ethnicity, y = Count, fill = Ethnicity)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(. ~ Gender) +
+  theme(text=element_text(size=15), legend.text = element_markdown(),
+        legend.position = "none") +
+  scale_fill_manual(values = color_key) +
+  labs(x = "Gender", y = "Count")
+
 # Translation
 ethByRaceBarFR <- ethByRaceBar +
   scale_fill_manual(values = color_key,

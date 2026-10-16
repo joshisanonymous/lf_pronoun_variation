@@ -1,0 +1,16 @@
+\begin{frame}{The location}
+  \begin{columns}
+    \column{0.5\textwidth}
+      <<fig.height = 0.7 * textheight, fig.width = 0.7 * textwidth>>=
+      mapfocus
+      @
+      
+      Parishes of Lafayette, St Landry, and St Martin
+    \column{0.5\textwidth}
+      Important aspects of this region:
+      \begin{enumerate}
+        \item French and Creole have been said to be spoken there \smallcite{klingler_language_2003, neumann-holzschuh_creole_1985, rottet_language_1995}
+        \item Creoles and Cajuns have been there historically and today \smallcite{brasseaux_foundings_1987, landry_creole_2016}
+      \end{enumerate}
+  \end{columns}
+\end{frame}

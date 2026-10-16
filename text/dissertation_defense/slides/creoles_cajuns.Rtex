@@ -1,0 +1,20 @@
+\begin{frame}{Creoles and Cajuns}
+  \begin{center}
+    \begin{tabular}{| p{0.16\textwidth} | p{0.32\textwidth} | p{0.32\textwidth} |}
+      \hline
+      \alert{Period}    & \alert{Creole}                                                 & \alert{Cajun}\\
+      \hline
+      Colonial          & Native-born                                                    & \multirow{2}*{\parbox{0.28\textwidth}{Acadian diaspora}}\\
+      \cline{1-2}
+      19th cent.        & Native-born (incl. Free people of color)                       & \\
+      \hline
+      Post-Civil War    & White aristocratic South Louisianians                          & \multirow{2}*{\parbox{0.28\textwidth}{Poor Louisianians of French descent}}\\
+      \cline{1-2}
+      20th cent.        & \multirow{2}*{\parbox{0.28\textwidth}{Black (or mixed Black)}} & \\
+      \cline{1-1}                                                                        \cline{3-3}
+      Post-Civil Rights &                                                                & White South Louisianians\\
+      \hline
+    \end{tabular}
+  \end{center}
+  French and Creole (F\&C) have traditionally played a role in defining these categories
+\end{frame}

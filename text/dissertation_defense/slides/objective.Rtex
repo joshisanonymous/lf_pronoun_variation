@@ -1,0 +1,18 @@
+\begin{frame}{Objective}
+  \begin{columns}
+    \column{0.6\textwidth}
+      <<fig.height = 0.7 * textheight, fig.width = 0.7 * textwidth>>=
+      mapacadianacities
+      @
+    \column{0.4\textwidth}
+      To examine evidence of the racialization of 
+      \href{https://youtu.be/QodpvU-Z2PI?si=9EqahgQqa0YJG8Gb}{
+      Creoles and Cajuns
+      }
+      \begin{itemize}
+        \item Creole $\to$ Black
+        \item Cajun $\to$ White
+        \item[] \smallcite{eble_creole_2008, klingler_language_2003}
+      \end{itemize}
+  \end{columns}
+\end{frame}

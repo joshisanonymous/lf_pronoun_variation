@@ -1,0 +1,24 @@
+\begin{frame}{Racialization}
+  \begin{center}
+    \begin{tikzpicture}[
+      box/.style={draw,
+          minimum width=4cm, minimum height=1.6cm,
+          text width=3.6cm, align=center,
+          font=\small
+        },
+        arr/.style={-{Stealth[length=3mm]}, thick},
+        node distance=1.5cm and 2cm
+      ]
+
+      \node[box] (A)             {Desirable resource(s)};
+      \node[box, right=of A] (B) {Identification of a group};
+      \node[box, below=of A] (C) {Dehumanizing that group};
+      \node[box, below=of B] (D) {Exploiting that group for resource(s)};
+
+      \draw[arr] (A) -- (B);
+      \draw[arr] (B.south) -- ++(0,-0.5) -| (C.north);
+      \draw[arr] (C) -- (D);
+    \end{tikzpicture}
+  \end{center}
+  The results of this process \smallcite{omi_racial_2015} are maintained by a racialized social system \smallcite{bonilla-silva_rethinking_1997}
+\end{frame}

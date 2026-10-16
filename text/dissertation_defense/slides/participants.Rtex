@@ -1,0 +1,36 @@
+\begin{frame}{Participants}
+  % What variables were collected
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{center}
+        $N = \Sexpr{nrow(participants)}$
+        
+        <<fig.height = 0.7 * textheight, fig.width = 0.7 * textwidth>>=
+        plotEthGend
+        @
+      \end{center}
+    \column{0.5\textwidth}
+      \only<1>{
+        Social variables:
+        \begin{enumerate}
+          \item Age
+          \item Institutional French exposure
+          \item \emph{F\&C background}
+          \item \emph{Ethnic homophily}
+          \item \emph{Occupational type}
+          \item \emph{Education}
+          \item \emph{Parish raised}
+          \item \emph{Parish residence}
+          \item \emph{Race}*
+        \end{enumerate}
+      }
+      \only<2->{
+        Data collection:
+        \begin{enumerate}
+          \item Sociolinguistic interviews
+          \item $\approx$ 1 hour per participant
+          \item \Sexpr{round(sum(participants$`Total Length`), 1)} hours total
+        \end{enumerate}
+      }
+  \end{columns}
+\end{frame}

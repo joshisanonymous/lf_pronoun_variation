@@ -3,7 +3,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass{beamer}
-
   % Packages and settings
   \usetheme{CambridgeUS}
   \usecolortheme{seagull}
@@ -22,8 +21,6 @@
              group-separator={,},
              detect-all}
   \usepackage{phonrule}
-  \usepackage{enumitem}
-    \setlist{parsep=0pt}
   \usepackage{multirow}
   \usepackage{tabularx}
     \newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
@@ -36,7 +33,8 @@
   \usepackage{pbox}
   \usepackage{xcolor}
   \usepackage{fancyvrb}
-  \usepackage{numname}
+  \usepackage{tikz}
+    \usetikzlibrary{positioning, arrows.meta}
 
   % Document information
   \title[Creole and Cajun Racialization]{Racialization in the Language of Creoles and Cajuns}
@@ -56,6 +54,7 @@
   \newcommand{\titlebook}[1]{\textit{#1}}
   \newcommand{\codeEn}[1]{\textsc{#1}}
   \newcommand{\song}[1]{``#1''}
+  \newcommand{\smallcite}[1]{{\scriptsize\parencite{#1}}}
   \newcommand{\convertSmallNumber}[1]{
     \ifnum#1<11\relax
       \unskip\numtoname{#1}\unskip
@@ -85,15 +84,6 @@
   \newcommand{\backseven}[1]{\colorbox[HTML]{CC6677}{\textbf{#1}}}
   \newcommand{\backeight}[1]{\colorbox[HTML]{882255}{\textbf{#1}}}
 
-  % \newcommand{\contrastone}[1]{\colorbox[HTML]{EF4444}{\textbf{#1}}}
-  % \newcommand{\contrasttwo}[1]{\colorbox[HTML]{FAA31B}{\textbf{#1}}}
-  % \newcommand{\contrastthree}[1]{\colorbox[HTML]{FFF000}{\textbf{#1}}}
-  % \newcommand{\contrastfour}[1]{\colorbox[HTML]{82C341}{\textbf{#1}}}
-  % \newcommand{\contrastfive}[1]{\colorbox[HTML]{009F75}{\textbf{#1}}}
-  % \newcommand{\contrastsix}[1]{\colorbox[HTML]{88C6ED}{\textbf{#1}}}
-  % \newcommand{\contrastseven}[1]{\colorbox[HTML]{394BA0}{\textbf{#1}}}
-  % \newcommand{\contrasteight}[1]{\colorbox[HTML]{B54799}{\textbf{#1}}}
-
 \begin{document}
   <<setup, echo = FALSE, message = FALSE, warning = FALSE, results = "hide">>=
   opts_chunk$set(echo = FALSE,
@@ -102,8 +92,8 @@
                 results = "asis")
   setwd("../../analysis/")
   source("analysis.R", local = knitr::knit_global())
-  textwidth <- 6.5
-  textheight <- 9
+  textwidth <- 5.04
+  textheight <- 3.78
   @
 
   \begin{frame}
@@ -113,18 +103,100 @@
     }
   \end{frame}
 
+  % Opening
+  <<child = "./slides/objective.Rtex">>=
+  @
+
   \begin{frame}
-    \tableofcontents[hideallsubsections]
+    \tableofcontents[hideallsubsections, sections={1-6}]
   \end{frame}
 
-  \AtBeginSection[]{
-    \begin{frame}
-      \tableofcontents[currentsection,
-                       hideallsubsections]
-    \end{frame}
-  }
-
-  \section{Section}
-    <<child = "./slides/section.Rtex">>=
+  \section{Introduction}
+    % Race
+      % How do we understand race here
+    <<child = "./slides/racialization.Rtex">>=
     @
+      % How race has been used in sociolinguistics
+    <<child = "./slides/race_sociolinguistics.Rtex">>=
+    @
+
+    % Creoles and Cajuns
+    <<child = "./slides/creoles_cajuns.Rtex">>=
+    @
+
+  \section{Sample}
+    % Location
+    <<child = "./slides/location.Rtex">>=
+    @
+
+    % Participants (social variables)
+    <<child = "./slides/participants.Rtex">>=
+    @
+
+  \begin{frame}
+    \tableofcontents[sections={1-2}, sectionstyle=shaded]
+    \tableofcontents[sections={3-6}, sectionstyle=show]
+  \end{frame}
+
+  \section{Subject Pronoun Variation in F\&C}
+    % Essentially, this is about determining if pronouns mark/distinguish speakers as Creole or Cajun
+      % RQ1: Do F\&C subject pronouns vary systematically between Creole and Cajun speakers?
+    <<child = "./slides/pronoun_opening.Rtex">>=
+    @
+
+    % F\&C subject pronoun variation in the literature
+    <<child = "./slides/pronoun_lit.Rtex">>=
+    @
+
+    % Methods
+    <<child = "./slides/pronoun_model.Rtex">>=
+    @
+    
+    % Results
+      % Say which factors were significant other than ethnicity
+    <<child = "./slides/pronoun_result_verb.Rtex">>=
+    @
+    <<child = "./slides/pronoun_result_institute.Rtex">>=
+    @
+      % Show data on ethnicity
+    <<child = "./slides/pronoun_result_ethnicity.Rtex">>=
+    @
+
+    % Yes, these are consistent with racialization, more so than Rottet and Dajko's
+    <<child = "./slides/pronoun_conclusion.Rtex">>=
+    @
+
+  \section{Creole and Cajun Personal Networks}
+    % This is about seeing if personal networks are ethnically homophilous and how this characteristic connects with pronouns
+
+    % SNA in sociolinguistics
+      % Broad strokes on just personal network stuff
+      % Nothing really done in Louisiana on personal networks
+    
+    % RQ2: How does the homophily or lack thereof in the ethnic make-up of personal networks among F\&C speakers in South Louisiana relate to variation in subject pronoun usage?
+
+    % Methods
+      % How was ethnic homophily measured?
+      % What model was fit?
+
+    % Results
+      % Homophily was widespread
+      % The degree of homophily was not associated with pronoun realizations
+
+    % The overall picture of their social networks is in line with racialization
+
+  \section{Discourse Around Creoles, Cajuns, and F\&C}
+    % This was about examining how Creoles and Cajuns mark boundaries for their groups to see if it looks like racialization
+
+    % Racializing discourse as produced around African-Americans in English
+
+    % RQ3: Is the discourse of Creoles and Cajuns in Louisiana indicative of the racialization of these groups in that it creates, polices, and maintains inequal boundaries?
+    
+    % Analysis of discourse about Cajuns
+
+    % Analysis of discourse about Creoles
+
+    % Yes, boundaries are marked in ways that resemble how boundaries are marked for African-Americans in the US
+
+  \section{Conclusion}
 \end{document}
