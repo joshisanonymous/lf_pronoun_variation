@@ -1,5 +1,6 @@
 \begin{frame}{Subject pronouns}
-  \scriptsize
+  
+  {\scriptsize
   \begin{tabular}{r | r | r}
     \multicolumn{3}{c}{} \\
                             & Singular                                                              & Plural \\
@@ -17,6 +18,7 @@
     impersonal             & \multicolumn{2}{c}{tu, vous, on, ça, ils, \textbf{to}, \textbf{yé}} \\ % add vous after verifying Gilbeau (1950)
     \multicolumn{3}{c}{} \\
   \end{tabular}
+  }
 
   RQ1: Do F\&C subject pronouns vary systematically between Creole and Cajun speakers?
 \end{frame}

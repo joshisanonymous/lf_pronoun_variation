@@ -1,0 +1,13 @@
+\begin{frame}{Network ethnic homophily}
+  \begin{center}
+    <<fig.height = 0.5 * textheight>>=
+    plotHomophilyExploratory
+    @
+    {\scriptsize{}Distributions of network ethnic homophily by ethnicity after recoding alters for Gene, Owen, and Tracy}
+  \end{center}
+
+  The \alert{degree} of ethnic homophily was not associated with the \alert{degree} of usage of Creole vs Cajun marked pronouns
+  \begin{itemize}
+    \item This picture is still in line with racialization, though
+  \end{itemize}
+\end{frame}

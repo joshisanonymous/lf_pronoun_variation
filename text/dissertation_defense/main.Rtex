@@ -111,20 +111,20 @@
     \tableofcontents[hideallsubsections, sections={1-6}]
   \end{frame}
 
-  \section{Introduction}
+  \section{Framework}
     % Race
       % How do we understand race here
     <<child = "./slides/racialization.Rtex">>=
     @
       % How race has been used in sociolinguistics
-    <<child = "./slides/race_sociolinguistics.Rtex">>=
-    @
+    % <<child = "./slides/race_sociolinguistics.Rtex">>=
+    % @
 
     % Creoles and Cajuns
     <<child = "./slides/creoles_cajuns.Rtex">>=
     @
 
-  \section{Sample}
+  \section{Data}
     % Location
     <<child = "./slides/location.Rtex">>=
     @
@@ -135,7 +135,8 @@
 
   \begin{frame}
     \tableofcontents[sections={1-2}, sectionstyle=shaded]
-    \tableofcontents[sections={3-6}, sectionstyle=show]
+    \tableofcontents[sections={3-5}, sectionstyle=show]
+    \tableofcontents[sections={6-6}, sectionstyle=shaded]
   \end{frame}
 
   \section{Subject Pronoun Variation in F\&C}
@@ -153,12 +154,7 @@
     @
     
     % Results
-      % Say which factors were significant other than ethnicity
-    <<child = "./slides/pronoun_result_verb.Rtex">>=
-    @
-    <<child = "./slides/pronoun_result_institute.Rtex">>=
-    @
-      % Show data on ethnicity
+      % Show data on ethnicity only, other important factors in bonus slides
     <<child = "./slides/pronoun_result_ethnicity.Rtex">>=
     @
 
@@ -168,35 +164,67 @@
 
   \section{Creole and Cajun Personal Networks}
     % This is about seeing if personal networks are ethnically homophilous and how this characteristic connects with pronouns
+      % RQ2: How does the homophily or lack thereof in the ethnic make-up of personal networks among F\&C speakers in South Louisiana relate to variation in subject pronoun usage?
+    <<child = "./slides/networks_opening.Rtex">>=
+    @
 
     % SNA in sociolinguistics
-      % Broad strokes on just personal network stuff
-      % Nothing really done in Louisiana on personal networks
-    
-    % RQ2: How does the homophily or lack thereof in the ethnic make-up of personal networks among F\&C speakers in South Louisiana relate to variation in subject pronoun usage?
+    <<child = "./slides/networks_lit.Rtex">>=
+    @
 
     % Methods
+      % Network data collection
+    <<child = "./slides/networks_collection.Rtex">>=
+    @
       % How was ethnic homophily measured?
       % What model was fit?
+    <<child = "./slides/networks_model.Rtex">>=
+    @
 
     % Results
       % Homophily was widespread
       % The degree of homophily was not associated with pronoun realizations
-
-    % The overall picture of their social networks is in line with racialization
+      % The overall picture of their social networks is in line with racialization
+    <<child = "./slides/networks_results_homophily.Rtex">>=
+    @
 
   \section{Discourse Around Creoles, Cajuns, and F\&C}
     % This was about examining how Creoles and Cajuns mark boundaries for their groups to see if it looks like racialization
+      % RQ3: Is the discourse of Creoles and Cajuns in Louisiana indicative of the racialization of these groups in that it creates, polices, and maintains inequal boundaries?
+    <<child = "./slides/discourse_opening.Rtex">>=
+    @
 
     % Racializing discourse as produced around African-Americans in English
-
-    % RQ3: Is the discourse of Creoles and Cajuns in Louisiana indicative of the racialization of these groups in that it creates, polices, and maintains inequal boundaries?
+    <<child = "./slides/discourse_lit.Rtex">>=
+    @
     
     % Analysis of discourse about Cajuns
+    <<child = "./slides/discourse_cajuns.Rtex">>=
+    @
 
     % Analysis of discourse about Creoles
+    <<child = "./slides/discourse_creoles.Rtex">>=
+    @
 
     % Yes, boundaries are marked in ways that resemble how boundaries are marked for African-Americans in the US
+    <<child = "./slides/discourse_conclusion.Rtex">>=
+    @
 
   \section{Conclusion}
+    <<child = "./slides/conclusion_racialization.Rtex">>=
+    @
+    <<child = "./slides/conclusion_limitations.Rtex">>=
+    @
+
+  \section*{Bonus slides}
+    <<child = "./slides/pronoun_terrebonne-lafourche.Rtex">>=
+    @
+    <<child = "./slides/pronoun_result_verb.Rtex">>=
+    @
+    <<child = "./slides/pronoun_result_institute.Rtex">>=
+    @
+    <<child = "./slides/networks_diverse.Rtex">>=
+    @
+    <<child = "./slides/networks_homophily_context.Rtex">>=
+    @
 \end{document}

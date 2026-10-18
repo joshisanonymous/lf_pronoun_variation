@@ -1,0 +1,17 @@
+\begin{frame}{Pronouns in Terrebonne-Lafourche}
+  \begin{center}
+    {\scriptsize
+    \begin{tabular}{l | l l | l l}
+                      & \multicolumn{2}{c}{Indian}                                     & \multicolumn{2}{| c}{Cajun}                                    \\
+      Subject Pronoun & \textcite{rottet_language_1995} & \textcite{dajko_ethnic_2009} & \textcite{rottet_language_1995} & \textcite{dajko_ethnic_2009} \\
+      \hline
+      1sg             & je                              & je                           & je                              & je                           \\
+      2sg.V           & tu                              &                              & tu                              &                              \\
+      3sg.F           &                                 & elle                         &                                 & elle                         \\
+      1pl             &                                 & on                           &                                 & on                           \\
+      2pl             & vous-autres                     & vous-autres                  & vous-autres                     & vous-autres                  \\
+      3pl             & eux                             & eux                          & eux-autres                      & eux                          \\
+    \end{tabular}
+    }
+  \end{center}
+\end{frame}

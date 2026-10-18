@@ -1,0 +1,14 @@
+\begin{frame}{Homophily context}
+  \begin{center}
+    \footnotesize
+    <<fig.height = 0.4 * textheight>>=
+    plotHomophily
+    @
+    {\footnotesize{}Distributions of network ethnic homophily by ethnicity}
+
+    <<fig.height = 0.4 * textheight>>=
+    plotHomophilyGss
+    @
+    {\footnotesize{}Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma in 2004}
+  \end{center}
+\end{frame}

@@ -1,36 +1,16 @@
 \begin{frame}{Literature on F\&C pronouns}
-  \begin{columns}[t]
-    \small
-    \column{0.5\textwidth}
-      Structural constraints:
-      \begin{enumerate}
-        \item \lexi{ils} for 3pl before \lexi{être} \gloss{to be}, \lexi{avoir} \gloss{to have}, \lexi{aller} \gloss{to go} \smallcite{byers_defining_1988}
-      \end{enumerate}
-      Social constraints:
-      \begin{enumerate}
-        \setcounter{enumi}{1}
-        \item Mixed results for gender and age \smallcite{brown_pronominal_1988, gudmestad_variationist_2022, rottet_language_1995}
-      \end{enumerate}
-    \column{0.5\textwidth}
-      \begin{enumerate}
-        \setcounter{enumi}{2}
-        \item White speakers of Creole have decreolized features \smallcite{klingler_if_2003, neumann-holzschuh_creole_1985}
-        \begin{itemize}
-          \item \lexi{elle} for \gloss{she} vs \lexi{li} for \gloss{she} and \gloss{he}
-        \end{itemize}
-        \item Indians and Cajuns agree on preferred pronoun but differ on rates of dispreferred pronouns \smallcite{dajko_ethnic_2009, rottet_language_1995}
-      \end{enumerate}
-  \end{columns}
-  \scriptsize
-  \begin{tabular}{l | l l | l l}
-                    & \multicolumn{2}{c}{Indian}                                     & \multicolumn{2}{| c}{Cajun}                                    \\
-    Subject Pronoun & \textcite{rottet_language_1995} & \textcite{dajko_ethnic_2009} & \textcite{rottet_language_1995} & \textcite{dajko_ethnic_2009} \\
-    \hline
-    1sg             & je                              & je                           & je                              & je                           \\
-    2sg.V           & tu                              &                              & tu                              &                              \\
-    3sg.F           &                                 & elle                         &                                 & elle                         \\
-    1pl             &                                 & on                           &                                 & on                           \\
-    2pl             & vous-autres                     & vous-autres                  & vous-autres                     & vous-autres                  \\
-    3pl             & eux                             & eux                          & eux-autres                      & eux                          \\
-  \end{tabular}
+  Structural constraints:
+  \begin{enumerate}
+    \item \lexi{ils} for 3pl before \lexi{être} \gloss{to be}, \lexi{avoir} \gloss{to have}, \lexi{aller} \gloss{to go} \smallcite{byers_defining_1988}
+  \end{enumerate}
+  Social constraints:
+  \begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Mixed results for gender and age \smallcite{brown_pronominal_1988, gudmestad_variationist_2022, rottet_language_1995}
+    \item White speakers of Creole have decreolized features \smallcite{klingler_if_2003, neumann-holzschuh_creole_1985}
+    \begin{itemize}
+      \item \lexi{elle} for \gloss{she} vs \lexi{li} for \gloss{she} and \gloss{he}
+    \end{itemize}
+    \item Indians and Cajuns agree on preferred pronoun but differ on rates of dispreferred pronouns \smallcite{dajko_ethnic_2009, rottet_language_1995}
+  \end{enumerate}
 \end{frame}

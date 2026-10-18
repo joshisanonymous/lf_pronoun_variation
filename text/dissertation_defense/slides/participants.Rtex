@@ -1,5 +1,4 @@
 \begin{frame}{Participants}
-  % What variables were collected
   \begin{columns}
     \column{0.5\textwidth}
       \begin{center}
@@ -13,15 +12,15 @@
       \only<1>{
         Social variables:
         \begin{enumerate}
-          \item Age
-          \item Institutional French exposure
-          \item \emph{F\&C background}
-          \item \emph{Ethnic homophily}
-          \item \emph{Occupational type}
-          \item \emph{Education}
-          \item \emph{Parish raised}
-          \item \emph{Parish residence}
-          \item \emph{Race}*
+          \item \alert{Age}
+          \item \alert{Institutional French exposure}
+          \item F\&C background
+          \item Ethnic homophily
+          \item Occupational type
+          \item Education
+          \item Parish raised
+          \item Parish residence
+          \item Race*
         \end{enumerate}
       }
       \only<2->{

@@ -39,4 +39,5 @@
                                   \Sexpr{Ceiling(logitModelSummaries$impersonal$coefficients["to~EthnicityCajun", "Pr(>|z|)"])} &*\\
     \end{tabular}
   \end{center}
+  The following verb type and exposure to institutional French were also significant
 \end{frame}

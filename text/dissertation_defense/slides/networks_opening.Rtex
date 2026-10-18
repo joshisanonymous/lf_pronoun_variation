@@ -1,0 +1,12 @@
+\begin{frame}{Personal networks}
+  \begin{columns}
+    \column{0.6\textwidth}
+      \begin{center}
+        <<>>=
+        networkWholePlot()
+        @
+      \end{center}
+    \column{0.4\textwidth}
+      RQ2: How does the homophily or lack thereof in the ethnic make-up of personal networks among F\&C speakers in South Louisiana relate to variation in subject pronoun usage?
+  \end{columns}
+\end{frame}

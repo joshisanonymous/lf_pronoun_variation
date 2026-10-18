@@ -1,0 +1,12 @@
+\begin{frame}{Data collection}
+  Two name generators and two name interpretors:
+  \begin{enumerate}
+    \item Generators: Name those with whom you share important matters and those with whom you speak F\&C.
+    \item Interpretors: What proportion of the time do you speak F\&C with each, and what is each one's ethnicity?
+  \end{enumerate}
+  \begin{center}
+    <<fig.height = 0.6 * textheight>>=
+    plotAlterEthnicity
+    @
+  \end{center}
+\end{frame}

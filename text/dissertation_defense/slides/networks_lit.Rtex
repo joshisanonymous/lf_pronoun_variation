@@ -1,0 +1,19 @@
+\begin{frame}{Literature on networks}
+  % \small
+  % Sociology:
+  % \begin{enumerate}
+  %   \item Early work often focused on diffusion and the role of race in diffusion \smallcite{granovetter_strength_1973, korte_acquaintance_1970, milgram_small-world_1967}
+  % \end{enumerate}
+  % Sociolinguistics:
+  % \begin{enumerate}
+  %   \setcounter{enumi}{1}
+  %   \item Initial work was inspired by Milroy's focus on measuring the effects of centrality, sometimes implicating race \smallcite{lippi-green_social_1989, milroy_language_1987, ash_linguistic_1986, edwards_sociolinguistic_1992}
+  %   \begin{itemize}
+  %     \item Results $\to$ Being central to a network cluster results in one speaking like others in that cluster
+  %   \end{itemize}
+  Some of the most robust work has been done on personal networks, sometimes implicating ethnic or racial homophily \smallcite{gal_language_1979, stoessel_investigating_2002, fridland_network_2003, kirke_when_2005, li_two-step_2000, sharma_scalar_2017, wong_new_2010}
+  \begin{enumerate}
+    \item Results $\to$ High minority homophily leads to greater use of minority languages or features associated with minority groups
+    \item A dearth of examinations of Louisiana, however
+  \end{enumerate}
+\end{frame}

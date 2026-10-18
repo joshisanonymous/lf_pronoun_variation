@@ -22,23 +22,28 @@
     \footnotesize
     \begin{center}
       \begin{tabular}{p{3.5cm} p{3.5cm} p{3.5cm}}
-                             &                               & \\
         \hline
         Pronoun \hfill \~{}  & Following verb type \hfill +  & Ethnicity \hfill +\\
         \hline
         \_\_\_               & \textbf{Lexical}              & \textbf{Creole}\\
         \_\_\_               & Modal                         & Cajun\\
                              & Auxiliary                     & \\
-        \hline
-        Gender \hfill +      & Institutional French \hfill + & Age \hfill +\\
-        \hline
-        \textbf{Man}         & \textbf{No}                   & \emph{continuous}\\
-        Woman                & Yes                           & \\
+        \cline{2-3}
+                             & Gender \hfill +               & Institutional French \hfill +\\
+        \cline{2-3}
+                             & \textbf{Man}                  & \textbf{No}\\
+                             & Woman                         & Yes\\
                              &                               & \\
-        \hline
-        Speaker \hfill +     & Predicate                     & \\
-        \hline
-        \emph{random}        & \emph{random}                 & \\
+        \cline{2-3}
+                             & Age \hfill +                  & Speaker \hfill +\\
+        \cline{2-3}
+                             & \emph{continuous}             & \emph{random}\\
+                             &                               & \\
+                             &                               & \\
+        \cline{2-3}
+                             & Predicate                     & \\
+        \cline{2-3}
+                             & \emph{random}                 & \\
       \end{tabular}
     \end{center}
   }

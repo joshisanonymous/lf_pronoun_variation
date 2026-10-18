@@ -1,0 +1,22 @@
+\begin{frame}{Network model}
+  Calculating homophily \smallcite{lizardo_social_2020}:
+  \begin{itemize}
+    \item EI homophily $= \frac{\text{External} - \text{Internal}}{\text{External} + \text{Internal}}$
+  \end{itemize}
+  \vspace{0.5cm}
+  Model:
+  \begin{center}
+    \small
+    \begin{tabular}{p{2.75cm} p{4.5cm} p{2.75cm}}
+      \hline
+      Pronoun \hfill \~{}  & Network ethnic homophily \hfill * & Ethnicity \hfill +\\
+      \hline
+      \_\_\_               & \emph{continuous}                 & \textbf{Creole}\\
+      \_\_\_               &                                   & Cajun\\
+      \cline{2-3}
+                           & Speaker \hfill +                  & Predicate\\
+      \cline{2-3}
+                           & \emph{random}                     & \emph{random}\\
+    \end{tabular}
+  \end{center}
+\end{frame}
