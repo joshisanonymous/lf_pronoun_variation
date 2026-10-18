@@ -120,10 +120,6 @@
     % <<child = "./slides/race_sociolinguistics.Rtex">>=
     % @
 
-    % Creoles and Cajuns
-    <<child = "./slides/creoles_cajuns.Rtex">>=
-    @
-
   \section{Data}
     % Location
     <<child = "./slides/location.Rtex">>=
@@ -215,13 +211,19 @@
     @
     <<child = "./slides/conclusion_limitations.Rtex">>=
     @
+    <<child = "./slides/conclusion_thanks.Rtex">>=
+    @
 
   \section*{Bonus slides}
+    <<child = "./slides/creoles_cajuns.Rtex">>=
+    @
     <<child = "./slides/pronoun_terrebonne-lafourche.Rtex">>=
     @
     <<child = "./slides/pronoun_result_verb.Rtex">>=
     @
     <<child = "./slides/pronoun_result_institute.Rtex">>=
+    @
+    <<child = "./slides/pronoun_result_race.Rtex">>=
     @
     <<child = "./slides/networks_diverse.Rtex">>=
     @

@@ -12,10 +12,11 @@
       \only<1>{
         Social variables:
         \begin{enumerate}
-          \item \alert{Age}
+          \item \alert{Gender}
           \item \alert{Institutional French exposure}
-          \item F\&C background
+          \item \alert{Age}
           \item Ethnic homophily
+          \item F\&C background
           \item Occupational type
           \item Education
           \item Parish raised

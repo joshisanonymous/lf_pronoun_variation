@@ -15,7 +15,7 @@
             \alert<4>{Inaura plus qu'une qualité de Créole, parce que, tu vois, le monde qui parle créole, ils ont du monde qui deviennent les West Indies, Haiti. (41:49)}
       \item[] \longtrans{\alert<4>{Terry (Creole): It's a race of mixed people.}
             \alert<4>{There will be more than one type of Creole, because, you see, the people who speak Creole, they have people who come from the West Indies, Haiti.}}
-      \item \alert<5>{Florence (Creole): C'est quelqu'un qui travaillé dur, et la vie qui était dure, mais li était bon.}
+      \item \alert<5>{Florence (Creole): C'est quelqu'un qui travaillé dur, et la vie qui tait dure, mais li tait bon.}
             \alert<5>{No apprendre un tas, et no peux apprécier ça no gain. (67:19)}
       \item[] \longtrans{\alert<5>{Florence (Creole): That's someone who worked hard, and life was hard, but he was good.}
             \alert<5>{We learned a lot, and we can appreciate what we have.}}
@@ -23,9 +23,9 @@
   }
   }
   \only<6->{
-    \begin{columns}[t]
-      \footnotesize
+    \begin{columns}
       \column{0.5\textwidth}
+        {\scriptsize
         \begin{enumerate}
           \setcounter{enumi}{4}
           \item Errol (Cajun): Mo mo l'aime le manger créole. ...
@@ -44,7 +44,9 @@
           \item Errol: Mo pas connais.
                 Mo mo je l'aime pas ça.
         \end{enumerate}
+        }
       \column{0.5\textwidth}
+        {\scriptsize
         \begin{enumerate}
           \setcounter{enumi}{4}
           \item \longtrans{Errol (Cajun): I like Creole food. ...}
@@ -63,6 +65,7 @@
           \item \longtrans{Errol: I don't know.
                 I don't like that.}
         \end{enumerate}
+        }
     \end{columns}
   }
 \end{frame}

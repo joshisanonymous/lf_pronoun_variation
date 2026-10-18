@@ -1,15 +1,15 @@
 \begin{frame}{Literature on racializing discourse}
-  A framework previously applied to African-Americans (AAs) \smallcite{myers_race_2001}:
+  A framework previously applied to African-Americans \smallcite{myers_race_2001}:
   \begin{itemize}
-    \item \alert{Boundary marking}: Creating and characterizing categories
+    \item \alert<2->{Boundary marking: Creating and characterizing categories}
     \begin{itemize}
-      \item Racial slurs, caricatures, dehumanizing anything associated with AAs
+      \item \alert<2->{Racial slurs, caricatures, dehumanizing anything associated with African-Americans}
     \end{itemize}
-    \item \alert{Boundary policing}: Denying others access to one's group's boundaries
+    \item Boundary policing: Denying others access to one's group's boundaries
     \begin{itemize}
       \item Carried out by White people
     \end{itemize}
-    \item \alert{Boundary maintaining}: Denying members of one's group access to others' boundaries
+    \item Boundary maintaining: Denying members of one's group access to others' boundaries
     \begin{itemize}
       \item Carried out by White and Black people
     \end{itemize}

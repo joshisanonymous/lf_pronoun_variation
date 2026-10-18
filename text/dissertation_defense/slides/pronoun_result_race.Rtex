@@ -1,0 +1,59 @@
+\begin{frame}{Pronouns by race}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{center}
+      \only<1>{
+        <<fig.height = 0.5 * textheight, fig.width = 0.5 * textwidth>>=
+        plotsSubsetRace$firstSg
+        @
+
+        1sg
+      }
+      \only<2>{
+        <<fig.height = 0.5 * textheight, fig.width = 0.5 * textwidth>>=
+        plotsSubsetRace$secondSgT
+        @
+
+        2sg.T
+      }
+      \only<3>{
+        <<fig.height = 0.5 * textheight, fig.width = 0.5 * textwidth>>=
+        plotsSubsetRace$thirdSgF
+        @
+
+        3sg.F
+      }
+      \only<4>{
+        <<fig.height = 0.5 * textheight, fig.width = 0.5 * textwidth>>=
+        plotsSubsetRace$thirdPl
+        @
+
+        3pl
+      }
+      \end{center}
+    \column{0.5\textwidth}
+      \begin{center}
+      \only<1>{
+        <<fig.height = 0.5 * textheight, fig.width = 0.5 * textwidth>>=
+        plotsSubsetRace$firstPl
+        @
+
+        1pl
+      }
+      \only<2>{
+        <<fig.height = 0.5 * textheight, fig.width = 0.5 * textwidth>>=
+        plotsSubsetRace$impersonal
+        @
+
+        impersonal
+      }
+      \only<3>{
+        <<fig.height = 0.5 * textheight, fig.width = 0.5 * textwidth>>=
+        plotsSubsetRace$thirdSgM
+        @
+
+        3sg.M
+      }
+      \end{center}
+  \end{columns}
+\end{frame}

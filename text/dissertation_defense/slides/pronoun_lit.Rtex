@@ -1,16 +1,18 @@
 \begin{frame}{Literature on F\&C pronouns}
-  Structural constraints:
+  % Structural constraints:
+  % \begin{enumerate}
+  %   \item \lexi{ils} for 3pl before \lexi{être} \gloss{to be}, \lexi{avoir} \gloss{to have}, \lexi{aller} \gloss{to go} \smallcite{byers_defining_1988}
+  % \end{enumerate}
+  % Social constraints:
+  % \begin{enumerate}
+  %   \setcounter{enumi}{1}
+  %   \item Mixed results for gender and age \smallcite{brown_pronominal_1988, gudmestad_variationist_2022, rottet_language_1995}
+  %   \item White speakers of Creole have decreolized features \smallcite{klingler_if_2003, neumann-holzschuh_creole_1985}
+  %   \begin{itemize}
+  %     \item \lexi{elle} for \gloss{she} vs \lexi{li} for \gloss{she} and \gloss{he}
+  %   \end{itemize}
   \begin{enumerate}
-    \item \lexi{ils} for 3pl before \lexi{être} \gloss{to be}, \lexi{avoir} \gloss{to have}, \lexi{aller} \gloss{to go} \smallcite{byers_defining_1988}
-  \end{enumerate}
-  Social constraints:
-  \begin{enumerate}
-    \setcounter{enumi}{1}
-    \item Mixed results for gender and age \smallcite{brown_pronominal_1988, gudmestad_variationist_2022, rottet_language_1995}
-    \item White speakers of Creole have decreolized features \smallcite{klingler_if_2003, neumann-holzschuh_creole_1985}
-    \begin{itemize}
-      \item \lexi{elle} for \gloss{she} vs \lexi{li} for \gloss{she} and \gloss{he}
-    \end{itemize}
-    \item Indians and Cajuns agree on preferred pronoun but differ on rates of dispreferred pronouns \smallcite{dajko_ethnic_2009, rottet_language_1995}
+    \item Mostly descriptive work: Implies following verb type, gender, age, and race are predictive \smallcite{byers_defining_1988, brown_pronominal_1988, gudmestad_variationist_2022, rottet_language_1995, klingler_if_2003, neumann-holzschuh_creole_1985}
+    \item Relevant robust work: Indians and Cajuns agree on preferred pronoun but differ on rates of dispreferred pronouns \smallcite{dajko_ethnic_2009, rottet_language_1995}
   \end{enumerate}
 \end{frame}

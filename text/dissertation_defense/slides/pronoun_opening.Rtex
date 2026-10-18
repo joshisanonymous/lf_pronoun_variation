@@ -3,19 +3,19 @@
   {\scriptsize
   \begin{tabular}{r | r | r}
     \multicolumn{3}{c}{} \\
-                            & Singular                                                              & Plural \\
+                            & Singular                                                              & Plural\\
     \hline
-    1st person             & je, moi, on, \textbf{mo}, \textbf{mwen}, \textit{ø}                   & nous, \textbf{nou}, \textbf{no}, \textit{on}, \textit{nous-autres} \\
-    2nd person (T)         & tu, ça, \textbf{to}                                                   & \textit{vous-autres} \\
-    2nd person (V)         & vous, tu, \textbf{vou}, \textbf{vo}, \textit{vous-autres}, \textit{ø} & \textbf{vou}, \textit{vous-autres} \\
-    2nd person (not clear) & \textbf{to}                                                           & vous, tu, ça, vous-autres, \textbf{vou} \\
+    1st person             & je, moi, on, \textbf{mo}, \textbf{mwen}, \textit{ø}                   & nous, \textbf{nou}, \textbf{no}, \textit{on}, \textit{nous-autres}\\
+    2nd person (T)         & tu, ça, \textbf{to}                                                   & \textit{vous-autres}\\
+    2nd person (V)         & vous, tu, \textbf{vou}, \textbf{vo}, \textit{vous-autres}, \textit{ø} & \textbf{vou}, \textit{vous-autres}\\
+    2nd person (not clear) & \textbf{to}                                                           & vous, tu, ça, vous-autres, \textbf{vou}\\
     3rd person (M)         & il, \textbf{ça}                                                       & \\
     3rd person (F)         & elle, ça                                                              & \\
-    3rd person (neuter)    & il, ça, \textbf{li}                                                   & ils, eux, eux-autres, \textbf{yé}, \textit{ça} \textit{ø} \\
+    3rd person (neuter)    & il, ça, \textbf{li}                                                   & ils, eux, eux-autres, \textbf{yé}, \textit{ça} \textit{ø}\\
     demonstrative          & ça                                                                    & \\
     \cline{2-3}
     expletive              & \multicolumn{2}{c}{\textit{il}, \textit{ça}, \textit{ø}} \\
-    impersonal             & \multicolumn{2}{c}{tu, vous, on, ça, ils, \textbf{to}, \textbf{yé}} \\ % add vous after verifying Gilbeau (1950)
+    impersonal             & \multicolumn{2}{c}{tu, vous, on, ça, ils, \textbf{to}, \textbf{yé}}\\
     \multicolumn{3}{c}{} \\
   \end{tabular}
   }

@@ -1,0 +1,9 @@
+\begin{frame}{}
+  \begin{center}
+    \includegraphics[scale=0.25]{qrcode.jpeg}
+
+    {\tiny
+      Data and code available at \url{https://osf.io/sy7uq/}.
+    }
+  \end{center}
+\end{frame}
