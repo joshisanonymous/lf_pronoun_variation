@@ -2,28 +2,22 @@
   Cajun boundaries were marked by Acadian (or European) ancestry and language
   {\scriptsize
   \begin{enumerate}
-    \item \alert<2>{Jack (Cajun): Wilton, il est cadien.}
-          \alert<2>{Il est Chenevert.}
-          \alert<2>{Chenevert, c'est un mot très très cadien. (54:17)}
-    \item[] \longtrans{\alert<2>{Jack (Cajun): Wilton, he's Cajun.}
-          \alert<2>{He's a Chenevert.}
-          \alert<2>{Chenevert, that's a very very Cajun word.}}
-    \item \alert<3>{Lillian (Cajun): Il est allemand, mais il est blanc, mais il parle cadien.}
-          \alert<3>{Il dit, je crois lui il dit il est cadien, mais il connaît son ancêtres sont allemands. (39:13)}
-    \item[] \longtrans{\alert<3>{Lillian (Cajun): He's German, but he's White, but he speaks Cajun.}
-          \alert<3>{He says, I believe that he says that he's Cajun, but he knows that his ancestors are German.}}
-    \item \alert<4>{Bruce (Cajun): Dubois, Gilroy Dubois.}
-          \alert<4>{Oui, je crois il a appris, je suis pas sûr à quel âge il allait, et c'était comme ça avec Jack.}
-          \alert<4>{Il dit, lui, il a appris le français avec ses grands-parents. (47:15)}
-    \item[] \longtrans{\alert<4>{Bruce (Cajun): Dubois, Gilroy Dubois.}
-          \alert<4>{Yes, I believe that he learned, I'm not sure at what age he was going, and it was like that with Jack.}
-          \alert<4>{He says that he learned French with his grandparents.}}
-    \item \alert<5>{Oliver L. (Cajun): Elle s'appelle Mildred, alors quand elle elle arrive, là no gain pour parler comme ça.}
-          \alert<5>{Li dit, ``Oliver, comment to yé, nègre?''}
-          \alert<5>{Et, ``M'apè fais okay aujourd'hui.'' (2:21)}
-    \item[] \longtrans{\alert<5>{Oliver L. (Cajun): Her name is Mildred, so when she arrives, then we have to talk like this.}
-          \alert<5>{She says, ``Oliver, how are you, negro?''}
-          \alert<5>{And, ``I'm doing okay today.''}}
+    \item Jack (Cajun): Wilton, il est cadien.
+          Il est Chenevert.
+          Chenevert, c'est un mot très très cadien. (54:17)
+    \item[] \longtrans{Jack (Cajun): Wilton, he's Cajun.
+          He's a Chenevert.
+          Chenevert, that's a very very Cajun word.}
+    \item \alert<2>{Lillian (Cajun): Il est allemand, mais il est blanc, mais il parle cadien.}
+          \alert<2>{Il dit, je crois lui il dit il est cadien, mais il connaît son ancêtres sont allemands. (39:13)}
+    \item[] \longtrans{\alert<2>{Lillian (Cajun): He's German, but he's White, but he speaks Cajun.}
+          \alert<2>{He says, I believe that he says that he's Cajun, but he knows that his ancestors are German.}}
+    \item \alert<3>{Bruce (Cajun): Dubois, Gilroy Dubois.}
+          \alert<3>{Oui, je crois il a appris, je suis pas sûr à quel âge il allait, et c'était comme ça avec Jack.}
+          \alert<3>{Il dit, lui, il a appris le français avec ses grands-parents. (47:15)}
+    \item[] \longtrans{\alert<3>{Bruce (Cajun): Dubois, Gilroy Dubois.}
+          \alert<3>{Yes, I believe that he learned, I'm not sure at what age he was going, and it was like that with Jack.}
+          \alert<3>{He says that he learned French with his grandparents.}}
   \end{enumerate}
   }
 \end{frame}
