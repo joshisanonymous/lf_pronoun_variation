@@ -217,6 +217,8 @@
   \section*{Bonus slides}
     <<child = "./slides/creoles_cajuns.Rtex">>=
     @
+    <<child = "./slides/participants_race.Rtex">>=
+    @
     <<child = "./slides/pronoun_terrebonne-lafourche.Rtex">>=
     @
     <<child = "./slides/pronoun_result_verb.Rtex">>=

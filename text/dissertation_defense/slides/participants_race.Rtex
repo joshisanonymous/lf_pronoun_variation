@@ -1,0 +1,14 @@
+\begin{frame}{Participants' races}
+  \begin{center}
+    \only<1>{
+      <<fig.height = 0.75 * textheight>>=
+      plotParticipantRace
+      @
+    }    
+    \only<2>{
+      <<fig.height = 0.5 * textheight, fig.width = 0.7 * textwidth>>=
+      plotParticipantsEthnRace
+      @
+    } 
+  \end{center}
+\end{frame}
