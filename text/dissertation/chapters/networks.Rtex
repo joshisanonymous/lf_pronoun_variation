@@ -414,7 +414,7 @@
     It is also clear that some participants are more connected to the larger network than others.
     Those who are more connected are almost all Cajuns with the exception of Creoles Owen and James.
 
-    \begin{figure}[tbhp]
+    \begin{figure}[tbh]
       \centering
       <<fig.height = 0.6 * textheight>>=
       networkWholePlot()

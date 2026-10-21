@@ -311,7 +311,7 @@
     %   % \includegraphics[scale=0.5]{}
     % \end{figure}
 
-    \begin{figure}[tbhp]
+    \begin{figure}[tbh]
       \centering
       <<fig.asp = 0.75>>=
       parishBarMap
@@ -382,7 +382,7 @@
     For occupational histories, these were further coded into blue, pink, and white collar based on the conventions followed in \textcite[p.~536]{lips-wiersma_meaningful_2016}, yielding \Sexpr{nrow(participants[participants$Occupation == "Blue Collar",])} blue collar workers, \Sexpr{nrow(participants[participants$Occupation == "Pink Collar",])} pink collar workers, and \Sexpr{nrow(participants[participants$Occupation == "White Collar",])} white collar workers.
     The choices of how to code each occupational class from occupational histories can be seen in Table \ref{tab:occupation_coding}.
 
-    \begin{table}[tbhp]
+    \begin{table}[tbh]
       \caption{Coding used for each occupational history}
       \label{tab:occupation_coding}
       \centering

@@ -842,7 +842,7 @@
         The use of the term \lexi{ethnicity} in listing model factors is therefore not meant to represent a conclusion to this question.
         Relatedly, participants were also asked how they identify racially, but as this yielded a large number of different responses, each with relatively low counts, self-identified race could not be included in models but did yield results worthy of discussion.
 
-        \begin{table}[tbhp]
+        \begin{table}[tbh]
           \caption{Levels for each factor relevant to modeling}
           \label{tab:predictor_levels}
           \centering
@@ -952,7 +952,7 @@
     The implication is that the truly important verbs are \lexi{être} and \lexi{avoir} but not \lexi{aller}.
     The verb type that would include the two former and exclude the latter is not entirely clear, however.
 
-    \begin{table}[tbhp]
+    \begin{table}[tbh]
       \caption{Following verb type for each pronoun type model}
       \label{tab:verb_results}
       \centering
@@ -996,7 +996,7 @@
       \end{tabular}
     \end{table}
 
-    \begin{figure}[tbhp]
+    \begin{figure}[tbh]
       % \captionsetup{font={footnotesize}}
       \centering
       <<fig.height = 0.3 * textheight>>=
@@ -1123,7 +1123,7 @@
     This does not mean that exposure to institutional French has no impact on speakers outside of the effects of socioeconomic class but rather that \lexi{ça} is more prevalent to begin with among those who are either from a higher socioeconomic class or are more likely to head towards a higher socioeconomic class than those who use \lexi{yé}.
     As will be seen for the effects of ethnicity, this aligns well with the racialization of Cajuns, the primary users of \lexi{ça}, as a higher status group than Creoles, the primary users of \lexi{yé},
 
-    \begin{figure}[tbhp]
+    \begin{figure}[tbh]
       \centering
       <<fig.height = 0.3 * textheight, fig.width = 0.75 * textwidth>>=
       plotEduInst
@@ -1213,7 +1213,7 @@
     What this suggests is that there exists a statistical association between these two categories (Fisher's exact: $P <$ \Sexpr{Ceiling(indEthnRace$p.value)}).
     In effect, one cannot claim to be Cajun and Black at the same time, and although one can do the inverse, it is not typical.
 
-    \begin{figure}[tbhp]
+    \begin{figure}[tbh]
       \centering
       <<fig.height = 0.3 * textheight, fig.width = 0.75 * textwidth>>=
       plotParticipantsEthnRace
