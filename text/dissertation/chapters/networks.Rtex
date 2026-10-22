@@ -94,13 +94,13 @@
     Unfortunately though, they did not share their network data collection methods, making it difficult to understand what may be missing from their sociograms\footnote{
       A sociogram is a visual representation of a network made up of shapes that represent nodes in and lines connecting those shapes that represent ties.
     }.
-    A longitudinal study of African-American youths in Chapel Hill, North Carolina, though, went even further by showing that the number of African-American social contacts of participants simply did not have a significant effect on the rate of usage of African-American English features \parencite{van_hofwegen_coming_2010}.
-    This result, again, was unfortunately rather opaque as no descriptive statistics were provided for the proportion of African-Americans that participants actually had in their networks as it would not be surprising for all participants to have rather high racially homophilous networks.
+    A longitudinal study of African American youths in Chapel Hill, North Carolina, though, went even further by showing that the number of African American social contacts of participants simply did not have a significant effect on the rate of usage of African American English features \parencite{van_hofwegen_coming_2010}.
+    This result, again, was unfortunately rather opaque as no descriptive statistics were provided for the proportion of African Americans that participants actually had in their networks as it would not be surprising for all participants to have rather high racially homophilous networks.
     Instead, only the regression model was provided.
-    This does not mean that these results, that young African-Americans in Chapel Hill and Black speakers in North Philadelphia are not entirely sensitive to the racial make-up of their networks, are invalid, but they should perhaps be considered with care.
+    This does not mean that these results, that young African Americans in Chapel Hill and Black speakers in North Philadelphia are not entirely sensitive to the racial make-up of their networks, are invalid, but they should perhaps be considered with care.
 
     Other studies of race in the US, in contrast, have shown clear effects for racial homophily.
-    African-Americans in Memphis who had higher rates of racial homophily in their networks were found to be more involved in the southern vowel shift than those with more racially diverse networks \parencite{fridland_network_2003}.
+    African Americans in Memphis who had higher rates of racial homophily in their networks were found to be more involved in the southern vowel shift than those with more racially diverse networks \parencite{fridland_network_2003}.
     Unfortunately, this sample was limited to 10 participants, so no statistical analyses were used to establish this pattern.
     A larger study, however, was conducted in Philadelphia, just as \citeauthor{labov_facto_1986}'s (\citeyear{labov_facto_1986}) work was, and found that Black speakers with more racially homophilous networks used more linguistic features associated with Black speakers than others.
     Likewise, White speakers in the data with little contact with Black speakers used fewer Black linguistic features, although White participants constituted a minority of the sample \parencite{ash_linguistic_1986}.
@@ -355,8 +355,8 @@
 
       The more important discussion in terms of analyses, however, is the way in which the ethnicities of alters were coded both from the perspective of personal networks and from the perspective of the whole network.
       When analyzing personal networks, it was necessary to decide how to code alters who were given multiple or compound ethnicities by participants.
-      Multiple ethnicities refers to, for example, when an alter is described as both African-American and Creole.
-      Compound ethnicities, on the other hand, included alters who were given labels that combined multiple categories into a single, more nuanced category such as Creole-African-American or Americanized Cajun.
+      Multiple ethnicities refers to, for example, when an alter is described as both African American and Creole.
+      Compound ethnicities, on the other hand, included alters who were given labels that combined multiple categories into a single, more nuanced category such as Creole-African American or Americanized Cajun.
       Maintaining these multiple and compound ethnicities as-is, while interesting to discuss and take account of qualitatively, also risked overlooking what are essentially homophilous relationships.
       When a Cajun participant describes an alter as an ``Americanized Cajun'', it is not likely that they see that alter as being completely ethnically distinct from themselves.
       The use of a qualifier does indeed suggest that the participant does not see this alter as being ethnically identical, but to deny the ethnic connection altogether would also be inaccurate.
@@ -370,9 +370,9 @@
         \begin{tabular}{r r @{ $\to$ } l}
           Count & Given & Coded \\
           \hline
-          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African-American/Creole",])} & African-American/Creole   & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African-American/Creole",])} & African American/Creole   & Creole \\
           \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African/Creole",])}          & African/Creole            & Creole \\
-          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole-African-American",])} & Creole-African-American   & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole-African-American",])} & Creole-African American   & Creole \\
           \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole/French",])}           & Creole/French             & Creole \\
           \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "White Creole",])}            & White-Creole              & Creole \\
           \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Americanized Cajun",])}      & Americanized-Cajun        & Cajun \\
@@ -398,7 +398,7 @@
       There were three other shared alters, all non-participants, who had more than one ethnicity assigned to them by participants.
       One of these, Bruce Rivero, was described once as Cajun and one participant elected to not assign an ethnicity to him.
       He was thus coded as Cajun.
-      For the other two, David Roche and Jacqueline Newchurch, the assigned ethnicities were Creole and African-American for the former and Cajun and White for the latter.
+      For the other two, David Roche and Jacqueline Newchurch, the assigned ethnicities were Creole and African American for the former and Cajun and White for the latter.
       In accord with how such cases were treated when a single participant gave an alter more than one ethnicity, Creole and Cajun were assigned to these two, respectively.
       This choice was further supported for Jacqueline as she was described as Cajun four times and as White only once.
 
@@ -492,12 +492,12 @@
         }
       \end{table}
 
-      When participants were asked to assign an ethnicity to the alters they had named, it was typical for Black Creoles -- and not unheard of for Cajuns either -- to provide either broad American racialized categories (\foreign{i.e.}, Black or African-American) or to combine Creole with one of these categories (\foreign{e.g.}, African-American/Creole).
+      When participants were asked to assign an ethnicity to the alters they had named, it was typical for Black Creoles -- and not unheard of for Cajuns either -- to provide either broad American racialized categories (\foreign{i.e.}, Black or African American) or to combine Creole with one of these categories (\foreign{e.g.}, African American/Creole).
       Figure \ref{fig:alter_ethnicities} summarizes the distribution of alter ethnicities given with collapsing the latter types into simply Creole or Cajun as was done before homophily was calculated.
-      For two Black Creoles who had a complete absence of ethnic homophily, Tracy and Owen, all of the alters in their personal networks were described as ``of color'' for the former and African-American for the latter.
-      In Owen's case, he described his own race as African-American or Black, which makes it clear that he shares a racialized identity with those that he named in his network.
+      For two Black Creoles who had a complete absence of ethnic homophily, Tracy and Owen, all of the alters in their personal networks were described as ``of color'' for the former and African American for the latter.
+      In Owen's case, he described his own race as African American or Black, which makes it clear that he shares a racialized identity with those that he named in his network.
       For Tracy, his own racial self-identification was Black, which would suggest again a connection with his named network alters through a racialized identity, although less clearly than for Owen.
-      Given the interconnectedness with these broader social categories and conceptions of Creole, it is not entirely clear that these two were not referring to people whom they considered to be Creoles, as well, in which case terms like \lexi{of color} or \lexi{African-American} may have simply been primed for them first when asked to describe another's ethnicity.
+      Given the interconnectedness with these broader social categories and conceptions of Creole, it is not entirely clear that these two were not referring to people whom they considered to be Creoles, as well, in which case terms like \lexi{of color} or \lexi{African American} may have simply been primed for them first when asked to describe another's ethnicity.
       Owen indeed had a deeply thought out conception of what it means to be Creole, as will be seen in Section \ref{sec:creole_culture}.
       There is thus good reason to doubt that Tracy and Owen lack ethnic homophily in their networks.
 
@@ -604,7 +604,7 @@
       \end{figure}
 
       To help provide greater context to the range of homophily indices, it is instructive to compare the primary values with the values derived from recoding Gene, Owen, and Tracy's alters as well as the values derived from the region in general.
-      In terms of recoding Gene, Owen, and Tracy, their alters who were described as having no race, as African-American, and as ``of color'' were respectively recoded as Creole given that these alters may have very well shared that identity with these participants.\footnote{
+      In terms of recoding Gene, Owen, and Tracy, their alters who were described as having no race, as African American, and as ``of color'' were respectively recoded as Creole given that these alters may have very well shared that identity with these participants.\footnote{
         One could possibly make the argument that Deborah's alters could be recoded, as well, but there was little indication of whether the term \lexi{American} might be referring to only Cajuns or only Creoles, in contrast to the others' alters.
       }
       In terms of the region in general, data was taken from the GSS for White and Black respondents from the last year that social network questions were asked, 2004.

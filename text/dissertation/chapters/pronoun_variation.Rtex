@@ -1209,7 +1209,7 @@
     Participants did not always give exactly one of these two categories when asked to self-identify racially,\footnote{
       The range of racial self-identifications given was in fact the reason this factor was not modeled.
     } but what they did provide can be remapped to these two categories for exploration in a relatively uncontroversial manner.
-    If all those who used the words White or Caucasian in their racial self-identification are recoded as White, all those who used the words Black or African-American are recoded as Black, and all those who chose Creole, Cajun, or no race are excluded, the distribution of American races by Louisiana ethnicities looks like Figure \ref{fig:ethnicity_by_race}.
+    If all those who used the words White or Caucasian in their racial self-identification are recoded as White, all those who used the words Black or African American are recoded as Black, and all those who chose Creole, Cajun, or no race are excluded, the distribution of American races by Louisiana ethnicities looks like Figure \ref{fig:ethnicity_by_race}.
     What this suggests is that there exists a statistical association between these two categories (Fisher's exact: $P <$ \Sexpr{Ceiling(indEthnRace$p.value)}).
     In effect, one cannot claim to be Cajun and Black at the same time, and although one can do the inverse, it is not typical.
 
@@ -1289,7 +1289,7 @@
       \end{minipage}
 
       {\footnotesize
-      Counting only those who reference Black/African-American or White/Caucasian in their racial self-identifications and recoding them as Black and White.
+      Counting only those who reference Black/African American or White/Caucasian in their racial self-identifications and recoding them as Black and White.
       }
     \end{figure}
 
