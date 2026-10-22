@@ -78,7 +78,7 @@
   }
   \newcommand{\docdate}{2026}
   \newcommand{\docauthor}{JOSHUA A. MCNEILL}
-  \newcommand{\doctitle}{RACIALIZATION IN THE LANGUAGE OF CREOLES AND CAJUNS}
+  \newcommand{\doctitle}{CREOLES, CAJUNS, AND THEIR SUBJECT PRONOUN SYSTEMS}
 
   % Color palette
   \newcommand{\colorone}[1]{\textcolor[HTML]{332288}{\textbf{#1}}}
