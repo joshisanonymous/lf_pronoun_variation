@@ -1,16 +1,32 @@
 \chapter{Subject Pronoun Variation in F\&C}
   \label{chap:pronoun_variation}
-  Markers used to place individuals into racialized categories can take many forms, from ``corporeal markers'' \parencite{omi_racial_2015} to a lone utterance of \sent{hello} often being sufficient for listeners to place a speaker into a racialized category \parencite{purnell_perceptual_1999}.
-  Racialization is not predicated on the existence of such markers, but they are a regular feature for reasons that may be obvious.
-  If one's goal is to racialize a group as less than human in order to justify exploiting them, then it is helpful to be able to readily identify individuals as belonging to that racialized group through some salient feature such as physical characteristics, speech, clothing, lifestyle, beliefs, or any other feature that may be used to distinguish one set of people from another.
-  % The relevance of looking at differences and similarities in the speech of Creoles and Cajuns
-    % Weber (1921/1978) argued that political community "inspires the belief in common ethnicity" but that differences in language among the so-called ethnic group's members that come about can destroy it (389)
+  % Markers used to place individuals into racialized categories can take many forms, from ``corporeal markers'' \parencite{omi_racial_2015} to a lone utterance of \sent{hello} often being sufficient for listeners to place a speaker into a racialized category \parencite{purnell_perceptual_1999}.
+  % Racialization is not predicated on the existence of such markers, but they are a regular feature for reasons that may be obvious.
+  % If one's goal is to racialize a group as less than human in order to justify exploiting them, then it is helpful to be able to readily identify individuals as belonging to that racialized group through some salient feature such as physical characteristics, speech, clothing, lifestyle, beliefs, or any other feature that may be used to distinguish one set of people from another.
+  % % The relevance of looking at differences and similarities in the speech of Creoles and Cajuns
+  %   % Weber (1921/1978) argued that political community "inspires the belief in common ethnicity" but that differences in language among the so-called ethnic group's members that come about can destroy it (389)
   
-  In the case of Creoles and Cajuns in Louisiana, there are certainly features other than speech that function as salient markers of membership in one group or the other.
-  For example, as already discussed in Section \ref{sec:creole_history}, skin color can function as a marker of Creole membership, but Creoles of color have also asserted that cultural features can be important factors, some salient examples of which included cuisine, zydeco music, Catholic faith, dress, participation in cultural event such as \foreign{Mardi gras}, and of course ``Creole French language and manner of speech'' \parencite[pp.~57-58]{susberry_racial_2004}.
-  This vague glottonym most likely refers to the ability to speak F\&C versus only being able to speak English.
-  The objective for this chapter, however, is to present a more fine-grained examination that looked at F\&C subject pronoun systems to determine if Creole and Cajun identities are marked within the use of F\&C itself, the results of which support the idea that these groups have been racialized.
-  Indications for subject pronoun variation between Creoles and Cajuns in the literature will be discussed as Section \ref{sec:pronoun_structure} as will the structure of the subject pronoun system in general.
+  % In the case of Creoles and Cajuns in Louisiana, there are certainly features other than speech that function as salient markers of membership in one group or the other.
+  % For example, as already discussed in Section \ref{sec:creole_history}, skin color can function as a marker of Creole membership, but Creoles of color have also asserted that cultural features can be important factors, some salient examples of which included cuisine, zydeco music, Catholic faith, dress, participation in cultural event such as \foreign{Mardi gras}, and of course ``Creole French language and manner of speech'' \parencite[pp.~57-58]{susberry_racial_2004}.
+  % This vague glottonym most likely refers to the ability to speak F\&C versus only being able to speak English.
+
+  A first step in understanding how Creoles and Cajuns subject pronoun usage relates to their identities involves uncovering the general tendencies of both groups holistically.
+  It may seem so highly expected that two relatively distinct groups of people would speak in distinct ways that it is not interesting to examine just that.
+  After all, although Acadians/Cajuns were Creoles early on in Louisiana's history, their paths have diverged over time, most dramatically in how they have been incorporated into the broader racialized social system of the US.
+  Likewise, no studies of Louisiana French, where participants would typically be excluded for having features that strongly resemble Creole, explicitly include participants who identify as Creole, but they do consistently include Cajuns,\footnote{
+    \textcite{baronian_influence_2005} is nearly an exception as he included both Cajuns and Creoles in his study, but he also did not limit his analysis to speakers of Louisiana French only.
+  } meaning that Creoles who use speech that is highly attested for Cajuns may not be common enough to be regularly included in studies.
+  All of this suggests that Creoles and Cajuns would speak F\&C differently.
+  
+  On the other hand, there are still reasons to expect at least some Creoles to use language that one would expect from Cajuns and \foreign{vice versa}.
+  This was perhaps best highlighted in \citeauthor{klingler_language_2003}'s (\citeyear{klingler_language_2003}) study showing that language labels used by speakers are often more congruent with their identities than the linguistic structures of their speech.
+  In other words, a Creole whose speech looks like what has been structurally described as being language spoken by Cajuns may very well call their language Creole still.
+  These messy alignments would only be possible if Creoles and Cajuns did in fact speak like each other at times.
+  Indeed, participants in this very study have acknowledged this very phenomenon in both directions, and \textcite{wendte_tale_2020} coincidentally provided aa number of examples of this, as well, with his Creole participants making various pronoun choices throughout quotations.
+
+  The objective for this chapter then is to identify the F\&C subject pronoun tendencies for the particular Creoles and Cajuns whose speech makes up the current corpus.
+  This will set a baseline for understanding the narrower analyses of the following chapters.
+  Indications for subject pronoun variation between Creoles and Cajuns in the literature will be discussed as Section \ref{sec:pronoun_structure} as will the range of possible structures of the subject pronoun system in general.
   The analyses carried out will then be presented in Sections \ref{sec:pronoun_methods} and \ref{sec:pronoun_results}.
   Before that, however, a detour into the distinctions between French and Creole as they are spoken in Louisiana must be taken.
 
@@ -18,7 +34,7 @@
     \label{sec:french_vs_creole}
     The approach used here involved analyzing French and Creole together as one might do in cases where there is little to no disagreement over whether the two varieties in question are part of the same language or not.
     The unique and unmarked label \lexi{F\&C} is used to refer to this grouping in order to avoid implying a hierarchy between French and Creole and to avoid, as much as possible, taking a sociopolitical stance on the question of whether these are indeed one or two distinct languages.
-    As will be discussed in this section, aggregating data from all French-related speech varieties in Louisiana was a methodological choice deemed necessary given that the focus of this study is on race and ethnicity which have rather complicated relationships with language labels for these varieties \parencite{klingler_language_2003}.
+    As will be discussed in this section, aggregating data from all French-related speech varieties in Louisiana was a methodological choice deemed necessary given that the focus of this study is on groups who have rather complicated relationships with language labels for their language varieties \parencite{klingler_language_2003}.
     However, even the appearance of taking a sociopolitical stance on the status of French and Creole as distinct languages is controversial, particularly among creolists and Creole activists in light of the power dynamics between Creoles and Cajuns \parencite{giancarlo_dont_2019} as well as questions about whether Creole is best revitalized by aligning the variety more closely with French as the latter's preservation has more institutional support and resources or by distinguishing it from French in order to avoid erasure of Creole as nothing more than a lesser dialect of French.
     The following is therefore justification for my methodological choice.
     % Somewhat similar to Benor's (2010) explanation that, when analyzing language from her ethnolinguistic repertoire framework, it is "moot" whether one is discussing ethnic variation or ethnolects since the focus is not on language labeling practices but rather on fluid linguistic structure (170)
@@ -57,7 +73,7 @@
         % Indeed, Bertrand & Beale (1965) characterized Black children from Pointe Coupee as being from English or "French" backgrounds rather than Creole backgrounds, yet Klingler by the 1990s was describing speakers in this parish as using Creole features almost to the exclusion of French marked variants
 
     Language naming practices not only fail to be indicative of distance in linguistic structure but mutual intelligibility is also not indicative of any extreme distance between the varieties aggregated as F\&C here.
-    Indeed, despite my use of and much greater familiarity with Louisiana French (structurally defined), during interviews, miscommunication was no more common with Creole speakers than with French speakers.
+    Indeed, despite my use of and much greater familiarity with Louisiana French (structurally defined), during interviews, miscommunication was no more common with Creole-oriented speakers than with French-oriented speakers.
     One poignant example came from Errol, a Cajun whose speech was very Creole-oriented who, during an interview, expressed such a strong stance that his speech was French that he claimed to not be able to always understand those whom he identified as Creole, who therefore in his view spoke Creole.
     Confusing the matter further, the Creole he gave as an example was a musician whose use of F\&C in recorded public interviews was clearly French-oriented in structure, much like my own speech that Errol understood just fine, rather than Creole-oriented.
     Cases of speakers who claim to lack mutual intelligibility certainly exist, but they may be driven more by ideologies of identity rather than a legitimate inability to understand.
@@ -146,7 +162,7 @@
       The major reason for this choice over the alternative of using the latter system to represent all quoted speech, as was \citeauthor{wendte_tale_2020}'s (\citeyear[p.~126]{wendte_tale_2020}) approach for example, is that the latter has not yet become widespread enough.
       For instance, a study of attitudes towards how Creole should be written relied on finding participants through Facebook groups as this was considered the population that was ``likely to have an opinion on the subject of Louisiana Creole writing'' \parencite[p.~27]{wendte_identity_2019} despite the researcher having been engaged in extensive face-to-face fieldwork with Creole speakers at the time \parencite{wendte_tale_2020}, presumably meaning that the general population of speakers who are not part of these Facebook groups would likely not have opinions on written Creole.
       The implication is either that the creolophones in Louisiana are generally not literate, a likely scenario given the discussion in Section \ref{sec:domain_indicators}, or they have not been exposed to any proposed standardized orthographies for Creole.
-      Thus, regardless of the utility of \citeauthor{landry_kouri-vini_2016}'s (\citeyear{landry_kouri-vini_2016}) system for educational and revitalization purposes, when writing for a broad audience of scholars, there is no comparison with the reach of French orthography.
+      Thus, regardless of the utility of \citeauthor{landry_kouri-vini_2016}'s (\citeyear{landry_kouri-vini_2016}) system for educational and revitalization purposes, when writing for a broad audience of scholars about French-related language varieties, there is no comparison with the reach of French orthography.
       
       In practice, there are a not insignificant number of spelling adaptations that needed to be made.
       Initial and final segments that would be present in Hexagonal French cognates are sometimes absent, both in Creole-oriented and French-oriented speech (\citeauthor{klingler_if_2003}, \citeyear[pp.~168/245]{klingler_if_2003}; \citeauthor{papen_structural_1997}, \citeyear[pp.~75/77]{papen_structural_1997}).
@@ -208,7 +224,7 @@
       When further specifications are made for gender, animacy, and T-V distinctions, a period follow by some combination of the abbreviations in the table's footer will be used.
     } come from various times and places that include New Orleans \parencite[p.~107]{fortier_french_1884} and Terrebonne-Lafourche parishes (\citeauthor{carmichael_language_2019}, \citeyear[p.~72]{carmichael_language_2019}; \citeauthor{dajko_ethnic_2009}, \citeyear[pp.~144/160]{dajko_ethnic_2009}; \citeauthor{gudmestad_variationist_2022}, \citeyear{gudmestad_variationist_2022}; \citeauthor{oukada_louisiana_1977}, \citeyear[p.~185]{oukada_louisiana_1977}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{rottet_language_1995}, \citeyear[pp.~175/178/193/197/207]{rottet_language_1995}) but perhaps more importantly Lafayette (\citeauthor{conwell_louisiana_1963}, \citeyear[pp.~141-145]{conwell_louisiana_1963}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~42-58]{smith_morphosyntactic_1994}), St Martin Parish (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{lane_notes_1934}, \citeyear[p.~328]{lane_notes_1934}; \citeauthor{mayeux_racial_2024}, \citeyear{mayeux_racial_2024}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~166-179]{neumann-holzschuh_creole_1985}), Evangeline Parish (\citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}), Vermilion and St Landry parishes \parencite[p.~5]{girard_lomheim_systeme_2019}, Pointe Coupee Parish \parencite[pp.~206/213]{klingler_if_2003}, Avoyelles Parish \parencite[pp.~31-33]{chaudoir_study_1938}, Avoyelles and Assumption parishes \parencite[pp.~152-153]{brown_pronominal_1988}, and broadly from across South Louisiana (\citeauthor{byers_defining_1988}, \citeyear{byers_defining_1988}; \citeauthor{johnson_louisiana_1976}, \citeyear[p.~31]{johnson_louisiana_1976}).
     Some of these studies focused on French-oriented speech and others Creole-oriented speech, but they have all been aggregated here.
-    The result demonstrates that there is ample space for variation in speaker realizations of the subject pronoun paradigm, including the potential for pronoun choices marking speakers as members of racialized groups.
+    The result demonstrates that there is ample space for variation in speaker realizations of the subject pronoun paradigm.
 
     \begin{table}[tbhp]
       \caption{Subject pronouns attested in Louisiana}
@@ -218,16 +234,16 @@
         \multicolumn{3}{c}{} \\
                                & Singular                                                              & Plural \\
         \hline
-        1st person             & je, moi, on, \textbf{mo}, \textbf{mwen}, \textit{ø}                   & nous, \textbf{nou}, \textbf{no}, \textit{on}, \textit{nous-autres} \\
+        1st person             & je, moi, on, \textbf{mo}, \textbf{mwen}, \textit{Ø}                   & nous, \textbf{nou}, \textbf{no}, \textit{on}, \textit{nous-autres} \\
         2nd person (T)         & tu, ça, \textbf{to}                                                   & \textit{vous-autres} \\
-        2nd person (V)         & vous, tu, \textbf{vou}, \textbf{vo}, \textit{vous-autres}, \textit{ø} & \textbf{vou}, \textit{vous-autres} \\
+        2nd person (V)         & vous, tu, \textbf{vou}, \textbf{vo}, \textit{vous-autres}, \textit{Ø} & \textbf{vou}, \textit{vous-autres} \\
         2nd person (not clear) & \textbf{to}                                                           & vous, tu, ça, vous-autres, \textbf{vou} \\
         3rd person (M)         & il, \textbf{ça}                                                       & \\
         3rd person (F)         & elle, ça                                                              & \\
-        3rd person (neuter)    & il, ça, \textbf{li}                                                   & ils, eux, eux-autres, \textbf{yé}, \textit{ça} \textit{ø} \\
+        3rd person (neuter)    & il, ça, \textbf{li}                                                   & ils, eux, eux-autres, \textbf{yé}, \textit{ça} \textit{Ø} \\
         demonstrative          & ça                                                                    & \\
         \cline{2-3}
-        expletive              & \multicolumn{2}{c}{\textit{il}, \textit{ça}, \textit{ø}} \\
+        expletive              & \multicolumn{2}{c}{\textit{il}, \textit{ça}, \textit{Ø}} \\
         impersonal             & \multicolumn{2}{c}{tu, vous, on, ça, ils, \textbf{to}, \textbf{yé}} \\ % add vous after verifying Gilbeau (1950)
         \multicolumn{3}{c}{} \\
       \end{tabular}
@@ -244,7 +260,7 @@
     This has not held true within Louisiana for 3pl subject pronouns (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}).
     Referent gender is variably relevant to 3sg in Louisiana in both French-oriented and Creole-oriented speech in that speakers of all varieties of F\&C may or may not mark gender in these subject pronouns (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{dajko_ethnic_2009}, \citeyear[p.~160]{dajko_ethnic_2009}; \citeauthor{klingler_if_2003}, \citeyear[pp.~170/209]{klingler_if_2003}; \citeauthor{mayeux_rethinking_2019}, \citeyear[p.~115]{mayeux_rethinking_2019}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~170]{neumann-holzschuh_creole_1985}; \citeauthor{phillips_etude_1936}, \citeyear[p.~43]{phillips_etude_1936}; \citeauthor{rottet_language_1995}, \citeyear[p.~128]{rottet_language_1995}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
     Similarly different from French varieties outside of Louisiana is that referent animacy is more relevant in Louisiana.
-    In Hexagonal French, for instance, \lexi{il} and \lexi{elle} regularly refer to both animate and inanimate referents, whereas this is not attested in Louisiana for French-oriented speakers who use \lexi{ça} for inanimate referents \textcite{brown_pronominal_1988},\footnote{
+    In Hexagonal French, for instance, \lexi{il} and \lexi{elle} regularly refer to both 3sg animate and inanimate referents, whereas this is not attested in Louisiana for French-oriented speakers who use \lexi{ça} for inanimate referents \textcite{brown_pronominal_1988},\footnote{
       \textcite[pp.~47-48]{smith_morphosyntactic_1994} and \textcite[p.~145]{conwell_louisiana_1963} both claimed to have documented the opposite behavior, more in line with other French varieties, but both also only provided examples that support the idea that only \lexi{ça} is used for 3sg.I referents.
       Alternatively, \textcite{brown_pronominal_1988} claimed that \lexi{ça} was used for animate referents, but the examples she provided had questionable interpretations.
       Her quantitative results were more mixed, but she collapsed 3pl and 3sg together for that analysis, making it a difficult result from which to draw conclusions.
@@ -259,10 +275,10 @@
     % Following verb type has turned out to be meaningful
     The verb type for the verb following a subject pronoun has proven to be a more meaningful structural constraint, although some findings have not been without methodological issues.
     Disjunctive pronouns were found to be present more often with verbs that express beliefs and opinions \parencite[p.~160]{dubois_attrition_2001}, but this is likely due to the general function of disjunctive pronouns of stressing contrasts, something that one would typically do when expressing beliefs and opinions.
-    Null subject pronouns have also been found to be more common with reflexive verbs \parencite[Guilbeau, 1950, as cited in][p.~183]{rottet_language_1995}, a result that may perhaps be explained by the reflexive pronoun having co-reference with the subject pronoun, rendering the subject pronoun somewhat\footnote{
-      This redundancy is more true for 1sg and 2sg than others person-number combinations as many of the latter call for the same reflexive pronoun.
+    Null subject pronouns have also been found to be more common with reflexive verbs \parencite[Guilbeau, 1950, as cited in][p.~183]{rottet_language_1995}, a result that may perhaps be explained by the reflexive pronoun having co-reference with the subject pronoun, making it clear who the referent is even in the absence of an overt subject pronoun\footnote{
+      This is more true for 1sg and 2sg than others person-number combinations as many of the latter call for the same reflexive pronoun.
       In Louisiana, even 2pl subject pronouns can take the same reflexive pronoun as all third person subject pronouns \parencite[p.~85]{papen_structural_1997}.
-    } redundant.
+    }.
     The phonetic form of first person subject pronouns has also been shown to be predictable based on the inflectional class of the following verb \parencite[pp.~14-15]{gudmestad_variationist_2022}, although this study is not concerned with phonetic variation, and no one has documented the same behavior for pronoun choice.
 
     % A more robust verb type finding focuses on the status of the verb as lexical, auxiliary, or modal, though
@@ -276,10 +292,10 @@
 
     % Social constraints that were modeled
     Sociolinguistic analyses of F\&C have been relatively rare compared to documentary work.
-    For subject pronouns, \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009} provided the most robust sociolinguistic work in terms of subject pronoun choice, both examining Terrebonne-Lafourche, but \textcite{gudmestad_variationist_2022} also presented sociolinguistic analyses of phonetic variation in 1sg subject pronouns, again examining Terrebonne-Lafourche.
+    \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009} provided the most robust sociolinguistic work in terms of subject pronoun choice, both examining Terrebonne-Lafourche, but \textcite{gudmestad_variationist_2022} also presented sociolinguistic analyses of phonetic variation in 1sg subject pronouns, again examining Terrebonne-Lafourche.
     All such sociolinguistic analyses focused entirely on speech that was said to be French rather than Creole, hence pronouns that are included in the present study that are traditionally described as Creole pronouns do not really factor into previous studies, but their results are enlightening for showing the sort of work subject pronouns can do in any case.
 
-    No studies have considered exposure to institutional French as a factor, as was done in the present work, nor even factors that are likely to be associated with exposure to institutional French such as occupation or educational attainment.
+    No studies have considered exposure to institutional French as a factor, as was done in the present work, nor even factors that are likely to be associated with exposure to institutional French such as occupation or education.
     Gender and age, however, have been examined in the literature.
     Gender has mostly proved to be insignificant, although there have been some exceptions.
     \textcite{rottet_language_1995} found that men and women both primarily used \lexi{je} for 1sg and \lexi{vous-autres} for 2pl, but men were more inclined to use null pronouns for the former and either \lexi{vous} or \lexi{tu} for the latter (pp.~178/193).
@@ -288,10 +304,10 @@
     Those over 50 slightly dispreferred using \lexi{ça} compared to an aggregate of 3sg and 3pl pronouns (\foreign{i.e.}, \lexi{il} + \lexi{elle} + \lexi{ils}) in the parishes of Avoyelles and Assumption, whereas those under 50 slightly preferred \lexi{ça} \parencite[p.~178]{brown_pronominal_1988}.
     This shift over time in favor of \lexi{ça} for 3pl was also present in Terrebonne-Lafourche, but there, the much larger shift was in favor of \lexi{eux} for 3pl.
     Additionally in these latter parishes, younger speakers were more likely to use null pronouns for 1sg, although all speakers preferred \lexi{je}, and to use \lexi{tu} for 2sg.V.
-    Another rather unexpected result there included the middle age group (\foreign{i.e.}, 30-54) using \lexi{tu} almost as much as \lexi{vous-autres} for 2pl, whereas all age groups preferred the latter otherwise \parencite[pp.~178/193/197/207]{rottet_language_1995}.
+    Another rather unexpected result there included the middle age group (\foreign{i.e.}, 30-54 years old) using \lexi{tu} almost as much as \lexi{vous-autres} for 2pl, whereas all age groups preferred the latter otherwise \parencite[pp.~178/193/197/207]{rottet_language_1995}.
     It should be noted, however, that \textcite{rottet_language_1995} included speakers of different fluency levels, which appeared to be correlated with age (p.~163), making it difficult to disentangle how much of this variation was related specifically to age.
     
-    Finally, and most importantly, ethnicity and race have been examined in the literature, although none of these works have been framed as examinations of racialization.
+    Finally, and most importantly, ethnicity and race have been examined in the literature.
     Race, in terms of the broader US categories of White and Black, has often been implicated in studies of what has been conceptualized as Creole.
     These have not been variationist sociolinguistic studies, so the comments on race were generally more holistic and impressionistic.
     In Breaux Bridge, for example, \textcite{neumann-holzschuh_creole_1985} described White speakers of Creole as using a more decreolized version of the language, which would include things like grammatical gender and a lack of postnominal definite articles (p.~41).
@@ -299,9 +315,14 @@
     \textcite{klingler_if_2003} did consider pronouns in the Creole of Pointe Coupee in suggesting that gender was more likely to be marked in any type of pronoun for White speakers, giving the example of \lexi{avec elle} \gloss{with her} rather than \lexi{avec li} \gloss{with him/her} (p.~117).
     \lexi{Elle}, in this case, would always have a feminine referent whereas \lexi{li} could have either a feminine or masculine referent.
 
-    More robust analyses came once again from \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009}, although since these were dealing with ``French'' and Indians versus Cajuns, the factor was conceptualized as ethnicity rather than race.
-    Both researchers certainly provided hints that these two groups are racialized, with Indians being given a lower status, but presumably, both categories and their related language varieties were White enough to not entail thinking about them in terms of race.
-    Rottet and Dajko worked in the same region of Louisiana, but they did not examine exactly the same subject pronouns.
+    A moment should be taken to acknowledge that the choice of primarily using US racialized categories and avoiding the term \lexi{Cajun} in studies of Louisiana Creole is itself something of a testament to the more explicit connections people have traditionally drawn between anything ``Creole'', people or language, and US racialized categories.
+    \textcite{klingler_if_2003} himself explained that most speakers of Creole in Pointe Coupee were White and so would likely identify as Cajun (pp.~xxvii/108), yet the identifications he used for his participants ultimately included ``African Americans'', ``Creoles of color'', and ``whites'' without mention of Cajuns (138).
+    Likewise, \textcite{neumann-holzschuh_creole_1985} consistently wrote in terms of Black and White in her grammatical description of Louisiana Creole.
+    A pattern seems to emerge where studies of French deal with Cajuns and studies of Creole deal with colored bodies.
+    This is not an indictment against the researchers, but rather an observation of just how pervasive the racialized social system of the US is and how it is entangled with these local categories.
+
+    More robust analyses of race and ethnicity in F\&C than these grammatical descriptions of Creole came once again from \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009}, dealing with ``French'' and Indians versus Cajuns.
+    Rottet and Dajko worked in the same southeastern region of Louisiana, but they did not examine exactly the same subject pronouns.
     Those that were shared included 2pl and 3pl, and with some caveats, 1sg.
     For 2pl, \textcite{rottet_language_1995} found an overall preference for \lexi{vous-autres} for both groups, but Cajuns were otherwise much more split between \lexi{vous-autres}, \lexi{vous}, and \lexi{tu} (p.~193).
     By \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}) time, ethnicity was no longer significant for 2pl with both groups greatly preferring \lexi{vous-autres} (p.~154).
@@ -327,8 +348,7 @@
 
     What may not be immediately apparent in these results is that Indians and Cajuns in Terrebonne-Lafourche almost entirely agreed on their preferred subject pronouns even if there was statistically significant variation in the frequency of the lesser used variants.
     Table \ref{tab:preferred_pronouns_tl} summarizes this pattern.
-    As already mentioned, both \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009} discussed the social position of Indians in a way that is suggestive of them having a lower status than Cajuns, but if the situation reaches the level of these groups being racialized, Indians and Cajuns do not appear to be heavily racially marked by their subject pronoun usage in F\&C.
-    One may still identify them through their subject pronouns, but the contrast, being only in the rates of usage of dispreferred pronouns, is not particularly stark.
+    As already mentioned, both \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009} discussed the social position of Indians in a way that is suggestive of them having a lower status than Cajuns, but to the extent that this would mean that there is social distance between the two groups, that distance is only subtly realized in their subject pronoun production.
 
     \begin{table}[tbhp]
       \caption{The most frequent subject pronouns in Terrebonne-Lafourche by ethnicity}
@@ -350,7 +370,7 @@
     Two final notes can be made about how subject pronouns have been shown to be related to ethnicity or race in the literature.
     One is that 1sg subject pronouns have been given phonetic treatments several times, already discussed briefly above, or have otherwise been commented on in terms of phonetics in light of the considerable number of variants that are possible.
     These have once again all been focused on Terrebonne-Lafourche, where the [s] realization and especially the [z] realization of \lexi{je} have been particularly linked to Indians, both of which represent depalatalized versions of the typical [ʃ] and [ʒ] realizations, respectively (\citeauthor{dajko_ethnic_2009}, \citeyear[pp.~121-122]{dajko_ethnic_2009}; \citeauthor{papen_structural_1997}, \citeyear[p.~82]{papen_structural_1997}; \citeauthor{rottet_language_1995}, \citeyear[pp.~127/176]{rottet_language_1995}).
-    While phonetic variation is not part of the present analysis, this does show that aspects of subject pronouns can reach a level of association with an ethnicity such that this association is apparent to anyone who spends considerable time with those subject to the association.
+    While phonetic variation is not part of the present analysis, this does show that aspects of subject pronouns can reach a level of association with an ethnicity such that this association is apparent to anyone who spends considerable time with those who are subject to the association.
 
     The other final note is that examinations of the subject pronouns of Creoles have been entirely limited to Creole-oriented speech save for one exception.
     \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) work was a discourse analysis of Creoles in Louisiana and Texas rather than a variationist analysis, so neither subject pronouns nor any other more precise structural linguistic features were part of his work, but he did not limit participation in the study to Creoles who spoke Creole as described by linguists structurally but rather who spoke whatever speech variety the participants referred to as Creole (pp.~113-119).
@@ -431,8 +451,7 @@
 
   \section{Methods}
     \label{sec:pronoun_methods}
-    For the case of Creole and Cajun having become racialized categories, a natural question is what traits are used to mark individuals as fitting into these categories.
-    The goal of this chapter is to address quantitatively whether subject pronouns constitute one of those traits.
+    The goal of this chapter is to address quantitatively whether and how subject pronouns vary generally between Creoles and Cajuns.
     The speech of the participants discussed in Section \ref{sec:participants} make up the data used for the following analyses.
     As their social characteristics have already been summarized in Table \ref{tab:participants_background}, this section will primarily focus on how subject pronoun tokens and the predicates following them were coded and what statistical analyses were carried out.
 
@@ -445,7 +464,7 @@
 
       \subsubsection{Phonetic variants}
         \label{sec:phonetic_variants}
-        The analyses carried out here are lexical rather than phonetic, but ambiguities easily arise in which two distinct pronouns can have identical phonetic realizations or in which several phonetic forms may all be realizations of a single target pronoun.
+        The analyses carried out here are lexical rather than phonetic, but ambiguities easily arise when two distinct pronouns can have identical phonetic realizations or when several phonetic forms may all be realizations of a single target pronoun.
         The range of what was attested in this study's data is presented in Table \ref{tab:phonetic_variants}, including the lexical items that it was decided that they represent.
         Disentangling ambiguities in this system was essential for accurately counting pronoun tokens, hence some explanation of the choices made here will be given.
         However, establishing without a doubt what the correct grammatical analyses of these tokens are is beyond the scope of this study, and so questions will necessarily linger, questions perhaps appropriate for future research.
@@ -469,7 +488,7 @@
             {}[\backseven{il}], [\backeight{i}]                                            & il       & [ilz], [ils], [iz], [is], [\backseven{il}], [\backeight{i}]   & ils \\
             {}[li], [l], [\backeight{i}]                                                   & li       & [ø]                                                           & eux \\
             {}[sa], [\backtwo{sə}], [\backthree{s}], [\backone{ʃ}], [ʒa]                   & ça       & [øzɔt]                                                        & eux-autres \\
-            {}ø                                                                            & ø        & [ye], [y]                                                     & yé \\
+            {}Ø                                                                            & Ø        & [ye], [y]                                                     & yé \\
             \multicolumn{4}{c}{} \\
           \end{tabular}
           {\footnotesize
@@ -484,10 +503,10 @@
         Studies that attest to both forms consider them to be variants of the same pronoun, thus they were treated as such here.
         Similarly well attested through the world is a [z] liaison for \lexi{elles}.
         This pronoun is very rare in Louisiana and only appeared in liaison contexts in my data, making it unambiguous.
-        Finally, \lexi{ils} is also widely known to generate a [z] liaison, but in Louisiana, it can also be realized with a [l] liaison (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
-        This case presents significant ambiguities with \lexi{il} and even \lexi{li}
-          which will be discussed further down.
-        Documented liaisons therefore helped categorize a number of phonetic realizations with their appropriate pronoun morphemes.
+        Finally, \lexi{ils} is also widely known to generate a [z] liaison, but in Louisiana, it can also be realized with a [l] liaison\footnote{
+          This is clearly born out in my own data where, for example, Terry never produced a [z] liaison and in fact often produced simply [i] for 3pl even before vowels.
+        } (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}).
+        This case presents significant ambiguities with \lexi{il} and even \lexi{li} which will be discussed further down, but documented liaisons therefore more often than not helped categorize phonetic realizations with their appropriate pronoun morphemes.
 
         The pronouns \lexi{nous} and \lexi{vous} have been widely attested throughout the francophone world as producing [z] liaisons, as well, but there was an additional ambiguity created by their non-liaison forms [nu] and [vu] as these have been documented in studies of Creole as existing but without a liaison.
         Instead, they often reduce to [n] and [v], respectively, before vowels and sometimes even before consonants (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}).
@@ -500,7 +519,7 @@
         The same logic was applied to categorizing [vu]\footnote{
           Although [vo] is also attested in the literature as alternating with [vu] in Creole-oriented speech (\citeauthor{klingler_if_2003}, \citeyear[pp.~206/213]{klingler_if_2003}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}), [vo] did not appear in my data.
         } and [vuz] with the difference being that only irregular French verbs would appear different than the typically attested Creole verb forms.
-        Fortunately, these pronouns were rare enough in the corpus that almost all unclear tokens could be disambiguated using verbal inflections for irregular verbs or the presence or absence of liaisons.
+        Fortunately for coding, and unfortunately for statistical analyses, these pronouns were rare enough in the corpus that almost all unclear tokens could be disambiguated using verbal inflections for irregular verbs or the presence or absence of liaisons.
 
         Vowel elisions in subject pronouns were also an issue for a number of other pronoun forms.
         Most of these have been repeatedly documented in the literature, although that did not always lead to clarity in choosing their lexical items.
@@ -539,11 +558,11 @@
         \label{sec:pronoun_types}
         Having dealt with the phonetic forms that pronouns can take, there is still the issue of coding each token for its pronoun type.
         The possible pronoun types in the current data are summarized in Table \ref{tab:pronouns_attested} along with the variants that occurred for each.
-        The categories cover all possible person and number combinations, a T-V distinction for 2sg, and a gender distinction for 3sg.
-        Demonstrative, expletive, and impersonal pronoun types were also present in the data and so considered for analysis, although demonstratives were effectively categorical as only \convertSmallNumber{\Sexpr{tablesProTypeAll$demonstrative["ø"]}} null token was found, all others being \lexi{ça}.\footnote{
+        The categories cover all possible person and number combinations, a T-V distinction for 2sg, and a gender distinction for 3sg\footnote{
           It is worth noting that Austin produced some neuter 3sg pronouns using \lexi{ça} in the same way that singular \lexi{they} is used in English.
-          This pronoun type is not considered in the present analyses as he was the only one to do this, making it not only categorical like demonstratives but also limited to one participant.
-        }
+          This pronoun type is not considered in the present analyses as he was the only one to do this, making it not only categorical but also limited to one participant.
+        }.
+        Demonstrative, expletive, and impersonal pronoun types were also present in the data and so considered for analysis, although demonstratives were effectively categorical as only \convertSmallNumber{\Sexpr{tablesProTypeAll$demonstrative["ø"]}} null token was found, all others being \lexi{ça}.
         These latter three pronoun types were defined, respectively, as pronouns that are primarily deictic in nature, pronouns that make no reference and do not contribute to the meaning of the proposition, and pronouns that have a generic reference.
         While classifying most pronoun tokens was relatively straightforward, there were some problematic cases that needed to be resolved.
 
@@ -575,6 +594,7 @@
         In determining the possible pronoun types, an agnostic approach was taken for gender and animacy.
         In other words, while evidence from the literature discussed in Section \ref{sec:pronoun_structure} provided guidelines for what to expect, all possible person and number combinations were initially coded for all possible gender combinations (\foreign{i.e.}, masculine, feminine, mixed), and 3sg and 3pl tokens were all initially coded for animacy.\footnote{
           Animacy is not relevant to first and second person pronouns unless one assumes that inanimate objects can speak or listen.
+          Fairy tales and such that might bring inanimate objects to life did not come up during interviews, though.
         }
         In doing so, some distinctions for gender and animacy were able to be ruled out.
         For instance, all 1pl pronoun forms can refer to all gender combinations with the exception of \lexi{ça} with only \convertSmallNumber{\Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "ça",])}} token and \lexi{vous-autres} also with only \convertSmallNumber{\Sexpr{nrow(subsetsGender$firstPl[subsetsGender$firstPl$ProUnder == "vous-autres",])}} token.
@@ -594,14 +614,15 @@
         Contextually, the primary clue for whether T or V was intended was the age of the interlocutor, myself in most cases, in that the literature has consistently found that older interlocutors received V forms and younger T forms (\citeauthor{klingler_if_2003}, \citeyear[p.~208]{klingler_if_2003}; \citeauthor{mayeux_language_2024}, \citeyear[p.~35]{mayeux_language_2024}; \citeauthor{rottet_language_1995}, \citeyear[pp.~165/198]{rottet_language_1995}).\footnote{
           This generally coincided with my own participants' linguistic behavior when they explicitly commented on the T-V distinction.
           One participants in her 60s appeared to be offended at one point because I was using \lexi{vous} with her which she explained was for people older than her.
-          However, another participant in her 70s who I addressed with \lexi{vous} quickly asked me to switch to \lexi{tu}, joking that we had known each other for several minutes and that was long enough that we could drop the formality.
+          This would place tokens of 2sg that addressed myself, in my 40s, well below her threshold for using \lexi{vous}.
+          However, another participant in her 70s who I addressed with \lexi{vous} quickly asked me to switch to \lexi{tu}, joking that we had known each other for several minutes and that was long enough that we could drop the formality, meaning that even those above the threshold are not necessarily meant to be addressed with \lexi{vous} at all times.
         }
         Another strategy involved the assumption that if a participant consistently used \lexi{tu} or \lexi{to} with an addressee, then any momentary use of \lexi{vous} or \lexi{vou} with that addressee still represented a T form.
         % Of course, this meant that one was also assuming that the initial uses of \lexi{tu} or \lexi{to} represented T forms.
         % Some participants also did not consistently produce either the former pronouns or the latter pronouns in the first place.
         The last strategy relied on the translation task which purposely placed the participant in various addresser-addressee situations.
         None of these strategies were fail-safe, and when attemping to extend their application to 2pl pronouns, the task became impossible as there were only \Sexpr{nrow(tokens[tokens$ProType == "2pl",])} 2pl tokens produced.
-        Likewise, the relevance of gender for 2pl pronouns was also not able to be determined.
+        Likewise, the relevance of gender for 2pl pronouns was not able to be determined.
         All 2pl tokens were instead simply aggregated into one category.
         % vous (sg.+formal) vs vous (pl.)
           % Use context to distinguish between them
@@ -670,13 +691,13 @@
       % Nouns, adjectives, and prepositions were removed for modeling due to low counts causing the models to not converge. Update this section with that in mind.
       As briefly discussed in Section \ref{sec:pronoun_structure}, the type of verb that follows a subject pronoun has previously been found to impact subject pronoun realizations, particularly for 3pl pronouns.
       The data here was thus coded for not only the verb type but the predicate type as there is not always a finite verb, including the copula as a verb, in a finite clause.
-      It should also be noted that the \lexi{predicate} is used here as shorthand for the word following the subject pronoun.
+      It should also be noted that the \lexi{predicate} is used here as shorthand for the word following the subject pronoun, which was in fact very often a predicate (\num{\Sexpr{nrow(tokensAll[tokensAll$PredType == "lexical" | tokensAll$PredType == "adjective" | tokensAll$PredType == "noun",])}} predicates, \num{\Sexpr{nrow(tokensAll[tokensAll$PredType == "modal" | tokensAll$PredType == "auxiliary",])}} modal or auxiliary verbs, and \num{\Sexpr{nrow(tokensAll[tokensAll$PredType == "preposition",])}} prepositions).
       Auxiliary verbs are obviously not predicates, but their presence or absence does appear to be more important for subject pronoun realization than the actual predicates that follow them.
       The levels used for predicate types included \Sexpr{levels(tokensAll$PredType)[1]}, \Sexpr{levels(tokensAll$PredType)[2]}, \Sexpr{levels(tokensAll$PredType)[3]}, \Sexpr{levels(tokensAll$PredType)[4]}\footnote{
         While a preposition itself would be difficult to categorize as a predicate, a prepositional phrase is not, so the term \lexi{preposition} here is meant to signal that a prepositional phrase was the predicate, albeit the preposition itself is what was coded.
       }, \Sexpr{levels(tokensAll$PredType)[5]}, and \Sexpr{levels(tokensAll$PredType)[6]}.
-      The most important of these levels is auxiliary verbs which I limit primarily to the copula (\lexi{être}), verbs that can also means \gloss{to have} (\lexi{avoir} and \lexi{gain}), and verbs that can also mean \gloss{to go} (\lexi{aller} but also some very rare tokens of \lexi{courir}, \lexi{gone}, and \lexi{venir}).
-      These latter two were only coded as auxiliary when they were not in fact the main lexical verb in the clause but rather played only an auxiliary role.
+      The most important of these levels is auxiliary verbs which I primarily limited to the copula (\lexi{être}), verbs that can also means \gloss{to have} (\lexi{avoir} and \lexi{gain}), and verbs that can also mean \gloss{to go} (\lexi{aller} but also some very rare tokens of \lexi{courir}, \lexi{gone}, and \lexi{venir}).
+      The final three cases were only coded as auxiliary when they were not in fact the main lexical verb in the clause but rather played only an auxiliary role.
       Previous studies and my own pilot study suggested that these specific auxiliaries have an impact on subject pronoun realizations but not necessarily other auxiliaries, meaning those that always express capability or obligation.
       These latter auxiliaries were coded as modal rather than auxiliary.
 
@@ -690,7 +711,7 @@
       
       A construction that implicates \lexi{avoir} in all varieties of French in the world is the existential \lexi{il y a} \gloss{there is/are}.
       Quite directly, this consists of the expletive subject pronoun \lexi{il}, the locative object pronoun \lexi{y}, and the verb \lexi{avoir} in some inflected form.
-      In French outside of Louisiana as well as F\&C in Louisiana, the \lexi{il} can be elided so that [il i a] because [i a] or [ja].
+      In French outside of Louisiana as well as F\&C in Louisiana, the \lexi{il} can be elided so that [il i a] becomes [i a] or [ja].
       Unique to Louisiana, however, is the pronunciation [ina] or sometimes simply [na].
       In all cases, the verb \lexi{avoir} in existential constructions was coded as lexical as there is no additional verb attached to suggest an auxiliary function, but it was also necessary to decide whether [i] in [ina] represented \lexi{il}, which commonly becomes [i] before consonants, or \lexi{y} as this impacted the coding of the pronoun as \lexi{il} or null.
       Whereas \textcite{smith_morphosyntactic_1994} assumed [i] to be \lexi{il} (p.~50), here it was treated as \lexi{y} as the former requires the additional assumption that either \lexi{y} becomes [n], a rather radical shift, or that a verb such as \lexi{navoir} exists, which is an infinitive that has never to my knowledge been attested.
@@ -718,7 +739,7 @@
       Other auxiliary verbs that are at times lexical and at other times auxiliary are those that express movement in their lexical forms.
       When followed by an non-finite verb in order to indicate future tense, \lexi{aller} \gloss{to go}, for instance, was coded as an auxiliary but otherwise as lexical.
       Also used to mean \gloss{to go} \parencite[p.~246]{klingler_if_2003}, \lexi{couru} has not been attested as an auxiliary to express future tense as \lexi{aller} can and so was coded only as lexical.\footnote{
-        It should be noted that F\&C speakers do produce constructions with \lexi{couru} that are similar to auxiliary functions expressing tense, such as in sentence \ref{sent:elizabeth_serial}, but these should be understood as serial-like constructions that simply express consecutive actions \parencite[pp.~311-312]{klingler_if_2003}.
+        It should be noted that F\&C speakers do produce constructions with \lexi{couru} that are similar to auxiliary functions expressing tense, such as in Sentence \ref{sent:elizabeth_serial}, but these should be understood as serial-like constructions that simply express consecutive actions \parencite[pp.~311-312]{klingler_if_2003}.
         \begin{enumerate}[resume=sentences]
           \item Elizabeth: Mo couru travailler pour des avocats. (9:32)\label{sent:elizabeth_serial}
           \item[] \longtrans{Elizabeth: I went to work for some lawyers.}
@@ -730,7 +751,7 @@
         \item[] \longtrans{Tracy: I'm not going to pay for you.}
       \end{enumerate}
       The oddity of this phrase is highlighted, though, by the fact that such uses of \lexi{gone} are unattested in the literature.
-      This example of a borrowing may even be a token of English \lexi{gon} as derived from \lexi{going to} \parencite[p.~115]{winford_origins_1998} rather than the English \lexi{gone} borrowing that is rather common in F\&C.
+      This example of a borrowing is in all likelihood a token of English \lexi{gon} as derived from \lexi{going to} \parencite[p.~115]{winford_origins_1998} rather than the English \lexi{gone} borrowing that is rather common in F\&C.
       \lexi{Gone} also presents ambiguity in its uncertain status as an adjective preceded by an elided copula -- analogous to its English usage -- or as a verb in and of itself.
       Ultimately, tokens of \lexi{gone} were all coded as verbs because \lexi{gone} can appear in contexts where only a verbal element is possible, such as after the auxiliary verb \lexi{avoir}, and because the low number of tokens of predicate adjectives would give potentially incorrect codings of \lexi{gone} as an adjective an outsized impact on statistical results, making coding it as a verb the more conservative approach.
       % \begin{enumerate}[resume=sentences]
@@ -751,14 +772,14 @@
       These were also coded as lexical, however, which should be especially uncontroversial when followed by noun phrases.
 
       Some notes must be made about reflexive verbs, object pronouns more generally, and the surface forms of predicates, as well.
-      Reflexive verbs can involve a preverbal reflexive pronoun which, when the auxiliary verb \lexi{avoir} is present, comes before the auxiliary, raising the question of whether the pronoun or the auxiliary should be coded as the predicate (\foreign{i.e.}, the following word).
+      Reflexive verbs can involve a preverbal reflexive pronoun which, when the auxiliary verb \lexi{avoir} is present, comes before the auxiliary, raising the question of whether the pronoun or the auxiliary should be coded as the following word (\foreign{i.e.}, the predicate).
       The choice here was to code the auxiliary in these cases and in fact in all cases where a preverbal object pronoun is present as these pronouns are semantically linked to the verbal element rather than the auxiliary.
       Relatedly, reflexive verbs are sometimes glossed as having senses distinct from their non-reflexive versions, which implicates the coding for the underlying form as predicates were modeled as random effects.
       In other words, whether \lexi{rappeler} \gloss{to call back/to remind} and \lexi{se rappeler} \gloss{to remember} should be treated as one underlying form or two was considered.
       This difference in glosses is generally superficial -- \gloss{to remind oneself} is \gloss{to remember} -- but the rather arbitrary decision to code them as two underlying forms was nonetheless taken.
       Also related to predicates being modeled as random effects is that there were sometimes ambiguities in whether two surface forms represented the same underlying form outside of reflexive verbs.
       For instance, \lexi{aimer} \gloss{to like} is pronounced [lɛ̃me] by some speakers, \lexi{demander} \gloss{to ask} as [mɑ̃de] by some, and the preposition expressing progressive action \lexi{après} variably as [ap], [pe], [ape], or [apre].
-      These were coded as having the same underlying forms when the relationship was relatively transparent, and in any case, none of these cases were for words so frequent that they would cause issues with the statistical models.
+      These were coded as having the same underlying forms when the relationship was relatively transparent, and in any case, none of these choices impacted words that were so frequent that they could cause significant issues with the statistical models.
 
       The last example of \lexi{après} is one of the many items that have been referred to in the literature on Louisiana Creole as preverbal markers.
       These can naturally appear as the predicates of subject pronouns, as well.
@@ -780,11 +801,11 @@
 
       \subsection{Analyses carried out}
         \label{sec:analysis_methods}
-        To uncover the role of subject pronouns functioning as markers of Creole and Cajun identities, binomial and multinomial logistic regression models were built for each pronoun type.
+        To uncover the general tendencies for how Creoles and Cajuns use subject pronouns, binomial and multinomial logistic regression models were built for each pronoun type.
         Binomial models were used when a pronoun type consisted of only two levels and multinomial when it consisted of more than two levels.
         While multinomial models are not common in the literature, they have been successfully deployed in previous work on Louisiana pronouns \parencite{gudmestad_variationist_2022} and so were chosen here to avoid the need to choose which pronoun levels to aggregate together.
 
-        While Table \ref{tab:pronouns_attested} showed all of the subject pronouns that appeared in the data here for each pronoun type, not all of these were used as levels due to some having extremely low counts.
+        While Table \ref{tab:pronouns_attested} showed all of the subject pronouns that appeared in the data here for each pronoun type, not all of these were used as levels due to some having extremely low counts that would otherwise prevent models from converging.
         The pronoun \lexi{ça} was dropped from all pronoun types other than 3pl, demonstrative, and expletive as its use for most pronoun types was relegated to no more than three tokens.
         Likewise, \lexi{il} only appeared for 3sg.F twice, and \lexi{elle} only appeared for 3sg.M once, both of which were excluded for modeling purposes.
         The pronouns \lexi{nous-autres} and \lexi{vous-autres} each only appeared once as 1pl pronouns, warranting their exclusion, as well, but \lexi{nous} for 1pl was more questionable as it appeared \convertSmallNumber{\Sexpr{tablesProTypeAll$firstPl["nous"]}} times.
@@ -794,6 +815,7 @@
         Finally, impersonal pronouns raised some judgement calls.
         The single token of \lexi{vou} was easily excluded for its small count, but there were \Sexpr{tablesProTypeAll$impersonal["vous"]} tokens of \lexi{vous} and \Sexpr{tablesProTypeAll$impersonal["on"]} tokens of \lexi{on}.
         These were ultimately excluded, as well, as these counts were judged to be too low relative to the impersonal tokens of \lexi{tu} ($N$ = \convertSmallNumber{\Sexpr{tablesProTypeAll$impersonal["tu"]}}) and \lexi{to} ($N$ = \convertSmallNumber{\Sexpr{tablesProTypeAll$impersonal["to"]}}) to justify requiring a multinomial model for impersonal pronouns rather than a binomial model.
+        All of these choices were admittedly judgement calls on some level, but those judgement calls were always based on what would be left to count for each pronoun type, meaning that it is unlikely that excluding these low count pronouns resulted in hiding any particularly meaningful statistical results.
 
         Two pronoun types were unable to be modeled at all due to their very low frequencies in the data: 2sg.V and 2pl.
         These summed to \Sexpr{sum(tablesProTypeFinal$secondSgV)} and \Sexpr{sum(tablesProTypeFinal$secondPl)} tokens, respectively, rendering them unusable even for basic exploratory analyses.
@@ -837,9 +859,8 @@
         \end{enumerate}
         Just as with each pronoun type, the first level for each factor is the reference level that was used.
         The only structural factor modeled was the predicate type as no other structures have previously been found to have an impact on subject pronoun realization.
-        All other factors were social in nature, the most important of which was naturally what is called here ethnicity.
-        It is worth repeating that this is more of an agnostically used term as the object under investigation in this study is whether Creole and Cajun constitute races in Louisiana (\foreign{i.e.}, whether they are racialized categories).
-        The use of the term \lexi{ethnicity} in listing model factors is therefore not meant to represent a conclusion to this question.
+        These are referred to in the model as following verb type because only lexical, auxiliary, and modal verbs were frequent enough to include in their modeling.
+        All other factors were social in nature, the most important of which was ethnicity.
         Relatedly, participants were also asked how they identify racially, but as this yielded a large number of different responses, each with relatively low counts, self-identified race could not be included in models but did yield results worthy of discussion.
 
         \begin{table}[tbh]
@@ -897,11 +918,11 @@
         
   \section{Results}
     \label{sec:pronoun_results}
-    The question most central to the quantitative analyses carried out here is whether or not subject pronouns in F\&C act as markers for Creole and Cajun identities.
-    In terms of racialization, such a result would suggest that speech can serve as a way to distinguish group membership with the potential to lead to acts of discrimination.
+    The question most central to the quantitative analyses carried out here is what the general tendencies for Creoles and Cajuns are in terms of their subject pronoun usage.
+    The results of this analysis can then be used as a baseline to better understand how individual speakers navigate their speech around those tendencies.
     Given that the analysis here treats all of the subject pronouns, it can also address the question of whether these pronouns co-vary, which would suggest that they form a whole system that distinguishes Creoles and Cajuns.
-    The results do in fact lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities.
-    The full summary read-outs for each model are given in Appendix \ref{app:code_main}.
+    The results do in fact lend quantitative support to the idea that subject pronouns vary according to Creole and Cajun identities and do so as sets.
+    The full summary read-outs for each model are given in Appendix \ref{app:code_main}, but most relevant results are covered here.
 
     Only one pronoun type did not yield any statistically significant results when modeled, that being 3sg.M.
     This variable consisted of \lexi{li} compared to the reference level \lexi{il}.
@@ -960,7 +981,7 @@
                      & \multicolumn{4}{c}{Response Levels: Lexical $\to$ Auxiliary} \\
         Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
         \hline
-        1sg          & je   & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}             &
+        1sg          & je   & Ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}             &
                                     \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Estimate"])}       &
                                     \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~PredTypeauxiliary", "Pr(>|z|)"])}     &*\\
                      & je   & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}            &
@@ -984,10 +1005,10 @@
                      & ça   & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}            &
                                     \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~PredTypeauxiliary", "Estimate"])}      &
                                     \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~PredTypeauxiliary", "Pr(>|z|)"])}    & \\
-        expletive    & ø    & ça  & N/A &
+        expletive    & Ø    & ça  & N/A &
                                     N/A &
                                     N/A & \\
-                     & ø    & il  & N/A &
+                     & Ø    & il  & N/A &
                                     N/A &
                                     N/A & \\
         impersonal   & tu   & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}         &
@@ -1080,7 +1101,7 @@
                      & \multicolumn{4}{c}{Response Levels: No $\to$ Yes} \\
         Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
         \hline
-        1sg          & je   & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}             &
+        1sg          & je   & Ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}             &
                                     \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~`Institutional French`Yes", "Estimate"])}       &
                                     \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~`Institutional French`Yes", "Pr(>|z|)"])}     &*\\
                      & je   & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}            &
@@ -1104,10 +1125,10 @@
                      & ça   & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}            &
                                     \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~`Institutional French`Yes", "Estimate"])}      &
                                     \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~`Institutional French`Yes", "Pr(>|z|)"])}    &*\\
-        expletive    & ø    & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}          &
+        expletive    & Ø    & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}          &
                                     \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~`Institutional French`Yes", "Estimate"])}    &
                                     \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~`Institutional French`Yes", "Pr(>|z|)"])}  & \\
-                     & ø    & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}          &
+                     & Ø    & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}          &
                                     \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~`Institutional French`Yes", "Estimate"])}    &
                                     \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~`Institutional French`Yes", "Pr(>|z|)"])}  &*\\
         impersonal   & tu   & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}         &
@@ -1121,7 +1142,7 @@
     This means that the language used in the classroom cannot be directly influencing a preference for \lexi{ça} over \lexi{yé} like it can for a preference for \lexi{ils} over \lexi{ça}.
     However, as Figure \ref{fig:education_by_institutionalFr} shows, there is a relatively clear relationship between having a college education and having been exposed to institutional French (Fisher's exact: $P <$ \Sexpr{Ceiling(indEducInstFr$p.value)}).
     This does not mean that exposure to institutional French has no impact on speakers outside of the effects of socioeconomic class but rather that \lexi{ça} is more prevalent to begin with among those who are either from a higher socioeconomic class or are more likely to head towards a higher socioeconomic class than those who use \lexi{yé}.
-    As will be seen for the effects of ethnicity, this aligns well with the racialization of Cajuns, the primary users of \lexi{ça}, as a higher status group than Creoles, the primary users of \lexi{yé},
+    As will be seen for the effects of ethnicity, this aligns well with the generally higher social status of Cajuns, the primary users of \lexi{ça}, over Creoles, the primary users of \lexi{yé}.
 
     \begin{figure}[tbh]
       \centering
@@ -1133,7 +1154,6 @@
     \end{figure}
     
     The primary factor of interest in this analysis is ethnicity, meaning being Creole or Cajun, which was an even more consistently significant social factor than exposure to institutional French.
-    To reiterate, the term \lexi{ethnicity} is used here not as a conclusion about the racialization of these categories but rather as an agnostic stand-in term.
     The models, summarized for ethnicity in Table \ref{tab:ethnicity_results}, show statistical significance for almost all pronouns, thus being Cajun shifts the odds towards \lexi{je} over \lexi{mo} for 1sg, \lexi{tu} over \lexi{to} for 2sg.T, \lexi{elle} over \lexi{li} for 3sg.F, \lexi{il} over \lexi{li} for 3sg.M, \lexi{on} over \lexi{no} for 1pl, \lexi{ils/ça} over \lexi{yé} for 3pl, and \lexi{tu} over \lexi{to} for impersonal.
     In other words, Cajuns show a preference for subject pronouns that have traditionally been described as part of Louisiana French and Creoles for those that have traditionally been described as part of Louisiana Creole.
     While on the surface this might seem like a result too obvious to be noteworthy, Creoles have been documented using the former variants \parencite{klingler_language_2003, klingler_probleme_2005, wendte_tale_2020}, and Cajuns, often equated to White people, have been documented using the latter variants \parencite{klingler_if_2003, neumann-holzschuh_creole_1985}.
@@ -1167,7 +1187,7 @@
                      & \multicolumn{4}{c}{Response Levels: Creole $\to$ Cajun} \\
         Pronoun Type & \multicolumn{2}{c}{Levels} & Intercept & Estimate & $P <$ & \\
         \hline
-        1sg          & je   & ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}          &
+        1sg          & je   & Ø   & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~(Intercept)", "Estimate"])}          &
                                     \Sexpr{Round(logitModelSummaries$firstSg$coefficients["ø~EthnicityCajun", "Estimate"])}       &
                                     \Sexpr{Ceiling(logitModelSummaries$firstSg$coefficients["ø~EthnicityCajun", "Pr(>|z|)"])}     & \\
                      & je   & mo  & \Sexpr{Round(logitModelSummaries$firstSg$coefficients["mo~(Intercept)", "Estimate"])}         &
@@ -1191,10 +1211,10 @@
                      & ça   & yé  & \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~(Intercept)", "Estimate"])}         &
                                     \Sexpr{Round(logitModelSummaries$thirdPl$coefficients["yé~EthnicityCajun", "Estimate"])}      &
                                     \Sexpr{Ceiling(logitModelSummaries$thirdPl$coefficients["yé~EthnicityCajun", "Pr(>|z|)"])}    &*\\
-        expletive    & ø    & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}       &
+        expletive    & Ø    & ça  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~(Intercept)", "Estimate"])}       &
                                     \Sexpr{Round(logitModelSummaries$expletive$coefficients["ça~EthnicityCajun", "Estimate"])}    &
                                     \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["ça~EthnicityCajun", "Pr(>|z|)"])}  & \\
-                     & ø    & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}       &
+                     & Ø    & il  & \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~(Intercept)", "Estimate"])}       &
                                     \Sexpr{Round(logitModelSummaries$expletive$coefficients["il~EthnicityCajun", "Estimate"])}    &
                                     \Sexpr{Ceiling(logitModelSummaries$expletive$coefficients["il~EthnicityCajun", "Pr(>|z|)"])}  & \\
         impersonal   & tu   & to  & \Sexpr{Round(logitModelSummaries$impersonal$coefficients["to~(Intercept)", "Estimate"])}      &
@@ -1203,7 +1223,7 @@
       \end{tabular}
     \end{table}
 
-    Subject pronouns in F\&C can therefore be said to mark ones identity as Creole or Cajun.
+    In a general sense, then, subject pronouns in F\&C vary systematically between Creoles and Cajuns.
     Creole pronouns match what has been described in the Louisiana Creole literature -- \lexi{mo}, \lexi{to}, \lexi{li}, \lexi{li}, \lexi{no}, \lexi{yé}, and \lexi{to} -- while Cajun pronouns match what has been described in the Louisiana French literature -- \lexi{je}, \lexi{tu}, \lexi{elle}, \lexi{il}, \lexi{on}, \lexi{ils/ça}, and \lexi{tu}.
     As the above discussion has perhaps made clear, this also means that subject pronouns are distinguished by the racial categories used broadly in the US: Black and White.
     Participants did not always give exactly one of these two categories when asked to self-identify racially,\footnote{
@@ -1223,11 +1243,11 @@
     \end{figure}
 
     For the two participants who did claim White Creole identities, Deborah and Jerry, their subject pronouns were not those traditionally described as belonging to Louisiana Creole but rather those typical of descriptions of Louisiana French.
-    Indeed, there is perhaps an even stronger association between American racial categories and subject pronoun realizations than for the related local categories of Creole and Cajun.
+    Indeed, there is perhaps an even stronger association between American racialized categories and subject pronoun realizations than for the related local categories of Creole and Cajun.
     Figures \ref{fig:subset_race_1sg} through \ref{fig:subset_race_3pl} show each of the subject pronoun types again but in this case with the subset of those who racially self-identified with broad American categories.
     They represent a clear pattern of Black people using more Creole variants and White people using more French variants.
     For a direct comparison, Table \ref{tab:percentage_ethn_race} shows that the percentage of French pronouns produced by those who identified as Cajun was nearly identical to the subset of those who identified as White, whereas the percentage of Creole pronouns for those who identified as Black was noticeably higher than for those who identified as Creole for every pronoun type.
-    In essence, Creole pronouns do not just mark someone as Creole but mark them as Black and Creole.
+    In essence, Creole pronouns are not just associated with Creoles but more specifically Black Creoles.
 
     \begin{figure}[tbhp]
       \captionsetup{font={footnotesize}}
