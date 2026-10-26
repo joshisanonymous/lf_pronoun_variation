@@ -256,7 +256,7 @@
     It was not until much later that it was argued that all three were racialized at one time or another in the US \parencite{roediger_working_2018}.
 
     While first wave studies of language variation went a long way towards reducing the stigma attached to the language varieties of marginalized people, the framing was not always ideal.
-    One framing that arguably undermined researchers' laudable goals was the regular use of the qualifier \lexi{non-standard} for varieties spoken mostly by minority groups \parencite[\foreign{e.g.},][p.~715]{labov_contraction_1969}, but perhaps the most significant framing issue was the idea that African American Language (AAL) was a single monolithic variety, which may have simply been the good intention of wanting to demonstrate the logical structure of AAL being taken too far.
+    One framing that arguably undermined researchers' laudable goals was the regular use of the qualifier \lexi{non-standard} for varieties spoken mostly by minority groups \parencite[\foreign{e.g.},][p.~715]{labov_contraction_1969}, but perhaps the most significant framing issue was the idea that African American Language (AAL) \parencite[pp.~286-289]{king_african_2020} was a single monolithic variety, which may have simply been the good intention of wanting to demonstrate the logical structure of AAL being taken too far.
     Fieldwork on AAL from locations as varied as Philadelphia, Chicago, Detroit, Cleveland, and Los Angeles were all described as essentially the same language variety with only a few minor variations \parencite[p.~715]{labov_contraction_1969}.
     Even by the 1990s, well into the second wave of sociolinguistics, African American speech was still being described, for example, as ``the uniform grammar used by African Americans who have minimal contact with other dialects typically in contexts where only speakers of that vernacular are present'' \parencite[p.~125]{labov_co-existent_2022}\footnote{
       Labov actually attributed this definition to \textcite{baugh_black_1983}, but the latter did not provide a definition.
@@ -286,7 +286,7 @@
     One area to which this care has been extended is in studies of crossing (\foreign{i.e.}, using out-group features) \parencite{bucholtz_you_1999, eberhardt_first_2015, reyes_appropriation_2005}.
     Intersectional analyses of in-group variation have also been more prominent \parencite{eckert_where_2008, mendoza-denton_homegirls:_2008}.
     An example for AAL is incorporating socioeconomic class when examining African American speakers \parencite{bucholtz_sociolinguistic_2003, rahman_middle-class_2008} rather than focusing almost entirely on a very specific subset of African Americans as past studies had done, namely poor, young, urban men.
-    For AAL, this more intersectional approach carries over into undoing the monolithic framing inherited from previous eras of sociolinguistic research where regional variation is now acknowledged and efforts to map that variation have been undertaken (\citeauthor{jones_toward_2015}, \citeyear{jones_toward_2015}; \citeauthor{wolfram_american_2016}, \citeyear[p.~232]{wolfram_american_2016})
+    For AAL, this more intersectional approach carries over into undoing the monolithic framing inherited from previous eras of sociolinguistic research where regional variation is now acknowledged and efforts to map that variation have been undertaken (\citeauthor{holliday_multiracial_2019}, \citeyear{holliday_multiracial_2019}; \citeauthor{jones_toward_2015}, \citeyear{jones_toward_2015}; \citeauthor{king_forging_2019}, \citeyear{king_forging_2019}; \citeauthor{wolfram_american_2016}, \citeyear[p.~232]{wolfram_american_2016}).
     % Direction sometimes impacts how it has been characterized
       % It has been argued that in studies of African Americans using linguistic features that index White identities, researchers conceptualize this as assimilation, but in studies of White people using African American features, researchers conceptualize this as indexing African American qualities that these speakers admire \parencite[p.~27]{eckert_where_2008}.
 
@@ -327,11 +327,24 @@
     Likewise, \textcite{becker_linguistic_2014} framed her study of AAL as a study of an ethnolect rather than a raciolect or racialized variety in stating, ``African American English (AAE) is the quintessential ethnolect in North American sociolinguistics'' (p.~44).
     \textcite{reyes_appropriation_2005} mostly discussed both Asian and African American identities as racial while also occasionally framing these as part of ethnic studies, and \textcite{rahman_middle-class_2008} explicitly equated race and ethnicity while framing African American identity as an ethnic identity.
     In the case of \textcite{wolfram_american_2016}, statements such as ``contact between whites and blacks over the generations may have resulted in speakers of both ethnicities picking up features of one another'' (p.~225) make it clear that they were treating race and ethnicity as one and the same.
-    This approach, where race and ethnicity are synonyms, and relatedly Black and African American are often synonyms, while and understandable position given the interplay between the two category types, creates a significant hurdle to analyzing how some groups come to be dehumanized (\foreign{i.e.}, racialized) as well as the connections this has with their ways of speaking.
+    This approach, where race and ethnicity are synonyms, and relatedly Black and African American are often synonyms, while an understandable position given the interplay between the two category types, creates a significant hurdle to analyzing how some groups come to be dehumanized (\foreign{i.e.}, racialized) as well as the connections this has with ways of speaking.
     % Save for few exceptions, such as \textcite{bucholtz_white_2010} who argued that ``race is ideologically grounded ... in biological differences'' and ethnicity in ``cultural differences'' (pp.~5-6), the distinction between race and ethnicity is little mentioned in sociolinguistics, which is relevant to this study in that it aims to fill that gap by offering a more intersectional analysis of these two social categories.
     % At times in Mendoza (2008), ethnicity appears as basically a synonym for race or national heritage
       % Speaking of a discussion with a participant, Mendoza-Denton (2008) explains "that she does not think of herself as ethnically or racially white" (124)
       % Explaining a participant who said that the parents of Norteñxs "are, one American, and one Mexican, much of the time," Mendoza-Denton (2008) says that Norteñxs are understood "as being ethnically mixed" (123)
+
+    The raciolinguistics perspective in sociolinguistics tackles such issues much more directly.
+    Central to this approach is the idea that the naturalization (\foreign{i.e.}, the act of making something seem natural) of racialized groups and languages with those groups is a ``central component[] of the European colonial formation of modernity'' \parencite[p.~623]{rosa_unsettling_2017}.
+    In practice, much of this research examines not just language ideologies but raciolinguistic ideologies, which in part builds on more general sociolinguistic work on enregisterment \parencite{agha_social_2003}.
+    Raciolinguistic ideologies are conceptualized as bi-directional in the sense that language ideologies inform racial ideologies and \foreign{vice versa}.
+    In effect, one can look like a language and sound like a race \parencite{rosa_looking_2019}
+    Applying ideological work in a more variationist vein, \textcite{king_african_2020} argued for centering ethnographic context into raciolinguistic analyses in order to be less dogmatic in who is included or whose speech is included when studying race.
+    This involves focusing more on how race is constructed by through use of linguistic features and how those linguistic features in turn construct race.
+    For example, this approach was applied in the examination of how the \vowel{bat} vowel was involved in the construction of the ``Mobile Black Professional'' persona in Rochester, NY, which in turn was seen as having an impact on the Northern Cities Vowel Shift \parencite{king_rethinking_2021}.
+    Likewise, in Bakersfield, CA, African American men were seen constructing their sociolinguistic identities by matching the /s/ fronting of Black and White women in order to avoid the indexical link between non-fronting and White country men \parencite{calder_whose_2022}.
+    In other words, race was playing a role in how African American men spoke there which in turn played a role in how the local African American man persona was constructed.
+    Not limited to African Americans or even the US, however, the raciolinguistic perspective has been applied to understanding how the raciolinguistic ideologies of the inspectorate impact education \parencite{cushing_white_2023} and how English language raciolinguistic ideologies in higher education shape the experiences of international Chinese students \parencite{gao_language_2025}, both situated in the UK.
+    This research track has become prominent in how race and ethnicity are approached in sociolinguistics today.
 
     % This is not to say that work on race in sociology has not started to make its way into sociolinguistics.
     % \textcite{rosa_unsettling_2017} brought some of that work, where race is initially imposed on a people through colonial processes, into the field to improve analyses of racialized language.
@@ -354,7 +367,7 @@
     Early work did much to establish AAL and other language varieties associated with marginalized groups as rule-bound and logical.
     Second and early third wave studies began looking more closely at local categories while giving more fine-grained analyses of broader social categories.
     It was also at that time that the validity of social categories was questioned.
-    It has not been until relatively recently, however, that sociological work on race has engendered another look at how race is used in sociolinguistics through the raciolinguistics paradigm.
+    More recently, however, sociological work on race has entailed another look at how race is used in sociolinguistics through the raciolinguistics perspective.
 
   % \section{Race in Louisiana}
     % \label{sec:race_louisiana}

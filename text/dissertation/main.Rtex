@@ -69,6 +69,7 @@
   \newcommand{\titlebook}[1]{\textit{#1}}
   \newcommand{\codeEn}[1]{\textsc{#1}}
   \newcommand{\song}[1]{``#1''}
+  \newcommand{\vowel}[1]{\textsc{#1}}
   \newcommand{\convertSmallNumber}[1]{
     \ifnum#1<11\relax
       \unskip\numtoname{#1}\unskip
