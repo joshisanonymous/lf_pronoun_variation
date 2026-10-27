@@ -59,7 +59,7 @@
     % When a distinction needs to be made between homophily as a mechanism and as a result, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
       % The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also be arrived at by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
 
-    The ethnic homophily of one's network has been found to influence their language in several ways, one of which is in language choice.
+    The ethnic homophily of one's network has been found to influence one's language in several ways, one of which is in language choice.
     This has especially been a focus of studies of immigrant groups and their offspring.
     In England, members of Chinese families were found to choose Chinese with interlocutors when their personal networks were more Chinese \parencite{li_two-step_2000}, and members of Punjabi families were also more likely to use Punjabi or Urdu when their personal networks included more Punjabis (\citeauthor{reynolds_punjabiurdu_2002}, \citeyear{reynolds_punjabiurdu_2002}; \citeauthor{sharma_scalar_2017}, \citeyear[p.~406]{sharma_scalar_2017}).
     Similar results were found in Norway where Filipino immigrants with higher ethnic homophily in their personal networks were more likely to use Filipino languages with their children \parencite{lanza_tell_2007}.
@@ -268,7 +268,7 @@
 
       Network data was therefore collected for the remaining \Sexpr{length(table(networks$Name))} participants.
       This task was carried out in F\&C in order to continue collecting language data.
-      Two name generator questions were posed to each participant as well as two name interpretor questions to elicit information about each alter who was named.
+      Two name generator questions were posed to each participant as well as two name interpreter questions to elicit information about each alter who was named.
       The goal of the name generator questions is essentially to determine with whom participants interact, but of course many forms of interaction exist, and so name generator questions must be designed to elicit the desired alter types.
       In this case, two name generators were used as this has been found to be more effective for building a complete picture of personal networks, depending on the network measures in which one is interested, than relying on a lower-burden, single name generator \parencite{marin_simplifying_2007}.
       
@@ -309,7 +309,7 @@
             % The motivation for emphasizing voluntary choices in her study isn't clear, but it would not be an issue here
             % L. Milroy (1980/1987) also discussed Hymes' (1974) idea of primary interaction, which is an interaction between two people which is strictly personal and wholly voluntary (84-85)
 
-      With the list of alters generated, participants were asked two name interpretor questions immediately afterward to gather more data on characteristics of alters.
+      With the list of alters generated, participants were asked two name interpreter questions immediately afterward to gather more data on characteristics of alters.
       One of these questions, reproduced in Sentence \ref{sent:interpret_ethnicity}, constituted a type of proxy report \parencite[p.~87]{cobb_answering_2018}.
       \begin{enumerate}[resume=sentences]
         \item Pour chaque personne sur cette liste, quoi c’est son éthnicité, c’est-à-dire son \foreign{ethnicity}?\label{sent:interpret_ethnicity}
@@ -319,7 +319,7 @@
       Not only would participants perhaps lose their enthusiasm for partaking in the interim, but follow-ups would increase both the time needed to complete data collection and the cost of data collection, two factors for which resources were limited.
 
       It is reasonable to also doubt the accuracy of proxy reports in general.
-      Previous work has found open-ended questions to yield the most highly accurate responses \parencite{cobb_proxy_2018}, which is in fact the sort of name interpretor question that Sentence \ref{sent:interpret_ethnicity} represents.
+      Previous work has found open-ended questions to yield the most highly accurate responses \parencite{cobb_proxy_2018}, which is in fact the sort of name interpreter question that Sentence \ref{sent:interpret_ethnicity} represents.
       Additionally, as has previously been observed, even when accuracy in terms of agreement between the respondent and the people they are describing is low, what is often more important is the respondent's perception of alters \parencite[p.~277]{cornwell_survey_2014}.
       While it would have been beneficial for the ethnicity question to know what the alters themselves would say, a participant perceiving alters as having one ethnicity or another makes up one half of the common two part criteria for claiming an ethnicity, the first being that one sees oneself as a member of an ethnic group and the second being that others in the group accept the person as a member of the group (\citeauthor{giles_ethnicity_1979}, \citeyear[pp.~252-253]{giles_ethnicity_1979}; \citeauthor{le_page_acts_1985}, \citeyear[p.~2]{le_page_acts_1985}; \citeauthor{moerman_ethnic_1965}, \citeyear{moerman_ethnic_1965}).
       Essentially, if a Cajun describes an alter as Cajun, that alter most likely can pass as a Cajun, and indeed, as will be discussed in section \ref{sec:network_analyses}, agreement was high between participants when they were describing the ethnicities of shared alters.
@@ -329,9 +329,9 @@
       The question was therefore often followed up with an explanation that their answer did not have to be exactly what their alter would say.
       Another form of clarification that was sometimes needed was what was meant by the term \lexi{ethnicity}.
       The word was repeated in English in the original question as \lexi{ethnicité} is not a widely used word in the community, but examples were also provided.
-      Typically these examples included Cajun, Creole, American, Indian, and Latino, all of which was generally sufficient as an explanation.
+      Typically, these examples included Cajun, Creole, American, Indian, and Latino, all of which was generally sufficient as an explanation.
 
-      The second name interpretor question, reproduced in Sentence \ref{sent:interpret_french}, aimed at obtaining the proportion of French used in discourse with each alter.
+      The second name interpreter question, reproduced in Sentence \ref{sent:interpret_french}, aimed at obtaining the proportion of French used in discourse with each alter.
       \begin{enumerate}[resume=sentences]
         \item Pour chaque personne sur cette liste, combien souvent tu parles français avec?\label{sent:interpret_french}
         \item[] \longtrans{For each person on this list, how often do you speak French with them?}
@@ -515,7 +515,7 @@
       For Jack and Lillian, a considerable number of Cajuns made up their personal networks despite their diversity.
       For Jack, whose personal network was quite small, Cajuns made up half of his alters, the others being Chinese and Spanish, while for Lillian, Americans were as frequently named as Cajuns and even made up slightly more of her core network.
       Similarly for James and Jerry, Creoles constituted the largest group in their personal networks.
-      The latter also gave ethnicities such as Italian and Redneck and the former also gave Carmerounian, Canadian, and White.
+      The latter also gave ethnicities such as Italian and Redneck and the former also gave Carmeroonian, Canadian, and White.
       The last, a non-core alter, was one of the few potential instances of a Creole naming a Cajun given the general Whiteness associated with Cajuns.
       James in fact emphasized Whiteness in defining Cajuns himself.
       Indeed, the most important aspect of these ethnically diverse personal networks is that Creoles did not name Cajuns in their networks and Cajuns did not name Creoles, which was also generally true for all other participants, as well.
@@ -624,7 +624,7 @@
     \subsection{Personal networks' impact on subject pronoun use}
       \label{sec:network_results_pronouns}
       The personal social network data for the participants in this study presents evidence that Louisianians have generally ethnically homophilous networks between Creoles and Cajuns.
-      Personal networks that were not ethnically homophilous did not reach that state due to a mix of Creole and Cajun alters, meaning no indications of a shortening of social distance between the groups was found.
+      Personal networks that were not ethnically homophilous did not reach that state due to a mix of Creole and Cajun alters, meaning no indications of a shortening of social distance between the groups were found.
       This provides a possible explanation for the mechanism that led to the general variation in subject pronoun use in Chapter \ref{chap:pronoun_variation} that was highly predictable along ethnic lines.
       In other words, Creoles and Cajuns may use different subject pronouns because they have not had the sort of close interaction or relationships that would lead to broad diffusion of these particularly salient linguistic features, although the fact that at least some Cajuns use Creole-marked pronouns and some Creoles Cajun-marked pronouns perhaps suggests that the conditions were right for diffusion at some point in the past before the times of the participants.
       What was not examined in the subject pronoun models, however, was whether the degree of ethnic homophily in personal networks is predictive of subject pronoun use.
@@ -722,7 +722,7 @@
       Creole and African were in fact the ethnicities he assigned to his alters the most frequently, whereas they were otherwise described in a variety of ways.
       This was similar for Jerry whose network was half Creole and half non-Creole but not Cajun.
       Jerry's racial identity of White, however, is a clue to why he used Cajun-marked speech considering that Cajun has become highly, though not explicitly, linked to Whiteness, and White identities were shown in Chapter \ref{chap:pronoun_variation} to seemingly be associated with the same subject pronouns as Cajun identities.
-      However, while it is possible that Jerry's Creole alters were also White Creoles like himself, that specific name interpretor question was not posed, and so the connection between Jerry's Whiteness and his speech is missing key context that would make it clearer if the connection is explanatory.
+      However, while it is possible that Jerry's Creole alters were also White Creoles like himself, that specific name interpreter question was not posed, and so the connection between Jerry's Whiteness and his speech is missing key context that would make it clearer if the connection is explanatory.
 
       Location may also be behind these Creoles incongruities with the general subject pronoun tendencies of Creoles, though.
       Jerry grew up in Mansura, part of Avoyelles Parish where Creole has not been formally attested.
