@@ -78,7 +78,7 @@ participants$Race <- recode_factor(
 
 # Collapse factor levels
 participants[participants$Name == "Samantha Primeaux", "Education"] <- "College Graduate"
-participants[participants$Name == "Oliver Gomez", "Education"] <- "No College"
+participants[participants$Name == "Oliver Gomez", "Education"] <- "College Graduate"
 participants[participants$Name == "Floyd Kerry", "Education"] <- "No College"
 participants[participants$Name == "Tracy Roth", "Education"] <- "No College"
 participants$Education <- droplevels(participants$Education)
@@ -90,7 +90,7 @@ participants$`F&C Background` <- sub("\\W{1,}.*", "", participants$`F&C Backgrou
 # participants[participants$Name == "Rose Louvière", "Occupation"] <- "White Collar"
 # participants$Occupation <- droplevels(participants$Occupation)
 
-# Insert temporary but likely values for missing values
+# Insert likely values for missing values
 participants[participants$Name == "Jack Munson", "F&C Background"] <- "Naturalistic"
 participants[participants$Name == "Laura Laviolette", "F&C Background"] <- "Naturalistic"
 participants[participants$Name == "Laura Laviolette", "Institutional French"] <- "No"
