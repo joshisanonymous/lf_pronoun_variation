@@ -1,6 +1,6 @@
 # Cross-sections of social variables -------------------------------------------
 # Ethnicity by race
-plotParticipantRace <- plotBar(participants, "Race")
+plotParticipantRace <- plotBar(participants, "Race", "Racialized Identity")
 
 ethByRaceBar <- ggplot(
   melt(ethByRaceTable,
@@ -23,7 +23,7 @@ plotParticipantsEthnRace <- ggplot(
     aes(x = Ethnicity, y = Count, fill = Race)) +
   geom_bar(stat = "identity", position = "dodge") +
   scale_fill_manual(values = color_key) +
-  labs(x = "Ethnicity", y = "Count")
+  labs(x = "Ethnicity", y = "Count", fill = "Racialized Identity")
 
 # Education by institutional French
 plotEduInst <- ggplot(melt(tablesSocial$educationInst,
@@ -110,7 +110,7 @@ plotHomophilyGss <- ggplot(data = gssNames,
   geom_boxplot() +
   geom_jitter(aes(group = Ethnicity), color = "red", size = 2, width = 0.05) +
   coord_flip() +
-  labs(y = "Network Racial Homophily", x = "Race")
+  labs(y = "Network Racial Homophily", x = "Racialized Category")
 
 plotHomophily <- ggplot(data = participants,
        aes(x = Ethnicity, y = `Network Ethnic Homophily`)) +

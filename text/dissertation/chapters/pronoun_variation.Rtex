@@ -66,7 +66,7 @@
     } \parencite[p.~352]{klingler_probleme_2005}.
     When asked plainly without being pushed to be specific, \lexi{French} has been found to be the glottonym of choice in communities regardless of whether those responding speak a variety that structurally resembles French or Creole, whereas when pushed to be specific, speakers have alternatively used labels such as \foreign{Cajun} or \foreign{Creole} (\citeauthor{brown_pronominal_1988}, \citeyear[p.~5]{brown_pronominal_1988}; \citeauthor{klingler_language_2003}, \citeyear[pp.~78-79]{klingler_language_2003}; \citeauthor{rottet_language_1995}, \citeyear[p.~8]{rottet_language_1995}). % Le Menestrel (1999) also, but need to do ILL for book to check
     Relatedly, the speakers of Louisiana Creole with whom \textcite{klingler_if_2003} worked saw themselves as part of the ``broader world of people who speak `French''' (p.~128), a perspective that still appeared to be at play in the community during my fieldwork.
-    For example, while ``French'' tables clearly attracted those who do not identify as Creole, there were at times Cajuns who attended whose speech had far more semblance to Louisiana Creole than French, implying that the advertising for these events did not dissuade speakers of that which is structurally Creole from attending as they did not necessarily see their language as not French, but rather it dissuaded those who identified as Creole from attending because that identity led them to label their language as not quite French even if it was very much like the speech of the other attendees.
+    For example, some attendees to ``French'' tables had speech patterns that resembled Louisiana Creole far more than French, implying that the advertising for these events did not dissuade speakers of that which is structurally Creole from attending as they did not necessarily see their language as not French.
     % It's not unusual to place languages under a label based on cultural traits of the speakers rather than the structure of their ways of speaking
       % Linguists once described Cangin as a variety of Serer because Wolofs in the area saw the cultural practices of both Cangin and Sereer speakers as being the same (Irvine & Gal 2000:57)
       % Creole speakers in Pointe Coupee (determined by the language structure) mostly call their language "créole" but sometimes also "français" or "cadien", though even when using the latter two glossonyms, speakers note that their language isn't like French from France or Cajun from Lafayette (Klingler 2003 "Turn":128)
@@ -97,8 +97,11 @@
 
     % Besides ambiguities in which third person singular subject pronouns are being produced, one can easily find many other examples of structural features the blur the line between French and Creole.
     In terms of morphosyntax where the two varieties are thought to be most different, it was found that both French and Creole speakers in St Martin Parish produced a Creole-oriented pattern for negative imperatives when there is an object pronoun (\foreign{i.e.}, verb + \lexi{pas} + pronoun) \parencite[p.~137]{baronian_influence_2005}, and disjunctive pronouns for object pronouns have been attested in post-verbal positions, as is typical in speech said to be Creole (\citeauthor{klingler_if_2003}, \citeyear[p.~40]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[pp.~166-167]{neumann-holzschuh_creole_1985}), even when the rest of the clause is clearly French-oriented in structure as in Sentence \ref{sent:postverbal_object_pro}.
+    % or in the present corpus in Sentence \ref{sent:postverbal_steven}.
     \begin{enumerate}[series=sentences]
       \item s'il a pu rencontrer \emph{elle} \parencite[p.~146]{conwell_louisiana_1963}\label{sent:postverbal_object_pro}
+      % \item Steven (Cajun): Elle a jamais donné moi un A dans English. (7:30)\label{sent:postverbal_steven}
+      % \item[] \longtrans{Steven (Cajun): She never gave me an A in English.}
     \end{enumerate}
     Within a noun phrase, to express a generic reference in Creole, one historically used a bare noun as in English, but by the 1980s that pattern had already been mostly replaced by the use of definite articles as in French with the only distinguishing characteristic being the articles sometimes appearing in a post-nominal position \parencite[pp.~54/77]{neumann-holzschuh_creole_1985}.
     Grammatical gender is a feature that has typically been described as only existing consistently in Creole when there are semantic correlations (\foreign{e.g.}, \lexi{cousin} \gloss{cousin-masculine} vs \lexi{cousine} \gloss{cousin-feminine}) \parencite[p.~170]{klingler_if_2003}.
@@ -222,6 +225,11 @@
     The attested pronouns summarized in Table \ref{tab:pronouns_attested}\footnote{
       From here on out, subject pronouns will be referred to by person-number abbreviations (\foreign{e.g.}, 1sg for first person singular, 3pl for third person plural).
       When further specifications are made for gender, animacy, and T-V distinctions, a period follow by some combination of the abbreviations in the table's footer will be used.
+    }\footnote{
+      The common explanation for the originn of those subject pronouns found in the literature on Louisiana Creole is that they are derived from French disjunctive pronouns \parencite[\foreign{e.g.},][p.~212]{klingler_if_2003}.
+      In most cases, the resemblence is fairly transparent, but perhaps not in the case of \lexi{yé}.
+      A well attested pronunciation pattern for some speakers is to lose the rounding for what others may pronouns of rounded front vowels, so that a word like \lexi{deux} \gloss{two} may be [de] instead of [dø].
+      On a purely speculative level, then, \lexi{yé} may in fact come from the pronoun \lexi{eux} after losing the rounding and inserting a [j] to the beginning to maintain a CV syllable.
     } come from various times and places that include New Orleans \parencite[p.~107]{fortier_french_1884} and Terrebonne-Lafourche parishes (\citeauthor{carmichael_language_2019}, \citeyear[p.~72]{carmichael_language_2019}; \citeauthor{dajko_ethnic_2009}, \citeyear[pp.~144/160]{dajko_ethnic_2009}; \citeauthor{gudmestad_variationist_2022}, \citeyear{gudmestad_variationist_2022}; \citeauthor{oukada_louisiana_1977}, \citeyear[p.~185]{oukada_louisiana_1977}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{rottet_language_1995}, \citeyear[pp.~175/178/193/197/207]{rottet_language_1995}) but perhaps more importantly Lafayette (\citeauthor{conwell_louisiana_1963}, \citeyear[pp.~141-145]{conwell_louisiana_1963}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[pp.~42-58]{smith_morphosyntactic_1994}), St Martin Parish (\citeauthor{broussard_louisiana_1972}, \citeyear[p.~8]{broussard_louisiana_1972}; \citeauthor{lane_notes_1934}, \citeyear[p.~328]{lane_notes_1934}; \citeauthor{mayeux_racial_2024}, \citeyear{mayeux_racial_2024}; \citeauthor{morgan_structural_1959}, \citeyear[p.~24c]{morgan_structural_1959}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~166-179]{neumann-holzschuh_creole_1985}), Evangeline Parish (\citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}), Vermilion and St Landry parishes \parencite[p.~5]{girard_lomheim_systeme_2019}, Pointe Coupee Parish \parencite[pp.~206/213]{klingler_if_2003}, Avoyelles Parish \parencite[pp.~31-33]{chaudoir_study_1938}, Avoyelles and Assumption parishes \parencite[pp.~152-153]{brown_pronominal_1988}, and broadly from across South Louisiana (\citeauthor{byers_defining_1988}, \citeyear{byers_defining_1988}; \citeauthor{johnson_louisiana_1976}, \citeyear[p.~31]{johnson_louisiana_1976}).
     Some of these studies focused on French-oriented speech and others Creole-oriented speech, but they have all been aggregated here.
     The result demonstrates that there is ample space for variation in speaker realizations of the subject pronoun paradigm.
@@ -308,8 +316,8 @@
     It should be noted, however, that \textcite{rottet_language_1995} included speakers of different fluency levels, which appeared to be correlated with age (p.~163), making it difficult to disentangle how much of this variation was related specifically to age.
     
     Finally, and most importantly, ethnicity and race have been examined in the literature.
-    Race, in terms of the broader US categories of White and Black, has often been implicated in studies of what has been conceptualized as Creole.
-    These have not been variationist sociolinguistic studies, so the comments on race were generally more holistic and impressionistic.
+    Race has often been implicated in studies of what has been conceptualized as Creole through discussions of the broad US racialized categories of White and Black.
+    These have not been variationist sociolinguistic studies, so the comments were generally more holistic and impressionistic.
     In Breaux Bridge, for example, \textcite{neumann-holzschuh_creole_1985} described White speakers of Creole as using a more decreolized version of the language, which would include things like grammatical gender and a lack of post-nominal definite articles (p.~41).
     One could likewise assume that this would mean that they were more likely to use French-oriented subject pronouns, but this was not something \textcite{neumann-holzschuh_creole_1985} considered.
     \textcite{klingler_if_2003} did consider pronouns in the Creole of Pointe Coupee in suggesting that gender was more likely to be marked in any type of pronoun for White speakers, giving the example of \lexi{avec elle} \gloss{with her} rather than \lexi{avec li} \gloss{with him/her} (p.~117).
@@ -321,7 +329,10 @@
     A pattern seems to emerge where studies of French deal with Cajuns and studies of Creole deal with colored bodies.
     This is not an indictment against the researchers, but rather an observation of just how pervasive the racialized social system of the US is and how it is entangled with these local categories.
 
-    More robust analyses of race and ethnicity in F\&C than these grammatical descriptions of Creole came once again from \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009}, dealing with ``French'' and Indians versus Cajuns.
+    More robust analyses of race and ethnicity in F\&C than these grammatical descriptions of Creole came once again from \textcite{rottet_language_1995} and \textcite{dajko_ethnic_2009}, dealing with ``French'' and Indians\footnote{
+      \textcite{rottet_language_1995} only referred to Houma, whereas \textcite{dajko_ethnic_2009} more specifically explained that the towns she examined included tribes who claimed allegiance to the United Houma Nation, the Pointe-au-Chien Indian Tribe, or the Biloxi Chitimacha Confederation of Muskogees (pp.~8-9).
+      Both researchers referred to these tribes more generally as Indians.
+    } versus Cajuns.
     Rottet and Dajko worked in the same southeastern region of Louisiana, but they did not examine exactly the same subject pronouns.
     Those that were shared included 2pl and 3pl, and with some caveats, 1sg.
     For 2pl, \textcite{rottet_language_1995} found an overall preference for \lexi{vous-autres} for both groups, but Cajuns were otherwise much more split between \lexi{vous-autres}, \lexi{vous}, and \lexi{tu} (p.~193).
@@ -384,7 +395,7 @@
     These have been described extensively in documentary studies of French and Creole as well as in sociolinguistic studies to an extent.
     The type of verb following the subject pronoun is a common structural constraint that has been found for 3pl pronouns, while gender and age have had some significant results.
     Exposure to institutional French has, on the other hand, not been examined at all, nor have the related social variables of occupation, education, and socioeconomic class, at least in part because they have not been seen as meaningful variables in rural Louisiana communities.
-    Race has been commonly commented on in studies of what is conceptualized as Louisiana Creole but not French where ethnicity has instead been the framework of choice.
+    Race has been commonly commented upon in studies of what is conceptualized as Louisiana Creole but not French where ethnicity has instead been the social category of choice.
     Two of the most robust variationist studies, namely \citeauthor{rottet_language_1995}'s (\citeyear{rottet_language_1995}) and \citeauthor{dajko_ethnic_2009}'s (\citeyear{dajko_ethnic_2009}), have in fact focused on ethnicity.
     Their studies, as well as many others that have given treatments of subject pronouns, have been centered on Terrebonne-Lafourche, which is rather far to the southeast of the target area for the present study.
     Nonetheless, previous work has established that subject pronouns can do the work of delineating speakers at various social levels even if there are some minor indications in \citeauthor{wendte_tale_2020}'s (\citeyear{wendte_tale_2020}) study that at least Creoles make use of a variety of subject pronouns inter-personally rather than a consistent set of subject pronouns.
@@ -498,7 +509,7 @@
 
         A number of cases can easily be accounted for as they represent well-known liaisons in which a latent final consonant is produced only when the following word begins with a vowel.
         One of these is the [n] at the end of \lexi{on} (\citeauthor{oukada_louisiana_1977}, \citeyear[p.~192]{oukada_louisiana_1977}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~53]{smith_morphosyntactic_1994}).
-        Likewise, a [l] liaison often occurs at the end of \lexi{il} as well as \lexi{elle} (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
+        In a similar vein, [l] often occurs at the end of \lexi{il} as well as \lexi{elle} before vowels, whereas it often does not occur before consonants (\citeauthor{chaudoir_study_1938}, \citeyear[p.~33]{chaudoir_study_1938}; \citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{phillips_etude_1936}, \citeyear[pp.~42-43]{phillips_etude_1936}, \citeyear[pp.~218-219]{phillips_spoken_1939}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
         The latter additionally can be realized with the vowel [ɛ] or [a] (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~144]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~47]{smith_morphosyntactic_1994}).
         Studies that attest to both forms consider them to be variants of the same pronoun, thus they were treated as such here.
         Similarly well attested through the world is a [z] liaison for \lexi{elles}.
@@ -543,7 +554,9 @@
         A related complication came from three other speakers, Alice, Lillian, and Terry, who produced only a [l] liaison for 3pl, identical to what they produced for 3sg (\foreign{i.e.}, [i] or [il]).
         Since producing \lexi{ils} with a [l] liaison rather than the standard [z] liaison has been widely attested in Louisiana (\citeauthor{conwell_louisiana_1963}, \citeyear[p.~145]{conwell_louisiana_1963}; \citeauthor{papen_structural_1997}, \citeyear[p.~84]{papen_structural_1997}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~58]{smith_morphosyntactic_1994}), and since all other participants variably produced [l] and [z] liaisons in this same 3pl contexts, Alice, Lillian, and Terry's tokens of 3pl [il] were taken as targeting an underlying \lexi{ils} pronoun.
         
-        Some interpretation issues also occurred for [t], which can be a reduced form of either \lexi{tu} or \lexi{to} (\citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[pp.~95-96]{neumann-holzschuh_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}).
+        Some interpretation issues also occurred for [t], which can be a reduced form of either \lexi{tu} or \lexi{to} (\citeauthor{klingler_if_2003}, \citeyear[pp.~209-210]{klingler_if_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[pp.~95-96]{neumann-holzschuh_creole_1985}; \citeauthor{papen_structural_1997}, \citeyear[p.~83]{papen_structural_1997}).\footnote{
+          The documentation of [t] in grammars of F\&C as an allomorph of \lexi{tu} and \lexi{to} was part of why [t] was not simply coded as one more variant, along with no speakers producing exclusively [t] to the exclusion of realizations with a vowel.
+        }
         In fact, \lexi{tu} also varies in realization between [ty] and [ti] (\citeauthor{conwell_louisiana_1963}, \citeyear[pp.~142-143]{conwell_louisiana_1963}; \citeauthor{parr_glossary_1940}, \citeyear[p.~xi]{parr_glossary_1940}; \citeauthor{smith_morphosyntactic_1994}, \citeyear[p.~45]{smith_morphosyntactic_1994}), meaning [t] could represent [ty], [ti], or [to].
         Unlike the \lexi{je} and \lexi{ça} ambiguity, [t] cannot be cleared up by considering its function as \lexi{tu} and \lexi{to} are both used for 2sg.
         In general, steps (2) and (3) as used for tokens of [i] above were once again applied for tokens of [t].
@@ -617,7 +630,7 @@
           This would place tokens of 2sg that addressed myself, in my 40s, well below her threshold for using \lexi{vous}.
           However, another participant in her 70s who I addressed with \lexi{vous} quickly asked me to switch to \lexi{tu}, joking that we had known each other for several minutes and that was long enough that we could drop the formality, meaning that even those above the threshold are not necessarily meant to be addressed with \lexi{vous} at all times.
         }
-        Another strategy involved the assumption that if a participant consistently used \lexi{tu} or \lexi{to} with an addressee, then any momentary use of \lexi{vous} or \lexi{vou} with that addressee still represented a T form.
+        Another strategy involved the assumption that if a participant consistently used \lexi{tu} or \lexi{to} with an addressee, then any momentary use of \lexi{vous} or \lexi{vou} with that addressee still represented a T form and not a sudden shift to a V form or 2pl.
         % Of course, this meant that one was also assuming that the initial uses of \lexi{tu} or \lexi{to} represented T forms.
         % Some participants also did not consistently produce either the former pronouns or the latter pronouns in the first place.
         The last strategy relied on the translation task which purposely placed the participant in various addresser-addressee situations.
@@ -715,7 +728,7 @@
       Unique to Louisiana, however, is the pronunciation [ina] or sometimes simply [na].
       In all cases, the verb \lexi{avoir} in existential constructions was coded as lexical as there is no additional verb attached to suggest an auxiliary function, but it was also necessary to decide whether [i] in [ina] represented \lexi{il}, which commonly becomes [i] before consonants, or \lexi{y} as this impacted the coding of the pronoun as \lexi{il} or null.
       Whereas \textcite{smith_morphosyntactic_1994} assumed [i] to be \lexi{il} (p.~50), here it was treated as \lexi{y} as the former requires the additional assumption that either \lexi{y} becomes [n], a rather radical shift, or that a verb such as \lexi{navoir} exists, which is an infinitive that has never to my knowledge been attested.
-      The interpretation chosen here assumes only that a so-called false liaison exists between \lexi{y} and \lexi{a}, false liaisons being a phenomenon that is common in Louisiana to begin with \parencite[p.~78]{papen_structural_1997}. % Perhaps add a footnote about false liaison terminology if there's any work on this suggesting it mainly functions to uphold specific standards
+      The interpretation chosen here assumes only that a so-called false liaison exists between \lexi{y} and \lexi{a}, false liaisons being attested in various linguistic contexts in Louisiana \parencite[p.~78]{papen_structural_1997}. % Perhaps add a footnote about false liaison terminology if there's any work on this suggesting it mainly functions to uphold specific standards
       Also supporting this interpretation is \citeauthor{klingler_if_2003}'s (\citeyear{klingler_if_2003}) attestation of the form \lexi{y ena} (pp.~307-308), where \lexi{y} could only be a short form of \lexi{il} or an object pronoun inexplicably coming before the subject pronoun \lexi{e-} if \citeauthor{smith_morphosyntactic_1994}'s (\citeyear{smith_morphosyntactic_1994}) interpretation were followed, the latter explanation being much less satisfying.
       Tokens of \lexi{ina} were therefore coded as having a null expletive pronoun.
 
@@ -861,7 +874,9 @@
         The only structural factor modeled was the predicate type as no other structures have previously been found to have an impact on subject pronoun realization.
         These are referred to in the model as following verb type because only lexical, auxiliary, and modal verbs were frequent enough to include in their modeling.
         All other factors were social in nature, the most important of which was ethnicity.
-        Relatedly, participants were also asked how they identify racially, but as this yielded a large number of different responses, each with relatively low counts, self-identified race could not be included in models but did yield results worthy of discussion.
+        Relatedly, participants were also asked how they identify racially\footnote{
+          This was not asked in the terminology of racialization as that is not how the community speaks about race.
+        }, but as this yielded a large number of different responses, each with relatively low counts, racialized identifications could not be included in models but did yield results worthy of discussion.
 
         \begin{table}[tbh]
           \caption{Levels for each factor relevant to modeling}
@@ -883,7 +898,7 @@
             \textbf{Education Attained}   & \Sexpr{toString(levels(tokens$Education))} \\
             \textbf{Parish Raised}        & \Sexpr{toString(levels(tokens$`Raised (parish)`))} \\
             \textbf{Parish Residence}     & \Sexpr{toString(levels(tokens$`Residence (parish)`))} \\
-            \textbf{Race}                 & \Sexpr{toString(levels(tokens$Race))} \\
+            \textbf{Racialized Identity}  & \Sexpr{toString(levels(tokens$Race))} \\
             \multicolumn{2}{c}{} \\
           \end{tabular}
 
@@ -951,14 +966,14 @@
         <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotsGender$thirdPl
         @
-        \caption{3pl}\label{fig:gender_3pl}
+        \caption[Pronoun counts by gender (3pl)]{3pl}\label{fig:gender_3pl}
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
         <<fig.height = 0.3 * textheight, fig.width = 0.6 * textwidth>>=
         plotThirdPlCollapsedGender
         @
-        \caption{3pl (collapsed)}\label{fig:gender_3pl_collapsed}
+        \caption[Pronoun counts by gender (3pl collapsed)]{3pl (collapsed)}\label{fig:gender_3pl_collapsed}
       \end{minipage}
     \end{figure}
 
@@ -1034,7 +1049,7 @@
       While they did also look at \lexi{mo}/\lexi{moi}, it was somewhat tangential as it is not a phonetic variant of \lexi{je}.
     }
     The present study thus adds to the overall picture for structural variation of 1sg subject pronouns in Louisiana and to null pronouns in general.
-    Indeed, a pattern found in studies of null pronouns in other languages -- generally fully pro-drop languages -- is that null pronouns are more likely in linguistic contexts where the verbal morphology already disambiguates the subject on its own \parencite{hochberg_functional_1986}, but for the speakers in the present data, the verbal morphology is more fleshed out for auxiliary verbs than non-auxiliaries, meaning it was before verbs that do not at all disambiguate the subject that null pronouns were preferred here, contrary to what has been found in other languages.
+    Indeed, a pattern found in studies of null pronouns in other languages -- generally fully pro-drop languages -- is that null pronouns are more likely in linguistic contexts where the verbal morphology already disambiguates the subject on its own \parencite{hochberg_functional_1986}, but for the speakers in the present data, the verbal morphology is more fleshed out for auxiliary verbs than non-auxiliaries, meaning it was before verbs that do not at all disambiguate the subject that null pronouns were preferred here, contrary to \textcite{hochberg_functional_1986} found and more in line with \textcite{ranson_person_1991}.
 
     The remaining factors that were modeled were all social factors, two of which proved to be quite impactful on subject pronoun realization, institutional French exposure and ethnicity, and another that impacted 2sg.T and 3pl pronouns, that being age.
     A major gap exists in birth years between the two youngest participants, both born in \Sexpr{max(participants$`Birth Year`)}, and the others in that the youngest of the remaining participants was born in \Sexpr{sort(participants$`Birth Year`)[length(participants$`Birth Year`) - 2]}, a difference of \Sexpr{max(participants$`Birth Year`) - sort(participants$`Birth Year`)[length(participants$`Birth Year`) - 2]} years.
@@ -1063,7 +1078,7 @@
         <<fig.height = 0.35 * textheight>>=
         plotsModelAge$secondSgT
         @
-        \caption{Predicted and observed values for 2sg.T}
+        \caption[Predicted and observed values for 2sg.T by age]{Predicted and observed values for 2sg.T}
         \label{fig:2sg_age}
       \end{minipage}
 
@@ -1072,7 +1087,7 @@
         <<fig.height = 0.35 * textheight>>=
         plotsModelAge$thirdPl
         @
-        \caption{Predicted and observed values for 3pl}
+        \caption[Predicted and observed values for 3pl by age]{Predicted and observed values for 3pl}
         \label{fig:3pl_age}
       \end{minipage}
 
@@ -1163,7 +1178,7 @@
     On the other hand, as already mentioned, Errol and Elizabeth, both self-identified Cajuns, used almost exclusively Creole-marked variants.
     There were additionally speakers who used a mix of both classes of variants, sometimes as a demonstration of an ability to switch styles or code switch -- Elizabeth began her interview with two tokens of \lexi{je} for 1sg before settling in to exclusively using \lexi{mo} after the two minute mark, and Oliver L. explicitly talked about his ability to switch -- and sometimes as their typical speech patterns.
     Gene fits the second description in that all of his subject pronouns matched those traditionally described as French except for 3pl where he consistently used \lexi{yé}.
-    Both this inconsistency between Creole and Cajun identity and speech patterns as well as the consistency uncovered by the models here are apparent enough to the community that metalinguistic commentary identifies both truths, as the discussion between Cynthia and Lucille below makes clear.
+    Speakers' metalinguistic commentary suggests that they are aware of the general tendencies Creoles and Cajuns have for subject pronouns as well as the fact that those tendencies are not the whole picture, as the discussion between Cynthia and Lucille below makes clear.
     \begin{enumerate}[resume=sentences]
       \item Joshua (Interviewer): Est-ce que les Créoles parlent différemment des Cadiens? ... (45:03)\label{sent:creole_meta}
       \item[] Cynthia (Cajun): I went to the store.
@@ -1225,26 +1240,26 @@
 
     In a general sense, then, subject pronouns in F\&C vary systematically between Creoles and Cajuns.
     Creole pronouns match what has been described in the Louisiana Creole literature -- \lexi{mo}, \lexi{to}, \lexi{li}, \lexi{li}, \lexi{no}, \lexi{yé}, and \lexi{to} -- while Cajun pronouns match what has been described in the Louisiana French literature -- \lexi{je}, \lexi{tu}, \lexi{elle}, \lexi{il}, \lexi{on}, \lexi{ils/ça}, and \lexi{tu}.
-    As the above discussion has perhaps made clear, this also means that subject pronouns are distinguished by the racial categories used broadly in the US: Black and White.
+    As the above discussion has perhaps made clear, this also means that subject pronouns are distinguished by the racialized categories used broadly in the US: Black and White.
     Participants did not always give exactly one of these two categories when asked to self-identify racially,\footnote{
-      The range of racial self-identifications given was in fact the reason this factor was not modeled.
+      The range for such self-identifications that was produced was in fact the reason this factor was not modeled.
     } but what they did provide can be remapped to these two categories for exploration in a relatively uncontroversial manner.
-    If all those who used the words White or Caucasian in their racial self-identification are recoded as White, all those who used the words Black or African American are recoded as Black, and all those who chose Creole, Cajun, or no race are excluded, the distribution of American races by Louisiana ethnicities looks like Figure \ref{fig:ethnicity_by_race}.
+    If all those who used the words \lexi{White} or \lexi{Caucasian} in their self-identification are recoded as White, all those who used the words Black or African American are recoded as Black, and all those who chose Creole, Cajun, or no racialized identity are excluded, the distribution of of these racialized categories by Louisiana ethnicities looks like Figure \ref{fig:ethnicity_by_race}.
     What this suggests is that there exists a statistical association between these two categories (Fisher's exact: $P <$ \Sexpr{Ceiling(indEthnRace$p.value)}).
-    In effect, one cannot claim to be Cajun and Black at the same time, and although one can do the inverse, it is not typical.
+    In effect, one who is wishes to identify as Cajun but whom is racialized as Black by other Cajuns will have great difficulty being accepted as Cajun, and although one does not face the same dilemma in the inverse situation, identifications as both Creole and White are not typical.
 
     \begin{figure}[tbh]
       \centering
       <<fig.height = 0.3 * textheight, fig.width = 0.75 * textwidth>>=
       plotParticipantsEthnRace
       @
-      \caption{Participants' race relative to their ethnicity}
+      \caption{Participants' racialized identities relative to their ethnicity}
       \label{fig:ethnicity_by_race}
     \end{figure}
 
-    For the two participants who did claim White Creole identities, Deborah and Jerry, their subject pronouns were not those traditionally described as belonging to Louisiana Creole but rather those typical of descriptions of Louisiana French.
+    For the two participants who did identify as White Creoles, Deborah and Jerry, their subject pronouns were not those traditionally described as belonging to Louisiana Creole but rather those typical of descriptions of Louisiana French.
     Indeed, there is perhaps an even stronger association between American racialized categories and subject pronoun realizations than for the related local categories of Creole and Cajun.
-    Figures \ref{fig:subset_race_1sg} through \ref{fig:subset_race_3pl} show each of the subject pronoun types again but in this case with the subset of those who racially self-identified with broad American categories.
+    Figures \ref{fig:subset_race_1sg} through \ref{fig:subset_race_3pl} show each of the subject pronoun types again but in this case with the subset of those who self-identified with racialized categories of the broader US.
     They represent a clear pattern of Black people using more Creole variants and White people using more French variants.
     For a direct comparison, Table \ref{tab:percentage_ethn_race} shows that the percentage of French pronouns produced by those who identified as Cajun was nearly identical to the subset of those who identified as White, whereas the percentage of Creole pronouns for those who identified as Black was noticeably higher than for those who identified as Creole for every pronoun type.
     In essence, Creole pronouns are not just associated with Creoles but more specifically Black Creoles.
@@ -1252,7 +1267,7 @@
     \begin{figure}[tbhp]
       \captionsetup{font={footnotesize}}
       \centering
-      Pronoun counts by race
+      Pronoun counts by racialized identity
       \label{fig:subset_race_pronouns}
 
       \begin{minipage}{0.45\linewidth}
@@ -1260,14 +1275,14 @@
         <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$firstSg
         @
-        \caption{1sg}\label{fig:subset_race_1sg}
+        \caption[Pronoun counts by racialized identity (1sg)]{1sg}\label{fig:subset_race_1sg}
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
         <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$firstPl
         @
-        \caption{1pl}\label{fig:subset_race_1pl}
+        \caption[Pronoun counts by racialized identity (1pl)]{1pl}\label{fig:subset_race_1pl}
       \end{minipage}
 
       \begin{minipage}{0.45\linewidth}
@@ -1275,14 +1290,14 @@
         <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$secondSgT
         @
-        \caption{2sg.T}\label{fig:subset_race_2sgT}
+        \caption[Pronoun counts by racialized identity (2sg.T)]{2sg.T}\label{fig:subset_race_2sgT}
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
         <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$impersonal
         @
-        \caption{impersonal}\label{fig:subset_race_impersonal}
+        \caption[Pronoun counts by racialized identity (impersonal)]{impersonal}\label{fig:subset_race_impersonal}
       \end{minipage}
 
       \begin{minipage}{0.45\linewidth}
@@ -1290,14 +1305,14 @@
         <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$thirdSgF
         @
-        \caption{3sg.F}\label{fig:subset_race_3sgF}
+        \caption[Pronoun counts by racialized identity (3sg.F)]{3sg.F}\label{fig:subset_race_3sgF}
       \end{minipage}
       \begin{minipage}{0.45\linewidth}
         \centering
         <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$thirdSgM
         @
-        \caption{3sg.M}\label{fig:subset_race_3sgM}
+        \caption[Pronoun counts by racialized identity (3sg.M)]{3sg.M}\label{fig:subset_race_3sgM}
       \end{minipage}
 
       \begin{minipage}{0.45\linewidth}
@@ -1305,17 +1320,17 @@
         <<fig.height = 0.22 * textheight, fig.width = 0.6 * textwidth>>=
         plotsSubsetRace$thirdPl
         @
-        \caption{3pl}\label{fig:subset_race_3pl}
+        \caption[Pronoun counts by racialized identity (3pl)]{3pl}\label{fig:subset_race_3pl}
       \end{minipage}
 
       {\footnotesize
-      Counting only those who reference Black/African American or White/Caucasian in their racial self-identifications and recoding them as Black and White.
+      Counting only those who reference Black/African American or White/Caucasian in their self-identifications and recoding them as Black and White.
       }
     \end{figure}
 
     \begin{table}[tbhp]
         \centering
-        \caption{Percentage of Creole-marked pronouns by ethnicity and race}
+        \caption{Percentage of Creole-marked pronouns by ethnicity and racialized identity}
         \label{tab:percentage_ethn_race}
         \begin{tabular}{r | r r | r r}
           Pronoun         & Creole                                                                             & Black                                                                                             & Cajun                                                                             & White \\

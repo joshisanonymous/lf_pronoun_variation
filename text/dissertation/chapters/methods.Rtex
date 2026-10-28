@@ -10,7 +10,7 @@
     Officially, 22 parishes have been included in Acadiana since 1971 with the passage of HCR 496 \parencite[pp.~5-6]{trepanier_french_1988}.
     Of those, this study looked at Lafayette Parish and the adjacent parishes, focusing mostly on St Landry Parish and St Martin Parish, which cover the areas north, northeast, and east of the city of Lafayette, as shown in Figure \ref{fig:mapfocus}.
     This location was chosen as it is where both French and Creole are said to be spoken, as will be discussed, and as it is where both Cajuns and Creoles could be found historically and can still be found today.
-    The Attakapas, the historical region named after the Attakapas Indians \parencite[p.~38]{de_villiers_du_terrage_dernieres_1903} that correlates with the modern region analyzed here, was one of the first places that Acadians settled \parencite[pp.~74-78/91-100]{brasseaux_foundings_1987}.
+    The Attakapas, the historical region named after the Attakapas people \parencite[p.~38]{de_villiers_du_terrage_dernieres_1903} that correlates with the modern region analyzed here, was one of the first places that Acadians settled \parencite[pp.~74-78/91-100]{brasseaux_foundings_1987}.
     Anyone who was born in the Attakapas, including succeeding generation of Acadians, would have been considered Creoles in the original sense of local or native, but modern-day self-identified Creoles also still reside in the area.
     Their presence today is such that Lafayette Parish and St Martin Parish together have been described as a ``Creole hearth'' \parencite[p.~11]{landry_creole_2016}.
     To have a better understanding of the people who reside in the target area -- and in line with \citeauthor{rosa_unsettling_2017}'s (\citeyear{rosa_unsettling_2017}) suggestion that studies implicating race should begin with historical and institutional contexts (p.~637) -- it will be important to understand its cultural and economic development.
@@ -66,7 +66,7 @@
     Locations in the target area where Creole has been said to have a noticeable presence have included the parishes of St Martin and Pointe Coupee \parencite[p.~7]{rottet_language_1995} and the towns of Breaux Bridge (\citeauthor{klingler_language_2003}, \citeyear[p.~78]{klingler_language_2003}; \citeauthor{neumann-holzschuh_creole_1985}, \citeyear[p.~1]{neumann-holzschuh_creole_1985}) and Lafayette \parencite[p.~78]{klingler_language_2003}, although as discussed in Section \ref{sec:acknowledging_creole}, robust statistics have been and still are lacking for Creole specifically.
     Today, these relatively high proportions of F\&C are quite unlikely to have held steady given the reasonably estimated recent count of 84,000 French speakers in Louisiana \parencite[p.~128]{marcoux_estimation_2022}.
 
-    The target region for this study of Lafayette and its surrounding area thus has a history of Acadians/Cajuns, Creoles, and even American Indians living there.
+    The target region for this study of Lafayette and its surrounding area thus has a history of Acadians/Cajuns, Creoles, and at least Attakapas if not people of other tribes living there.
     These populations have certainly not been entirely impoverished, but they have and still do lag behind the life outcomes of the broader US.
     The area began with a strong focus on agriculture for its economy, which continues today but has shrunk relative to the growth of the oil and tourism industries.
     Locals of the region have also been primarily speakers of F\&C up until quite recently where, like in the state in general, the language has shown a sharp decline.
@@ -208,7 +208,7 @@
     Participants were rather mixed in their desire to take advantage of this offer with some asking several questions and others having no questions.
 
     As a participant in each interview, factors related to myself and my position relative to the interviewees may have impacted their speech and responses.
-    Particularly relevant here is how perceptions of the race or ethnicity of one's interlocutor can impact language, which has been seen, for example, for code-switching, style shifting, phonetic variables, and morphosyntactic variables (\citeauthor{labov_social_2006}, \citeyear[pp.~67-68]{labov_social_2006}; \citeauthor{poplack_sometimes_2000}, \citeyear[p.~220]{poplack_sometimes_2000}; \citeauthor{rickford_addressee-_1994}, \citeyear[p.~236]{rickford_addressee-_1994}).
+    Particularly relevant here is how perceptions of the ethnicity or racialized identity of one's interlocutor can impact language, which has been seen, for example, for code-switching, style shifting, phonetic variables, and morphosyntactic variables (\citeauthor{labov_social_2006}, \citeyear[pp.~67-68]{labov_social_2006}; \citeauthor{poplack_sometimes_2000}, \citeyear[p.~220]{poplack_sometimes_2000}; \citeauthor{rickford_addressee-_1994}, \citeyear[p.~236]{rickford_addressee-_1994}).
     The intention when approaching interviews was not to attempt to change factors about myself, certainly not those that cannot be changed such as my identity as a White man in his 40s or as an \foreign{Américain}, but rather to maintain consistency between interviews in how I presented myself both physically and verbally.
     As opposed to \citeauthor{eckert_linguistic_2000}'s (\citeyear{eckert_linguistic_2000}) strategy of appearing youthful when working with high school students (pp.~71-73), I wore pants and semi-formal shirts during all encounters as I did not want to appear too formal nor too young as most of my participants were older than myself.
     Indeed, the fact that I was speaking French but also under 60 was incongruent with the expectations of many people that I met in the area to the extent that they often assumed I was a tourist from France who could not speak English when first encountering me.
@@ -276,14 +276,14 @@
     \label{sec:participants}
     There were ultimately \Sexpr{nrow(participants)} participants interviewed for this study, totaling \Sexpr{round(sum(participants$`Total Length`), 1)} hours of speech data.
     This data constituted that which was used for Chapters \ref{chap:pronoun_variation}, \ref{chap:networks}, and \ref{chap:discourse}, analyzing subject pronoun variation broadly, relative to personal social networks, and in discourse, respectively.
-    Life details about the participants themselves were therefore collected during these interviews and included childhood residence, current residence, birth year, F\&C background, occupation, gender, and race.
+    Life details about the participants themselves were therefore collected during these interviews and included childhood residence, current residence, birth year, F\&C background, occupation, gender, and racialized identity.
     These will be discussed here save for personal social network information, which will be discussed in Section \ref{sec:network_collection}.
 
     Before discussing particulars about these life details, some notes about how participants were anonymized are warranted.
     Both participants' names and the names of non-participants were anonymized in the speech data and in the social network data to reduce the chances of either being identified directly or indirectly.
     Given names were anonymized separately from family names and both were anonymized consistently across all interviews so that if a hypothetical John Smith was anonymized as Nick Jones then any other John would be anonymized as Nick and any other Smith would be anonymized as Jones.
     Genealogy was a consistent topic of discussion when bringing up race and ethnicity, as was the discussion of distant relatives in general.
-    While there is a clear ethical obligation to keep participants anonymous, it was also important to not lose the ability to see these lineages.
+    While there is a clear ethical obligation to protect participants' privacy, it was also important to not lose the ability to see these lineages.
     Family names mentioned in interviews were at times related to toponyms that were discussed, in which case the family names were anonymized but the toponyms were not.
     While this connection says something notable about the background of these individuals and how they are intertwined with place, it was desirable to use real place names in order to allow the study to add to both past and future work that documents F\&C given its tenuous status.
     Additionally, anonymizing either both or neither of the family-toponym pairs increased the risk of identification too much.
@@ -306,19 +306,13 @@
       % Urbanity vs rurality
         % Eckert (2000) found that urban and suburban variants could have different distributions (169)
         % Rural networks tend towards density and multiplexity, whereas urban networks tend towards spareness and uniplexity, although old working-class areas tend to function as "urban villages," essentially rural areas within urban areas (Turner 1967 [I think], as cited in L. Milroy 1980/1987:137)
-    
-    % \begin{figure}[tbhp]
-    %   \caption{Arnaudville's welcome sign}
-    %   \label{fig:deux_bayous}
-    %   % \includegraphics[scale=0.5]{}
-    % \end{figure}
 
     \begin{figure}[tbh]
       \centering
       <<fig.asp = 0.75>>=
       parishBarMap
       @
-      \caption{Parishes where participants were raised (left) and resided at the time of the interviews (right)}
+      \caption[Parishes where participants were raised and resided at the time of the interviews]{Parishes where participants were raised (left) and resided at the time of the interviews (right)}
       \label{fig:locations}
     \end{figure}
 
@@ -499,13 +493,16 @@
       % Nadasdi et al. (2004) found among French speakers in Estrie, Ontario in the 1970s that women preferred "auto" and dispreferred "char" whereas men showed the opposite pattern (98)
       % Women used more Standard English features in Gullah than men (Nichols 1976, as cited in Weldon 2003:49)
 
-      Finally, the variable of race represents one of the most immediately important for the current study.
-      While participants had their ethnicities coded as either Creole or Cajun ($N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])} and $N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])}, respectively), race was meant to capture how they viewed themselves relative to the broader racialized categories of the US.
-      Participants were asked to self-identify racially, a question whose meaning generally needed no further elaboration or explanation.
+      Finally, the variable of racialized identity represents one of the most immediately important for the current study.
+      While participants had their ethnicities coded as either Creole or Cajun ($N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])} and $N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])}, respectively), racialized identity was meant to capture how they viewed themselves relative to the broader racialized categories of the US.
+      Participants were asked to self-identify racially\footnote{
+        This was not asked in the terminology of racialization as that is not how the community speaks about race.
+      }, a question whose meaning generally needed no further elaboration or explanation.
       Despite a history of isolation from the broader US, participants are now thoroughly faced with its racialized social system.
-      This does not mean that all participants gave categories familiar to any American such as White or Black as their races in all cases.
-      As can be seen in Figure \ref{fig:race_counts}, a variety of choices were made from general American racialized categories (\foreign{e.g.}, White) to local categories (\foreign{e.g.}, Creole) to categories nuanced via combinations of categories (\foreign{e.g.}, Caucasian Cajun) to even the rejection of any race (\foreign{i.e.}, transcendent\footnote{
-        The value N/A represents the two participants for whom their race was not obtained, whereas the value transcendent came from a participant who explicitly rejected race.
+      This does not mean that all participants gave categories familiar to any American such as White or Black as their racialized identities in all cases.
+      Figure \ref{fig:race_counts} helps summarize the wide variety of choices that were made.
+      These ranged from general American racialized categories (\foreign{e.g.}, White) to local categories (\foreign{e.g.}, Creole) to categories nuanced via combinations of categories (\foreign{e.g.}, Caucasian Cajun) to even the rejection of racialized labels (\foreign{i.e.}, transcendent\footnote{
+        The value N/A represents the two participants for whom their racialized identity was not obtained, whereas the value transcendent came from a participant who explicitly rejected racialized labels.
       }).
       These were all initially coded as-is.
 
@@ -514,7 +511,7 @@
         <<fig.height = 0.4 * textheight>>=
         plotParticipantRace
         @
-        \caption{Racial self-identifications of participants}
+        \caption{Racialized self-identifications of participants}
         \label{fig:race_counts}
       \end{figure}
 
@@ -572,7 +569,7 @@
       \centering \scriptsize
       \begin{tabular}{l r R{2cm} r R{0.75cm} r r r R{1.4cm} r R{1.5cm} R{1.5cm}}
         & & & & & & & & & \\
-        \Sexpr{colnames(participants)[1]} & \Sexpr{colnames(participants)[18]} & \Sexpr{colnames(participants)[17]} & \Sexpr{colnames(participants)[15]} & \Sexpr{colnames(participants)[3]}  &
+        \Sexpr{colnames(participants)[1]} & \Sexpr{colnames(participants)[18]} & Racialized Identity & \Sexpr{colnames(participants)[15]} & \Sexpr{colnames(participants)[3]}  &
         \Sexpr{colnames(participants)[14]} & \Sexpr{colnames(participants)[12]} & \Sexpr{colnames(participants)[11]} & \Sexpr{colnames(participants)[9]}  & F\&C Background               & \Sexpr{colnames(participants)[5]} & \Sexpr{colnames(participants)[7]} \\
         \hline
         \Sexpr{participants[13, 1]}       & \Sexpr{participants[13, 18]}       & \Sexpr{participants[13, 17]}       & \Sexpr{participants[13, 15]}       & \Sexpr{participants[13, 3]}        &
@@ -644,6 +641,6 @@
     The full range of information coded about participants can be seen in Table \ref{tab:participants_background}.
     All participants, in order to even be included in the study, were Creole or Cajun speakers of F\&C who resided in Lafayette Parish or one of the surrounding parishes at the time of the interviews, but other details about their lives were more or less variable.
     The sample of speakers skewed towards the older side and was almost entirely made up of those who had acquired F\&C naturalistically.
-    On the other hand, there was some nuance given to racial self-identifications, and unsurprisingly, occupational histories were almost all unique.
+    On the other hand, there was some nuance given to self-identifications with racialized categories, and unsurprisingly, occupational histories were almost all unique.
     For quantitative analyses beyond descriptive statistics, some of these variables proved to be unusable, which will be discussed in the next two chapters.
     All of this information was relevant at one point or another at least qualitatively, however.

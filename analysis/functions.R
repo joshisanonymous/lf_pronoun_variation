@@ -175,11 +175,14 @@ multinomHomophily <- function(pronoun) {
 }
 
 # Plots ------------------------------------------------------------------------
-plotBar <- function(df, column) {
+plotBar <- function(df, column, xLabel = NULL) {
+  if(is.null(xLabel)) {
+    xLabel <- column
+  }
   ggplot(df, aes(x = !! sym(column))) +
   geom_bar() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1.05)) +
-  labs(y = "Count")
+  labs(y = "Count", x = xLabel)
 }
 
 plotSocial <- function(table) {

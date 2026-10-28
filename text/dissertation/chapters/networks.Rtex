@@ -18,7 +18,7 @@
   \section{Social network analysis in sociolinguistics}
     \label{sec:sna_sociolinguistics}
     The fundamental focus on interaction in social network analysis has been understood as important in linguistics as a predictor of how one will speak long before the methodology was implemented into the field \parencite[pp.~46-47]{bloomfield_language_1933}.
-    This idea has been brought up repeatedly as an explanation for individuals' linguistic behavior, including when racial barriers are crossed \parencite{sweetland_unexpected_2002}.
+    This idea has been brought up repeatedly as an explanation for individuals' linguistic behavior, including when racialized barriers are crossed \parencite{sweetland_unexpected_2002}.
     The social network approach to analyzing social structure is appealing enough that it has even been invoked when no network measures are actually implemented \parencite{hoffman_ethnolects_2010, sneller_gritty_2024}.
     % L. Milroy (1980/1987) famously found that social network positions can explain why two speakers from the same community with the same characteristics in terms of social variables might still speak differently (131-134)
     % Gal (1979) argued that not all interactions are the same (15)
@@ -90,17 +90,17 @@
     A social context that is perhaps more congruent with that of Creoles and Cajuns in Louisiana is that of Black and White Americans as these categories are generally superimposed over the local categories.
     % which while not absent from the previously discussed studies -- \textcite{sharma_cognitive_2011} did describe early Punjabi immigrants as facing racial issues rather than ethnic (pp.~405-406) -- the groups that were examined were generally conceptualized as ethnic groups only without highlighting possible racialization.
     Like the studies just mentioned, however, the results for studies of race in the US have not shown consistent effects for personal network racial homophily.
-    \textcite{labov_facto_1986}, for instance, looked at a slightly extended personal network for Eddie, a Black man in North Philadelphia, and concluded that the morphological patterns of those in his network were not entirely explainable by the racial make-up of the network because the life histories of racial in-group members were not all the same.
+    \textcite{labov_facto_1986}, for instance, looked at a slightly extended personal network for Eddie, a Black man in North Philadelphia, and concluded that the morphological patterns of those in his network were not entirely explainable by the make-up of racialized identities in the network because the life histories of racialized in-group members were not all the same.
     Unfortunately though, they did not share their network data collection methods, making it difficult to understand what may be missing from their sociograms\footnote{
       A sociogram is a visual representation of a network made up of shapes that represent nodes and lines connecting those shapes that represent ties.
     }.
     A longitudinal study of African American youths in Chapel Hill, North Carolina, though, went even further by showing that the number of African American social contacts of participants simply did not have a significant effect on the rate of usage of African American English features \parencite{van_hofwegen_coming_2010}.
-    This result, again, was unfortunately rather opaque as no descriptive statistics were provided for the proportion of African Americans that participants actually had in their networks as it would not be surprising for all participants to have rather highly racially homophilous networks.
+    This result, again, was unfortunately rather opaque as no descriptive statistics were provided for the proportion of African Americans that participants actually had in their networks as it would not be surprising for all participants to have rather highly homophilous networks relative to racialized categories.
     Instead, only the regression model was provided.
-    This does not mean that these results, that young African Americans in Chapel Hill and Black speakers in North Philadelphia are not entirely sensitive to the racial make-up of their networks, are invalid, but they should perhaps be considered with care.
+    This does not mean that these results, that young African Americans in Chapel Hill and Black speakers in North Philadelphia are not entirely sensitive to the make-up of racialized identities in their networks, are invalid, but they should perhaps be considered with care.
 
     Other studies of race in the US, in contrast, have shown clear effects for racial homophily.
-    African Americans in Memphis who had higher rates of racial homophily in their networks were found to be more involved in the southern vowel shift than those with more racially diverse networks \parencite{fridland_network_2003}.
+    African Americans in Memphis who had higher rates of racial homophily in their networks were found to be more involved in the southern vowel shift than those with networks that have greater diversity in racialized identities \parencite{fridland_network_2003}.
     Unfortunately, this sample was limited to 10 participants, so no statistical analyses were used to establish this pattern.
     A larger study, however, was conducted in Philadelphia, just as \citeauthor{labov_facto_1986}'s (\citeyear{labov_facto_1986}) work was, and found that Black speakers with more racially homophilous networks used more linguistic features associated with Black speakers than others.
     Likewise, White speakers in the data with little contact with Black speakers used fewer Black linguistic features, although White participants constituted a minority of the sample \parencite{ash_linguistic_1986}.
@@ -127,11 +127,11 @@
 
     % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
 
-    In Louisiana specifically, while there is a long and continuing history of racial segregation that has been examined at the community level (see Section \ref{sec:united_states}), there is a dearth of examinations on what personal networks look like ethnically or racially whether this means dealing with Creoles and Cajuns or Black and White people.
+    In Louisiana specifically, while there is a long and continuing history of racial segregation that has been examined at the community level (see Section \ref{sec:united_states}), there is a dearth of examinations on what personal networks look along ethnic or racialized lines whether this means dealing with Creoles and Cajuns or Black and White people.
     In sociolinguistics, this gap is especially true.
     While sociolinguistic ethnographic work on Creoles has taken place in Louisiana \parencite{wendte_tale_2020}, quantitative network analyses have been absent.
-    Only one study, outside of sociolinguistics, has addressed how the racial make-up of personal networks relates to Creoles, in this case in terms of how they view their Creole identities.
-    It was found that those Creoles of color who racially identified as singular Black had mostly Black friends, whereas those who racially identified as border Creole (\foreign{i.e.}, a stable mixed identity) had mostly White friends, and those who identified as protean (\foreign{i.e.}, racially shifting) had a relatively even racial mix of friends \parencite[pp.~45/48]{susberry_racial_2004}.
+    Only one study, outside of sociolinguistics, has addressed how the make-up of racialized identities in personal networks relates to Creoles, in this case in terms of how they view their Creole identities.
+    It was found that those Creoles of color who identified as singular Black had mostly Black friends, whereas those who identified as border Creole (\foreign{i.e.}, a stable mixed racialized identity) had mostly White friends, and those who identified as protean (\foreign{i.e.}, shifting between racialized identities) had a relatively even mix of racialized identities in their friend groups \parencite[pp.~45/48]{susberry_racial_2004}.
 
     The current study aims to add to this picture by looking not at the Black and White composition of personal networks but the Creole and Cajun composition of the personal networks of individuals who self-identify as Creole or Cajun themselves and how this impacts language use.
     Specifically, the primary research question is the following:
@@ -321,7 +321,7 @@
       It is reasonable to also doubt the accuracy of proxy reports in general.
       Previous work has found open-ended questions to yield the most highly accurate responses \parencite{cobb_proxy_2018}, which is in fact the sort of name interpreter question that Sentence \ref{sent:interpret_ethnicity} represents.
       Additionally, as has previously been observed, even when accuracy in terms of agreement between the respondent and the people they are describing is low, what is often more important is the respondent's perception of alters \parencite[p.~277]{cornwell_survey_2014}.
-      While it would have been beneficial for the ethnicity question to know what the alters themselves would say, a participant perceiving alters as having one ethnicity or another makes up one half of the common two part criteria for claiming an ethnicity, the first being that one sees oneself as a member of an ethnic group and the second being that others in the group accept the person as a member of the group (\citeauthor{giles_ethnicity_1979}, \citeyear[pp.~252-253]{giles_ethnicity_1979}; \citeauthor{le_page_acts_1985}, \citeyear[p.~2]{le_page_acts_1985}; \citeauthor{moerman_ethnic_1965}, \citeyear{moerman_ethnic_1965}).
+      While it would have been beneficial for the ethnicity question to know what the alters themselves would say, a participant perceiving alters as having one ethnicity or another makes up one half of the process of negotiating one's ethnic identity with others of the relevant group, the first being that one sees oneself as a member of an ethnic group and the second being that others in the group accept one as a member of the group (\citeauthor{brubaker_ethnicity_2002}, \citeyear{brubaker_ethnicity_2002}; \citeauthor{giles_ethnicity_1979}, \citeyear[pp.~252-253]{giles_ethnicity_1979}; \citeauthor{le_page_acts_1985}, \citeyear[p.~2]{le_page_acts_1985}; \citeauthor{moerman_ethnic_1965}, \citeyear{moerman_ethnic_1965}).
       Essentially, if a Cajun describes an alter as Cajun, that alter most likely can pass as a Cajun, and indeed, as will be discussed in section \ref{sec:network_analyses}, agreement was high between participants when they were describing the ethnicities of shared alters.
 
       At times, participants needed some clarification as to what exactly they were being asked for the ethnicity question.
@@ -329,7 +329,11 @@
       The question was therefore often followed up with an explanation that their answer did not have to be exactly what their alter would say.
       Another form of clarification that was sometimes needed was what was meant by the term \lexi{ethnicity}.
       The word was repeated in English in the original question as \lexi{ethnicité} is not a widely used word in the community, but examples were also provided.
-      Typically, these examples included Cajun, Creole, American, Indian, and Latino, all of which was generally sufficient as an explanation.
+      Typically, these examples included Cajun, Creole, American, Indian\footnote{
+        It is far from clear if the tribes of Louisiana share a preferred umbrella term when not describing a specific tribe.
+        \textcite{dajko_ethnic_2009} reported that those in Pointe-aux-Chênes discussed terminology during a tribal meeting that she attended where members of the tribe expressed a distaste for terms like \lexi{Native American} and \lexi{First Nations}.
+        Anecdotally, in F\&C, my participants, including those who claimed to have tribal members in their genealogy, used either the word \lexi{indien.ne} or \lexi{sauvage}, the latter at least being acceptable to some in the community and highly contested by others.
+      }, and Latino, all of which was generally sufficient as an explanation.
 
       The second name interpreter question, reproduced in Sentence \ref{sent:interpret_french}, aimed at obtaining the proportion of French used in discourse with each alter.
       \begin{enumerate}[resume=sentences]
@@ -446,7 +450,7 @@
         \label{tab:homophily_participants}
         \centering
         \begin{tabular}{l l l l r}
-          Participant & Ethnicity & Race & Gender & Homophily \\
+          Participant & Ethnicity & Racialized Identity & Gender & Homophily \\
           \hline
           Floyd                    & \Sexpr{participants[participants$Name == "Floyd Kerry", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Floyd Kerry", "Race"]}                           & \Sexpr{participants[participants$Name == "Floyd Kerry", "Gender"]}              & \Sexpr{Round(participants[participants$Name == "Floyd Kerry", "Network Ethnic Homophily"])} \\
           Terry                    & \Sexpr{participants[participants$Name == "Terry Guillot", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Terry Guillot", "Race"]}                       & \Sexpr{participants[participants$Name == "Terry Guillot", "Gender"]}            & \Sexpr{Round(participants[participants$Name == "Terry Guillot", "Network Ethnic Homophily"])} \\
@@ -495,8 +499,8 @@
       When participants were asked to assign an ethnicity to the alters they had named, it was typical for Black Creoles -- and not unheard of for Cajuns either -- to provide either broad American racialized categories (\foreign{i.e.}, Black or African American) or to combine Creole with one of these categories (\foreign{e.g.}, African American/Creole).
       Figure \ref{fig:alter_ethnicities} summarizes the distribution of alter ethnicities given with collapsing the latter types into simply Creole or Cajun as was done before homophily was calculated.
       For two Black Creoles who had a complete absence of ethnic homophily, Tracy and Owen, all of the alters in their personal networks were described as ``of color'' for the former and African American for the latter.
-      In Owen's case, he described his own race as African American or Black, which makes it clear that he shares a racialized identity with those that he named in his network.
-      For Tracy, his own racial self-identification was Black, which would suggest again a connection with his named network alters through a racialized identity, although less clearly than for Owen.
+      In Owen's case, he described his own racialized identity as African American or Black, which makes it clear that he shares a racialized identity with those that he named in his network.
+      Tracy similarly self-identified as Black, which would suggest again a connection with his named network alters through a racialized identity, although less clearly than for Owen as ``of color'' need not be a synonym for Black.
       Given the interconnectedness with these broader social categories and conceptions of Creole, it is not entirely clear that these two were not referring to people whom they considered to be Creoles, as well, in which case terms like \lexi{of color} or \lexi{African American} may have simply been primed for them first when asked to describe another's ethnicity.
       Owen indeed had a deeply thought out conception of what it means to be Creole where he viewed it as a culture, suggesting this would not necessarily be the first label he would think of when asked to describe alters' identities.
       There is thus good reason to doubt that Tracy and Owen lack ethnic homophily in their networks.
@@ -560,7 +564,7 @@
       It is thus possible that she used \lexi{American} as a default term for anyone who might be described by others as a Creole or a Cajun.
 
       Gene presented an even more radical picture.
-      He self-identified as a Creole but could not choose a descriptor for his race, explaining that others kept changing what they would call his people over time.
+      He self-identified as a Creole but could not choose a descriptor for his racialized identity, explaining that others kept changing what they would call his people over time.
       The changing terms that he used were all for broader American racialized categories such a Black or Colored.
       He therefore extended this indeterminacy to the alters whom he named, all of whom were core alters, giving no answer for their ethnicities save for one individual whom he described as Creole/French.
       While this technically leads to a complete lack of ethnic homophily mathematically, like Tracy and Owen above, it is relatively clear that Gene did in fact share a racialized broad US identity with the core members of his personal network that is also associated with Creole identity.
@@ -593,19 +597,19 @@
         <<fig.height = 0.25 * textheight>>=
         plotHomophilyExploratory
         @
-        \caption{Distributions of network ethnic homophily by ethnicity after recoding alters for Gene, Owen, and Tracy}
+        \caption[Distributions of network ethnic homophily by ethnicity after recoding alters]{Distributions of network ethnic homophily by ethnicity after recoding alters for Gene, Owen, and Tracy}
         \label{fig:homophily_exploratory_boxplots}
 
         \centering
         <<fig.height = 0.25 * textheight>>=
         plotHomophilyGss
         @
-        \caption{Distributions of network racial homophily by race from GSS data for Louisiana, Arkansas, Texas, and Oklahoma in 2004}
+        \caption[Distributions of network racial homophily by racialized category from GSS data]{Distributions of network racial homophily by racialized category from GSS data for Louisiana, Arkansas, Texas, and Oklahoma in 2004}
         \label{fig:homophily_gss_boxplots}
       \end{figure}
 
       To help provide greater context to the range of homophily indices, it is instructive to compare the primary values with the values derived from recoding Gene, Owen, and Tracy's alters as well as the values derived from the region in general.
-      In terms of recoding Gene, Owen, and Tracy, their alters who were described as having no race, as African American, and as ``of color'' were respectively recoded as Creole given that these alters may have very well shared that identity with these participants.\footnote{
+      In terms of recoding Gene, Owen, and Tracy, their alters who were described as having no racialized identity, as African American, and as ``of color'' were respectively recoded as Creole given that these alters may have very well shared that identity with these participants.\footnote{
         One could possibly make the argument that Deborah's alters could be recoded, as well, but there was little indication of whether the term \lexi{American} might be referring to only Cajuns or only Creoles, in contrast to the others' alters.
       }
       In terms of the region in general, data was taken from the GSS for White and Black respondents from the last year that social network questions were asked, 2004.
@@ -689,7 +693,7 @@
         \centering
         {\scriptsize
         \begin{tabular}{l l l l r r l}
-          Participant & Ethnicity                                                                       & Race                                                                         & Pronoun System      & Homophily                                                                                               & Adj. Homophily                                                                                               & Raised (town)\\
+          Participant & Ethnicity                                                                       & Racialized Identity                                                          & Pronoun System      & Homophily                                                                                               & Adj. Homophily                                                                                               & Raised (town)\\
           \hline
           Elizabeth   & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Ethnicity"]}      & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Race"]}        & Creole-marked       & \Sexpr{Round(participants[participants$Name == "Elizabeth Naquin", "Network Ethnic Homophily"])}        &                                                                                                              & \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Raised (town)"]}\\
           Errol       & \Sexpr{participants[participants$Name == "Errol Stoufle", "Ethnicity"]}         & \Sexpr{participants[participants$Name == "Errol Stoufle", "Race"]}           & Creole-marked       & \Sexpr{Round(participants[participants$Name == "Errol Stoufle", "Network Ethnic Homophily"])}           & \Sexpr{Round(participants[participants$Name == "Errol Stoufle", "Network Ethnic Homophily (exploratory)"])}  & \Sexpr{participants[participants$Name == "Errol Stoufle", "Raised (town)"]}\\
@@ -707,7 +711,7 @@
 
       The Cajuns who used exclusively Creole-marked pronouns were Elizabeth and Errol.
       In terms of ethnic homophily, both had primarily Cajun personal networks whether going by the original calculated values or the adjusted values shown in Figure \ref{fig:homophily_exploratory_boxplots}, whereas if homophily was the explanation for their linguistic behavior, primarily Creole alters would instead be expected in their networks.
-      Their broad racial self-identifications as White also go no further towards offering insights into their speech as almost every other Cajun also identified as White.
+      Their self-identifications as White also go no further towards offering insights into their speech as almost every other Cajun also identified as White.
       What perhaps has more explanatory power is the fact that Elizabeth has lived her whole life in Henderson and Errol in Breaux Bridge.
       Not only are these towns in St Martin Parish where Creole is commonly said to be spoken, but they are some of the exact towns in that parish that have been cited as having a high proportion of Creole speakers \parencite[p.~40]{neumann-holzschuh_creole_1985}.
       It should be noted, however, that Elizabeth produced \convertSmallNumber{\Sexpr{tablesParticipant$firstSg$`Elizabeth Naquin`["je"]}} tokens of Cajun-marked \lexi{je} at the very beginning of her interview, so it is possible that she had the ability to switch between pronoun systems despite not doing so otherwise.
@@ -721,7 +725,7 @@
       James's personal network was in fact on the more diverse side, but as previously discussed, this was not due to the presence of Cajuns in his network nor to the absence of Creoles.
       Creole and African were in fact the ethnicities he assigned to his alters the most frequently, whereas they were otherwise described in a variety of ways.
       This was similar for Jerry whose network was half Creole and half non-Creole but not Cajun.
-      Jerry's racial identity of White, however, is a clue to why he used Cajun-marked speech considering that Cajun has become highly, though not explicitly, linked to Whiteness, and White identities were shown in Chapter \ref{chap:pronoun_variation} to seemingly be associated with the same subject pronouns as Cajun identities.
+      Jerry's racialized identity of White, however, is a clue to why he used Cajun-marked speech considering that Cajun has become highly, though not explicitly, linked to Whiteness, and White identities were shown in Chapter \ref{chap:pronoun_variation} to seemingly be associated with the same subject pronouns as Cajun identities.
       However, while it is possible that Jerry's Creole alters were also White Creoles like himself, that specific name interpreter question was not posed, and so the connection between Jerry's Whiteness and his speech is missing key context that would make it clearer if the connection is explanatory.
 
       Location may also be behind these Creoles incongruities with the general subject pronoun tendencies of Creoles, though.
@@ -734,7 +738,7 @@
 
       One participant whose subject pronoun system was consistent while being interviewed but included a mix of Creole- and Cajun-marked pronouns was Gene.
       Specifically, he used \lexi{yé} for 3pl and Cajun-marked pronouns for all other pronoun types.
-      Given his almost complete rejection of ethnic and racial labels for himself and his alters, it is difficult to conclude whether his ethnic homophily could be related to this linguistic behavior at all.
+      Given his almost complete rejection of ethnic and racialized labels for himself and his alters, it is difficult to conclude whether his ethnic homophily could be related to this linguistic behavior at all.
       His residence history is quite interesting in regards to his speech, though.
       He essentially spent his life in Carencro just north of Lafayette where the border between the two towns has shifted over time, hence he was also able to say that he lived in Lafayette at the time of the interview.
       Carencro has not been discussed much in the literature, but Creole speech patterns are anecdotally common there, and in fact an individual who was present during Gene's interview suggested that he spoke more Creole-like to others than he did towards myself.
@@ -742,7 +746,7 @@
 
       Others in Table \ref{tab:contradictory_systems} made it clearer that they could switch systematically between Creole-marked and Cajun-marked subject pronouns.
       For Owen, who generally seemed to prefer Creole-marked pronouns, his ethnic homophily values are just as difficult to interpret in relation to his linguistic behavior as Gene's are as his network also ranged anywhere from entirely absent of homophily for the initial calculation to completely homophilous after exploratory recoding of his alters' ethnicities.
-      His preference for Creole-marked pronouns, however, is in line with his ethnic and racial identities as well as the fact that he has spent most of his life in Breaux Bridge.
+      His preference for Creole-marked pronouns, however, is in line with his ethnic and racialized identities as well as the fact that he has spent most of his life in Breaux Bridge.
       The fact that he can use Cajun-marked pronouns appeared to have more to do with his experience with academic French than any possible contacts he has had with Cajuns given that, in these moments, he generally used subject pronouns and verbal inflections, such as \lexi{nous disons} \gloss{we say}, that are not even particularly common in the casual speech of francophones in other parts of the world let alone Cajuns.
       Owen switched between subject pronoun systems much more than any other participants, making his discourse with relation to the pronoun choices embedded in different parts of that discourse more available for qualitative analysis as will be done in the following chapter.
 
@@ -766,7 +770,7 @@
     In light of the racialized social system of the US, including such participants is not at all a trivial task, so much so that even including Creoles and Cajuns (\foreign{i.e.}, local categories associated with broad racialized categories) with low ethnic homophily here was not accomplished.
     It is still to be seen what impact if any personal networks of this type would have on F\&C subject pronoun usage.
 
-    One past linguistic study that looked at the effects of the racial make-up of networks on language variation showed that there are caveats to the effects of race in networks in that the personal histories of racial in-group members are also important \parencite{labov_facto_1986}.
+    One past linguistic study that looked at the effects of the make-up of racialized identities in networks on language variation showed that there are caveats to the effects of race in networks in that the personal histories of racialized in-group members are also important \parencite{labov_facto_1986}.
     Essentially, the implication was that not all members of a racialized group are the same in terms of experiences that may shape linguistic behavior.
     Similarly, ethnic homophily was found to be predictive of linguistic behavior for Polish immigrants \parencite{schleef_teenagers_2011} and Punjabis \parencite{sharma_cognitive_2011} in the UK but not for all subsets of these groups, again suggesting that there are additional factors that can override potential network effects.
     These mixed results are perhaps relevant to those participants in the present study who did not follow the more general subject pronoun tendencies of Creoles and Cajuns.
@@ -785,7 +789,7 @@
     Rather than leading to the conclusion that racial and ethnic homophily are not important for predicting speech patterns, the much more trivial conclusion is that observing a continuum of variation relative to a continuum of homophily is difficult when a continuum of homophily is hardly present in the first place.
 
     The results obtained from examining personal networks help to explain why subject pronoun variation is divided along ethnic lines in the present data: Creoles and Cajuns do not interact with each other to any great degree.
-    In the few cases where ethnic homophily was not high in the present data, this was at times the result of participants assigning alters ethnicities that are instead homophilous with participants' racial identifications in the terms of the broader US (\foreign{e.g.}, Black Creoles describing alters as Black).
+    In the few cases where ethnic homophily was not high in the present data, this was at times the result of participants assigning alters ethnicities that are instead homophilous with participants' self-identifications with racialized categories of the broader US (\foreign{e.g.}, Black Creoles describing alters as Black).
     For other cases of low homophily, it was never the result of Creoles having Cajun alters or Cajuns having Creole alters but rather the implication of other ethnicities.
     In other words, Creoles and Cajuns on the whole do not appear to form core relationships with each other nor even linguistically-motivated relationships that could theoretically be sought out in order to have more people with whom to speak F\&C.
 
