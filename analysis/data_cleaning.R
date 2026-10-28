@@ -40,13 +40,16 @@ for(token in 1:nrow(tokens)) {
 }
 tokens$ProUnder <- as.factor(tokens$ProUnder)
 
+# Capitalize predicate types
+tokens$PredType <- makeCap(tokens$PredType)
+
 # Order factors in order to make reasonable reference levels
 tokens$ProUnder <- factor(tokens$ProUnder,
                        levels = c("je", "vous", "tu", "on", "ø", "ça", "elle", "il", "vous-autres", "ils",
                                   "elles", "eux", "eux-autres", "nous", "nous-autres", 
                                   "li", "mo", "no", "to", "vou", "yé"))
 tokens$PredType <- factor(tokens$PredType,
-                           levels = c("lexical", "modal", "auxiliary", "preposition", "adjective", "noun"))
+                           levels = c("Lexical", "Modal", "Auxiliary", "Preposition", "Adjective", "Noun"))
 
 # Participant cleaning --------------------------------------------------------
 # Fix headers

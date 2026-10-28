@@ -116,7 +116,7 @@ tokens <- subset(tokens, !(ProType == "3pl" & (ProUnder == "elles" | ProUnder ==
 tokens <- subset(tokens, !(ProType == "demo" & ProUnder == "ø"))
 tokens <- subset(tokens, !(ProType == "expl" & ProUnder == "li"))
 tokens <- subset(tokens, !(ProType == "imp" & (ProUnder == "ø" | ProUnder == "vou" | ProUnder == "vous" | ProUnder == "on")))
-tokens <- subset(tokens, !(PredType == "noun" | PredType == "adjective" | PredType == "preposition"))
+tokens <- subset(tokens, !(PredType == "Noun" | PredType == "Adjective" | PredType == "Preposition"))
 tokens <- droplevels(tokens)
 rownames(tokens) <- NULL
 

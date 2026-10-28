@@ -11,6 +11,10 @@ Ceiling <- function(number) {
   sprintf("%.3f", round_any(number, 0.001, ceiling))
 }
 
+makeCap <- function(word) {
+  paste(toupper(substring(word, 1, 1)), substring(word, 2), sep = "")
+}
+
 # Subsets ----------------------------------------------------------------------
 subsetTokens <- function(pronoun, feature) {
   if(feature == "animacy") {
@@ -159,9 +163,9 @@ test3plPred <- function(pronoun) {
 
 multinomResponse <- function(pronoun, exclude_aux = FALSE, exclude_modal = FALSE) {
   if(exclude_aux == TRUE) {
-    tokens <- droplevels(subset(tokens, !(PredType == "auxiliary")))
+    tokens <- droplevels(subset(tokens, !(PredType == "Auxiliary")))
   } else if(exclude_modal == TRUE) {
-    tokens <- droplevels(subset(tokens, !(PredType == "modal")))
+    tokens <- droplevels(subset(tokens, !(PredType == "Modal")))
   }
   mblogit(ProUnder ~ PredType + Ethnicity + Gender + `Institutional French` + Age,
           data = droplevels(tokens[tokens$ProType == pronoun,]),
