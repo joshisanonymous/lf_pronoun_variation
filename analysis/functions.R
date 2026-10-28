@@ -237,7 +237,7 @@ plotLogitNumAge <- function(pronoun, reference, contrast) {
   ggplot() +
     geom_jitter(data = subsetsProType[[pronoun]],
                 aes(x = Age, y = as.numeric(ProUnder == contrast), color = Ethnicity),
-                width = 2, height = 0.05) +
+                width = 4, height = 0.25) +
     scale_color_manual(values = color_key) +
     geom_line(data = modelsAge[[pronoun]],
               aes(x = Age, y = !! sym(contrast)),

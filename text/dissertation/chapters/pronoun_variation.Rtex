@@ -1057,15 +1057,9 @@
     While this caveat should be kept in mind, these outliers are not likely to distort the statistical results to a huge degree considering that, with and without the two youngest participants, the means are nearly identical (\Sexpr{round(mean(participants$`Birth Year`))} and \Sexpr{round(mean(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))}, respectively), the medians are identical (\Sexpr{median(participants$`Birth Year`)}), and the standard deviations are not exceptionally different (\Sexpr{round(sd(participants$`Birth Year`))} and \Sexpr{round(sd(sort(participants$`Birth Year`)[1:(length(participants$`Birth Year`) - 2)]))}, respectively).
 
     For age, then, as birth years were converted to age for modeling, there is some evidence of a shift from a predominance of \lexi{tu} for 2sg.T to \lexi{to} as well as from a predominance of \lexi{ils/ça} to \lexi{yé}, as can be seen in Figures \ref{fig:2sg_age} and \ref{fig:3pl_age}, respectively.
-    What is also apparent from the figures is that there seems to be an interaction with ethnicity and age.
-    Of those who produced \lexi{to}, almost all were Creoles, and almost all of those tokens produced by Cajuns came from Errol of \Sexpr{participants[participants$Name == "Errol Stoufle", "Raised (town)"]} where Creole-oriented speech has long been documented.
-    Likewise, only two Cajuns produced \lexi{yé} for 3pl: Errol once again and Elizabeth.
-    The latter was born and still resided in the town of \Sexpr{participants[participants$Name == "Elizabeth Naquin", "Raised (town)"]}, a place where it has been noted that ``Blancs''\footnote{
-      White people
-    } are known to speak Louisiana Creole \parencite[p.~40]{neumann-holzschuh_creole_1985}.
-    Outside of these two exceptions, what the results for age more likely represent is evidence that Creoles are more likely to pass on F\&C than Cajuns.
-    Among the participants in this study, Creoles had generally less education and tended towards blue collar occupations, suggesting a lower socioeconomic class, which is not very dissimilar from the case of the Indians of Terrebonne-Lafourche, who were poorer and more isolated than the Cajuns there, and who were likewise documented as more readily passing on the language in the 1990s \parencite[pp.~64/310]{rottet_language_1995}.
-    This pattern of isolated, low status groups being more likely to pass on endangered languages is perhaps a generalizable phenomenon.
+    There is perhaps an interaction with ethnicity in this pattern.
+    It is not only younger speakers who are using \lexi{to} and \lexi{yé} but younger Creole speakers.
+    However, this result is not robust enough to draw any strong conclusions for the impact of age nor for its relationship to ethnicity.
 
     \begin{figure}[tbhp]
       \captionsetup{font={footnotesize}}
