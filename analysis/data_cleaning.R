@@ -123,6 +123,9 @@ participants$Ethnicity <- factor(participants$Ethnicity,
 participants$Age <- 2023 - participants$`Birth Year`
 
 # Network cleaning -----------------------------------------------------------
+# Remove unusable participants
+networks <- droplevels(subset(networks, Name != "Patrick Patin"))
+
 # Preserve non-collapsed Creole and Cajun levels
 networksUncollapsedEth <- networks
 networksUncollapsedEth$`Alter Ethnicity` <- fct_infreq(networksUncollapsedEth$`Alter Ethnicity`)

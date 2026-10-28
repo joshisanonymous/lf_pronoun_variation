@@ -137,6 +137,23 @@ for(name in participants$Name) {
 # Clean-up for loop
 rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
 
+# Calculate EI homophily indices for each participant WITHOUT collapsing alter ethnicities
+for(name in participants$Name) {
+  # For whole personal networksUncollapsedEth
+  homophIndex <- getEIHomophily(networksUncollapsedEth, name)
+  participants[participants$Name == name, "Network Ethnic Homophily (uncollapsed)"] <- homophIndex
+  # For just anglophone alters
+  justAnglo <- networksUncollapsedEth[networksUncollapsedEth$`Alter French Frequency` == "Never", ]
+  homophIndex <- getEIHomophily(justAnglo, name)
+  participants[participants$Name == name, "Anglo Network Ethnic Homophily (uncollapsed)"] <- homophIndex
+  # For just francophone alters
+  justFranco <- networksUncollapsedEth[networksUncollapsedEth$`Alter French Frequency` != "Never", ]
+  homophIndex <- getEIHomophily(justFranco, name)
+  participants[participants$Name == name, "Franco Network Ethnic Homophily (uncollapsed)"] <- homophIndex
+}
+# Clean-up for loop
+rm(list = c("justAnglo", "justFranco", "homophIndex", "name"))
+
 # Set dummy EI homophily of participants who did not give network info
 homophilyDummy <- mean(participants$`Network Ethnic Homophily`, na.rm = TRUE)
 participants[participants$Name == "Errol Stoufle", "Network Ethnic Homophily"] <- homophilyDummy
