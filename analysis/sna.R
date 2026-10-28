@@ -21,7 +21,7 @@ networkWholeNodeAttrs <- subset(networkWholeNodeAttrs, !(Name %in% participants$
 networkWholeNodeAttrs <- networkWholeNodeAttrs[!(networkWholeNodeAttrs$Name == "Bruce Rivero" &
                          networkWholeNodeAttrs$Ethnicity == "No Answer"),]
 networkWholeNodeAttrs <- networkWholeNodeAttrs[!(networkWholeNodeAttrs$Name == "David Roche" &
-                         networkWholeNodeAttrs$Ethnicity == "African-American"),]
+                         networkWholeNodeAttrs$Ethnicity == "African American"),]
 networkWholeNodeAttrs <- networkWholeNodeAttrs[!(networkWholeNodeAttrs$Name == "Jacqueline Newchurch" &
                          networkWholeNodeAttrs$Ethnicity == "White"),]
 networkWholeNodeAttrs <- networkWholeNodeAttrs[!(networkWholeNodeAttrs$Name == "Richard Chenevert" &

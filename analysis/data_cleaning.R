@@ -69,6 +69,9 @@ participants <- droplevels(subset(participants, Ethnicity != "French" &
 participants$`Total Length Time` <- participants$`Total Length`
 participants$`Total Length` <-  period_to_seconds(hms(participants$`Total Length`))/60/60
 
+# Fix ethnicity/race spellings
+participants$Race <- factor(gsub("African-American", "African American", participants$Race))
+
 # Clean up race levels to aggregate or abbreviate
 participants$Race <- recode_factor(
   participants$Race,
@@ -126,6 +129,10 @@ participants$Age <- 2023 - participants$`Birth Year`
 # Remove unusable participants
 networks <- droplevels(subset(networks, Name != "Patrick Patin"))
 
+# Fix ethnicity/race spellings
+networks$`Alter Ethnicity` <- factor(gsub("African-American", "African American", networks$`Alter Ethnicity`))
+networks$`Alter Ethnicity` <- factor(gsub("Camerounian", "Cameroonian", networks$`Alter Ethnicity`))
+
 # Preserve non-collapsed Creole and Cajun levels
 networksUncollapsedEth <- networks
 networksUncollapsedEth$`Alter Ethnicity` <- fct_infreq(networksUncollapsedEth$`Alter Ethnicity`)
@@ -133,9 +140,9 @@ networksUncollapsedEth$`Alter Ethnicity` <- fct_infreq(networksUncollapsedEth$`A
 # Collapse factor levels when relevant
 networks$`Alter Ethnicity` <- recode_factor(
   networks$`Alter Ethnicity`,
-  "African-American/Creole" = "Creole",
+  "African American/Creole" = "Creole",
   "African/Creole" = "Creole",
-  "Creole-African-American" = "Creole",
+  "Creole-African American" = "Creole",
   "Creole/French" = "Creole",
   "White Creole" = "Creole",
   "Americanized Cajun" = "Cajun",

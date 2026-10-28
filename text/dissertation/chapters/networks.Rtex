@@ -376,9 +376,9 @@
         \begin{tabular}{r r @{ $\to$ } l}
           Count & Given & Coded \\
           \hline
-          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African-American/Creole",])} & African American/Creole   & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African American/Creole",])} & African American/Creole   & Creole \\
           \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "African/Creole",])}          & African/Creole            & Creole \\
-          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole-African-American",])} & Creole-African American   & Creole \\
+          \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole-African American",])} & Creole-African American   & Creole \\
           \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Creole/French",])}           & Creole/French             & Creole \\
           \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "White Creole",])}            & White-Creole              & Creole \\
           \Sexpr{nrow(networksUncollapsedEth[networksUncollapsedEth$`Alter Ethnicity` == "Americanized Cajun",])}      & Americanized-Cajun        & Cajun \\
@@ -708,6 +708,7 @@
           Samantha    & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Ethnicity"]}     & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Race"]}       & Cajun-marked        & \Sexpr{Round(participants[participants$Name == "Samantha Primeaux", "Network Ethnic Homophily"])}       &                                                                                                              & \Sexpr{participants[participants$Name == "Samantha Primeaux", "Raised (town)"]}\\
           Terry       & \Sexpr{participants[participants$Name == "Terry Guillot", "Ethnicity"]}         & \Sexpr{participants[participants$Name == "Terry Guillot", "Race"]}           & Cajun-marked        & \Sexpr{Round(participants[participants$Name == "Terry Guillot", "Network Ethnic Homophily"])}           &                                                                                                              & \Sexpr{participants[participants$Name == "Terry Guillot", "Raised (town)"]}\\
           Jerry       & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Ethnicity"]} & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Race"]}   & Cajun-marked        & \Sexpr{Round(participants[participants$Name == "Jerry Pierre Quintero", "Network Ethnic Homophily"])}   &                                                                                                              & \Sexpr{participants[participants$Name == "Jerry Pierre Quintero", "Raised (town)"]}\\
+          Deborah     & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Ethnicity"]}        & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Race"]}          & Cajun-marked        & \Sexpr{Round(participants[participants$Name == "Deborah Tauzin", "Network Ethnic Homophily"])}          &                                                                                                              & \Sexpr{participants[participants$Name == "Deborah Tauzin", "Raised (town)"]}\\
           Gene        & \Sexpr{participants[participants$Name == "Gene Delcambre", "Ethnicity"]}        & \Sexpr{participants[participants$Name == "Gene Delcambre", "Race"]}          & Mixed               & \Sexpr{Round(participants[participants$Name == "Gene Delcambre", "Network Ethnic Homophily"])}          & \Sexpr{Round(participants[participants$Name == "Gene Delcambre", "Network Ethnic Homophily (exploratory)"])} & \Sexpr{participants[participants$Name == "Gene Delcambre", "Raised (town)"]}\\
           Owen        & \Sexpr{participants[participants$Name == "Owen Webre", "Ethnicity"]}            & \Sexpr{participants[participants$Name == "Owen Webre", "Race"]}              & Switching           & \Sexpr{Round(participants[participants$Name == "Owen Webre", "Network Ethnic Homophily"])}              & \Sexpr{Round(participants[participants$Name == "Owen Webre", "Network Ethnic Homophily (exploratory)"])}     & \Sexpr{participants[participants$Name == "Owen Webre", "Raised (town)"]}\\
           Oliver L.   & \Sexpr{participants[participants$Name == "Oliver Lesage", "Ethnicity"]}         & \Sexpr{participants[participants$Name == "Oliver Lesage", "Race"]}           & Switching           & \Sexpr{Round(participants[participants$Name == "Oliver Lesage", "Network Ethnic Homophily"])}           &                                                                                                              & \Sexpr{participants[participants$Name == "Oliver Lesage", "Raised (town)"]}\\
@@ -726,17 +727,25 @@
         The interview schedule included questions about activities such as family vacations, and many participants explained that they only rarely vacationed if at all and/or not very far from home.
       }
 
-      In flipping this pattern, there were four Creoles who exlusively used Cajun-marked pronouns: James, Samantha, Terry, and Jerry.
+      In flipping this pattern, there were five Creoles who exlusively used Cajun-marked pronouns: James, Samantha, Terry, Jerry, and Deborah.
       Once again, their ethnic homophily scores were not instructive in explaining their linguistic behavior.
-      Samantha and Terry both had primarily Creole personal networks, the opposite of what one might expect for those who use Cajun-marked pronouns.
-      James's personal network was in fact on the more diverse side, but as previously discussed, this was not due to the presence of Cajuns in his network nor to the absence of Creoles.
-      Creole and African were in fact the ethnicities he assigned to his alters the most frequently, whereas they were otherwise described in a variety of ways.
-      This was similar for Jerry whose network was half Creole and half non-Creole but not Cajun.
-      Jerry's racialized identity of White, however, is a clue to why he used Cajun-marked speech considering that Cajun has become highly, though not explicitly, linked to Whiteness, and White identities were shown in Chapter \ref{chap:pronoun_variation} to seemingly be associated with the same subject pronouns as Cajun identities.
-      However, while it is possible that Jerry's Creole alters were also White Creoles like himself, that specific name interpreter question was not posed, and so the connection between Jerry's Whiteness and his speech is missing key context that would make it clearer if the connection is explanatory.
+      Samantha and Terry both had primarily Creole personal networks, the opposite of what one might expect for those who use Cajun-marked pronouns if ethnic homophily were predictive.
+      James' personal network was in fact on the more diverse side, but as previously discussed, this was not exactly due to the presence of Cajuns in his network nor to the absence of Creoles.
+      Creole and African were in fact the ethnicities he assigned to his alters the most frequently, whereas he described none of his alters explicitly as Cajun.
+      One of James' alters was assigned White as an ethnicity, however, that alter also being a participant who self-identified as Cajun: Richard.
+      The influence of Cajun-marked speech through Cajuns in James' network cannot be completely ruled out, although as will be discussed farther below, he did not appear to be targeting Cajun-like speech exactly.
 
-      Location may also be behind these Creoles incongruities with the general subject pronoun tendencies of Creoles, though.
-      Jerry grew up in Mansura, part of Avoyelles Parish where Creole has not been formally attested.
+      Two of the five Creoles who used Cajun-marked pronounces exclusively, Deborah and Jerry, presented slightly different considerations.
+      Neither had Cajuns in their networks, although Jerry's network was half Creole and half non-Creole whereas Deborah's was also absent of Creoles.
+      Given this difference in ethnic homophily, and given that both participants self-identified as White Creoles, one might expect to see differences in their speech patterns, but both used exclusively Cajun-marked subject pronouns.
+      This suggests again that the degree of ethnic homophily does not have an impact on subject pronouns in a fine-grained way.
+
+      Both speakers' self-identifications as White are worth considering, though.
+      Cajun has become highly, though not explicitly, linked to Whiteness, and White identities were shown in Chapter \ref{chap:pronoun_variation} to seemingly be associated with the same subject pronouns as Cajun identities.
+      Unfortunately, participants were not asked to racially describe their alters, and neither used US racialized categories to descirbe alters' ethnicities, so whether either speaker's alters would also be considered by them to be White is not clear.
+
+      Place may also be behind these Creoles incongruities with the general subject pronoun tendencies of Creoles, though.
+      Jerry grew up in Mansura, part of Avoyelles Parish where Creole has not been formally attested, and Deborah grew up in the town of Creole, which, despite its name, is a town far to the southwest of Lafayette in a parish where again Creole has not been formally attested.
       Likewise, Terry has spent most of his life between the particularly rural towns of Mallet and Swords which are both almost equally distant from Opelousas, Ville Platte, Eunice, and Church Point.
       Out of these larger towns, only Opelousas has a particularly strong connection to Creole culture but has still not been attested as having Creole speakers rather than French speakers.
       James as well grew up in DeQuincy, closer to the Texas border in the west than to parishes like St Martin and St Landry that are closely linked to Creole language.

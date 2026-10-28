@@ -278,9 +278,9 @@ subsetParticipantsRace$Race <- recode_factor(
   subsetParticipantsRace$Race,
   "White / Cajun" = "White",
   "Caucasian Cajun" = "White",
-  "African-American" = "Black",
-  "African-American / Black" = "Black",
-  "African-American / Creole" = "Black"
+  "African American" = "Black",
+  "African American / Black" = "Black",
+  "African American / Creole" = "Black"
 )
 tableParticipantsEthnRace <- table(subsetParticipantsRace$Ethnicity, subsetParticipantsRace$Race)
 indEthnRace <- fisher.test(tableParticipantsEthnRace)
@@ -294,9 +294,9 @@ subsetTokensRace$Race <- recode_factor(
   subsetTokensRace$Race,
   "White / Cajun" = "White",
   "Caucasian Cajun" = "White",
-  "African-American" = "Black",
-  "African-American / Black" = "Black",
-  "African-American / Creole" = "Black"
+  "African American" = "Black",
+  "African American / Black" = "Black",
+  "African American / Creole" = "Black"
 )
 subsetTokensRace$Race <- factor(subsetTokensRace$Race,
   levels = c("Black", "White")
@@ -325,7 +325,7 @@ networksExploratory[networksExploratory$Name == "Tracy Roth" &
                     networksExploratory$`Alter Ethnicity` == "Of Color",
                     "Alter Ethnicity"] <- "Creole"
 networksExploratory[networksExploratory$Name == "Owen Webre" &
-                    networksExploratory$`Alter Ethnicity` == "African-American",
+                    networksExploratory$`Alter Ethnicity` == "African American",
                     "Alter Ethnicity"] <- "Creole"
 networksExploratory[networksExploratory$Name == "Gene Delcambre" &
                     networksExploratory$`Alter Ethnicity` == "No Answer",
