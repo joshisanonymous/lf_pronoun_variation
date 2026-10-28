@@ -91,14 +91,13 @@
       % In a way, this is simply aiming to capture individuals in different network clusters and at different positions within those clusters and then using social variables as a proxy for identifying said clusters
 
     The points of departure used varied in their level of convenience, of course.
-    Initial contacts were made through existing local connections.
-    Having lived in New Orleans for several years previously and participated in F\&C-centric cultural activities during that time, I had already become acquainted with several scholars, activists, teachers, and residents in the Lafayette area.
-    Not all of these contacts yielded participants, but some of my first participants were found in this way.
+    Initial contacts were made through existing local connections with several scholars, activists, teachers, and residents in the Lafayette area.
+    Not all of these contacts yielded participants, but some of the first participants were found in this way.
     Reaching out to community leaders such as language and identity activists as well as church officials was less successful.
-    While a small number were responsive, others either did not respond at all or, I suspect, were suspicious of me and so were not willing to help me make connections.
+    While a small number were responsive, others either did not respond at all or perhaps had negative suspicions about the research.
 
     Before the first fieldwork excursions to the region, online sources were also used to establish connections.
-    I shared an online form on several social media platforms such as Reddit and Facebook, particularly with groups and pages whose interest was either South Louisiana or F\&C.
+    An online form was shared on several social media platforms such as Reddit and Facebook, particularly with groups and pages whose interest was either South Louisiana or F\&C.
     This allowed for collecting background information on individuals without having to use time during interviews to ask such questions.
     Some potential participants were also filtered out through this process as they sometimes did not live in the region.
     Online sources proved to be successful not only for recruiting young participants but also older participants.
@@ -116,9 +115,9 @@
     Finally, French conversation tables constitute a very common cultural activity in South Louisiana these days, especially for older folks.
     These events vary from open discussions to French lessons to organized activities or lectures.
     Almost every town has at least one, and given the relatively short drives between towns, it is possible to attend a table almost every day and sometimes multiple times in a single day.
-    Indeed, I encountered one enthusiastic couple at three different French tables in a single day.
+    Indeed, one enthusiastic couple was encountnered at three different French tables in a single day.
     It is important to note that referring to them is as ``French'' tables is not a mistake, either.
-    All but one that I could find was described as a French table rather than a Creole table or some other inclusive name.
+    All but one table in the area was described as a French table rather than a Creole table or some other inclusive name.
     The majority of the attendees therefore identified as Cajuns rather than Creoles, although this did not mean that they did not have speech patterns that match those that have been described as Creole in prior research.
 
     This sort of privileged prominence that Cajuns are given in the social and even literal landscape \parencite{giancarlo_dont_2019} made it more difficult to recruit Creole participants along with my own identity as a White man making me perhaps more of an outsider to Creoles than to Cajuns.
@@ -379,7 +378,7 @@
     In many studies, these two factors have been combined to determine to which socioeconomic class a participant belongs (\citeauthor[\foreign{e.g.},][]{eckert_linguistic_2000}, \citeyear[pp.~104-105]{eckert_linguistic_2000}; \citeauthor{labov_social_2006}, \citeyear[pp.~134-135]{labov_social_2006}), or socioeconomic class is simply reported without any attempt to explain how it was established for each individual (\citeauthor[\foreign{e.g.},][]{blondeau_analyse_2019}, \citeyear[pp.~44-46]{blondeau_analyse_2019}; \citeauthor{feagin_variation_1979}, \citeyear[p.~23]{feagin_variation_1979}; \citeauthor{milroy_language_1987}, \citeyear[pp.~109-112]{milroy_language_1987}).
     In the current study, the two variables were not merged as accounting for both helps to fully contextualize the social worlds of participants.
     For occupational histories, these were further coded into blue, pink, and white collar based on the conventions followed in \textcite[p.~536]{lips-wiersma_meaningful_2016}, yielding \Sexpr{nrow(participants[participants$Occupation == "Blue Collar",])} blue collar workers, \Sexpr{nrow(participants[participants$Occupation == "Pink Collar",])} pink collar workers, and \Sexpr{nrow(participants[participants$Occupation == "White Collar",])} white collar workers.
-    The choices of how to code each occupational class from occupational histories can be seen in Table \ref{tab:occupation_coding}.
+    The choices of how to code each occupational class from occupational histories can be seen in Table \ref{tab:occupation_coding}, although the occupational histories themselves are more important than the abstractions as this information was only used in qualitative analyses.
 
     \begin{table}[tbh]
       \caption{Coding used for each occupational history}
