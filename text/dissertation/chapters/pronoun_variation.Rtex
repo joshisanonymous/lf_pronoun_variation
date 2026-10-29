@@ -488,7 +488,7 @@
           \caption{Phonetic variants with their corresponding pronoun morpheme}
           \label{tab:phonetic_variants}
           \centering
-          \begin{tabular}{l p{1.8cm} | l p{1.8cm}}
+          \begin{tabular}{p{0.3\textwidth} p{0.125\textwidth} | p{0.3\textwidth} p{0.125\textwidth}}
             \multicolumn{4}{c}{} \\
             Phonetic Variants                                                              & Pronoun  & Phonetic Variants                                             & Pronoun \\
             \hline
@@ -506,6 +506,7 @@
             {}Ø                                                                            & Ø        & [ye], [y]                                                     & yé \\
             \multicolumn{4}{c}{} \\
           \end{tabular}
+
           {\footnotesize
           Colors indicate phonetic variants that are identical.
           }
