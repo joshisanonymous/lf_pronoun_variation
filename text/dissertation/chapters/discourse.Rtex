@@ -182,6 +182,9 @@
     % --------------------------------------------------------------------------------------------------------------------------------------------------------------
     % NEW OUTLINE
     % What even are Cajuns and Creoles (direct, definitional stuff)
+    \subsection{Whiteness and Blackness}
+      To set a baseline of how participants appeared to explicitly understand the two categories
+      They appeared to follow the Cajuns=White Creoles=Black pattern, but it's applied differently to each group and by each group
       % Whiteness and Blackness but inserted differentially
         % Whiteness is filtered through ancestry for Cajuns, and exceptions are made for European ancestors
           % Both Cajuns and Creoles could recite the Cajun/Acadian origin story, but Bruce explained that it's not one that he heard in his youth
@@ -281,8 +284,10 @@
               \item Rose (Cajun): Out of the three, she, yeah, she's my strongest one, yeah because she sends her kids to French immersion.
                     That says it all. (100:54)\label{sent:cajun_rose}
             \end{enumerate}
+
     % Do they speak differently (meta-linguistic commentary)
-      % Examples of direct meta-linguistic commentary say that language ideologies are entwined with Creole and Cajun categories but not so much for Creoles
+    \subsection{One-directional imitation}
+      There's widespread agreement among participants that Creoles and Cajuns speak differently, but for Cajuns, this is a very clear distinction that is as tied up with Blackness as the Creole category is for them
         % For Creoles, there were no imitations of Cajuns
           % Sometimes the difference was downplayed, something Cajuns didn't do
             % Floyd (Creole): Le français et le créole, c'est la même affaire. C'est juste un petit peu cassé. (69:14)
@@ -316,7 +321,7 @@
             % Perhaps related to being widely traveled, preferring the ethnic label Creole over Cajun, kind of fashioning herself as linked to the Creole aristocracy of the Creole myth
               % (50:45) [when I was asking her what a Creole is today, she instead started focusing on language differences in a book she has in front of her]
               % Deborah (White Creole): Tu vois la différence ici? International French et Creole French. [the examples of the latter are Creole-oriented speech such as "l'a marier"] ... Et couru-vini, c'est pire que ça (51:40). 
-        % For Cajuns, they generally went to examples
+        % For Cajuns, they generally went to imitations
           % Imitations weren't always used, some examples drawing the connection between Blackness and Louisiana Creole
             \begin{enumerate}[resume=sentences]
               \item Brian (Cajun): Le monde qui viensait de les îles en-dedans le Caribbean a ramené le français, le créole, la langue créole, en-dedans pour qu'on peut travailler dans les clos de canne, sugarcane, ça fait moi je trouve, d'après moi, le, enfin, ils ont une table créole en Arnaudville.
@@ -340,7 +345,11 @@
               \item[] \longtrans{Bruce (Cajun): And them, they came from around Catahoula, and they spoke a bit of Creole also, eh?
                     ``I have it, you have it,'' and that's the only time that I had heard that.}
             \end{enumerate}
+
     % What is happening when speakers choose different pronouns?
+    \subsection{Distance and closeness}
+      Cajun-marked pronouns signaled formality, learning, history, and at times distance from Creoles
+      Creole-marked pronouns were rarely exploited, but perhaps signaled a distinct sort of localness that Cajun-marked pronouns can't quite achieve
       % Elizabeth started with je
         % The setting and my role may create a formal, academic-like interaction where Cajun-marked pronouns are more appropriate
       % Errol suddenly shifted to je when talking about Creole cuisine
