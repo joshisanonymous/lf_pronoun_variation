@@ -177,10 +177,7 @@
     The third will focus on instances where speakers exploited the subject pronoun resources at their disposal for their indexical values or to take stances on the topic at hand.
     The overall picture that will emerge is that of two groups that hold different social positions are reiterated through their use of discourse.
 
-    % --------------------------------------------------------------------------------------------------------------------------------------------------------------
-    % NEW OUTLINE
-    % What even are Cajuns and Creoles (direct, definitional stuff)
-    \subsection{Whiteness and Blackness} % Whiteness and Blackness but inserted differentially
+    \subsection{Whiteness and Blackness}
       The purpose of examining the way Creoles and Cajuns define themselves and each other in more explicit terms is to set a sort of baseline for the image that these participants wish to consciously project.
       These more direct definitions provided by participants support the idea that the community associates Creoles with Blackness and Cajuns with Whiteness.
       However, this is association is made explicitly for Creoles more consistently than it is for Cajuns.
@@ -396,122 +393,238 @@
             %         That says it all. (100:54)\label{sent:cajun_rose}
             % \end{enumerate}
 
-    \subsection{One-directional imitation} % Do they speak differently (meta-linguistic commentary)
-      There's widespread agreement among participants that Creoles and Cajuns speak differently, but for Cajuns, this is a very clear distinction that is as tied up with Blackness as the Creole category is for them
-        % For Creoles, there were no imitations of Cajuns
-          % Sometimes the difference was downplayed, something Cajuns didn't do
-            % Floyd (Creole): Le français et le créole, c'est la même affaire. C'est juste un petit peu cassé. (69:14)
-          % Sometimes the difference was couched in explaining the need to understand Cajuns
-            % Tracy was particularly clear about the importance of understanding Cajuns
-              \begin{enumerate}[resume=sentences]
-                \item Tracy (Creole): To peux trapper la manière yé parlent, comme la manière yé parlent, ça yé a dit, to vois?
-                      Un Cadien, to gain pour apprendre comment li parle, then si to peux trapper ça, then to connais où to restes. (89:09)\label{sent:different_speech_tracy}
-                \item[] \longtrans{Tracy (Creole): You can pick up the way they speak, like the way they speak, what they will say, you see?
-                      A Cajun, you have to learn how he speaks, then if you can pick that up, then you know where you stand.}
-              \end{enumerate}
-            % Rachel, on the other hand, seemed unphased by sometimes not understanding Cajuns
-              \begin{enumerate}[resume=sentences]
-                  \item Rachel (Creole): Les mondes, yé vient.
-                        Y'apè causer. ...
-                        It's a lot of White people come and say, you know, they speaking Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know.
-                        I said, ``I don't speak Cajun. I'm a Creole.'' ...
-                        But sometime, ... na des fois n'a causer jusqu'à n'a comprendre un à l'autre, you know? (22:16)\label{sent:different_speech_rachel}
-                  \item[] \longtrans{Rachel (Creole): People, they come.
-                        They're talking. ...
-                        It's a lot of White people come and say, you know, they speak Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know.
-                        I said, ``I don't speak Cajun. I'm Creole.'' ...
-                        But sometime, ... there are times we will talk until we will understand one another, you know?}
-                \end{enumerate}
-          % Samantha seemed to be coming from another world completely in terms of how she addressed mutual comprehension with Cajuns (and I think her Creole family, too?)
-            % (51:55) [seeing herself as someone who speaks more like Europeans, gives an example of the difference]
-            % Samantha: Par exemple, je sais le mot pour bouger en cajun est grouille-toi ou grouille, et il y a un mot que les personnes en français et les personne qui parlent le cajun savent. C'est raton laveur. Ouaouaron, ils dit en cajun, et je ne sais pas si c'est la même chose en le français européen.
-          % In fact, Gene instead gave examples of how Creoles from places other than Carencro speak
-            % Gene (Creole): Yé parlent différent. Là, comme à Lafayette, Carencro, Scott. ... Toi, tu vas dis 'let's go' uh, "Mais j'ai viens à la grocerie." ... Mo couru la grocerie. (42:15) [Creoles from different places speak differently]
-          % And Deborah used a scholarly book to produce examples of those who don't speak well (was it Cajuns and/or Creoles or neither?)
-            % Perhaps related to being widely traveled, preferring the ethnic label Creole over Cajun, kind of fashioning herself as linked to the Creole aristocracy of the Creole myth
-              % (50:45) [when I was asking her what a Creole is today, she instead started focusing on language differences in a book she has in front of her]
-              % Deborah (White Creole): Tu vois la différence ici? International French et Creole French. [the examples of the latter are Creole-oriented speech such as "l'a marier"] ... Et couru-vini, c'est pire que ça (51:40). 
-        % For Cajuns, they generally went to imitations
-          % Imitations weren't always used, some examples drawing the connection between Blackness and Louisiana Creole
-            \begin{enumerate}[resume=sentences]
-              \item Brian (Cajun): Le monde qui viensait de les îles en-dedans le Caribbean a ramené le français, le créole, la langue créole, en-dedans pour qu'on peut travailler dans les clos de canne, sugarcane, ça fait moi je trouve, d'après moi, le, enfin, ils ont une table créole en Arnaudville.
-                  C'est proche tous les Noirs. (60:44)\label{sent:different_speech_brian}
-              \item[] \longtrans{Brian (Cajun): The people that came from the islands in the Caribbean brought back French, Creole, the Creole language, so they can work in the cane field, sugarcane, so I find, in my opinion, the, anyway, there's a Creole table in Arnaudville.
-                    It's almost all Black people.}
-            \end{enumerate}
-            % Mary: Les gens de Carencro, les Blancs parlaient français cadien. Les Noirs parlaient français créole. (42:54) [she does go on later to say that in Carencro, where she once taught, the belief matches what she experienced]
-          % Austin's example implicated the importance of place rather than Creole identity
-            \begin{enumerate}[resume=sentences]
-              \item Austin (Cajun): Elle vient de Henderson, et puis to ca' dis li parle un petit brin créole là. (81:02)\label{sent:different_speech_austin}
-              \item[] \longtrans{Austin (Cajun): She's from Henderson, and so you can say that she speaks a bit of Creole there.}
-            \end{enumerate}
-          % Cynthia's initial example included not just a Creole-marked pronoun but also an English-origin word
-          % Brian highlighted Cecilia and Catahoula in his imitations
-            % Brian (Cajun): Ina un tas du monde qui dit ça, parce que, tu vois, par exemple en Cecilia, la langue là-bas c'est plus créole, "mo gain, to gain," les mots comme ça, "couru, mo couru, to couru," et puis Arnaudville, c'est cadien ou bien français. ... Ça fait, le français à Arnaudville, ina un tas du monde va dire c'est un, j'aime pas user le mot, mais c'est un meilleur français. (59:34) [brings up Cecilia after being asked if people today think Creoles are Black and Cajuns are White]
-              % We returned to this later in the interivew (64:45), where he further explained that he knows Blacks ("Noirs") who speak "cadien" or "français" but older Whites ("blanc") in Cecilia speak Creole.
-            \begin{enumerate}[resume=sentences]
-              \item Bruce (Cajun): Et eux, ils ont venu de autour de Catahoula, et ça parlait un peu de le créole aussi, eh?
-                  ``Mo gain li, to gain li,'' et c'est la seule fois moi j'avais entendu ça. (46:21)\label{sent:different_speech_bruce2}
-              \item[] \longtrans{Bruce (Cajun): And them, they came from around Catahoula, and they spoke a bit of Creole also, eh?
-                    ``I have it, you have it,'' and that's the only time that I had heard that.}
-            \end{enumerate}
+    \subsection{One-directional imitation}
+      Owen's statements in Sentence \ref{sent:creole_owen} above already suggested a level of awareness that there are different ways of speaking F\&C, but meta-linguistic commentary by the participants addressed this more directly.
+      While there was generally widespread agreement among participants that Creoles and Cajuns speak differently, for Cajuns, this was a very clear distinction that is as tied up with Blackness as the Creole category is for them, whereas Creoles were in some ways more ambivalent about the distinction.
+      This difference in how each group approached the subject is again indicative of a constructed social hierarchy where emphasing differences between the groups is rather inconsequential for Cajuns with regard to their life outcomes, whereas Creoles can less afford to be singled out as different despite their general pride in their identities.
 
-    % What is happening when speakers choose different pronouns?
+      Floyd presented an example of downplaying the difference in the ways each group speaks in Sentence \ref{sent:floyd_casse}.
+      \begin{enumerate}[resume=sentences]
+        \item Floyd (Creole): Le français et le créole, c'est la même affaire.
+              C'est juste un petit peu cassé. (69:14)\label{sent:floyd_casse}
+        \item[] \longtrans{Floyd (Creole): French and Creole, it's the same thing.
+              It's just a bit broken.}
+      \end{enumerate}
+      When Floyd stated in that ``it's'' broken, he was referring to both the way Cajuns and the way Creoles speak in Louisiana, comparing them to how French is spoken outside of Louisiana.
+      For him, a Creole who uses Creole-marked pronouns, minimizing the distance between Cajuns and Creoles is perhaps a way to prevent the marginalization of his speech and identity.
+        
+      When Creoles acknowledged differences in how Cajuns speak from themselves, this was generally contextualized by framing it as a need to understand Cajuns.
+      Tracy was particularly clear about this need in Sentence \ref{sent:different_speech_tracy}.
+      \begin{enumerate}[resume=sentences]
+        \item Tracy (Creole): To peux trapper la manière yé parlent, comme la manière yé parlent, ça yé a dit, to vois?
+              Un Cadien, to gain pour apprendre comment li parle, then si to peux trapper ça, then to connais où to restes. (89:09)\label{sent:different_speech_tracy}
+        \item[] \longtrans{Tracy (Creole): You can pick up the way they speak, like the way they speak, what they will say, you see?
+              A Cajun, you have to learn how he speaks, then if you can pick that up, then you know where you stand.}
+      \end{enumerate}
+      Tracy explained that understanding what Cajuns are saying helps one know how one is viewed by Cajuns, something that would be of great importance for those who may be marginalized by Cajuns.
+      But this concern was not entirely shared by other Creoles, a Sentence \ref{sent:different_speech_rachel} shows.
+      \begin{enumerate}[resume=sentences]
+        \item Rachel (Creole): Les mondes, yé vient.
+              Y'apè causer. ...
+              It's a lot of White people come and say, you know, they speaking Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know.
+              I said, ``I don't speak Cajun. I'm a Creole.'' ...
+              But sometime, ... na des fois n'a causer jusqu'à n'a comprendre un à l'autre, you know? (22:16)\label{sent:different_speech_rachel}
+        \item[] \longtrans{Rachel (Creole): People, they come.
+              They're talking. ...
+              It's a lot of White people come and say, you know, they speak Cajun a lot of time, but some I don't really understand too good, Cajun sometime, but I let them know.
+              I said, ``I don't speak Cajun. I'm Creole.'' ...
+              But sometime, ... there are times we will talk until we will understand one another, you know?}
+      \end{enumerate}
+      Rachel did not express animosity over these situations, but she seemed to accept that, if she does not understand a Cajun, it does not necessarily create any risks for her.
+      What she also did in these statements was connect ways of speaking F\&C to the categories of Cajun and Creole.
+      Explaining that she does not speak ``Cajun'' because she is Creole is something of a naturalizing statement that makes Cajun-marked speech inherently part of Cajun people and likewise for Creole-marked speech and Creole people.
+      % Samantha seemed to be coming from another world completely in terms of how she addressed mutual comprehension with Cajuns (and I think her Creole family, too?)
+        % (51:55) [seeing herself as someone who speaks more like Europeans, gives an example of the difference]
+        % Samantha: Par exemple, je sais le mot pour bouger en cajun est grouille-toi ou grouille, et il y a un mot que les personnes en français et les personne qui parlent le cajun savent. C'est raton laveur. Ouaouaron, ils dit en cajun, et je ne sais pas si c'est la même chose en le français européen.    
+          
+      Not present in the above Creoles' acknowledgements that Cajuns may speak differently from them are imitations of Cajun speech.
+      In fact, Gene was more forthcoming with imitations of how Creoles from places other than his region speak, as seen in Sentence \ref{sent:imitation_gene}.
+      \begin{enumerate}[resume=sentences]
+        \item Gene (Creole): Yé parlent différent.
+              Là, comme à Lafayette, Carencro, Scott, ça't'apè fait tous les mêmes affaires, mais tu gone couru par d'autres, c'est quelque chose d'autre. ...
+              Ouais là, toi tu vas dis `let's go' uh, ``Mais je vais à la grocerie.'' ... ``Mo couru la grocerie.'' (42:15)\label{sent:imitation_gene}
+        \item[] \longtrans{Gene (Creole): They speak differently.
+              There, like in Lafayette, Caraencro, Scott, they're doing all the same things, but you leave to go other places, that's something else. ...
+              Yeah there, you're going to say `let's go' uh, ``Well I'm going to the grocery store.'' ... ``I went to the grocery store.''}
+      \end{enumerate}
+      Gene himself was the only speaker who used a mix of Cajun-marked and Creole-marked subject pronouns consistently, preferring Cajun-marked pronouns for all pronoun types other than 3pl.
+      He not only demonstrates in this passage that he can use different 1sg subject pronouns in his imitations, \lexi{je} and \lexi{mo}, but one of only \convertSmallNumber{\Sexpr{tablesParticipant$thirdPl$`Gene Delcambre`["ça"] + tablesParticipant$thirdPl$`Gene Delcambre`["ils"]}} tokens of 3pl that he produced that were not \lexi{yé} is juxtaposed with a token of \lexi{yé}.
+      It is not entirely clear why he might have produced both \lexi{yé} and \lexi{ça} for 3pl here, but he was perhaps thinking ahead to the idea of giving examples of different ways of speaking and so produced different subject pronouns in his non-imitation speech.
+      Regardless, Gene did not frame his utterances as imitations of Cajuns but rather of Creoles while also highlighting the importance of place.
+
+      A Creole with a very different perspective on this topic was Deborah.
+      Much like Floyd, instead of differences between Cajuns and Creoles, she focused on comparing F\&C in Louisiana to French outside of Louisiana in Sentence \ref{sent:roi_pan}.
+      \begin{enumerate}[resume=sentences]
+        \item Deborah (White Creole): Tu vois la différence ici? International French et Creole French. ... [reads Creole-marked language] ... Et couru-vini, c'est pire que ça. (50:45)
+      \end{enumerate}
+      Deborah was in fact relying on the authority of a book of stories from Creole speakers that were collected at the end of the 19th century.
+      She characterized this as ``Creole French'' and misunderstood much of what was written, which is reproduced here as-is in Sentence \ref{sent:roi_pan}.
+      \begin{enumerate}[resume=sentences]
+        \item In fois yavait in madame qui té si joli, si joli, qué li té jamin oulé marié. \parencite[p.~56]{fortier_louisiana_2011}\label{sent:roi_pan}
+        \item[] \longtrans{Once there was a woman who was so pretty, so pretty, that she never wanted to marry.}
+      \end{enumerate}
+      The line that she read indeed included the Creole-marked subject pronoun \lexi{li}.
+      Similar to Floyd, she saw this as inferior to ``International French'', and she used a scholarly work to speak for her in that evaluation.
+      It is doubtful that she would have evaluated Floyd's speech positively, however, given his similar use of Creole-marked pronouns.
+      Deborah did not actually give an evaluation of Cajun-marked speech like her own, and she may not have even seen her own speech as Cajun-like given her distaste for the term \lexi{Cajun}.
+      She appeared to construct her own identity as a White Creole in relation to the Creole aristocracy of the Creole myth (see Section \ref{sec:creole_history}), distinct from both Cajuns and other modern-day Creoles.
+
+      Cajuns voluntarily gave far more examples of what they perceived to be the speech patterns of Creoles.
+      Cynthia's example from Sentence \ref{sent:creole_meta} is reproduced here in Sentence \ref{sent:imitation_cynthia}.
+      \begin{enumerate}[resume=sentences]
+        \item Cynthia (Cajun): I went to the store.
+              ``Mo tais couru au store.'' (45:03)\label{sent:imitation_cynthia}
+        \item[] \longtrans{Cynthia (Cajun): I went to the store.
+              ``I would go to the store.''}
+      \end{enumerate}
+      Cynthia not only employed a Creole-marked subject pronoun for 1sg in this phrase, unlike her own preference for Cajun-marked \lexi{je}, but she also chose to use an English-origin lexical item, perhaps to signal an ideology that says that this way of speaking is not quite French.
+      It is also notable that she included \lexi{tais}, which in this case would more likely express imperfective past rather than the perfective past that she gave in her translation of the phrase.
+      It is not clear whether she was simply unfamiliar with exactly how such ``markers'' are used or went too far in trying to emphasize what she saw as unique features of Creoles' speech.
+
+      Austin also produced an interesting imitation of Creole-marked speech in Sentence \ref{sent:different_speech_austin}.
+      \begin{enumerate}[resume=sentences]
+        \item Austin (Cajun): Elle vient de Henderson, et puis to ca' dis li parle un petit brin créole là. (81:02)\label{sent:different_speech_austin}
+        \item[] \longtrans{Austin (Cajun): She's from Henderson, and so you can say that she speaks a bit of Creole there.}
+      \end{enumerate}
+      The first clause uses the Cajun-marked 3sg.F pronoun \lexi{elle} before the rest of the utterance switches to the Creole-marked pronouns \lexi{to} (2sg.T) and \lexi{li} (3sg.F).
+      In this case, Austin was not necessarily producing this imitation to show how Creole people speak but rather to show how people from Henderson speak as he did not identify this woman as Creole or Cajun or anything else.
+
+      Place repeatedly came up during conversations when Cajuns addressed the topic of the speech of Creoles.
+      Brian proceeded to speak about different towns in Sentence \ref{sent:imitation_brian} when asked if people in the community view Creoles as Black and Cajuns as White.
+      \begin{enumerate}[resume=sentences]
+        \item Brian (Cajun): Ina un tas du monde qui dit ça, parce que, tu vois, par exemple en Cecilia, la langue là-bas c'est plus créole, ``mo gain, to gain,'' les mots comme   ça, ``couru, mo couru, to couru,'' et puis Arnaudville, c'est cadien ou bien français. ...
+              Ça fait, le français à Arnaudville, ina un tas du monde va dire c'est un, j'aime pas user le mot, mais c'est un meilleur français. (59:34)\label{sent:imitation_brian}
+      \end{enumerate}
+      Brian was not asked in this instance about the language of Creoles and Cajuns but rather if those categories are considered to be associated with racialized categories from the broader US, but this question seemed to have triggered him to think about Creole-marked speech anyway.
+      His examples of such speech all consisted of a Creole-marked subject pronoun and a verb that commonly appears in descriptive linguistic work on Louisiana Creole, neither of which were present in Brian's own F\&C.
+      Despite the fact that he explicitly made this about place by associating such speech with the town of Cecilia, the way Blackness and Whiteness triggered his statements suggests that they are also associated with ways of speaking in his mind.
+
+      Bruce used similar linguistic features in imitating the way Louisiana Creole in Sentence \ref{sent:different_speech_bruce2}.
+      \begin{enumerate}[resume=sentences]
+        \item Bruce (Cajun): Et eux, ils ont venu de autour de Catahoula, et ça parlait un peu de le créole aussi, eh?
+            ``Mo gain li, to gain li,'' et c'est la seule fois moi j'avais entendu ça. (46:21)\label{sent:different_speech_bruce2}
+        \item[] \longtrans{Bruce (Cajun): And them, they came from around Catahoula, and they spoke a bit of Creole also, eh?
+              ``I have it, you have it,'' and that's the only time that I had heard that.}
+      \end{enumerate}
+      This was, however, an explanation of how some Cajuns from Catahoula speak rather than how Creoles speak, but as with Brian, there was a clear association with Blackness in this way of speaking regardless.
+      Moments later, he followed this imitation up with Sentence \ref{sent:different_speech_bruce1}.
+      \begin{enumerate}[resume=sentences]
+        \item Bruce (Cajun): J'ai entendu dire c'était le français n****. (68:09)\label{sent:different_speech_bruce1}
+        \item[] \longtrans{Bruce (Cajun): I've heard it said that it was ***** French.}
+      \end{enumerate}
+      Presenting this as something that others have said allows Bruce to distance himself from such a pejorative and racializing statement, but if his personal view on the validity of that description cannot be ascertained, one can at least see that the association is present in his mind.
+
+      As can be seen, Cajuns more readily acknowledged different ways of speaking F\&C than Creoles and either explicitly or implicitly associated Creole-marked speech with Creoles and/or Blackness.
+      Cajuns offered ample imitations of Creole-marked speech that always included the subject pronouns that were found to be associated with Creoles in Chapter \ref{chap:pronoun_variation}.
+      This shows an awareness of the differences in the general tendencies for Creoles' and Cajuns' use of F\&C, but evaluative statements and Creoles' reticence to discuss Cajuns' speech in the same ways is suggestive of a lower position for Creoles in a constructed social hierarchy.
+      The discussions of place also indicate that this participants are aware that Creoles do not always use Creole-marked pronouns and Cajuns do not always use Cajun-marked pronouns.
+      This potential for place to be an important predictor of F\&C subject pronouns is congruent for what was seen in Chapter \ref{chap:networks} for those participants who did not follow the general tendencies for subject pronouns relative to ethnicity.
+    
     \subsection{Distance and closeness}
-      Cajun-marked pronouns signaled formality, learning, history, and at times distance from Creoles
-      Creole-marked pronouns were rarely exploited, but perhaps signaled a distinct sort of localness that Cajun-marked pronouns can't quite achieve
-      % Elizabeth started with je
-        % The setting and my role may create a formal, academic-like interaction where Cajun-marked pronouns are more appropriate
-      % Errol suddenly shifted to je when talking about Creole cuisine
-        % Sets up greater distance between himself and Creole cuisine
-          \begin{enumerate}[resume=sentences]
-            \item Errol (Cajun): Mo mo l'aime le manger créole. ...\label{sent:creole_errol2}
-            \item[] Joshua (Interviewer): Vous avez un plat préféré qui est créole?
-            \item[] Errol: To peux faire gombo.
-                  To peux fais étouffé, mais uh
-            \item[] Joshua: Ça c'est créole?
-            \item[] Errol: Un gombo, ouais.
-                  Yé cuit ça différent, tu connais?
-                  Cadiens fait gombo itou, mais les Créoles fait un différent gombo.
-            \item[] Joshua: Quoi c'est la différence?
-            \item[] Errol: Well, ça yé met dans le gombo.
-                  Mais, peut-être un Cadien va cuit un gombo avec du roux puis la viande.
-                  Un Créole va peut-être fait un gombo avec des tomates dans le roux. ...
-            \item[] Joshua: C'est bon comme ça?
-            \item[] Errol: Mo pas connais.
-                  Mo mo je l'aime pas ça.
-            \item[] \longtrans{Errol (Cajun): I like Creole food. ...}
-            \item[] \longtrans{Joshua (Interviewer): Do you have a favorite dish that's Creole?}
-            \item[] \longtrans{Errol: You can make gumbo.
-                  You can make étouffé, but uh}
-            \item[] \longtrans{Joshua: That's Creole?}
-            \item[] \longtrans{Errol: A gumbo, yeah.
-                  They cook that differently, you know?
-                  Cajuns make gumbo, too, but Creoles make a different gumbo.}
-            \item[] \longtrans{Joshua: What's the difference?}
-            \item[] \longtrans{Errol: Well, what they put in the gumbo.
-                  Well, maybe a Cajun will cook a gumbo with some roux and meat.
-                  A Creole will maybe make a gumbo with tomatoes in the roux. ...}
-            \item[] \longtrans{Joshua: Is it good like that?}
-            \item[] \longtrans{Errol: I don't know.
-                  I don't like that.}
-          \end{enumerate}
-      % Floyd produced ils sont three times, twice when speaking about older people with whom he'd speak F\&C who are "gones" or "partis"
-        % Much of the discussion was about the past, though. Maybe look at when he used ye in similar contexts?
-          % He said "i sont partis" and followed with living people by saying "yé parlent pas" but then switched back to yé when talking about how he learned because people spoke F&C to him when he was young
-          % He didn't use any other Cajun-marked pronouns
-      % The above speakers may have been capable of switching completely but did not demonstrate that, unliked Owen and Oliver L.
-        % Owen seemed to link Cajun-marked (or school-marked?) pronouns to certain formal topics or to discursively critique people who think they're so smart
-          \begin{enumerate}[resume=sentences]
-            \item Owen (Creole): J'ai été sélectionné pour un poste à [a high school] comme assistant principal, ça fait j'ai pris ça, mais j'ai commencé là, mais j'ai pas resté là trop longtemps.
-                  Non, on a décidé que je dois travailler à [a different high school].
-                  Je crois que c'était à cause de ma race.
-                  À ce temps-là, il faut avoir quand même un Noir. (22:53)\label{sent:life_owen}
-            \item[] \longtrans{Owen (Creole): I was selected for a post at [a high school] as assistant principal, so I took that, but I started there, but I didn't stay there too long.
-                  No, someone decided that I have to work at [a different high school].
-                  I believe that that was because of my race.
-                  At that time, it was necessary to have at least one Black person.}
-          \end{enumerate}
+      Imitations did not account for all instances of participants using subject pronouns that were not part of their most consistently used system.
+      Other cases more likely represented speakers attempting to express various social meanings through the indexical values of different pronouns.
+      Cajun-marked pronouns sometimes signaled formality, learnedness, historical distance, or social distance from Creoles.
+      Contrary to their regular use in imitations, Creole-marked pronouns were rarely exploited as part of intra-speaker variation.
+      Some of the instances where this did occur, though, may have signaled a distinct sort of localness that Cajun-marked pronouns could not quite achieve.
+      
+      The potential for indexing a sort of formality with Cajun-marked subject pronouns may already be evident from the effect that exposure to institutional French was found to have on subject pronoun realizations in Chapter \ref{chap:pronoun_variation}.
+      In short, Cajun-marked pronouns more closely resemble what is learned in a French-language classroom.
+      Despite efforts to make sociolinguistic interviews feel casual and comfortable, they will perhaps always have some level of formality to them for study participants.
+      This is a possible explanation for Elizabeth's speech patterns at the beginning of her interview, as seen in Sentence \ref{sent:switch_elizabeth}.
+      \begin{enumerate}[resume=sentences]
+        \item Elizabeth (Cajun): Non, j'ai juste été née là.
+              Mo n- toujours restais, habitais, à Henderson.
+              C'est là mo tais élevée. (2:14)\label{sent:switch_elizabeth}
+        \item[] \longtrans{Elizabeth (Cajun): No, I was just born there.
+              I n- lived, lived, in Henderson.
+              That's where I was raised.}
+      \end{enumerate}
+      Elizabeth was clarifying her response to a question about where she was born, that being Arnaudville.
+      Her token here of \lexi{je} for 1sg was one of only three Cajun-marked pronouns she used for any pronoun type during the interview, one of the other two occurring immediately before these utterances.
+      She quickly switched to the Creole-marked \lexi{mo} at this very early point and never reverted back.
+      Given my presence as an academic with a voice recorder, she may have momentarily felt that this was almost an evaluation of her F\&C and decided that Cajun-marked pronouns would be more appropriate.
+      Indeed, later in the interview, she was asked if the excursion tours she led as a profession were ever conducted in F\&C, to which she replied that she did not feel confident enough in the language to conduct tours in F\&C.
+      It is doubtful that her fluency was truly an issue, however, as she was very capable of expressing herself on a number of topics, but rather she may have felt some level of insecurity about the form of her speech.
+      Such an insecurity would also play into beginning her interview with subject pronouns of which participants often showed higher evaluations than her own.
+
+      A participant with a similar linguistic background who, in contrast, did not express the faintest hint of linguistic insecurity was Errol.
+      Like Elizabeth, he was another Cajun who used Creole-marked subject pronouns almost exclusively.
+      Also like Elizabeth, he began the interview with two tokens of \lexi{je} rather than his typical \lexi{mo} for 1sg.
+      A formality effect may have been at play in his case, as well, but he was also more willing to employ Cajun-marked pronouns for discursive work, as in Sentence \ref{sent:creole_errol2}.
+      \begin{enumerate}[resume=sentences]
+        \item Errol (Cajun): Mo mo l'aime le manger créole. ...\label{sent:creole_errol2}
+        \item[] Joshua (Interviewer): Vous avez un plat préféré qui est créole?
+        \item[] Errol: To peux faire gombo.
+              To peux fais étouffé, mais uh
+        \item[] Joshua: Ça c'est créole?
+        \item[] Errol: Un gombo, ouais.
+              Yé cuit ça différent, tu connais?
+              Cadiens fait gombo itou, mais les Créoles fait un différent gombo.
+        \item[] Joshua: Quoi c'est la différence?
+        \item[] Errol: Well, ça yé met dans le gombo.
+              Mais, peut-être un Cadien va cuit un gombo avec du roux puis la viande.
+              Un Créole va peut-être fait un gombo avec des tomates dans le roux. ...
+        \item[] Joshua: C'est bon comme ça?
+        \item[] Errol: Mo pas connais.
+              Mo mo je l'aime pas ça.
+        \item[] \longtrans{Errol (Cajun): I like Creole food. ...}
+        \item[] \longtrans{Joshua (Interviewer): Do you have a favorite dish that's Creole?}
+        \item[] \longtrans{Errol: You can make gumbo.
+              You can make étouffé, but uh}
+        \item[] \longtrans{Joshua: That's Creole?}
+        \item[] \longtrans{Errol: A gumbo, yeah.
+              They cook that differently, you know?
+              Cajuns make gumbo, too, but Creoles make a different gumbo.}
+        \item[] \longtrans{Joshua: What's the difference?}
+        \item[] \longtrans{Errol: Well, what they put in the gumbo.
+              Well, maybe a Cajun will cook a gumbo with some roux and meat.
+              A Creole will maybe make a gumbo with tomatoes in the roux. ...}
+        \item[] \longtrans{Joshua: Is it good like that?}
+        \item[] \longtrans{Errol: I don't know.
+              I don't like that.}
+      \end{enumerate}
+      This exchange is printed here at greater length because it shows a rather rapid evolution of Errol's stance towards Creole cuisine.
+      He initially expresses an appreciation for Creole dishes, but as the conversation became more detailed, it became clear that there was not a strong distinction between what he considered to be Creole dishes and what he considered to be Cajun dishes.
+      Primarily, one ingredient, tomatoes, made all the difference.
+      Finally, when asking if gumbo made by Creoles with tomatoes tasted good, Errol suddenly shifted his initial appreciative stance to claiming ignorance and dislike of such dishes.
+      In this shift, his consistent use of Creole-marked \lexi{mo} also shifted to Cajun-marked \lexi{je}, perhaps in an effort to distance himself even farther from Creoles in his final stance shift.
+      Errol's ability to use \lexi{je}, the apparent indexicality it has for him, and his apparent apprehension about being too closely associated with Creoles make it initially difficult to see why he preferred Creole-marked pronouns.
+      This will be addressed again farther down.
+
+      Creoles who typically used Creole-marked speech -- but not those who typically used Cajun-marked speech -- also exploited subject pronouns for their indexicality or for discursive effects.
+      Floyd perhaps produced an example of the former in Sentence \ref{sent:ils_floyd}.
+      \begin{enumerate}[resume=sentences]
+        \item Floyd (Creole): Les vieux mondes, yé proche tous, ils sont partis, to connais? (13:10)\label{sent:ils_floyd}
+        \item[] \longtrans{Floyd (Creole): The old folks, they're almost all, they're gone, you know?}
+      \end{enumerate}
+      This utterance contains one of Floyd's three tokens of \lexi{ils} for 3pl during his interview.
+      Notably, it came immediately after the Creole-marked \lexi{yé}, possibly as a correction, although that is not terribly clear.
+      What is clear is that this token of \lexi{ils} was situated in the midst of many tokens of Creole-marked pronouns, \lexi{to} for 2sg.T in the same utterance being another.
+      In this statement as well as one of the others where he used \lexi{ils}, he is referring to older family members who have passed away, leaving him with no one with whom he can speak F\&C.
+      In contrast, shortly afterward when speaking about younger people, he produced \sent{yé parlent pas} \gloss{they do not speak}.
+      These juxtapositions of \lexi{ils} with older people and \lexi{yé} with younger people are perhaps suggest that Cajun-marked pronouns index distance in time for Floyd.
+      This can only be a tentative explanation, however, as much of the conversation involved discussing the past using \lexi{yé}, but this explanation is in line with Errol's creation of social distance with Cajun-marked pronouns, and other Creoles likewise seemed to possibly be indexing types of distance with Cajun-marked pronouns.
+
+      One of those other Creoles was Owen.
+      As was already seen in Sentence \ref{sent:creole_owen}, Owen was quite comfortable alternating his subject pronouns even for extended periods of time.
+      Although he showed a preference for Creole-marked pronouns, his interview contained considerable usage of Cajun-marked pronouns, as well.
+      An example of a length section containing Cajun-marked pronouns can be seen in Sentence \ref{sent:life_owen}.
+      \begin{enumerate}[resume=sentences]
+        \item Owen (Creole): J'ai été sélectionné pour un poste à [a high school] comme assistant principal, ça fait j'ai pris ça, mais j'ai commencé là, mais j'ai pas resté là trop longtemps.
+              Non, on a décidé que je dois travailler à [a different high school].
+              Je crois que c'était à cause de ma race.
+              À ce temps-là, il faut avoir quand même un Noir. (22:53)\label{sent:life_owen}
+        \item[] \longtrans{Owen (Creole): I was selected for a post at [a high school] as assistant principal, so I took that, but I started there, but I didn't stay there too long.
+              No, someone decided that I have to work at [a different high school].
+              I believe that that was because of my race.
+              At that time, it was necessary to have at least one Black person.}
+      \end{enumerate}
+      In the previous example from Owen, he seemed to use Cajun-marked pronouns to signal distance from the Creoles in Natchitoches, who were in fact physically distant from him as well, or perhaps to slightly mock their idea that Creole is a race.
+      In this current example, the topic is a sensitive one that revolves around an educational setting where a more formal language is expected, but the people involved are also those from whom Owen feels socially distant.
+      Both are plausible explanations for why he chose to switch to Cajun-marked pronouns here, and many of the other instances where he did so were similar.
+      They by and large included formal settings, distant people, and ideas that were in opposition to his own.
+      
+      
         % Dennis seemed to do a similar thing with nous when speaking from the perspective of the first Acadians in LA
           % Dennis (Cajun): Et quand ils sont arrivés, ils ont présenté comme, "Nous sommes des Acadiens," et les Espagnols et le monde à Nouvelle-Orléans avaient du tracas à dire Acadien, ça fait ça disait Cadien. (24:30)
         % Oliver L. seemed to be highlighting a sort of "street cred" (find a better term that's not loaded) by demonstrating his use of Creole
@@ -525,6 +638,8 @@
                   She says, ``Oliver, how are you, negro?''
                   And, ``I'm doing okay today.''}
           \end{enumerate}
+
+    \subsection{A contested word}
           % The word nègre
             % Used for endearment above
             % Used as a label for a specific group of people
@@ -533,10 +648,7 @@
                 % Despite the terms Alice used, she showed no signs of ideological racism. In fact, she wanted to name her first girl after a Black girl who road her husband's bus because she loved the girl so much (14:05).
               % Judy (Cajun): In fact, la femme que t'as vue à Maurice, ... elle disait, tu connais elle les appelait des Nègres. C'est ça. On a tous dit ça quand on était petits, et elle dit il était comme quelqu'un dans la famille. Il travaillait pour eux, et elle dit, quand son enfant était né, son mari était son godfather, ... et quand son mari est mort, elle dit il a venu voir son mari, et à ce temps-ça, le monde blanc voulait pas que le monde noir vient à la maison. Leur corps était dans la maison, mais elle dit il a venu. Il a passé dans la chambre, la porte en arrière, et il a venu, et il a parti, et elle dit, la semaine après, quand il a venu, il a venu dans la maison dans la porte en avant. (51:59) [making the point that Cajuns and Creoles were friendly with each other]
             % Used as a pejorative
-              \begin{enumerate}[resume=sentences]
-                \item Bruce (Cajun): J'ai entendu dire c'était le français nègre. (68:09)\label{sent:different_speech_bruce1}
-                \item[] \longtrans{Bruce (Cajun): I've heard it said that it was Negro French.}
-              \end{enumerate}
+              
               \begin{enumerate}[resume=sentences]
                 \item Cynthia (Cajun): Les Créoles, mais ouais, ça parle différent que nous.
                       ``Mo mo tais couru.''
