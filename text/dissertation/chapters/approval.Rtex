@@ -6,7 +6,8 @@
 \vfill
 
 \begin{center}
-  \doctitle
+  \doctitle{}:\\
+  \docsubtitle
 \end{center}
 
 \vfill

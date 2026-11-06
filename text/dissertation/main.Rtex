@@ -7,15 +7,16 @@
   \setcounter{secnumdepth}{3}
   \setcounter{tocdepth}{1}
   \usepackage{titlesec}
-    \titleformat{\chapter}{\normalfont\normalsize\bfseries\filcenter}{\chaptertitlename\ \thechapter}{1em}{}
+    \titleformat{\chapter}{\normalfont\normalsize\bfseries\filcenter}{\MakeUppercase{\chaptertitlename}\ \thechapter}{1em}{}
       \titlespacing{\chapter}{0pt}{*0}{20pt}
+    % \titleformat{name=\chapter,numberless}{\normalfont\normalsize\bfseries\filcenter}{\thechapter}{1em}{}
+    %   \titlespacing{name=\chapter,numberless}{0pt}{*0}{20pt}
     \titleformat{\section}{\normalfont\normalsize\selectfont\bfseries}{\thesection}{1em}{}
     \titleformat{\subsection}{\normalfont\normalsize\selectfont\bfseries}{\thesubsection}{1em}{}
     \titleformat{\subsubsection}{\normalfont\normalsize\selectfont\bfseries}{\thesubsubsection}{1em}{}
   \usepackage{amsmath}
   \usepackage{fontspec}
     \setmainfont{Charis SIL}
-  % \usepackage{xurl}
   \usepackage[style=apa, backend=biber]{biblatex}
     \addbibresource{../References.bib}
     \setcounter{biburlnumpenalty}{9000}
@@ -84,6 +85,7 @@
   \newcommand{\docdate}{2026}
   \newcommand{\docauthor}{JOSHUA A. MCNEILL}
   \newcommand{\doctitle}{CREOLES, CAJUNS, AND THEIR SUBJECT PRONOUN SYSTEMS}
+  \newcommand{\docsubtitle}{AN ANALYSIS OF FRENCH AND CREOLE SPEAKERS IN AND AROUND LAFAYETTE, LOUISIANA}
 
   % Color palette
   \newcommand{\colorone}[1]{\textcolor[HTML]{332288}{\textbf{#1}}}
@@ -105,15 +107,6 @@
   \newcommand{\backsix}[1]{\colorbox[HTML]{DDCC77}{\textbf{#1}}}
   \newcommand{\backseven}[1]{\colorbox[HTML]{CC6677}{\textbf{#1}}}
   \newcommand{\backeight}[1]{\colorbox[HTML]{882255}{\textbf{#1}}}
-
-  % \newcommand{\contrastone}[1]{\colorbox[HTML]{EF4444}{\textbf{#1}}}
-  % \newcommand{\contrasttwo}[1]{\colorbox[HTML]{FAA31B}{\textbf{#1}}}
-  % \newcommand{\contrastthree}[1]{\colorbox[HTML]{FFF000}{\textbf{#1}}}
-  % \newcommand{\contrastfour}[1]{\colorbox[HTML]{82C341}{\textbf{#1}}}
-  % \newcommand{\contrastfive}[1]{\colorbox[HTML]{009F75}{\textbf{#1}}}
-  % \newcommand{\contrastsix}[1]{\colorbox[HTML]{88C6ED}{\textbf{#1}}}
-  % \newcommand{\contrastseven}[1]{\colorbox[HTML]{394BA0}{\textbf{#1}}}
-  % \newcommand{\contrasteight}[1]{\colorbox[HTML]{B54799}{\textbf{#1}}}
 
 \begin{document}
   <<setup, echo = FALSE, message = FALSE, warning = FALSE, results = "hide">>=

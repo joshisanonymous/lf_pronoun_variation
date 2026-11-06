@@ -130,7 +130,7 @@
       \label{tab:creole_markers}
       \centering
       \begin{tabular}[t]{L{0.155\textwidth} L{0.29\textwidth} | L{0.155\textwidth} L{0.29\textwidth}}
-        \multicolumn{4}{c}{} \\
+        % \multicolumn{4}{c}{} \\
         Marker                          & Function                       & Source                     & Function \\
         \hline
         \multicolumn{4}{c}{Tense} \\
@@ -491,7 +491,7 @@
           \label{tab:phonetic_variants}
           \centering
           \begin{tabular}{p{0.3\textwidth} p{0.125\textwidth} | p{0.3\textwidth} p{0.125\textwidth}}
-            \multicolumn{4}{c}{} \\
+            % \multicolumn{4}{c}{} \\
             Phonetic Variants                                                              & Pronoun  & Phonetic Variants                                             & Pronoun \\
             \hline
             {}[ʒə], [ʒ], [ʃə], [\backone{ʃ}], [h], [z], [\backtwo{sə}], [\backthree{s}]    & je       & [nuz], [\backfour{nu}]                                        & nous \\
@@ -591,7 +591,7 @@
           \label{tab:pronouns_attested}
           \centering
           \begin{tabular}{r | r | r}
-            \multicolumn{3}{c}{} \\
+            % \multicolumn{3}{c}{} \\
                                    & Singular                                             & Plural \\
             \hline
             1st person             & \Sexpr{toString(names(tablesProTypeAll$firstSg))}       & \Sexpr{toString(names(tablesProTypeAll$firstPl))} \\
@@ -848,7 +848,7 @@
           \label{tab:pronouns_modeled}
           \centering
           \begin{tabular}{r | r | r}
-            \multicolumn{3}{c}{} \\
+            % \multicolumn{3}{c}{} \\
                                    & Singular                                                           & Plural \\
             \hline
             1st person             & \Sexpr{toString(names(tablesProTypeFinal$firstSg))}                & \Sexpr{toString(names(tablesProTypeFinal$firstPl))} \\
@@ -890,7 +890,7 @@
           \label{tab:predictor_levels}
           \centering
           \begin{tabular}{r | p{8cm}}
-            \multicolumn{2}{c}{} \\
+            % \multicolumn{2}{c}{} \\
             Factor                        & Levels \\
             \hline
             Following Verb Type           & \Sexpr{toString(levels(tokens$PredType))} \\
