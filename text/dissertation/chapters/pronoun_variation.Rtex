@@ -729,7 +729,7 @@
             \textbf{Ethnic Homophily}     & \emph{continuous} \\
             \textbf{F\&C Background}      & \Sexpr{toString(levels(tokens$`F&C Background`))} \\
             \textbf{Occupation Type}      & \Sexpr{toString(levels(tokens$Occupation))} \\
-            \textbf{Education Attained}   & \Sexpr{toString(levels(tokens$Education))} \\
+            \textbf{Educational Attainment} & \Sexpr{toString(levels(tokens$Education))} \\
             \textbf{Parish Raised}        & \Sexpr{toString(levels(tokens$`Raised (parish)`))} \\
             \textbf{Parish Residence}     & \Sexpr{toString(levels(tokens$`Residence (parish)`))} \\
             \textbf{Racialized Identity}  & \Sexpr{toString(levels(tokens$Race))} \\
@@ -743,7 +743,7 @@
 
         All social factors were discussed in Section \ref{sec:participants}, but some additional notes can be made here.
         First, several social factors were statistically associated with each other, which called for choosing which of these factors to keep in the models in order to ensure that the models converged.
-        One set of associated factors was made up of education attained, occupation type, and exposure to institutional French.
+        One set of associated factors was made up of educational attainment, occupation type, and exposure to institutional French.
         Using Fisher's exact test of independence, education and occupation were associated ($P <$ \Sexpr{round_any(indOccEduc$p.value, 0.001, ceiling)}) as well as education and exposure to institutional French ($P <$ \Sexpr{round_any(indEducInstFr$p.value, 0.001, ceiling)}), although not all those with college educations reported having taken French courses.
         Gender might have been expected to have associations with these factors, but that was ultimately not the case.
         These associations were generally not surprising, but they did lead to only exposure to institutional French being kept as a factor for modeling in place of education and occupation as this was expected to be a more important factor for subject pronoun variation while still encoding something of participants' socioeconomic classes.
@@ -1082,7 +1082,7 @@
     Participants did not always give exactly one of these two categories when asked to self-identify racially,\footnote{
       The range for such self-identifications that was produced was in fact the reason this factor was not modeled.
     } but what they did provide can be remapped to these two categories for exploration in a relatively uncontroversial manner.
-    If all those who used the words \lexi{White} or \lexi{Caucasian} in their self-identification are recoded as White, all those who used the words Black or African American are recoded as Black, and all those who chose Creole, Cajun, or no racialized identity are excluded, the distribution of of these racialized categories by Louisiana ethnicities looks like Figure \ref{fig:ethnicity_by_race}.
+    If all those who used the words \lexi{White} or \lexi{Caucasian} in their self-identification are recoded as White, all those who used the words Black or African American are recoded as Black, and all those who chose Creole, Cajun, or no racialized identity are excluded, the distribution of these racialized categories by Louisiana ethnicities looks like Figure \ref{fig:ethnicity_by_race}.
     There was in fact a statistical association between these two categories (Fisher's exact: $P <$ \Sexpr{Ceiling(indEthnRace$p.value)}).
 
     For the two participants who identified as White Creoles, Deborah and Jerry, their subject pronouns were not those traditionally described as belonging to Louisiana Creole but rather those typical of descriptions of Louisiana French.
