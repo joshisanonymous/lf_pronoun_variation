@@ -24,6 +24,7 @@
     \setcounter{biburlucpenalty}{9000}
   \usepackage{hyperref}
     \hypersetup{colorlinks=true, allcolors=black}
+  \usepackage{array}
   \usepackage[paper=letterpaper, top=1in, right=1in, bottom=1in, left=1in]{geometry}
   \usepackage{afterpage}
   \usepackage{setspace}

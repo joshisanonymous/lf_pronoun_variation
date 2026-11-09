@@ -21,8 +21,6 @@
     Quite early on, for example, \textcite{bloomfield_language_1933} argued that those who are in frequent contact would likely end up speaking similarly (pp.~46-47).
     The idea that social networks can be explanatory for individuals' linguistic behavior has been brought up repeatedly, including when racialized barriers are crossed \parencite{sweetland_unexpected_2002}.
     The social network approach to analyzing social structure is appealing enough that it has even been invoked much more recently when no network measures are actually implemented \parencite{hoffman_ethnolects_2010, sneller_gritty_2024}.
-    % L. Milroy (1980/1987) famously found that social network positions can explain why two speakers from the same community with the same characteristics in terms of social variables might still speak differently (131-134)
-    % Gal (1979) argued that not all interactions are the same (15)
 
     What makes social network analysis so appealing in sociolinguistics is that its quantificational nature fits neatly into traditional variationist methods.
     In particular, it is useful for examining the spread (\foreign{i.e.}, diffusion) of linguistic features \parencite[pp.~262-263]{dodsworth_speech_2014}.
@@ -30,11 +28,6 @@
     The role of race in this diffusion was also regularly present \parencite{korte_acquaintance_1970}.
     Early studies of language change posited that diffusion between groups occurs across strong ties or specifically when individuals have many ties both in and out of a group (\citeauthor{downes_language_1984}, \citeyear[p.~155]{downes_language_1984}; \citeauthor{labov_social_1980}, \citeyear[p.~261]{labov_social_1980}), contrary to arguments for the mechanics of diffusion that had been made in sociology.
     The network data that is needed to examine diffusion directly is quite difficult to collect, however, making linguistics studies that would resolve the diffusion question few and far between.
-    % It's been argued that joint negotiation rather than simple individual-to-individual contact is what leads to the uptake of linguistic features in a network (Eckert 2019, as cited in Sharma & Dodsworth 2020:353-354)
-    % Women commonly have these diffuse, open networks in urban Western contexts (Sharma & Dodsworth 2020:350)
-    % In Philadelphia, the early adopters of language change were women with many on-block and off-block ties, highlighting the importance both of centrality in a community and interactions outside of the community (Labov 2001, as cited in Sharma & Dodsworth 2020:348/351)
-      % Labov (2001) found Celeste S. in Philadelphia to have "the highest index of interaction within the neighborhood" as well as to be a leader of linguistic change, suggesting these two distinctions go hand in hand (as cited in Eckert & Labov 2017:479)
-      % This is hard to tell in my study as I only looked at personal networks, but I can at least say whether women's networks are more ethnically diverse than men's
 
     While \textcite{milroy_language_1987} was not the first sociolinguist to actively attempt to bring social network analysis into the field from sociology -- that honor arguably goes to \textcite{gal_language_1979} -- her work has clearly been the most influential in terms of methodology.
     The major theoretical contribution of her study was the finding that a speaker's lack of integration into a community (\foreign{i.e.}, their lack of centrality) can explain their linguistic difference from that community when broad demographic categories would otherwise predict that they would reproduce the community norms.
@@ -57,8 +50,6 @@
       Peasantness was the term \textcite{gal_language_1979} used because her participants also used it (pp.~45-46).
       She measured peasantness with an index based on participants' lifestyles and symbolic factors of peasantness that applied to them (pp.~137-139).
     } of participants' personal network alters was more predictive of their language choices than their own peasantness, while \textcite{stoessel_investigating_2002} found that immigrants were more likely to maintain their heritage language if they had more speakers of that language in their personal networks and if those speakers were in close proximity physically.
-    % When a distinction needs to be made between homophily as a mechanism and as a result, the mechanism might be referred to more specifically as selective mixing \parencite[p.~105]{goodreau_birds_2009}.
-      % The distinction may be important at times because homophily need not be arrived at only by a tie forming between two individuals who were alike before the fact but may also be arrived at by two individuals becoming more alike after a tie forms between them \parencite[p.~37]{lazarsfeld_friendship_1954}.
 
     The ethnic homophily of one's network has been found to influence one's language use in several ways, one of which is in language choice.
     This has especially been a focus of studies of immigrant groups and their offspring.
@@ -68,8 +59,6 @@
     For example, in the small Pacific country of Palau, participants with more Japanese alters were found to be more likely to use Japanese, a former colonial language \parencite{matsumoto_role_2010}.
     This colonial context is somewhat applicable to the situation in Louisiana with the major caveat that the break with Japan occurred more recently, during WWII, than Louisiana's break with France, and so some of the intermarried families had a parent who returned to Japan at that time and only came back later.
     Migratory patterns like those in Palau could have occurred in Louisiana shortly after the Louisiana Purchase, but it is unlikely that many families in the state still hold such close ties with France or any other French-speaking nation outside of Louisiana today.
-    % Within Dyirbal-English speaking communities, the amount of Dyirbal used in casual conversation was relative to the usage of the least monolingual Dyirbal speaker in the group (Schmidt 1985, as cited in L. Milroy 1980/1987:176)
-      % Doesn't seem to be related to race or ethnicity, though
 
     Ethnic homophily has also been seen as important for variation within language, several studies of which have examined groups in New York City.
     Although these two samples were small, the Irish immigrants who maintained the Irish variant of English /t/ were those who had more Irish alters in their networks \parencite{kirke_when_2005}, and Chinese-Americans with more ethnic homophily in their networks did not use the local New York variant of English /ɔ/ that those with low ethnic homophily did use \parencite{wong_new_2010}.
@@ -78,23 +67,10 @@
     This is further supported by the finding that higher ``Asianness'' in the personal networks of Punjabis west of London led to greater use of [ʈ] for English /t/ only in the middle generation of those who were examined \parencite[pp.~418-419]{sharma_cognitive_2011}.
     In comparing each of these cases to the situation in Louisiana, caution needs to be taken, though.
     Much like the different stages of post-colonialism in which Palau and Louisiana find themselves, the studies mentioned here all involve relatively recent immigration and the navigation of identity around that fact, whereas speakers of F\&C in Louisiana have no need to find a balance between local norms and their heritage as their heritage in fact represents the local norm.
-    % M. Hoffman & J. Walker (2010) asked participants if they have partners, friends, neighbors, and co-workers were the same ethnicity as themselves as part of measuring their ethnic orientation
-      % This was only nominally social network analysis or at least was social network analysis that was not directly implemented into analyses which rather used the ethnic orientation as a social variable
-    % M. Newman (2010) looked at the ethnic make-up of personal networks for Latinos in New York
-      % These were almost all entirely ethnically homophilous, making it difficult to draw any conclusions about how differences in personal networks related to their English speech patterns.
-      % This is perhaps why his use of personal networks was limited to some qualitative comments in the discussion of his results
-    % Sharma (2017)
-      % Network diversity and accent repertoire range were associated for British Asian English in London (Sharma 2017, as cited in Sharma & Dodsworth 2020:355)
-      % For British South Asians, Sharma (2017) measured the number of communities of which participants were members by asking them to group their alters (e.g., family, old friends, etc) and then used Simpson's diversity to calculate the variety in their social worlds (401)
-        % High community diversity predicted a higher number of accent repertoires (i.e., styles) (411)
 
     A social context that is perhaps more congruent with that of Creoles and Cajuns in Louisiana is that of Black and White Americans as these categories are generally superimposed over the local categories.
-    % which while not absent from the previously discussed studies -- \textcite{sharma_cognitive_2011} did describe early Punjabi immigrants as facing racial issues rather than ethnic (pp.~405-406) -- the groups that were examined were generally conceptualized as ethnic groups only without highlighting possible racialization.
     Like the studies just mentioned, however, the results for studies of race in the US have not shown consistent effects for personal network racial homophily.
     \textcite{labov_facto_1986}, for instance, looked at a slightly extended personal network for Eddie, a Black man in North Philadelphia, and concluded that the morphological patterns of those in his network were not entirely explainable by the make-up of racialized identities in the network because the life histories of racialized in-group members were not all the same.
-    % Unfortunately, though, they did not share their network data collection methods, making it difficult to understand what may have been missing from their sociograms\footnote{
-    %   A sociogram is a visual representation of a network made up of shapes that represent nodes and lines connecting those shapes that represent ties.
-    % }.
     Likewise, a longitudinal study of African American youths in Chapel Hill, North Carolina showed that the number of African American social contacts of participants simply did not have a significant effect on the rate of usage of African American English features \parencite{van_hofwegen_coming_2010}.
     This result, again, could perhaps be explainable through other social factors superceding the potential effects of network homophily.
 
@@ -106,25 +82,6 @@
     This has perhaps been the most transparent and robust study of the impact of homophily on the language use of racialized groups as the sample included 28 speakers for whom homophily was calculated rather than inferred and whose homophily rates ranged from very high to very low.
     Where racialized social systems are in place, in fact, one should probably not expect to find low racial homophily in the first place.
     If participants who have low racial homophily in their personal networks are outliers, it is not surprising that studies of language variation are sometimes unable to show significant effects for the amount of racial homophily given the very small range in that amount, but this does not necessarily mean that racial homophily is not an important factor.
-    % Cheshire et al. (2008) looked at the effect of the ethnic (includes Black) homophily of personal networks on English features of London speakers
-      % Homophily was an index from 1 to 5 with 1 being equivalent to no different ethnicities from ego and 5 being 80% different ethnicities (6)
-        % No one scored 1 or 2, so all had at least 40% non-ethnically homophilous alters
-      % Their results suggest that having ethnically non-homophilous networks can make one a bridge for the diffusion of vowel features from minority ethnic groups, although their results for consonants were much more nuanced
-    
-    % Dodsworth & Benton (2017) found some evidence that being structurally closer to the core of Raleigh, North Carolina's network led to greater maintenance of southern vowels
-      % Their methodology was unique for sociolinguistics as they used a bipartite network to get closer to a total network analysis and used cohesive blocking to uncover participants' position in the network
-    % Sneller (2024) found that local orientation and the type of schools speakers attended had an impact on the vowel system speakers adopted in Philadelphia
-      % She attempted to employ Dodsworth & Benton's (2017) bipartite network methodology with schools as the other class of nodes, but no network measures were taken
-    % Botha (2018) found that the amount and range of Singapore English particles used by those in first order versus second order network zones differed
-      % Also, first and second order zones were not defined as in Barnes as what Botha called second order zones were made up of alters who were still directly tied to ego
-        % Instead, the zones were essentially clusters that were connected to ego but minimally to each other
-      % This is perhaps the only time that the language of alters was recorded, although it is a missed opportunity as he did not compare their language to that of the connected egos
-
-    % A couple notable examples of SNA in sociolinguistics \parencite[\foreign{e.g.}][]{li_two-step_2000, sharma_scalar_2017}
-
-    % In \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) case, she identified the relationship between the two nodes as being between kin, neighbors, coworkers, or friends (p.~52), each of which constituted attributes of ties but were equally weighted between each other.
-
-    % Sharma (2017) concluded that network qualities are more culturally and historically contingent and so may not generalize across space and time (in her case, the Asianness or Indianness of one's network only mattered for some demographics), but network structures are general and not bounded in this way (in her case, the diversity index of network clusters in one's network was significant for all demographics) (414-415)
 
     In Louisiana specifically, while there is a long and continuing history of racial segregation that has been examined at the community level (see Section \ref{sec:united_states}), there is a dearth of examinations of what personal networks look like along ethnic or racialized lines whether this means dealing with Creoles and Cajuns or Black and White people.
     In sociolinguistics, this gap is especially true.
@@ -139,119 +96,12 @@
     \end{itemize}
     Along the way, useful descriptive details about the social structures surrounding Creoles and Cajuns will be presented.
 
-  % \section{Racial homophily in Louisiana}
-  %   \label{sec:homophily_louisiana}
-    % General observations about network qualities
-      % It has been predicted that rural networks are more homogenous in education, race-ethnicity, and religion, but more heterogenous in age and gender, the latter due to ties being more with kin than friends (Beggs et al. 1996:312)
-        % Gold (1976) claims that the sharecropper networks around Mamou in the early to mid 20th century were close knit out of necessity (272)
-        % In Louisiana, less difference in density between urban and rural networks than found elsewhere in the US (Beggs et al. 1996:315)
-        % Louisiana ties were less multiplex than elswhere in the US (Beggs et al. 1996:315), likely due to more kin ties (Beggs et al. 1996:319)
-        % Louisiana ties tend to be longer lasting than elsewhere in the US (Beggs et al. 1996:315)
-          % So not only more homogenous, but less likely to change, as well
-
-    % Racial homophily in the US
-      % Race is one of the "widely recognized bases of adolescent friendship clustering" (Goodreau et al. 2009:108)
-      % Data for US high schools in the 1990s, for example, showed widespread racial homophily in friendship personal networks \parencite[pp.~118-119]{goodreau_birds_2009}.
-      % McPherson et al. (2001) suggested that the existence of homophily implies that those with distinct social characteristics will find themselves at greater distances from each other in a network (416)
-      % Race/ethnicity was the strongest factor in network homophily in the results of the 1985 General Social Survey (GSS) \parencite{marsden_homogeneity_1988}.
-      % In marriages, almost all Blacks and Whites on the 1990 census entering into racially homophilous partnerships \parencite[pp.~15-16]{alba_assimilations_1995} and in friendship networks, generally all young people in 1994-1995 formed by and large racially homophilous friendsips \parencite[pp.~118-119]{goodreau_birds_2009}.
-      % Racial homophily in friendship networks had only decreased to 0.90 by 2004, down from 0.95 in 1985 \parencite[p.~440]{smith_social_2014}, and despite a decline in racial endogamy, it was still the most prevalent marriage pattern in the US \parencite{rosenfeld_racial_2008}.    
-
   \section{Methods}
     \label{sec:network_methods}
     In order to examine ethnic homophily among Creoles and Cajuns, personal network data was collected for each participant.
     This presented a few challenges related to how to ask for alters and how to gather information on those alters, all of which will be discussed in section \ref{sec:network_collection}.
     Other than the regression model that was fit to determine the effect of network ethnic homophily on subject pronoun usage, the quantitative analyses carried out consisted of relatively straightforward descriptive statistics.
     There were, however, important decisions made about how to prepare the data for calculating those statistics which will be discussed in section \ref{sec:network_analyses}.
-
-    % \subsection{Social network analysis methods}
-    %   \label{sec:sna}
-    %   Social network analysis has a long history in sociolinguistic research starting primarily with \citeauthor{milroy_language_1987}'s (\citeyear{milroy_language_1987}) application to the communities she studied in Belfast, Ireland.
-    %   While this approach has found notable uses in the field since then, these will be discussed in more detail in Section \ref{sec:sna_sociolinguistics}
-    %   Here, a brief overview of the basic of the social network analysis framework as related to the present study will be covered.
-
-    %   A network was originally defined as a social field of a given individual made up of their friends and kin where links to the individual represented interaction of some sort \parencite[p.~43]{barnes_class_1954}, which today we would more specifically call a personal network.
-    %   Visually, this can be represented as points (\foreign{e.g.}, friends and kin) and lines (\foreign{e.g.}, interactions).
-    %   These points are typically referred to as nodes or vertices and these lines as ties or edges.
-    %   Nodes often represent individuals, as they do in the present study, but can also represent organizations or other social entities, and in the broader field of network theory, they can be almost anything, from web pages to terminals in an electrical circuit.
-    %   % A liaison person is a point in a network which links two network sectors and whose ties to one or both of those sectors are all weak, often being a point at one end of a bridge (Granovetter 1973:1367-1368)
-
-    %   Ties are perhaps more complex in what they may represent as they are generally more abstract.
-    %   While originally conceptualized as representing interactions, which is still inherently an aspect of ties, there are various types of interactions -- those one has with close friends or with a bank teller or with a boss -- which can be further specified by measuring the frequency of those interactions, placing a value on each type of interaction, and identifying whether interactions are unidirectional or bi-directional.
-    %   In essence, one is measuring not only interactions but also the strength of those interactions or, as it has been famously called, the strength of ties \parencite{granovetter_strength_1973}.
-    %   In practice, much of this is difficult to measure, and so tie strength has historically been captured as a function of the different questions used to elicit contacts from study participants, such as asking for a participant's closest friends which would then be qualified as strong ties \parencite[p.~483]{marsden_measuring_1984}.
-    %   Likewise, the methodology used in the current study only allowed for qualifying tie strength as strong versus less strong.
-    %   Such quantifications in social network analysis are both numerous and represent the primary advantage of this approach.
-    %   % Ties perhaps have their beginnings in Simmel's work on social geometry (Hollstein 2021)
-    %     % A dyad is a micro level social relationship consisting of two individuals and one tie and a triad three individuals and three ties (Simmel 1902, as cited in Andersen & Taylor 2013:123)
-    %   % A transaction is a social exchange theory concept that is a message passed along a network line, be it goods, services, information, etc., which provides value to the sender greater than the cost (L. Milroy 1980/1987:47-48)
-    %     % An exchange is when transactions flow in both directions along a tie (L. Milroy 1980/1987:48)
-    %   % A measure of the variety of bases for a tie is the tie's multiplexity (Milroy, L. 1980/1987:21)
-    %     % This can be calculated for a single tie or aggregated up to the whole network
-    %   % Weak ties are generally not used in studies
-    %     % They're "perceived as unimportant" by participants and so difficult to elicit (Milroy, L. 1980/1987:201)
-    %       % Gurevitch once estimated, by having people record their interactions over 100 days, that the average person has about 500 acquaintances (as cited in Milgram 1967:63)
-    %     % This is probably more about HOW weak the ties are, as it's not difficult to include weakER ties, but it would be to include ties as weak as, say, the grocery store cashier that one encounters once a month
-    %       % Granovetter (1973) proposed using four different measures to determine tie strength: the amount of time of the existence of the tie, the emotional intensity of the relationship, the intimacy (mutual confiding) of the relationship, and reciprocal services rendered across the tie (1361)
-
-    %   % Another quantification example would be quantifying social distance as the shortest path between two nodes \parencite[p.~1366]{granovetter_strength_1973}.
-      
-    %   % social network analysis has been noted for being particularly useful for analyzing communities where macro-social variables such as social class are not relevant \parencite[pp.~172-173]{milroy_language_1987}
-    %   % Social networks have two types of information: structural (simply the geometry of who is connected to who) and 2) content/quality (the strength of ties, direction, attributes of individuals, etc.) (Sharma 2017:395)
-
-    %   Social network analysis can be divided into two types of analyses: personal (or egocentric) network analysis and total (or whole) network analysis \parencite[p.~250]{bott_family_1971}.
-    %   This division is based partially on the perspective one takes when looking at a network, either examining the ties that extend from an individual (personal network) or examining a network as a whole (total network), but in practice, the difference is constrained more by the limits of data collection.
-    %   Total network analysis cannot be carried out if any portion of the network is unaccounted for, making it quite rare to apply to any community that is not small, discrete, and well-defined \parencite[\foreign{e.g.},][]{watts_networks_1999, zachary_information_1977}.
-
-    %   % This type of analysis (total network) can highlight useful information, however.
-    %   % Some classic examples include calculating the density of a network, meaning the ratio of actual ties to possible ties that represents whether a network is close-knit or loose-knit (\citeauthor{barnes_networks_1968}, \citeyear[p.~118]{barnes_networks_1968}; \citeauthor{bott_family_1971}, \citeyear[p.~59]{bott_family_1971}), or calculating the dispersion of the network as the sum of all of its internal distances \parencite[p.~727]{bavelas_communication_1950}.
-    %   % There are always various community detection algorithms that act on the structural properties of the network \parencite[\foreign{e.g.},][]{aslak_constrained_2017, newman_finding_2004, waltman_smart_2013}.
-    %   % Some centrality measures identify important ties in the network \parencite[\foreign{e.g.},][]{freeman_set_1977}, while most identify important nodes \parencite[\foreign{e.g.},][]{brin_anatomy_1998, katz_new_1953, kleinberg_hubs_1999, kleinberg_authoritative_1999, rochat_closeness_2009}.
-    %   % Community detection
-    %     % There are techniques for this called hierarchical clustering (Newman & Girvan 2004:2), but perhaps most modern detection algorithms are modularity maximizing
-    %       % Community structure refers to "the division of network nodes into groups within which the network connections are dense, but between which they are sparser" (Newman & Girvan 2004:1)
-    %       % The quality of such divisions is called modularity (Newman & Girvan 2004:8)
-    %   % Centrality
-    %     % Many such measures exist
-    %       % Some are for identifying important ties
-    %         % A bridge is a tie in a network which provides the only path between two points (Harary et al. 1965, as cited in Granovetter 1973:1364)
-    %         % Current-flow betweenness and edge or shortest-path betweenness, random-walk betweenness (Newman & Girvan 2004:3)
-    %       % Others are for identifying important nodes
-    %         % Relative centrality (Bavelas 1950:727)
-    %         % Point centrality (Bavelas 1948, as cited in Freeman 1977:35)
-        
-    %   % Network communities in sociolinguistics
-    %     % Communities act as norm enforcement mechanisms (or maybe more specifically folkway (Sumner 1906, as cited in Andersen & Taylor 2013:31) enforcement mechanisms)
-    %       % This has been shown in general (e.g., Boissevain 1974; Bott 1957/1971; Cubitt 1973; Kapferer 1969; Mayer 1963, all as cited in L. Milroy 1980/1987:50/52/135-136)
-    %       % It's not surprising that SNA communities have been predictive of linguistic behavior
-    %         % L. Milroy (1980/1987) suggested that vernacular forms persist regardless of the influence of standard varieties because, as she found in Belfast, the social network structure can provide the requisite norm enforcement to resist the influence of standard varieties (162-163)
-    %         % King (2000) found that the most standard French speaker in her data was a janitor at the only French-language school in Prince Edward Island, which she explained as the result of regular French interactions with those in prestigious positions (55)
-    %       % It has been suggested that networks enforce norms based on one's perception of the network rather than its objective reality (Boissevain 1974, as cited in L. Milroy 1980/1987:61)
-    %         % I'm not so sure it's necessary to consciously perceive the existence of a network as people are not likely to give a great many names in response to name generator questions
-    %           % For instance, J. Milroy & L. Milroy (1985/2012) conceptualized the maintence that stems from the pressure social networks impose as "covert" (49)
-    %     % One's social network can be predictive of the type of code-switching its members use as with young Italian immigrants in West Germany (Auer 1988/2000:170-171)
-    %     % Social network membership among Puerto Ricans in NYC (Galivanes vs Banca) impacted the sort of code-switching they used (Poplack 1979/1980/2000:234)
-    %     % Twitter users were shown to form into monolingual and bilingual clusters based on the languages they have available to them with the languages used by those they follow leading them to use those languages more themselves (Kim et al. 2014)
-    %     % Network clusters on Twitter were seen to override gender where lexical items preferred by men and women were reversed between some clusters (Bamman et al. 2014:147)
-    %     % Eckert (2000) sketched the total network at Belten High but not as a central part of her analysis (177)
-    %       % Eckert (2000) did not speak to everyone -- rather she took a random sample of people and started from those various points -- and did a more thorough sketch for girls than boys due to time constraints (173-175)
-    %       % This mainly allowed her to talk about central and peripheral members of jock and burnout clusters
-    %     % Racially homogenous communities lead to more essentialist views of race among children (Deeb et al. 2011; Pauker et al. 2016, both as cited in Roth et al. 2023:49)
-
-    %   The other approach to social network analysis, that of personal (or egocentric) network analysis, is far less demanding of resources to carry out than total network analysis.
-    %   While still rare in sociolinguistics, personal network analyses have been carried out in more traditional-looking variationist studies \parencite[\foreign{e.g.},][]{sharma_style_2011, sharma_scalar_2017} and have the advantage of not attempting to adapt network measures to non-network data as when calculating centrality in a speech community.
-    %   Ego, in this case, refers to the node whose perspective is taken in the analysis, leaving all other nodes connected to ego either directly or indirectly to be referred to as alters \parencite[p.~6]{perry_egocentric_2018}.
-    %   In practice, the alters who are collected for ego in such analyses are only those who are directly connected, making up what is called a primary or first-order star network, named as such because a resulting graph of the network would form a star with ego at the center.
-    %   Alternatively, one may include the whole primary or first-order zone, which would add any existing ties between ego's direct alters, or even second-order or $n$th-order zones, which bring these analyses to a point of looking more like total network analyses \parencite[pp.~113-114]{barnes_networks_1968}.
-    %   Calculating statistics for personal networks is essentially about quantifying aspects of an individuals social world.
-    %   Data collected might include the mix of ethnicities, nationalities, or genders of ego's network \parencite{botha_social_2018, li_two-step_2000, sharma_scalar_2017}, as just a few examples.
-    %   The present study represents an addition to the literature of another personal network analysis where what is quantified for each participant's network is the ethnic make-up of their alters.
-
-    %   % Factor types that may impact the potential for out-group ties: demographic factors (e.g., immigration), institutional factors (e.g., work arrangements), economic factors (e.g., inequality), cultural factors (e.g., perceptions) J. A. Smith et al. (2014:437)
-    %   % Greater contact between groups can decrease homophily and the salience of those previously homophilous characteristics (J. A. Smith et al. 2014:434)
-    %   % Weaknesses
-    %     % Labov (1966/2006) in 2006 argued that the downside to social network-based sampling was that those within the same social network are likely to speak more similarly than others and so, for example, studying three social networks is equivalent to studying three "extended individuals" and is not representative of the community (399)
-    %       % This 'is more about how one conceptualizes of community
 
     \subsection{Data collection}
       \label{sec:network_collection}
@@ -299,14 +149,6 @@
       This question resulted in a mean of \Sexpr{round(mean(table(networks[networks$`Alter Type` == "Non-Core", "Name"])), 2)} more named alters ($SD \approx$ \Sexpr{round(sd(table(networks[networks$`Alter Type` == "Non-Core", "Name"])), 2)}), bringing the total to a mean of \Sexpr{round(mean(table(networks$Name)), 2)} ($SD \approx$ \Sexpr{round(sd(table(networks$Name)), 2)}).
       These numbers themselves highlight that obtaining a fixed number of alters was not the goal.
       While aiming for a fixed number of alters may help for comparability between networks, it can also lead to overlooking important ties or including unimportant ties \parencite[p.~345]{sharma_language_2020}.
-        
-      % Recall bias can be reduced by bringing certain contexts to the attention of the respondent (Marin 2004, as cited in Stark 2018:245)
-      % Examples in sociolinguistics
-        % Eckert (2000) simply asked participants who they were friends with at different points of interviews (80)
-        % To collect alters, Sharma's (2017) participants were "asked to describe the main groups of people they interacted with on a regular basis, providing further details of each alter, including ethnicity, background, accent, frequency of interaction, domains of interaction, shared ties, and a relative closeness ranking" (400)
-          % For analyses, Sharma (2017) excluded naming family members because they are not voluntarily chosen and yet would have made up a large proportion of their networks (400)
-            % The motivation for emphasizing voluntary choices in her study isn't clear, but it would not be an issue here
-            % L. Milroy (1980/1987) also discussed Hymes' (1974) idea of primary interaction, which is an interaction between two people which is strictly personal and wholly voluntary (84-85)
 
       With the list of alters generated, participants were asked two name interpreter questions immediately afterward to gather more data on characteristics of alters.
       One of these questions, reproduced in Sentence \ref{sent:interpret_ethnicity}, constituted a type of proxy report \parencite[p.~87]{cobb_answering_2018}.
@@ -349,8 +191,6 @@
       The external component is the count of all out-group alters, whereas the internal component is the count of all in-group alters.
       In the present context, an in-group alter would be one who has the same ethnicity as ego (\foreign{i.e.}, the participant), and an out-group alter is any other alter.
       The statistic produces values from -1 to 1 where -1 represents perfect homophily and 1 the complete absence of homophily, or in other words, -1 represents a participant whose alters all have the same ethnicity as the participant and 1 represents a participant whose alters all have different ethnicities from the participant.
-      % Reynolds (2002) Calculated the "ethnic tie percentage" of participants' personal networks as the percentage of alters who spoke Punjabi or Urdu
-      % A. Wong (2010) measured homophily in the same way as was done here.
 
       The more important discussion in terms of analyses, however, is the way in which the ethnicities of alters were coded both from the perspective of personal networks and from the perspective of the whole network.
       When analyzing personal networks, it was necessary to decide how to code alters who were given multiple or compound ethnicities by participants.
@@ -502,7 +342,7 @@
       Owen indeed had a deeply thought out conception of what it means to be Creole where he viewed it as a culture, suggesting this would not necessarily be the first label he would think of when asked to describe alters' ethnicities.
       There is thus good reason to doubt that Tracy and Owen lack ethnic homophily in their networks.
 
-      \begin{figure}[tbhp]
+      \begin{figure}[tb]
         \centering
         <<fig.height = 0.4 * textheight>>=
         plotAlterEthnicity
@@ -522,7 +362,7 @@
       Indeed, the most important aspect of these ethnically diverse personal networks is that Creoles did not name Cajuns in their networks and Cajuns did not name Creoles, which was also generally true for all other participants, as well.
       Thus, even when little ethnic homophily was found, it was not the result of Creoles and Cajuns forming relationships but rather the result of non-Creoles and non-Cajuns being added to the mix.
 
-      \begin{table}[tbhp]
+      \begin{table}[tb]
         \caption{Participants who gave a variety of ethnicities for their alters}
         \label{tab:networks_diverse}
         \centering
@@ -649,7 +489,7 @@
       This is perhaps expected given the lack of evidence for vectors of diffusion between Creoles and Cajuns just discussed.
       To the extent that Creoles are the users of Creole-marked subject pronouns and Cajuns are the users of Cajun-marked subject pronouns, exposure that could lead to acquisition of the pronouns of the other group would require some level of interaction with them rather than with simply any member of any out-group.
 
-      \begin{table}[tbh]
+      \begin{table}[tb]
         \caption{Ethnic network homophily for each ethnicity for each pronoun type model}
         \label{tab:homophily_results}
         \centering
@@ -797,8 +637,6 @@
     This reiteration of the result that racialized boundaries are not often crossed in terms of sharing linguistic features just as when sending literal messages \parencite{korte_acquaintance_1970} is important given that the diffusion of different types of messages or aspects of culture need not be governed by the same factors.
     Likewise, racial homophily in personal networks was found to be significant in \citeauthor{fridland_network_2003}'s (\citeyear{fridland_network_2003}) and \citeauthor{ash_linguistic_1986}'s (\citeyear{ash_linguistic_1986}) studies in Memphis and Philadelphia, respectively.
     The latter study was particularly robust in that it also included participants who had low racial homophily.
-    % In light of the racialized social system of the US, including such participants is not at all a trivial task, so much so that even including Creoles and Cajuns (\foreign{i.e.}, local categories associated with broad racialized categories) with low ethnic homophily here was not accomplished, at least not in terms of recruiting Creoles with Cajun alters and Cajuns with Creole alters.
-    % It is still to be seen what impact if any personal networks of this type would have on F\&C subject pronoun usage.
     The present study is only in line with these previous results to the extent that the network data suggests a lack of vectors for diffusion between Creoles and Cajuns, but those speakers who contradicted the general tendencies for subject pronouns were not explainable through recourse to their network structures.
 
     One past linguistic study that looked at the effects of the make-up of racialized identities in networks on language variation showed that there are caveats to the effects of race in networks in that the personal histories of racialized in-group members are also important \parencite{labov_facto_1986}.
@@ -807,62 +645,7 @@
     These mixed results are perhaps relevant to those participants in the present study who did not follow the more general subject pronoun tendencies of Creoles and Cajuns.
     While the impact of other factors for these speakers is speculative and exploratory, place appears to be consistently implicated as important while the importance of broad racialized self-identifications and exposure to institutional French cannot be ruled out either.
 
-    % The current study did not examine the life histories of alters in depth to test whether they played a role here, but alters' life histories must have been similar enough to make this a rather unimportant factor.
-    % Simply put, personal networks were almost entirely homophilous, so the only factors left would be those that would differentiate ethnically similar alters on other levels.
-    % To the extent that there were other important levels of difference between participants and their alters, those differences did not counteract the effects of identifying as Creole or Cajun in predicting subject pronoun usage.
-    % Indeed, Chapter \ref{chap:discourse} will suggest both similarities and differences in the life histories of Creole participants with each other and Cajun participants with each other.
-    % One of these, exposure to institutional French, was even part of the regression models in Chapter \ref{chap:pronoun_variation} and can be somewhat safely considered a proxy for socioeconomic class.
-    % However, there was only one pronoun type, expletive (\lexi{il} vs ø), for which institutional French was a significant factor and ethnicity was not, whereas there were two, 3sg.F (\lexi{li} vs \lexi{elle}) and 2sg.T (\lexi{to} vs \lexi{tu}), for which ethnicity was significant but institutional French was not, which hardly suggests an overriding of the importance of ethnic homophily of personal networks.
-
     Occasionally, previous linguistic studies have even shown a lack of any effect for racial homophily on language variation \parencite[\foreign{e.g.},][]{van_hofwegen_coming_2010}, just as no effect was found for the present study.
     The interactions found for Polish and Punjabi immigrants in the UK that led to mixed results for the effect of homophily may again be instructive on this point.
     A lack of effect for homophily does not mean that homophily cannot be predictive of linguistic behavior but rather that it is not predictive in a particular setting where other factors may be overriding homophily.
     That setting in \textcite{van_hofwegen_coming_2010} was African American speakers in North Carolina, whereas the setting here was Creole and Cajun F\&C-speakers in the modern-day surroundings of Lafayette, Louisiana, and in the present study, the most implicated overriding factor was place.
-
-    % The subject pronoun models fitted here did not provide evidence for an effect for ethnic homophily in the personal networks of Creoles and Cajuns, but the network data itself did suggest that there is a lack of vectors for linguistic diffusion between Creole and Cajun participants in this study.
-    % The results obtained from examining personal networks help to explain why subject pronoun variation is divided along ethnic lines in the present data: Creoles and Cajuns do not interact with each other to any great degree.
-    % In the few cases where ethnic homophily was not high in the present data, this was at times the result of participants assigning alters ethnicities that are instead homophilous with participants' self-identifications with racialized categories of the broader US (\foreign{e.g.}, Black Creoles describing alters as Black).
-    % For other cases of low homophily, it was never the result of Creoles having Cajun alters or Cajuns having Creole alters but rather the implication of other ethnicities.
-    % In other words, Creoles and Cajuns on the whole do not appear to form core relationships with each other nor even linguistically-motivated relationships that could theoretically be sought out in order to have more people with whom to speak F\&C.
-
-  % ---------------------------------------------------------------------------
-
-    % Participants wanting to say they have Black friends, too
-      % Lucille Royer
-        % (61:53) [when asked the ethnicities of her alters]
-        % LR: C'est tous les Blancs, mais j'ai beaucoup d'amis noirs, aussi.
-      % Oliver Lesage
-        % (58:52) [after initially saying that all of his alters are White]
-        % OL: Y a pas mal de Noirs ici, aussi. Quand tu as dit en français, mais en couru-vini, y a beaucoup de gens avec qui je parle en couru-vini.
-          % He goes on to name a man who's job involves driving a tractor on Oliver's property.
-      % Steven Marcel
-        % (55:15) [after describing each of his alters as Cajun (or Acadian), suddenly attempts to think of non-White alters]
-        % SM: Now, mais je parle créole. J'ai pas pensé de ça. Ina des Américains-Africains qui je parle français avec, aussi. Je peux, allons voir, une c'est, je connais pas son vrai nom, mais c'est Toots.
-          % This was someone he worked with when he was younger. He then attempts to remember the name of a plumber he knew but was not able to think of it.
-
-    % Homophily is effectively a test of whether social features are salient \parencite[p.~29]{blau_crosscutting_1984}.
-    % One can imagine that, in order to socially organize around a feature, that feature most be recognizable on some level for individuals in that organization.
-    % In this sense, homophily in Creole and Cajun personal networks would suggest that these ethnic categories are not only salient in the community but more salient than other shared statuses or values along which Creoles and Cajuns could form homophilous ties.
-    % Indeed, as was mentioned in Section \ref{sec:creole_history}, many distinctive cultural practices are shared by Creoles and Cajuns, such as religion, cuisine, and music (\citeauthor{esman_henderson_1985}, \citeyear[p.~7]{esman_henderson_1985}; \citeauthor{spitzer_cajuns_1977}, \citeyear{spitzer_cajuns_1977}, \citeauthor{trepanier_french_1988}, \citeyear{trepanier_french_1988}).
-    % In other words, Creoles and Cajuns have many shared attributes but still have ethnically homophilous networks because racialization has rendered these categories highly salient.
-    % % It is often useful to talk about social network segregation where, for instance, clusters are formed in friendship networks based on some salient feature \parencite{moody_race_2001, zhao_networks_2023}.
-
-    % Contact theory suggests implications for homophilous networks
-      % Contact theory posits that inter-group contact reduces prejudice \parencite[p.~130]{lee_race_1943}, especially when that contact is high in quality \parencite{allport_nature_1954}.
-      % A meta-analysis covering decades of work on the theory concluded that it is born out and generalizable beyond contact between racialized groups to contact between all types of groups (\foreign{e.g.}, grouped by sexual orientation, disabilities, etc.) \parencite{pettigrew_meta-analytic_2006}.
-      % Non-homophilous, intimate ties would represent the sort of quality contacts that reduce prejudice according to contact theory, so a lack of such ties is expected in when identities are racialized
-
-    % What is the connection between homophily and racialization?
-      % Having the wrong network can be detrimental to one's life outcomes
-      % One way in which a group's disadvantages are perpetuated then is to be cut off from ties with a more privileged group
-        % This could be exemplified as having homophilous personal networks
-      % That homophily around a social characteristic is possible suggests that that characteristic is salient
-        % Logically, salience is needed for racialization to take place as one needs to know what group one is exploiting in order to exploit that group
-      % Network effects can also exasperate inequalities (DiMaggio & Garip 2012)
-        % In other words, if one begins life from a disadvantaged position, one's disadvantages can be amplified if one forms networks of other like-individuals, and perhaps more importantly, those who begin from a privileged position gain even more advantages by forming networks with other like-individuals
-        % This can be seen, for instance, in how social capital resources are obtained in the labor market
-          % Having White men in one's occupational network gives one more access to social capital at least in terms of jobs leads and higher social status alters, but racial minorities do not generally have White men in their occupational networks (McDonald 2011)
-
-    % Neumann (1985) looked at Blacks in her study of Breaux Bridge Creole because she claimed that their language was «moins affectés par la "décréolisation"» (2)
-
-    % Do Creole participants' networks lack high status alters that could act as good social capital resources?

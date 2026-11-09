@@ -15,7 +15,7 @@
     Their presence today is such that Lafayette Parish and St Martin Parish together have been described as a ``Creole hearth'' \parencite[p.~11]{landry_creole_2016}.
     To have a better understanding of the people who reside in the target area -- and in line with \citeauthor{rosa_unsettling_2017}' (\citeyear{rosa_unsettling_2017}) suggestion that studies implicating race should begin with historical and institutional contexts (p.~637) -- it will be important to understand its cultural and economic development.
 
-    \begin{figure}[tbhp]
+    \begin{figure}[tb]
       \centering
       <<fig.asp = 0.5>>=
       mapfocus
@@ -29,7 +29,7 @@
     The division of the region into these parishes started around the time that Spain took over administratively in 1768 when what was then the New Orleans district, which included the Attakapas, was divided into 21 parishes for religious administration.
     During Spanish rule, the city of St Martinville in St Martin Parish also became a permanent military post \parencite[pp.~21-22]{griffin_attakapas_1959}.
 
-    After the Louisiana Purchase in 1803, Americans who arrived during the 19th century mostly came from Virginia, Kentucky, and the Carolinas \parencite[pp.~43-44]{landry_creole_2016}. % He may have cited Conrad 1986 for this
+    After the Louisiana Purchase in 1803, Americans who arrived during the 19th century mostly came from Virginia, Kentucky, and the Carolinas \parencite[pp.~43-44]{landry_creole_2016}.
     While the existing residents were primarily Catholic, these newcomers brought with them Protestantism, although their religious practices were still viewed by some Creoles in St Martinville with ridicule by the late 19th century \parencite[pp.~47-48]{landry_creole_2016}.
     In the early part of the century, St Martin Parish covered the region of what is currently Lafayette Parish, as well.
     These were divided in 1823 \parencite[p.~23]{griffin_attakapas_1959}.
@@ -86,9 +86,6 @@
 
     The actual means by which participants were found consisted of convenience sampling, using participants found through this method as starting points for additional snowball sampling.
     While random sampling is ideal, limits to the feasibility of using such a method has led to the approach used here being a standard for variationist studies as well as for those studies centered on French and Creole in Louisiana (\citeauthor[\foreign{e.g.},][]{brown_pronominal_1988}, \citeyear[pp.~70-73]{brown_pronominal_1988}; \citeauthor{dajko_ethnic_2009}, \citeyear[pp.~68-69]{dajko_ethnic_2009}; \citeauthor{mayeux_rethinking_2019}, \citeyear[pp.~92-93]{mayeux_rethinking_2019}; \citeauthor{wendte_tale_2020}, \citeyear[pp.~113-119]{wendte_tale_2020}).
-    % Though acknowledging that snowball sampling can reduce the observer effect (6), Labov (1966/2006) in 2006 essentially argued that snowball sampling is more akin to studying "extended individuals" than communities (399)
-    % Labov (1966/2006) himself used stratified random sampling (101)
-      % In a way, this is simply aiming to capture individuals in different network clusters and at different positions within those clusters and then using social variables as a proxy for identifying said clusters
 
     The points of departure used varied in their level of convenience, of course.
     Initial contacts were made through existing local connections with several scholars, activists, teachers, and residents in the Lafayette area.
@@ -124,12 +121,6 @@
     \textcite{susberry_racial_2004}, who specifically sought out Creoles of color of any linguistic background, made use of email lists, organizations, Creole ancestry conferences, Catholic churches, and universities to find participants (p.~34), ultimately finding most success through online surveys (p.~51).
     For myself, no one method was particularly effective for finding Creoles, although repeated non-recruitment interactions were generally beneficial.
     Care was taken in this way both to earn the trust of Creoles but also to be worthy of that trust by keeping in mind that this is a group of people who were likely accustomed to being exploited, receiving nothing in return for any good will they have to offer.
-    % Finding Creoles
-    % Rottet (1995) essentially used a modified version of the community leaders approach where, in order to find elderly speakers, he had a middle-aged woman bring him along when she visited elderly people (78)
-      % In my case, elderly people were rather easy to find and frequently interested in talking
-    % For myself, the most effective approach was to visit small, local businesses and organizations and speak to customers and employees
-      % Rottet (1995) had suggested that approaching strangers in Terrebonne-Lafourche wouldn't have worked for his study as "[t]he CF community has long been noted for its refusal to speak CF, a highly stigmatized language, around outsiders" (63)
-      % This was not the case in my study, perhaps suggesting a change in the sociolinguistic situation
 
   \section{The interview schedule}
     \label{sec:schedule}
@@ -143,7 +134,7 @@
     For instance, 1st and 2nd person subject pronouns have been found to be much more frequent in speech than in writing (\citeauthor{fowler_critical_1979}, \citeyear[p.~201]{fowler_critical_1979}; \citeauthor{yates_oral_1996}, \citeyear[pp.~40-41]{yates_oral_1996}).
     The frequency of various pronouns was already somewhat understood in the context of sociolinguistic interviews as a previous pilot study consisting of 30-minute interviews with four Louisianians had suggested that, given consistent rates of pronoun production, extending the recordings to 30 hours would yield the number of tokens shown in Table \ref{tab:pilot_tokens}.
 
-    \begin{table}[tbhp]
+    \begin{table}[tb]
       \caption{Pronoun token estimates for 30 hours of conversation derived from pilot study data}
       \label{tab:pilot_tokens}
       \centering
@@ -210,7 +201,6 @@
     The intention when approaching interviews was not to attempt to change factors about myself, certainly not those that cannot be changed such as my identity as a White man in his 40s or as an \foreign{Américain}, but rather to maintain consistency between interviews in how I presented myself both physically and verbally.
     As opposed to \citeauthor{eckert_linguistic_2000}'s (\citeyear{eckert_linguistic_2000}) strategy of appearing youthful when working with high school students (pp.~71-73), I wore pants and semi-formal shirts during all encounters as I did not want to appear too formal nor too young as most of my participants were older than myself.
     Indeed, the fact that I was speaking French but was also under 60 was incongruent with the expectations of many people that I met in the area to the extent that they often assumed I was a tourist from France who could not speak English when first encountering me.
-    % Bell (1984) suggested that interlocutors might adapt their speech in response to "the personal characteristics of their addressees, the general style level of their addressees' speech, and/or their addressees' levels for specific linguistic variables" (167-168)
 
     For some researchers of F\&C, their goal of putting participants at ease during interviews meant adapting their international French to be more in line with the French of Louisiana (\citeauthor[\foreign{e.g.},][]{brown_pronominal_1988}, \citeyear[pp.~89-90]{brown_pronominal_1988}; \citeauthor{rottet_language_1995}, \citeyear[pp.~75-76]{rottet_language_1995}).
     This was not an issue in my case.
@@ -223,14 +213,12 @@
     For 3rd person plural pronouns, I produce \lexi{ça} with lexical and modal auxiliary verbs and \lexi{ils} with the auxiliary verbs \lexi{être} and \lexi{avoir}, while for expletive pronouns, I use \lexi{ça} with weather expressions, and either \lexi{il} or Ø with all others.
     These speech patterns presumably helped make participants not feel a need to adjust their own F\&C in cases where their speech matched my own, but there were in fact a few signs that speakers were targeting more formal styles.
     One participant, Steven, explicitly voiced concern about the quality of his French, while some standard features showed up sporadically in others' speech such as the occasional use of \lexi{ne} with \lexi{savoir} to form negations by Lucille or Cynthia producing \sent{on prendait}, a typical inflection used in Louisiana, and then quickly correcting herself with the more standard \sent{on prenait} (22:37).
-    % B. Brown (1988), as a Blanchard, mentioned her Cajun relatives in order to put participants at ease (88-89)
 
-    \begin{table}[tbhp]
+    \begin{table}[tb]
       \caption{Pronouns used habitually in the interviewer's speech}
       \label{tab:researcher_pronouns}
       \centering
       \begin{tabular}{r | r | r}
-        % \multicolumn{3}{c}{} \\
                                & Singular & Plural \\
         \hline
         1st person             & je       & on \\
@@ -254,9 +242,6 @@
     Whether these examples should be characterized as code-switching rather than style shifting is not of much concern as researchers of both phenomena have long made arguments that they are one and the same (\citeauthor[\foreign{e.g.},][]{bell_language_1984}, \citeyear[p.~158]{bell_language_1984}; \citeauthor{blom_social_2000}, \citeyear{blom_social_2000}).
     In both cases, one's speech changes in response to some contextual factor or factors.
     Regardless, while my own speech may have influenced the linguistic behavior of interviewees, it was always held as a constant in order to attempt to have the same impact on participants who have the same life and linguistic backgrounds and experiences.
-    % Benor (2010) suggested, using French and English in Louisiana as an example, that the ethnolinguistic repertoire approach is not suitable when dealing with unrelated languages as establishing a norm onto which features from another repertoire are superimposed is not a clear cut process when the speech varieties do not share many if any features (176-177)
-      % This implicitly sets style construction apart from code-switching
-      % Benor (2010) again discusses as an advantage of her ethnolinguistic repertoire framework the problem of identifying style- or code-switching points as, in her framework, one would simply discuss where greater or fewer repertoire features are being used without regard for the switching location (166-167)
 
     Some final contextual factors that may have impacted the linguistic behavior of any speaker in general are the time and setting (\citeauthor{bell_language_1984}, \citeyear[p.~178]{bell_language_1984}; \citeauthor{blom_social_2000}, \citeyear[pp.~114-115]{blom_social_2000}).
     Interviews were held at the times and locations of the interviewees' choosing.
@@ -286,7 +271,6 @@
     While this connection says something notable about the background of these individuals and how they are intertwined with place, it was desirable to use real place names in order to allow the study to add to both past and future work that documents F\&C given its tenuous status.
     Additionally, anonymizing either both or neither of the family-toponym pairs increased the risk of identification too much.
     This general approach to anonymizing helped keep interpersonal connections transparent with little to no additional risk of identifying interviewees.
-    % Ethical data collection can be an issue when collecting information about non-participants as these people are not providing consent (Stark 2018:244)
 
     Each participant was asked for the name of the town in which they were raised as well as the town in which they were residing at the time of the interviews.
     Previous studies in Louisiana typically looked at NORMs, meaning people who would answer the same way for both of these questions.
@@ -298,14 +282,7 @@
     Both were coded as part of St Landry Parish as most of their denser neighborhoods are situated on the St Landry side of the border, and in the case of Eunice, one informant expressed to me that the residents did not want to be considered part of Acadia Parish.
     A comparison between the parishes where participants were raised and where they lived at the time of the interviews can be seen in Figure \ref{fig:locations}.
 
-    % Location
-      % Payne (1980) found that "children do not freely restructure and/or reoganize their grammars up to the age of 14 but that they do have the ability to add lower level rules" in her analysis of the acquisition of the vowel system of King of Prussia (175)
-        % The linguistic variables used here do not preclude changes after moving even according to Payne's statement
-      % Urbanity vs rurality
-        % Eckert (2000) found that urban and suburban variants could have different distributions (169)
-        % Rural networks tend towards density and multiplexity, whereas urban networks tend towards spareness and uniplexity, although old working-class areas tend to function as "urban villages," essentially rural areas within urban areas (Turner 1967 [I think], as cited in L. Milroy 1980/1987:137)
-
-    \begin{figure}[tbh]
+    \begin{figure}[tb]
       \centering
       <<fig.asp = 0.75>>=
       parishBarMap
@@ -346,23 +323,6 @@
     Finally for language, it should also be noted that one participant, Laura, seemed to have experienced some language attrition through a lack of use of F\&C.
     Gene and Floyd claimed to not speak F\&C often, and Steven expressed some uncertainty about his speech, but all were able to hold conversations perfectly well.
     In Laura's case, there were significant pauses for vocabulary and repeated model phrases along with her own admission that speaking F\&C took some effort on her part.
-    % One's identity may be linked to how one learns a declining language
-      % Native speakers of Breton were not found to find the language important for their identities whereas activists who learned in school very much did find it important (Jones 1998, as cited in Lindner 2008:26-27)
-    % Language choice patterns may be used to define the linguistic background of bilinguals, which all participants in this study are
-      % In the Mougeon & Beniak corpus from Ontario, speakers were divided into "locuteurs non restreints" (speak French in all situations), "locuteurs semi-restreints", and "locuteurs restreints" (prefer English) Nadasdi et al. (2004)
-      % This might seems applicable to Louisiana, and while there is some leeway to "choose" which language to use in public situations, it's not a great deal of leeway
-      % From the other direction, language background has been shown to impact code-switching patterns
-        % Among NYC Puerto Ricans, those who immigrated later and so learned English later used less intra-sentential switching, meaning they switched between Spanish and English more as two discrete systems whereas those who learned English earlier intermixed the two systems more (Poplack 1979/1980/2000:233)
-    % Language proficiency
-      % Voeglin & Voeglin (1977) divided speakers into 4 categories based on proficiency: 1) speakers of complex sentences, 2) speakers of simple sentences, 3) inserters (of isolated lexical items), and 4) comprehenders (as cited in Rottet 1995:37)
-      % Sasse (1992) divided proficiency into 1) rusty speakers (formerly fluent who lost it from lack of use) and 2) semi-speakers (incomplete acquisition) (as cited in Rottet 1995:36)
-      % Dressler (1977) divided proficiency into 4 levels: 1) healthy speakers (fully fluent), 2) preterminal speakers (reduced but able to transmit to children), 3) terminal speakers (reduced and can't transmit, split into "stronger" and "weaker" forms), and 4) rememberers (isolated lexical items and fixed phrases) (as cited in Rottet 1995:36)
-      % Dorian (1981) divided proficiency into 3 levels: older fluent speakers, younger fluent speakers, semi-speakers (as cited in Rottet 1995:33)
-        % Method used by Rottet (1995)
-      % Rottet's (1995) did find proficiency to be meaningful for several linguistic variables
-    % Language acquisition time and manner
-      % A late bilingual has been defined as one who has learned a second language in their teenage years or in adulthood (Winskel 2013:1091)
-      % Non-native French speakers in Montreal in 1993 acquired native patterns of (l)-deletion, (t,d) affrication, [r] ~ [ʁ] production, and the verb 'to live somewhere' with varying degrees of success, using these features in the correct structural contexts though generally not at the rates of native speakers (G. Sankoff 2015:41-44)
 
     For some participants, their occupation was a source of maintenance for their F\&C.
     Of the six teachers who were interviewed, at least four taught French.
@@ -379,12 +339,11 @@
     For occupational histories, these were further coded into blue, pink, and white collar based on the conventions followed in \textcite[p.~536]{lips-wiersma_meaningful_2016}, yielding \Sexpr{nrow(participants[participants$Occupation == "Blue Collar",])} blue collar workers, \Sexpr{nrow(participants[participants$Occupation == "Pink Collar",])} pink collar workers, and \Sexpr{nrow(participants[participants$Occupation == "White Collar",])} white collar workers.
     The choices of how to code each occupational class from occupational histories can be seen in Table \ref{tab:occupation_coding}, although the occupational histories themselves are more important than the abstractions as this information was only used in qualitative analyses.
 
-    \begin{table}[tbhp]
+    \begin{table}[tbh]
       \caption{Coding used for each occupational history}
       \label{tab:occupation_coding}
       \centering
       \begin{tabular}{p{12cm} l}
-        % & \\
         \Sexpr{colnames(participants)[13]} & \Sexpr{colnames(participants)[12]} \\
         \hline
         \Sexpr{participants[18, 13]}       & \Sexpr{participants[18, 12]} \\
@@ -424,46 +383,6 @@
     Educational attainment was coded as either having not gone to college versus being a college graduate of any level, resulting in \Sexpr{nrow(participants[participants$Education == "No College",])} participants with no college education and \Sexpr{nrow(participants[participants$Education == "College Graduate",])} college graduates.
     Two participants had some college education, meaning they had not completed college.
     Both were ultimately collapsed in with college graduates under the assumption that one need not complete college in order for the educational system to have a potential impact on one's speech.
-    % Examples of socioeconomic class being important for language variation
-      % The classic example is Labov's (1966/2006) department store study that found differences in /r/ using stores as proxies for socioeconomic class (46-49)
-      % In Quebec City in the 1960s, children in blue-collar families used vous with parents, in professional families tu, and in white-collar families both variably (Lambert 1967:616)
-      % Use of [ʁ] in Montreal in 1971 was greater for those in higher social classes (G. Sankoff 2015:31)
-      % Lexical variants of 'automobile' in the French of Estrie, Quebec were constrained by type of occupation in the 1970s (Martel 1984, as cited in Nadasdi et al. 2004:92)
-      % Working class French speakers in Montreal were more likely to delete que (Cedergren & D. Sankoff 1974:349)
-    % One's speech patterns can impact their ability to get into certain occupational positions
-      % In the US, this has been true for Chinese, Indian, and Mexican accents (Timming 2017:416-422) as well as Japanese but not [probably standard] French accents (Hosoda & Stone-Romero 2010, as cited in Timming 2017:412)
-      % Jerry Pierre Quintero joked about a similar difficulty with his speech in English when he first looked for work
-    % Ways of conceptualizing and measuring socioeconomic class
-      % Wright (2015) argued that there are three approaches to social class: the individual attributes approach, the opportunity-hoarding approach, and the domination and exploitation approach (3)
-      % Some indicators of membership in the middle-class are income based (Massey & Fischer 1999; Adelman 2004; Haynes 2001; Lacy 2007) while others are occupation based (Landry 1987, all as cited in Britt & Weldon 2015:3)
-      % In sociolinguistics
-        % Eckert (2000) suggested that a middle class/working class distinction was recapitulated in the jock/burnout groups at Belten High (2/107-108)
-        % Education has the problem that educational attainment does not carry the same social implications across time and space (Horvath & D. Sankoff 1987:183)
-          % Some of my participants talked about school only going up to 11th grade when they were kids
-        % Often simply occupation
-          % Trudgill (1974) argued that occupation is the primary indicator for socioeconomic class because even affluent manual laborers would likely retain the culture of manual laborers (as cited in Dodsworth 2011:193)
-          % Based essentially on occupation type, dividing people in Estate Class (fieldworkers) and Non-Estate Class (foremen and those unassociated with the estates) was meaningful socially and in terms of language variation in Guyana (Rickford 1986:216-217)
-          % In Philadelphia, occupation was a better predictor of socioeconomic class than other indicators, but a combination of indicators was the best predictor (Labov 2001,as cited in Dodsworth 2011:193)
-          % Employment was the best indicator of presitge in Cusco, Peru (Van den Berghe & Primov 1977, as cited in Delforge 2012:321)
-          % As has long been noted, it's simply easier to obtain occupational information than other indicators of socioeconomic class Macaulay (1977, as cited in Dodsworth 2011:193)
-          % But occupation has several problems
-            % D. Sankoff & Laberge (1978 "Linguistic") pointed out that occupation is problematic because some individuals don't have occupations, occupation is static and so misses changes over time, ranking occupations against each other is subjective, and occupations aren't always useful for cross-cultural comparisons (240)
-              % Among my own participants, many were retired, several had changed occupations a number of times throughout their lives, and some occupations were hard to classify hierarchically
-            % Relatedly, traditional approaches to socioeconomic class in general tended to classify women and children according to their husbands' or fathers' socioeconomic classes (Horvath & D. Sankoff 1987:182-183)
-        % Linguistic marketplace
-          % D. Sankoff & Laberge (1978 "Linguistic") argued that a better measure was needed because "teachers, actors, and receptionists tend to speak a more standard variety than other people of similar social and economic position" (239)
-          % D. Sankoff & Laberge (1978 "Linguistic") instead measured socioeconomic class via speakers' use of a "legitimized language" (239)
-            % This was more predictive than other factors when looking at the variables avoir/être in passé composé, relative pronouns without antecedents, and on/ils in Montreal (246)
-          % The linguistic marketplace is not operationalized as Sankoff & Laberge proposed, however, rather it is referenced conceptually to discuss professions (e.g., Mechler & Buchstaller 2019; Regan 2020)
-            % Or they partially operationalize it without mentioning it, as Baranowski (2017) did when using occupational history rather than just occupation as an indicator of socioeconomic class (303)
-          % King (2000) used a linguistic marketplace approach as she explained that socioeconomic class in small non-urban communities typically "yields a small 'upper' class, perhaps a middle group and a very large, undifferentiated 'lower' class in such communities" (55)
-      % Regardless of how it's defined or measured, it's important to remember that socioeconomic class is not a meaningful social variable in all communities
-        % That is not to say that socioeconomic classes do not exist
-          % It has been found in some communities that links within a social class are generally much more multiplex than links that traverse social class (Bott 1971; Cubitt 1973; Frankenberg 1969, as cited in L. Milroy 1980/1987:52)
-            % This suggests a measurable reality for socioeconomic class, however...
-        % L. Milroy (1980/1987) argued that socioeconomic classes "reflect reality to a certain extent" but that the segmentations into classes such as working class "do not necessarily have any kind of objective, or even intersubjective, reality" (14)
-        % N. Coupland (2016) suggested that a breakdown in social class would impact language in that there would be dialect leveling between the middle class and working class, and values associatied with standard and vernacular would be less significant (420-421)
-      % One can also simply exist outside of the the industrial class structure, as in Lloyd's (1979) marginals (as cited in Milroy, L. 1980/1987:73)
 
     A nearly omnipresent variable in variationist sociolinguistics is gender.
     Even more so than with socioeconomic class, the norm has been to code gender without explaining how this was done (\citeauthor[\foreign{e.g.},][]{sharma_cognitive_2011}, \citeyear[p.~411]{sharma_cognitive_2011}; \citeauthor{tagliamonte_subject_2023}, \citeyear[p.~307]{tagliamonte_subject_2023}; \citeauthor{travis_sydney_2024}, \citeyear{travis_sydney_2024}), presumably because it is taken for granted that one can identity a participant's gender without asking, although there are certainly exceptions to such assumptions \parencite[\foreign{e.g.},][p.~39]{welker_syllable-final_2024}.
@@ -474,22 +393,6 @@
     This is admittedly imperfect as gender neutral forms such as the pronoun \lexi{iel} are not attested in Louisiana, making non-binary genders opaque in speakers' grammars, and those who are gender fluid would not be identified this way without multiple meetings that could elicit shifting genders.
     However, discussions did center on speakers' lives and identities, and some speakers did feel comfortable bringing up non-heteronormative identities, so it would not have been completely out of the question for them to also express transgender, non-binary or non-fixed gender identities where relevant.
     The final tally for gender then was \Sexpr{nrow(participants[participants$Gender == "Woman",])} women and \Sexpr{nrow(participants[participants$Gender == "Man",])} men divided relatively evenly between Creoles (\Sexpr{nrow(participants[participants$Gender == "Woman" & participants$Ethnicity == "Creole",])} women out of \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])} Creoles) and Cajuns (\Sexpr{nrow(participants[participants$Gender == "Woman" & participants$Ethnicity == "Cajun",])} women out of \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])} Cajuns).
-    % Gender has long been seen as an impactful social factor
-      % The "double bind" that women experience is that "[b]ehavior that satisfies what is expected of her as a woman disqualifies her in the marketplace" (R. Lakoff, as cited in Eckert & McConnell-Ginet:475)
-      % Interpretations of gender in variationist studies were once socioeconomic-centric due to variants being primarily tied to socioeconomic strata (Eckert & McConnell-Ginet 1992:469-470)
-    % Approaches to coding for gender
-      % Eckert & McConnell-Ginet (1992) said that a sharp division between gender and sex "cannot be maintained" in that "[b]odies and biological processes are inextricably part of cultural histories" (463)
-        % In other words, they're useful distinctions that nevertheless are connected to each other
-    % Some general results in sociolinguistics
-      % Women have repeatedly been shown to use more high prestige variants than men (Labov 1966; Trudgill 1974; Eckert 1997, for grammatical variables; Eckert 2000)
-        % In Belfast, women led in linguistic change (L. Milroy 1980/1987:112-113)
-        % This has also come to be a criticized finding
-          % J. Milroy et al. (1994), looking at the glottalization of /t/ in British English, argued that that women do not favor prestige forms but instead create prestige forms (as cited in Bell 2014:214)
-      % Gender was predictive of the type of code-switching Spanish-English bilingual Puerto Ricans in NYC used (Poplack 1979/1980/2000:232)
-      % Gender was predictive for some vowel production at Belten High (Eckert 2000:112-113/115-119/166-167)
-      % Sharma (2011) found that the typical result of women orienting more towards prestige forms was reversed in her study of British Asians in London (465)
-      % Nadasdi et al. (2004) found among French speakers in Estrie, Ontario in the 1970s that women preferred "auto" and dispreferred "char" whereas men showed the opposite pattern (98)
-      % Women used more Standard English features in Gullah than men (Nichols 1976, as cited in Weldon 2003:49)
 
       Finally, the variable of racialized identity represents one of the most immediately important for the current study.
       While participants had their ethnicities coded as either Creole or Cajun ($N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Creole",])} and $N =$ \Sexpr{nrow(participants[participants$Ethnicity == "Cajun",])}, respectively), racialized identity was meant to capture how they viewed themselves relative to the broader racialized categories of the US.
@@ -504,7 +407,7 @@
       }).
       These were all initially coded as-is.
 
-      \begin{figure}[tbhp]
+      \begin{figure}[tb]
         \centering
         <<fig.height = 0.4 * textheight>>=
         plotParticipantRace
@@ -512,54 +415,6 @@
         \caption{Racialized self-identifications of participants}
         \label{fig:race_counts}
       \end{figure}
-
-      % As discussed in section \ref{sec:creole_history}, both racialization and miscegenation were common in Louisiana since Europeans first arrived despite interracial marriages being legally forbidden \parencite[p.~25]{dominguez_white_1986}.
-      % United States anti-miscegenation laws were only removed in 1967 \parencite[p.~333]{daniel_beyond_1992}, after which interracial marriages increased up through at least the 1990s \parencite[Gibbs 1989; Njeri 1988; Tucker \& Mitchell-Kernan 1990, as cited in][p.~333]{daniel_beyond_1992}.
-      % This history of mixing is salient to at least some Louisianians as several of my own participants discussed how common mixed racial ancestries are among both Creoles and Cajuns, usually in terms of introducing American Indians into geneologies, a fact that they reported that some will not readily acknowledge despite their awareness.
-
-      % It was thus necessary to provide space for participants to self-identify racially in whichever manner they saw fit while still being able to formalize the results.
-      % A variety of approaches to this have been used in the literature (\foreign{e.g.}, \citeauthor{rockquemore_race_1999}, \citeyear{rockquemore_race_1999}; \citeauthor{rockquemore_beyond_2002}, \citeyear{rockquemore_beyond_2002}; \citeauthor[Root, 2003, as cited in][]{susberry_racial_2004}, \citeyear[p.~23]{susberry_racial_2004}).
-      % In sociolinguistics, \textcite{holliday_intonational_2016} notably used \citeauthor{rockquemore_beyond_2002}'s (\citeyear{rockquemore_beyond_2002}) biracial identity system to classify the Black-White biracial men in DC with whom she worked.
-      % This approach was also employed by \textcite{susberry_racial_2004} in her anthropological examination of Creoles of color, and likewise it was used in the present study.
-
-      % Extra -----------------------------------------------------------------------------------
-        % Racial labels can be complicated even situations where multiraciality is not prominent
-          % Becker's (2014) case study participant, Lisa, didn't like the term African American because it collapsed many communities and cultures into being simply African (47)
-        % Black-White biracial study participants tended to identify "more strongly as black and/or biracial than white" (Holliday 2016:19)
-          % Suggests that a more fine-grained coding system for bi-/multi-racial people is helpful, the labels alone are not enough to get the whole picture
-            % Hence Barrett's (1999) concept of polyphenous identity and Crenshaw's (1989) intersectionality
-        % The terms mixed race and multiracial imply the existence of pure, discrete races, as well (Omi 1997:19)
-        % Organizations existed in Milwaukee, Chicago, New York, Los Angeles, Detroit, and Washington DC up to through the 1940s to provide support for interracial couples despite miscegenation laws (Spickard 1989, as cited in G. R. Daniel 1992:335)
-        % Some bi-racial Americans "deny or deemphasize the Black aspect of their identities because of the continuing stigma attached to Blackness in American society and culture" (Arnold 1984; Gibbs 1989; Poussaint 1984, all as cited in G. R. Daniel 1992:393)
-
-        % \subsection{Bi- and multi-racial identities}
-        %   In order to give a full account of the racial identities of Louisianians, the theoretical treatment of bi- and multi-racial identities is also of great importance.
-        %   As in many other places, race in Louisiana is complicated by a history of children born of interracial relations, especially when it comes to the history of Creole identity as will be discussed in section \ref{sec:creole_history}.
-        %   Said children may take on a bi- or multi-racial identity, which can be defined in various ways, such as ``someone whose parents are of two socially and phenotypically distinct racial backgrounds'' \parencite[Root, 1992, as cited in][p.~16]{susberry_racial_2004}.
-        %   This definition uses ``parents'' as a buffer between the person in question and their ancestors, as there is likely a socially defined limit to what people will consider in terms of what counts as someone's ``racial background.''
-        %   For example, though treating race as a biological fact rather than a social construct linked to biological beliefs is not valid, it has nevertheless been found that many African Americans have some European ancestry \parencite[p.~42]{bryc_genetic_2015}, but that does not mean that African Americans by and large identify as biracial especially in light of the history of the one-drop rule in the United States\footnote{
-        %     This is not to say that the one drop rule has been exclusively used in the United States.
-        %   } which formalized the idea that having any African ancestry at all made one simply Black, an idea which still impacts racial identities today \parencite{khanna_if_2010}.
-        %   Likewise, some of my own participants in this study discussed how common mixed racial ancestries are among both Creoles and Cajuns, usually in terms of introducing American Indians into the picture, but how this is also not something people want to readily acknowledge about their backgrounds.
-        %   Of course, American Indians themselves constitute a group that has conceptualized in US society as a single race despite having a wide range of phenotypical features \parencite[p.~472]{bonilla-silva_rethinking_1997}.
-        %   American Indians are also not all from a single tribe, so even ethnically -- if one is to have cultural history as part of one's definition of ethnicity -- they do not form a monolithic group.
-        %   Indeed, in Louisiana alone, there are 4 extant federally recognized tribes \parencite{indian_affairs_bureau_indian_2021}, which itself is a gross reduction in the number of distinct unrecognized tribes and past tribes that have resided in the territory of the state.
-        %   The potential for a large number of people to claim bi- or multi-racial identities is thus quite high in the United States.
-    
-        %   A potential does not mean that many people do in fact claim such identities, however, and in all likelihood, those who do claim bi- and multi-racial identities are likely underdocumented in the United States.
-        %   % Socially, the point of the one drop rule was to force Black-White biracial Americans into singular Black identities, leading to them face the same problems that Black Americans faced, that is to say enslavement and later continued discrimination \parencite[Khanna, 2011, as cited in][pp.~17-18]{holliday_intonational_2016}.
-        %   On a formal level, it was not until 2000 that one could indicate more than one race on the US Census \parencite[as cited in][p.~2]{susberry_racial_2004}, which at the time resulted in 2.4\% of the population choosing more than one race and another 5.5\% choosing ``Other'' \parencite[Singer, 2002, as cited in][p.~2]{susberry_racial_2004}.
-        %   This sort of erasure of identities is not just of concern for the rights and well-being of those who do not fit neatly into established racial categories but can also impact research that implicates race.
-        %   % Some Arab Americans have argued that they aren't represent because US Directive 15 classifies them as White instead of Middle Eastern (Omi 1997:12-13)
-        %   % Some native Hawaiians wished to be identified in US Directive 15 as "American Indian or Alaskan Native" rather than "Asian and Pacific Islander" because their "history and current sovereignty" claims made them more similar to the former (Omi 1997:12)
-        %     % Similarly, Indians, Pakistanis, Bangladeshis, and others in the US have used the panethnic term South Asian (Omi 1997:23)
-        %   % The category of Asian American came about because, after the Civil Rights era, Chinese, Japanese, Filipino and Korean Americans began using the term to assert their shared experiences of discrimination (Omi 1997:17)
-        %   In the field of sociolinguistics, for instance, it has been pointed out that researchers often rely on census data due to ease of access, but the inflexibility of census options means that many people can be misrepresented or unrepresented in the resulting studies \parencite[p.~2]{holliday_multiracial_2019}.
-        %   % Similarly, while accounting for varied racial identities is important in research for both ethical and validity reasons, as \textcite{holliday_intonational_2016} pointed out, it is also important to not essentialize bi-/multi-racial as being somehow special or abnormal in comparison to monoracial individuals (pp.~24-27).
-        %   Indeed, as anthropological and sociological work has progressed since the introduction of the theory of intersectionality \parencite{crenshaw_demarginalizing_2015}, it has become clear that few if any social identities can be fit neatly into discrete boxes, which is all the more reason to take a closer look in this study at how race and ethnicity interact.
-
-        % Inclusion of more nuanced racial identities has occurred
-          % Black-White biracial men in DC were found to have different intonational patterns depending on their self-identifications as singular Black, using the pattern traditionally found to be associated with Black identities in general, versus self-identifications as border, using a pattern that has not traditionally been found to be indexical of Black identities (Holliday 2019:8)
 
     \begin{sidewaystable}[tbhp]
       \caption{Background information for each individual participant}
